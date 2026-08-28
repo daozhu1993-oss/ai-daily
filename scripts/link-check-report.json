@@ -3,36 +3,64 @@
     {
       "file": "2026-08-26.md",
       "title": "端侧小模型架构优化研究：3B 权重在本地设备上的极速推理突破",
-      "line": 46,
+      "line": 66,
       "url": "https://arxiv.org/abs/2403.09629",
       "status": 200
     },
     {
       "file": "2026-08-26.md",
-      "title": "Framer Motion：React 生产级声明式微动效与弹簧物理交互引擎",
-      "line": 96,
-      "url": "https://motion.dev/docs/spring",
+      "title": "Cloudflare Workers 全球边缘架构：零固定服务器成本运转现代 Web 应用",
+      "line": 86,
+      "url": "https://developers.cloudflare.com/workers/",
+      "status": 200
+    },
+    {
+      "file": "2026-08-26.md",
+      "title": "Cursor Composer 多智能体结对编码新范式：多文件跨代码库协同重构实战",
+      "line": 36,
+      "url": "https://cursor.com",
+      "status": 200
+    },
+    {
+      "file": "2026-08-26.md",
+      "title": "Anthropic Computer Use 计算机控制技术报告：让智能体直接操作桌面软件",
+      "line": 46,
+      "url": "https://www.anthropic.com/news/3-5-models-and-computer-use",
       "status": 200
     },
     {
       "file": "2026-08-26.md",
       "title": "Stripe Billing 全球订阅计费最佳实践：独立产品 48 小时搭建合规收费管道",
-      "line": 56,
+      "line": 76,
       "url": "https://stripe.com/billing",
       "status": 200
     },
     {
       "file": "2026-08-26.md",
       "title": "OpenAI Whisper 语音模型发布报告：开源高精度多语种转写与翻译标杆",
-      "line": 36,
+      "line": 56,
       "url": "https://openai.com/index/whisper/",
       "status": 200
     },
     {
       "file": "2026-08-26.md",
       "title": "Suno AI 音乐生成与声场设计：漫剧电影级背景原声带（OST）制作指南",
-      "line": 106,
+      "line": 26,
       "url": "https://suno.com",
+      "status": 200
+    },
+    {
+      "file": "2026-08-26.md",
+      "title": "Framer Motion：React 生产级声明式微动效与弹簧物理交互引擎",
+      "line": 106,
+      "url": "https://motion.dev/docs/spring",
+      "status": 200
+    },
+    {
+      "file": "2026-08-26.md",
+      "title": "Smashing Magazine 交互设计专栏：AI 产品的容错设计与优雅纠错机制",
+      "line": 96,
+      "url": "https://smashingmagazine.com/category/design/",
       "status": 200
     },
     {
@@ -43,45 +71,17 @@
       "status": 200
     },
     {
-      "file": "2026-08-26.md",
-      "title": "Fonts In Use 字体排印档案库：在屏幕上呈现印刷品般的呼吸感",
-      "line": 86,
-      "url": "https://fontsinuse.com",
-      "status": 200
-    },
-    {
-      "file": "2026-08-26.md",
-      "title": "Smashing Magazine 交互设计专栏：AI 产品的容错设计与优雅纠错机制",
-      "line": 26,
-      "url": "https://smashingmagazine.com/category/design/",
-      "status": 200
-    },
-    {
-      "file": "2026-08-26.md",
-      "title": "Cloudflare Workers 全球边缘架构：零固定服务器成本运转现代 Web 应用",
-      "line": 66,
-      "url": "https://developers.cloudflare.com/workers/",
-      "status": 200
-    },
-    {
-      "file": "2026-08-26.md",
-      "title": "Anthropic Computer Use 计算机控制技术报告：让智能体直接操作桌面软件",
-      "line": 76,
-      "url": "https://www.anthropic.com/news/3-5-models-and-computer-use",
-      "status": 200
-    },
-    {
       "file": "2026-08-27.md",
-      "title": "OpenAI o1 强化学习与「慢思考」原理解析：大模型推理范式的划时代突破",
-      "line": 36,
-      "url": "https://openai.com/index/learning-to-reason-with-llms/",
-      "status": 200
-    },
-    {
-      "file": "2026-08-27.md",
-      "title": "Indie Hackers 公开构建（Build in Public）深度实战：用真诚与透明撬动冷启动增长",
+      "title": "生数科技 Vidu 原生多主体一致性解析：AI 漫剧多角色同框对话与复杂运镜新突破",
       "line": 16,
-      "url": "https://www.indiehackers.com",
+      "url": "https://www.vidu.studio",
+      "status": 200
+    },
+    {
+      "file": "2026-08-27.md",
+      "title": "PostHog：独立开发者监控全站转化漏斗与录屏分析的一体化平台",
+      "line": 66,
+      "url": "https://posthog.com",
       "status": 200
     },
     {
@@ -93,58 +93,58 @@
     },
     {
       "file": "2026-08-27.md",
-      "title": "PostHog：独立开发者监控全站转化漏斗与录屏分析的一体化平台",
-      "line": 56,
-      "url": "https://posthog.com",
+      "title": "Indie Hackers 公开构建（Build in Public）深度实战：用真诚与透明撬动冷启动增长",
+      "line": 46,
+      "url": "https://www.indiehackers.com",
+      "status": 200
+    },
+    {
+      "file": "2026-08-27.md",
+      "title": "OpenAI o1 强化学习与「慢思考」原理解析：大模型推理范式的划时代突破",
+      "line": 26,
+      "url": "https://openai.com/index/learning-to-reason-with-llms/",
       "status": 200
     },
     {
       "file": "2026-08-27.md",
       "title": "Dify 技术博客：多智能体工作流编排与企业级 RAG 检索管线设计",
-      "line": 76,
-      "url": "https://dify.ai/blog",
-      "status": 200
-    },
-    {
-      "file": "2026-08-27.md",
-      "title": "ElevenLabs 官方声音设计指南：角色情感声线合成与戏剧对白拟真",
-      "line": 106,
-      "url": "https://elevenlabs.io",
-      "status": 200
-    },
-    {
-      "file": "2026-08-27.md",
-      "title": "Cal.com 开源日程基础设施：搭建全自动付费咨询与预约变现系统",
-      "line": 66,
-      "url": "https://cal.com",
+      "line": 86,
+      "url": "https://dify.ai",
       "status": 200
     },
     {
       "file": "2026-08-27.md",
       "title": "Marketing Examples：全球顶级增长案例与高转化文案落地页深度拆解",
-      "line": 26,
+      "line": 56,
       "url": "https://marketingexamples.com",
       "status": 200
     },
     {
       "file": "2026-08-27.md",
-      "title": "Figure 人形机器人实战：搭载多模态大模型实现端到端物理交互操作",
-      "line": 46,
-      "url": "https://figure.ai",
+      "title": "Cal.com 开源日程基础设施：搭建全自动付费咨询与预约变现系统",
+      "line": 76,
+      "url": "https://cal.com",
       "status": 200
     },
     {
       "file": "2026-08-27.md",
-      "title": "LangChain 官方技术专栏：从单向链式调用到 LangGraph 图状态机编排",
-      "line": 86,
-      "url": "https://blog.langchain.dev",
+      "title": "Fonts In Use 字体排印档案库：在屏幕上呈现印刷品般的呼吸感",
+      "line": 106,
+      "url": "https://fontsinuse.com",
+      "status": 200
+    },
+    {
+      "file": "2026-08-27.md",
+      "title": "Figure 人形机器人实战：搭载多模态大模型实现端到端物理交互操作",
+      "line": 36,
+      "url": "https://figure.ai",
       "status": 200
     },
     {
       "file": "2026-08-28.md",
-      "title": "DeepSeek-V3 架构发布：MoE 稀疏激活与低成本训练范式引发全球热议",
+      "title": "DeepSeek-R1 纯强化学习推理论文发布：无监督自演进思维链颠覆业界认知",
       "line": 36,
-      "url": "https://arxiv.org/abs/2412.19437",
+      "url": "https://arxiv.org/abs/2501.12948",
       "status": 200
     },
     {
@@ -157,57 +157,57 @@
     {
       "file": "2026-08-28.md",
       "title": "Supabase 全栈无服务器架构：一人团队 48 小时构建生产级应用",
-      "line": 56,
+      "line": 76,
       "url": "https://supabase.com",
       "status": 200
     },
     {
       "file": "2026-08-28.md",
-      "title": "Shadcn UI 设计系统演进：无依赖、可复制的前端组件如何统一现代 Web 审美",
-      "line": 76,
-      "url": "https://ui.shadcn.com",
-      "status": 200
-    },
-    {
-      "file": "2026-08-28.md",
-      "title": "Tldraw 可视化白板交互革命：AI 时代意图画布（Intent Canvas）新范式",
-      "line": 66,
-      "url": "https://tldraw.dev",
+      "title": "Anthropic 发布 Claude 3.7 Sonnet 混合推理大模型：支持按需自适应扩展思考时长",
+      "line": 26,
+      "url": "https://www.anthropic.com/news/claude-3-7-sonnet",
       "status": 200
     },
     {
       "file": "2026-08-28.md",
       "title": "Dub.co 产品成长复盘：独立开发者如何打造百万 ARR 的企业级短链基础设施",
-      "line": 46,
-      "url": "https://dub.co/blog/introducing-dub",
-      "status": 200
-    },
-    {
-      "file": "2026-08-28.md",
-      "title": "Google SEO 官方开发者指南：生成式 AI 搜索时代的内容结构化标准",
-      "line": 96,
-      "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+      "line": 66,
+      "url": "https://dub.co",
       "status": 200
     },
     {
       "file": "2026-08-28.md",
       "title": "现代 Web 流体排版法则：用 CSS clamp() 与模块化字阶打造自适应呼吸感",
-      "line": 86,
+      "line": 96,
       "url": "https://css-tricks.com/simplified-fluid-typography/",
       "status": 200
     },
     {
       "file": "2026-08-28.md",
-      "title": "Anthropic 发布 Claude 3.5 Sonnet：长周期推理与编码能力实现重大跃迁",
-      "line": 26,
-      "url": "https://www.anthropic.com/news/claude-3-5-sonnet",
+      "title": "Tldraw 可视化白板交互革命：AI 时代意图画布（Intent Canvas）新范式",
+      "line": 86,
+      "url": "https://tldraw.dev",
       "status": 200
     },
     {
       "file": "2026-08-28.md",
-      "title": "Runway Gen-3 视频生成研究：电影级摄影机运镜与光影控制深度拆解",
+      "title": "字节跳动发布 Seedance 2.5 与即梦 AI 漫剧管线：突破单次 30 秒长叙事与多模态参考",
+      "line": 46,
+      "url": "https://jimeng.jianying.com",
+      "status": 200
+    },
+    {
+      "file": "2026-08-28.md",
+      "title": "Google SEO 官方开发者指南：生成式 AI 搜索时代的内容结构化标准",
       "line": 106,
-      "url": "https://runwayml.com/research",
+      "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+      "status": 200
+    },
+    {
+      "file": "2026-08-28.md",
+      "title": "快手可灵 AI (Kling) 升级：1080P 电影级 3D 时空物理模拟与原生运动笔刷",
+      "line": 56,
+      "url": "https://klingai.com",
       "status": 200
     }
   ],
