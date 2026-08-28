@@ -1,0 +1,75 @@
+{
+  "description": "每日 AI 日报公开抓取与监控数据源清单",
+  "sources": [
+    {
+      "category": "AI 资讯",
+      "name": "Anthropic Official Blog",
+      "type": "rss",
+      "url": "https://www.anthropic.com/news",
+      "description": "Claude 官方前沿发布与模型研究"
+    },
+    {
+      "category": "AI 资讯",
+      "name": "OpenAI Blog",
+      "type": "rss",
+      "url": "https://openai.com/news",
+      "description": "OpenAI 官方重大模型突破与更新"
+    },
+    {
+      "category": "AI 资讯",
+      "name": "Hugging Face Daily Papers",
+      "type": "api",
+      "url": "https://huggingface.co/papers",
+      "description": "全球前沿开源学术论文与权重突破"
+    },
+    {
+      "category": "一人公司",
+      "name": "Product Hunt Trending",
+      "type": "web",
+      "url": "https://www.producthunt.com",
+      "description": "每日热门独立产品与新应用"
+    },
+    {
+      "category": "一人公司",
+      "name": "Indie Hackers",
+      "type": "rss",
+      "url": "https://www.indiehackers.com",
+      "description": "独立开发者营收分享与实战案例"
+    },
+    {
+      "category": "产品设计",
+      "name": "Sidebar Design Digest",
+      "type": "rss",
+      "url": "https://sidebar.io",
+      "description": "全球优质 UI/UX 设计文章与交互案例"
+    },
+    {
+      "category": "产品设计",
+      "name": "Linear Readme & Changelog",
+      "type": "web",
+      "url": "https://linear.app/changelog",
+      "description": "顶级产品设计范式与工程美学"
+    },
+    {
+      "category": "审美提升",
+      "name": "Typewolf / Typography",
+      "type": "web",
+      "url": "https://www.typewolf.com",
+      "description": "数字排版与字体流行风向标"
+    },
+    {
+      "category": "产品营销",
+      "name": "Growth Design Case Studies",
+      "type": "web",
+      "url": "https://growth.design/case-studies",
+      "description": "以故事分镜拆解的增长黑客与营销案例"
+    },
+    {
+      "category": "AI 协作",
+      "name": "GitHub Trending AI",
+      "type": "web",
+      "url": "https://github.com/trending?since=daily",
+      "description": "每日热门 AI Agent 与开发者协作工具仓库"
+    }
+  ]
+}

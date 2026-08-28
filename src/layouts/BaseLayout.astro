@@ -1,0 +1,164 @@
+---
+import { siteConfig } from '../config/site';
+import ThemeToggle from '../components/ThemeToggle.astro';
+import '../styles/global.css';
+
+interface Props {
+  title?: string;
+  description?: string;
+  image?: string;
+  type?: 'website' | 'article';
+}
+
+const {
+  title = `${siteConfig.name} · ${siteConfig.slogan}`,
+  description = siteConfig.description,
+  image = '/og-default.svg',
+  type = 'website',
+} = Astro.props;
+
+const canonicalURL = new URL(Astro.url.pathname, Astro.site || siteConfig.url);
+---
+
+<!doctype html>
+<html lang="zh-CN" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="canonical" href={canonicalURL} />
+
+    <!-- SEO Meta Tags -->
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta name="author" content={siteConfig.author.name} />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content={type} />
+    <meta property="og:url" content={canonicalURL} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={new URL(image, canonicalURL)} />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content={canonicalURL} />
+    <meta property="twitter:title" content={title} />
+    <meta property="twitter:description" content={description} />
+    <meta property="twitter:image" content={new URL(image, canonicalURL)} />
+
+    <!-- RSS & Feed Discovery -->
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title={`${siteConfig.name} RSS`}
+      href="/rss.xml"
+    />
+    <link
+      rel="alternate"
+      type="application/json"
+      title={`${siteConfig.name} JSON Feed`}
+      href="/feed.json"
+    />
+
+    <!-- Zero-FOUC Theme Script -->
+    <script is:inline>
+      try {
+        const stored = localStorage.getItem('theme');
+        if (
+          stored === 'dark' ||
+          (!stored && window.matchMedia('(prefers-color-scheme: dark)').matches)
+        ) {
+          document.documentElement.classList.add('dark');
+        } else {
+          document.documentElement.classList.remove('dark');
+        }
+      } catch (e) {}
+    </script>
+  </head>
+  <body class="bg-[#faf9f6] dark:bg-[#0f1115] text-zinc-800 dark:text-zinc-200 transition-colors duration-200 antialiased flex flex-col min-h-screen">
+    <!-- Top Header -->
+    <header class="sticky top-0 z-40 backdrop-blur-md bg-[#faf9f6]/85 dark:bg-[#0f1115]/85 border-b border-zinc-200/80 dark:border-zinc-800/80">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
+        <!-- Brand Logo & Title -->
+        <a href="/" class="flex items-center gap-2.5 group">
+          <div class="w-8 h-8 rounded-lg bg-gradient-to-br from-indigo-500 to-indigo-700 flex items-center justify-center text-white font-bold text-sm shadow-sm group-hover:scale-105 transition-transform">
+            <span>AI</span>
+          </div>
+          <div class="flex flex-col">
+            <span class="font-bold text-base text-zinc-900 dark:text-zinc-100 group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors leading-tight">
+              {siteConfig.name}
+            </span>
+            <span class="text-[11px] text-zinc-500 dark:text-zinc-400 leading-tight hidden sm:inline-block">
+              {siteConfig.slogan}
+            </span>
+          </div>
+        </a>
+
+        <!-- Navigation Links & Actions -->
+        <div class="flex items-center gap-1 sm:gap-4">
+          <nav class="hidden md:flex items-center gap-1">
+            {
+              siteConfig.nav.map((item) => (
+                <a
+                  href={item.href}
+                  class="px-3 py-1.5 text-sm font-medium text-zinc-600 dark:text-zinc-300 hover:text-zinc-900 dark:hover:text-white hover:bg-zinc-200/50 dark:hover:bg-zinc-800/60 rounded-md transition-colors relative"
+                >
+                  {item.label}
+                  {item.badge && (
+                    <span class="ml-1 px-1.5 py-0.2 text-[10px] font-semibold bg-indigo-100 dark:bg-indigo-900/60 text-indigo-700 dark:text-indigo-300 rounded-full">
+                      {item.badge}
+                    </span>
+                  )}
+                </a>
+              ))
+            }
+          </nav>
+
+          <div class="h-4 w-[1px] bg-zinc-200 dark:bg-zinc-800 hidden sm:block"></div>
+
+          <!-- RSS Link -->
+          <a
+            href="/rss.xml"
+            aria-label="RSS 订阅源"
+            title="RSS 订阅"
+            class="p-2 text-zinc-500 hover:text-amber-600 dark:hover:text-amber-400 rounded-lg hover:bg-zinc-200/50 dark:hover:bg-zinc-800/60 transition-colors"
+          >
+            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M6.18 15.64a2.18 2.18 0 0 1 2.18 2.18C8.36 19 7.38 20 6.18 20C5 20 4 19 4 17.82a2.18 2.18 0 0 1 2.18-2.18M4 4.44A15.56 15.56 0 0 1 19.56 20h-2.83A12.73 12.73 0 0 0 4 7.27V4.44m0 5.66a9.9 9.9 0 0 1 9.9 9.9h-2.83A7.07 7.07 0 0 0 4 12.93V10.1z" />
+            </svg>
+          </a>
+
+          <!-- Theme Toggle Button -->
+          <ThemeToggle />
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Page Content Slot -->
+    <main class="flex-1 max-w-4xl w-full mx-auto px-4 sm:px-6 py-8">
+      <slot />
+    </main>
+
+    <!-- Footer -->
+    <footer class="mt-auto border-t border-zinc-200 dark:border-zinc-800/80 bg-zinc-100/60 dark:bg-zinc-900/40 text-xs text-zinc-500 dark:text-zinc-400 py-10">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
+        <div class="flex flex-col items-center sm:items-start gap-1">
+          <p class="font-medium text-zinc-700 dark:text-zinc-300">
+            {siteConfig.name} © {new Date().getFullYear()}
+          </p>
+          <p class="text-[11px] text-zinc-400 dark:text-zinc-500">
+            {siteConfig.author.bio}
+          </p>
+        </div>
+
+        <div class="flex items-center gap-4">
+          <a href="/rss.xml" class="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">RSS</a>
+          <a href="/feed.json" class="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">JSON Feed</a>
+          <a href="/archive" class="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">历史归档</a>
+          <a href="/about" class="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">关于本站</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,132 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { siteConfig } from '../config/site';
+import ThemeToggle from './ThemeToggle.astro';
+
+interface Props {
+  currentDate?: string;
+  allIssues: CollectionEntry<'daily'>[];
+}
+
+const { currentDate, allIssues } = Astro.props;
+const { author, features } = siteConfig;
+const { community } = features;
+---
+
+<aside class="w-full lg:w-64 xl:w-72 shrink-0 lg:sticky lg:top-6 lg:h-[calc(100vh-3rem)] flex flex-col justify-between gap-6 overflow-y-auto custom-scrollbar pr-1">
+  <!-- Top: Brand, Profile & Portfolio Links -->
+  <div class="space-y-6">
+    <!-- Brand Signature / Monogram -->
+    <div>
+      <a href="/" class="group inline-flex items-center gap-2">
+        <span class="font-serif italic font-black text-2xl tracking-tight text-zinc-900 dark:text-zinc-100 group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors">
+          Daozhu's Daily
+        </span>
+      </a>
+    </div>
+
+    <!-- Bio Statement -->
+    <div class="space-y-3">
+      <p class="text-xs sm:text-[13px] text-zinc-700 dark:text-zinc-300 leading-relaxed font-normal">
+        我是{author.name}，{author.role}，正在尝试用故事思维驱动各种「杂七杂八」的产品。
+        <a
+          href={author.personalSite}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="underline underline-offset-4 decoration-zinc-400 hover:decoration-indigo-600 dark:decoration-zinc-600 dark:hover:decoration-indigo-400 text-zinc-900 dark:text-white font-medium ml-1 transition-colors"
+        >
+          查看更多
+        </a>
+      </p>
+
+      <!-- Featured Portfolio Works (Underlined Style from Screenshot) -->
+      <div class="flex flex-col space-y-2 pt-1 text-xs sm:text-[13px]">
+        {
+          author.featuredWorks.map((work) => (
+            <a
+              href={work.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-100 underline underline-offset-4 decoration-zinc-300 dark:decoration-zinc-700 hover:decoration-indigo-500 transition-colors w-fit"
+            >
+              {work.title}
+            </a>
+          ))
+        }
+      </div>
+    </div>
+
+    <!-- Issue Date Timeline Switcher -->
+    <div class="space-y-1.5 pt-4 border-t border-zinc-200/60 dark:border-zinc-800/60">
+      <div class="text-[11px] font-bold uppercase tracking-wider text-zinc-400 dark:text-zinc-500 px-1 mb-2">
+        往期精选
+      </div>
+      <div class="space-y-1">
+        {
+          allIssues.map((issue) => {
+            const isSelected = issue.data.date === currentDate;
+            const [, month, day] = issue.data.date.split('-');
+            const displayDate = `${parseInt(month)}月${parseInt(day)}日`;
+
+            return (
+              <a
+                href={issue.data.date === allIssues[0]?.data.date ? '/' : `/d/${issue.data.date}`}
+                class={`flex items-center justify-between px-3 py-2 rounded-xl text-xs font-medium transition-all ${
+                  isSelected
+                    ? 'bg-zinc-900 text-white dark:bg-white dark:text-zinc-900 shadow-sm font-bold'
+                    : 'text-zinc-600 dark:text-zinc-400 hover:bg-zinc-100 dark:hover:bg-zinc-800/60 hover:text-zinc-900 dark:hover:text-white'
+                }`}
+              >
+                <div class="flex items-center gap-2">
+                  <span class={`w-1.5 h-1.5 rounded-full ${isSelected ? 'bg-indigo-400 dark:bg-indigo-600' : 'bg-transparent'}`}></span>
+                  <span>{displayDate}</span>
+                </div>
+                <span class={`text-[11px] font-mono px-1.5 py-0.2 rounded-md ${isSelected ? 'bg-white/20 text-white dark:bg-zinc-900/20 dark:text-zinc-900' : 'text-zinc-400'}`}>
+                  {issue.data.items.length}
+                </span>
+              </a>
+            );
+          })
+        }
+      </div>
+
+      <div class="pt-2 px-1">
+        <a href="/archive" class="text-xs text-indigo-600 dark:text-indigo-400 hover:underline flex items-center gap-1 font-medium">
+          <span>查看全部往期归档</span>
+          <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bottom: Community CTA Box & Theme Toggle -->
+  <div class="space-y-4 pt-4 border-t border-zinc-200/80 dark:border-zinc-800/80">
+    {
+      community.enabled && (
+        <div class="p-4 rounded-2xl bg-zinc-100/80 dark:bg-[#17191e] border border-zinc-200/70 dark:border-zinc-800/70 space-y-2.5">
+          <p class="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+            {community.description}
+          </p>
+          <a
+            href={community.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center justify-between w-full px-3 py-2 rounded-xl bg-zinc-900 hover:bg-zinc-800 dark:bg-white dark:hover:bg-zinc-100 text-white dark:text-zinc-900 text-xs font-bold transition-all shadow-sm group"
+          >
+            <span>{community.buttonText}</span>
+            <span class="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform">↗</span>
+          </a>
+        </div>
+      )
+    }
+
+    <div class="flex items-center justify-between px-1 text-xs text-zinc-400">
+      <a href="/rss.xml" class="hover:text-amber-500 transition-colors flex items-center gap-1 font-mono">
+        <span>RSS 订阅</span>
+      </a>
+      <ThemeToggle />
+    </div>
+  </div>
+</aside>

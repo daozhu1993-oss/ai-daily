@@ -1,0 +1,42 @@
+---
+import { siteConfig } from '../config/site';
+
+const { sponsor } = siteConfig.features;
+
+if (!sponsor.enabled) {
+  return null;
+}
+---
+
+<aside
+  class="relative overflow-hidden rounded-2xl border border-amber-200/80 dark:border-amber-900/50 bg-gradient-to-r from-amber-50/50 via-white to-amber-50/30 dark:from-[#17191e] dark:via-[#17191e] dark:to-amber-950/20 p-5 sm:p-6"
+  aria-label="赞助商广告"
+>
+  <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+    <div class="space-y-1">
+      <div class="flex items-center gap-2">
+        <span class="px-2 py-0.5 rounded text-[10px] font-bold uppercase tracking-wider bg-amber-100 dark:bg-amber-950/80 text-amber-800 dark:text-amber-300">
+          赞助商
+        </span>
+        <span class="text-xs font-bold text-zinc-900 dark:text-zinc-100">
+          {sponsor.sponsorName || sponsor.title}
+        </span>
+      </div>
+      <p class="text-xs text-zinc-600 dark:text-zinc-400">
+        {sponsor.description}
+      </p>
+    </div>
+
+    <a
+      href={sponsor.link}
+      target="_blank"
+      rel="sponsored noopener noreferrer"
+      class="inline-flex items-center gap-1 text-xs font-semibold text-amber-700 dark:text-amber-400 hover:underline shrink-0"
+    >
+      <span>了解详情</span>
+      <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+      </svg>
+    </a>
+  </div>
+</aside>

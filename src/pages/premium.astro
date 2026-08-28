@@ -1,0 +1,72 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import NewsletterForm from '../components/NewsletterForm.astro';
+import { siteConfig } from '../config/site';
+---
+
+<BaseLayout
+  title={`深度副刊（敬请期待） - ${siteConfig.name}`}
+  description="故事化连载专栏：AI 时代独立创造者的人物叙事、微小说与商业实战。"
+>
+  <div class="space-y-12 max-w-3xl mx-auto py-4">
+    <!-- Breadcrumb -->
+    <nav class="text-xs text-zinc-500 dark:text-zinc-400">
+      <a
+        href="/"
+        class="inline-flex items-center gap-1 hover:text-indigo-600 dark:hover:text-indigo-400 font-medium transition-colors group"
+      >
+        <svg class="w-3.5 h-3.5 group-hover:-translate-x-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+        </svg>
+        <span>返回首页</span>
+      </a>
+    </nav>
+
+    <!-- Header -->
+    <header class="space-y-4 text-center sm:text-left pb-8 border-b border-zinc-200 dark:border-zinc-800">
+      <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-purple-50 dark:bg-purple-950/60 text-purple-700 dark:text-purple-300 border border-purple-200/60 dark:border-purple-800/40">
+        <span class="w-1.5 h-1.5 rounded-full bg-purple-500 animate-pulse"></span>
+        <span>敬请期待 · 周更连载</span>
+      </div>
+
+      <h1 class="text-3xl sm:text-4xl font-extrabold tracking-tight text-zinc-900 dark:text-zinc-50 leading-tight">
+        深度副刊 · 创作者人物叙事
+      </h1>
+
+      <p class="text-base sm:text-lg text-zinc-600 dark:text-zinc-400 max-w-2xl leading-relaxed">
+        如果每日日报是「事实的雷达」，那么深度副刊就是「灵魂的透镜」。用编剧与小说的笔触，记录 AI 浪潮下每一个真实个体的挣扎、觉醒与商业跃迁。
+      </p>
+    </header>
+
+    <!-- Planned Column Features -->
+    <section class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+      <div class="p-6 rounded-2xl border border-zinc-200/80 dark:border-zinc-800 bg-white dark:bg-[#17191e] space-y-2">
+        <div class="text-2xl">🎭</div>
+        <h3 class="font-bold text-base text-zinc-900 dark:text-zinc-100">
+          AI 时代微剧本与短剧
+        </h3>
+        <p class="text-xs sm:text-sm text-zinc-500 dark:text-zinc-400 leading-relaxed">
+          把转型阵痛、创业博弈、人机协同写成有张力的戏剧场景，提供独特的沉浸式共鸣。
+        </p>
+      </div>
+
+      <div class="p-6 rounded-2xl border border-zinc-200/80 dark:border-zinc-800 bg-white dark:bg-[#17191e] space-y-2">
+        <div class="text-2xl">💼</div>
+        <h3 class="font-bold text-base text-zinc-900 dark:text-zinc-100">
+          一人公司硬核商业复盘
+        </h3>
+        <p class="text-xs sm:text-sm text-zinc-500 dark:text-zinc-400 leading-relaxed">
+          不谈虚浮的估值概念，只拆解微型 SaaS、独立工具从 0 到 10 万美元 ARR 的真实数据与打法。
+        </p>
+      </div>
+    </section>
+
+    <!-- Early Access Subscription -->
+    <section class="space-y-4 pt-4">
+      <NewsletterForm
+        title="优先获取首期副刊试读"
+        description="副刊上线后，我们将第一时间通过邮件向早期读者发送首期内测章节。"
+      />
+    </section>
+  </div>
+</BaseLayout>

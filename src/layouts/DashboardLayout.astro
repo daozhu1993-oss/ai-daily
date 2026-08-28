@@ -1,0 +1,130 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { siteConfig } from '../config/site';
+import LeftSidebar from '../components/LeftSidebar.astro';
+import RightSidebar from '../components/RightSidebar.astro';
+import FloatingCategoryBar from '../components/FloatingCategoryBar.astro';
+import ThemeToggle from '../components/ThemeToggle.astro';
+import '../styles/global.css';
+
+interface Props {
+  title?: string;
+  description?: string;
+  image?: string;
+  currentIssue: CollectionEntry<'daily'>;
+  allIssues: CollectionEntry<'daily'>[];
+  showRightSidebar?: boolean;
+}
+
+const {
+  title = `${siteConfig.name} · ${siteConfig.slogan}`,
+  description = siteConfig.description,
+  image = '/og-default.svg',
+  currentIssue,
+  allIssues,
+  showRightSidebar = true,
+} = Astro.props;
+
+const canonicalURL = new URL(Astro.url.pathname, Astro.site || siteConfig.url);
+---
+
+<!doctype html>
+<html lang="zh-CN" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="canonical" href={canonicalURL} />
+
+    <!-- SEO Meta Tags -->
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta name="author" content={siteConfig.author.name} />
+
+    <!-- Open Graph / Twitter -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonicalURL} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={new URL(image, canonicalURL)} />
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content={canonicalURL} />
+    <meta property="twitter:title" content={title} />
+    <meta property="twitter:description" content={description} />
+    <meta property="twitter:image" content={new URL(image, canonicalURL)} />
+
+    <!-- RSS & Feed -->
+    <link rel="alternate" type="application/rss+xml" title={`${siteConfig.name} RSS`} href="/rss.xml" />
+    <link rel="alternate" type="application/json" title={`${siteConfig.name} JSON Feed`} href="/feed.json" />
+
+    <!-- Zero-FOUC Theme Script -->
+    <script is:inline>
+      try {
+        const stored = localStorage.getItem('theme');
+        if (
+          stored === 'dark' ||
+          (!stored && window.matchMedia('(prefers-color-scheme: dark)').matches)
+        ) {
+          document.documentElement.classList.add('dark');
+        } else {
+          document.documentElement.classList.remove('dark');
+        }
+      } catch (e) {}
+    </script>
+  </head>
+  <body class="bg-[#faf9f6] dark:bg-[#0f1115] text-zinc-800 dark:text-zinc-200 transition-colors duration-200 antialiased min-h-screen">
+    <!-- Mobile Top Header (< lg) -->
+    <header class="lg:hidden sticky top-0 z-30 backdrop-blur-md bg-[#faf9f6]/90 dark:bg-[#0f1115]/90 border-b border-zinc-200/80 dark:border-zinc-800/80 px-4 h-14 flex items-center justify-between">
+      <a href="/" class="flex items-center gap-2">
+        <div class="w-7 h-7 rounded-lg bg-gradient-to-tr from-indigo-600 to-purple-600 flex items-center justify-center text-white font-bold text-xs">
+          AI
+        </div>
+        <span class="font-bold text-sm text-zinc-900 dark:text-zinc-100">{siteConfig.name}</span>
+      </a>
+
+      <div class="flex items-center gap-2">
+        <a href="/archive" class="text-xs text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 px-2 py-1">归档</a>
+        <a href="/about" class="text-xs text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 px-2 py-1">关于</a>
+        <ThemeToggle />
+      </div>
+    </header>
+
+    <!-- 3-Column Dashboard Container -->
+    <div class="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8 py-6">
+      <div class="flex flex-col lg:flex-row gap-8 items-start relative">
+        <!-- 1. Left Sidebar -->
+        <LeftSidebar currentDate={currentIssue.data.date} allIssues={allIssues} />
+
+        <!-- 2. Center Main Gallery Stream -->
+        <main class="flex-1 min-w-0 w-full relative">
+          <!-- Mobile Summary Card (Visible only on mobile/tablet) -->
+          <div class="lg:hidden mb-6 p-4 rounded-2xl bg-zinc-100/80 dark:bg-[#17191e] border border-zinc-200/80 dark:border-zinc-800/80 space-y-2">
+            <div class="flex items-center justify-between">
+              <span class="text-xs font-bold text-indigo-600 dark:text-indigo-400">✦ 今日主线看点</span>
+              <time class="text-xs text-zinc-400 font-mono">{currentIssue.data.date}</time>
+            </div>
+            {currentIssue.data.epigraph && (
+              <p class="text-xs italic text-zinc-700 dark:text-zinc-300 font-serif">
+                「{currentIssue.data.epigraph}」
+              </p>
+            )}
+            {currentIssue.data.lead && (
+              <p class="text-xs text-zinc-600 dark:text-zinc-400 line-clamp-3">
+                {currentIssue.data.lead}
+              </p>
+            )}
+          </div>
+
+          <!-- Gallery Slot -->
+          <slot />
+        </main>
+
+        <!-- 3. Right Sidebar (Sticky Highlights) -->
+        {showRightSidebar && <RightSidebar issue={currentIssue} />}
+      </div>
+    </div>
+
+    <!-- Floating Bottom Category Filter Bar -->
+    <FloatingCategoryBar />
+  </body>
+</html>

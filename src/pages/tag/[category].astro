@@ -1,0 +1,138 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import DailyItemCard from '../../components/DailyItemCard.astro';
+import { getCollection } from 'astro:content';
+import { CATEGORIES } from '../../config/categories';
+import { siteConfig } from '../../config/site';
+
+export async function getStaticPaths() {
+  const allDailies = await getCollection('daily', ({ data }) => !data.draft);
+
+  // Collect all slugs
+  return Object.values(CATEGORIES).map((catMeta) => {
+    // Gather all items matching this category with their issue date
+    const matchingItems: Array<{
+      date: string;
+      item: (typeof allDailies)[0]['data']['items'][0];
+    }> = [];
+
+    allDailies.forEach((issue) => {
+      issue.data.items.forEach((item) => {
+        if (item.category === catMeta.key) {
+          matchingItems.push({
+            date: issue.data.date,
+            item,
+          });
+        }
+      });
+    });
+
+    // Sort items by date descending
+    matchingItems.sort(
+      (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
+    );
+
+    return {
+      params: { category: catMeta.slug },
+      props: { catMeta, itemsWithDate: matchingItems },
+    };
+  });
+}
+
+const { catMeta, itemsWithDate } = Astro.props;
+const allCategories = Object.values(CATEGORIES);
+---
+
+<BaseLayout
+  title={`${catMeta.name} · 专栏分类 - ${siteConfig.name}`}
+  description={`${catMeta.name}分类下的精选 AI 资讯与洞察：${catMeta.description}`}
+>
+  <div class="space-y-10 max-w-3xl mx-auto">
+    <!-- Breadcrumb -->
+    <nav class="flex items-center justify-between text-xs text-zinc-500 dark:text-zinc-400">
+      <a
+        href="/"
+        class="inline-flex items-center gap-1 hover:text-indigo-600 dark:hover:text-indigo-400 font-medium transition-colors group"
+      >
+        <svg class="w-3.5 h-3.5 group-hover:-translate-x-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+        </svg>
+        <span>返回首页</span>
+      </a>
+
+      <span class="font-mono">分类归档</span>
+    </nav>
+
+    <!-- Category Header -->
+    <header class="space-y-4 pb-6 border-b border-zinc-200 dark:border-zinc-800">
+      <div class="flex items-center gap-3">
+        <span
+          class={`inline-flex items-center gap-2 px-3 py-1.5 rounded-lg text-sm font-bold ${catMeta.color.bg} ${catMeta.color.text} ${catMeta.color.darkBg} ${catMeta.color.darkText} border ${catMeta.color.border} ${catMeta.color.darkBorder}`}
+        >
+          <span class={`w-2 h-2 rounded-full ${catMeta.color.dot}`}></span>
+          <span>{catMeta.name}</span>
+        </span>
+        <span class="text-xs text-zinc-400 dark:text-zinc-500">
+          共聚合收录 {itemsWithDate.length} 条条目
+        </span>
+      </div>
+
+      <p class="text-base text-zinc-600 dark:text-zinc-300 leading-relaxed">
+        {catMeta.description}
+      </p>
+
+      <!-- Category Filter Pills Bar -->
+      <div class="flex items-center gap-2 flex-wrap pt-2">
+        <span class="text-xs text-zinc-400 dark:text-zinc-500 mr-1">切换分类:</span>
+        {
+          allCategories.map((c) => {
+            const isActive = c.slug === catMeta.slug;
+            return (
+              <a
+                href={`/tag/${c.slug}`}
+                class={`inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md text-xs font-medium transition-all ${
+                  isActive
+                    ? 'bg-zinc-900 text-white dark:bg-white dark:text-zinc-900 shadow-sm'
+                    : 'bg-zinc-100 hover:bg-zinc-200/80 text-zinc-600 dark:bg-zinc-800 dark:hover:bg-zinc-700 dark:text-zinc-300'
+                }`}
+              >
+                <span class={`w-1.5 h-1.5 rounded-full ${c.color.dot}`}></span>
+                <span>{c.name}</span>
+              </a>
+            );
+          })
+        }
+      </div>
+    </header>
+
+    <!-- Items List with Date Indicators -->
+    <section class="space-y-6">
+      {
+        itemsWithDate.length > 0 ? (
+          <div class="grid gap-6">
+            {itemsWithDate.map(({ date, item }, idx) => (
+              <div class="space-y-2">
+                <div class="flex items-center justify-between px-1">
+                  <a
+                    href={`/d/${date}`}
+                    class="inline-flex items-center gap-1 text-xs font-mono font-semibold text-zinc-400 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors"
+                  >
+                    <span>📅 出自 {date} 期次</span>
+                    <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                    </svg>
+                  </a>
+                </div>
+                <DailyItemCard item={item} index={idx} />
+              </div>
+            ))}
+          </div>
+        ) : (
+          <div class="text-center py-20 bg-zinc-50 dark:bg-zinc-900/30 rounded-2xl border border-dashed border-zinc-200 dark:border-zinc-800 text-sm text-zinc-500">
+            该分类下暂无已发布的精选条目
+          </div>
+        )
+      }
+    </section>
+  </div>
+</BaseLayout>

@@ -1,0 +1,111 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import NewsletterForm from '../components/NewsletterForm.astro';
+import CommunityCTA from '../components/CommunityCTA.astro';
+import { CATEGORIES } from '../config/categories';
+import { siteConfig } from '../config/site';
+
+const allCategories = Object.values(CATEGORIES);
+---
+
+<BaseLayout
+  title={`关于主理人与本站 - ${siteConfig.name}`}
+  description={siteConfig.description}
+>
+  <div class="space-y-12 max-w-3xl mx-auto">
+    <!-- About Header -->
+    <header class="space-y-6 pb-8 border-b border-zinc-200 dark:border-zinc-800">
+      <div class="flex items-center gap-4">
+        <div class="w-16 h-16 rounded-2xl bg-gradient-to-br from-indigo-500 via-indigo-600 to-purple-700 flex items-center justify-center text-white text-2xl font-bold shadow-lg shadow-indigo-500/10 shrink-0">
+          <span>AI</span>
+        </div>
+        <div>
+          <h1 class="text-2xl sm:text-3xl font-bold text-zinc-900 dark:text-zinc-50">
+            {siteConfig.name}
+          </h1>
+          <p class="text-sm text-indigo-600 dark:text-indigo-400 font-medium">
+            主理人：{siteConfig.author.name} · {siteConfig.author.role}
+          </p>
+        </div>
+      </div>
+
+      <p class="text-base sm:text-lg text-zinc-600 dark:text-zinc-300 leading-relaxed font-normal">
+        {siteConfig.author.bio}
+      </p>
+    </header>
+
+    <!-- Why This Digest -->
+    <section class="space-y-4">
+      <h2 class="text-xl font-bold text-zinc-900 dark:text-zinc-100 flex items-center gap-2">
+        <span>💡 为什么做这份 AI 日报？</span>
+      </h2>
+      <div class="prose dark:prose-invert prose-zinc text-sm sm:text-base text-zinc-600 dark:text-zinc-300 space-y-3 leading-relaxed">
+        <p>
+          在模型平权时代，各大厂商的技术参数和全网热点正在以极快的速度同质化。每天全网都有成百上千条「重磅突发」，但真正能转化为个人竞争力、能指导产品决策的有效信息，少之又少。
+        </p>
+        <p>
+          <strong>我们不需要更多的信息噪音，我们需要穿透喧嚣的观点与叙事。</strong>
+        </p>
+        <p>
+          本站立足于主理人十年的编剧叙事功底与产品实战感知，坚持「<strong>用故事思维驱动用户价值</strong>」与「<strong>AI 初筛起草 + 深度人工终审</strong>」的生产准则：不仅告诉你今天发生了什么，更用一句到位的犀利点评和「💡 价值沉淀」，剖析这对正在转型的产品人、独立开发者与一人公司创业者意味着什么。
+        </p>
+      </div>
+    </section>
+
+    <!-- Core Categories -->
+    <section class="space-y-4">
+      <h2 class="text-xl font-bold text-zinc-900 dark:text-zinc-100">
+        📌 关注的 6 大领域
+      </h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+        {
+          allCategories.map((cat) => (
+            <a
+              href={`/tag/${cat.slug}`}
+              class="p-4 rounded-xl border border-zinc-200/80 dark:border-zinc-800 bg-white dark:bg-[#17191e] hover:border-indigo-400 dark:hover:border-indigo-600 transition-colors group space-y-1"
+            >
+              <div class="flex items-center gap-2">
+                <span class={`inline-flex items-center gap-1.5 px-2 py-0.5 rounded text-xs font-semibold ${cat.color.bg} ${cat.color.text} ${cat.color.darkBg} ${cat.color.darkText}`}>
+                  <span class={`w-1.5 h-1.5 rounded-full ${cat.color.dot}`}></span>
+                  <span>{cat.name}</span>
+                </span>
+              </div>
+              <p class="text-xs text-zinc-500 dark:text-zinc-400 leading-relaxed">
+                {cat.description}
+              </p>
+            </a>
+          ))
+        }
+      </div>
+    </section>
+
+    <!-- Community & Newsletter -->
+    <section class="space-y-6 pt-6 border-t border-zinc-200 dark:border-zinc-800">
+      <CommunityCTA />
+      <NewsletterForm />
+    </section>
+
+    <!-- Contact & Social -->
+    <section class="space-y-3 pt-6 border-t border-zinc-200 dark:border-zinc-800 text-xs text-zinc-500 dark:text-zinc-400">
+      <h3 class="font-bold text-zinc-800 dark:text-zinc-200">联系与合作</h3>
+      <p>商务赞助、线索提供或意见反馈，欢迎通过以下渠道交流：</p>
+      <div class="flex items-center gap-4 pt-1">
+        {siteConfig.author.social.x && (
+          <a href={siteConfig.author.social.x} target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 hover:underline">
+            X (Twitter)
+          </a>
+        )}
+        {siteConfig.author.social.github && (
+          <a href={siteConfig.author.social.github} target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 hover:underline">
+            GitHub
+          </a>
+        )}
+        {siteConfig.author.social.email && (
+          <a href={siteConfig.author.social.email} class="text-indigo-600 dark:text-indigo-400 hover:underline">
+            Email 联系
+          </a>
+        )}
+      </div>
+    </section>
+  </div>
+</BaseLayout>

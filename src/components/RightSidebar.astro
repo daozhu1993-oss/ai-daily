@@ -1,0 +1,114 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  issue: CollectionEntry<'daily'>;
+}
+
+const { issue } = Astro.props;
+const { date, epigraph, lead, scene, items } = issue.data;
+const [, month, day] = date.split('-');
+const displayDate = `${parseInt(month)}月${parseInt(day)}日`;
+
+// Select 1 top representative insight per category for balanced summary (max 7)
+const seenCategories = new Set<string>();
+const bulletInsights: typeof items = [];
+
+// 1. Pinned first
+items
+  .filter((i) => i.pinned)
+  .forEach((i) => {
+    bulletInsights.push(i);
+    seenCategories.add(i.category);
+  });
+
+// 2. One from each other category
+items.forEach((i) => {
+  if (!seenCategories.has(i.category) && (i.so_what || i.note)) {
+    bulletInsights.push(i);
+    seenCategories.add(i.category);
+  }
+});
+---
+
+<aside class="w-full lg:w-72 xl:w-80 shrink-0 lg:sticky lg:top-6 lg:h-[calc(100vh-3rem)] flex flex-col gap-5 overflow-y-auto custom-scrollbar pl-1">
+  <!-- Header: 今日看点 -->
+  <div class="flex items-center justify-between pb-3 border-b border-zinc-200/80 dark:border-zinc-800/80">
+    <div class="flex items-center gap-2">
+      <h2 class="text-base font-extrabold text-zinc-900 dark:text-zinc-50 tracking-tight">
+        今日看点
+      </h2>
+      <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+    </div>
+    <time class="text-xs font-mono font-bold text-indigo-600 dark:text-indigo-400 bg-indigo-50 dark:bg-indigo-950/60 px-2 py-0.5 rounded-md border border-indigo-200/50 dark:border-indigo-800/40">
+      {displayDate}
+    </time>
+  </div>
+
+  <!-- Epigraph / 刊头题记 -->
+  {
+    epigraph && (
+      <div class="p-3.5 rounded-xl bg-gradient-to-br from-indigo-50/50 via-zinc-50 to-transparent dark:from-indigo-950/30 dark:via-zinc-900/30 dark:to-transparent border border-indigo-200/60 dark:border-indigo-900/40">
+        <div class="text-[11px] font-bold text-indigo-600 dark:text-indigo-400 uppercase tracking-wider mb-1">
+          ✦ 刊头题记
+        </div>
+        <p class="text-xs font-serif italic text-zinc-700 dark:text-zinc-300 leading-relaxed">
+          「{epigraph}」
+        </p>
+      </div>
+    )
+  }
+
+  <!-- Lead / 今日主线综述 -->
+  {
+    lead && (
+      <div class="space-y-2">
+        <div class="text-[11px] font-bold text-zinc-400 dark:text-zinc-500 uppercase tracking-wider">
+          主理人综述
+        </div>
+        <p class="text-xs sm:text-sm text-zinc-700 dark:text-zinc-300 leading-relaxed font-normal whitespace-pre-line">
+          {lead}
+        </p>
+      </div>
+    )
+  }
+
+  <!-- Scene / 今日一幕小剧场 -->
+  {
+    scene && (
+      <div class="p-3.5 rounded-xl bg-amber-50/60 dark:bg-amber-950/20 border border-amber-200/60 dark:border-amber-900/40 space-y-1.5">
+        <div class="flex items-center gap-1.5 text-xs font-bold text-amber-800 dark:text-amber-300">
+          <span>🎭 今日一幕</span>
+        </div>
+        <p class="text-xs italic text-amber-900/80 dark:text-amber-200/90 leading-relaxed whitespace-pre-line">
+          {scene}
+        </p>
+      </div>
+    )
+  }
+
+  <!-- Bullet Insights List / 穿透点清单 -->
+  {
+    bulletInsights.length > 0 && (
+      <div class="space-y-3 pt-2 border-t border-zinc-200/80 dark:border-zinc-800/80">
+        <div class="flex items-center justify-between text-[11px] font-bold text-zinc-400 dark:text-zinc-500 uppercase tracking-wider">
+          <span>全领域穿透速览</span>
+          <span class="font-mono text-[10px] text-zinc-400">共 {items.length} 条</span>
+        </div>
+        <ul class="space-y-2.5 text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+          {bulletInsights.map((item) => (
+            <li class="flex items-start gap-2">
+              <span class="text-indigo-500 shrink-0 mt-0.5">•</span>
+              <div>
+                <strong class="text-zinc-800 dark:text-zinc-200 font-medium mr-1">
+                  [{item.category}]
+                </strong>
+                <span>{item.so_what || item.note}</span>
+              </div>
+            </li>
+          ))}
+        </ul>
+      </div>
+    )
+  }
+</aside>

@@ -1,0 +1,95 @@
+---
+import { CATEGORIES } from '../config/categories';
+
+const categoriesList = Object.values(CATEGORIES);
+---
+
+<nav
+  aria-label="分类筛选"
+  class="fixed bottom-5 left-1/2 -translate-x-1/2 z-40 max-w-[95vw] sm:max-w-none"
+>
+  <div
+    class="flex items-center gap-1 p-1.5 rounded-full bg-white/90 dark:bg-[#17191e]/90 backdrop-blur-xl border border-zinc-200/80 dark:border-zinc-700/70 shadow-xl shadow-indigo-950/5 overflow-x-auto no-scrollbar"
+  >
+    <!-- All Button -->
+    <button
+      type="button"
+      data-filter="all"
+      class="category-filter-btn px-3.5 py-1.5 rounded-full text-xs font-semibold transition-all shrink-0 bg-zinc-900 text-white dark:bg-white dark:text-zinc-900 shadow-sm"
+    >
+      全部
+    </button>
+
+    <!-- Category Specific Buttons -->
+    {
+      categoriesList.map((cat) => (
+        <button
+          type="button"
+          data-filter={cat.key}
+          class="category-filter-btn px-3 py-1.5 rounded-full text-xs font-medium text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-white hover:bg-zinc-100 dark:hover:bg-zinc-800/80 transition-all shrink-0 flex items-center gap-1.5"
+        >
+          <span class={`w-1.5 h-1.5 rounded-full ${cat.color.dot}`}></span>
+          <span>{cat.name}</span>
+        </button>
+      ))
+    }
+  </div>
+</nav>
+
+<style>
+  /* Hide scrollbar for category bar */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+</style>
+
+<script is:inline>
+  (function () {
+    const initCategoryFilter = () => {
+      const buttons = document.querySelectorAll('.category-filter-btn');
+      const cards = document.querySelectorAll('.daily-item-card-wrapper');
+
+      if (!buttons.length || !cards.length) return;
+
+      buttons.forEach((btn) => {
+        btn.addEventListener('click', () => {
+          const filter = btn.getAttribute('data-filter');
+
+          // Update active button state
+          buttons.forEach((b) => {
+            b.className =
+              'category-filter-btn px-3 py-1.5 rounded-full text-xs font-medium text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-white hover:bg-zinc-100 dark:hover:bg-zinc-800/80 transition-all shrink-0 flex items-center gap-1.5';
+          });
+
+          btn.className =
+            'category-filter-btn px-3.5 py-1.5 rounded-full text-xs font-semibold transition-all shrink-0 bg-zinc-900 text-white dark:bg-white dark:text-zinc-900 shadow-sm flex items-center gap-1.5';
+
+          // Filter card items
+          cards.forEach((card) => {
+            const category = card.getAttribute('data-category');
+            if (filter === 'all' || category === filter) {
+              card.classList.remove('hidden');
+              // trigger micro animation
+              card.style.opacity = '0';
+              card.style.transform = 'translateY(4px)';
+              setTimeout(() => {
+                card.style.opacity = '1';
+                card.style.transform = 'translateY(0)';
+                card.style.transition = 'opacity 0.2s ease, transform 0.2s ease';
+              }, 10);
+            } else {
+              card.classList.add('hidden');
+            }
+          });
+        });
+      });
+    };
+
+    initCategoryFilter();
+    document.addEventListener('astro:page-load', initCategoryFilter);
+  })();
+</script>

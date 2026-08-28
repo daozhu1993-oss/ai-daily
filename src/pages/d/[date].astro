@@ -1,0 +1,56 @@
+---
+import DashboardLayout from '../../layouts/DashboardLayout.astro';
+import DailyItemCard from '../../components/DailyItemCard.astro';
+import { getCollection, render } from 'astro:content';
+import { siteConfig } from '../../config/site';
+
+export async function getStaticPaths() {
+  const allDailies = await getCollection('daily', ({ data }) => !data.draft);
+
+  const sortedDailies = allDailies.sort(
+    (a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime()
+  );
+
+  return sortedDailies.map((issue) => {
+    return {
+      params: { date: issue.data.date },
+      props: { issue, allIssues: sortedDailies },
+    };
+  });
+}
+
+const { issue, allIssues } = Astro.props;
+const { date, title, highlights, items } = issue.data;
+const displayTitle = title || `${date} · 今日看点`;
+const { Content } = await render(issue);
+
+// Sort items: pinned first
+const sortedItems = [...items].sort((a, b) => {
+  if (a.pinned && !b.pinned) return -1;
+  if (!a.pinned && b.pinned) return 1;
+  return 0;
+});
+---
+
+<DashboardLayout
+  currentIssue={issue}
+  allIssues={allIssues}
+  title={`${displayTitle} - ${siteConfig.name}`}
+  description={highlights || `${date} AI 精选日报，共收录 ${items.length} 条高价值资讯与产品洞察。`}
+>
+  <div class="space-y-6 pb-20">
+    <!-- Optional Editor's Note Banner -->
+    {Content && (
+      <div class="p-4 rounded-2xl bg-zinc-100/60 dark:bg-zinc-900/40 border border-zinc-200/60 dark:border-zinc-800/60 text-xs text-zinc-600 dark:text-zinc-400">
+        <Content />
+      </div>
+    )}
+
+    <!-- Visual Multi-column Card Grid (Masonry Flow) -->
+    <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 sm:gap-5">
+      {sortedItems.map((item, idx) => (
+        <DailyItemCard item={item} index={idx} />
+      ))}
+    </div>
+  </div>
+</DashboardLayout>

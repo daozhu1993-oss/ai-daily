@@ -1,0 +1,161 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import { CATEGORIES, getCategoryByKey } from '../config/categories';
+import { siteConfig } from '../config/site';
+
+// Fetch all published issues sorted by date descending
+const allDailies = await getCollection('daily', ({ data }) => !data.draft);
+
+const sortedDailies = allDailies.sort(
+  (a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime()
+);
+
+// Calculate stats
+const totalIssues = sortedDailies.length;
+const totalItems = sortedDailies.reduce(
+  (sum, issue) => sum + issue.data.items.length,
+  0
+);
+
+// Group issues by "YYYY 年 MM 月"
+interface MonthGroup {
+  monthKey: string; // e.g. "2026-08"
+  monthDisplay: string; // e.g. "2026 年 08 月"
+  issues: typeof sortedDailies;
+}
+
+const groupsMap = new Map<string, MonthGroup>();
+
+sortedDailies.forEach((issue) => {
+  const [year, month] = issue.data.date.split('-');
+  const monthKey = `${year}-${month}`;
+  const monthDisplay = `${year} 年 ${month} 月`;
+
+  if (!groupsMap.has(monthKey)) {
+    groupsMap.set(monthKey, {
+      monthKey,
+      monthDisplay,
+      issues: [],
+    });
+  }
+
+  groupsMap.get(monthKey)!.issues.push(issue);
+});
+
+const monthGroups = Array.from(groupsMap.values());
+const allCategories = Object.values(CATEGORIES);
+---
+
+<BaseLayout
+  title={`历史归档 - ${siteConfig.name}`}
+  description={`按月份与时间线查阅 ${siteConfig.name} 的所有历史精选期次，共收录 ${totalIssues} 期、${totalItems} 条深度资讯。`}
+>
+  <div class="space-y-12 max-w-3xl mx-auto">
+    <!-- Archive Header -->
+    <header class="space-y-4 pb-8 border-b border-zinc-200 dark:border-zinc-800">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-medium bg-zinc-100 dark:bg-zinc-800 text-zinc-600 dark:text-zinc-300">
+        <span>📚 全站时间线归档</span>
+      </div>
+      <h1 class="text-3xl font-bold tracking-tight text-zinc-900 dark:text-zinc-50">
+        历史归档
+      </h1>
+      <p class="text-sm sm:text-base text-zinc-600 dark:text-zinc-400">
+        沉淀每一个有价值的技术瞬间。截至今日，已累计发布 <strong class="text-zinc-900 dark:text-white font-semibold">{totalIssues}</strong> 期，精选 <strong class="text-zinc-900 dark:text-white font-semibold">{totalItems}</strong> 条深度洞察。
+      </p>
+
+      <!-- Category quick jump tags -->
+      <div class="flex items-center gap-2 flex-wrap pt-3">
+        <span class="text-xs text-zinc-400 dark:text-zinc-500 mr-1">按分类筛选:</span>
+        {
+          allCategories.map((cat) => (
+            <a
+              href={`/tag/${cat.slug}`}
+              class={`inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md text-xs font-medium ${cat.color.bg} ${cat.color.text} ${cat.color.darkBg} ${cat.color.darkText} hover:opacity-80 transition-opacity`}
+            >
+              <span class={`w-1.5 h-1.5 rounded-full ${cat.color.dot}`}></span>
+              <span>{cat.name}</span>
+            </a>
+          ))
+        }
+      </div>
+    </header>
+
+    <!-- Month Groups Timeline -->
+    <section class="space-y-12">
+      {
+        monthGroups.map((group) => (
+          <div class="space-y-6">
+            <!-- Month Heading -->
+            <div class="sticky top-16 z-20 py-2 bg-[#faf9f6]/95 dark:bg-[#0f1115]/95 backdrop-blur-sm flex items-center justify-between border-b border-zinc-200/60 dark:border-zinc-800/60">
+              <h2 class="text-lg font-bold text-zinc-900 dark:text-zinc-100 flex items-center gap-2">
+                <span class="w-2.5 h-2.5 rounded-full bg-indigo-500"></span>
+                <span>{group.monthDisplay}</span>
+              </h2>
+              <span class="text-xs text-zinc-400 font-mono">
+                {group.issues.length} 期
+              </span>
+            </div>
+
+            <!-- Issues in this month -->
+            <div class="relative pl-6 sm:pl-8 border-l border-zinc-200 dark:border-zinc-800 space-y-6">
+              {group.issues.map((issue) => {
+                const { date, title, highlights, items } = issue.data;
+                const displayTitle = title || `${date} · 今日看点`;
+                const uniqueCategories = Array.from(
+                  new Set(items.map((i) => i.category))
+                );
+
+                return (
+                  <div class="relative group">
+                    <!-- Timeline Dot -->
+                    <span class="absolute -left-[31px] sm:-left-[39px] top-4 w-3.5 h-3.5 rounded-full bg-white dark:bg-[#17191e] border-2 border-zinc-300 dark:border-zinc-700 group-hover:border-indigo-500 transition-colors"></span>
+
+                    <a
+                      href={`/d/${date}`}
+                      class="block p-5 rounded-2xl bg-white dark:bg-[#17191e] border border-zinc-200/80 dark:border-zinc-800/80 hover:border-indigo-400 dark:hover:border-indigo-600/70 hover:shadow-md hover:shadow-indigo-500/5 transition-all duration-200"
+                    >
+                      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-2">
+                        <div class="flex items-center gap-2">
+                          <time class="text-xs font-semibold text-indigo-600 dark:text-indigo-400 font-mono">
+                            {date}
+                          </time>
+                          <span class="text-xs text-zinc-400">
+                            · {items.length} 条精选
+                          </span>
+                        </div>
+
+                        <div class="flex items-center gap-1.5 flex-wrap">
+                          {uniqueCategories.map((cat) => {
+                            const catMeta = getCategoryByKey(cat);
+                            return (
+                              <span
+                                class={`px-2 py-0.5 rounded text-[10px] font-medium ${catMeta.color.bg} ${catMeta.color.text} ${catMeta.color.darkBg} ${catMeta.color.darkText}`}
+                              >
+                                {cat}
+                              </span>
+                            );
+                          })}
+                        </div>
+                      </div>
+
+                      <h3 class="text-base font-bold text-zinc-900 dark:text-zinc-100 group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors mb-1.5">
+                        {displayTitle}
+                      </h3>
+
+                      {highlights && (
+                        <p class="text-xs sm:text-sm text-zinc-600 dark:text-zinc-400 line-clamp-2 leading-relaxed">
+                          {highlights}
+                        </p>
+                      )}
+                    </a>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        ))
+      }
+    </section>
+  </div>
+</BaseLayout>

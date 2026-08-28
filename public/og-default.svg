@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f1115" />
+      <stop offset="50%" stop-color="#17191e" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+    <linearGradient id="brandGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#4f46e5" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)" />
+
+  <!-- Subtle grid lines -->
+  <line x1="80" y1="0" x2="80" y2="630" stroke="#282c37" stroke-width="1" stroke-opacity="0.3" />
+  <line x1="1120" y1="0" x2="1120" y2="630" stroke="#282c37" stroke-width="1" stroke-opacity="0.3" />
+  <line x1="0" y1="550" x2="1200" y2="550" stroke="#282c37" stroke-width="1" stroke-opacity="0.3" />
+
+  <!-- Brand Badge -->
+  <rect x="80" y="80" width="64" height="64" rx="16" fill="url(#brandGrad)" />
+  <text x="112" y="122" font-family="-apple-system, system-ui, sans-serif" font-size="28" font-weight="900" fill="#ffffff" text-anchor="middle">AI</text>
+
+  <rect x="160" y="96" width="140" height="32" rx="8" fill="#312e81" fill-opacity="0.6" stroke="#4f46e5" stroke-width="1" />
+  <text x="230" y="117" font-family="-apple-system, system-ui, sans-serif" font-size="14" font-weight="600" fill="#c7d2fe" text-anchor="middle">每日策展日报</text>
+
+  <!-- Main Title -->
+  <text x="80" y="240" font-family="-apple-system, 'PingFang SC', 'Noto Sans SC', system-ui, sans-serif" font-size="56" font-weight="800" fill="#f4f4f5">
+    岛主 AI 日报
+  </text>
+
+  <!-- Slogan -->
+  <text x="80" y="310" font-family="-apple-system, 'PingFang SC', 'Noto Sans SC', system-ui, sans-serif" font-size="28" font-weight="400" fill="#a1a1aa">
+    用故事思维与设计师视角，凝练每日 AI 脉搏
+  </text>
+
+  <!-- Category Pills -->
+  <g transform="translate(80, 420)">
+    <rect x="0" y="0" width="130" height="40" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+    <text x="65" y="25" font-family="-apple-system, system-ui, sans-serif" font-size="15" font-weight="600" fill="#93c5fd" text-anchor="middle">AI 资讯</text>
+
+    <rect x="145" y="0" width="130" height="40" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+    <text x="210" y="25" font-family="-apple-system, system-ui, sans-serif" font-size="15" font-weight="600" fill="#fcd34d" text-anchor="middle">一人公司</text>
+
+    <rect x="290" y="0" width="130" height="40" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+    <text x="355" y="25" font-family="-apple-system, system-ui, sans-serif" font-size="15" font-weight="600" fill="#6ee7b7" text-anchor="middle">产品设计</text>
+
+    <rect x="435" y="0" width="130" height="40" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+    <text x="500" y="25" font-family="-apple-system, system-ui, sans-serif" font-size="15" font-weight="600" fill="#fda4af" text-anchor="middle">审美提升</text>
+
+    <rect x="580" y="0" width="130" height="40" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+    <text x="645" y="25" font-family="-apple-system, system-ui, sans-serif" font-size="15" font-weight="600" fill="#d8b4fe" text-anchor="middle">产品营销</text>
+
+    <rect x="725" y="0" width="130" height="40" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+    <text x="790" y="25" font-family="-apple-system, system-ui, sans-serif" font-size="15" font-weight="600" fill="#5eead4" text-anchor="middle">AI 协作</text>
+  </g>
+
+  <!-- Footer Link -->
+  <text x="80" y="585" font-family="-apple-system, system-ui, sans-serif" font-size="16" font-weight="500" fill="#71717a">
+    https://ai-daily.pages.dev
+  </text>
+</svg>

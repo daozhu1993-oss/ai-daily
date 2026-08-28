@@ -1,0 +1,38 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { siteConfig } from '../config/site';
+---
+
+<BaseLayout
+  title={`404 - 页面未找到 - ${siteConfig.name}`}
+  description="很抱歉，您访问的页面不存在或已被移除。"
+>
+  <div class="py-20 text-center space-y-6 max-w-md mx-auto">
+    <div class="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-indigo-50 dark:bg-indigo-950/60 text-indigo-600 dark:text-indigo-400 font-mono text-2xl font-bold border border-indigo-200/60 dark:border-indigo-800/40">
+      404
+    </div>
+    <div class="space-y-2">
+      <h1 class="text-2xl font-bold text-zinc-900 dark:text-zinc-50">
+        迷失在数字脉搏中
+      </h1>
+      <p class="text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed">
+        您所寻找的期次或分类页面可能已归档或不存在。
+      </p>
+    </div>
+
+    <div class="flex items-center justify-center gap-3 pt-2">
+      <a
+        href="/"
+        class="px-5 py-2.5 rounded-xl text-sm font-semibold bg-indigo-600 hover:bg-indigo-700 text-white transition-colors shadow-sm"
+      >
+        返回日报首页
+      </a>
+      <a
+        href="/archive"
+        class="px-5 py-2.5 rounded-xl text-sm font-semibold bg-zinc-100 dark:bg-zinc-800 hover:bg-zinc-200 dark:hover:bg-zinc-700 text-zinc-800 dark:text-zinc-200 transition-colors"
+      >
+        查看所有归档
+      </a>
+    </div>
+  </div>
+</BaseLayout>
