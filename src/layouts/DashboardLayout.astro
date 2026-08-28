@@ -5,6 +5,7 @@ import LeftSidebar from '../components/LeftSidebar.astro';
 import RightSidebar from '../components/RightSidebar.astro';
 import FloatingCategoryBar from '../components/FloatingCategoryBar.astro';
 import ThemeToggle from '../components/ThemeToggle.astro';
+import ItemReaderModal from '../components/ItemReaderModal.astro';
 import '../styles/global.css';
 
 interface Props {
@@ -126,5 +127,8 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site || siteConfig.url);
 
     <!-- Floating Bottom Category Filter Bar -->
     <FloatingCategoryBar />
+
+    <!-- In-Site Deep Reading Modal -->
+    <ItemReaderModal />
   </body>
 </html>

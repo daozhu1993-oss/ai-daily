@@ -1,0 +1,218 @@
+---
+// Client-side interactive reading modal for daily items
+---
+
+<div
+  id="item-reader-modal"
+  class="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 opacity-0 pointer-events-none transition-all duration-200"
+  aria-hidden="true"
+>
+  <!-- Backdrop -->
+  <div
+    id="modal-backdrop"
+    class="absolute inset-0 bg-black/60 dark:bg-black/80 backdrop-blur-sm transition-opacity"
+  ></div>
+
+  <!-- Modal Dialog Window -->
+  <div
+    class="relative w-full max-w-2xl max-h-[90vh] bg-white dark:bg-[#17191e] border border-zinc-200 dark:border-zinc-800 rounded-3xl shadow-2xl overflow-hidden flex flex-col transform scale-95 transition-transform duration-200"
+    role="dialog"
+    aria-modal="true"
+  >
+    <!-- Modal Header -->
+    <div class="px-6 pt-6 pb-4 border-b border-zinc-100 dark:border-zinc-800/80 flex items-center justify-between gap-4 shrink-0">
+      <div class="flex items-center gap-2">
+        <span
+          id="modal-category-badge"
+          class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-indigo-50 dark:bg-indigo-950/60 text-indigo-700 dark:text-indigo-300"
+        >
+          分类
+        </span>
+        <span class="text-zinc-300 dark:text-zinc-700">·</span>
+        <span
+          id="modal-source-text"
+          class="text-xs font-mono text-zinc-500 dark:text-zinc-400 truncate max-w-[200px]"
+        >
+          source
+        </span>
+      </div>
+
+      <!-- Close Button -->
+      <button
+        id="modal-close-btn"
+        class="w-8 h-8 rounded-full bg-zinc-100 dark:bg-zinc-800 hover:bg-zinc-200 dark:hover:bg-zinc-700 text-zinc-500 hover:text-zinc-900 dark:hover:text-white flex items-center justify-center transition-colors text-sm font-bold"
+        aria-label="关闭详情"
+      >
+        ✕
+      </button>
+    </div>
+
+    <!-- Modal Scrollable Body -->
+    <div class="p-6 overflow-y-auto space-y-6 flex-1 custom-scrollbar">
+      <!-- Media Preview if available -->
+      <div id="modal-media-container" class="hidden aspect-[16/9] rounded-2xl overflow-hidden bg-zinc-100 dark:bg-zinc-900 border border-zinc-100 dark:border-zinc-800">
+        <img id="modal-image" src="" alt="" class="w-full h-full object-cover" />
+      </div>
+
+      <!-- Title -->
+      <h2
+        id="modal-title"
+        class="text-lg sm:text-xl font-extrabold text-zinc-900 dark:text-zinc-50 leading-snug tracking-tight"
+      >
+        资讯标题
+      </h2>
+
+      <!-- Editorial Note / Deep Summary -->
+      <div class="space-y-2">
+        <div class="text-xs font-bold text-zinc-400 dark:text-zinc-500 uppercase tracking-wider">
+          主理人速览 & 核心解构
+        </div>
+        <p
+          id="modal-note"
+          class="text-sm sm:text-base text-zinc-700 dark:text-zinc-300 leading-relaxed font-normal whitespace-pre-line"
+        >
+          解读内容...
+        </p>
+      </div>
+
+      <!-- So What Value Takeaway -->
+      <div id="modal-sowhat-wrapper" class="p-4 rounded-2xl bg-indigo-50/70 dark:bg-indigo-950/40 border border-indigo-100 dark:border-indigo-900/40 space-y-1">
+        <div class="text-xs font-bold text-indigo-700 dark:text-indigo-300 flex items-center gap-1.5">
+          <span>💡 穿透价值 (So What)</span>
+        </div>
+        <p
+          id="modal-sowhat"
+          class="text-xs sm:text-sm text-indigo-950 dark:text-indigo-200 leading-relaxed font-medium"
+        >
+          核心价值...
+        </p>
+      </div>
+    </div>
+
+    <!-- Modal Footer -->
+    <div class="px-6 py-4 bg-zinc-50 dark:bg-zinc-900/50 border-t border-zinc-100 dark:border-zinc-800/80 flex items-center justify-between gap-4 shrink-0">
+      <span class="text-xs text-zinc-400 dark:text-zinc-500 font-mono">
+        岛主 AI 日报 · 原创策展
+      </span>
+
+      <a
+        id="modal-external-link"
+        href="#"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-zinc-900 hover:bg-zinc-800 dark:bg-white dark:hover:bg-zinc-100 text-white dark:text-zinc-900 text-xs sm:text-sm font-semibold transition-all shadow-sm"
+      >
+        <span>访问官方发布原文</span>
+        <span class="font-bold">↗</span>
+      </a>
+    </div>
+  </div>
+</div>
+
+<script>
+  function setupReaderModal() {
+    const modalEl = document.getElementById('item-reader-modal');
+    if (!modalEl) return;
+
+    const backdrop = document.getElementById('modal-backdrop');
+    const closeBtn = document.getElementById('modal-close-btn');
+    const titleEl = document.getElementById('modal-title');
+    const noteEl = document.getElementById('modal-note');
+    const sowhatEl = document.getElementById('modal-sowhat');
+    const sowhatWrapper = document.getElementById('modal-sowhat-wrapper');
+    const badgeEl = document.getElementById('modal-category-badge');
+    const sourceEl = document.getElementById('modal-source-text');
+    const linkEl = document.getElementById('modal-external-link') as HTMLAnchorElement | null;
+    const mediaContainer = document.getElementById('modal-media-container');
+    const imageEl = document.getElementById('modal-image') as HTMLImageElement | null;
+
+    function openModal(data: {
+      title: string;
+      note: string;
+      so_what?: string;
+      category: string;
+      source: string;
+      url: string;
+      media?: string;
+    }) {
+      if (!modalEl) return;
+      if (titleEl) titleEl.textContent = data.title;
+      if (noteEl) noteEl.textContent = data.note;
+      if (badgeEl) badgeEl.textContent = data.category;
+      if (sourceEl) sourceEl.textContent = data.source;
+      if (linkEl) linkEl.href = data.url;
+
+      if (data.so_what && sowhatEl && sowhatWrapper) {
+        sowhatEl.textContent = data.so_what;
+        sowhatWrapper.classList.remove('hidden');
+      } else if (sowhatWrapper) {
+        sowhatWrapper.classList.add('hidden');
+      }
+
+      if (data.media && imageEl && mediaContainer) {
+        imageEl.src = data.media;
+        mediaContainer.classList.remove('hidden');
+      } else if (mediaContainer) {
+        mediaContainer.classList.add('hidden');
+      }
+
+      modalEl.classList.remove('opacity-0', 'pointer-events-none');
+      const dialog = modalEl.querySelector('[role="dialog"]');
+      if (dialog) {
+        dialog.classList.remove('scale-95');
+        dialog.classList.add('scale-100');
+      }
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeModal() {
+      if (!modalEl) return;
+      modalEl.classList.add('opacity-0', 'pointer-events-none');
+      const dialog = modalEl.querySelector('[role="dialog"]');
+      if (dialog) {
+        dialog.classList.add('scale-95');
+        dialog.classList.remove('scale-100');
+      }
+      document.body.style.overflow = '';
+    }
+
+    // Attach click listeners to all card triggers
+    document.querySelectorAll('.open-reader-trigger').forEach((trigger) => {
+      trigger.addEventListener('click', (e) => {
+        const target = e.target as HTMLElement | null;
+        if (target && target.closest('.direct-external-btn')) {
+          return; // Allow direct link to proceed
+        }
+
+        e.preventDefault();
+        e.stopPropagation();
+
+        const card = trigger.closest('.daily-item-card-wrapper');
+        if (!card) return;
+
+        const data = {
+          title: card.getAttribute('data-title') || '',
+          note: card.getAttribute('data-note') || '',
+          so_what: card.getAttribute('data-sowhat') || '',
+          category: card.getAttribute('data-category') || '',
+          source: card.getAttribute('data-source') || '',
+          url: card.getAttribute('data-url') || '#',
+          media: card.getAttribute('data-media') || '',
+        };
+
+        openModal(data);
+      });
+    });
+
+    closeBtn?.addEventListener('click', closeModal);
+    backdrop?.addEventListener('click', closeModal);
+
+    window.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeModal();
+    });
+  }
+
+  // Run on initial load and view transitions
+  setupReaderModal();
+  document.addEventListener('astro:page-load', setupReaderModal);
+</script>
