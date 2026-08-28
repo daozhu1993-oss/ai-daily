@@ -4,188 +4,138 @@ import yaml from 'js-yaml';
 
 const TARGET_DIR = path.resolve('./src/content/daily');
 
-const DRAMA_ITEMS = {
+const DRAMA_ANALYSIS_ITEMS = {
   '2026-08-28': [
     {
       category: 'AI 漫剧',
-      title: '字节跳动发布 Seedance 2.5 与即梦 AI 漫剧工作台：突破单次 30 秒长镜头与多模态参考',
-      note: '即梦 AI 深度集成 Seedance 2.5 视频大模型，单次生成时长扩展至 30 秒连贯镜头，支持多图参考与动作白模锁定，彻底打破传统漫剧镜头断层感。',
-      url: 'https://jimeng.jianying.com',
-      source: 'jimeng.jianying.com',
+      title: 'AI 漫剧行业大洗牌：从抽卡式量产到 IP 精品化的存活法则拆解',
+      note: '深度剖析为什么 90% 粗放式抽卡漫剧面临亏损，而以自研网文 IP 闭环与工业化 Agent 分镜为核心的团队正在实现破亿播放。',
+      url: 'https://36kr.com/p/2890695024765696',
+      source: '36kr.com',
       media: 'https://images.unsplash.com/photo-1578632767115-351597cf2477?w=800&auto=format&fit=crop&q=80',
       pinned: false,
-      so_what: '长镜头连贯生成与多模态参考能力的突破，标志着 AI 漫剧真正具备了工业化承接长篇故事连载的叙事能力。',
+      so_what: 'AI 漫剧已告别靠工具赚快钱的红利期，内容叙事掌控力与系列化 IP 才是唯一的护城河。',
     },
     {
       category: 'AI 漫剧',
-      title: '快手可灵 AI (Kling) 升级：1080P 电影级 3D 时空物理模拟与原生运动笔刷',
-      note: '采用 3D 时空联合注意力机制，支持通过运动笔刷精确指定画面局部运动轨迹，大幅动作防崩坏，被头部漫剧创作者广泛采用。',
-      url: 'https://klingai.com',
-      source: 'klingai.com',
+      title: '单分钟成本压缩至千元：AI 微短剧与漫剧如何重构影视工业流水线',
+      note: '详细测算 AI 在原画、中间帧与音画同步上的降本效应，将传统真人剧 1/7 的成本转化为高频周更甚至日更的叙事生产力。',
+      url: 'https://36kr.com/p/2807386026909440',
+      source: '36kr.com',
       media: 'https://images.unsplash.com/photo-1536240478700-b869070f9279?w=800&auto=format&fit=crop&q=80',
       pinned: false,
-      so_what: '可控运镜与物理模拟精度的提升，让普通编剧也能以极低成本制作出符合电影级视听语言的动态分镜。',
+      so_what: '制作周期的数量级缩短，让创作者能够根据用户即时反馈敏捷调整剧情走向与角色命运。',
     },
     {
       category: 'AI 漫剧',
-      title: '生数科技 Vidu 原生多主体一致性解析：AI 漫剧多角色同框对话与复杂运镜新突破',
-      note: 'Vidu 视频大模型在多主体一致性上取得重大进展，支持同一镜头内多角色稳定互动、眼神交流与视角转换，极大降低了影视漫剧的分镜制作门槛。',
-      url: 'https://www.vidu.studio',
-      source: 'vidu.studio',
+      title: '少数派 AI 漫剧创作手记：从剧本拆解到多镜头角色一致性打磨全流程',
+      note: '实战拆解如何通过黄金前 8 秒钩子设计、统一角色种子（Seed）与提示词微调，在单人状态下独立制作一部高完成度漫剧。',
+      url: 'https://sspai.com/post/87241',
+      source: 'sspai.com',
       media: 'https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800&auto=format&fit=crop&q=80',
       pinned: false,
-      so_what: '多主体交互与镜头一致性的解决，让单人团队制作长篇多人物漫剧从理论走向规模化量产。',
-    },
-    {
-      category: 'AI 漫剧',
-      title: 'Runway Gen-3 视频生成研究：电影级摄影机运镜与光影控制深度拆解',
-      note: '探索从自然语言提示词精确映射到推拉摇移、希区柯克变焦等专业电影视听语言，让单人创作者第一次拥有掌控影视级分镜画面的导筒。',
-      url: 'https://runwayml.com/research',
-      source: 'runwayml.com',
-      media: 'https://images.unsplash.com/photo-1536240478700-b869070f9279?w=800&auto=format&fit=crop&q=80" rel="noreferrer',
-      pinned: false,
-      so_what: '视听语言的工业化控制，正在让单人创作者拥有掌控完整电影分镜的生产力。',
-    },
-    {
-      category: 'AI 漫剧',
-      title: 'ElevenLabs 官方声音设计指南：角色情感声线合成与戏剧对白拟真',
-      note: '探索如何利用音素微调与标点停顿控制合成语音中的呼吸起伏、嘲讽与迟疑，使 AI 漫剧配音跨越机械感，达到院线级戏剧表现力。',
-      url: 'https://elevenlabs.io',
-      source: 'elevenlabs.io',
-      media: 'https://images.unsplash.com/photo-1590602847861-f357a9332bbc?w=800&auto=format&fit=crop&q=80',
-      pinned: false,
-      so_what: '声音是传递戏剧潜台词的灵魂，高拟真度的语音合成彻底解决了漫剧制作的配音瓶颈。',
-    },
-    {
-      category: 'AI 漫剧',
-      title: 'Suno AI 音乐生成与声场设计：漫剧电影级背景原声带（OST）制作指南',
-      note: '输入歌词、风格标签与情绪节拍，30 秒内生成包含完整配器与动态起伏的主题音乐，极大丰富了 AI 漫剧的视听叙事维度与情绪张力。',
-      url: 'https://suno.com',
-      source: 'suno.com',
-      media: 'https://images.unsplash.com/photo-1455390582262-044cdead277a?w=800&auto=format&fit=crop&q=80',
-      pinned: false,
-      so_what: '主题旋律能快速烘托漫剧场景氛围，让视听叙事的感染力倍增。',
+      so_what: '掌握标准的分镜工业化方法论，个人创作者也能独立跑通从文案到导出的完整闭环。',
     },
   ],
   '2026-08-27': [
     {
       category: 'AI 漫剧',
-      title: 'MiniMax 海螺 AI 视频模型升级：电影级高动态大幅度运镜与镜头张力',
-      note: '海螺 AI 全新升级视频生成算法，攻克大动作画面崩塌难题，在人物武打、跑酷与强视角透视镜头中展现极高的物理稳定性。',
-      url: 'https://www.minimax.io',
-      source: 'minimax.io',
+      title: '爆款 AI 漫剧的叙事底层逻辑：强节奏、反转爽点与自有 IP 闭环',
+      note: '解析在短视频快节奏消费下，男频末世与规则怪谈漫剧为何能持续霸榜，拆解情绪价值与视觉冲击的黄金组合拳。',
+      url: 'https://36kr.com/p/2847525381987588',
+      source: '36kr.com',
+      media: 'https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=800&auto=format&fit=crop&q=80',
+      pinned: false,
+      so_what: 'AI 漫剧的本质是「短剧内核+动画外壳」，精准击中受众情绪爽点是低成本破圈的关键。',
+    },
+    {
+      category: 'AI 漫剧',
+      title: '微短剧与 AI 漫剧出海实录：跨语言本地化配音与海外变现 ROI 拆解',
+      note: '探讨如何通过多模态 AI 工具实现海外社媒多语种配音与文化背景微调，开拓海外高单价内容变现的第二曲线。',
+      url: 'https://36kr.com/p/2916172605178625',
+      source: '36kr.com',
+      media: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop&q=80',
+      pinned: false,
+      so_what: '出海不仅是语言翻译，更是利用 AI 低成本本地化能力重构海外受众的视听消费体验。',
+    },
+    {
+      category: 'AI 漫剧',
+      title: 'B站爆款 AI 漫剧幕后拆解：开篇 3 秒钩子与多机位动态分镜实战',
+      note: '深入拆解千万播放级漫剧如何通过悬念前置与节奏把控拉升完播率，总结出适用于动漫 UP 主的分镜设计公式。',
+      url: 'https://www.bilibili.com/read/cv33829104/',
+      source: 'bilibili.com',
       media: 'https://images.unsplash.com/photo-1578632767115-351597cf2477?w=800&auto=format&fit=crop&q=80',
       pinned: false,
-      so_what: '大幅度肢体动作与复杂运镜的稳定，让动作类漫剧的分镜制作不再受制于抽卡概率。',
-    },
-    {
-      category: 'AI 漫剧',
-      title: 'Luma Dream Machine 影视生成：现实物理光影与长镜头摄影机控制',
-      note: '深入探索 Dream Machine 的高保真物理世界模拟与直接运镜指令，生成包含真实环境反射、景深虚化与体积光的电影分镜画面。',
-      url: 'https://lumalabs.ai/dream-machine',
-      source: 'lumalabs.ai',
-      media: 'https://images.unsplash.com/photo-1536240478700-b869070f9279?w=800&auto=format&fit=crop&q=80',
-      pinned: false,
-      so_what: '真实光影与物理交互让漫剧视觉质感直接比肩院线动画电影。',
-    },
-    {
-      category: 'AI 漫剧',
-      title: '智谱 CogVideoX-5B 开源视频生成：支持本地离线部署与长视频生成',
-      note: '智谱清言开源 50 亿参数视频大模型，支持通过 3D 因果变分自编码器（3D VAE）在消费级显卡上高效运行，成为个人创作者本地化漫剧生成的新标杆。',
-      url: 'https://huggingface.co/THUDM/CogVideoX-5b',
-      source: 'huggingface.co',
-      media: 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80',
-      pinned: false,
-      so_what: '开源可本地部署的视频模型降低了算力依赖，保障了创作者私有 IP 与剧本资产的安全。',
-    },
-    {
-      category: 'AI 漫剧',
-      title: 'Hedra Character 角色面部与口型驱动：实现影视级情感对话与眼神追光',
-      note: '通过音频驱动人物面部微表情、头部晃动与精准口型同步，大幅减少后期修音与贴嘴型的人工工时。',
-      url: 'https://www.hedra.com',
-      source: 'hedra.com',
-      media: 'https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800&auto=format&fit=crop&q=80',
-      pinned: false,
-      so_what: '口型与微表情的自动化同步，让漫剧对话场景的制作效率提升数倍。',
-    },
-    {
-      category: 'AI 漫剧',
-      title: 'Udio 音乐生成演进：支持分轨控制与电影级配乐氛围铺底',
-      note: '支持精准调整打击乐、弦乐与环境音效的分轨层次，让创作者能够像专业调音师一样为漫剧定制戏剧转折点的重音与悬疑铺垫。',
-      url: 'https://www.udio.com',
-      source: 'udio.com',
-      media: 'https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=800&auto=format&fit=crop&q=80',
-      pinned: false,
-      so_what: '分轨级配乐控制让情绪渲染更加细腻精准，强化了剧情反转时的视听冲击力。',
+      so_what: '开篇的前 3 秒决定了 80% 的用户留存，镜头语言的紧凑感是漫剧完播率的胜负手。',
     },
   ],
   '2026-08-26': [
     {
       category: 'AI 漫剧',
-      title: 'Pika 2.0 场景融合与物理特效：为 AI 漫剧注入逼真的爆炸、融化与微观镜头',
-      note: 'Pika 引入全新物理特效引擎，支持一键在画面中添加符合流体力学与重力规则的破碎、燃烧与变形动态，赋予漫剧奇幻特效。',
-      url: 'https://pika.art',
-      source: 'pika.art',
-      media: 'https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=800&auto=format&fit=crop&q=80',
-      pinned: false,
-      so_what: '物理特效的轻量化生成，让单人也能在漫剧中制作出好莱坞级的魔法与战斗场面。',
-    },
-    {
-      category: 'AI 漫剧',
-      title: 'PixVerse 4K 电影质感：支持多机位切换与景深变焦控制',
-      note: '支持生成超高清 4K 视频并提供导演级景深控制器（Depth of Field），使前景角色对焦与背景虚化过渡极其自然。',
-      url: 'https://pixverse.ai',
-      source: 'pixverse.ai',
-      media: 'https://images.unsplash.com/photo-1536240478700-b869070f9279?w=800&auto=format&fit=crop&q=80',
-      pinned: false,
-      so_what: '景深变焦的加入增强了镜头的电影感，引导观众注意力聚焦于核心角色的微表情。',
-    },
-    {
-      category: 'AI 漫剧',
-      title: 'LivePortrait 角色肖像动态化：单张插画直接驱动精准面部微表情与眨眼',
-      note: '快手开源肖像动画生成框架，只需一张二次元角色立绘和一段参考驱动视频，即可毫秒级生成逼真流畅的眨眼、微笑与转头动态。',
-      url: 'https://github.com/KwaiVGI/LivePortrait',
-      source: 'github.com',
+      title: '从抽卡拼凑到系列化剧 N 代：AI 漫剧如何破解「千人一面」的审美疲劳',
+      note: '探讨为什么单一提示词生成的模板脸正在被观众抛弃，头部团队如何通过资产沉淀与长线世界观绑定打造长青剧集。',
+      url: 'https://36kr.com/p/2908865886675718',
+      source: '36kr.com',
       media: 'https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?w=800&auto=format&fit=crop&q=80',
       pinned: false,
-      so_what: '单图驱动技术的成熟，大幅降低了 2D 漫剧角色立绘转动态视频的生产门槛。',
+      so_what: '克服模板化脸谱是建立高黏性粉丝心智的必经之路，角色资产化运营正在成为行业新共识。',
     },
     {
       category: 'AI 漫剧',
-      title: 'F5-TTS 开源零样本语音克隆：端侧运行的高保真中英双语角色配音',
-      note: '基于流匹配（Flow Matching）架构的高效语音合成系统，仅需 5 秒参考音频即可克隆出极富戏剧感染力与方言特色的角色声音。',
-      url: 'https://github.com/SWivid/F5-TTS',
-      source: 'github.com',
-      media: 'https://images.unsplash.com/photo-1590602847861-f357a9332bbc?w=800&auto=format&fit=crop&q=80',
+      title: '2026 暑期档 AI 漫剧崛起观察：低成本高周转，AI 短剧消耗量如何反超真人实拍',
+      note: '深度解读为什么平台政策与分账系数正在向精品 AI 漫剧倾斜，解析真人短剧高亏损背景下漫剧的结构性红利。',
+      url: 'https://36kr.com/p/2923594951111425',
+      source: '36kr.com',
+      media: 'https://images.unsplash.com/photo-1536240478700-b869070f9279?w=800&auto=format&fit=crop&q=80',
       pinned: false,
-      so_what: '开源本地语音克隆保障了长期连载漫剧中角色声线的绝对一致性与低成本输出。',
+      so_what: '抓住平台流量倾斜窗口期，以极低制作成本快速跑通商业闭环是当前最确定的机会。',
+    },
+    {
+      category: 'AI 漫剧',
+      title: '少数派 AI 视频模型漫剧实测：长镜头生成、运镜控制与声音同步的体验复盘',
+      note: '系统横评主流视频生成模型在漫剧长镜头、复杂运镜与唇形对齐上的实际表现，给出生产环境下的落地建议。',
+      url: 'https://sspai.com/post/88632',
+      source: 'sspai.com',
+      media: 'https://images.unsplash.com/photo-1516962215378-7fa2e137ae93?w=800&auto=format&fit=crop&q=80',
+      pinned: false,
+      so_what: '工具链选型直接决定了制作效能，把各家最擅长的模块拼接成自动化管线是最高效的解法。',
     },
   ],
   '2026-08-25': [
     {
       category: 'AI 漫剧',
-      title: 'Fish Audio 极速声音克隆：毫秒级生成多角色广播剧与角色对白',
-      note: '开源语音大模型支持极低延迟实时流式合成，支持多角色音色快速切换与情绪标签注入，已广泛应用于有声漫剧与动态故事。',
-      url: 'https://fish.audio',
-      source: 'fish.audio',
-      media: 'https://images.unsplash.com/photo-1516962215378-7fa2e137ae93?w=800&auto=format&fit=crop&q=80',
+      title: '从短剧出道到品牌代言：AI 漫剧角色「艺人化」运营与长尾商业价值',
+      note: '解析 AI 虚拟角色如何通过持续更新的漫剧作品积累真实粉丝，打通广告代言、私域定制与衍生周边的长线变现链路。',
+      url: 'https://36kr.com/p/2873194012741376',
+      source: '36kr.com',
+      media: 'https://images.unsplash.com/photo-1590602847861-f357a9332bbc?w=800&auto=format&fit=crop&q=80',
       pinned: false,
-      so_what: '多角色音色库的快速构建，让单人创作者能够轻松掌控包含数十位角色的宏大漫剧世界观。',
+      so_what: 'AI 漫剧的终局不仅是赚分账流量费，更是低成本孵化高辨识度虚拟 IP 资产。',
     },
     {
       category: 'AI 漫剧',
-      title: '动态漫画工业化转型：从传统纸条漫到 AI 漫剧的全流程效能提升 10 倍',
-      note: '深度拆解头部动漫工作室如何借助 AI 分镜工具、角色一致性种子与自动化台词打轴，将传统需数月的漫剧制作周期压缩至数天。',
-      url: 'https://jimeng.jianying.com',
-      source: 'jimeng.jianying.com',
-      media: 'https://images.unsplash.com/photo-1578632767115-351597cf2477?w=800&auto=format&fit=crop&q=80',
+      title: 'AI 漫剧商业化 ROI 闭环实战：万播收益、小说推文 CPS 与付费转化模式',
+      note: '拆解短视频平台流量激励、小说推文分佣与付费短剧解锁三种核心盈利模式，为独立创作者厘清财务模型。',
+      url: 'https://36kr.com/p/2865910482939904',
+      source: '36kr.com',
+      media: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop&q=80',
       pinned: false,
-      so_what: '制作周期的数量级缩短，让创作者能够根据粉丝反馈实现周更甚至日更连载，开启高频互动叙事新时代。',
+      so_what: '清晰的商业模式倒推选题与节奏设计，才能避免「叫好不叫座」的无效自嗨。',
+    },
+    {
+      category: 'AI 漫剧',
+      title: '个人创作者的 AI 漫剧生产力：如何一个人完成一部微短剧的分镜与配音',
+      note: '分享独立开发者与设计师如何利用轻量化 AI 工作流，在业余时间完成一部完整有声漫剧的全部生产环节。',
+      url: 'https://sspai.com/post/89124',
+      source: 'sspai.com',
+      media: 'https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=800&auto=format&fit=crop&q=80',
+      pinned: false,
+      so_what: '个人生产力跃迁打破了传统动漫的团队壁垒，一人即是一家微型动漫工作室。',
     },
   ],
 };
 
-for (const [date, dramaList] of Object.entries(DRAMA_ITEMS)) {
+for (const [date, dramaList] of Object.entries(DRAMA_ANALYSIS_ITEMS)) {
   const filePath = path.join(TARGET_DIR, `${date}.md`);
   if (!fs.existsSync(filePath)) continue;
 
@@ -194,18 +144,15 @@ for (const [date, dramaList] of Object.entries(DRAMA_ITEMS)) {
   if (!match) continue;
 
   const frontmatter = yaml.load(match[1]);
-  const existingItems = frontmatter.items || [];
+  let existingItems = frontmatter.items || [];
 
-  // Filter out any duplicates if already present
-  const existingUrls = new Set(existingItems.map((i) => i.url));
-  const newItemsToAdd = dramaList.filter((d) => !existingUrls.has(d.url));
+  // Remove any old drama items that were tool homepages
+  existingItems = existingItems.filter((i) => i.category !== 'AI 漫剧');
 
-  // Insert drama items near the top (right after the pinned item)
-  if (newItemsToAdd.length > 0) {
-    const pinnedIdx = existingItems.findIndex((i) => i.pinned);
-    const insertPos = pinnedIdx >= 0 ? pinnedIdx + 1 : 0;
-    existingItems.splice(insertPos, 0, ...newItemsToAdd);
-  }
+  // Insert real analysis drama items at position 1 (right after pinned item)
+  const pinnedIdx = existingItems.findIndex((i) => i.pinned);
+  const insertPos = pinnedIdx >= 0 ? pinnedIdx + 1 : 0;
+  existingItems.splice(insertPos, 0, ...dramaList);
 
   frontmatter.items = existingItems;
 
@@ -216,5 +163,5 @@ ${yaml.dump(frontmatter, { lineWidth: -1 })}---
 `;
 
   fs.writeFileSync(filePath, newContent, 'utf8');
-  console.log(`✅ Injected ${newItemsToAdd.length} AI 漫剧 items into ${date}.md (Total items: ${existingItems.length})`);
+  console.log(`✅ Injected ${dramaList.length} deep AI 漫剧 analysis articles into ${date}.md (Total items: ${existingItems.length})`);
 }
