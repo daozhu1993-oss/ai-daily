@@ -28,32 +28,8 @@ const { community } = features;
     <!-- Bio Statement -->
     <div class="space-y-3">
       <p class="text-xs sm:text-[13px] text-zinc-700 dark:text-zinc-300 leading-relaxed font-normal">
-        我是{author.name}，{author.role}，正在尝试用故事思维驱动各种「杂七杂八」的产品。
-        <a
-          href={author.personalSite}
-          target="_blank"
-          rel="noopener noreferrer"
-          class="underline underline-offset-4 decoration-zinc-400 hover:decoration-indigo-600 dark:decoration-zinc-600 dark:hover:decoration-indigo-400 text-zinc-900 dark:text-white font-medium ml-1 transition-colors"
-        >
-          查看更多
-        </a>
+        我是{author.name}，{author.role}，致力于全网高密度策展前沿 AI、独立产品与设计美学，用故事思维驱动用户价值。
       </p>
-
-      <!-- Featured Portfolio Works (Underlined Style from Screenshot) -->
-      <div class="flex flex-col space-y-2 pt-1 text-xs sm:text-[13px]">
-        {
-          author.featuredWorks.map((work) => (
-            <a
-              href={work.href}
-              target="_blank"
-              rel="noopener noreferrer"
-              class="text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-100 underline underline-offset-4 decoration-zinc-300 dark:decoration-zinc-700 hover:decoration-indigo-500 transition-colors w-fit"
-            >
-              {work.title}
-            </a>
-          ))
-        }
-      </div>
     </div>
 
     <!-- Issue Date Timeline Switcher -->

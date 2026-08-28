@@ -77,21 +77,8 @@ export const siteConfig: SiteConfig = {
     name: '岛主',
     role: '产品人',
     bio: '干过十年编剧，后来转去做产品经理，擅长用故事思维驱动各种「杂七杂八」的产品。',
-    personalSite: 'https://daozhu1993-oss.github.io/v2/',
-    featuredWorks: [
-      {
-        title: '《风物中国》AIGC 纪录片',
-        href: 'https://daozhu1993-oss.github.io/fengwu/index.html',
-      },
-      {
-        title: '230 颗思维模型图鉴',
-        href: 'https://daozhu1993-oss.github.io/models/index.html',
-      },
-      {
-        title: '31 本给女儿的成长绘本',
-        href: 'https://daozhu1993-oss.github.io/picturebook/index.html',
-      },
-    ],
+    personalSite: 'https://daozhu-ai-daily.daozhu1993.workers.dev',
+    featuredWorks: [],
     social: {
       x: 'https://x.com',
       github: 'https://github.com/daozhu1993-oss',
