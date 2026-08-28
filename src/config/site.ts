@@ -98,7 +98,7 @@ export const siteConfig: SiteConfig = {
       email: 'mailto:contact@example.com',
     },
   },
-  url: 'https://daozhu-daily.pages.dev',
+  url: 'https://daozhu-ai-daily.daozhu1993.workers.dev',
   lang: 'zh-CN',
   features: {
     newsletter: {

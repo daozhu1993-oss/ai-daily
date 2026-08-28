@@ -1,4 +1,4 @@
-name = "daozhu-daily"
+name = "daozhu-ai-daily"
 compatibility_date = "2024-11-01"
 compatibility_flags = ["nodejs_compat"]
 
@@ -8,4 +8,4 @@ directory = "./dist"
 pages_build_output_dir = "dist"
 
 [vars]
-SITE_URL = "https://daozhu-daily.pages.dev"
+SITE_URL = "https://daozhu-ai-daily.daozhu1993.workers.dev"
