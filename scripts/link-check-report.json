@@ -2,212 +2,212 @@
   "valid": [
     {
       "file": "2026-08-26.md",
-      "title": "Cloudflare Workers 全球边缘计算：零服务器运维运行现代 Web 应用",
-      "line": 60,
-      "url": "https://developers.cloudflare.com/workers/",
+      "title": "端侧小模型架构优化研究：3B 权重在本地设备上的极速推理突破",
+      "line": 46,
+      "url": "https://arxiv.org/abs/2403.09629",
       "status": 200
     },
     {
       "file": "2026-08-26.md",
-      "title": "Ollama 本地大模型运行平台：在本地设备上极速部署开源模型",
-      "line": 42,
-      "url": "https://ollama.com",
+      "title": "Framer Motion：React 生产级声明式微动效与弹簧物理交互引擎",
+      "line": 96,
+      "url": "https://motion.dev/docs/spring",
       "status": 200
     },
     {
       "file": "2026-08-26.md",
-      "title": "Framer Motion：React 生产级声明式微动效与手势交互引擎",
-      "line": 87,
-      "url": "https://motion.dev",
+      "title": "Stripe Billing 全球订阅计费最佳实践：独立产品 48 小时搭建合规收费管道",
+      "line": 56,
+      "url": "https://stripe.com/billing",
       "status": 200
     },
     {
       "file": "2026-08-26.md",
-      "title": "Linear Method 设计哲学：从极速响应与键盘流中打造专业级体验",
-      "line": 15,
-      "url": "https://linear.app/method",
-      "status": 200
-    },
-    {
-      "file": "2026-08-26.md",
-      "title": "Cursor 智能代码编辑器：自然语言驱动的上下文感知与智能补全",
-      "line": 69,
-      "url": "https://cursor.com",
-      "status": 200
-    },
-    {
-      "file": "2026-08-26.md",
-      "title": "OpenAI Whisper 语音识别模型：开源高精度多语种转写标杆",
-      "line": 33,
+      "title": "OpenAI Whisper 语音模型发布报告：开源高精度多语种转写与翻译标杆",
+      "line": 36,
       "url": "https://openai.com/index/whisper/",
       "status": 200
     },
     {
       "file": "2026-08-26.md",
-      "title": "Smashing Magazine 交互设计专栏：AI 产品的错误容忍与优雅纠错",
-      "line": 24,
-      "url": "https://www.smashingmagazine.com/category/design/",
-      "status": 200
-    },
-    {
-      "file": "2026-08-26.md",
-      "title": "Suno AI：音乐编曲与配乐生成工具",
-      "line": 96,
+      "title": "Suno AI 音乐生成与声场设计：漫剧电影级背景原声带（OST）制作指南",
+      "line": 106,
       "url": "https://suno.com",
       "status": 200
     },
     {
       "file": "2026-08-26.md",
+      "title": "Linear Method 设计哲学：从 100ms 极速响应与纯粹键盘流中打造专业级体验",
+      "line": 16,
+      "url": "https://linear.app/method",
+      "status": 200
+    },
+    {
+      "file": "2026-08-26.md",
       "title": "Fonts In Use 字体排印档案库：在屏幕上呈现印刷品般的呼吸感",
-      "line": 78,
+      "line": 86,
       "url": "https://fontsinuse.com",
       "status": 200
     },
     {
       "file": "2026-08-26.md",
-      "title": "Stripe Billing 全球订阅收费集成：快速搭建合规的计费管道",
-      "line": 51,
-      "url": "https://stripe.com/billing",
+      "title": "Smashing Magazine 交互设计专栏：AI 产品的容错设计与优雅纠错机制",
+      "line": 26,
+      "url": "https://smashingmagazine.com/category/design/",
+      "status": 200
+    },
+    {
+      "file": "2026-08-26.md",
+      "title": "Cloudflare Workers 全球边缘架构：零固定服务器成本运转现代 Web 应用",
+      "line": 66,
+      "url": "https://developers.cloudflare.com/workers/",
+      "status": 200
+    },
+    {
+      "file": "2026-08-26.md",
+      "title": "Anthropic Computer Use 计算机控制技术报告：让智能体直接操作桌面软件",
+      "line": 76,
+      "url": "https://www.anthropic.com/news/3-5-models-and-computer-use",
       "status": 200
     },
     {
       "file": "2026-08-27.md",
-      "title": "OpenAI o1 强化学习与慢思考推理模型原理解析",
-      "line": 33,
+      "title": "OpenAI o1 强化学习与「慢思考」原理解析：大模型推理范式的划时代突破",
+      "line": 36,
       "url": "https://openai.com/index/learning-to-reason-with-llms/",
       "status": 200
     },
     {
       "file": "2026-08-27.md",
-      "title": "Indie Hackers 公开构建（Build in Public）实战：用真实性驱动早期用户信任",
-      "line": 15,
+      "title": "Indie Hackers 公开构建（Build in Public）深度实战：用真诚与透明撬动冷启动增长",
+      "line": 16,
       "url": "https://www.indiehackers.com",
       "status": 200
     },
     {
       "file": "2026-08-27.md",
-      "title": "Radix UI Primitives：无样式且高无障碍标准的交互原语库",
-      "line": 87,
-      "url": "https://www.radix-ui.com",
-      "status": 200
-    },
-    {
-      "file": "2026-08-27.md",
-      "title": "Dify：开源多智能体工作流编排与大模型应用开发平台",
-      "line": 69,
-      "url": "https://dify.ai",
+      "title": "Radix UI 无障碍设计白皮书：无样式高阶交互原语的前端工程实践",
+      "line": 96,
+      "url": "https://www.radix-ui.com/primitives/docs/overview/accessibility",
       "status": 200
     },
     {
       "file": "2026-08-27.md",
       "title": "PostHog：独立开发者监控全站转化漏斗与录屏分析的一体化平台",
-      "line": 51,
+      "line": 56,
       "url": "https://posthog.com",
       "status": 200
     },
     {
       "file": "2026-08-27.md",
-      "title": "ElevenLabs 语音合成与声音克隆：打造具备戏剧张力的角色配音",
-      "line": 96,
+      "title": "Dify 技术博客：多智能体工作流编排与企业级 RAG 检索管线设计",
+      "line": 76,
+      "url": "https://dify.ai/blog",
+      "status": 200
+    },
+    {
+      "file": "2026-08-27.md",
+      "title": "ElevenLabs 官方声音设计指南：角色情感声线合成与戏剧对白拟真",
+      "line": 106,
       "url": "https://elevenlabs.io",
       "status": 200
     },
     {
       "file": "2026-08-27.md",
-      "title": "LangChain 框架演进：从线性 Chain 到 LangGraph 图状态机编排",
-      "line": 78,
-      "url": "https://www.langchain.com",
-      "status": 200
-    },
-    {
-      "file": "2026-08-27.md",
-      "title": "Cal.com 开源日程基础设施：搭建全自动付费咨询与预约系统",
-      "line": 60,
+      "title": "Cal.com 开源日程基础设施：搭建全自动付费咨询与预约变现系统",
+      "line": 66,
       "url": "https://cal.com",
       "status": 200
     },
     {
       "file": "2026-08-27.md",
-      "title": "Marketing Examples：顶级增长案例与高转化文案落地页拆解",
-      "line": 24,
+      "title": "Marketing Examples：全球顶级增长案例与高转化文案落地页深度拆解",
+      "line": 26,
       "url": "https://marketingexamples.com",
       "status": 200
     },
     {
       "file": "2026-08-27.md",
-      "title": "Figure 人形机器人实战：搭载多模态大模型实现端到端物理操作",
-      "line": 42,
+      "title": "Figure 人形机器人实战：搭载多模态大模型实现端到端物理交互操作",
+      "line": 46,
       "url": "https://figure.ai",
       "status": 200
     },
     {
-      "file": "2026-08-28.md",
-      "title": "Shadcn UI 组件系统：复制粘贴即用的现代前端设计语言标杆",
-      "line": 69,
-      "url": "https://ui.shadcn.com",
+      "file": "2026-08-27.md",
+      "title": "LangChain 官方技术专栏：从单向链式调用到 LangGraph 图状态机编排",
+      "line": 86,
+      "url": "https://blog.langchain.dev",
       "status": 200
     },
     {
       "file": "2026-08-28.md",
-      "title": "Dub.co 链接中枢：独立开发者如何打造百万 ARR 的企业级短链基础设施",
-      "line": 42,
-      "url": "https://dub.co",
+      "title": "DeepSeek-V3 架构发布：MoE 稀疏激活与低成本训练范式引发全球热议",
+      "line": 36,
+      "url": "https://arxiv.org/abs/2412.19437",
       "status": 200
     },
     {
       "file": "2026-08-28.md",
-      "title": "Supabase 全栈云底座：单人快速构建生产级数据库与鉴权体系",
-      "line": 51,
-      "url": "https://supabase.com",
-      "status": 200
-    },
-    {
-      "file": "2026-08-28.md",
-      "title": "Anthropic 正式推出 Model Context Protocol (MCP)：大模型与工具生态的通用连接协议",
-      "line": 15,
+      "title": "Anthropic 正式开源 Model Context Protocol (MCP)：大模型与工具生态的通用连接协议",
+      "line": 16,
       "url": "https://www.anthropic.com/news/model-context-protocol",
       "status": 200
     },
     {
       "file": "2026-08-28.md",
-      "title": "Anthropic 发布 Claude 3.5 Sonnet：长周期推理与编码能力实现重大升级",
-      "line": 24,
-      "url": "https://www.anthropic.com/news/claude-3-5-sonnet",
+      "title": "Supabase 全栈无服务器架构：一人团队 48 小时构建生产级应用",
+      "line": 56,
+      "url": "https://supabase.com",
       "status": 200
     },
     {
       "file": "2026-08-28.md",
-      "title": "Tldraw 可视化白板引擎：AI 时代意图画布与图形化交互新范式",
-      "line": 60,
-      "url": "https://www.tldraw.com",
+      "title": "Shadcn UI 设计系统演进：无依赖、可复制的前端组件如何统一现代 Web 审美",
+      "line": 76,
+      "url": "https://ui.shadcn.com",
       "status": 200
     },
     {
       "file": "2026-08-28.md",
-      "title": "Google 搜索引擎官方指南：生成式搜索时代的内容结构化标准",
-      "line": 87,
+      "title": "Tldraw 可视化白板交互革命：AI 时代意图画布（Intent Canvas）新范式",
+      "line": 66,
+      "url": "https://tldraw.dev",
+      "status": 200
+    },
+    {
+      "file": "2026-08-28.md",
+      "title": "Dub.co 产品成长复盘：独立开发者如何打造百万 ARR 的企业级短链基础设施",
+      "line": 46,
+      "url": "https://dub.co/blog/introducing-dub",
+      "status": 200
+    },
+    {
+      "file": "2026-08-28.md",
+      "title": "Google SEO 官方开发者指南：生成式 AI 搜索时代的内容结构化标准",
+      "line": 96,
       "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
       "status": 200
     },
     {
       "file": "2026-08-28.md",
-      "title": "Type Scale 字体比例阶梯：打造呼吸感与高易读性的排版比例工具",
-      "line": 78,
-      "url": "https://typescale.com",
+      "title": "现代 Web 流体排版法则：用 CSS clamp() 与模块化字阶打造自适应呼吸感",
+      "line": 86,
+      "url": "https://css-tricks.com/simplified-fluid-typography/",
       "status": 200
     },
     {
       "file": "2026-08-28.md",
-      "title": "Runway 视频生成与镜头控制：从文本提示词到影视级摄影运镜",
-      "line": 96,
-      "url": "https://runwayml.com",
+      "title": "Anthropic 发布 Claude 3.5 Sonnet：长周期推理与编码能力实现重大跃迁",
+      "line": 26,
+      "url": "https://www.anthropic.com/news/claude-3-5-sonnet",
       "status": 200
     },
     {
       "file": "2026-08-28.md",
-      "title": "Google DeepMind 探索 Gemini 原生超长上下文与多模态交互",
-      "line": 33,
-      "url": "https://deepmind.google/technologies/gemini/",
+      "title": "Runway Gen-3 视频生成研究：电影级摄影机运镜与光影控制深度拆解",
+      "line": 106,
+      "url": "https://runwayml.com/research",
       "status": 200
     }
   ],
