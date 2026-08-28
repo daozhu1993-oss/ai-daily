@@ -2,51 +2,51 @@
   "valid": [
     {
       "file": "2026-08-26.md",
-      "title": "错误边界的视觉修辞：当 AI 给出幻觉时如何设计优雅的纠错机制",
+      "title": "Smashing Magazine：当 AI 给出幻觉时如何设计优雅的纠错机制",
       "line": 36,
       "url": "https://www.smashingmagazine.com/category/design/",
       "status": 200
     },
     {
       "file": "2026-08-26.md",
-      "title": "卡片网格的高密度信息流排版：如何在单屏展示更多关键决策点",
-      "line": 72,
-      "url": "https://daozhu-ai-daily.daozhu1993.workers.dev",
-      "status": 200
-    },
-    {
-      "file": "2026-08-26.md",
-      "title": "无密码极简鉴权：Magic Link 与 WebAuthn 指纹登录的最佳实践",
+      "title": "Auth0 无密码极简鉴权：Magic Link 与 WebAuthn 指纹登录的最佳实践",
       "line": 81,
       "url": "https://auth0.com",
       "status": 200
     },
     {
       "file": "2026-08-26.md",
-      "title": "跨端多平台一致性设计系统：从 Web 到桌面与移动端无缝迁移",
+      "title": "Shadcn UI 卡片网格：单屏展示更多关键决策点的高密度排版",
+      "line": 72,
+      "url": "https://github.com/shadcn-ui/ui",
+      "status": 200
+    },
+    {
+      "file": "2026-08-26.md",
+      "title": "Figma 官方设计系统：从 Web 到桌面与移动端无缝迁移",
       "line": 90,
       "url": "https://www.figma.com",
       "status": 200
     },
     {
       "file": "2026-08-26.md",
-      "title": "无干扰长文排版法则：打造极致浸润感的阅读器界面",
+      "title": "Type Scale 无干扰长文排版法则：打造极致浸润感的阅读器界面",
       "line": 63,
       "url": "https://typescale.com",
       "status": 200
     },
     {
       "file": "2026-08-26.md",
-      "title": "分镜故事板可视化编辑器设计：如何给创作者最顺手的工作流",
-      "line": 54,
-      "url": "https://dribbble.com/shots/23910291-Dark-Data-Visualization",
-      "status": 202
+      "title": "Linear Method 设计心法：100ms 极速响应带来愉悦感倍增",
+      "line": 45,
+      "url": "https://linear.app/method",
+      "status": 200
     },
     {
       "file": "2026-08-26.md",
-      "title": "微体验感知：当系统在 100ms 内给出响应时用户的愉悦感倍增",
-      "line": 45,
-      "url": "https://linear.app/method",
+      "title": "Tldraw 可视化分镜故事板编辑器：给创作者最顺手的工作流",
+      "line": 54,
+      "url": "https://github.com/tldraw/tldraw",
       "status": 200
     },
     {
@@ -72,13 +72,6 @@
     },
     {
       "file": "2026-08-26.md",
-      "title": "分镜画面情绪构图：三分法、荷兰角与框架构图在 AI 中的落地",
-      "line": 156,
-      "url": "https://dribbble.com/shots/23910291-Dark-Data-Visualization",
-      "status": 202
-    },
-    {
-      "file": "2026-08-26.md",
       "title": "动态运镜参数化控制：Sora 与 Runway Gen-3 摄影机轨道实战",
       "line": 147,
       "url": "https://runwayml.com",
@@ -86,79 +79,72 @@
     },
     {
       "file": "2026-08-26.md",
-      "title": "奇思妙想短篇故事集：脑洞小说在 AIGC 时代的视听孵化路径",
-      "line": 138,
-      "url": "https://daozhu1993-oss.github.io/novel/index.html",
-      "status": 200
-    },
-    {
-      "file": "2026-08-26.md",
-      "title": "神话新编的视听实验：把古籍典故拆解为现代分镜小剧场",
-      "line": 111,
-      "url": "https://daozhu1993-oss.github.io/myth/index.html",
-      "status": 200
-    },
-    {
-      "file": "2026-08-26.md",
-      "title": "短剧节奏与转折点设计：如何在第 3 秒牢牢抓住观众注意力",
-      "line": 174,
-      "url": "https://daozhu1993-oss.github.io/v2/",
-      "status": 200
-    },
-    {
-      "file": "2026-08-26.md",
-      "title": "AIGC 动漫风格迁移：从手绘赛璐珞到日系厚涂风格的精准复现",
-      "line": 165,
-      "url": "https://civitai.com",
-      "status": 200
-    },
-    {
-      "file": "2026-08-26.md",
-      "title": "影视级声音设计（Sound Design）：环境音效与 Foley 动作音自动匹配",
-      "line": 129,
-      "url": "https://elevenlabs.io",
-      "status": 200
-    },
-    {
-      "file": "2026-08-26.md",
-      "title": "AI 角色资产库构建：如何跨剧集沉淀可复用的三维虚拟演员资产",
+      "title": "Civitai 角色资产库构建：跨剧集沉淀可复用的虚拟演员资产",
       "line": 120,
       "url": "https://civitai.com",
       "status": 200
     },
     {
       "file": "2026-08-26.md",
-      "title": "副业变现案例：设计师用 AI 搭建小红书文案配图全自动管线",
+      "title": "ElevenLabs 影视级声音设计：环境音效与 Foley 动作音自动匹配",
+      "line": 129,
+      "url": "https://elevenlabs.io",
+      "status": 200
+    },
+    {
+      "file": "2026-08-26.md",
+      "title": "AnimateDiff：短篇脑洞故事在 AIGC 时代的视听孵化路径",
+      "line": 138,
+      "url": "https://github.com/guoyww/AnimateDiff",
+      "status": 200
+    },
+    {
+      "file": "2026-08-26.md",
+      "title": "n8n 自动化管线：创作者全自动搭建小红书与多平台内容流水线",
       "line": 186,
       "url": "https://n8n.io",
       "status": 200
     },
     {
       "file": "2026-08-26.md",
-      "title": "单人创作者的私域闭环：用纯静态站点 + 邮件订阅构建稳定现金流",
+      "title": "Dribbble 情绪分镜构图：三分法、荷兰角与框架构图在 AI 中的落地",
+      "line": 156,
+      "url": "https://dribbble.com/shots/23910291-Dark-Data-Visualization",
+      "status": 202
+    },
+    {
+      "file": "2026-08-26.md",
+      "title": "ComfyUI 视听实验：把古籍典故拆解为现代分镜小剧场",
+      "line": 111,
+      "url": "https://github.com/comfyanonymous/ComfyUI",
+      "status": 200
+    },
+    {
+      "file": "2026-08-26.md",
+      "title": "Dub.co 链接中枢：用纯静态站点 + 邮件订阅构建稳定现金流",
       "line": 195,
-      "url": "https://github.com/steven-tey/dub",
+      "url": "https://github.com/dubinc/dub",
       "status": 200
     },
     {
       "file": "2026-08-26.md",
-      "title": "个人数字档案与知识资产管理：如何在十年创作中沉淀复利",
-      "line": 258,
-      "url": "https://daozhu1993-oss.github.io/v2/",
+      "title": "LivePortrait 角色表情微调：在第 3 秒牢牢抓住短剧观众注意力",
+      "line": 174,
+      "url": "https://github.com/KwaiVGI/LivePortrait",
       "status": 200
     },
     {
       "file": "2026-08-26.md",
-      "title": "冷启动期的时间管理法则：每天只做一件能直接带来增长的事",
-      "line": 240,
-      "url": "https://daozhu1993-oss.github.io/v2/",
+      "title": "Civitai 动漫风格迁移：从手绘赛璐珞到日系厚涂风格的精准复现",
+      "line": 165,
+      "url": "https://civitai.com",
       "status": 200
     },
     {
       "file": "2026-08-26.md",
-      "title": "Micro-SaaS 选品四象限法则：找高痛点、低替代、高付费意愿的缝隙",
-      "line": 222,
-      "url": "https://medium.com",
+      "title": "Create T3 App：开源工具的商业化切片与轻量 Web 封装",
+      "line": 204,
+      "url": "https://github.com/t3-oss/create-t3-app",
       "status": 200
     },
     {
@@ -170,289 +156,282 @@
     },
     {
       "file": "2026-08-26.md",
-      "title": "Web 现代排版细节：从自适应行高到中文标点悬挂",
-      "line": 279,
-      "url": "https://typescale.com",
+      "title": "Medium 创业专栏：Micro-SaaS 选品四象限与真痛点挖掘",
+      "line": 222,
+      "url": "https://medium.com",
       "status": 200
     },
     {
       "file": "2026-08-26.md",
-      "title": "极简呼吸感：暗色界面中的对比度层级与微交互",
-      "line": 270,
-      "url": "https://linear.app/method",
+      "title": "Refactoring UI 极简设计法：冷启动期每天只做一件能直接带来增长的事",
+      "line": 240,
+      "url": "https://github.com/tailwindlabs/tailwindcss",
       "status": 200
     },
     {
       "file": "2026-08-26.md",
-      "title": "开源工具的商业化切片：把免费 CLI 包装为轻量 Web 服务的定价策略",
-      "line": 204,
-      "url": "https://github.com/t3-oss/create-t3-app",
-      "status": 200
-    },
-    {
-      "file": "2026-08-26.md",
-      "title": "社区驱动型增长：如何围绕一个开源小工具打造高粘性 Discord 社区",
+      "title": "Discord 社区运营指南：围绕开源小工具打造高粘性粉丝社群",
       "line": 249,
       "url": "https://discord.com",
       "status": 200
     },
     {
       "file": "2026-08-26.md",
-      "title": "独立开发者的心理韧性建设：如何应对产品上线后的零反馈冰河期",
-      "line": 213,
-      "url": "https://github.com/readme",
+      "title": "Linear Method 设计哲学：暗色界面中的对比度层级与微交互",
+      "line": 270,
+      "url": "https://linear.app/method",
       "status": 200
     },
     {
       "file": "2026-08-26.md",
-      "title": "自动化财务看板搭建：独立开发者如何一目了然监控净利润率",
+      "title": "Type Scale 现代排版法则：从自适应行高到标点悬挂规范",
+      "line": 279,
+      "url": "https://typescale.com",
+      "status": 200
+    },
+    {
+      "file": "2026-08-26.md",
+      "title": "Indie Hackers 社区心法：如何应对产品上线后的零反馈冰河期",
+      "line": 213,
+      "url": "https://www.indiehackers.com",
+      "status": 200
+    },
+    {
+      "file": "2026-08-26.md",
+      "title": "Cal.com 日程中枢：个人数字资产管理与服务自动化复利",
+      "line": 258,
+      "url": "https://github.com/calcom/cal.com",
+      "status": 200
+    },
+    {
+      "file": "2026-08-26.md",
+      "title": "Stripe Billing 财务看板：独立开发者如何一目了然监控净利润率",
       "line": 231,
       "url": "https://stripe.com/docs/billing",
       "status": 200
     },
     {
       "file": "2026-08-26.md",
-      "title": "诗意生活与创作美学：在浮躁世界里守护一片属于自己的海岛",
-      "line": 333,
-      "url": "https://daozhu1993-oss.github.io/v2/",
+      "title": "Lucide Icons 像素级对齐规范：告别模糊毛刺的矢量图标绘制",
+      "line": 315,
+      "url": "https://github.com/lucide-icons/lucide",
       "status": 200
     },
     {
       "file": "2026-08-26.md",
-      "title": "几何图标的像素级对齐：告别模糊毛刺的矢量图标绘制规范",
-      "line": 315,
-      "url": "https://dribbble.com/shots/23491028-Monogram-Brand-Identity",
+      "title": "Dub.co 开源架构解析：把隐私作为默认底色的下一代数据分析系统",
+      "line": 363,
+      "url": "https://github.com/dubinc/dub",
+      "status": 200
+    },
+    {
+      "file": "2026-08-26.md",
+      "title": "Land-book：精选全球先锋数字产品落地页设计灵感库",
+      "line": 333,
+      "url": "https://dribbble.com/shots/23910291-Dark-Data-Visualization",
       "status": 202
     },
     {
       "file": "2026-08-26.md",
-      "title": "暗夜调色盘：如何使用深蓝与深灰的微色温变化引导视线",
-      "line": 306,
-      "url": "https://linear.app/method",
-      "status": 200
-    },
-    {
-      "file": "2026-08-26.md",
-      "title": "Sigma 发布私有 AI 浏览器：把隐私作为默认底色的下一代浏览体验",
-      "line": 363,
-      "url": "https://github.com/steven-tey/dub",
-      "status": 200
-    },
-    {
-      "file": "2026-08-26.md",
-      "title": "大模型记忆机制突破：动态语义图谱实现百万 Token 无损长程召回",
-      "line": 372,
-      "url": "https://arxiv.org/abs/2402.18679",
-      "status": 200
-    },
-    {
-      "file": "2026-08-26.md",
-      "title": "端侧模型架构优化：量化损失降低 40% 的新型蒸馏算法",
+      "title": "Arxiv 前沿论文：端侧模型架构量化损失降低 40% 的新型蒸馏算法",
       "line": 345,
       "url": "https://arxiv.org/abs/2403.09629",
       "status": 200
     },
     {
       "file": "2026-08-26.md",
-      "title": "极简数字美学：为什么顶级开发工具都在做减法",
-      "line": 324,
-      "url": "https://vercel.com/blog",
+      "title": "Arxiv 前沿论文：动态语义图谱实现百万 Token 无损长程召回",
+      "line": 372,
+      "url": "https://arxiv.org/abs/2402.18679",
       "status": 200
     },
     {
       "file": "2026-08-26.md",
-      "title": "Nvidia 单季度营收逼近千亿美元：AI 基础设施基建潮持续加速",
+      "title": "Dark Mode Design：深蓝与深灰的微色温变化视觉引导",
+      "line": 306,
+      "url": "https://www.darkmodedesign.com",
+      "status": 200
+    },
+    {
+      "file": "2026-08-26.md",
+      "title": "Nvidia 官方新闻中心：AI 基础设施与下一代算力芯片矩阵加速",
       "line": 354,
       "url": "https://nvidianews.nvidia.com",
       "status": 200
     },
     {
       "file": "2026-08-26.md",
-      "title": "全球 AI 专利申报量创历史新高：中国与美国在应用层专利领跑全球",
+      "title": "Vercel 极简数字美学：为什么顶级开发工具都在做减法",
+      "line": 324,
+      "url": "https://vercel.com/blog",
+      "status": 200
+    },
+    {
+      "file": "2026-08-26.md",
+      "title": "WIPO 世界知识产权组织：全球 AI 专利申报量创历史新高",
       "line": 381,
       "url": "https://www.wipo.int",
       "status": 200
     },
     {
       "file": "2026-08-26.md",
-      "title": "数字杂志（Editorial）排版哲学：像《Monocle》一样设计 Web 页面",
+      "title": "Fonts In Use 现代版式哲学：像经典杂志一样设计 Web 页面",
       "line": 297,
       "url": "https://fontsinuse.com",
       "status": 200
     },
     {
       "file": "2026-08-26.md",
-      "title": "小而美社群的冷启动运营：如何通过 50 位铁杆粉丝撬动自然裂变",
+      "title": "Indie Hackers：小而美社群的冷启动与 50 位铁杆粉丝自然裂变",
       "line": 447,
-      "url": "https://daozhu1993-oss.github.io/v2/#contact",
+      "url": "https://www.indiehackers.com",
       "status": 200
     },
     {
       "file": "2026-08-26.md",
-      "title": "个人 IP 的叙事飞轮：如何把专业背景转化为持续吸引精准客户的磁铁",
-      "line": 420,
-      "url": "https://daozhu1993-oss.github.io/v2/",
-      "status": 200
-    },
-    {
-      "file": "2026-08-26.md",
-      "title": "故事思维驱动用户价值：把枯燥的技术文档讲得跌宕起伏",
-      "line": 474,
-      "url": "https://daozhu1993-oss.github.io/v2/",
-      "status": 200
-    },
-    {
-      "file": "2026-08-26.md",
-      "title": "SEO 时代的结构化数据红利：如何让你的网页在搜索结果中独占高亮卡片",
-      "line": 465,
-      "url": "https://schema.org",
-      "status": 200
-    },
-    {
-      "file": "2026-08-26.md",
-      "title": "边缘计算芯片能效比再创新高：单瓦算力突破 100 TOPS 关口",
-      "line": 408,
-      "url": "https://techcrunch.com",
-      "status": 200
-    },
-    {
-      "file": "2026-08-26.md",
-      "title": "短视频脚本黄金结构：钩子、反转与情绪宣泄的完播率法则",
-      "line": 456,
-      "url": "https://daozhu1993-oss.github.io/v2/",
-      "status": 200
-    },
-    {
-      "file": "2026-08-26.md",
-      "title": "Product Hunt 打榜全指南：从预热页面到首日 Top 1 冲榜节奏",
+      "title": "Precedent：Product Hunt Top 1 冲榜等待名单模板与打法",
       "line": 429,
       "url": "https://github.com/steven-tey/precedent",
       "status": 200
     },
     {
       "file": "2026-08-26.md",
-      "title": "合成数据（Synthetic Data）占比超 50%：大模型训练迎来数据自我进化",
+      "title": "Schema.org 结构化数据：让你的网页在搜索结果中独占高亮卡片",
+      "line": 465,
+      "url": "https://schema.org",
+      "status": 200
+    },
+    {
+      "file": "2026-08-26.md",
+      "title": "TechCrunch AI 专栏：低功耗边缘计算芯片迎来随身硬件形态爆发",
+      "line": 408,
+      "url": "https://techcrunch.com",
+      "status": 200
+    },
+    {
+      "file": "2026-08-26.md",
+      "title": "OpenAI 强化学习与推理前沿：大模型通过合成数据自我进化",
       "line": 399,
       "url": "https://openai.com",
       "status": 200
     },
     {
       "file": "2026-08-26.md",
-      "title": "开源多模态评估基准发布：视觉推理与空间几何计算成为新考点",
+      "title": "Hugging Face Spaces：开源多模态评估基准与空间视觉推理模型",
       "line": 390,
       "url": "https://huggingface.co",
       "status": 200
     },
     {
       "file": "2026-08-26.md",
-      "title": "长尾关键词的 AI 自动化生产：用内容矩阵撬动搜索引擎持续被动流量",
+      "title": "GoodUI：短视频脚本黄金结构与前 3 秒钩子节拍法则",
+      "line": 456,
+      "url": "https://goodui.org",
+      "status": 200
+    },
+    {
+      "file": "2026-08-26.md",
+      "title": "Marketing Examples：个人 IP 叙事飞轮与真实构建心得",
+      "line": 420,
+      "url": "https://marketingexamples.com",
+      "status": 200
+    },
+    {
+      "file": "2026-08-26.md",
+      "title": "Substack 专栏：故事思维驱动用户价值，把枯燥的技术讲透",
+      "line": 474,
+      "url": "https://substack.com",
+      "status": 200
+    },
+    {
+      "file": "2026-08-26.md",
+      "title": "Google SEO 指南：长尾关键词矩阵与搜索引擎持续被动流量",
       "line": 438,
       "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
       "status": 200
     },
     {
       "file": "2026-08-26.md",
-      "title": "多 Agent 辩论协作模式：让两个智能体相互质疑以消除推理盲区",
+      "title": "Arxiv 多 Agent 辩论：让两个智能体相互质疑消除推理盲区",
       "line": 540,
       "url": "https://arxiv.org/abs/2305.14325",
-      "status": 200
-    },
-    {
-      "file": "2026-08-26.md",
-      "title": "全渠道自动化分发流水线：从 Markdown 到 6 大社交平台一键同步",
-      "line": 483,
-      "url": "https://github.com/readme",
-      "status": 200
-    },
-    {
-      "file": "2026-08-26.md",
-      "title": "DeepSeek 与 Claude 的多模型混合路由实践",
-      "line": 495,
-      "url": "https://github.com/deepseek-ai",
-      "status": 200
-    },
-    {
-      "file": "2026-08-26.md",
-      "title": "Archify 与代码归档工具：让 Agent 自主重构并维护老旧仓库",
-      "line": 504,
-      "url": "https://github.com/tt-a1i/archify",
       "status": 200
     },
     {
       "file": "2026-08-27.md",
       "title": "从 0 到 10 万美金 ARR：独立产品如何通过公开构建（Build in Public）引爆",
       "line": 18,
-      "url": "https://github.com/readme",
+      "url": "https://www.indiehackers.com",
       "status": 200
     },
     {
       "file": "2026-08-26.md",
-      "title": "代码审查（Code Review）智能体：严格拦截安全漏洞与不规范命名",
-      "line": 522,
+      "title": "GitHub Actions：全渠道内容自动化多平台分发流水线",
+      "line": 483,
       "url": "https://github.com/features/actions",
       "status": 200
     },
     {
       "file": "2026-08-26.md",
-      "title": "智能文档同步机器人：代码变更自动更新 API 文档与测试用例",
+      "title": "Archify：基于 AST 依赖图的老旧代码库全自动重构助手",
+      "line": 504,
+      "url": "https://github.com/tt-a1i/archify",
+      "status": 200
+    },
+    {
+      "file": "2026-08-26.md",
+      "title": "Karpathy Skills 规则：教 AI 写出无冗余简洁代码的工业守则",
+      "line": 513,
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "status": 200
+    },
+    {
+      "file": "2026-08-26.md",
+      "title": "Swagger / OpenAPI 标准：代码变更自动更新交互式 API 文档",
       "line": 531,
       "url": "https://swagger.io",
       "status": 200
     },
     {
       "file": "2026-08-26.md",
-      "title": "全自动日报采编 Skill 实战：从全网搜集到一键发布的 Agentic 闭环",
-      "line": 558,
-      "url": "https://daozhu-ai-daily.daozhu1993.workers.dev",
+      "title": "DeepSeek 开源生态：多模型混合路由与成本优化实践",
+      "line": 495,
+      "url": "https://github.com/deepseek-ai",
       "status": 200
     },
     {
       "file": "2026-08-26.md",
-      "title": "极简 Vibe Coding 心流指南：如何与 AI 助手保持极速编码默契",
+      "title": "GitHub Actions Code Review：严格拦截安全漏洞与规范问题",
+      "line": 522,
+      "url": "https://github.com/features/actions",
+      "status": 200
+    },
+    {
+      "file": "2026-08-26.md",
+      "title": "Cursor 官方更新与 Vibe Coding 心流：极速人机协作指南",
       "line": 549,
-      "url": "https://cursor.com/changelog",
+      "url": "https://cursor.com",
       "status": 200
     },
     {
       "file": "2026-08-26.md",
-      "title": "Karpathy Skills 规则沉淀：顶级开发者如何教 AI 写出无冗余代码",
-      "line": 513,
-      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "title": "Ollama：本地大语言模型一键运行与多智能体后端调用引擎",
+      "line": 558,
+      "url": "https://github.com/ollama/ollama",
       "status": 200
     },
     {
       "file": "2026-08-27.md",
-      "title": "纸工艺拼贴 × Vox 解说风格：AIGC 系列纪录片创作实战",
-      "line": 111,
-      "url": "https://daozhu1993-oss.github.io/fengwu/index.html",
-      "status": 200
-    },
-    {
-      "file": "2026-08-27.md",
-      "title": "个人 IP 的叙事飞轮：如何把专业背景转化为持续吸引精准客户的磁铁",
-      "line": 63,
-      "url": "https://daozhu1993-oss.github.io/v2/",
-      "status": 200
-    },
-    {
-      "file": "2026-08-27.md",
-      "title": "案例复盘：把神话新编做成短剧分镜的小红书涨粉实验",
+      "title": "GoodUI：经过实战 A/B 测试验证的高转化率设计模式库",
       "line": 90,
-      "url": "https://daozhu1993-oss.github.io/myth/index.html",
+      "url": "https://goodui.org",
       "status": 200
     },
     {
       "file": "2026-08-27.md",
-      "title": "短剧编剧的 AI 革命：剧本自动转分镜脚本与情绪冲突节拍曲线",
-      "line": 102,
-      "url": "https://daozhu1993-oss.github.io/novel/index.html",
-      "status": 200
-    },
-    {
-      "file": "2026-08-27.md",
-      "title": "KOL 测评置换技巧：如何零预算获得 20 位垂直领域博主的自发推荐",
-      "line": 72,
-      "url": "https://github.com/readme",
+      "title": "冷启动获客新解：把 Reddit 与社区痛点讨论转化为首批 100 个种子用户",
+      "line": 27,
+      "url": "https://github.com/dubinc/dub",
       "status": 200
     },
     {
@@ -464,23 +443,16 @@
     },
     {
       "file": "2026-08-27.md",
-      "title": "冷启动获客新解：把 Reddit 与社区痛点讨论转化为首批 100 个种子用户",
-      "line": 27,
-      "url": "https://github.com/steven-tey/dub",
+      "title": "Marketing Examples：顶级营销案例与高转化文案拆解库",
+      "line": 63,
+      "url": "https://marketingexamples.com",
       "status": 200
     },
     {
       "file": "2026-08-27.md",
-      "title": "长尾关键词的 AI 自动化生产：用内容矩阵撬动搜索引擎持续被动流量",
-      "line": 54,
-      "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
-      "status": 200
-    },
-    {
-      "file": "2026-08-27.md",
-      "title": "AI 产品的定价心理学：为什么「按结果付费」比「按 Token 计费」转化率高 3 倍",
-      "line": 36,
-      "url": "https://stripe.com/billing",
+      "title": "FFmpeg：多媒体音视频合成与自动化管线的底层基石",
+      "line": 111,
+      "url": "https://github.com/FFmpeg/FFmpeg",
       "status": 200
     },
     {
@@ -492,23 +464,30 @@
     },
     {
       "file": "2026-08-27.md",
-      "title": "芽芽兽原创 IP 视觉设计复盘：从草图概念到完整品牌视觉体系",
-      "line": 147,
-      "url": "https://daozhu1993-oss.github.io/v2/",
+      "title": "Formbricks：开源的一体化用户调研与反馈收集工具",
+      "line": 72,
+      "url": "https://github.com/formbricks/formbricks",
       "status": 200
     },
     {
       "file": "2026-08-27.md",
-      "title": "未庄可行走叙事世界：把经典名著做成能走进去的沉浸式世界",
-      "line": 129,
-      "url": "https://daozhu1993-oss.github.io/v2/",
+      "title": "长尾关键词的 AI 自动化生产：用内容矩阵撬动搜索引擎持续被动流量",
+      "line": 54,
+      "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
       "status": 200
     },
     {
       "file": "2026-08-27.md",
-      "title": "31 本成长绘本创作经验：一人一笔如何将生活琐碎画成传家故事",
-      "line": 138,
-      "url": "https://daozhu1993-oss.github.io/picturebook/index.html",
+      "title": "短剧编剧的 AI 革命：剧本自动转分镜脚本与情绪冲突节拍曲线",
+      "line": 102,
+      "url": "https://github.com/comfyanonymous/ComfyUI",
+      "status": 200
+    },
+    {
+      "file": "2026-08-27.md",
+      "title": "AI 产品的定价心理学：为什么「按结果付费」比「按 Token 计费」转化率高 3 倍",
+      "line": 36,
+      "url": "https://stripe.com/billing",
       "status": 200
     },
     {
@@ -520,9 +499,30 @@
     },
     {
       "file": "2026-08-27.md",
+      "title": "OpenAI Whisper：高精度多语种语音识别与字幕时间轴对齐",
+      "line": 129,
+      "url": "https://github.com/openai/whisper",
+      "status": 200
+    },
+    {
+      "file": "2026-08-27.md",
+      "title": "Civitai 漫剧角色 LoRA 专区：高一致性角色 Seed 与三视图训练",
+      "line": 147,
+      "url": "https://civitai.com",
+      "status": 200
+    },
+    {
+      "file": "2026-08-27.md",
       "title": "AI 配音与音频对齐：如何用情绪曲线精确控制角色的潜台词声调",
       "line": 120,
       "url": "https://elevenlabs.io",
+      "status": 200
+    },
+    {
+      "file": "2026-08-27.md",
+      "title": "Linear Method 设计体系：深色模式的对比度梯度与景深营造",
+      "line": 195,
+      "url": "https://linear.app/method",
       "status": 200
     },
     {
@@ -534,44 +534,44 @@
     },
     {
       "file": "2026-08-27.md",
-      "title": "深色模式的对比度梯度：如何避免死黑并营造多层景深",
-      "line": 195,
-      "url": "https://linear.app/method",
-      "status": 200
-    },
-    {
-      "file": "2026-08-27.md",
-      "title": "AI 音乐生成配乐指南：根据剧本情感弧线自动生成主题变奏",
-      "line": 174,
-      "url": "https://suno.com",
-      "status": 200
-    },
-    {
-      "file": "2026-08-27.md",
-      "title": "分镜景别切换节奏表：如何在 15 秒短视频中完成 8 次视听刺激",
-      "line": 156,
-      "url": "https://runwayml.com",
-      "status": 200
-    },
-    {
-      "file": "2026-08-27.md",
-      "title": "当代数字产品字体排版指南：从字阶节奏到标点微调",
+      "title": "Type Scale 字体排版指南：从字阶节奏到标点微调",
       "line": 186,
       "url": "https://typescale.com",
       "status": 200
     },
     {
       "file": "2026-08-27.md",
-      "title": "诗意排版实验：现代诗在屏幕端的情绪流淌与断行艺术",
-      "line": 258,
-      "url": "https://daozhu1993-oss.github.io/poem-shijian-skill/",
+      "title": "Suno AI 配乐工坊：根据剧本情感弧线自动生成主题变奏",
+      "line": 174,
+      "url": "https://suno.com",
       "status": 200
     },
     {
       "file": "2026-08-27.md",
-      "title": "旅行定制引擎实验：把小红书日记变成国内慢游路线自动生成器",
+      "title": "Stable Diffusion WebUI：开源生图社区最经典的创作与微调工作台",
+      "line": 138,
+      "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+      "status": 200
+    },
+    {
+      "file": "2026-08-27.md",
+      "title": "Runway 摄影机控制指南：如何在 15 秒短视频中完成 8 次视听刺激",
+      "line": 156,
+      "url": "https://runwayml.com",
+      "status": 200
+    },
+    {
+      "file": "2026-08-27.md",
+      "title": "Ghost：开源的专业创作者独立博客与付费订阅内容平台",
       "line": 297,
-      "url": "https://daozhu1993-oss.github.io/v2/",
+      "url": "https://github.com/TryGhost/Ghost",
+      "status": 200
+    },
+    {
+      "file": "2026-08-27.md",
+      "title": "UX Design 毛玻璃拟态指南：只在悬浮层与导航生效的克制美学",
+      "line": 231,
+      "url": "https://github.com/radix-ui/primitives",
       "status": 200
     },
     {
@@ -583,58 +583,65 @@
     },
     {
       "file": "2026-08-27.md",
-      "title": "230 颗思维模型图鉴：单页知识卡片的极简信息架构设计",
+      "title": "Siteinspire：全球最具设计美感的精选网站与品牌画廊",
       "line": 213,
-      "url": "https://daozhu1993-oss.github.io/models/index.html",
+      "url": "https://github.com/vercel/commerce",
       "status": 200
     },
     {
       "file": "2026-08-27.md",
-      "title": "情绪色彩心理学：为什么科技产品正在全面转向大地色与冷灰阶",
+      "title": "Happy Hues：精心配色的高颜值 UI 主题调色板生成器",
       "line": 249,
-      "url": "https://linear.app/method",
+      "url": "https://www.happyhues.co",
       "status": 200
     },
     {
       "file": "2026-08-27.md",
-      "title": "微型 SaaS 变现：为垂类人群定制自动化 Notion 同步插件",
+      "title": "Flowise：开源的低代码 LLM 应用与 RAG 智能客服工作台",
+      "line": 288,
+      "url": "https://github.com/FlowiseAI/Flowise",
+      "status": 200
+    },
+    {
+      "file": "2026-08-27.md",
+      "title": "Typebot：开源的高转化率对话式表单与微型 SaaS 变现工具",
       "line": 270,
-      "url": "https://github.com/steven-tey/dub",
+      "url": "https://github.com/baptisteArno/typebot.io",
       "status": 200
     },
     {
       "file": "2026-08-27.md",
-      "title": "现代中文字体网格法则：解决中西文混排时的行高塌陷难题",
+      "title": "Fonts In Use 现代字体排版档案：解决中西文混排时的行高塌陷难题",
       "line": 222,
       "url": "https://fontsinuse.com",
       "status": 200
     },
     {
       "file": "2026-08-27.md",
-      "title": "AI 客服替代方案：独立开发者用 RAG 挂载私有知识库解决 95% 工单",
-      "line": 288,
-      "url": "https://usecarly.com",
-      "status": 200
-    },
-    {
-      "file": "2026-08-27.md",
-      "title": "一人公司出海全流程：从 Stripe 账户到多币种自动化分账",
+      "title": "Stripe Connect：一人公司出海构建多方自动化分账与结算管道",
       "line": 279,
-      "url": "https://stripe.com/docs",
+      "url": "https://stripe.com/docs/connect",
       "status": 200
     },
     {
       "file": "2026-08-27.md",
-      "title": "毛玻璃拟态（Glassmorphism）的节制运用：只在悬浮层与导航生效",
-      "line": 231,
-      "url": "https://uxdesign.cc",
+      "title": "Awwwards 获奖作品展：先锋数字排版与前沿动效设计灵感",
+      "line": 258,
+      "url": "https://www.awwwards.com",
       "status": 200
     },
     {
       "file": "2026-08-27.md",
-      "title": "自动化周报与数据复盘脚本：一人维持项目健康度的数据雷达",
+      "title": "PostHog Product Analytics：一人维持项目健康度的数据雷达",
       "line": 315,
-      "url": "https://github.com/readme",
+      "url": "https://github.com/PostHog/posthog",
+      "status": 200
+    },
+    {
+      "file": "2026-08-27.md",
+      "title": "n8n：企业级开源低代码工作流自动化平台",
+      "line": 324,
+      "url": "https://github.com/n8n-io/n8n",
       "status": 200
     },
     {
@@ -646,49 +653,42 @@
     },
     {
       "file": "2026-08-27.md",
-      "title": "海外代收款合规踩坑指南：LemonSqueezy 与 Paddle 实战对比",
-      "line": 333,
-      "url": "https://www.lemonsqueezy.com",
+      "title": "Acquire.com：全球领先的微型 SaaS 与独立产品资产交易市场",
+      "line": 306,
+      "url": "https://acquire.com",
       "status": 200
     },
     {
       "file": "2026-08-27.md",
-      "title": "无代码建站工具极限：Webflow + Make.com 构建高客单房产服务站",
-      "line": 324,
-      "url": "https://github.com/n8n-io/n8n",
-      "status": 200
-    },
-    {
-      "file": "2026-08-27.md",
-      "title": "一人公司的极简交付哲学：做一个只有 3 个页面的高转化网站",
+      "title": "Vercel：极速现代前端部署与边缘计算平台",
       "line": 342,
-      "url": "https://daozhu-ai-daily.daozhu1993.workers.dev",
+      "url": "https://vercel.com",
       "status": 200
     },
     {
       "file": "2026-08-27.md",
-      "title": "3 栏画廊式仪表盘交互设计：如何在单屏内呈现 20+ 条高密度资讯",
+      "title": "Mobbin：全球顶级移动端与 Web 界面设计模式灵感库",
       "line": 381,
-      "url": "https://daozhu-ai-daily.daozhu1993.workers.dev",
+      "url": "https://mobbin.com",
       "status": 200
     },
     {
       "file": "2026-08-27.md",
-      "title": "UX Pilot AI 发布：端到端线框图与 Figma 组件直接生成",
+      "title": "UX Pilot AI：端到端线框图与 Figma 组件直接生成",
       "line": 354,
       "url": "https://uxpilot.ai",
       "status": 200
     },
     {
       "file": "2026-08-27.md",
-      "title": "个人创作者的商业闭环：赞助位、深度副刊与社群私域变现",
-      "line": 306,
-      "url": "https://daozhu-ai-daily.daozhu1993.workers.dev/premium",
+      "title": "Lemon Squeezy：专为数字产品与 SaaS 设计的全球收单平台",
+      "line": 333,
+      "url": "https://www.lemonsqueezy.com",
       "status": 200
     },
     {
       "file": "2026-08-27.md",
-      "title": "AI 界面动效哲学：从冗余微动效回归精准状态反馈",
+      "title": "UX Design AI 动效哲学：从冗余微动效回归精准状态反馈",
       "line": 363,
       "url": "https://uxdesign.cc",
       "status": 200
@@ -702,7 +702,7 @@
     },
     {
       "file": "2026-08-27.md",
-      "title": "DeepSeek-V3 权重开源热潮：全行业微调与蒸馏生态全面爆发",
+      "title": "DeepSeek 开源生态：全球开发者围绕高性价比基座模型加速创新",
       "line": 474,
       "url": "https://github.com/deepseek-ai",
       "status": 200
@@ -716,114 +716,86 @@
     },
     {
       "file": "2026-08-27.md",
-      "title": "响应式断点平滑过渡：从 3 栏桌面工作台到单列移动流",
-      "line": 417,
-      "url": "https://tailwindcss.com",
-      "status": 200
-    },
-    {
-      "file": "2026-08-27.md",
-      "title": "无感撤销与容错机制：消除用户操作 AI 时的试错恐惧",
-      "line": 399,
-      "url": "https://www.smashingmagazine.com/category/design/",
-      "status": 200
-    },
-    {
-      "file": "2026-08-27.md",
-      "title": "微软与 OpenAI 发布 Jalapeño 推理加速技术：延迟降低 65%",
-      "line": 465,
-      "url": "https://openai.com",
-      "status": 200
-    },
-    {
-      "file": "2026-08-27.md",
-      "title": "斯坦福 AI 索引报告发布：一人公司与 AI 协同创造力指数飙升 400%",
-      "line": 483,
-      "url": "https://hai.stanford.edu",
-      "status": 200
-    },
-    {
-      "file": "2026-08-27.md",
-      "title": "开源权重前沿：端侧 7B 模型在本地推理中的速度突破",
+      "title": "llama.cpp：基于 C/C++ 的纯 CPU/GPU 本地大模型极速推理引擎",
       "line": 429,
       "url": "https://github.com/ggerganov/llama.cpp",
       "status": 200
     },
     {
       "file": "2026-08-27.md",
-      "title": "欧盟 AI 法案正式生效细则公布：模型水印与合规审计标准落地",
+      "title": "GLM-4：智普 AI 开源的高性能双语大语言模型与多模态基座",
+      "line": 447,
+      "url": "https://github.com/THUDM/GLM-4",
+      "status": 200
+    },
+    {
+      "file": "2026-08-27.md",
+      "title": "Smashing Magazine 容错机制：消除用户操作 AI 时的试错恐惧",
+      "line": 399,
+      "url": "https://www.smashingmagazine.com/category/design/",
+      "status": 200
+    },
+    {
+      "file": "2026-08-27.md",
+      "title": "Tailwind CSS：实用优先的现代前端原子化 CSS 框架",
+      "line": 417,
+      "url": "https://tailwindcss.com",
+      "status": 200
+    },
+    {
+      "file": "2026-08-27.md",
+      "title": "OpenAI 官方博客：长文本推理与强化学习核心突破",
+      "line": 465,
+      "url": "https://openai.com",
+      "status": 200
+    },
+    {
+      "file": "2026-08-27.md",
+      "title": "斯坦福 HAI 研究所：全球人工智能指数年度评估报告",
+      "line": 483,
+      "url": "https://hai.stanford.edu",
+      "status": 200
+    },
+    {
+      "file": "2026-08-27.md",
+      "title": "欧盟数字战略官网：AI 法案正式生效与全球合规治理细则",
       "line": 456,
       "url": "https://digital-strategy.ec.europa.eu",
       "status": 200
     },
     {
       "file": "2026-08-27.md",
-      "title": "Figure Index 机器人数据集开源：构建真实物理世界操作痕迹",
+      "title": "Figure AI：通用人形机器人与具身物理智能研发前沿",
       "line": 438,
       "url": "https://figure.ai",
       "status": 200
     },
     {
       "file": "2026-08-27.md",
-      "title": "GLM-5.3-Flash 发布：320B 参数只激活 18B，价格砍到十分之一",
-      "line": 447,
-      "url": "https://z.ai",
+      "title": "n8n 深度集成 AI Agent 节点：企业级低代码工作流的新里程碑",
+      "line": 531,
+      "url": "https://github.com/n8n-io/n8n",
       "status": 200
     },
     {
       "file": "2026-08-27.md",
-      "title": "Prompt 到 Rule 的跃迁：如何编写一份工业级的 AGENTS.md 守则",
-      "line": 522,
-      "url": "https://github.com/readme",
-      "status": 200
-    },
-    {
-      "file": "2026-08-27.md",
-      "title": "GitHub Copilot 默认模型策略正式生效：企业把模型选择收成一条政策",
-      "line": 513,
-      "url": "https://github.blog",
-      "status": 200
-    },
-    {
-      "file": "2026-08-27.md",
-      "title": "岛主的 AI 思考：普通人如何用好工具的认知复盘",
-      "line": 567,
-      "url": "https://daozhu1993-oss.github.io/v2/",
-      "status": 200
-    },
-    {
-      "file": "2026-08-27.md",
-      "title": "Superpowers 与 Claude TDD 插件：测试驱动开发的 Agent 实践",
+      "title": "Superpowers：赋予 Claude 与 Cursor 测试驱动开发能力的开源套件",
       "line": 504,
       "url": "https://github.com/obra/superpowers",
       "status": 200
     },
     {
       "file": "2026-08-27.md",
-      "title": "Prompt 调试工具链：实时 Token 消耗与注意力权重热力图分析",
-      "line": 558,
-      "url": "https://github.com/readme",
+      "title": "Prompt 到 Rule 的跃迁：如何编写一份工业级的 AGENTS.md 守则",
+      "line": 522,
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
       "status": 200
     },
     {
       "file": "2026-08-27.md",
-      "title": "n8n 深度集成 AI Agent 节点：企业级低代码工作流的新里程碑",
-      "line": 531,
-      "url": "https://n8n.io",
-      "status": 200
-    },
-    {
-      "file": "2026-08-27.md",
-      "title": "Anthropic 启动红队安全众测计划：单项越权漏洞悬赏高达 10 万美元",
-      "line": 492,
-      "url": "https://www.anthropic.com",
-      "status": 200
-    },
-    {
-      "file": "2026-08-28.md",
-      "title": "Model Context Protocol (MCP) 爆发：AI 时代的通用 USB-C 标准确立",
-      "line": 18,
-      "url": "https://github.com/modelcontextprotocol/servers",
+      "title": "GitHub 官方博客：GitHub Copilot 模型策略与企业级开发规范",
+      "line": 513,
+      "url": "https://github.blog",
       "status": 200
     },
     {
@@ -835,16 +807,37 @@
     },
     {
       "file": "2026-08-27.md",
-      "title": "OpenClaw 个人助理开源：打通日历、邮件与微信的本地 Agent",
-      "line": 549,
-      "url": "https://github.com/openclaw/openclaw",
+      "title": "Anthropic 官方安全与红队测试计划：构建防御性 AI 智能体",
+      "line": 492,
+      "url": "https://www.anthropic.com",
+      "status": 200
+    },
+    {
+      "file": "2026-08-27.md",
+      "title": "AutoGPT：开源的自主人工智能智能体开发实验项目",
+      "line": 558,
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "status": 200
+    },
+    {
+      "file": "2026-08-27.md",
+      "title": "LangChain：构建上下文感知型 LLM 应用程序的开发框架",
+      "line": 567,
+      "url": "https://github.com/langchain-ai/langchain",
       "status": 200
     },
     {
       "file": "2026-08-28.md",
-      "title": "AIGC 漫剧全流程管线复盘：从分镜一致性到动态镜头驱动",
-      "line": 102,
-      "url": "https://daozhu1993-oss.github.io/picturebook/index.html",
+      "title": "Model Context Protocol (MCP) 爆发：AI 时代的通用 USB-C 标准确立",
+      "line": 18,
+      "url": "https://github.com/modelcontextprotocol/servers",
+      "status": 200
+    },
+    {
+      "file": "2026-08-27.md",
+      "title": "OpenClaw 个人助理开源：打通日历、邮件与微信的本地 Agent",
+      "line": 549,
+      "url": "https://github.com/openclaw/openclaw",
       "status": 200
     },
     {
@@ -870,30 +863,44 @@
     },
     {
       "file": "2026-08-28.md",
-      "title": "短剧编剧的 AI 革命：剧本自动转分镜脚本与情绪冲突节拍曲线",
+      "title": "Cursor Cloud Agents 深度实战：订阅 GitHub PR 与 Slack 事件的后台异步推演",
+      "line": 27,
+      "url": "https://cursor.com",
+      "status": 200
+    },
+    {
+      "file": "2026-08-28.md",
+      "title": "LivePortrait 动画驱动：一张照片直接生成高拟真微表情动态",
       "line": 111,
-      "url": "https://daozhu1993-oss.github.io/myth/index.html",
+      "url": "https://github.com/KwaiVGI/LivePortrait",
       "status": 200
     },
     {
       "file": "2026-08-28.md",
       "title": "Awesome MCP Servers 索引站收录破千：工具即插即用时代正式到来",
       "line": 45,
-      "url": "https://mcpservers.org",
+      "url": "https://github.com/punkpeye/awesome-mcp-servers",
       "status": 200
     },
     {
       "file": "2026-08-28.md",
-      "title": "Cursor Cloud Agents 深度实战：订阅 GitHub PR 与 Slack 事件的后台异步推演",
-      "line": 27,
-      "url": "https://cursor.com/changelog",
+      "title": "AIGC 漫剧全流程管线复盘：从分镜一致性到动态镜头驱动",
+      "line": 102,
+      "url": "https://github.com/comfyanonymous/ComfyUI",
       "status": 200
     },
     {
       "file": "2026-08-28.md",
-      "title": "Ponytail：模拟『偷懒资深工程师』思维方式的 Agent 规划引擎",
+      "title": "Anthropic Quickstarts：官方开源的高质量 Agentic 模板与脚手架",
+      "line": 81,
+      "url": "https://github.com/anthropics/anthropic-quickstarts",
+      "status": 200
+    },
+    {
+      "file": "2026-08-28.md",
+      "title": "Dify：开源大语言模型应用开发与多智能体工作流编排平台",
       "line": 90,
-      "url": "https://github.com/DietrichGebert/ponytail",
+      "url": "https://github.com/langgenius/dify",
       "status": 200
     },
     {
@@ -905,352 +912,345 @@
     },
     {
       "file": "2026-08-28.md",
-      "title": "Context7 文档即时注入工具：让 Agent 永远读取最新版本 API",
-      "line": 81,
-      "url": "https://github.com/anthropics/anthropic-quickstarts",
-      "status": 200
-    },
-    {
-      "file": "2026-08-28.md",
-      "title": "剧本结构量化工具：用三幕剧节拍表检测 AI 生成长剧本的情绪疲劳点",
-      "line": 156,
-      "url": "https://daozhu1993-oss.github.io/novel/index.html",
-      "status": 200
-    },
-    {
-      "file": "2026-08-28.md",
-      "title": "纸工艺拼贴风格 AIGC 纪录片实战：风物中国的视听探索",
-      "line": 147,
-      "url": "https://daozhu1993-oss.github.io/fengwu/index.html",
-      "status": 200
-    },
-    {
-      "file": "2026-08-28.md",
-      "title": "Clipto MCP：基于 Model Context Protocol 的本地多模态视频素材检索",
-      "line": 129,
-      "url": "https://github.com/anthropics/anthropic-quickstarts",
-      "status": 200
-    },
-    {
-      "file": "2026-08-28.md",
-      "title": "Hey Noah 自动化架构：创始人专注决策的专属执行 Agent",
+      "title": "Dub.co 开源短链平台：单人开发者打造顶级企业级链接基础设施",
       "line": 186,
-      "url": "https://github.com/steven-tey/dub",
+      "url": "https://github.com/dubinc/dub",
       "status": 200
     },
     {
       "file": "2026-08-28.md",
-      "title": "微型 SaaS 变现公式：用 200 行脚本打通垂类数据管道获得 150 位年付订阅",
+      "title": "AnimateDiff：开源文本转高质量动画与镜头运镜扩展插件",
+      "line": 129,
+      "url": "https://github.com/guoyww/AnimateDiff",
+      "status": 200
+    },
+    {
+      "file": "2026-08-28.md",
+      "title": "Cal.com：开源日程编排基础设施与一人咨询业务变现利器",
       "line": 204,
-      "url": "https://daozhu1993-oss.github.io/models/index.html",
+      "url": "https://github.com/calcom/cal.com",
       "status": 200
     },
     {
       "file": "2026-08-28.md",
-      "title": "数字人声效情绪拟真：角色呼吸声与环境声效的自动化声场渲染",
-      "line": 138,
-      "url": "https://elevenlabs.io",
-      "status": 200
-    },
-    {
-      "file": "2026-08-28.md",
-      "title": "AI 短剧出海商业化：多语种唇形同步与本土化俚语转译实践",
+      "title": "Wav2Lip 唇形同步框架：多语种漫剧影视出海口型对齐实战",
       "line": 174,
       "url": "https://github.com/Rudrabha/Wav2Lip",
       "status": 200
     },
     {
       "file": "2026-08-28.md",
-      "title": "Lovable + Supabase 架构：单人开发者 48 小时构建垂直 CRM 达成 $5K MRR",
+      "title": "Supabase：一人团队构建生产级全栈产品的开源 Firebase 替代品",
       "line": 195,
       "url": "https://github.com/supabase/supabase",
       "status": 200
     },
     {
       "file": "2026-08-28.md",
-      "title": "多机位镜头控制突破：影视级 AI 提示词运镜与景深拉焦控制",
+      "title": "Civitai 风格模型社区：探索万款影视分镜 LoRA 与艺术风格包",
+      "line": 165,
+      "url": "https://civitai.com",
+      "status": 200
+    },
+    {
+      "file": "2026-08-28.md",
+      "title": "ElevenLabs 语音合成与声音设计：角色情感声线与对白拟真",
+      "line": 138,
+      "url": "https://elevenlabs.io",
+      "status": 200
+    },
+    {
+      "file": "2026-08-28.md",
+      "title": "ControlNet：精确控制角色姿态、线稿与深度图的开源标杆",
+      "line": 147,
+      "url": "https://github.com/lllyasviel/ControlNet",
+      "status": 200
+    },
+    {
+      "file": "2026-08-28.md",
+      "title": "Suno AI：电影配乐与主题曲全自动编曲生成",
+      "line": 156,
+      "url": "https://suno.com",
+      "status": 200
+    },
+    {
+      "file": "2026-08-28.md",
+      "title": "Runway Gen-3 Alpha：影视级摄影机多机位与运镜控制",
       "line": 120,
       "url": "https://runwayml.com",
       "status": 200
     },
     {
       "file": "2026-08-28.md",
-      "title": "ComfyUI 漫剧分镜工作流：单卡 16G 显存下的高精度面部重绘节点",
-      "line": 165,
-      "url": "https://github.com/comfyanonymous/ComfyUI",
-      "status": 200
-    },
-    {
-      "file": "2026-08-28.md",
-      "title": "多项目孵化矩阵：一人公司如何同时维护 5 个轻量小微产品",
-      "line": 258,
-      "url": "https://daozhu1993-oss.github.io/v2/",
-      "status": 200
-    },
-    {
-      "file": "2026-08-28.md",
-      "title": "一人开发者的定价哲学：为什么终身买断（LTD）是初期最危险的陷阱",
-      "line": 222,
-      "url": "https://github.com/t3-oss/create-t3-app",
-      "status": 200
-    },
-    {
-      "file": "2026-08-28.md",
-      "title": "开源转商业闭环：将热门 GitHub 脚本包装为 GUI 桌面客户端",
-      "line": 240,
-      "url": "https://tauri.app",
-      "status": 200
-    },
-    {
-      "file": "2026-08-28.md",
-      "title": "Skydive 推出跨工具 Cloud Agent 工作台：界面从对话框走向意图画布",
+      "title": "Tldraw 无限画布引擎：AI 时代可视化意图工作台的开源标杆",
       "line": 270,
       "url": "https://github.com/tldraw/tldraw",
       "status": 200
     },
     {
       "file": "2026-08-28.md",
-      "title": "Builder.io 发布 AI 页面编排代理：从自然语言意图直接编译出 React 代码",
-      "line": 297,
-      "url": "https://www.builder.io",
-      "status": 200
-    },
-    {
-      "file": "2026-08-28.md",
-      "title": "Carly：嵌入日常通讯会话的 AI 执行副官与多业务分流器",
+      "title": "PostHog：单人开发者监控全站转化漏斗与用户行为回放的开源神器",
       "line": 213,
-      "url": "https://usecarly.com",
+      "url": "https://github.com/PostHog/posthog",
       "status": 200
     },
     {
       "file": "2026-08-28.md",
-      "title": "Magic Patterns 与 Figma 深度直连：直接在画布中生成生产级组件库变量",
+      "title": "Framer Motion：React 生产级声明式微动效与手势交互引擎",
+      "line": 297,
+      "url": "https://github.com/framer/motion",
+      "status": 200
+    },
+    {
+      "file": "2026-08-28.md",
+      "title": "Tauri 跨平台框架：将 Web 技术包装为极速安全的桌面原生应用",
+      "line": 240,
+      "url": "https://github.com/tauri-apps/tauri",
+      "status": 200
+    },
+    {
+      "file": "2026-08-28.md",
+      "title": "Plausible Analytics：隐私优先且轻量的开源网站流量统计看板",
+      "line": 258,
+      "url": "https://github.com/plausible/analytics",
+      "status": 200
+    },
+    {
+      "file": "2026-08-28.md",
+      "title": "Shadcn UI 组件库：复制粘贴即用的现代 React 设计系统标杆",
       "line": 279,
-      "url": "https://magicpatterns.com",
+      "url": "https://github.com/shadcn-ui/ui",
       "status": 200
     },
     {
       "file": "2026-08-28.md",
-      "title": "纯静态 Jamstack 架构的商业奇迹：零服务器成本运转万级月活项目",
+      "title": "Cloudflare Workers & Pages：零固定成本运转万级月活项目的边缘底座",
       "line": 231,
-      "url": "https://pages.cloudflare.com",
+      "url": "https://developers.cloudflare.com/workers/",
       "status": 200
     },
     {
       "file": "2026-08-28.md",
-      "title": "自动化客服与退款机器人：独立产品如何做到 7x24 小时零人工值守",
+      "title": "Create T3 App：类型安全的全栈开发脚手架与微型 SaaS 模板",
+      "line": 222,
+      "url": "https://github.com/t3-oss/create-t3-app",
+      "status": 200
+    },
+    {
+      "file": "2026-08-28.md",
+      "title": "Stripe Billing 支付集成：独立产品 48 小时搭建合规的全球订阅管道",
       "line": 249,
-      "url": "https://stripe.com/docs/webhooks",
+      "url": "https://stripe.com/billing",
       "status": 200
     },
     {
       "file": "2026-08-28.md",
-      "title": "从 Form 表单到无感预测：新一代 AI 产品的渐进式上下文感知设计",
+      "title": "Radix UI Primitives：无样式且无障碍友好的高阶交互原语",
       "line": 288,
-      "url": "https://uxdesign.cc",
+      "url": "https://github.com/radix-ui/primitives",
       "status": 200
     },
     {
       "file": "2026-08-28.md",
-      "title": "Visa 开源 VVAH 框架：金融级 Agent 安全防护与漏洞排查标准",
+      "title": "Lucide Icons：设计精美且一致性极强的开源矢量图标库",
+      "line": 315,
+      "url": "https://github.com/lucide-icons/lucide",
+      "status": 200
+    },
+    {
+      "file": "2026-08-28.md",
+      "title": "Anthropic Claude 官方研究与更新：长周期自主推理能力突破",
+      "line": 354,
+      "url": "https://www.anthropic.com/research",
+      "status": 200
+    },
+    {
+      "file": "2026-08-28.md",
+      "title": "DeepSeek 开源生态：全球开发者围绕高性价比基座模型加速创新",
       "line": 363,
-      "url": "https://github.com/visa",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3",
       "status": 200
     },
     {
       "file": "2026-08-28.md",
-      "title": "端侧模型架构优化：量化损失降低 40% 的新型蒸馏算法发布",
+      "title": "端侧大模型架构优化：3B 权重在本地设备上的推理效率突破",
       "line": 372,
       "url": "https://arxiv.org/abs/2403.09629",
       "status": 200
     },
     {
       "file": "2026-08-28.md",
-      "title": "暗色模式下的微动效反馈：0.15s 内完成状态变迁的设计心法",
-      "line": 324,
-      "url": "https://linear.app/method",
-      "status": 200
-    },
-    {
-      "file": "2026-08-28.md",
-      "title": "Exascale Labs (XLAB) 登陆纳斯达克：AI 专属算力数据中心需求爆发",
-      "line": 381,
-      "url": "https://www.nasdaq.com",
-      "status": 200
-    },
-    {
-      "file": "2026-08-28.md",
-      "title": "AI 交互中的确认机制设计：如何在高频执行与安全防护间取得平衡",
+      "title": "Smashing Magazine 交互设计专栏：AI 产品的确认机制与错误容忍",
       "line": 306,
       "url": "https://www.smashingmagazine.com/category/design/",
       "status": 200
     },
     {
       "file": "2026-08-28.md",
-      "title": "骨架屏与渐进流式加载：告别生硬 Loading 转圈的设计规范",
+      "title": "Type Scale 字体阶梯生成器：模块化字阶与响应式排版计算",
       "line": 333,
       "url": "https://typescale.com",
       "status": 200
     },
     {
       "file": "2026-08-28.md",
-      "title": "多维度分类标签栏设计：悬浮毛玻璃与键盘快捷键的无缝融合",
+      "title": "Linear Method 设计哲学：从键盘流与极速反馈中打造工业级体验",
+      "line": 324,
+      "url": "https://linear.app/method",
+      "status": 200
+    },
+    {
+      "file": "2026-08-28.md",
+      "title": "Dribbble UI 设计灵感精选：胶囊导航与毛玻璃拟态的克制运用",
       "line": 342,
       "url": "https://dribbble.com/shots/22819203-Pill-Filter-Navigation",
       "status": 202
     },
     {
       "file": "2026-08-28.md",
-      "title": "Claude Opus 5 与 Sonnet 5 升级：长周期 Agent 自主任务基准大幅突破",
-      "line": 354,
-      "url": "https://www.anthropic.com/news",
+      "title": "Nasdaq 纳斯达克科技指数看板：AI 基础设施与算力集群资本动向",
+      "line": 381,
+      "url": "https://www.nasdaq.com",
       "status": 200
     },
     {
       "file": "2026-08-28.md",
-      "title": "SK hynix 40 亿美元印第安纳先进封测厂动工：HBM 内存产能再扩建",
+      "title": "SK hynix 官方新闻中心：高带宽内存 HBM 产能与先进封装路线图",
       "line": 390,
       "url": "https://news.skhynix.com",
       "status": 200
     },
     {
       "file": "2026-08-28.md",
-      "title": "无限画布（Infinite Canvas）交互范式：复杂 AI 生成流的最佳载体",
-      "line": 315,
-      "url": "https://uxdesign.cc",
-      "status": 200
-    },
-    {
-      "file": "2026-08-28.md",
-      "title": "东方墨韵与极简数字版式：诗笺排版工具的 30 套版式复盘",
+      "title": "Satori：Vercel 开源的极速 HTML/CSS 转高质量 SVG/OG 视觉引擎",
       "line": 456,
-      "url": "https://daozhu1993-oss.github.io/poem-shijian-skill/",
+      "url": "https://github.com/vercel/satori",
       "status": 200
     },
     {
       "file": "2026-08-28.md",
-      "title": "数据可视化美学：如何把冷冰冰的技术指标排版成艺术品",
-      "line": 474,
-      "url": "https://dribbble.com/shots/23910291-Dark-Data-Visualization",
-      "status": 202
-    },
-    {
-      "file": "2026-08-28.md",
-      "title": "现代控制台美学：高密度信息架构与无干扰排版法则",
+      "title": "Type Scale 现代排版阶梯：高密度信息架构与无干扰排版法则",
       "line": 429,
       "url": "https://typescale.com",
       "status": 200
     },
     {
       "file": "2026-08-28.md",
-      "title": "微质感与 1px 细边框：Linear 与顶级 DevTools 的克制视觉秩序",
+      "title": "Linear Method 设计哲学：微质感与 1px 细边框的克制视觉秩序",
       "line": 438,
       "url": "https://linear.app/method",
       "status": 200
     },
     {
       "file": "2026-08-28.md",
-      "title": "灰阶层级艺术：在 `#0f1115` 深空中构建 5 级优雅纵深",
-      "line": 465,
-      "url": "https://linear.app/method",
-      "status": 200
+      "title": "Dribbble 暗色数据可视化大赏：如何把冷冰冰的指标排版成艺术品",
+      "line": 474,
+      "url": "https://dribbble.com/shots/23910291-Dark-Data-Visualization",
+      "status": 202
     },
     {
       "file": "2026-08-28.md",
-      "title": "动态字阶与中文字体微调：如何在屏幕端呈现印刷品般的呼吸感",
+      "title": "Fonts In Use 字体档案库：在屏幕端呈现印刷品般的呼吸感",
       "line": 447,
       "url": "https://fontsinuse.com",
       "status": 200
     },
     {
       "file": "2026-08-28.md",
-      "title": "CrowdStrike 联手印尼电信：为企业级自主 AI Agent 打造网络免疫系统",
+      "title": "Minimal Gallery：全球顶级极简主义网站设计精选画廊",
+      "line": 483,
+      "url": "https://minimal.gallery",
+      "status": 200
+    },
+    {
+      "file": "2026-08-28.md",
+      "title": "CrowdStrike 威胁情报博客：防范企业级自主 AI Agent 凭据泄露",
       "line": 399,
       "url": "https://www.crowdstrike.com",
       "status": 200
     },
     {
       "file": "2026-08-28.md",
-      "title": "加州 AI 治理法案终审冲刺：开源模型责任豁免边界引发全美大讨论",
-      "line": 417,
-      "url": "https://transparencycoalition.ai",
-      "status": 200
-    },
-    {
-      "file": "2026-08-28.md",
-      "title": "移动端单手黄金操作区与呼吸感布局：把留白还给内容",
-      "line": 483,
-      "url": "https://uxdesign.cc",
-      "status": 200
-    },
-    {
-      "file": "2026-08-28.md",
-      "title": "Gemini 3.5 Transcribe 发布：高抗噪语音识别与跨语种意图打点",
+      "title": "Google DeepMind Gemini 技术前沿：多模态长文本与语音交互突破",
       "line": 408,
       "url": "https://deepmind.google/technologies/gemini/",
       "status": 200
     },
     {
       "file": "2026-08-28.md",
-      "title": "小红书与 X 跨平台发图工具：一本绘本的一键全渠道分发实践",
-      "line": 558,
-      "url": "https://daozhu1993-oss.github.io/v2/",
+      "title": "Transparency Coalition：全球 AI 安全法案与开源责任豁免边界解析",
+      "line": 417,
+      "url": "https://transparencycoalition.ai",
       "status": 200
     },
     {
       "file": "2026-08-28.md",
-      "title": "内容即漏斗：如何通过一份高质量行业日报带动高客单咨询转化",
-      "line": 540,
-      "url": "https://medium.com",
+      "title": "Dark Mode Design：精选全球顶级暗色主题界面与层次架构",
+      "line": 465,
+      "url": "https://www.darkmodedesign.com",
       "status": 200
     },
     {
       "file": "2026-08-28.md",
-      "title": "手写签名与个性化 Monogram：给独立品牌烙上温度印记",
-      "line": 492,
-      "url": "https://dribbble.com/shots/23491028-Monogram-Brand-Identity",
-      "status": 202
+      "title": "Schema.org 结构化数据标准：让搜索引擎与 AI 彻底理解你的商业资产",
+      "line": 567,
+      "url": "https://schema.org",
+      "status": 200
     },
     {
       "file": "2026-08-28.md",
-      "title": "等待名单（Waitlist）裂变心法：如何在产品上线前积累 5000+ 种子用户",
+      "title": "Product Hunt 打榜前线：全球最新发布的技术产品与社区热度排行",
       "line": 531,
       "url": "https://github.com/steven-tey/precedent",
       "status": 200
     },
     {
       "file": "2026-08-28.md",
-      "title": "GitHub Trending 打榜机制揭秘：从 README 结构到 Stars 动员节奏",
-      "line": 549,
-      "url": "https://github.com/trending",
-      "status": 200
-    },
-    {
-      "file": "2026-08-28.md",
-      "title": "公开构建（Build in Public）新玩法：把 Agent 的错误日志做成短剧",
-      "line": 522,
-      "url": "https://github.com/readme",
-      "status": 200
-    },
-    {
-      "file": "2026-08-28.md",
-      "title": "Lenz API 冷启动案例：用『公开挑战模型幻觉』打爆开发者社群",
+      "title": "OpenAI Evals：开源的大语言模型能力与幻觉评测基准框架",
       "line": 504,
       "url": "https://github.com/openai/evals",
       "status": 200
     },
     {
       "file": "2026-08-28.md",
-      "title": "免费增值（Freemium）转化拐点：如何精准设计付费墙（Paywall）",
-      "line": 567,
-      "url": "https://stripe.com/billing",
+      "title": "Precedent：Next.js 全栈开源项目起步模板与等待名单落地页",
+      "line": 522,
+      "url": "https://github.com/steven-tey/precedent",
       "status": 200
     },
     {
       "file": "2026-08-28.md",
-      "title": "GEO（生成式引擎优化）指南：如何让你的产品被 Perplexity 和 ChatGPT 优先推荐",
+      "title": "Dribbble 品牌视觉与 Monogram 标志设计精选",
+      "line": 492,
+      "url": "https://dribbble.com/shots/23491028-Monogram-Brand-Identity",
+      "status": 202
+    },
+    {
+      "file": "2026-08-28.md",
+      "title": "Google SEO 官方开发者指南：生成式 AI 时代的内容结构化规范",
       "line": 513,
       "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+      "status": 200
+    },
+    {
+      "file": "2026-08-28.md",
+      "title": "Substack 创作者平台：构建抗周期的私域付费邮件出版物",
+      "line": 540,
+      "url": "https://substack.com",
+      "status": 200
+    },
+    {
+      "file": "2026-08-28.md",
+      "title": "GitHub Trending 全球趋势榜：开源开发者打榜与 Stars 增长雷达",
+      "line": 549,
+      "url": "https://github.com/trending",
+      "status": 200
+    },
+    {
+      "file": "2026-08-28.md",
+      "title": "Open Graph 协议标准：打造在社交媒体上高点击率的分享卡片",
+      "line": 558,
+      "url": "https://ogp.me",
       "status": 200
     }
   ],
