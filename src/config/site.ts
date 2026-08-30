@@ -97,11 +97,11 @@ export const siteConfig: SiteConfig = {
     },
     community: {
       enabled: true,
-      title: '主理人深度交流社群',
-      description: '日刊之外，这里还有一群用故事思维和 AI 做产品的人。',
-      buttonText: '加入社群 ↗',
-      link: 'https://daozhu1993-oss.github.io/v2/#contact',
-      tag: '专属社群',
+      title: '关于主理人 · 岛主',
+      description: '干过十年编剧，后来转去做产品经理。擅长用故事思维驱动各种「杂七杂八」的产品。',
+      buttonText: '关于岛主',
+      link: '/about',
+      tag: '主理人',
     },
     sponsor: {
       enabled: false,
