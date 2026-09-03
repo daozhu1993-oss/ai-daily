@@ -11,14 +11,15 @@ const categoriesList = Object.values(CATEGORIES);
 
 <nav
   aria-label="分类筛选"
-  class="sticky top-0 z-30 py-2.5 backdrop-blur-xl bg-[#faf9f6]/95 dark:bg-[#0f1115]/95 border-b border-zinc-200/80 dark:border-zinc-800/80 transition-colors"
+  class="sticky top-14 lg:top-0 z-20 py-3 backdrop-blur-xl bg-[#faf9f6]/95 dark:bg-[#0f1115]/95 border-b border-zinc-200/80 dark:border-zinc-800/80 transition-colors"
 >
-  <div class="flex items-center gap-2 overflow-x-auto no-scrollbar py-0.5 px-1">
+  <div class="flex items-center gap-2 overflow-x-auto no-scrollbar py-0.5 px-1" id="category-filter-container">
     <!-- All Button -->
     <button
       type="button"
       data-filter="all"
-      class="category-filter-btn px-4 py-2 rounded-full text-xs font-bold transition-all shrink-0 bg-zinc-900 text-white dark:bg-white dark:text-zinc-900 shadow-sm flex items-center gap-1.5"
+      data-active="true"
+      class="category-filter-btn px-4 py-2 rounded-full text-xs transition-all shrink-0 flex items-center gap-1.5 cursor-pointer select-none bg-zinc-100 dark:bg-zinc-800/80 text-zinc-700 dark:text-zinc-300 hover:bg-zinc-200 dark:hover:bg-zinc-700"
     >
       <span>全部</span>
       <span class="text-[11px] font-mono opacity-80">{totalCount}</span>
@@ -30,7 +31,8 @@ const categoriesList = Object.values(CATEGORIES);
         <button
           type="button"
           data-filter={cat.key}
-          class="category-filter-btn px-3.5 py-2 rounded-full text-xs font-medium text-zinc-700 dark:text-zinc-300 hover:text-zinc-900 dark:hover:text-white bg-zinc-100 dark:bg-zinc-800/80 hover:bg-zinc-200 dark:hover:bg-zinc-700 transition-all shrink-0 flex items-center gap-2"
+          data-active="false"
+          class="category-filter-btn px-3.5 py-2 rounded-full text-xs font-medium text-zinc-700 dark:text-zinc-300 hover:text-zinc-900 dark:hover:text-white bg-zinc-100 dark:bg-zinc-800/80 hover:bg-zinc-200 dark:hover:bg-zinc-700 transition-all shrink-0 flex items-center gap-2 cursor-pointer select-none"
         >
           <span class={`w-2 h-2 rounded-full ${cat.color.dot}`}></span>
           <span>{cat.name}</span>
@@ -48,50 +50,72 @@ const categoriesList = Object.values(CATEGORIES);
     -ms-overflow-style: none;
     scrollbar-width: none;
   }
+
+  /* Active Filter Button Styling */
+  .category-filter-btn[data-active="true"] {
+    background-color: #18181b !important;
+    color: #ffffff !important;
+    font-weight: 700 !important;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1) !important;
+  }
+
+  :global(.dark) .category-filter-btn[data-active="true"] {
+    background-color: #ffffff !important;
+    color: #18181b !important;
+  }
 </style>
 
 <script is:inline>
   (function () {
-    const initCategoryFilter = () => {
+    function applyCategoryFilter(filterValue) {
       const buttons = document.querySelectorAll('.category-filter-btn');
       const cards = document.querySelectorAll('.daily-item-card-wrapper');
 
-      if (!buttons.length || !cards.length) return;
-
+      // 1. Update button states
       buttons.forEach((btn) => {
-        btn.addEventListener('click', () => {
-          const filter = btn.getAttribute('data-filter');
-
-          // Update active button state
-          buttons.forEach((b) => {
-            b.className =
-              'category-filter-btn px-3.5 py-2 rounded-full text-xs font-medium text-zinc-700 dark:text-zinc-300 hover:text-zinc-900 dark:hover:text-white bg-zinc-100 dark:bg-zinc-800/80 hover:bg-zinc-200 dark:hover:bg-zinc-700 transition-all shrink-0 flex items-center gap-2';
-          });
-
-          btn.className =
-            'category-filter-btn px-4 py-2 rounded-full text-xs font-bold transition-all shrink-0 bg-zinc-900 text-white dark:bg-white dark:text-zinc-900 shadow-sm flex items-center gap-2';
-
-          // Filter card items
-          cards.forEach((card) => {
-            const category = card.getAttribute('data-category');
-            if (filter === 'all' || category === filter) {
-              card.classList.remove('hidden');
-              card.style.opacity = '0';
-              card.style.transform = 'translateY(6px)';
-              setTimeout(() => {
-                card.style.opacity = '1';
-                card.style.transform = 'translateY(0)';
-                card.style.transition = 'opacity 0.2s ease, transform 0.2s ease';
-              }, 10);
-            } else {
-              card.classList.add('hidden');
-            }
-          });
-        });
+        const isMatch = btn.getAttribute('data-filter') === filterValue;
+        btn.setAttribute('data-active', isMatch ? 'true' : 'false');
       });
-    };
 
-    initCategoryFilter();
-    document.addEventListener('astro:page-load', initCategoryFilter);
+      // 2. Filter card elements
+      let matchCount = 0;
+      cards.forEach((card) => {
+        const category = card.getAttribute('data-category');
+        if (filterValue === 'all' || category === filterValue) {
+          card.style.display = 'flex';
+          card.classList.remove('hidden');
+          matchCount++;
+        } else {
+          card.style.display = 'none';
+          card.classList.add('hidden');
+        }
+      });
+    }
+
+    // Event Delegation: always catches clicks regardless of render timing
+    document.addEventListener('click', function (e) {
+      const btn = e.target.closest('.category-filter-btn');
+      if (!btn) return;
+      e.preventDefault();
+      const filter = btn.getAttribute('data-filter');
+      if (filter) {
+        applyCategoryFilter(filter);
+      }
+    });
+
+    // Check URL parameters for initial category filter if present (e.g. ?cat=AI+资讯)
+    function checkUrlFilter() {
+      const params = new URLSearchParams(window.location.search);
+      const catParam = params.get('cat');
+      if (catParam) {
+        applyCategoryFilter(catParam);
+      }
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', checkUrlFilter);
+    } else {
+      checkUrlFilter();
+    }
   })();
 </script>
