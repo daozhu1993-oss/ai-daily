@@ -13,13 +13,14 @@ const categoriesList = Object.values(CATEGORIES);
   aria-label="分类筛选"
   class="sticky top-14 lg:top-0 z-20 py-3 backdrop-blur-xl bg-[#faf9f6]/95 dark:bg-[#0f1115]/95 border-b border-zinc-200/80 dark:border-zinc-800/80 transition-colors"
 >
-  <div class="flex items-center gap-2 overflow-x-auto no-scrollbar py-0.5 px-1" id="category-filter-container">
+  <div class="flex items-center gap-2 overflow-x-auto no-scrollbar py-0.5 px-1" id="category-filter-bar">
     <!-- All Button -->
     <button
       type="button"
+      id="filter-btn-all"
       data-filter="all"
-      data-active="true"
-      class="category-filter-btn px-4 py-2 rounded-full text-xs transition-all shrink-0 flex items-center gap-1.5 cursor-pointer select-none bg-zinc-100 dark:bg-zinc-800/80 text-zinc-700 dark:text-zinc-300 hover:bg-zinc-200 dark:hover:bg-zinc-700"
+      onclick="window.__filterCategory && window.__filterCategory('all')"
+      class="category-filter-pill px-4 py-2 rounded-full text-xs font-bold transition-all shrink-0 flex items-center gap-1.5 cursor-pointer select-none bg-zinc-900 text-white dark:bg-white dark:text-zinc-900 shadow-sm"
     >
       <span>全部</span>
       <span class="text-[11px] font-mono opacity-80">{totalCount}</span>
@@ -31,8 +32,8 @@ const categoriesList = Object.values(CATEGORIES);
         <button
           type="button"
           data-filter={cat.key}
-          data-active="false"
-          class="category-filter-btn px-3.5 py-2 rounded-full text-xs font-medium text-zinc-700 dark:text-zinc-300 hover:text-zinc-900 dark:hover:text-white bg-zinc-100 dark:bg-zinc-800/80 hover:bg-zinc-200 dark:hover:bg-zinc-700 transition-all shrink-0 flex items-center gap-2 cursor-pointer select-none"
+          onclick={`window.__filterCategory && window.__filterCategory('${cat.key}')`}
+          class="category-filter-pill px-3.5 py-2 rounded-full text-xs font-medium text-zinc-700 dark:text-zinc-300 hover:text-zinc-900 dark:hover:text-white bg-zinc-100 dark:bg-zinc-800/80 hover:bg-zinc-200 dark:hover:bg-zinc-700 transition-all shrink-0 flex items-center gap-2 cursor-pointer select-none"
         >
           <span class={`w-2 h-2 rounded-full ${cat.color.dot}`}></span>
           <span>{cat.name}</span>
@@ -50,72 +51,52 @@ const categoriesList = Object.values(CATEGORIES);
     -ms-overflow-style: none;
     scrollbar-width: none;
   }
-
-  /* Active Filter Button Styling */
-  .category-filter-btn[data-active="true"] {
-    background-color: #18181b !important;
-    color: #ffffff !important;
-    font-weight: 700 !important;
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1) !important;
-  }
-
-  :global(.dark) .category-filter-btn[data-active="true"] {
-    background-color: #ffffff !important;
-    color: #18181b !important;
-  }
 </style>
 
 <script is:inline>
   (function () {
-    function applyCategoryFilter(filterValue) {
-      const buttons = document.querySelectorAll('.category-filter-btn');
+    window.__filterCategory = function (filter) {
+      const pills = document.querySelectorAll('.category-filter-pill');
       const cards = document.querySelectorAll('.daily-item-card-wrapper');
 
-      // 1. Update button states
-      buttons.forEach((btn) => {
-        const isMatch = btn.getAttribute('data-filter') === filterValue;
-        btn.setAttribute('data-active', isMatch ? 'true' : 'false');
+      // 1. Update button visual classes directly
+      pills.forEach((pill) => {
+        const pillFilter = pill.getAttribute('data-filter');
+        if (pillFilter === filter) {
+          pill.className =
+            'category-filter-pill px-4 py-2 rounded-full text-xs font-bold transition-all shrink-0 flex items-center gap-1.5 cursor-pointer select-none bg-zinc-900 text-white dark:bg-white dark:text-zinc-900 shadow-sm';
+        } else {
+          pill.className =
+            'category-filter-pill px-3.5 py-2 rounded-full text-xs font-medium text-zinc-700 dark:text-zinc-300 hover:text-zinc-900 dark:hover:text-white bg-zinc-100 dark:bg-zinc-800/80 hover:bg-zinc-200 dark:hover:bg-zinc-700 transition-all shrink-0 flex items-center gap-2 cursor-pointer select-none';
+        }
       });
 
-      // 2. Filter card elements
-      let matchCount = 0;
+      // 2. Filter card display immediately
       cards.forEach((card) => {
-        const category = card.getAttribute('data-category');
-        if (filterValue === 'all' || category === filterValue) {
+        const cardCat = card.getAttribute('data-category');
+        if (filter === 'all' || cardCat === filter) {
           card.style.display = 'flex';
           card.classList.remove('hidden');
-          matchCount++;
         } else {
           card.style.display = 'none';
           card.classList.add('hidden');
         }
       });
-    }
+    };
 
-    // Event Delegation: always catches clicks regardless of render timing
-    document.addEventListener('click', function (e) {
-      const btn = e.target.closest('.category-filter-btn');
-      if (!btn) return;
-      e.preventDefault();
-      const filter = btn.getAttribute('data-filter');
-      if (filter) {
-        applyCategoryFilter(filter);
-      }
-    });
-
-    // Check URL parameters for initial category filter if present (e.g. ?cat=AI+资讯)
-    function checkUrlFilter() {
+    // Auto-check URL parameter on initial load (?cat=AI+资讯)
+    const initFromUrl = () => {
       const params = new URLSearchParams(window.location.search);
       const catParam = params.get('cat');
       if (catParam) {
-        applyCategoryFilter(catParam);
+        window.__filterCategory(catParam);
       }
-    }
+    };
 
     if (document.readyState === 'loading') {
-      document.addEventListener('DOMContentLoaded', checkUrlFilter);
+      document.addEventListener('DOMContentLoaded', initFromUrl);
     } else {
-      checkUrlFilter();
+      initFromUrl();
     }
   })();
 </script>

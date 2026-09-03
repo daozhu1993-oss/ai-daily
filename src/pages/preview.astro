@@ -103,21 +103,21 @@ import BaseLayout from '../layouts/BaseLayout.astro';
         </div>
 
         <!-- Sticky Top Category Bar (带色彩小圆点的杂志分栏) -->
-        <div class="flex items-center gap-2 overflow-x-auto pb-2 border-b border-zinc-200 dark:border-zinc-800 text-xs no-scrollbar">
-          <button class="px-4 py-2 rounded-full bg-zinc-900 text-white dark:bg-white dark:text-zinc-900 font-bold shrink-0 shadow-sm">全部 64</button>
-          <button class="px-3.5 py-2 rounded-full bg-zinc-100 dark:bg-zinc-800 text-zinc-700 dark:text-zinc-300 font-medium shrink-0 hover:bg-zinc-200 dark:hover:bg-zinc-700 flex items-center gap-1.5"><span class="w-2 h-2 rounded-full bg-blue-500"></span><span>AI 资讯 10</span></button>
-          <button class="px-3.5 py-2 rounded-full bg-zinc-100 dark:bg-zinc-800 text-zinc-700 dark:text-zinc-300 font-medium shrink-0 hover:bg-zinc-200 dark:hover:bg-zinc-700 flex items-center gap-1.5"><span class="w-2 h-2 rounded-full bg-amber-500"></span><span>一人公司 12</span></button>
-          <button class="px-3.5 py-2 rounded-full bg-zinc-100 dark:bg-zinc-800 text-zinc-700 dark:text-zinc-300 font-medium shrink-0 hover:bg-zinc-200 dark:hover:bg-zinc-700 flex items-center gap-1.5"><span class="w-2 h-2 rounded-full bg-sky-500"></span><span>产品经理 3</span></button>
-          <button class="px-3.5 py-2 rounded-full bg-zinc-100 dark:bg-zinc-800 text-zinc-700 dark:text-zinc-300 font-medium shrink-0 hover:bg-zinc-200 dark:hover:bg-zinc-700 flex items-center gap-1.5"><span class="w-2 h-2 rounded-full bg-emerald-500"></span><span>产品设计 16</span></button>
-          <button class="px-3.5 py-2 rounded-full bg-zinc-100 dark:bg-zinc-800 text-zinc-700 dark:text-zinc-300 font-medium shrink-0 hover:bg-zinc-200 dark:hover:bg-zinc-700 flex items-center gap-1.5"><span class="w-2 h-2 rounded-full bg-violet-500"></span><span>编剧技巧 3</span></button>
-          <button class="px-3.5 py-2 rounded-full bg-zinc-100 dark:bg-zinc-800 text-zinc-700 dark:text-zinc-300 font-medium shrink-0 hover:bg-zinc-200 dark:hover:bg-zinc-700 flex items-center gap-1.5"><span class="w-2 h-2 rounded-full bg-orange-500"></span><span>AI 漫剧 4</span></button>
+        <div class="flex items-center gap-2 overflow-x-auto pb-2 border-b border-zinc-200 dark:border-zinc-800 text-xs no-scrollbar" id="preview-filter-bar">
+          <button type="button" data-filter="all" onclick="window.__filterPreviewCategory('all')" class="preview-filter-pill px-4 py-2 rounded-full bg-zinc-900 text-white dark:bg-white dark:text-zinc-900 font-bold shrink-0 shadow-sm cursor-pointer">全部 64</button>
+          <button type="button" data-filter="AI 资讯" onclick="window.__filterPreviewCategory('AI 资讯')" class="preview-filter-pill px-3.5 py-2 rounded-full bg-zinc-100 dark:bg-zinc-800 text-zinc-700 dark:text-zinc-300 font-medium shrink-0 hover:bg-zinc-200 dark:hover:bg-zinc-700 flex items-center gap-1.5 cursor-pointer"><span class="w-2 h-2 rounded-full bg-blue-500"></span><span>AI 资讯 10</span></button>
+          <button type="button" data-filter="一人公司" onclick="window.__filterPreviewCategory('一人公司')" class="preview-filter-pill px-3.5 py-2 rounded-full bg-zinc-100 dark:bg-zinc-800 text-zinc-700 dark:text-zinc-300 font-medium shrink-0 hover:bg-zinc-200 dark:hover:bg-zinc-700 flex items-center gap-1.5 cursor-pointer"><span class="w-2 h-2 rounded-full bg-amber-500"></span><span>一人公司 12</span></button>
+          <button type="button" data-filter="产品经理" onclick="window.__filterPreviewCategory('产品经理')" class="preview-filter-pill px-3.5 py-2 rounded-full bg-zinc-100 dark:bg-zinc-800 text-zinc-700 dark:text-zinc-300 font-medium shrink-0 hover:bg-zinc-200 dark:hover:bg-zinc-700 flex items-center gap-1.5 cursor-pointer"><span class="w-2 h-2 rounded-full bg-sky-500"></span><span>产品经理 3</span></button>
+          <button type="button" data-filter="产品设计" onclick="window.__filterPreviewCategory('产品设计')" class="preview-filter-pill px-3.5 py-2 rounded-full bg-zinc-100 dark:bg-zinc-800 text-zinc-700 dark:text-zinc-300 font-medium shrink-0 hover:bg-zinc-200 dark:hover:bg-zinc-700 flex items-center gap-1.5 cursor-pointer"><span class="w-2 h-2 rounded-full bg-emerald-500"></span><span>产品设计 16</span></button>
+          <button type="button" data-filter="编剧技巧" onclick="window.__filterPreviewCategory('编剧技巧')" class="preview-filter-pill px-3.5 py-2 rounded-full bg-zinc-100 dark:bg-zinc-800 text-zinc-700 dark:text-zinc-300 font-medium shrink-0 hover:bg-zinc-200 dark:hover:bg-zinc-700 flex items-center gap-1.5 cursor-pointer"><span class="w-2 h-2 rounded-full bg-violet-500"></span><span>编剧技巧 3</span></button>
+          <button type="button" data-filter="AI 漫剧" onclick="window.__filterPreviewCategory('AI 漫剧')" class="preview-filter-pill px-3.5 py-2 rounded-full bg-zinc-100 dark:bg-zinc-800 text-zinc-700 dark:text-zinc-300 font-medium shrink-0 hover:bg-zinc-200 dark:hover:bg-zinc-700 flex items-center gap-1.5 cursor-pointer"><span class="w-2 h-2 rounded-full bg-orange-500"></span><span>AI 漫剧 4</span></button>
         </div>
 
         <!-- Rich Visual Cards Grid (双列带 16:9 高清封面图) -->
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
           
           <!-- Card 1 -->
-          <div class="group rounded-2xl overflow-hidden bg-zinc-50 dark:bg-zinc-900/60 border border-zinc-200/80 dark:border-zinc-800 hover:border-indigo-500/50 hover:shadow-lg transition-all flex flex-col justify-between">
+          <div data-category="AI 资讯" class="preview-card group rounded-2xl overflow-hidden bg-zinc-50 dark:bg-zinc-900/60 border border-zinc-200/80 dark:border-zinc-800 hover:border-indigo-500/50 hover:shadow-lg transition-all flex flex-col justify-between">
             <div class="relative aspect-video w-full overflow-hidden bg-zinc-800">
               <img
                 src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&auto=format&fit=crop&q=80"
@@ -150,7 +150,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
           </div>
 
           <!-- Card 2 -->
-          <div class="group rounded-2xl overflow-hidden bg-zinc-50 dark:bg-zinc-900/60 border border-zinc-200/80 dark:border-zinc-800 hover:border-violet-500/50 hover:shadow-lg transition-all flex flex-col justify-between">
+          <div data-category="编剧技巧" class="preview-card group rounded-2xl overflow-hidden bg-zinc-50 dark:bg-zinc-900/60 border border-zinc-200/80 dark:border-zinc-800 hover:border-violet-500/50 hover:shadow-lg transition-all flex flex-col justify-between">
             <div class="relative aspect-video w-full overflow-hidden bg-zinc-800">
               <img
                 src="https://images.unsplash.com/photo-1455390582262-044cdead277a?w=800&auto=format&fit=crop&q=80"
@@ -183,7 +183,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
           </div>
 
           <!-- Card 3 -->
-          <div class="group rounded-2xl overflow-hidden bg-zinc-50 dark:bg-zinc-900/60 border border-zinc-200/80 dark:border-zinc-800 hover:border-orange-500/50 hover:shadow-lg transition-all flex flex-col justify-between">
+          <div data-category="AI 漫剧" class="preview-card group rounded-2xl overflow-hidden bg-zinc-50 dark:bg-zinc-900/60 border border-zinc-200/80 dark:border-zinc-800 hover:border-orange-500/50 hover:shadow-lg transition-all flex flex-col justify-between">
             <div class="relative aspect-video w-full overflow-hidden bg-zinc-800">
               <img
                 src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop&q=80"
@@ -216,7 +216,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
           </div>
 
           <!-- Card 4 -->
-          <div class="group rounded-2xl overflow-hidden bg-zinc-50 dark:bg-zinc-900/60 border border-zinc-200/80 dark:border-zinc-800 hover:border-amber-500/50 hover:shadow-lg transition-all flex flex-col justify-between">
+          <div data-category="一人公司" class="preview-card group rounded-2xl overflow-hidden bg-zinc-50 dark:bg-zinc-900/60 border border-zinc-200/80 dark:border-zinc-800 hover:border-amber-500/50 hover:shadow-lg transition-all flex flex-col justify-between">
             <div class="relative aspect-video w-full overflow-hidden bg-zinc-800">
               <img
                 src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=800&auto=format&fit=crop&q=80"
@@ -440,5 +440,30 @@ import BaseLayout from '../layouts/BaseLayout.astro';
         document.getElementById('btn-concept4').className = 'px-3.5 py-2 rounded-xl text-xs font-bold transition-all bg-indigo-600 text-white shadow-sm';
       }
     }
+
+    window.__filterPreviewCategory = function(filter) {
+      const pills = document.querySelectorAll('.preview-filter-pill');
+      const cards = document.querySelectorAll('.preview-card');
+
+      pills.forEach((pill) => {
+        const pillFilter = pill.getAttribute('data-filter');
+        if (pillFilter === filter) {
+          pill.className = 'preview-filter-pill px-4 py-2 rounded-full bg-zinc-900 text-white dark:bg-white dark:text-zinc-900 font-bold shrink-0 shadow-sm cursor-pointer';
+        } else {
+          pill.className = 'preview-filter-pill px-3.5 py-2 rounded-full bg-zinc-100 dark:bg-zinc-800 text-zinc-700 dark:text-zinc-300 font-medium shrink-0 hover:bg-zinc-200 dark:hover:bg-zinc-700 flex items-center gap-1.5 cursor-pointer';
+        }
+      });
+
+      cards.forEach((card) => {
+        const cat = card.getAttribute('data-category');
+        if (filter === 'all' || cat === filter) {
+          card.style.display = 'flex';
+          card.classList.remove('hidden');
+        } else {
+          card.style.display = 'none';
+          card.classList.add('hidden');
+        }
+      });
+    };
   </script>
 </BaseLayout>
