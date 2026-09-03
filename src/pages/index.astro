@@ -1,6 +1,8 @@
 ---
 import DashboardLayout from '../layouts/DashboardLayout.astro';
 import DailyItemCard from '../components/DailyItemCard.astro';
+import EditorialHero from '../components/EditorialHero.astro';
+import EditorialCategoryBar from '../components/EditorialCategoryBar.astro';
 import { getCollection, render } from 'astro:content';
 import { siteConfig } from '../config/site';
 
@@ -35,19 +37,26 @@ const items = latestDaily
     <DashboardLayout
       currentIssue={latestDaily}
       allIssues={sortedDailies}
+      showRightSidebar={false}
       title={`${latestDaily.data.title || `${latestDaily.data.date} · 今日看点`} - ${siteConfig.name}`}
       description={latestDaily.data.highlights || siteConfig.description}
     >
-      <div class="space-y-6 pb-20">
-        <!-- Optional Editor's Note Banner -->
+      <div class="space-y-8 pb-20">
+        <!-- 1. Cinematic Editorial Hero Stage (电影画报大刊头) -->
+        <EditorialHero issue={latestDaily} />
+
+        <!-- 2. Sticky Magazine Category Filter Bar (吸顶分类分栏) -->
+        <EditorialCategoryBar totalCount={items.length} />
+
+        <!-- Optional Editor's Markdown Note if present -->
         {LatestContent && (
-          <div class="p-4 rounded-2xl bg-zinc-100/60 dark:bg-zinc-900/40 border border-zinc-200/60 dark:border-zinc-800/60 text-xs text-zinc-600 dark:text-zinc-400">
+          <div class="p-5 rounded-2xl bg-zinc-100/80 dark:bg-zinc-900/60 border border-zinc-200/80 dark:border-zinc-800/80 text-xs sm:text-sm text-zinc-600 dark:text-zinc-300 leading-relaxed">
             <LatestContent />
           </div>
         )}
 
-        <!-- Visual Multi-column Card Grid (Masonry Flow) -->
-        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 sm:gap-5">
+        <!-- 3. Cinematic 2-Column Screenplay Cards Feed (电影分镜画报流) -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
           {items.map((item, idx) => (
             <DailyItemCard item={item} index={idx} />
           ))}

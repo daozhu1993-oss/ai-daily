@@ -1,0 +1,97 @@
+---
+import { CATEGORIES } from '../config/categories';
+
+interface Props {
+  totalCount?: number;
+}
+
+const { totalCount = 64 } = Astro.props;
+const categoriesList = Object.values(CATEGORIES);
+---
+
+<nav
+  aria-label="分类筛选"
+  class="sticky top-0 z-30 py-2.5 backdrop-blur-xl bg-[#faf9f6]/95 dark:bg-[#0f1115]/95 border-b border-zinc-200/80 dark:border-zinc-800/80 transition-colors"
+>
+  <div class="flex items-center gap-2 overflow-x-auto no-scrollbar py-0.5 px-1">
+    <!-- All Button -->
+    <button
+      type="button"
+      data-filter="all"
+      class="category-filter-btn px-4 py-2 rounded-full text-xs font-bold transition-all shrink-0 bg-zinc-900 text-white dark:bg-white dark:text-zinc-900 shadow-sm flex items-center gap-1.5"
+    >
+      <span>全部</span>
+      <span class="text-[11px] font-mono opacity-80">{totalCount}</span>
+    </button>
+
+    <!-- Category Specific Buttons with Color Dots -->
+    {
+      categoriesList.map((cat) => (
+        <button
+          type="button"
+          data-filter={cat.key}
+          class="category-filter-btn px-3.5 py-2 rounded-full text-xs font-medium text-zinc-700 dark:text-zinc-300 hover:text-zinc-900 dark:hover:text-white bg-zinc-100 dark:bg-zinc-800/80 hover:bg-zinc-200 dark:hover:bg-zinc-700 transition-all shrink-0 flex items-center gap-2"
+        >
+          <span class={`w-2 h-2 rounded-full ${cat.color.dot}`}></span>
+          <span>{cat.name}</span>
+        </button>
+      ))
+    }
+  </div>
+</nav>
+
+<style>
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+</style>
+
+<script is:inline>
+  (function () {
+    const initCategoryFilter = () => {
+      const buttons = document.querySelectorAll('.category-filter-btn');
+      const cards = document.querySelectorAll('.daily-item-card-wrapper');
+
+      if (!buttons.length || !cards.length) return;
+
+      buttons.forEach((btn) => {
+        btn.addEventListener('click', () => {
+          const filter = btn.getAttribute('data-filter');
+
+          // Update active button state
+          buttons.forEach((b) => {
+            b.className =
+              'category-filter-btn px-3.5 py-2 rounded-full text-xs font-medium text-zinc-700 dark:text-zinc-300 hover:text-zinc-900 dark:hover:text-white bg-zinc-100 dark:bg-zinc-800/80 hover:bg-zinc-200 dark:hover:bg-zinc-700 transition-all shrink-0 flex items-center gap-2';
+          });
+
+          btn.className =
+            'category-filter-btn px-4 py-2 rounded-full text-xs font-bold transition-all shrink-0 bg-zinc-900 text-white dark:bg-white dark:text-zinc-900 shadow-sm flex items-center gap-2';
+
+          // Filter card items
+          cards.forEach((card) => {
+            const category = card.getAttribute('data-category');
+            if (filter === 'all' || category === filter) {
+              card.classList.remove('hidden');
+              card.style.opacity = '0';
+              card.style.transform = 'translateY(6px)';
+              setTimeout(() => {
+                card.style.opacity = '1';
+                card.style.transform = 'translateY(0)';
+                card.style.transition = 'opacity 0.2s ease, transform 0.2s ease';
+              }, 10);
+            } else {
+              card.classList.add('hidden');
+            }
+          });
+        });
+      });
+    };
+
+    initCategoryFilter();
+    document.addEventListener('astro:page-load', initCategoryFilter);
+  })();
+</script>

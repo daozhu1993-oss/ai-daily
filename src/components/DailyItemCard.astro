@@ -15,8 +15,11 @@ interface Props {
   index?: number;
 }
 
-const { item } = Astro.props;
+const { item, index = 0 } = Astro.props;
 const catMeta = getCategoryByKey(item.category);
+
+// Format scene number (e.g. SCENE #01, SCENE #02...)
+const sceneNum = String(index + 1).padStart(2, '0');
 
 // Extract clean hostname for meta display (e.g. "anthropic.com")
 let hostname = item.source;
@@ -26,6 +29,10 @@ try {
 } catch (e) {
   // fallback to item.source
 }
+
+// Fallback high-aesthetic abstract visual gradient if media is missing
+const fallbackMedia = `https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80`;
+const displayMedia = item.media || fallbackMedia;
 ---
 
 <div
@@ -39,83 +46,84 @@ try {
   data-media={item.media || ''}
 >
   <article
-    class={`open-reader-trigger group relative flex flex-col h-full rounded-2xl bg-white dark:bg-[#17191e] border transition-all duration-200 overflow-hidden ${
-      item.pinned
-        ? 'border-indigo-300 dark:border-indigo-700/80 shadow-md shadow-indigo-500/5'
-        : 'border-zinc-200/80 dark:border-zinc-800/80 hover:border-indigo-300 dark:hover:border-indigo-800/80 hover:shadow-md hover:shadow-black/5'
-    }`}
+    class="open-reader-trigger group relative flex flex-col h-full rounded-2xl sm:rounded-3xl bg-white dark:bg-[#17191e] border border-zinc-200/80 dark:border-zinc-800 hover:border-indigo-400 dark:hover:border-indigo-600/80 hover:shadow-xl hover:shadow-indigo-500/5 transition-all duration-300 overflow-hidden"
   >
-    <!-- Card Media / Screenshot Preview Header -->
-    {
-      item.media ? (
-        <div class="block relative aspect-[16/10] overflow-hidden bg-zinc-100 dark:bg-zinc-900 border-b border-zinc-100 dark:border-zinc-800/60">
-          <img
-            src={item.media}
-            alt={item.title}
-            loading="lazy"
-            class="w-full h-full object-cover group-hover:scale-[1.02] transition-transform duration-300"
-          />
-        </div>
-      ) : (
-        /* Subtle aesthetic header for text-only cards */
-        <div class="h-2 w-full bg-gradient-to-r from-transparent via-zinc-200/40 dark:via-zinc-800/60 to-transparent" />
-      )
-    }
+    <!-- 16:9 Cinematic Media Poster Header -->
+    <div class="relative aspect-video w-full overflow-hidden bg-zinc-900">
+      <img
+        src={displayMedia}
+        alt={item.title}
+        loading="lazy"
+        class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 brightness-[0.92] group-hover:brightness-100"
+      />
 
-    <!-- Card Content -->
-    <div class="p-5 flex flex-col flex-1 justify-between gap-3">
-      <div class="space-y-2.5">
-        <!-- Category & Source Meta Row -->
-        <div class="flex items-center justify-between gap-2 text-xs text-zinc-400 dark:text-zinc-500">
-          <div class="flex items-center gap-1.5 font-medium">
-            <span class={`inline-flex items-center gap-1 px-2 py-0.5 rounded text-[11px] font-semibold ${catMeta.color.bg} ${catMeta.color.text} ${catMeta.color.darkBg} ${catMeta.color.darkText}`}>
-              <span class={`w-1 h-1 rounded-full ${catMeta.color.dot}`}></span>
-              <span>{item.category}</span>
-            </span>
-            <span class="text-zinc-300 dark:text-zinc-700">·</span>
-            <span class="font-mono text-[11px] truncate max-w-[130px]">{hostname}</span>
-          </div>
+      <!-- Gradient Vignette Overlay for Badges Readability -->
+      <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-black/30 pointer-events-none"></div>
 
-          {item.pinned && (
-            <span class="px-1.5 py-0.2 rounded text-[10px] font-semibold bg-indigo-50 dark:bg-indigo-950/60 text-indigo-700 dark:text-indigo-300">
-              置顶
-            </span>
-          )}
-        </div>
+      <!-- Top Floating Badges: Scene Number + Category -->
+      <div class="absolute top-3 left-3 flex items-center gap-1.5 z-10">
+        <span class="px-2.5 py-1 rounded-full bg-black/75 backdrop-blur-md text-white font-mono font-black text-[11px] border border-white/10 shadow-sm">
+          SCENE #{sceneNum}
+        </span>
+        <span class={`inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-[11px] font-bold backdrop-blur-md shadow-sm ${catMeta.color.bg} ${catMeta.color.text} ${catMeta.color.darkBg} ${catMeta.color.darkText}`}>
+          <span class={`w-1.5 h-1.5 rounded-full ${catMeta.color.dot}`}></span>
+          <span>{item.category}</span>
+        </span>
+      </div>
 
+      <!-- Pinned Badge if applicable -->
+      {item.pinned && (
+        <span class="absolute top-3 right-3 px-2 py-0.5 rounded-full bg-indigo-600/90 backdrop-blur-md text-white font-bold text-[10px] shadow-sm z-10">
+          置顶
+        </span>
+      )}
+
+      <!-- Bottom Right Hostname Pill -->
+      <div class="absolute bottom-3 right-3 px-2.5 py-0.5 rounded-full bg-black/70 backdrop-blur-md text-zinc-300 font-mono text-[10px] border border-white/10 z-10">
+        {hostname}
+      </div>
+    </div>
+
+    <!-- Card Content Body -->
+    <div class="p-5 sm:p-6 flex flex-col flex-1 justify-between gap-4">
+      <div class="space-y-3">
         <!-- Title -->
-        <h3 class="font-bold text-sm sm:text-base text-zinc-900 dark:text-zinc-100 group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors leading-snug">
+        <h2 class="font-bold text-base sm:text-lg text-zinc-900 dark:text-zinc-50 group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors leading-snug">
           {item.title}
-        </h3>
+        </h2>
 
-        <!-- Sharp Commentary -->
+        <!-- Curator Note -->
         <p class="text-xs sm:text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed line-clamp-3">
           {item.note}
         </p>
       </div>
 
-      <!-- Footer: So What & External Direct Button -->
-      <div class="pt-2 border-t border-zinc-100 dark:border-zinc-800/60 flex items-center justify-between gap-2">
-        {item.so_what ? (
-          <div class="text-[11px] text-indigo-700 dark:text-indigo-300 bg-indigo-50/70 dark:bg-indigo-950/40 px-2 py-1 rounded-md border border-indigo-100/60 dark:border-indigo-900/30 truncate flex-1">
-            💡 {item.so_what}
-          </div>
-        ) : (
-          <div class="text-[11px] text-zinc-400 font-mono">
-            来源：{item.source}
+      <!-- Footer: So What Highlight Block + Direct Link Button -->
+      <div class="space-y-3 pt-2">
+        {item.so_what && (
+          <div class="p-3.5 rounded-xl bg-amber-50/90 dark:bg-amber-950/40 border border-amber-200/70 dark:border-amber-800/40 text-xs text-amber-900 dark:text-amber-200 leading-relaxed font-medium shadow-sm">
+            <span class="font-bold text-amber-700 dark:text-amber-400 mr-1">💡 穿透价值：</span>
+            <span>{item.so_what}</span>
           </div>
         )}
 
-        <a
-          href={item.url}
-          target="_blank"
-          rel="noopener noreferrer"
-          title={`在新标签页打开官方原文 (${hostname})`}
-          aria-label={`查看 ${item.title} 原文`}
-          class="direct-external-btn w-7 h-7 rounded-full bg-zinc-100 dark:bg-zinc-800 hover:bg-indigo-600 hover:text-white dark:hover:bg-indigo-600 dark:hover:text-white text-zinc-600 dark:text-zinc-300 flex items-center justify-center transition-all shrink-0 text-xs font-bold shadow-sm"
-        >
-          ↗
-        </a>
+        <div class="pt-2 border-t border-zinc-100 dark:border-zinc-800/80 flex items-center justify-between text-xs text-zinc-400">
+          <span class="text-[11px] font-mono">
+            点击展开全文阅读
+          </span>
+
+          <a
+            href={item.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            title={`在新标签页打开原文 (${hostname})`}
+            aria-label={`查看 ${item.title} 原文`}
+            class="direct-external-btn inline-flex items-center gap-1 px-3 py-1.5 rounded-xl bg-zinc-100 dark:bg-zinc-800 hover:bg-indigo-600 hover:text-white dark:hover:bg-indigo-600 dark:hover:text-white text-zinc-700 dark:text-zinc-300 transition-all font-medium text-xs shadow-sm"
+          >
+            <span>阅读原文</span>
+            <span>↗</span>
+          </a>
+        </div>
       </div>
     </div>
   </article>

@@ -1,0 +1,76 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  issue: CollectionEntry<'daily'>;
+}
+
+const { issue } = Astro.props;
+const { date, title, epigraph, lead, scene, items } = issue.data;
+
+const [, month, day] = date.split('-');
+const displayDate = `${parseInt(month)}月${parseInt(day)}日`;
+
+// Default cinematic background image
+const heroImage = issue.data.cover || items[0]?.media || 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1600&auto=format&fit=crop&q=80';
+---
+
+<section class="relative overflow-hidden rounded-3xl border border-zinc-200/80 dark:border-zinc-800 bg-zinc-950 min-h-[340px] sm:min-h-[400px] flex flex-col justify-end p-6 sm:p-10 text-white group shadow-xl">
+  <!-- Background Image with Zoom & Dark Vignette -->
+  <img
+    src={heroImage}
+    alt={title || displayDate}
+    class="absolute inset-0 w-full h-full object-cover -z-10 group-hover:scale-105 transition-transform duration-700 brightness-[0.7] contrast-[1.05]"
+  />
+  <div class="absolute inset-0 bg-gradient-to-t from-black via-black/55 to-transparent -z-10"></div>
+
+  <div class="space-y-4 max-w-3xl">
+    <!-- Top Meta Badges -->
+    <div class="flex flex-wrap items-center gap-2">
+      <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-indigo-600/90 backdrop-blur-md text-white text-xs font-bold shadow-sm">
+        <span class="w-1.5 h-1.5 rounded-full bg-white animate-pulse"></span>
+        <span>今日主线特刊</span>
+        <span>·</span>
+        <span>{displayDate}</span>
+      </div>
+      <span class="px-2.5 py-1 rounded-full bg-black/60 backdrop-blur-md text-zinc-300 font-mono text-xs border border-white/10">
+        ISSUE #{date.replace(/-/g, '')}
+      </span>
+      <span class="px-2.5 py-1 rounded-full bg-emerald-500/20 backdrop-blur-md text-emerald-300 font-mono text-xs font-semibold border border-emerald-500/30">
+        {items.length} 篇图文精选
+      </span>
+    </div>
+
+    <!-- Main Editorial Headline -->
+    <h1 class="text-2xl sm:text-3xl lg:text-4xl font-black tracking-tight font-serif text-white leading-tight drop-shadow-sm">
+      {title || `${displayDate} · 今日看点`}
+    </h1>
+
+    <!-- Epigraph Quote if present -->
+    {epigraph && (
+      <p class="text-xs sm:text-sm italic text-zinc-300 font-serif border-l-2 border-indigo-400 pl-3 leading-relaxed">
+        「{epigraph}」
+      </p>
+    )}
+
+    <!-- Editorial Lead Narrative -->
+    {lead && (
+      <p class="text-xs sm:text-sm text-zinc-200 leading-relaxed font-normal line-clamp-3 max-w-2xl drop-shadow-sm">
+        {lead}
+      </p>
+    )}
+
+    <!-- Screenplay Dialogue Capsule (今日一幕 · 分镜台本) -->
+    {scene && (
+      <div class="p-4 rounded-2xl bg-white/10 backdrop-blur-md border border-white/20 text-xs font-mono text-zinc-100 flex items-start gap-3 shadow-sm">
+        <div class="flex items-center gap-1.5 text-amber-400 font-bold shrink-0 pt-0.5">
+          <span class="w-2 h-2 rounded-full bg-amber-400 animate-pulse"></span>
+          <span>今日一幕</span>
+        </div>
+        <p class="italic leading-relaxed text-zinc-200">
+          {scene}
+        </p>
+      </div>
+    )}
+  </div>
+</section>

@@ -15,6 +15,7 @@ interface Props {
   currentIssue: CollectionEntry<'daily'>;
   allIssues: CollectionEntry<'daily'>[];
   showRightSidebar?: boolean;
+  showFloatingBar?: boolean;
 }
 
 const {
@@ -24,6 +25,7 @@ const {
   currentIssue,
   allIssues,
   showRightSidebar = true,
+  showFloatingBar = false,
 } = Astro.props;
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site || siteConfig.url);
@@ -98,24 +100,6 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site || siteConfig.url);
 
         <!-- 2. Center Main Gallery Stream -->
         <main class="flex-1 min-w-0 w-full relative">
-          <!-- Mobile Summary Card (Visible only on mobile/tablet) -->
-          <div class="lg:hidden mb-6 p-4 rounded-2xl bg-zinc-100/80 dark:bg-[#17191e] border border-zinc-200/80 dark:border-zinc-800/80 space-y-2">
-            <div class="flex items-center justify-between">
-              <span class="text-xs font-bold text-indigo-600 dark:text-indigo-400">✦ 今日主线看点</span>
-              <time class="text-xs text-zinc-400 font-mono">{currentIssue.data.date}</time>
-            </div>
-            {currentIssue.data.epigraph && (
-              <p class="text-xs italic text-zinc-700 dark:text-zinc-300 font-serif">
-                「{currentIssue.data.epigraph}」
-              </p>
-            )}
-            {currentIssue.data.lead && (
-              <p class="text-xs text-zinc-600 dark:text-zinc-400 line-clamp-3">
-                {currentIssue.data.lead}
-              </p>
-            )}
-          </div>
-
           <!-- Gallery Slot -->
           <slot />
         </main>
@@ -125,8 +109,8 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site || siteConfig.url);
       </div>
     </div>
 
-    <!-- Floating Bottom Category Filter Bar -->
-    <FloatingCategoryBar />
+    <!-- Floating Bottom Category Filter Bar (Only if explicitly enabled) -->
+    {showFloatingBar && <FloatingCategoryBar />}
 
     <!-- In-Site Deep Reading Modal -->
     <ItemReaderModal />
