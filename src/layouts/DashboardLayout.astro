@@ -6,6 +6,7 @@ import RightSidebar from '../components/RightSidebar.astro';
 import FloatingCategoryBar from '../components/FloatingCategoryBar.astro';
 import ThemeToggle from '../components/ThemeToggle.astro';
 import ItemReaderModal from '../components/ItemReaderModal.astro';
+import SubscribeModal from '../components/SubscribeModal.astro';
 import '../styles/global.css';
 
 interface Props {
@@ -114,5 +115,8 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site || siteConfig.url);
 
     <!-- In-Site Deep Reading Modal -->
     <ItemReaderModal />
+
+    <!-- Subscribe Modal (Email & RSS) -->
+    <SubscribeModal />
   </body>
 </html>

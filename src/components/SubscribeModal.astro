@@ -1,0 +1,211 @@
+---
+import { siteConfig } from '../config/site';
+
+const rssUrl = `${siteConfig.url}/rss.xml`;
+const jsonFeedUrl = `${siteConfig.url}/feed.json`;
+---
+
+<div
+  id="subscribe-modal"
+  class="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 opacity-0 pointer-events-none transition-all duration-200"
+  aria-hidden="true"
+>
+  <!-- Backdrop -->
+  <div
+    id="subscribe-backdrop"
+    onclick="window.__closeSubscribeModal && window.__closeSubscribeModal()"
+    class="absolute inset-0 bg-black/60 dark:bg-black/80 backdrop-blur-sm transition-opacity cursor-pointer"
+  ></div>
+
+  <!-- Modal Content Dialog -->
+  <div
+    class="relative w-full max-w-lg bg-white dark:bg-[#17191e] border border-zinc-200/90 dark:border-zinc-800 rounded-3xl shadow-2xl overflow-hidden flex flex-col transform scale-95 transition-transform duration-200"
+    role="dialog"
+    aria-modal="true"
+  >
+    <!-- Modal Header -->
+    <div class="px-6 pt-6 pb-4 border-b border-zinc-100 dark:border-zinc-800/80 flex items-center justify-between gap-4 shrink-0">
+      <div class="flex items-center gap-2.5">
+        <div class="w-8 h-8 rounded-xl bg-indigo-600/10 dark:bg-indigo-500/20 text-indigo-600 dark:text-indigo-400 flex items-center justify-center text-base font-bold">
+          <span>📮</span>
+        </div>
+        <div>
+          <h3 class="text-base font-bold text-zinc-900 dark:text-zinc-50 leading-tight">
+            订阅「{siteConfig.name}」
+          </h3>
+          <p class="text-xs text-zinc-500 dark:text-zinc-400 leading-tight">
+            每日 9 大领域高密度资讯与故事思维沉淀
+          </p>
+        </div>
+      </div>
+
+      <!-- Close Button -->
+      <button
+        type="button"
+        onclick="window.__closeSubscribeModal && window.__closeSubscribeModal()"
+        class="w-8 h-8 rounded-full bg-zinc-100 dark:bg-zinc-800 hover:bg-zinc-200 dark:hover:bg-zinc-700 text-zinc-500 hover:text-zinc-900 dark:hover:text-white flex items-center justify-center transition-colors text-sm font-bold cursor-pointer"
+        aria-label="关闭弹窗"
+      >
+        ✕
+      </button>
+    </div>
+
+    <!-- Modal Scrollable Body -->
+    <div class="p-6 space-y-6">
+      <!-- Section 1: Email Morning Digest -->
+      <div class="p-5 rounded-2xl bg-zinc-50 dark:bg-zinc-900/60 border border-zinc-200/80 dark:border-zinc-800 space-y-3">
+        <div class="flex items-center justify-between">
+          <span class="text-xs font-bold text-indigo-600 dark:text-indigo-400 flex items-center gap-1.5">
+            <span>📬 邮件每日晨报</span>
+            <span class="px-1.5 py-0.5 rounded bg-indigo-100 dark:bg-indigo-950/80 text-[10px]">免费</span>
+          </span>
+          <span class="text-[11px] text-zinc-400">每日清晨送达</span>
+        </div>
+        
+        <p class="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+          把最具穿透力的 AI 洞察与产品灵感送达您的收件箱。零垃圾广告，随时自由退订。
+        </p>
+
+        <form id="subscribe-email-form" class="flex items-center gap-2 pt-1">
+          <input
+            type="email"
+            id="subscribe-email-input"
+            required
+            placeholder="输入您的常用邮箱..."
+            class="flex-1 px-3.5 py-2 text-xs rounded-xl border border-zinc-300 dark:border-zinc-700 bg-white dark:bg-zinc-800 text-zinc-900 dark:text-white placeholder-zinc-400 focus:outline-none focus:ring-2 focus:ring-indigo-500/50"
+          />
+          <button
+            type="submit"
+            id="subscribe-email-btn"
+            class="px-4 py-2 text-xs font-bold rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white shadow-sm transition-all shrink-0 cursor-pointer"
+          >
+            立即订阅
+          </button>
+        </form>
+        <div id="subscribe-email-success" class="hidden text-xs text-emerald-600 dark:text-emerald-400 font-medium pt-1">
+          ✓ 订阅成功！感谢关注，首期精选将于明日清晨送达。
+        </div>
+      </div>
+
+      <!-- Section 2: RSS / Feed Subscription -->
+      <div class="p-5 rounded-2xl bg-zinc-50 dark:bg-zinc-900/60 border border-zinc-200/80 dark:border-zinc-800 space-y-3">
+        <div class="flex items-center justify-between">
+          <span class="text-xs font-bold text-amber-600 dark:text-amber-400 flex items-center gap-1.5">
+            <span>📡 RSS 订阅源</span>
+            <span class="px-1.5 py-0.5 rounded bg-amber-100 dark:bg-amber-950/80 text-[10px]">实时更新</span>
+          </span>
+          <span class="text-[11px] text-zinc-400">适配 Follow / Feedly / NetNewsWire</span>
+        </div>
+
+        <p class="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+          复制下方地址，粘贴到您喜爱的 RSS 阅读器中即可永久同步每日精选更新：
+        </p>
+
+        <div class="flex items-center gap-2 p-2 rounded-xl bg-white dark:bg-zinc-800 border border-zinc-200/80 dark:border-zinc-700">
+          <input
+            type="text"
+            readonly
+            id="subscribe-rss-url-input"
+            value={rssUrl}
+            class="flex-1 bg-transparent text-xs font-mono text-zinc-600 dark:text-zinc-300 focus:outline-none truncate px-1 select-all"
+          />
+          <button
+            type="button"
+            id="subscribe-copy-rss-btn"
+            onclick="window.__copyRssUrl()"
+            class="px-3 py-1.5 rounded-lg bg-zinc-900 hover:bg-zinc-800 dark:bg-zinc-100 dark:hover:bg-white text-white dark:text-zinc-900 text-xs font-bold transition-all shrink-0 cursor-pointer shadow-sm"
+          >
+            复制地址
+          </button>
+        </div>
+
+        <div class="flex items-center justify-between text-[11px] text-zinc-400 pt-1">
+          <span>亦支持 JSON Feed 格式</span>
+          <a
+            href={jsonFeedUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-indigo-600 dark:text-indigo-400 hover:underline font-mono"
+          >
+            查看 feed.json ↗
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script is:inline>
+  (function () {
+    const modal = document.getElementById('subscribe-modal');
+    if (!modal) return;
+
+    window.__openSubscribeModal = function () {
+      modal.classList.remove('opacity-0', 'pointer-events-none');
+      const dialog = modal.querySelector('[role="dialog"]');
+      if (dialog) {
+        dialog.classList.remove('scale-95');
+        dialog.classList.add('scale-100');
+      }
+      document.body.style.overflow = 'hidden';
+    };
+
+    window.__closeSubscribeModal = function () {
+      modal.classList.add('opacity-0', 'pointer-events-none');
+      const dialog = modal.querySelector('[role="dialog"]');
+      if (dialog) {
+        dialog.classList.add('scale-95');
+        dialog.classList.remove('scale-100');
+      }
+      document.body.style.overflow = '';
+    };
+
+    window.__copyRssUrl = function () {
+      const input = document.getElementById('subscribe-rss-url-input');
+      const btn = document.getElementById('subscribe-copy-rss-btn');
+      if (!input || !btn) return;
+
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(input.value).then(() => {
+          const originalText = btn.textContent;
+          btn.textContent = '已复制 ✔';
+          btn.classList.add('bg-emerald-600', 'text-white');
+          setTimeout(() => {
+            btn.textContent = originalText;
+            btn.classList.remove('bg-emerald-600', 'text-white');
+          }, 2000);
+        });
+      } else {
+        input.select();
+        btn.textContent = '已选中请按复制';
+      }
+    };
+
+    const form = document.getElementById('subscribe-email-form');
+    if (form) {
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        const input = document.getElementById('subscribe-email-input');
+        const btn = document.getElementById('subscribe-email-btn');
+        const success = document.getElementById('subscribe-email-success');
+        if (!input || !btn) return;
+
+        btn.textContent = '提交中...';
+        btn.setAttribute('disabled', 'true');
+
+        setTimeout(() => {
+          btn.textContent = '已订阅 ✔';
+          input.value = '';
+          if (success) success.classList.remove('hidden');
+        }, 600);
+      });
+    }
+
+    // Close on Escape key
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && !modal.classList.contains('pointer-events-none')) {
+        window.__closeSubscribeModal();
+      }
+    });
+  })();
+</script>
