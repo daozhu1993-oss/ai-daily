@@ -77,7 +77,7 @@ export const siteConfig: SiteConfig = {
     name: '岛主',
     role: '产品人',
     bio: '干过十年编剧，后来转去做产品经理，擅长用故事思维驱动各种「杂七杂八」的产品。',
-    personalSite: 'https://daozhu-ai-daily.daozhu1993.workers.dev',
+    personalSite: 'https://daozhu1993-oss.github.io/v2/',
     featuredWorks: [],
     social: {
       x: 'https://x.com',
@@ -100,7 +100,7 @@ export const siteConfig: SiteConfig = {
       title: '关于主理人 · 岛主',
       description: '干过十年编剧，后来转去做产品经理。擅长用故事思维驱动各种「杂七杂八」的产品。',
       buttonText: '关于岛主',
-      link: '/about',
+      link: 'https://daozhu1993-oss.github.io/v2/',
       tag: '主理人',
     },
     sponsor: {

@@ -90,14 +90,20 @@ const allCategories = Object.values(CATEGORIES);
       <h3 class="font-bold text-zinc-800 dark:text-zinc-200">联系与合作</h3>
       <p>商务赞助、线索提供或意见反馈，欢迎通过以下渠道交流：</p>
       <div class="flex items-center gap-4 pt-1">
-        {siteConfig.author.social.x && (
-          <a href={siteConfig.author.social.x} target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 hover:underline">
-            X (Twitter)
+        {siteConfig.author.personalSite && (
+          <a href={siteConfig.author.personalSite} target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 font-medium hover:underline flex items-center gap-1">
+            <span>主理人主页 (v2)</span>
+            <span>↗</span>
           </a>
         )}
         {siteConfig.author.social.github && (
           <a href={siteConfig.author.social.github} target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 hover:underline">
             GitHub
+          </a>
+        )}
+        {siteConfig.author.social.x && (
+          <a href={siteConfig.author.social.x} target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 hover:underline">
+            X (Twitter)
           </a>
         )}
         {siteConfig.author.social.email && (
