@@ -1,0 +1,384 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { siteConfig } from '../config/site';
+---
+
+<BaseLayout title="全新界面架构真实预览 · 岛主 AI 日报" description="三套独创布局真实渲染预览">
+  <div class="max-w-5xl mx-auto space-y-6">
+    
+    <!-- Top Controller / Switcher Header -->
+    <div class="bg-white dark:bg-[#17191e] border border-zinc-200/80 dark:border-zinc-800 rounded-3xl p-6 sm:p-8 shadow-sm space-y-4">
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+        <div>
+          <span class="text-xs font-mono font-bold tracking-wider uppercase text-indigo-600 dark:text-indigo-400 bg-indigo-50 dark:bg-indigo-950/60 px-2.5 py-1 rounded-full border border-indigo-200/60 dark:border-indigo-800/40">
+            UI Architecture Preview
+          </span>
+          <h1 class="text-2xl sm:text-3xl font-black tracking-tight mt-2 text-zinc-900 dark:text-zinc-50 font-serif">
+            岛主 AI 日报 · 3 套独创视觉布局真实渲染预览
+          </h1>
+          <p class="text-xs sm:text-sm text-zinc-600 dark:text-zinc-400 mt-1">
+            彻底摆脱第三方广场模板，结合「十年编剧转产品经理」IP，点击下方按钮切换查看真实视觉与排版细节：
+          </p>
+        </div>
+
+        <!-- Concept Switcher Buttons -->
+        <div class="flex items-center gap-1.5 p-1.5 bg-zinc-100 dark:bg-zinc-800/80 border border-zinc-200/80 dark:border-zinc-700/80 rounded-2xl shrink-0 self-start sm:self-center">
+          <button
+            type="button"
+            onclick="switchConcept('concept1')"
+            id="btn-concept1"
+            class="px-3.5 py-2 rounded-xl text-xs font-bold transition-all bg-indigo-600 text-white shadow-sm"
+          >
+            🎬 方案一：剧本杂志流
+          </button>
+          <button
+            type="button"
+            onclick="switchConcept('concept2')"
+            id="btn-concept2"
+            class="px-3.5 py-2 rounded-xl text-xs font-medium text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-white transition-all"
+          >
+            🍱 方案二：Bento 仪表盘
+          </button>
+          <button
+            type="button"
+            onclick="switchConcept('concept4')"
+            id="btn-concept4"
+            class="px-3.5 py-2 rounded-xl text-xs font-medium text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-white transition-all"
+          >
+            ✨ 方案四：双流合一旗舰版
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ======================================================== -->
+    <!-- CONCEPT 1: 剧本与杂志主编流 (Editorial Screenplay) -->
+    <!-- ======================================================== -->
+    <div id="view-concept1" class="space-y-6 transition-all duration-300">
+      <div class="bg-white dark:bg-[#17191e] border border-zinc-200/80 dark:border-zinc-800 rounded-3xl p-6 sm:p-8 space-y-6 shadow-sm">
+        
+        <!-- Header Bar -->
+        <div class="flex items-center justify-between border-b border-zinc-200/80 dark:border-zinc-800 pb-4">
+          <div class="flex items-center gap-3">
+            <span class="font-serif italic font-black text-2xl tracking-tight text-indigo-600 dark:text-indigo-400">
+              Daozhu's Daily
+            </span>
+            <span class="text-xs text-zinc-500 border-l border-zinc-300 dark:border-zinc-700 pl-3 hidden sm:inline">
+              用故事思维驱动用户价值
+            </span>
+          </div>
+          <div class="flex items-center gap-2 text-xs font-mono">
+            <span class="px-2.5 py-1 rounded-md bg-zinc-100 dark:bg-zinc-800 text-zinc-600 dark:text-zinc-400 border border-zinc-200 dark:border-zinc-700">ISSUE #0903</span>
+            <span class="px-2.5 py-1 rounded-md bg-emerald-50 dark:bg-emerald-950/60 text-emerald-700 dark:text-emerald-300 font-bold border border-emerald-200/60 dark:border-emerald-800/40">9大领域 64 篇</span>
+          </div>
+        </div>
+
+        <!-- Editorial Hero Stage (大刊头 + 分镜剧场) -->
+        <div class="p-6 rounded-2xl bg-gradient-to-br from-indigo-500/10 via-purple-500/5 to-transparent border border-indigo-500/20 space-y-4">
+          <div class="flex items-center gap-2 text-xs font-bold text-indigo-600 dark:text-indigo-400">
+            <span>📰 今日主线特刊</span>
+            <span>·</span>
+            <span>2026 年 9 月 3 日</span>
+          </div>
+          <h2 class="text-2xl sm:text-3xl font-black text-zinc-900 dark:text-zinc-50 tracking-tight font-serif">
+            极速工作马与盈利短剧：当 AI 从演示走向真正赚钱
+          </h2>
+          <p class="text-sm text-zinc-600 dark:text-zinc-300 leading-relaxed">
+            今天全网呈现出极强的「闭环执行」与「商业变现」拐点：谷歌突发上线 Gemini 3.8 Flash，首次打通了「玩游戏 ➔ 找错 ➔ 自主改代码 ➔ 验证」的完整自闭环；ReelShort 全年突破 10 亿美元首次实现年度盈利，字节跳动搭起短剧操作系统。
+          </p>
+
+          <!-- 今日一幕小剧场 (打字机对白台本) -->
+          <div class="p-4 rounded-xl bg-zinc-100/90 dark:bg-zinc-800/90 border border-zinc-200/80 dark:border-zinc-700 font-mono text-xs space-y-1.5">
+            <div class="text-[11px] font-bold text-amber-600 dark:text-amber-400 uppercase tracking-wider flex items-center gap-1.5">
+              <span class="w-2 h-2 rounded-full bg-amber-500 animate-pulse"></span>
+              <span>🎬 今日一幕（分镜对白台本）</span>
+            </div>
+            <p class="text-zinc-800 dark:text-zinc-200 leading-relaxed italic">
+              「以前是把报错扔给 AI 等它猜；现在 Gemini 3.8 Flash 自己在终端里把游戏玩了三关，顺手提了个 PR 把闪退 Bug 修了。」
+            </p>
+          </div>
+        </div>
+
+        <!-- Sticky Top Category Bar (杂志分栏) -->
+        <div class="flex items-center gap-1.5 overflow-x-auto pb-1 border-b border-zinc-200 dark:border-zinc-800 text-xs no-scrollbar">
+          <button class="px-3.5 py-1.5 rounded-full bg-indigo-600 text-white font-bold shrink-0 shadow-sm">全部 64</button>
+          <button class="px-3 py-1.5 rounded-full bg-zinc-100 dark:bg-zinc-800 text-zinc-600 dark:text-zinc-400 font-medium shrink-0 hover:text-zinc-900 dark:hover:text-white">🤖 AI 资讯 10</button>
+          <button class="px-3 py-1.5 rounded-full bg-zinc-100 dark:bg-zinc-800 text-zinc-600 dark:text-zinc-400 font-medium shrink-0 hover:text-zinc-900 dark:hover:text-white">💡 一人公司 12</button>
+          <button class="px-3 py-1.5 rounded-full bg-zinc-100 dark:bg-zinc-800 text-zinc-600 dark:text-zinc-400 font-medium shrink-0 hover:text-zinc-900 dark:hover:text-white">📱 产品经理 3</button>
+          <button class="px-3 py-1.5 rounded-full bg-zinc-100 dark:bg-zinc-800 text-zinc-600 dark:text-zinc-400 font-medium shrink-0 hover:text-zinc-900 dark:hover:text-white">🎨 产品设计 16</button>
+          <button class="px-3 py-1.5 rounded-full bg-zinc-100 dark:bg-zinc-800 text-zinc-600 dark:text-zinc-400 font-medium shrink-0 hover:text-zinc-900 dark:hover:text-white">🎬 编剧技巧 3</button>
+          <button class="px-3 py-1.5 rounded-full bg-zinc-100 dark:bg-zinc-800 text-zinc-600 dark:text-zinc-400 font-medium shrink-0 hover:text-zinc-900 dark:hover:text-white">🎥 AI 漫剧 4</button>
+        </div>
+
+        <!-- Screenplay Cards Feed (分镜台本式卡片) -->
+        <div class="space-y-4">
+          
+          <!-- Sample Card 1 -->
+          <div class="p-5 rounded-2xl bg-zinc-50 dark:bg-zinc-900/60 border border-zinc-200/80 dark:border-zinc-800 hover:border-indigo-500/50 transition-all space-y-3">
+            <div class="flex items-center justify-between text-xs">
+              <div class="flex items-center gap-2">
+                <span class="font-mono font-black text-indigo-600 dark:text-indigo-400 bg-indigo-50 dark:bg-indigo-950/60 px-2 py-0.5 rounded border border-indigo-200/60 dark:border-indigo-800/40">SCENE #01</span>
+                <span class="font-bold text-blue-600 dark:text-blue-400">AI 资讯</span>
+                <span class="text-zinc-400">· Google AI</span>
+              </div>
+              <span class="text-zinc-400 font-mono text-[11px]">blog.google</span>
+            </div>
+            <h3 class="text-base sm:text-lg font-bold text-zinc-900 dark:text-zinc-100 leading-snug">
+              Gemini 3.8 Flash：同一价位，开始能自己把游戏找错并修改跑通
+            </h3>
+            <p class="text-xs sm:text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed">
+              会玩、会找错、会改代码，极速工作马第一次把这三步收成自闭环，Cursor 当天无缝接入。
+            </p>
+            <div class="p-3.5 rounded-xl bg-white dark:bg-zinc-800 border border-zinc-200/70 dark:border-zinc-700/70 text-xs text-amber-700 dark:text-amber-300 leading-relaxed font-medium">
+              💡 <strong>【岛主穿透价值】</strong>：当工具不仅能把代码写完，还能自己把游戏玩通并修复 Bug，它才算真正接过了键盘。
+            </div>
+          </div>
+
+          <!-- Sample Card 2 -->
+          <div class="p-5 rounded-2xl bg-zinc-50 dark:bg-zinc-900/60 border border-zinc-200/80 dark:border-zinc-800 hover:border-indigo-500/50 transition-all space-y-3">
+            <div class="flex items-center justify-between text-xs">
+              <div class="flex items-center gap-2">
+                <span class="font-mono font-black text-violet-600 dark:text-violet-400 bg-violet-50 dark:bg-violet-950/60 px-2 py-0.5 rounded border border-violet-200/60 dark:border-violet-800/40">SCENE #02</span>
+                <span class="font-bold text-violet-600 dark:text-violet-400">编剧技巧</span>
+                <span class="text-zinc-400">· 万众编剧网</span>
+              </div>
+              <span class="text-zinc-400 font-mono text-[11px]">wzbj1616.com</span>
+            </div>
+            <h3 class="text-base sm:text-lg font-bold text-zinc-900 dark:text-zinc-100 leading-snug">
+              新人必看！两种最常见的剧本模式与情节推演公式
+            </h3>
+            <p class="text-xs sm:text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed">
+              经典「救猫咪」英雄之旅与「动机-阻碍-危机-顿悟」逆境结构深度拆解，故事写不下去时的万能解题钥匙。
+            </p>
+            <div class="p-3.5 rounded-xl bg-white dark:bg-zinc-800 border border-zinc-200/70 dark:border-zinc-700/70 text-xs text-violet-700 dark:text-violet-300 leading-relaxed font-medium">
+              💡 <strong>【岛主穿透价值】</strong>：剧本模式就是思维模型，熟练运用模式能让你在构思产品与短剧时少走 80% 的弯路。
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ======================================================== -->
+    <!-- CONCEPT 2: Bento 便当盒仪表盘流 (Solopreneur Bento Grid) -->
+    <!-- ======================================================== -->
+    <div id="view-concept2" class="space-y-6 hidden transition-all duration-300">
+      <div class="bg-white dark:bg-[#17191e] border border-zinc-200/80 dark:border-zinc-800 rounded-3xl p-6 sm:p-8 space-y-6 shadow-sm">
+        
+        <div class="flex items-center justify-between border-b border-zinc-200 dark:border-zinc-800 pb-4">
+          <div>
+            <h2 class="text-xl font-black text-zinc-900 dark:text-zinc-50">Bento 仪表盘矩阵架构</h2>
+            <p class="text-xs text-zinc-500 dark:text-zinc-400">按 9 大业务领域划分的模块化 Bento 卡片群，告别流水账瀑布流</p>
+          </div>
+          <span class="px-2.5 py-1 rounded-full bg-indigo-500/10 text-indigo-600 dark:text-indigo-400 text-xs font-bold font-mono">BENTO MODE</span>
+        </div>
+
+        <!-- Bento Grid System -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+          
+          <!-- Bento Box 1: Wide Headline (2 cols) -->
+          <div class="md:col-span-2 p-6 rounded-2xl bg-gradient-to-br from-indigo-500/10 via-purple-500/5 to-transparent border border-indigo-500/30 space-y-3 flex flex-col justify-between">
+            <div class="space-y-2">
+              <span class="px-2.5 py-1 rounded-full bg-indigo-600 text-white text-[11px] font-bold">🌟 今日头条</span>
+              <h3 class="text-xl font-bold text-zinc-900 dark:text-zinc-100">
+                Gemini 3.8 Flash：极速自闭环工作马突发上线
+              </h3>
+              <p class="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+                玩游戏、自主查错并自动改代码提 PR，Cursor 当天无缝接入。
+              </p>
+            </div>
+            <div class="text-xs text-indigo-600 dark:text-indigo-400 font-bold flex items-center justify-between pt-3 border-t border-zinc-200 dark:border-zinc-800">
+              <span>💡 穿透价值：它才算真正接过了键盘</span>
+              <span>阅读外链 ↗</span>
+            </div>
+          </div>
+
+          <!-- Bento Box 2: 岛主 IP & 今日一幕 (1 col) -->
+          <div class="p-5 rounded-2xl bg-zinc-50 dark:bg-zinc-900/60 border border-zinc-200/80 dark:border-zinc-800 space-y-3 flex flex-col justify-between">
+            <div class="space-y-2">
+              <span class="px-2 py-0.5 rounded bg-amber-500/10 text-amber-600 dark:text-amber-400 text-[11px] font-bold">🎬 剧场分镜</span>
+              <p class="text-xs text-zinc-700 dark:text-zinc-300 italic leading-relaxed font-mono">
+                「以前是报错等 AI 猜；现在 Gemini 3.8 自己玩了三关并把 Bug 修了。」
+              </p>
+            </div>
+            <div class="text-[11px] text-zinc-400 pt-2 border-t border-zinc-200 dark:border-zinc-800 flex items-center justify-between">
+              <span>主理人 · 岛主</span>
+              <a href="https://daozhu1993-oss.github.io/v2/" target="_blank" class="text-indigo-600 dark:text-indigo-400 font-bold">关于岛主 ↗</a>
+            </div>
+          </div>
+
+          <!-- Bento Box 3: 编剧技巧 (1 col) -->
+          <div class="p-5 rounded-2xl bg-zinc-50 dark:bg-zinc-900/60 border border-violet-500/30 space-y-2.5">
+            <div class="flex items-center justify-between text-xs">
+              <span class="font-bold text-violet-600 dark:text-violet-400">🎬 编剧技巧</span>
+              <span class="text-[11px] font-mono text-zinc-400">3 篇精选</span>
+            </div>
+            <h4 class="text-sm font-bold text-zinc-900 dark:text-zinc-100">两种最常见剧本模式与推演公式</h4>
+            <p class="text-xs text-zinc-500 dark:text-zinc-400">英雄之旅与逆境模型，在产品流程中的情绪应用。</p>
+          </div>
+
+          <!-- Bento Box 4: 产品经理 (1 col) -->
+          <div class="p-5 rounded-2xl bg-zinc-50 dark:bg-zinc-900/60 border border-sky-500/30 space-y-2.5">
+            <div class="flex items-center justify-between text-xs">
+              <span class="font-bold text-sky-600 dark:text-sky-400">📱 产品经理</span>
+              <span class="text-[11px] font-mono text-zinc-400">3 篇精选</span>
+            </div>
+            <h4 class="text-sm font-bold text-zinc-900 dark:text-zinc-100">自进化 Agent 搭建指南</h4>
+            <p class="text-xs text-zinc-500 dark:text-zinc-400">Reflect 机制打造越用越聪明的生产级智能体。</p>
+          </div>
+
+          <!-- Bento Box 5: AI 漫剧 (1 col) -->
+          <div class="p-5 rounded-2xl bg-zinc-50 dark:bg-zinc-900/60 border border-orange-500/30 space-y-2.5">
+            <div class="flex items-center justify-between text-xs">
+              <span class="font-bold text-orange-600 dark:text-orange-400">🎥 AI 漫剧</span>
+              <span class="text-[11px] font-mono text-zinc-400">4 篇精选</span>
+            </div>
+            <h4 class="text-sm font-bold text-zinc-900 dark:text-zinc-100">ReelShort 营收破 10 亿首次盈利</h4>
+            <p class="text-xs text-zinc-500 dark:text-zinc-400">字节短剧操作系统成形，小团队出海黄金期。</p>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ======================================================== -->
+    <!-- CONCEPT 4: 双流合一旗舰版 (Hybrid Flagship) -->
+    <!-- ======================================================== -->
+    <div id="view-concept4" class="space-y-6 hidden transition-all duration-300">
+      <div class="bg-white dark:bg-[#17191e] border border-zinc-200/80 dark:border-zinc-800 rounded-3xl p-6 sm:p-8 space-y-6 shadow-sm">
+        
+        <div class="flex items-center justify-between border-b border-zinc-200 dark:border-zinc-800 pb-4">
+          <div class="flex items-center gap-3">
+            <span class="font-serif italic font-black text-2xl tracking-tight text-indigo-600 dark:text-indigo-400">
+              Daozhu's Daily
+            </span>
+            <span class="text-xs px-2.5 py-0.5 rounded-full bg-gradient-to-r from-indigo-500/20 to-purple-500/20 text-indigo-600 dark:text-indigo-400 font-bold">
+              旗舰双流合一模式
+            </span>
+          </div>
+          <div class="flex items-center gap-2 text-xs font-mono text-zinc-400">
+            <span>9大领域 · 64 篇高密度</span>
+          </div>
+        </div>
+
+        <!-- Hero: 杂志大主线 + Bento 高光矩阵 -->
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
+          
+          <!-- Left 2 Cols: 杂志今日主线 -->
+          <div class="lg:col-span-2 p-6 rounded-2xl bg-gradient-to-br from-indigo-500/5 via-purple-500/5 to-transparent border border-indigo-500/20 space-y-3 flex flex-col justify-between">
+            <div class="space-y-2">
+              <div class="flex items-center gap-2 text-xs font-bold text-indigo-600 dark:text-indigo-400">
+                <span>📰 9月3日今日主线</span>
+                <span>·</span>
+                <span>极速工作马与盈利短剧</span>
+              </div>
+              <h2 class="text-xl sm:text-2xl font-black text-zinc-900 dark:text-zinc-50 font-serif leading-tight">
+                极速工作马与盈利短剧：当 AI 从演示走向真正赚钱
+              </h2>
+              <p class="text-xs sm:text-sm text-zinc-600 dark:text-zinc-300 leading-relaxed">
+                谷歌 Gemini 3.8 自主改代码 + ReelShort 10 亿美元盈利 + 编剧三幕剧推演。
+              </p>
+            </div>
+            <div class="p-3 rounded-xl bg-zinc-100 dark:bg-zinc-800/90 border border-zinc-200 dark:border-zinc-700 text-xs font-mono text-zinc-800 dark:text-zinc-200 italic">
+              🎬 「以前是报错等 AI 猜；现在 Gemini 3.8 自己玩了三关并提 PR 把 Bug 修了。」
+            </div>
+          </div>
+
+          <!-- Right 1 Col: Bento 快速领域导航 -->
+          <div class="p-5 rounded-2xl bg-zinc-50 dark:bg-zinc-900/60 border border-zinc-200/80 dark:border-zinc-800 flex flex-col justify-between space-y-3">
+            <div class="space-y-2">
+              <span class="text-xs font-bold text-zinc-900 dark:text-zinc-100">📌 9大核心领域直达</span>
+              <div class="grid grid-cols-2 gap-2 text-xs">
+                <div class="p-2 rounded-lg bg-white dark:bg-zinc-800 border border-zinc-200/80 dark:border-zinc-700 font-medium text-blue-600 dark:text-blue-400">AI 资讯 (10)</div>
+                <div class="p-2 rounded-lg bg-white dark:bg-zinc-800 border border-zinc-200/80 dark:border-zinc-700 font-medium text-amber-600 dark:text-amber-400">一人公司 (12)</div>
+                <div class="p-2 rounded-lg bg-white dark:bg-zinc-800 border border-zinc-200/80 dark:border-zinc-700 font-medium text-sky-600 dark:text-sky-400">产品经理 (3)</div>
+                <div class="p-2 rounded-lg bg-white dark:bg-zinc-800 border border-zinc-200/80 dark:border-zinc-700 font-medium text-violet-600 dark:text-violet-400">编剧技巧 (3)</div>
+                <div class="p-2 rounded-lg bg-white dark:bg-zinc-800 border border-zinc-200/80 dark:border-zinc-700 font-medium text-orange-600 dark:text-orange-400">AI 漫剧 (4)</div>
+                <div class="p-2 rounded-lg bg-white dark:bg-zinc-800 border border-zinc-200/80 dark:border-zinc-700 font-medium text-emerald-600 dark:text-emerald-400">产品设计 (16)</div>
+              </div>
+            </div>
+            <a href="https://daozhu1993-oss.github.io/v2/" target="_blank" class="text-xs text-indigo-600 dark:text-indigo-400 font-bold hover:underline">
+              关于主理人 · 岛主 ↗
+            </a>
+          </div>
+
+        </div>
+
+        <!-- Sticky Filter Tabs -->
+        <div class="flex items-center gap-1.5 overflow-x-auto pb-1 border-b border-zinc-200 dark:border-zinc-800 text-xs no-scrollbar">
+          <button class="px-3.5 py-1.5 rounded-full bg-indigo-600 text-white font-bold shrink-0 shadow-sm">全部 64</button>
+          <button class="px-3 py-1.5 rounded-full bg-zinc-100 dark:bg-zinc-800 text-zinc-600 dark:text-zinc-400 font-medium shrink-0">🤖 AI 资讯</button>
+          <button class="px-3 py-1.5 rounded-full bg-zinc-100 dark:bg-zinc-800 text-zinc-600 dark:text-zinc-400 font-medium shrink-0">💡 一人公司</button>
+          <button class="px-3 py-1.5 rounded-full bg-zinc-100 dark:bg-zinc-800 text-zinc-600 dark:text-zinc-400 font-medium shrink-0">📱 产品经理</button>
+          <button class="px-3 py-1.5 rounded-full bg-zinc-100 dark:bg-zinc-800 text-zinc-600 dark:text-zinc-400 font-medium shrink-0">🎨 产品设计</button>
+          <button class="px-3 py-1.5 rounded-full bg-zinc-100 dark:bg-zinc-800 text-zinc-600 dark:text-zinc-400 font-medium shrink-0">🎬 编剧技巧</button>
+          <button class="px-3 py-1.5 rounded-full bg-zinc-100 dark:bg-zinc-800 text-zinc-600 dark:text-zinc-400 font-medium shrink-0">🎥 AI 漫剧</button>
+        </div>
+
+        <!-- Mixed Scene Cards Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          
+          <div class="p-5 rounded-2xl bg-zinc-50 dark:bg-zinc-900/60 border border-zinc-200/80 dark:border-zinc-800 space-y-2.5">
+            <div class="flex items-center justify-between text-xs">
+              <span class="font-mono font-bold text-indigo-600 dark:text-indigo-400">SCENE #01 · AI 资讯</span>
+              <span class="text-zinc-400 font-mono text-[11px]">Google</span>
+            </div>
+            <h3 class="text-sm sm:text-base font-bold text-zinc-900 dark:text-zinc-100">
+              Gemini 3.8 Flash：同一价位，开始能自己把游戏找错改完
+            </h3>
+            <p class="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+              工作马第一次把玩游戏、找错、改代码三步收成自闭环。
+            </p>
+            <div class="p-2.5 rounded-lg bg-white dark:bg-zinc-800 border border-zinc-200/70 dark:border-zinc-700 text-xs text-amber-600 dark:text-amber-400 font-medium">
+              💡 穿透价值：它才算真正接过了键盘。
+            </div>
+          </div>
+
+          <div class="p-5 rounded-2xl bg-zinc-50 dark:bg-zinc-900/60 border border-zinc-200/80 dark:border-zinc-800 space-y-2.5">
+            <div class="flex items-center justify-between text-xs">
+              <span class="font-mono font-bold text-violet-600 dark:text-violet-400">SCENE #02 · 编剧技巧</span>
+              <span class="text-zinc-400 font-mono text-[11px]">wzbj1616</span>
+            </div>
+            <h3 class="text-sm sm:text-base font-bold text-zinc-900 dark:text-zinc-100">
+              新人必看！两种最常见的剧本模式与情节推演公式
+            </h3>
+            <p class="text-xs text-zinc-600 dark:text-zinc-400 leading-relaxed">
+              救猫咪与逆境模型，在产品流程中的情绪应用。
+            </p>
+            <div class="p-2.5 rounded-lg bg-white dark:bg-zinc-800 border border-zinc-200/70 dark:border-zinc-700 text-xs text-violet-600 dark:text-violet-400 font-medium">
+              💡 穿透价值：剧本模式就是思维模型，少走 80% 弯路。
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+  <script is:inline>
+    function switchConcept(conceptId) {
+      document.getElementById('view-concept1').classList.add('hidden');
+      document.getElementById('view-concept2').classList.add('hidden');
+      document.getElementById('view-concept4').classList.add('hidden');
+
+      document.getElementById('btn-concept1').className = 'px-3.5 py-2 rounded-xl text-xs font-medium text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-white transition-all';
+      document.getElementById('btn-concept2').className = 'px-3.5 py-2 rounded-xl text-xs font-medium text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-white transition-all';
+      document.getElementById('btn-concept4').className = 'px-3.5 py-2 rounded-xl text-xs font-medium text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-white transition-all';
+
+      if (conceptId === 'concept1') {
+        document.getElementById('view-concept1').classList.remove('hidden');
+        document.getElementById('btn-concept1').className = 'px-3.5 py-2 rounded-xl text-xs font-bold transition-all bg-indigo-600 text-white shadow-sm';
+      } else if (conceptId === 'concept2') {
+        document.getElementById('view-concept2').classList.remove('hidden');
+        document.getElementById('btn-concept2').className = 'px-3.5 py-2 rounded-xl text-xs font-bold transition-all bg-indigo-600 text-white shadow-sm';
+      } else if (conceptId === 'concept4') {
+        document.getElementById('view-concept4').classList.remove('hidden');
+        document.getElementById('btn-concept4').className = 'px-3.5 py-2 rounded-xl text-xs font-bold transition-all bg-indigo-600 text-white shadow-sm';
+      }
+    }
+  </script>
+</BaseLayout>
