@@ -5,7 +5,5 @@ compatibility_flags = ["nodejs_compat"]
 [assets]
 directory = "./dist"
 
-pages_build_output_dir = "dist"
-
 [vars]
 SITE_URL = "https://daozhu-ai-daily.daozhu1993.workers.dev"
