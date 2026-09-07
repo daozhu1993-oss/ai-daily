@@ -6,7 +6,7 @@ interface Props {
 }
 
 const { issue } = Astro.props;
-const { date, title, epigraph, lead, scene, items } = issue.data;
+const { date, title, epigraph, scene, items } = issue.data;
 
 const [, month, day] = date.split('-');
 const displayDate = `${parseInt(month)}月${parseInt(day)}日`;
@@ -15,16 +15,16 @@ const displayDate = `${parseInt(month)}月${parseInt(day)}日`;
 const heroImage = issue.data.cover || items[0]?.media || 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1600&auto=format&fit=crop&q=80';
 ---
 
-<section class="relative overflow-hidden rounded-3xl border border-zinc-200/80 dark:border-zinc-800 bg-zinc-950 min-h-[340px] sm:min-h-[400px] flex flex-col justify-end p-6 sm:p-10 text-white group shadow-xl">
+<section class="relative overflow-hidden rounded-3xl border border-zinc-200/80 dark:border-zinc-800 bg-zinc-950 min-h-[220px] sm:min-h-[260px] flex flex-col justify-end p-5 sm:p-7 text-white group shadow-lg">
   <!-- Background Image with Zoom & Dark Vignette -->
   <img
     src={heroImage}
     alt={title || displayDate}
-    class="absolute inset-0 w-full h-full object-cover -z-10 group-hover:scale-105 transition-transform duration-700 brightness-[0.7] contrast-[1.05]"
+    class="absolute inset-0 w-full h-full object-cover -z-10 group-hover:scale-105 transition-transform duration-700 brightness-[0.65] contrast-[1.05]"
   />
-  <div class="absolute inset-0 bg-gradient-to-t from-black via-black/55 to-transparent -z-10"></div>
+  <div class="absolute inset-0 bg-gradient-to-t from-black via-black/60 to-transparent -z-10"></div>
 
-  <div class="space-y-4 max-w-3xl">
+  <div class="space-y-3 max-w-4xl">
     <!-- Top Meta Badges -->
     <div class="flex flex-wrap items-center gap-2">
       <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-indigo-600/90 backdrop-blur-md text-white text-xs font-bold shadow-sm">
@@ -42,7 +42,7 @@ const heroImage = issue.data.cover || items[0]?.media || 'https://images.unsplas
     </div>
 
     <!-- Main Editorial Headline -->
-    <h1 class="text-2xl sm:text-3xl lg:text-4xl font-black tracking-tight font-serif text-white leading-tight drop-shadow-sm">
+    <h1 class="text-xl sm:text-2xl lg:text-3xl font-black tracking-tight font-serif text-white leading-tight drop-shadow-sm">
       {title || `${displayDate} · 今日看点`}
     </h1>
 
@@ -53,16 +53,9 @@ const heroImage = issue.data.cover || items[0]?.media || 'https://images.unsplas
       </p>
     )}
 
-    <!-- Editorial Lead Narrative -->
-    {lead && (
-      <p class="text-xs sm:text-sm text-zinc-200 leading-relaxed font-normal line-clamp-3 max-w-2xl drop-shadow-sm">
-        {lead}
-      </p>
-    )}
-
     <!-- Screenplay Dialogue Capsule (今日一幕 · 分镜台本) -->
     {scene && (
-      <div class="p-4 rounded-2xl bg-white/10 backdrop-blur-md border border-white/20 text-xs font-mono text-zinc-100 flex items-start gap-3 shadow-sm">
+      <div class="p-3 rounded-xl bg-white/10 backdrop-blur-md border border-white/20 text-xs font-mono text-zinc-100 flex items-start gap-2.5 shadow-sm">
         <div class="flex items-center gap-1.5 text-amber-400 font-bold shrink-0 pt-0.5">
           <span class="w-2 h-2 rounded-full bg-amber-400 animate-pulse"></span>
           <span>今日一幕</span>
