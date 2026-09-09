@@ -3,7 +3,7 @@ import path from 'path';
 import yaml from 'js-yaml';
 import { exec } from 'child_process';
 
-const DATES = ['2026-09-05', '2026-09-06', '2026-09-07', '2026-09-08'];
+const DATES = ['2026-09-05', '2026-09-06', '2026-09-07', '2026-09-08', '2026-09-09'];
 
 function checkUrl(url) {
   return new Promise((resolve) => {
