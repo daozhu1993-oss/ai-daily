@@ -3,13 +3,12 @@ import path from 'path';
 import yaml from 'js-yaml';
 import { exec } from 'child_process';
 
-const DATES = ['2026-09-05', '2026-09-06', '2026-09-07', '2026-09-08', '2026-09-09'];
+const DATES = ['2026-09-05', '2026-09-06', '2026-09-07', '2026-09-08', '2026-09-09', '2026-09-10'];
 
-function checkUrl(url) {
+function checkUrlOnce(url, maxTime = 15) {
   return new Promise((resolve) => {
-    // For wzbj1616, always use GET because their backend returns 500 on HEAD
     const isGetOnly = url.includes('wzbj1616.com');
-    const flag = isGetOnly ? '-s -o /dev/null -w "%{http_code}"' : '-s -I -L --max-time 6';
+    const flag = isGetOnly ? '-s -o /dev/null -w "%{http_code}"' : `-s -I -L --max-time ${maxTime}`;
     const cmd = `curl ${flag} -A "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko)" "${url}"`;
 
     exec(cmd, (err, stdout) => {
@@ -26,6 +25,15 @@ function checkUrl(url) {
       resolve({ ok: lastCode >= 200 && lastCode < 400, code: lastCode, url });
     });
   });
+}
+
+async function checkUrl(url) {
+  let res = await checkUrlOnce(url, 15);
+  if (!res.ok) {
+    // Retry once with 20s
+    res = await checkUrlOnce(url, 20);
+  }
+  return res;
 }
 
 async function verifyAll() {
