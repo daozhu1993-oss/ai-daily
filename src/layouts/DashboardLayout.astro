@@ -118,5 +118,9 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site || siteConfig.url);
 
     <!-- Subscribe Modal (Email & RSS) -->
     <SubscribeModal />
+
+    <!-- Cloudflare Web Analytics -->
+    <script is:inline type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "b8e37091d51741298f0a92a2a566d5f2"}'></script>
+    <!-- End Cloudflare Web Analytics -->
   </body>
 </html>
