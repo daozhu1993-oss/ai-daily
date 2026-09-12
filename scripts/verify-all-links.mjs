@@ -3,7 +3,7 @@ import path from 'path';
 import yaml from 'js-yaml';
 import { exec } from 'child_process';
 
-const DATES = ['2026-09-05', '2026-09-06', '2026-09-07', '2026-09-08', '2026-09-09', '2026-09-10', '2026-09-11'];
+const DATES = ['2026-09-05', '2026-09-06', '2026-09-07', '2026-09-08', '2026-09-09', '2026-09-10', '2026-09-11', '2026-09-12'];
 
 function checkUrlOnce(url, maxTime = 15) {
   return new Promise((resolve) => {
