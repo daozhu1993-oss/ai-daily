@@ -1,71 +1,215 @@
 ---
-// ThemeToggle.astro
+// ThemeToggle.astro - 高质感白天/夜间主题切换组件
+interface Props {
+  variant?: 'segmented' | 'button' | 'icon';
+  class?: string;
+}
+
+const { variant = 'button', class: className = '' } = Astro.props;
 ---
 
-<button
-  id="theme-toggle"
-  type="button"
-  aria-label="切换浅色/深色主题"
-  title="切换主题"
-  class="relative inline-flex items-center justify-center w-9 h-9 rounded-lg text-zinc-600 dark:text-zinc-300 hover:bg-zinc-200/60 dark:hover:bg-zinc-800 transition-colors focus:outline-none focus:ring-2 focus:ring-brand-500/40"
->
-  <!-- Sun Icon (shown in dark mode) -->
-  <svg
-    class="w-4 h-4 hidden dark:block transition-transform hover:rotate-45"
-    fill="none"
-    stroke="currentColor"
-    viewBox="0 0 24 24"
-  >
-    <path
-      stroke-linecap="round"
-      stroke-linejoin="round"
-      stroke-width="2"
-      d="M12 3v1m0 16v1m9-9h-1M4 9h-1m15.364-6.364l-.707.707M6.343 17.657l-.707.707m12.728 0l-.707-.707M6.343 6.343l-.707-.707M12 5a7 7 0 100 14 7 7 0 000-14z"
-    ></path>
-  </svg>
+{
+  variant === 'segmented' ? (
+    <div
+      class={`theme-segmented-group inline-flex items-center p-0.5 rounded-full bg-zinc-200/70 dark:bg-zinc-800/90 border border-zinc-300/60 dark:border-zinc-700/60 transition-colors select-none ${className}`}
+      role="radiogroup"
+      aria-label="显示模式切换"
+    >
+      <button
+        type="button"
+        class="theme-choice-btn theme-choice-light px-2.5 py-1 rounded-full text-xs font-medium flex items-center gap-1.5 transition-all cursor-pointer"
+        data-theme-choice="light"
+        title="切换为白天模式"
+        aria-label="白天模式"
+      >
+        <svg class="w-3.5 h-3.5 text-amber-500 shrink-0" fill="currentColor" viewBox="0 0 24 24">
+          <circle cx="12" cy="12" r="4" />
+          <path
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            d="M12 2v2m0 16v2M4.93 4.93l1.41 1.41m11.32 11.32l1.41 1.41M2 12h2m16 0h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"
+          />
+        </svg>
+        <span>白天</span>
+      </button>
 
-  <!-- Moon Icon (shown in light mode) -->
-  <svg
-    class="w-4 h-4 block dark:hidden transition-transform hover:-rotate-12"
-    fill="none"
-    stroke="currentColor"
-    viewBox="0 0 24 24"
-  >
-    <path
-      stroke-linecap="round"
-      stroke-linejoin="round"
-      stroke-width="2"
-      d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"
-    ></path>
-  </svg>
-</button>
+      <button
+        type="button"
+        class="theme-choice-btn theme-choice-dark px-2.5 py-1 rounded-full text-xs font-medium flex items-center gap-1.5 transition-all cursor-pointer"
+        data-theme-choice="dark"
+        title="切换为夜间模式"
+        aria-label="夜间模式"
+      >
+        <svg class="w-3.5 h-3.5 text-indigo-400 shrink-0" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+        </svg>
+        <span>夜间</span>
+      </button>
+    </div>
+  ) : variant === 'button' ? (
+    <button
+      type="button"
+      class={`theme-toggle-btn inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-medium bg-zinc-100 hover:bg-zinc-200/80 dark:bg-zinc-800 dark:hover:bg-zinc-700 text-zinc-700 dark:text-zinc-200 border border-zinc-200/90 dark:border-zinc-700/80 transition-all cursor-pointer select-none focus:outline-none focus:ring-2 focus:ring-indigo-500/40 shadow-2xs ${className}`}
+      title="切换白天/夜间模式"
+      aria-label="切换白天/夜间模式"
+    >
+      <span class="theme-icon-light block dark:hidden text-amber-500">
+        <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24">
+          <circle cx="12" cy="12" r="4" />
+          <path
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            d="M12 2v2m0 16v2M4.93 4.93l1.41 1.41m11.32 11.32l1.41 1.41M2 12h2m16 0h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"
+          />
+        </svg>
+      </span>
+      <span class="theme-icon-dark hidden dark:block text-indigo-400">
+        <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+        </svg>
+      </span>
+      <span class="theme-toggle-label font-medium text-xs">
+        <span class="block dark:hidden">白天</span>
+        <span class="hidden dark:block">夜间</span>
+      </span>
+    </button>
+  ) : (
+    <button
+      type="button"
+      class={`theme-toggle-btn relative inline-flex items-center justify-center w-8 h-8 rounded-lg text-zinc-600 dark:text-zinc-300 hover:bg-zinc-200/70 dark:hover:bg-zinc-800 transition-colors focus:outline-none focus:ring-2 focus:ring-indigo-500/40 cursor-pointer ${className}`}
+      title="切换白天/夜间模式"
+      aria-label="切换白天/夜间模式"
+    >
+      <svg
+        class="w-4 h-4 hidden dark:block text-indigo-400 transition-transform hover:rotate-45"
+        fill="currentColor"
+        viewBox="0 0 24 24"
+      >
+        <path d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+      </svg>
+      <svg
+        class="w-4 h-4 block dark:hidden text-amber-500 transition-transform hover:-rotate-12"
+        fill="currentColor"
+        viewBox="0 0 24 24"
+      >
+        <circle cx="12" cy="12" r="4" />
+        <path
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          d="M12 2v2m0 16v2M4.93 4.93l1.41 1.41m11.32 11.32l1.41 1.41M2 12h2m16 0h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"
+        />
+      </svg>
+    </button>
+  )
+}
 
 <script is:inline>
   (function () {
-    const handleToggle = () => {
-      const button = document.getElementById('theme-toggle');
-      if (!button) return;
+    if (window.__themeToggleInitialized) {
+      if (window.__syncThemeToggles) window.__syncThemeToggles();
+      return;
+    }
+    window.__themeToggleInitialized = true;
 
-      button.addEventListener('click', () => {
-        const isDark = document.documentElement.classList.contains('dark');
-        const nextTheme = isDark ? 'light' : 'dark';
+    // 全局同步更新所有白天/夜间切换组件状态
+    window.__syncThemeToggles = function () {
+      const isDark = document.documentElement.classList.contains('dark');
 
-        if (nextTheme === 'dark') {
-          document.documentElement.classList.add('dark');
-        } else {
-          document.documentElement.classList.remove('dark');
+      // 1. 同步分段式控件 (Segmented Control)
+      document.querySelectorAll('.theme-segmented-group').forEach((group) => {
+        const lightBtn = group.querySelector('[data-theme-choice="light"]');
+        const darkBtn = group.querySelector('[data-theme-choice="dark"]');
+        if (lightBtn && darkBtn) {
+          if (isDark) {
+            darkBtn.className =
+              'theme-choice-btn theme-choice-dark px-2.5 py-1 rounded-full text-xs font-bold flex items-center gap-1.5 transition-all cursor-pointer bg-zinc-900 text-white shadow-xs';
+            lightBtn.className =
+              'theme-choice-btn theme-choice-light px-2.5 py-1 rounded-full text-xs font-normal flex items-center gap-1.5 transition-all cursor-pointer text-zinc-500 dark:text-zinc-400 hover:text-zinc-800 dark:hover:text-zinc-200';
+            darkBtn.setAttribute('aria-checked', 'true');
+            lightBtn.setAttribute('aria-checked', 'false');
+          } else {
+            lightBtn.className =
+              'theme-choice-btn theme-choice-light px-2.5 py-1 rounded-full text-xs font-bold flex items-center gap-1.5 transition-all cursor-pointer bg-white text-zinc-900 shadow-xs';
+            darkBtn.className =
+              'theme-choice-btn theme-choice-dark px-2.5 py-1 rounded-full text-xs font-normal flex items-center gap-1.5 transition-all cursor-pointer text-zinc-500 dark:text-zinc-400 hover:text-zinc-800 dark:hover:text-zinc-200';
+            lightBtn.setAttribute('aria-checked', 'true');
+            darkBtn.setAttribute('aria-checked', 'false');
+          }
         }
+      });
 
-        try {
-          localStorage.setItem('theme', nextTheme);
-        } catch (e) {
-          // Ignore localStorage errors (e.g. private mode)
-        }
+      // 2. 同步独立按钮式控件 (Single Toggle Button)
+      document.querySelectorAll('.theme-toggle-btn').forEach((btn) => {
+        btn.setAttribute(
+          'aria-label',
+          isDark ? '当前为夜间模式，点击切换为白天模式' : '当前为白天模式，点击切换为夜间模式'
+        );
+        btn.setAttribute('title', isDark ? '切换为白天模式' : '切换为夜间模式');
       });
     };
 
-    // Initialize on load and on Astro page transitions
-    handleToggle();
-    document.addEventListener('astro:page-load', handleToggle);
+    // 应用指定主题
+    function applyTheme(targetTheme) {
+      if (targetTheme === 'dark') {
+        document.documentElement.classList.add('dark');
+      } else {
+        document.documentElement.classList.remove('dark');
+      }
+
+      try {
+        localStorage.setItem('theme', targetTheme);
+      } catch (e) {}
+
+      window.__syncThemeToggles();
+    }
+
+    // 触发主题切换（支持现代 View Transitions 平滑动画）
+    function switchTheme(targetTheme) {
+      if (
+        document.startViewTransition &&
+        !window.matchMedia('(prefers-reduced-motion: reduce)').matches
+      ) {
+        document.startViewTransition(() => applyTheme(targetTheme));
+      } else {
+        applyTheme(targetTheme);
+      }
+    }
+
+    // 事件委托：无论 DOM 如何重新渲染，均能全局捕获点击
+    document.addEventListener('click', (e) => {
+      // 点击分段式控件按钮
+      const choiceBtn = e.target.closest('[data-theme-choice]');
+      if (choiceBtn) {
+        const choice = choiceBtn.getAttribute('data-theme-choice');
+        switchTheme(choice);
+        return;
+      }
+
+      // 点击独立切换按钮
+      const toggleBtn = e.target.closest('.theme-toggle-btn');
+      if (toggleBtn) {
+        const isDark = document.documentElement.classList.contains('dark');
+        switchTheme(isDark ? 'light' : 'dark');
+        return;
+      }
+    });
+
+    // 页面初次加载与 Astro 页面切换时执行同步
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', window.__syncThemeToggles);
+    } else {
+      window.__syncThemeToggles();
+    }
+    document.addEventListener('astro:page-load', window.__syncThemeToggles);
+
+    // 监听其他标签页主题变动
+    window.addEventListener('storage', (e) => {
+      if (e.key === 'theme') {
+        applyTheme(e.newValue || 'light');
+      }
+    });
   })();
 </script>

@@ -130,7 +130,8 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site || siteConfig.url);
           </a>
 
           <!-- Theme Toggle Button -->
-          <ThemeToggle />
+          <ThemeToggle variant="segmented" class="hidden sm:inline-flex" />
+          <ThemeToggle variant="button" class="sm:hidden" />
         </div>
       </div>
     </header>
