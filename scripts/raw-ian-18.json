@@ -1,0 +1,602 @@
+[
+  {
+    "category": "AI 资讯",
+    "title": "Anthropic：公开三项衡量指标，Claude 已主导自身 26% 的研发",
+    "note": "发布测量 AI 进化速度的指标框架，数据显示截至 2026 年 8 月，内部已有超过四分之一的研发任务由 Claude 独立完成。",
+    "url": "https://www.anthropic.com/institute/measuring-pace-of-ai-development",
+    "source": "anthropic.com",
+    "media": "https://iandaily.xyz/digest/2026-09-18-anthropic-pace-metrics.png?v=2026-09-18",
+    "pinned": false,
+    "so_what": "发布测量 AI 进化速度的指标框架，数据显示截至 2026 年 8 月，内部已有超过四分之一的研发任务由 Claude 独立完成。"
+  },
+  {
+    "category": "AI 资讯",
+    "title": "OpenAI：公布模型失调报告，承认部分反常行为尚未完全解释",
+    "note": "上线跟踪披露框架，一口气公开了过去半年训练中观察到的 6 起反常对齐偏差案例，坦陈黑盒机制的复杂性。",
+    "url": "https://openai.com/index/model-misalignment-reporting-framework/",
+    "source": "openai.com",
+    "media": "https://iandaily.xyz/digest/2026-09-18-openai-misalignment-disclosure.png?v=2026-09-18",
+    "pinned": false,
+    "so_what": "上线跟踪披露框架，一口气公开了过去半年训练中观察到的 6 起反常对齐偏差案例，坦陈黑盒机制的复杂性。"
+  },
+  {
+    "category": "一人公司",
+    "title": "Nomads.com：接通 Flighty 数据，一键导入个人飞行里程",
+    "note": "支持从 Flighty 导出 CSV 并直接映射到游民档案，常驻国家、航线图与城市记录瞬间填满。",
+    "url": "https://nomads.com/changelog/flighty-csv",
+    "source": "nomads.com",
+    "media": "https://iandaily.xyz/digest/2026-09-18-nomads-flighty-import.png?v=2026-09-18",
+    "pinned": false,
+    "so_what": "支持从 Flighty 导出 CSV 并直接映射到游民档案，常驻国家、航线图与城市记录瞬间填满。"
+  },
+  {
+    "category": "一人公司",
+    "title": "37signals：独立开发者公开修 bug，直接被团队免试聘用",
+    "note": "开发者 Rob Zolkos 通过为 Fizzy 编写 CLI 工具和提交 commit 翻页动效，在无公开招聘情况下直接入职。",
+    "url": "https://github.com/basecamp/fizzy-cli",
+    "source": "github.com",
+    "media": "https://iandaily.xyz/digest/2026-09-18-fizzy-open-source-hire.png?v=2026-09-18",
+    "pinned": false,
+    "so_what": "开发者 Rob Zolkos 通过为 Fizzy 编写 CLI 工具和提交 commit 翻页动效，在无公开招聘情况下直接入职。"
+  },
+  {
+    "category": "一人公司",
+    "title": "Axiom：单人团队上架 Product Hunt，用极简表单做线索清洗",
+    "note": "独立开发者打造的数据轻量验证应用，上线首日拿下产品榜前三，主打 3 分钟嵌入任何网站。",
+    "url": "https://www.producthunt.com/posts/axiom",
+    "source": "producthunt.com",
+    "media": "https://iandaily.xyz/digest/2026-09-18-axiom-data-cleaning.png?v=2026-09-18",
+    "pinned": false,
+    "so_what": "独立开发者打造的数据轻量验证应用，上线首日拿下产品榜前三，主打 3 分钟嵌入任何网站。"
+  },
+  {
+    "category": "产品设计",
+    "title": "Basecamp 5：看板卡片模板上线，列结构支持一键复用",
+    "note": "Card Table 引入模版机制，高频复用的任务看板和初始卡片直接打包，开新项目不再手动拖格子。",
+    "url": "https://basecamp.com",
+    "source": "basecamp.com",
+    "media": "https://iandaily.xyz/digest/2026-09-18-basecamp-card-templates.png?v=2026-09-18",
+    "pinned": false,
+    "so_what": "Card Table 引入模版机制，高频复用的任务看板和初始卡片直接打包，开新项目不再手动拖格子。"
+  },
+  {
+    "category": "产品设计",
+    "title": "Unicorn Studio：泛光色散参数，让光感随距离色移",
+    "note": "为 Bloom 动效加入物理色散滑块，光晕边缘从中心白向边缘蓝红过渡，实时渲染出胶片质感。",
+    "url": "https://www.unicorn.studio",
+    "source": "unicorn.studio",
+    "media": "https://iandaily.xyz/digest/2026-09-18-unicorn-bloom-dispersion.png?v=2026-09-18",
+    "pinned": false,
+    "so_what": "为 Bloom 动效加入物理色散滑块，光晕边缘从中心白向边缘蓝红过渡，实时渲染出胶片质感。"
+  },
+  {
+    "category": "产品设计",
+    "title": "Xiaomi GetApps：一处上架自动同步多端，省去重复传包",
+    "note": "小米应用商店支持一键同步至其他安卓渠道，一次配置元数据，省去逐个后台重复提交。",
+    "url": "https://developer.xiaomi.com",
+    "source": "developer.xiaomi.com",
+    "media": "https://iandaily.xyz/digest/2026-09-18-xiaomi-getapps-sync.png?v=2026-09-18",
+    "pinned": false,
+    "so_what": "小米应用商店支持一键同步至其他安卓渠道，一次配置元数据，省去逐个后台重复提交。"
+  },
+  {
+    "category": "产品设计",
+    "title": "Sketch：图层属性跨文档继承，减少手动拾色对齐",
+    "note": "新版本优化了属性复制快捷键，阴影、圆角与排版样式可直接跨文件批量覆盖，保持样式一致。",
+    "url": "https://www.sketch.com/updates",
+    "source": "sketch.com",
+    "media": "https://iandaily.xyz/digest/2026-09-18-sketch-cross-doc.png?v=2026-09-18",
+    "pinned": false,
+    "so_what": "新版本优化了属性复制快捷键，阴影、圆角与排版样式可直接跨文件批量覆盖，保持样式一致。"
+  },
+  {
+    "category": "审美提升",
+    "title": "RHAD Architects：新斯科舍玄武岩长屋，碳化木皮融入海岸",
+    "note": "沿海独栋住宅采用整面烧杉板外墙，黑沉体量贴着岩石斜坡延展，大面积开窗把海湾框成静止画。",
+    "url": "https://www.dezeen.com/2026/09/17/rhad-architects-two-bay-house-charred-wood-nova-scotia/",
+    "source": "dezeen.com",
+    "media": "https://iandaily.xyz/digest/2026-09-18-rhad-two-bay-house.png?v=2026-09-18",
+    "pinned": false,
+    "so_what": "沿海独栋住宅采用整面烧杉板外墙，黑沉体量贴着岩石斜坡延展，大面积开窗把海湾框成静止画。"
+  },
+  {
+    "category": "审美提升",
+    "title": "Patricia Urquiola：Nina 弧形扶手椅，用一体压模软包包裹坐姿",
+    "note": "为 Andreu World 设计的单人椅，将椅背与扶手连成一体圆润弧面，取消多余外露连接件。",
+    "url": "https://www.dezeen.com/2026/09/17/nina-lounge-chair-patricia-urquiola-andreu-world-dezeen-showroom/",
+    "source": "dezeen.com",
+    "media": "https://iandaily.xyz/digest/2026-09-18-patricia-nina-chair.png?v=2026-09-18",
+    "pinned": false,
+    "so_what": "为 Andreu World 设计的单人椅，将椅背与扶手连成一体圆润弧面，取消多余外露连接件。"
+  },
+  {
+    "category": "产品营销",
+    "title": "Levels：赚钱不一定非要做 AI，真实场景的抽成更有确定性",
+    "note": "分析自身新业务数据，认为切入传统高客单场景（如住宿与旅行）做轻量分发，获客后单客价值远高于单纯卖算力。",
+    "url": "https://hotelist.com/about",
+    "source": "hotelist.com",
+    "media": "https://iandaily.xyz/digest/2026-09-18-levels-hotel-margin.png?v=2026-09-18",
+    "pinned": false,
+    "so_what": "分析自身新业务数据，认为切入传统高客单场景（如住宿与旅行）做轻量分发，获客后单客价值远高于单纯卖算力。"
+  },
+  {
+    "category": "产品营销",
+    "title": "PostHog：开源看板组件库，把数据分析做成可以白嫖的获客诱饵",
+    "note": "将自用的高交互度图表与热图控件开源，作为独立前端库发布，直接吸引开发者在业务中引入其平台。",
+    "url": "https://github.com/posthog/charts",
+    "source": "github.com",
+    "media": "https://iandaily.xyz/digest/2026-09-18-posthog-oss-charts.png?v=2026-09-18",
+    "pinned": false,
+    "so_what": "将自用的高交互度图表与热图控件开源，作为独立前端库发布，直接吸引开发者在业务中引入其平台。"
+  },
+  {
+    "category": "AI 协作",
+    "title": "Arvin Xu：让 Agent 自己跑浏览器找审核，加速组织恢复",
+    "note": "演示使用 Browser Use 自动化智能体帮助抓取相关平台联络链路，实现全自动跨平台事务推进。",
+    "url": "https://x.com/arvin17x/status/2100644138853318932",
+    "source": "x.com",
+    "media": "https://iandaily.xyz/digest/2026-09-18-arvin-browser-agent.png?v=2026-09-18",
+    "pinned": false,
+    "so_what": "演示使用 Browser Use 自动化智能体帮助抓取相关平台联络链路，实现全自动跨平台事务推进。"
+  },
+  {
+    "category": "AI 协作",
+    "title": "Simon Willison：为本地 LLM 增加流式结构化输出补丁",
+    "note": "更新命令行 LLM 工具，使小模型在本地输出 JSON 时能实时校验字段闭合，避免生成一半报错中断。",
+    "url": "https://simonwillison.net",
+    "source": "simonwillison.net",
+    "media": "https://iandaily.xyz/digest/2026-09-18-simon-structured-json.png?v=2026-09-18",
+    "pinned": false,
+    "so_what": "更新命令行 LLM 工具，使小模型在本地输出 JSON 时能实时校验字段闭合，避免生成一半报错中断。"
+  },
+  {
+    "category": "AI 资讯",
+    "title": "Anthropic：开放生命科学计划，生物领域特化验证上线",
+    "note": "面向经审核的科研团队开放 Mythos 与专用安全围栏，支持安全推进分子模拟与医药科研。",
+    "url": "https://www.anthropic.com/news/life-sciences-verification-program",
+    "source": "anthropic.com",
+    "media": "https://iandaily.xyz/digest/2026-09-18-anthropic-life-sciences.png?v=2026-09-18",
+    "pinned": false,
+    "so_what": "面向经审核的科研团队开放 Mythos 与专用安全围栏，支持安全推进分子模拟与医药科研。"
+  },
+  {
+    "category": "AI 资讯",
+    "title": "Orange：剖析 TypeSafe Jev 架构，极速响应可能绕开语言层对齐",
+    "note": "分析新一代系统模型特点：极高推理吞吐量与极低单价，不在语言层做冗余修饰，探索直接通向动作的路线。",
+    "url": "https://typesafe.ai/jev",
+    "source": "typesafe.ai",
+    "media": "https://iandaily.xyz/digest/2026-09-18-typesafe-jev-system1.png?v=2026-09-18",
+    "pinned": false,
+    "so_what": "分析新一代系统模型特点：极高推理吞吐量与极低单价，不在语言层做冗余修饰，探索直接通向动作的路线。"
+  },
+  {
+    "category": "一人公司",
+    "title": "Acquire：Shopify 主题作者年净利 27 万美元，挂牌挂出交易",
+    "note": "官方邀请开发者制作的电商主题包挂牌出售，累计卖出 2300+ 份授权，年利润率高达 85%。",
+    "url": "https://app.acquire.com/public/1duv5ijj0r-shopify-theme-solution-for-ecommerce-sellers-to-enhance-store-design",
+    "source": "app.acquire.com",
+    "media": "https://iandaily.xyz/digest/2026-09-18-acquire-shopify-theme.png?v=2026-09-18",
+    "pinned": false,
+    "so_what": "官方邀请开发者制作的电商主题包挂牌出售，累计卖出 2300+ 份授权，年利润率高达 85%。"
+  },
+  {
+    "category": "一人公司",
+    "title": "LobeHub：8 万星组织遭遇封禁风波，工单加急 10 分钟内解封",
+    "note": "开源组织早上突遭 GitHub Flag 隐藏，作者借助快速跟进工单并在多渠道核验后，10 分钟内恢复公开状态。",
+    "url": "https://github.com/lobehub",
+    "source": "github.com",
+    "media": "https://iandaily.xyz/digest/2026-09-18-lobehub-unflag-speed.png?v=2026-09-18",
+    "pinned": false,
+    "so_what": "开源组织早上突遭 GitHub Flag 隐藏，作者借助快速跟进工单并在多渠道核验后，10 分钟内恢复公开状态。"
+  },
+  {
+    "category": "一人公司",
+    "title": "MacSentinel：单机菜单栏安全监控，专为出海工作机设计",
+    "note": "轻量原生 Mac 监控小工具，常驻状态栏监控外发连接与剪贴板读取，不设云端同步。",
+    "url": "https://www.producthunt.com/posts/macsentinel",
+    "source": "producthunt.com",
+    "media": "https://iandaily.xyz/digest/2026-09-18-macsentinel-menubar.png?v=2026-09-18",
+    "pinned": false,
+    "so_what": "轻量原生 Mac 监控小工具，常驻状态栏监控外发连接与剪贴板读取，不设云端同步。"
+  },
+  {
+    "category": "产品设计",
+    "title": "Basecamp 5：私信群聊允许加减人，不丢历史记录",
+    "note": "打破以往“建群即定死”的逻辑，支持向已有 Ping 组动态移入移出成员，完整保留前文上下文。",
+    "url": "https://basecamp.com/updates/ping-groups",
+    "source": "basecamp.com",
+    "media": "https://iandaily.xyz/digest/2026-09-18-basecamp-ping-members.png?v=2026-09-18",
+    "pinned": false,
+    "so_what": "打破以往“建群即定死”的逻辑，支持向已有 Ping 组动态移入移出成员，完整保留前文上下文。"
+  },
+  {
+    "category": "产品设计",
+    "title": "Unicorn Studio：平面 SVG 直接挤压成带材质的 3D 模型",
+    "note": "支持将二维矢量图标一键挤压出厚度，并实时附加环境反射、材质贴图与 Matcaps 光照。",
+    "url": "https://www.unicorn.studio/features",
+    "source": "unicorn.studio",
+    "media": "https://iandaily.xyz/digest/2026-09-18-unicorn-svg-extrude.png?v=2026-09-18",
+    "pinned": false,
+    "so_what": "支持将二维矢量图标一键挤压出厚度，并实时附加环境反射、材质贴图与 Matcaps 光照。"
+  },
+  {
+    "category": "产品设计",
+    "title": "Fisher &amp; Paykel：触感极简厨房硬件，按键阻尼做成静音层",
+    "note": "新当代系列厨房家电将控制旋钮做进纯黑钢化面板，弱化屏幕存在感，保留机械触感。",
+    "url": "https://www.dezeen.com/2026/09/17/fisher-paykel-contemporary-kitchen-appliances/",
+    "source": "dezeen.com",
+    "media": "https://iandaily.xyz/digest/2026-09-18-fisher-paykel-kitchen.png?v=2026-09-18",
+    "pinned": false,
+    "so_what": "新当代系列厨房家电将控制旋钮做进纯黑钢化面板，弱化屏幕存在感，保留机械触感。"
+  },
+  {
+    "category": "审美提升",
+    "title": "Jhey：缓动渐变色彩过渡，消除蒙版处的硬边横线",
+    "note": "演示非线性渐变技巧：在常规渐变断点间加入缓动插值，解决大面积遮罩边缘出现的明显阶梯灰阶。",
+    "url": "https://x.com/jh3yy/status/2100390636587245666",
+    "source": "x.com",
+    "media": "https://iandaily.xyz/digest/2026-09-18-jhey-gradient-easing.png?v=2026-09-18",
+    "pinned": false,
+    "so_what": "演示非线性渐变技巧：在常规渐变断点间加入缓动插值，解决大面积遮罩边缘出现的明显阶梯灰阶。"
+  },
+  {
+    "category": "审美提升",
+    "title": "HKS：华盛顿新球场内景公布，穹顶悬窗正对国会山",
+    "note": "巨型椭圆室内球场在看台尽头切开一扇巨幅落地玻璃窗，比赛视角与城市纪念碑轮廓产生真实纵深。",
+    "url": "https://www.dezeen.com/2026/09/17/hks-interior-renderings-commanders-stadium-dc-nfl/",
+    "source": "dezeen.com",
+    "media": "https://iandaily.xyz/digest/2026-09-18-hks-stadium-interior.png?v=2026-09-18",
+    "pinned": false,
+    "so_what": "巨型椭圆室内球场在看台尽头切开一扇巨幅落地玻璃窗，比赛视角与城市纪念碑轮廓产生真实纵深。"
+  },
+  {
+    "category": "审美提升",
+    "title": "Studio Iron：伦敦设计节展出，将刺青图案压进重磅皮革",
+    "note": "展览将传统锁子甲金工与手工刺青皮革结合，把粗粝的金属工业手艺做成可以悬挂在室内的陈列物。",
+    "url": "https://www.dezeen.com/2026/09/17/studio-iron-exhibition-london-design-festival/",
+    "source": "dezeen.com",
+    "media": "https://iandaily.xyz/digest/2026-09-18-studio-iron-leather.png?v=2026-09-18",
+    "pinned": false,
+    "so_what": "展览将传统锁子甲金工与手工刺青皮革结合，把粗粝的金属工业手艺做成可以悬挂在室内的陈列物。"
+  },
+  {
+    "category": "产品营销",
+    "title": "yihong0618：所谓的去 AI 味，本质上是保留一点人类的毛边",
+    "note": "谈文案分发技巧：大模型洗出来的句子往往语法过于无暇而显得死板，不经润色的第一反应反而更能建立信任。",
+    "url": "https://x.com/yihong0618/status/2100504173108400440",
+    "source": "x.com",
+    "media": "https://iandaily.xyz/digest/2026-09-18-yihong-natural-writing.png?v=2026-09-18",
+    "pinned": false,
+    "so_what": "谈文案分发技巧：大模型洗出来的句子往往语法过于无暇而显得死板，不经润色的第一反应反而更能建立信任。"
+  },
+  {
+    "category": "AI 协作",
+    "title": "Claude Code：Projects 开放测试，对话直接裂变成并行多线程",
+    "note": "推出 Projects 概念，一个对话框自主拆分任务、派发给后台并行的云端线程，人关闭电脑后任务继续跑。",
+    "url": "https://code.claude.com/docs/en/claude-projects",
+    "source": "code.claude.com",
+    "media": "https://iandaily.xyz/digest/2026-09-18-claude-projects-threads.png?v=2026-09-18",
+    "pinned": false,
+    "so_what": "推出 Projects 概念，一个对话框自主拆分任务、派发给后台并行的云端线程，人关闭电脑后任务继续跑。"
+  },
+  {
+    "category": "AI 协作",
+    "title": "shadcn：确认 TypeSafe 官网采用 shadcn/ui 组件库构建",
+    "note": "前沿模型新站选用 shadcn 原生组件，印证极简无多余修饰的代码设计系统在顶尖 AI 落地页中的地位。",
+    "url": "https://ui.shadcn.com",
+    "source": "ui.shadcn.com",
+    "media": "https://iandaily.xyz/digest/2026-09-18-shadcn-typesafe-ui.png?v=2026-09-18",
+    "pinned": false,
+    "so_what": "前沿模型新站选用 shadcn 原生组件，印证极简无多余修饰的代码设计系统在顶尖 AI 落地页中的地位。"
+  },
+  {
+    "category": "AI 协作",
+    "title": "Stagehand：支持按自然语言指令精准控制浏览器页面元素",
+    "note": "开源浏览器控制框架更新，结合 Playwright 与视觉模型，根据“点击那个蓝色的保存按钮”定位动态节点。",
+    "url": "https://github.com/browserbase/stagehand",
+    "source": "github.com",
+    "media": "https://iandaily.xyz/digest/2026-09-18-stagehand-browser-vision.png?v=2026-09-18",
+    "pinned": false,
+    "so_what": "开源浏览器控制框架更新，结合 Playwright 与视觉模型，根据“点击那个蓝色的保存按钮”定位动态节点。"
+  },
+  {
+    "category": "AI 资讯",
+    "title": "OpenAI：发布法律版 Astra，挂载 2.3 亿网页级法规检索索引",
+    "note": "将 GPT-6 Astra 与全美判例数据库深度绑定，首批配套 73 款专业法律插件，后续将开放 API 调用。",
+    "url": "https://openai.com/index/astra-for-law/",
+    "source": "openai.com",
+    "media": "https://iandaily.xyz/digest/2026-09-18-openai-astra-law.png?v=2026-09-18",
+    "pinned": false,
+    "so_what": "将 GPT-6 Astra 与全美判例数据库深度绑定，首批配套 73 款专业法律插件，后续将开放 API 调用。"
+  },
+  {
+    "category": "AI 资讯",
+    "title": "Epoch AI：芯片贸易数据分析报告披露，走私规模或达数十亿美元",
+    "note": "独立研究机构结合进出口报关与物流动向发布研报，揭示全球前沿算力芯片在非正规渠道中的流动路径。",
+    "url": "https://epoch.ai/data-insights/malaysia-china-chip-smuggling",
+    "source": "epoch.ai",
+    "media": "https://iandaily.xyz/digest/2026-09-18-epoch-chip-smuggling.png?v=2026-09-18",
+    "pinned": false,
+    "so_what": "独立研究机构结合进出口报关与物流动向发布研报，揭示全球前沿算力芯片在非正规渠道中的流动路径。"
+  },
+  {
+    "category": "一人公司",
+    "title": "Steve Ruiz：自制游戏支持模组套件，奇幻冒险关卡已跑通",
+    "note": "一人开发的游戏引擎引入内容套件格式，奇幻地图已完成，正在扩展赛博朋克与坐骑互动。",
+    "url": "https://x.com/steveruizok/status/2100485966657978609",
+    "source": "x.com",
+    "media": "https://iandaily.xyz/digest/2026-09-18-steve-game-kits.png?v=2026-09-18",
+    "pinned": false,
+    "so_what": "一人开发的游戏引擎引入内容套件格式，奇幻地图已完成，正在扩展赛博朋克与坐骑互动。"
+  },
+  {
+    "category": "一人公司",
+    "title": "Tony Dinh：MacWhisper 升级系统内录支持，单键抓取通话音频",
+    "note": "本地语音识别小工具新增免驱动系统音频内录，会议或播客直接在后台转写成带时间戳文本。",
+    "url": "https://macwhisper.com",
+    "source": "macwhisper.com",
+    "media": "https://iandaily.xyz/digest/2026-09-18-macwhisper-loopback.png?v=2026-09-18",
+    "pinned": false,
+    "so_what": "本地语音识别小工具新增免驱动系统音频内录，会议或播客直接在后台转写成带时间戳文本。"
+  },
+  {
+    "category": "产品设计",
+    "title": "Linear：Diffs 搬上手机，审核不再被电脑拴住",
+    "note": "手机端开放代码 Diff 预览与审查，在通勤状态下即可完成评论回复、分支合并与任务流转。",
+    "url": "https://linear.app/mobile-diffs",
+    "source": "linear.app",
+    "media": "https://iandaily.xyz/digest/2026-09-18-linear-mobile-diffs.png?v=2026-09-18",
+    "pinned": false,
+    "so_what": "手机端开放代码 Diff 预览与审查，在通勤状态下即可完成评论回复、分支合并与任务流转。"
+  },
+  {
+    "category": "产品设计",
+    "title": "HEY：私人重命名邮件主题，只改自己看到的",
+    "note": "允许对往来邮件自定义新标题便于本地整理，其他收件人依然显示原始主题，两边互不打扰。",
+    "url": "https://www.hey.com/features/rename-threads",
+    "source": "hey.com",
+    "media": "https://iandaily.xyz/digest/2026-09-18-hey-private-rename.png?v=2026-09-18",
+    "pinned": false,
+    "so_what": "允许对往来邮件自定义新标题便于本地整理，其他收件人依然显示原始主题，两边互不打扰。"
+  },
+  {
+    "category": "产品设计",
+    "title": "Framer：框架与堆栈边界厘清，Agent 修复脆弱排版",
+    "note": "拆解 Frames 与 Stacks 的使用边界，通过内置 Agent 自动识别并纠正多层嵌套导致的断裂响应式布局。",
+    "url": "https://www.framer.com/learn",
+    "source": "framer.com",
+    "media": "https://iandaily.xyz/digest/2026-09-18-framer-layout-repair.png?v=2026-09-18",
+    "pinned": false,
+    "so_what": "拆解 Frames 与 Stacks 的使用边界，通过内置 Agent 自动识别并纠正多层嵌套导致的断裂响应式布局。"
+  },
+  {
+    "category": "产品设计",
+    "title": "OpenRouter：全站 ⌘K 搜寻，模型 ID 一键复制",
+    "note": "上线全站命令面板，将文档、提供商、热门模型与趋势榜整合到同一搜索框，直接提取调用标识。",
+    "url": "https://openrouter.ai",
+    "source": "openrouter.ai",
+    "media": "https://iandaily.xyz/digest/2026-09-18-openrouter-cmdk.png?v=2026-09-18",
+    "pinned": false,
+    "so_what": "上线全站命令面板，将文档、提供商、热门模型与趋势榜整合到同一搜索框，直接提取调用标识。"
+  },
+  {
+    "category": "产品设计",
+    "title": "Hister：本地私有搜索引擎，将浏览过的每一页编成索引",
+    "note": "开源离线搜索工具，静默对个人访问过的网页和本地文件做全文倒排索引，数据完全留在本地。",
+    "url": "https://github.com/asciimoo/hister",
+    "source": "github.com",
+    "media": "https://iandaily.xyz/digest/2026-09-18-hister-local-search.png?v=2026-09-18",
+    "pinned": false,
+    "so_what": "开源离线搜索工具，静默对个人访问过的网页和本地文件做全文倒排索引，数据完全留在本地。"
+  },
+  {
+    "category": "审美提升",
+    "title": "Steve Ruiz：去除模型流水线味，手工压低画面塑料感",
+    "note": "分享调整生图模型画风的过程：通过提示词与负向约束压制默认的细碎高光，找回类似手绘水粉的哑光质地。",
+    "url": "https://x.com/steveruizok/status/2100585088345932140",
+    "source": "x.com",
+    "media": "https://iandaily.xyz/digest/2026-09-18-steve-unslopping-art.png?v=2026-09-18",
+    "pinned": false,
+    "so_what": "分享调整生图模型画风的过程：通过提示词与负向约束压制默认的细碎高光，找回类似手绘水粉的哑光质地。"
+  },
+  {
+    "category": "审美提升",
+    "title": "Lechner &amp; Lechner：阿尔卑斯深山木屋，焦黑附楼与白雪对撞",
+    "note": "在奥地利雪山旧宅侧翼加建一座极简碳化木附属结构，竖向木格栅将山林光线切成平行的阴影。",
+    "url": "https://www.dezeen.com/2026/09/17/lechner-lechner-architects-quiet-retreat/",
+    "source": "dezeen.com",
+    "media": "https://iandaily.xyz/digest/2026-09-18-lechner-alps-annexe.png?v=2026-09-18",
+    "pinned": false,
+    "so_what": "在奥地利雪山旧宅侧翼加建一座极简碳化木附属结构，竖向木格栅将山林光线切成平行的阴影。"
+  },
+  {
+    "category": "产品营销",
+    "title": "Framer：拿 TypeSafe 当审美样板，强调快时代更需体面门面",
+    "note": "围绕新上线客户发推复盘：当大家写代码都变快了，品味反而成了核心区隔，初创公司首日依然需要成熟大厂级的门面。",
+    "url": "https://typesafe.ai/blog/launch",
+    "source": "typesafe.ai",
+    "media": "https://iandaily.xyz/digest/2026-09-18-framer-taste-marketing.png?v=2026-09-18",
+    "pinned": false,
+    "so_what": "围绕新上线客户发推复盘：当大家写代码都变快了，品味反而成了核心区隔，初创公司首日依然需要成熟大厂级的门面。"
+  },
+  {
+    "category": "产品营销",
+    "title": "GitLab：调整免费版 API 调用配额，引导高频团队切入付费计划",
+    "note": "发文预告接口调用频率改动，逐步收窄非核心自动化调用的免费窗口，将资源倾斜给高净值订阅用户。",
+    "url": "https://about.gitlab.com/blog/rate-limit-change-2026/",
+    "source": "about.gitlab.com",
+    "media": "https://iandaily.xyz/digest/2026-09-18-gitlab-rate-limits.png?v=2026-09-18",
+    "pinned": false,
+    "so_what": "发文预告接口调用频率改动，逐步收窄非核心自动化调用的免费窗口，将资源倾斜给高净值订阅用户。"
+  },
+  {
+    "category": "AI 协作",
+    "title": "OpenRouter：接入 ZCode，GLM 旁可随意换接千种模型",
+    "note": "智谱 ZCode 编程环境支持接入 OpenRouter 密钥，在原生 GLM 代码补全之外自由调用全球主流模型。",
+    "url": "https://openrouter.ai/docs/providers/zcode",
+    "source": "openrouter.ai",
+    "media": "https://iandaily.xyz/digest/2026-09-18-openrouter-zcode-provider.png?v=2026-09-18",
+    "pinned": false,
+    "so_what": "智谱 ZCode 编程环境支持接入 OpenRouter 密钥，在原生 GLM 代码补全之外自由调用全球主流模型。"
+  },
+  {
+    "category": "AI 协作",
+    "title": "Geek：指出 OpenCode 接口割裂，同一平台不同模型路径不同",
+    "note": "实测反馈模型 API 架构问题：免费模型走 Responses 协议，而新模型放在 /v1/messages，给客户端接入带来负担。",
+    "url": "https://x.com/geekbb/status/2100424754893410508",
+    "source": "x.com",
+    "media": "https://iandaily.xyz/digest/2026-09-18-opencode-api-friction.png?v=2026-09-18",
+    "pinned": false,
+    "so_what": "实测反馈模型 API 架构问题：免费模型走 Responses 协议，而新模型放在 /v1/messages，给客户端接入带来负担。"
+  },
+  {
+    "category": "AI 协作",
+    "title": "Playwright 1.62：增加无头截图色彩空间校准",
+    "note": "端到端测试工具发布新版，修正了 Chromium 在跨平台跑视觉回归时因默认色彩配置引起的微小色差误报。",
+    "url": "https://playwright.dev",
+    "source": "playwright.dev",
+    "media": "https://iandaily.xyz/digest/2026-09-18-playwright-color-fix.png?v=2026-09-18",
+    "pinned": false,
+    "so_what": "端到端测试工具发布新版，修正了 Chromium 在跨平台跑视觉回归时因默认色彩配置引起的微小色差误报。"
+  },
+  {
+    "category": "一人公司",
+    "title": "Levels：Hotelist 两周入账 3,240 美元，实体抽佣比转售更有壁垒",
+    "note": "公布新项目两周的真实预订佣金，预期月入约 6,480 美元，直言这类真实撮合业务比套壳转卖大模型稳固得多。",
+    "url": "https://x.com/levelsio/status/2100601606647541839",
+    "source": "x.com",
+    "media": "https://iandaily.xyz/digest/2026-09-18-levels-hotelist-revenue.png?v=2026-09-18",
+    "pinned": false,
+    "so_what": "公布新项目两周的真实预订佣金，预期月入约 6,480 美元，直言这类真实撮合业务比套壳转卖大模型稳固得多。"
+  },
+  {
+    "category": "一人公司",
+    "title": "Damon Chen：Testimonial 增加自动打标，按客户行业归类好评",
+    "note": "评价收集工具上线自动聚类，文字与视频评价进入后台后由模型提取痛点关键词并打标归档。",
+    "url": "https://testimonial.to",
+    "source": "testimonial.to",
+    "media": "https://iandaily.xyz/digest/2026-09-18-testimonial-smart-tags.png?v=2026-09-18",
+    "pinned": false,
+    "so_what": "评价收集工具上线自动聚类，文字与视频评价进入后台后由模型提取痛点关键词并打标归档。"
+  },
+  {
+    "category": "一人公司",
+    "title": "Cali Castle：借助 Xcode Cloud 与 AI，单人当天跑通多端归档",
+    "note": "展示独立产品上线打包现场，借助云端编译和辅助脚本，单人无需手动等待归档流程。",
+    "url": "https://x.com/calicastle/status/2100446406783938863",
+    "source": "x.com",
+    "media": "https://iandaily.xyz/digest/2026-09-18-cali-xcode-cloud.png?v=2026-09-18",
+    "pinned": false,
+    "so_what": "展示独立产品上线打包现场，借助云端编译和辅助脚本，单人无需手动等待归档流程。"
+  },
+  {
+    "category": "产品设计",
+    "title": "Figma：设计画框贴进 Weave，一键拉出变体与视频",
+    "note": "推出官方 Figma node，设计稿直接连通自动化工作流，品牌资产同步翻译与渲染，无需来回导图。",
+    "url": "https://help.weavy.ai/en/articles/16440592-figma-node",
+    "source": "help.weavy.ai",
+    "media": "https://iandaily.xyz/digest/2026-09-18-figma-weave-node.png?v=2026-09-18",
+    "pinned": false,
+    "so_what": "推出官方 Figma node，设计稿直接连通自动化工作流，品牌资产同步翻译与渲染，无需来回导图。"
+  },
+  {
+    "category": "产品设计",
+    "title": "Framer：四个原生组件提示词，给画布加上 3D 与翻转",
+    "note": "官方发布 3D 开始按钮、翻转卡片、画廊堆栈与数字轮播组件提示词，用 Agent 5 分钟拉出交互。",
+    "url": "https://www.framer.com/agent",
+    "source": "framer.com",
+    "media": "https://iandaily.xyz/digest/2026-09-18-framer-3d-prompts.png?v=2026-09-18",
+    "pinned": false,
+    "so_what": "官方发布 3D 开始按钮、翻转卡片、画廊堆栈与数字轮播组件提示词，用 Agent 5 分钟拉出交互。"
+  },
+  {
+    "category": "产品设计",
+    "title": "Base UI：纯 CSS 过渡，连续点击动作不再卡死",
+    "note": "Emil 对比 Base UI 与 Radix：由于底层采用 CSS transition 而非固定关键帧，下拉菜单在极速连续点击下能随时打断。",
+    "url": "https://base-ui.com",
+    "source": "base-ui.com",
+    "media": "https://iandaily.xyz/digest/2026-09-18-base-ui-transitions.png?v=2026-09-18",
+    "pinned": false,
+    "so_what": "Emil 对比 Base UI 与 Radix：由于底层采用 CSS transition 而非固定关键帧，下拉菜单在极速连续点击下能随时打断。"
+  },
+  {
+    "category": "产品设计",
+    "title": "Paper：代码导出新增单选面板，复制组件不再切屏",
+    "note": "右侧导出栏重构，支持在同一面板快速切换 Tailwind / React 代码与 PNG 像素图，操作缩短两步。",
+    "url": "https://paper.design",
+    "source": "paper.design",
+    "media": "https://iandaily.xyz/digest/2026-09-18-paper-export-panel.png?v=2026-09-18",
+    "pinned": false,
+    "so_what": "右侧导出栏重构，支持在同一面板快速切换 Tailwind / React 代码与 PNG 像素图，操作缩短两步。"
+  },
+  {
+    "category": "审美提升",
+    "title": "Jhey：机场翻页机械牌，用 WebGL 与网页音频重做一遍",
+    "note": "重构经典翻页牌，使用 WebGL 提升渲染帧率，并为每次叶片碰撞注入微物理音效，还原机械质感。",
+    "url": "https://x.com/jh3yy/status/2100656462913552487",
+    "source": "x.com",
+    "media": "https://iandaily.xyz/digest/2026-09-18-jhey-split-flap.png?v=2026-09-18",
+    "pinned": false,
+    "so_what": "重构经典翻页牌，使用 WebGL 提升渲染帧率，并为每次叶片碰撞注入微物理音效，还原机械质感。"
+  },
+  {
+    "category": "审美提升",
+    "title": "Luma Ichor：Seedance 2.5 关键帧界面，运镜节奏收进时间轴",
+    "note": "公开视觉短片制作管线，利用重构的关键帧时间轴控制镜头起伏，避免画面人物动作漂移。",
+    "url": "https://lumalabs.ai",
+    "source": "lumalabs.ai",
+    "media": "https://iandaily.xyz/digest/2026-09-18-luma-ichor-pipeline.png?v=2026-09-18",
+    "pinned": false,
+    "so_what": "公开视觉短片制作管线，利用重构的关键帧时间轴控制镜头起伏，避免画面人物动作漂移。"
+  },
+  {
+    "category": "产品营销",
+    "title": "Pika：撕掉生成工具标签，重组成创作者平台与透明计价",
+    "note": "品牌改版上线：不再按套餐等级锁死模型，视频生成定价压至行业典型加价的一半，降低单次试错成本。",
+    "url": "https://pika.art",
+    "source": "pika.art",
+    "media": "https://iandaily.xyz/digest/2026-09-18-pika-creator-platform.png?v=2026-09-18",
+    "pinned": false,
+    "so_what": "品牌改版上线：不再按套餐等级锁死模型，视频生成定价压至行业典型加价的一半，降低单次试错成本。"
+  },
+  {
+    "category": "产品营销",
+    "title": "CrowdSec：源码泄露后透明发文，把事故通报当成安全信用建立",
+    "note": "安全产品在部分代码遭遇泄露后迅速发布透明时间轴，清晰划分受影响范围，反而强化了严肃的品牌心智。",
+    "url": "https://www.crowdsec.net/blog/crowdsec-statement-source-code-exposure",
+    "source": "crowdsec.net",
+    "media": "https://iandaily.xyz/digest/2026-09-18-crowdsec-incident-transparency.png?v=2026-09-18",
+    "pinned": false,
+    "so_what": "安全产品在部分代码遭遇泄露后迅速发布透明时间轴，清晰划分受影响范围，反而强化了严肃的品牌心智。"
+  },
+  {
+    "category": "AI 协作",
+    "title": "Karri：手机上管工作流，与云端 Agent 边走边聊",
+    "note": "Linear CEO 阐释移动端逻辑：未来工程师不必整天守在键盘前，复杂编写交给云端，人在手机上分配任务和确认合并。",
+    "url": "https://x.com/karrisaarinen/status/2100636243306697165",
+    "source": "x.com",
+    "media": "https://iandaily.xyz/digest/2026-09-18-linear-cloud-orchestration.png?v=2026-09-18",
+    "pinned": false,
+    "so_what": "Linear CEO 阐释移动端逻辑：未来工程师不必整天守在键盘前，复杂编写交给云端，人在手机上分配任务和确认合并。"
+  },
+  {
+    "category": "AI 协作",
+    "title": "E2B：微虚拟机内核硬隔离，不让不受信代码共享内存堆",
+    "note": "重申安全架构：利用裁剪版 Firecracker 微虚机为每个 Agent 会话分配专属内核，防止执行生成代码时发生内存污染。",
+    "url": "https://e2b.dev",
+    "source": "e2b.dev",
+    "media": "https://iandaily.xyz/digest/2026-09-18-e2b-kernel-isolation.png?v=2026-09-18",
+    "pinned": false,
+    "so_what": "重申安全架构：利用裁剪版 Firecracker 微虚机为每个 Agent 会话分配专属内核，防止执行生成代码时发生内存污染。"
+  },
+  {
+    "category": "AI 协作",
+    "title": "Reflect：在个人双链笔记中内嵌 Agent 全局引用分析",
+    "note": "笔记工具更新对话能力，Agent 在解答问题时不仅给出答案，还会直接在正文生成高亮并链接到历史卡片。",
+    "url": "https://reflect.run",
+    "source": "reflect.run",
+    "media": "https://iandaily.xyz/digest/2026-09-18-reflect-citation-graph.png?v=2026-09-18",
+    "pinned": false,
+    "so_what": "笔记工具更新对话能力，Agent 在解答问题时不仅给出答案，还会直接在正文生成高亮并链接到历史卡片。"
+  }
+]
