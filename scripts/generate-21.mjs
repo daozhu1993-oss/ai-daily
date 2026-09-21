@@ -1,0 +1,418 @@
+import fs from "fs";
+import path from "path";
+import yaml from "js-yaml";
+
+const ALL_ITEMS_21 = [
+  // 1. AI 资讯 (4)
+  {
+    category: "AI 资讯",
+    title: "通义千问：正式开源 Qwen-Image-2.1 高保真视觉权重",
+    note: "大幅升级对复杂排版多语言文字的精细拼写渲染与高动态光影质感，在同等参数量级下刷新开源文生图基准纪录。",
+    so_what: "排版与字符渲染曾是开源扩散模型的阿喀琉斯之踵；Qwen-Image-2.1 的开源让中小团队无需付费商用 API 即可直接生成工业级海报与分镜。",
+    source: "github.com",
+    url: "https://github.com/QwenLM/Qwen",
+    media: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+    pinned: true,
+  },
+  {
+    category: "AI 资讯",
+    title: "全球基模决战：前沿大模型中秋国庆加速迭代，Anthropic 与 Google 密集迎战",
+    note: "梳理下半年顶级大厂基座模型发布窗口期：在推理期算力扩展与多模态架构突破推动下，头部梯队竞争已进入每周一次高压军备竞赛。",
+    so_what: "基模的军备竞赛为上层应用提供了源源不断的算力红利；开发者应紧跟模型演进，但更需将自身业务数据沉淀为无法被模型轻易抹平的护城河。",
+    source: "woshipm.com",
+    url: "https://www.woshipm.com/ai/6467187.html",
+    media: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&auto=format&fit=crop&q=80",
+    pinned: true,
+  },
+  {
+    category: "AI 资讯",
+    title: "Gemini：自主安全渗透测试智能体在企业沙箱中的攻防边界复盘",
+    note: "复盘前沿多模态大模型在实战网络攻防靶场中自主利用漏洞的真实边界，指出高自主性 Agent 必须配合物理网络隔离才能杜绝逃逸风险。",
+    so_what: "当大模型具备了自主寻找系统漏洞的能力，安全审计必须前置到沙盒底层；企业部署 Agent 必须建立严密的零信任访问机制。",
+    source: "deepmind.google",
+    url: "https://deepmind.google/",
+    media: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&auto=format&fit=crop&q=80",
+    pinned: false,
+  },
+  {
+    category: "AI 资讯",
+    title: "Jev 爆火硅谷！“哑巴 AI”直接派发系统动作，卷疯 14 万开发者",
+    note: "解构摒弃冗长语言生成的极端轻量架构：模型不进行冗余对话，而是直接输出确定性的系统调用与 UI 动作，以毫秒级响应引发硅谷极客狂欢。",
+    so_what: "不是所有场景都需要长篇大论的对话；在系统控制与工具调用中，“沉默而精准的动作派发”往往是最高效的交互形式。",
+    source: "woshipm.com",
+    url: "https://www.woshipm.com/ai/6467197.html",
+    media: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&auto=format&fit=crop&q=80",
+    pinned: false,
+  },
+
+  // 2. AI 协作 (4)
+  {
+    category: "AI 协作",
+    title: "Anthropic：Claude Code 终端自主编程套件官方开源",
+    note: "深入终端工程流的重磅利器：支持在命令行环境中直接唤起 Claude 执行多仓库架构理解、自动跨文件修改与测试驱动修复，打破浏览器对话框局限。",
+    so_what: "AI 编程从“复制粘贴代码片段”跃迁为“终端系统级自主执行”；工程师的核心工作正在彻底转向对高阶工程架构与边界约束的精准控制。",
+    source: "github.com",
+    url: "https://github.com/anthropics/claude-code",
+    media: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&auto=format&fit=crop&q=80",
+    pinned: true,
+  },
+  {
+    category: "AI 协作",
+    title: "Addy Osmani：开源生产级 AI 编程智能体 Skill 库",
+    note: "Google 知名架构师整理的开箱即用 Agent Skills 集合：涵盖代码审查、自动化性能审计、无障碍测试与设计系统对齐，标准化智能体工作流。",
+    so_what: "不要从零编写复杂的系统 Prompt；善于复用社区顶尖工程师验证过的标准技能库，能让团队的 Agent 生产力瞬间对齐大厂水准。",
+    source: "github.com",
+    url: "https://github.com/addyosmani/agent-skills/tree/main/skills",
+    media: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&auto=format&fit=crop&q=80",
+    pinned: false,
+  },
+  {
+    category: "AI 协作",
+    title: "不用重复干活了：把日常复杂审批与表格操作直接沉淀进“豆包工作”",
+    note: "自动化办公新范式实操：通过记录日常界面点击与表格处理逻辑，将原本耗费数小时的跨系统数据搬运转译为一句话即可调用的自动化流水线。",
+    so_what: "真正的 AI 降本增效来自对高频机械劳动的精确替代；把流程抽象为自动化技能，是职场人建立个人杠杆的核心捷径。",
+    source: "woshipm.com",
+    url: "https://www.woshipm.com/ai/6467203.html",
+    media: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&auto=format&fit=crop&q=80",
+    pinned: false,
+  },
+  {
+    category: "AI 协作",
+    title: "我从来不让 AI 写文章，只让它填空：逆向提问驱动的深度写作流",
+    note: "资深创作者分享人机共创心流：先由人类完成立意骨架与独家洞察，仅将大模型作为事实核查、对比修辞与结构填空的协作者，彻底杜绝“AI 味”。",
+    so_what: "保持内容作者性的秘密在于“牢牢掌握价值主裁权”；把 AI 定位为助理而非主笔，才能在泛滥的内容洪流中保持不可替代的辨识度。",
+    source: "woshipm.com",
+    url: "https://www.woshipm.com/ai/6467323.html",
+    media: "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=800&auto=format&fit=crop&q=80",
+    pinned: false,
+  },
+
+  // 3. AI 漫剧 (4)
+  {
+    category: "AI 漫剧",
+    title: "微短剧不再只是“增长故事”：下半场拼的是分发权与单剧经济",
+    note: "出海行业格局深度复盘：MPA 将 ReelShort 2026 定调为盈利年，TikTok 测试 LimeShorts 试图收口从种草到付费的全链路，运营商亦成为 5G 增值分发新入口。",
+    so_what: "单纯靠买量堆产能的粗放窗口正在快速关闭；唯有算清每一集的自建渠道转化率与长尾留存，才能在巨头生态收割中守住真金白银。",
+    source: "dramagoing.com",
+    url: "https://dramagoing.com/daily-brief/2026-09-21.html",
+    media: "https://images.unsplash.com/photo-1536240478700-b869070f9279?w=800&auto=format&fit=crop&q=80",
+    pinned: true,
+  },
+  {
+    category: "AI 漫剧",
+    title: "AI 互动短剧再添新玩家：ReelCraft 试水可玩叙事与剧情选择分支",
+    note: "探索游戏化叙事与影视工业结合：观众在每集节点可自主决定主角走向，AI 实时调度动态分镜生成平行支线，用户互动留存率提升 40% 以上。",
+    so_what: "当观众厌倦了被动接受老套狗血反转，“掌控主角命运”的在场感成为最强的付费动机；互动剧是微团队撬动高单价的核心差异化杠杆。",
+    source: "woshipm.com",
+    url: "https://www.woshipm.com/ai/6467195.html",
+    media: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800&auto=format&fit=crop&q=80",
+    pinned: false,
+  },
+  {
+    category: "AI 漫剧",
+    title: "新玩家不断入局，微短剧何以向“精”而生？精品化制作与长尾分账解构",
+    note: "行业观察：在监管审查与观众审美疲劳双重倒逼下，粗制滥造的快招套路剧加速出清，电影级调色、声画微表情与深厚文学剧本正在成为头部爆款标配。",
+    so_what: "技术门槛归零后，好内容的价值只会指数级放大；用专业影视工业的敬畏心做微短剧，才能换来跨周期的持续收益。",
+    source: "wzbj1616.com",
+    url: "https://www.wzbj1616.com/script_necessary_info/741",
+    media: "https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800&auto=format&fit=crop&q=80",
+    pinned: false,
+  },
+  {
+    category: "AI 漫剧",
+    title: "Peter Steinberger：发布星际争霸复杂对抗智能体基准，探索非完全信息博弈",
+    note: "将即时战略游戏中的大局观侦察、诱敌深入与微操博弈作为前沿智能体评测场，深度检验大模型在复杂非完全信息环境下的决策连贯性。",
+    so_what: "高难度对抗博弈的逻辑可以直接反哺影视分镜与剧情推演；懂得在不完全信息中埋设戏剧反转的创作者，能写出更有智力交锋的顶级剧本。",
+    source: "bw.swerdlow.dev",
+    url: "https://bw.swerdlow.dev/report",
+    media: "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800&auto=format&fit=crop&q=80",
+    pinned: false,
+  },
+
+  // 4. 产品经理 (4)
+  {
+    category: "产品经理",
+    title: "办公 AI 疯狂抢入口后，到底留存了多少用户？桌面常驻与唤醒频次反思",
+    note: "一线深度复盘：大厂在系统全局热键与常驻浮窗上掀起入口争夺战，但过度频繁的意图感知拦截反而引发用户反感与卸载潮。",
+    so_what: "桌面常驻助手的本质是“对用户心智空间的借用”；产品经理必须克制设计唤醒条件，让智能助手只在用户真正卡点时安静递上解决方案。",
+    source: "woshipm.com",
+    url: "https://www.woshipm.com/ai/6467327.html",
+    media: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&auto=format&fit=crop&q=80",
+    pinned: true,
+  },
+  {
+    category: "产品经理",
+    title: "腾讯上线 Chatterfly：系统级悬浮与语音流重塑跨应用输入法",
+    note: "颠覆传统打字框体验：通过系统级毫秒唤醒与端侧上下文感知，将口语化碎碎念瞬间整理为排版精良的结构化邮件或工作汇报草稿。",
+    so_what: "输入法正在从单纯的字符映射工具升级为个人意图转译中枢；跨应用全局感知的系统级产品将重塑桌面端的人机交互基石。",
+    source: "woshipm.com",
+    url: "https://www.woshipm.com/ai/6467209.html",
+    media: "https://images.unsplash.com/photo-1589254065878-42c9da997008?w=800&auto=format&fit=crop&q=80",
+    pinned: false,
+  },
+  {
+    category: "产品经理",
+    title: "一份来自大厂内部的《AI 原生实践避坑指南》：别把智能体当外包",
+    note: "大厂团队真金白银买来的实操教训：试图用一个通用 Prompt 搞定整套业务交付必败无疑，必须拆解为带断点容错的状态机流水线。",
+    so_what: "将 AI 落地视为“管理一群不知疲倦但缺乏常识的实习生”；做好上下文防御与质量断言，是产品经理迈向 AI 原生的第一课。",
+    source: "woshipm.com",
+    url: "https://www.woshipm.com/ai/6467189.html",
+    media: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&auto=format&fit=crop&q=80",
+    pinned: false,
+  },
+  {
+    category: "产品经理",
+    title: "FDE（前端交付工程）这么火，产品经理要不要跟？我来泼点冷水",
+    note: "辩证审视代码生成狂欢：虽然 AI 几秒内能拼出精美界面，但真实业务系统中的边界异常、兼容性回归与状态持久化依然需要深厚工程底蕴。",
+    so_what: "不要被华丽的 Demo 蒙蔽双眼；产品经理的精力应当放在需求抽象与商业闭环验证上，而非在没有架构设计的快餐代码上消耗心智。",
+    source: "woshipm.com",
+    url: "https://www.woshipm.com/ai/6467287.html",
+    media: "https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=800&auto=format&fit=crop&q=80",
+    pinned: false,
+  },
+
+  // 5. 编剧技巧 (4)
+  {
+    category: "编剧技巧",
+    title: "好莱坞九种基本故事类型和叙事策略：跨越文化差异的戏剧模型",
+    note: "好莱坞编剧工业精髓系统拆解：从“怪物在屋里”到“金羊毛”，梳理如何利用全球通用的心理原型快速搭建让观众欲罢不能的故事地基。",
+    so_what: "类型片不是模式化的枷锁，而是快速与观众建立期待契约的公约数；熟练掌握原型结构，才能在关键情节点精准引爆受众情绪。",
+    source: "wzbj1616.com",
+    url: "https://www.wzbj1616.com/script_necessary_info/733",
+    media: "https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=800&auto=format&fit=crop&q=80",
+    pinned: true,
+  },
+  {
+    category: "编剧技巧",
+    title: "塑造角色生命的 20 个设计点：从不可调和的内在缺陷到高光时刻",
+    note: "角色立体化塑造指南：避免完美扁平的工具人设定，通过深层创伤、习惯性谎言与外部困境的摩擦，让人物在每一次妥协与抗争中迸发生命力。",
+    so_what: "情节让人产生好奇，但只有角色才能让人产生牵挂；赋予主角脆弱与真实的人性斑驳，观众才会为其命运痛彻心扉。",
+    source: "wzbj1616.com",
+    url: "https://www.wzbj1616.com/script_necessary_info/736",
+    media: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&auto=format&fit=crop&q=80",
+    pinned: false,
+  },
+  {
+    category: "编剧技巧",
+    title: "国产悬疑类网络剧空间与叙事的关系：封闭式场域的情绪压迫感构建",
+    note: "视听语言与空间叙事解析：封闭回廊、陈旧密闭公寓与逼仄车厢如何转化为叙事的隐形主角，用物理空间的压抑外化角色的心理窒息感。",
+    so_what: "空间本身就是有态度的台词；在微短剧与长视频中善用场域限制，能以极低的置景成本营造出摄人心魄的悬疑张力。",
+    source: "wzbj1616.com",
+    url: "https://www.wzbj1616.com/script_necessary_info/740",
+    media: "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=800&auto=format&fit=crop&q=80",
+    pinned: false,
+  },
+  {
+    category: "编剧技巧",
+    title: "编剧如何讲故事、塑造人物及 12 招实战技巧：让剧本在三页纸内立住",
+    note: "剧作提案与立项实战手册：打破冗长的背景交代，用第一场戏的强烈危机与非对称冲突迅速抓住制片人眼球，立住主角不可替代的行动力。",
+    so_what: "商业影视提案的黄金法则永远是“前三分钟定生死”；把最尖锐的戏剧矛盾摆在首屏，是所有故事创作者必须掌握的生存基本功。",
+    source: "wzbj1616.com",
+    url: "https://www.wzbj1616.com/script_necessary_info/744",
+    media: "https://images.unsplash.com/photo-1457369804613-52c61a468e7d?w=800&auto=format&fit=crop&q=80",
+    pinned: false,
+  },
+
+  // 6. 一人公司 (4)
+  {
+    category: "一人公司",
+    title: "Acquire：纯自给自足量化分析 SaaS 挂牌求购，2 人跑出 120 万美元 ARR",
+    note: "极致精悍一人公司样本：没有外部风投注资，凭借极其干净的专业金融数据面板与年付高客单订阅，实现极高现金流利润率与溢价退出。",
+    so_what: "一人公司不必追求成为独角兽；深耕垂直高付费意愿人群，将产品做到极度稳定省心，2 人团队同样能创造惊人的商业回报。",
+    source: "acquire.com",
+    url: "https://acquire.com/",
+    media: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&auto=format&fit=crop&q=80",
+    pinned: false,
+  },
+  {
+    category: "一人公司",
+    title: "Coder：为人类开发者与智能体构建安全隔离的云端沙箱环境",
+    note: "云原生开发工作区利器：为单兵作战的独立开发者与后台自动跑测试的 Agent 提供开箱即用的安全隔离计算容器，防止代码误操作造成宿主机损毁。",
+    so_what: "当一个人管理成百上千个代码智能体，基础设施的沙盒安全性是最后一道防线；善用现代化云环境，单人也能稳健运营大型复杂系统。",
+    source: "github.com",
+    url: "https://github.com/coder/coder",
+    media: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&auto=format&fit=crop&q=80",
+    pinned: false,
+  },
+  {
+    category: "一人公司",
+    title: "Applore：专注独立应用图标与品牌标识的全球灵感站",
+    note: "独立开发者视觉审美弹药库：系统收录全球顶尖 macOS 与 iOS 独立软件的高清 App Icon、色彩配方与材质细节，填补小微团队设计参考空白。",
+    so_what: "好的第一印象是转化率的放大器；对于缺乏全职设计师的一人公司，在应用图标上投入打磨往往能带来意想不到的高点击回报。",
+    source: "decohack.com",
+    url: "https://decohack.com/",
+    media: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+    pinned: false,
+  },
+  {
+    category: "一人公司",
+    title: "yihong0618：running_page 3.0 发布，把个人跑步数据做成自动化美学主页",
+    note: "开源极客的常青标杆：打通各大运动手环 API，自动化拉取运动数据并渲染为高质感个人专属地图主页，受到全球数千开发者热烈追捧。",
+    so_what: "将个人的真实热爱与技术能力结合，做自己每天都想使用的产品，是独立开发者打造出具有长久生命力开源项目的不二法门。",
+    source: "github.com",
+    url: "https://github.com/yihong0618/running_page",
+    media: "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800&auto=format&fit=crop&q=80",
+    pinned: false,
+  },
+
+  // 7. 产品设计 (5)
+  {
+    category: "产品设计",
+    title: "Ryan Singer：新媒介下的产品形态推演与可运行原型重构",
+    note: "《Shape Up》作者最新思辨：探讨当界面原型的交互保真度从静态线框图跃迁至实时运行代码时，产品经理与设计师的设计意图传递如何不失真。",
+    so_what: "设计交付物的形式决定了团队思考的深度；用活的交互状态代替死的静态画板，能从源头消除 90% 的前后端理解断层。",
+    source: "feltpresence.com",
+    url: "https://feltpresence.com/",
+    media: "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?w=800&auto=format&fit=crop&q=80",
+    pinned: false,
+  },
+  {
+    category: "产品设计",
+    title: "Unlock Edition：Framer 三维光影与翻转交互站点标杆",
+    note: "全屏三维视觉盛宴：利用现代 WebGL 与 Framer 动效组件，将产品材质的金属高光漫反射与卡片翻转阻尼感打磨得极为丝滑。",
+    so_what: "高端数字界面的质感来自对物理世界微小细节的致敬；优雅的交互反馈能赋予纯软件产品实体硬件般的厚重感。",
+    source: "unlock-edition.com",
+    url: "https://unlock-edition.com/",
+    media: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=800&auto=format&fit=crop&q=80",
+    pinned: false,
+  },
+  {
+    category: "产品设计",
+    title: "Steve Ruiz：白板样条曲线箭头的数学平滑算法与几何推导",
+    note: "tldraw 创始人技术揭秘：如何通过贝塞尔样条与障碍物法向量推导，让自由连线在任意复杂排版中都能呈现出数学级的圆润与优美曲线。",
+    so_what: "绝佳的用户体验背后全都是深厚的数学与几何推导；看似微不足道的一根连线，往往是区分专业工具与平庸产品的试金石。",
+    source: "tldraw.dev",
+    url: "https://tldraw.dev/",
+    media: "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=800&auto=format&fit=crop&q=80",
+    pinned: false,
+  },
+  {
+    category: "产品设计",
+    title: "RicoUI：开源 Rare UI 物理动效与阻尼感 React 组件库",
+    note: "为现代 Web 应用注入生命力：通过模拟弹性弹簧与摩擦力衰减，让按钮点击、弹窗呼出与抽屉滑动具备如同机械钟表般的细腻触觉。",
+    so_what: "微交互是让用户感知到产品用心的无声语言；善用物理阻尼动效，能让数字化操作拥有令人上瘾的操作愉悦感。",
+    source: "rareui.com",
+    url: "https://rareui.com/",
+    media: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop&q=80",
+    pinned: false,
+  },
+  {
+    category: "产品设计",
+    title: "Raycast：扩展生态背后的开发者心智黏性与快捷键哲学",
+    note: "拆解新一代桌面启动器如何凭借极简统一的 Command Palette 架构与完善的 TypeScript SDK，俘获全球数百万高端工程师的键盘时间。",
+    so_what: "赢得高级用户的终极路径是“极致尊重效率”；消除一切多余鼠标移动，让键盘流成为贯穿整个操作系统的绝对信仰。",
+    source: "raycast.com",
+    url: "https://www.raycast.com/store",
+    media: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&auto=format&fit=crop&q=80",
+    pinned: false,
+  },
+
+  // 8. 审美提升 (4)
+  {
+    category: "审美提升",
+    title: "Cadence：班加罗尔光影律动私宅“光影之家”",
+    note: "当代南亚建筑典范：利用几何镂空砖石幕墙精密过滤赤道炽烈天光，在室内水泥地面上投射出随太阳运转而流动的斑驳光影诗篇。",
+    so_what: "光是最好的建筑师，影是最廉价的壁画；在空间设计中善于利用自然光线作画，胜过一切昂贵奢华的材料堆砌。",
+    source: "dezeen.com",
+    url: "https://www.dezeen.com/2026/09/20/house-of-shadows-cadence-architects/",
+    media: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&auto=format&fit=crop&q=80",
+    pinned: false,
+  },
+  {
+    category: "审美提升",
+    title: "伦敦设计节：Studio Saar 带来穿山甲鳞片仿生展亭",
+    note: "仿生建筑实验新作：以穿山甲重叠硬甲为灵感，利用交错手工竹片单元实现无任何金属螺栓与胶水的纯天然自支撑张拉穹顶结构。",
+    so_what: "自然界亿万年演化出的生物结构是无尽的灵感宝库；以谦卑的姿态向生命形态学习，能创造出兼具力学自洽与诗意的美学物种。",
+    source: "dezeen.com",
+    url: "https://www.dezeen.com/2026/09/19/london-design-festival-this-week/",
+    media: "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=800&auto=format&fit=crop&q=80",
+    pinned: false,
+  },
+  {
+    category: "审美提升",
+    title: "吴滨：巴黎设计周镜面“时间之亭”反思快节奏生活",
+    note: "东方借景美学的当代转译：以悬浮弧形镜面穹顶将巴黎历史街区的天空与古建筑倒映交融，在喧嚣繁华的欧洲都市中心为过客提供静止凝视的心灵庇护所。",
+    so_what: "顶级设计的力量在于唤醒内省；让匆忙赶路的人停下脚步凝视虚空与倒影，空间便完成了对精神的洗礼与疗愈。",
+    source: "dezeen.com",
+    url: "https://www.dezeen.com/2026/09/18/pavilion-of-time-bin-wu-paris-design-week/",
+    media: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&auto=format&fit=crop&q=80",
+    pinned: false,
+  },
+  {
+    category: "审美提升",
+    title: "Fritz Hansen：在伦敦打造包豪斯黑胶声学休闲空间",
+    note: "经典设计与当代声学美学的碰撞：将温润的经典皮革蛋椅、原木声学反射格栅与高端黑胶唱机融合，构筑出极富沉浸感的听觉与触觉圣殿。",
+    so_what: "真正的品味是全感官的共鸣；在数字视觉过载的时代，兼顾听觉质感与触觉温度的空间，更能直击现代人疲惫的心灵。",
+    source: "dezeen.com",
+    url: "https://www.dezeen.com/2026/09/20/fritz-hansen-sound-club-london/",
+    media: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&auto=format&fit=crop&q=80",
+    pinned: false,
+  },
+
+  // 9. 产品营销 (3)
+  {
+    category: "产品营销",
+    title: "Dezeen：救生衣托特包，把安全应急工具做成日常潮流配件",
+    note: "颠覆性的安全营销思维：打破传统应急求生装备“笨重丑陋、无人携带”的心智阻碍，通过高颜值工装包剪裁让救生工具自发融入年轻人的通勤穿搭。",
+    so_what: "好产品营销的核心是“消除使用者的心理抵触”；把原本沉重的安全义务转化为自我个性的潮流表达，转化率自然呈指数级提升。",
+    source: "dezeen.com",
+    url: "https://www.dezeen.com/2026/09/18/lifeline-life-jacket-tote-bag-concept/",
+    media: "https://images.unsplash.com/photo-1544816155-12df9643f363?w=800&auto=format&fit=crop&q=80",
+    pinned: false,
+  },
+  {
+    category: "产品营销",
+    title: "Resend：发布开箱即用现代化邮件模板组件库",
+    note: "以产品力驱动开发者口碑获客：将晦涩痛苦的 HTML 邮件排版重构为整洁优雅的 React 组件并完全免费开放，迅速席卷全球开发者社交圈。",
+    so_what: "最高明的获客不是打广告，而是提供让核心用户爱不释手的生产力免费武器；用极致的开发者体验建立起牢不可破的品牌好感度。",
+    source: "resend.com",
+    url: "https://resend.com/templates",
+    media: "https://images.unsplash.com/photo-1511578314322-379afb476865?w=800&auto=format&fit=crop&q=80",
+    pinned: false,
+  },
+  {
+    category: "产品营销",
+    title: "Framer：精选 4 个标杆级三维动效交互落地页与增长案例",
+    note: "营销设计灵感解构：深入剖析如何通过视觉叙事、微动效引导与清晰的价值锚点，将高客单 SaaS 的落地页转化率翻倍。",
+    so_what: "落地页不仅是功能的陈列台，更是传递品牌可信度的数字旗舰店；第一屏的动效节奏与文案张力，直接决定了用户的去留生死。",
+    source: "framer.com",
+    url: "https://www.framer.com/",
+    media: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&auto=format&fit=crop&q=80",
+    pinned: false,
+  },
+];
+
+const frontmatter = {
+  date: "2026-09-21",
+  title: "9 月 21 日 · 单局经济与终端自主：当微短剧争夺分发权，Claude Code 开源自成军团",
+  highlights: "全网 9 大领域 36 篇高密度精选：Anthropic 开源 Claude Code 终端自主编程套件、通义千问 Qwen-Image-2.1 开源高保真视觉权重、微短剧出海进入“单剧经济与分发权争夺”下半场、办公 AI 桌面常驻留存大反思、好莱坞九大故事原型深度解构。",
+  draft: false,
+  epigraph: "当短剧出海的下半场从拼产量转向算单剧利润，当 Claude Code 把上千个终端命令做成开源流水线，浮躁的野蛮生长已然翻篇：谁能守住分发通道，谁能用好自主智能体，谁就能跨过周期。",
+  lead: "今天的科技创新与数字商业一线正在经历一场深刻的“通道与自主权争夺”：在文娱与短剧出海赛道，微短剧正式告别单纯追求下载量狂飙的“增长故事”，全面切入算清每一笔账目的“单剧经济时代”——TikTok 秘密灰度 LimeShorts 把从推荐、观看到付费的整条价值链收拢进自有闭环，ReelShort 则靠自有网页商城和高毛利广告分成夺回被应用商店抽走的利润，Omdia 数据显示 ReelShort 美区日均停留达 35.7 分钟反超 Netflix，电信运营商甚至开始将竖屏短剧作为 5G 增值服务新入口；与此同时，在技术与开发者协作侧，Anthropic 正式开源其重磅终端自主编程套件 Claude Code，配合 Qwen-Image-2.1 的视觉权重开源与 Google DeepMind 在企业沙箱中对渗透测试智能体的边界复盘，开发者正式拥有了可离线审查、可自由挂载的终端工程军团。从内容分发权的严防死守，到终端代码自主性的彻底释放，每一个创造者都在向着价值链的最深处扎根。",
+  scene: "「听说你们下半年的短剧出海策略不看下载量了？」「不看了，下载榜再好看，扣掉买量成本净利率不到 1% 都是为平台打工。现在我们只盯两个数字：自建网店的付费留存率，以及用终端 Agent 把后期成本压缩到什么程度。」",
+  cover: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1600&auto=format&fit=crop&q=80",
+  items: ALL_ITEMS_21,
+};
+
+const editorial = `## 今日主理人寄语
+
+当短剧出海的头部玩家不再炫耀下载榜第一，而是把精密的算盘打向自有网店与单剧利润；当 Anthropic 把 Claude Code 直接开源放进终端命令行，不再强求大家留在网页对话框里——**技术与商业的交汇点，正在经历一场从“浮于表面”到“扎根底层”的静默剧变。**
+
+曾几何时，我们习惯了用买量规模去换取虚假的繁荣，习惯了在聊天窗口里看 AI 给出一段看似聪明却无法落地的文字。但在今天，所有走在一线的团队都心知肚明：
+
+**没有分发自主权的内容，永远只是给巨头打工的廉价燃料；没有系统级执行力的智能体，永远只是无法交付价值的聊天玩具。**
+
+去把你的付费路径牢牢抓在自己手里，去把你的业务逻辑封装进可自主执行的终端 Agent 中。
+
+愿今天的 36 篇精选资讯，能为你提供看清下半场牌局的坚定航标。
+`;
+
+const mdContent = `---
+${yaml.dump(frontmatter, { lineWidth: -1 })}---
+
+${editorial}
+`;
+
+const targetPath = path.resolve("./src/content/daily/2026-09-21.md");
+fs.writeFileSync(targetPath, mdContent, "utf8");
+console.log(`✅ Successfully generated ${targetPath} with ${ALL_ITEMS_21.length} items.`);
