@@ -1,0 +1,482 @@
+[
+  {
+    "url": "https://mimo.xiaomi.com/mimo-v2-6",
+    "category": "AI 资讯",
+    "source": "mimo.xiaomi.com",
+    "title": "小米：开源 MiMo-V2.6 全模态基座",
+    "note": "打破全模态前沿模型闭源垄断，以开源许可释放权重，赋能端侧应用。",
+    "img": "/digest/2026-09-22-xiaomi-mimo.png?v=2026-09-22"
+  },
+  {
+    "url": "https://tomtunguz.com/ai-comes-for-the-if-statement",
+    "category": "AI 资讯",
+    "source": "tomtunguz.com",
+    "title": "Tomer Tunguz：专用决策器成本降百倍",
+    "note": "揭示软件工程中沉闷的复杂业务条件判断正被毫秒级决策模型重构，大幅降低系统复杂度。",
+    "img": "/digest/2026-09-22-tomer-tunguz-decisions.png?v=2026-09-22"
+  },
+  {
+    "url": "https://mycelai.dev/",
+    "category": "一人公司",
+    "source": "mycelai.dev",
+    "title": "Mycel：独立工作室交付物自动草拟系统",
+    "note": "基于历史案例建立知识飞轮，使单人团队能像大型事务所般瞬间草拟精美验收文档账单。",
+    "img": "/digest/2026-09-22-mycel-agency.png?v=2026-09-22"
+  },
+  {
+    "url": "https://embedful.io/",
+    "category": "一人公司",
+    "source": "embedful.io",
+    "title": "Embedful：数分钟快速内嵌客户看板",
+    "note": "只需连接底层数据库视图即可生成企业级可内嵌看板，让单兵团队也能交付一流客户体验。",
+    "img": "/digest/2026-09-22-embedful-dashboards.png?v=2026-09-22"
+  },
+  {
+    "url": "https://github.com/Crosstalk-Solutions/project-nomad",
+    "category": "一人公司",
+    "source": "github.com",
+    "title": "Project NOMAD：纯离线个人数字方舟",
+    "note": "在家庭私有硬件上打包海量藏书与离线模型，构筑即便完全切断外网也能自洽的知识基站。",
+    "img": "/digest/2026-09-22-project-nomad.png?v=2026-09-22"
+  },
+  {
+    "url": "https://notchowl.com/",
+    "category": "产品设计",
+    "source": "notchowl.com",
+    "title": "NotchOwl：刘海屏悬停效率微空间",
+    "note": "将屏幕刘海重塑为轻量手势悬停岛，以不占视线的微交互整合待办、计时与瞬时灵感。",
+    "img": "/digest/2026-09-22-notchowl-workspace.png?v=2026-09-22"
+  },
+  {
+    "url": "https://omnidicom.com/",
+    "category": "产品设计",
+    "source": "omnidicom.com",
+    "title": "OmniDICOM：极速三维医学影像工具",
+    "note": "将笨重的放射学分析工具重构为毫秒级响应轻盈应用，实现体渲染与切片平滑交互。",
+    "img": "/digest/2026-09-22-omnidicom-viewer.png?v=2026-09-22"
+  },
+  {
+    "url": "https://mondiradio.com/",
+    "category": "产品设计",
+    "source": "mondiradio.com",
+    "title": "mondi：基于 Rust 的三维地球电台",
+    "note": "把沉闷的网络电台列表重塑为交互三维地球仪，在频段搜寻沙沙声中重温跨洋探索浪漫。",
+    "img": "/digest/2026-09-22-mondi-radio.png?v=2026-09-22"
+  },
+  {
+    "url": "https://www.dezeen.com/2026/09/21/mos-art-omi-aluminium-pavilion/",
+    "category": "审美提升",
+    "source": "dezeen.com",
+    "title": "MOS：纽约 Art Omi 编织感铝制展亭",
+    "note": "用工业波纹铝板与穿孔构件编织通透篮状曲面，让粗犷金属在自然光线下投射柔和光影。",
+    "img": "/digest/2026-09-22-mos-aluminium-pavilion.png?v=2026-09-22"
+  },
+  {
+    "url": "https://www.designboom.com/design/motsprak-plywood-painting-chair-peytil-eitil-arbenz-thoren/",
+    "category": "审美提升",
+    "source": "designboom.com",
+    "title": "Motspråk：解构胶合板画作重组单椅",
+    "note": "把一幅完整的油彩画作锯切拆散并榫接成座椅，让纯粹平面视觉转变为可落座的立体雕塑。",
+    "img": "/digest/2026-09-22-motsprak-chair.png?v=2026-09-22"
+  },
+  {
+    "url": "https://www.typewolf.com/site-of-the-day/daylight-health",
+    "category": "审美提升",
+    "source": "typewolf.com",
+    "title": "Daylight：柔和排版与温润医疗交互",
+    "note": "以温润人文主义衬线字体替代冷酷技术无衬线，用呼吸感极强的行距缓解就医患者焦虑。",
+    "img": "/digest/2026-09-22-daylight-health-typewolf.png?v=2026-09-22"
+  },
+  {
+    "url": "https://appgrowthkit.com/",
+    "category": "产品营销",
+    "source": "appgrowthkit.com",
+    "title": "AppGrowthKit：AI 商店高转化截图",
+    "note": "用经过验证的爆款排版范式自动排版截屏与卖点文案，大幅缩减独立团队测试转化的周期。",
+    "img": "/digest/2026-09-22-appgrowthkit-screenshots.png?v=2026-09-22"
+  },
+  {
+    "url": "https://linear.app/now/ci-bottleneck-reworked",
+    "category": "AI 协作",
+    "source": "linear.app",
+    "title": "Linear：重构 CI 应对 AI 编码瓶颈",
+    "note": "当 AI 编码让提交量倍增，单测瓶颈被彻底暴露；通过细粒度缓存将等待压缩至极限。",
+    "img": "/digest/2026-09-22-linear-ci-reworked.png?v=2026-09-22"
+  },
+  {
+    "url": "https://github.com/mvt-project/mvt",
+    "category": "AI 协作",
+    "source": "github.com",
+    "title": "MVT：开源移动设备数字取证工具包",
+    "note": "提供针对移动端高阶渗透威胁的深度取证流水线，将取证还原过程标准化与全量开源。",
+    "img": "/digest/2026-09-22-mvt-toolkit.png?v=2026-09-22"
+  },
+  {
+    "url": "https://github.com/mitchmindtree/slop-grader",
+    "category": "AI 协作",
+    "source": "github.com",
+    "title": "slop-grader：文档质量规则自测工具",
+    "note": "用确定性正则与规则树对文稿进行脱水诊断，严控空洞废话与虚词，倒逼交付干货内容。",
+    "img": "/digest/2026-09-22-slop-grader.png?v=2026-09-22"
+  },
+  {
+    "url": "https://x.ai/news/grok-4-7",
+    "category": "AI 资讯",
+    "source": "x.ai",
+    "title": "xAI：发布 Grok 4.7 旗舰编码模型",
+    "note": "在保持调用价格不变前提下大幅强化逻辑推演，为工程代理提供敏捷基座。",
+    "img": "/digest/2026-09-22-xai-grok-4-7.png?v=2026-09-22"
+  },
+  {
+    "url": "https://github.com/jaredpalmer/kev/tree/main",
+    "category": "AI 资讯",
+    "source": "github.com",
+    "title": "Jared Palmer：微型决策模型 Kev",
+    "note": "为日常业务分支定制极小尺寸模型，兼具确定性逻辑与毫秒级速度，零开销。",
+    "img": "/digest/2026-09-22-jared-palmer-kev.png?v=2026-09-22"
+  },
+  {
+    "url": "https://minicart.app/",
+    "category": "一人公司",
+    "source": "minicart.app",
+    "title": "Minicart：创作者免折腾极简数字店铺",
+    "note": "抛弃传统电商庞杂插件与深层后台，用一页轻盈画布快速完成货品陈列、结算与数字分发。",
+    "img": "/digest/2026-09-22-minicart-store.png?v=2026-09-22"
+  },
+  {
+    "url": "https://smartpause.app/",
+    "category": "一人公司",
+    "source": "smartpause.app",
+    "title": "SmartPause：聚焦活跃音频的媒体键",
+    "note": "纠正系统盲目唤起后台睡眠播放器的反直觉设定，将物理控制准确作用于当前聆听声音。",
+    "img": "/digest/2026-09-22-smartpause-mac.png?v=2026-09-22"
+  },
+  {
+    "url": "https://github.com/zhouxiaoka/autoclip",
+    "category": "一人公司",
+    "source": "github.com",
+    "title": "AutoClip：长视频高光智能二创神器",
+    "note": "自动解构长视频语音节奏与情绪波动，精准剪辑吸睛片段并合成字幕，成倍放大分发效能。",
+    "img": "/digest/2026-09-22-autoclip-tool.png?v=2026-09-22"
+  },
+  {
+    "url": "https://harbor.my/",
+    "category": "产品设计",
+    "source": "harbor.my",
+    "title": "Harbor：全离线明码标价知识库",
+    "note": "拒绝云端绑架与黑盒订阅，以本地优先与买断定价提供真正属于个人的思考避风港。",
+    "img": "/digest/2026-09-22-harbor-knowledge.png?v=2026-09-22"
+  },
+  {
+    "url": "https://www.launchie.app/",
+    "category": "产品设计",
+    "source": "launchie.app",
+    "title": "Launchie：复刻经典网格应用启动器",
+    "note": "填补系统升级后移除网格启动面板的缺口，以丝滑触控板缩放手势重现快速检索直觉。",
+    "img": "/digest/2026-09-22-launchie-app.png?v=2026-09-22"
+  },
+  {
+    "url": "https://lumiko.dev/",
+    "category": "产品设计",
+    "source": "lumiko.dev",
+    "title": "Lumiko：自动平移运镜的免剪录屏",
+    "note": "把耗费精力的人工缩放关键帧自动化，根据点击与热区计算平滑缓动，一键产出短片。",
+    "img": "/digest/2026-09-22-lumiko-editor.png?v=2026-09-22"
+  },
+  {
+    "url": "https://robbietilton.com/compositor",
+    "category": "产品设计",
+    "source": "robbietilton.com",
+    "title": "Compositor：开源极简 Mac 修图",
+    "note": "专为图层合成与抠图修饰设计，去除复杂的冗余功能栈，给修图师带来无延迟原生响应。",
+    "img": "/digest/2026-09-22-compositor-mac.png?v=2026-09-22"
+  },
+  {
+    "url": "https://www.designboom.com/architecture/1000-wooden-chimes-bruit-bois-alpine-instrument-sound-music-festival-cabanes-france/",
+    "category": "审美提升",
+    "source": "designboom.com",
+    "title": "千根悬挂风铃：阿尔卑斯山间木构乐器",
+    "note": "将千根当地木材悬挂于林间回廊，山风与游人触碰瞬间奏响无乐谱交响，唤醒原始听觉。",
+    "img": "/digest/2026-09-22-le-bruit-du-bois.png?v=2026-09-22"
+  },
+  {
+    "url": "https://www.designboom.com/design/patricia-urquiola-effe-baluar-collection/",
+    "category": "审美提升",
+    "source": "designboom.com",
+    "title": "Urquiola：重塑古堡水疗静谧美学",
+    "note": "从古代棱堡砖石中汲取安全感，以赤陶与几何穹顶包裹身心，营造纯粹洗浴。",
+    "img": "/digest/2026-09-22-patricia-urquiola-effe.png?v=2026-09-22"
+  },
+  {
+    "url": "https://postsider.com/",
+    "category": "产品营销",
+    "source": "postsider.com",
+    "title": "PostSider：人机协作社媒分发中心",
+    "note": "打通创作者与 Agent 排期屏障，在多平台矩阵中实现个性与规模分发。",
+    "img": "/digest/2026-09-22-postsider-publishing.png?v=2026-09-22"
+  },
+  {
+    "url": "https://sspai.com/post/114829",
+    "category": "产品营销",
+    "source": "sspai.com",
+    "title": "少数派：一台主机多重角色的体验复盘",
+    "note": "跳脱纯跑分对比，从家庭服务器到生产力桌面推演具体生活切片，形成强说服力使用场景。",
+    "img": "/digest/2026-09-22-sspai-mac-mini.png?v=2026-09-22"
+  },
+  {
+    "url": "https://github.com/BuilderIO/agent-native",
+    "category": "AI 协作",
+    "source": "github.com",
+    "title": "agent-native：原生智能体应用框架",
+    "note": "不把 Agent 当脚本，而是将状态流与意图插槽作为软件核心一等公民。",
+    "img": "/digest/2026-09-22-builderio-agent-native.png?v=2026-09-22"
+  },
+  {
+    "url": "https://github.com/naw103/foremerge",
+    "category": "AI 协作",
+    "source": "github.com",
+    "title": "Foremerge：多智能体并发意图冲突检测",
+    "note": "不仅检测物理行级代码冲突，更能提早捕捉两个智能体在架构设计意图层面的逻辑分歧。",
+    "img": "/digest/2026-09-22-foremerge-conflicts.png?v=2026-09-22"
+  },
+  {
+    "url": "https://x.com/trq212/status/2101009392611278961",
+    "category": "AI 协作",
+    "source": "x.com",
+    "title": "Claude Code：支持智能体规范",
+    "note": "推动多模型编程智能体共用统一的本地指引文件，终结各家独立私有配置割裂的历史旧局。",
+    "img": "/digest/2026-09-22-claude-code-agents-md.png?v=2026-09-22"
+  },
+  {
+    "url": "https://qwen.ai/blog?id=qwen-image-2.1",
+    "category": "AI 资讯",
+    "source": "qwen.ai",
+    "title": "通义千问：Qwen-Image 文生图编辑统一",
+    "note": "告别繁琐的多模型拼接流程，以一个权重统一端到端创作，提升一致性。",
+    "img": "/digest/2026-09-22-qwen-image-2-1.png?v=2026-09-22"
+  },
+  {
+    "url": "https://poloclub.github.io/transformer-explainer/",
+    "category": "AI 资讯",
+    "source": "poloclub.github.io",
+    "title": "Polo Club：交互式可视化图解模型原理",
+    "note": "把深奥抽象的多头自注意力机制拆解为用户随手调整的动态光束矩阵，展现可视化的力量。",
+    "img": "/digest/2026-09-22-transformer-explainer.png?v=2026-09-22"
+  },
+  {
+    "url": "https://context.dev/",
+    "category": "一人公司",
+    "source": "context.dev",
+    "title": "Answers：全网研究收敛为单次 API",
+    "note": "让独立开发者无需自建复杂的爬虫清洗集群，直接以声明结构体获取清洗后高信度研究。",
+    "img": "/digest/2026-09-22-answers-context.png?v=2026-09-22"
+  },
+  {
+    "url": "https://awnsy.com/",
+    "category": "一人公司",
+    "source": "awnsy.com",
+    "title": "Awnsy：双击快捷键即刻弹窗离线翻译",
+    "note": "无需打开笨重翻译网页，双击两下快捷键在屏幕悬浮出本地模型译文，优雅且不打断心流。",
+    "img": "/digest/2026-09-22-awnsy-translator.png?v=2026-09-22"
+  },
+  {
+    "url": "https://flicka.video/",
+    "category": "产品设计",
+    "source": "flicka.video",
+    "title": "Flicka：电影级光标自适应录屏",
+    "note": "摒弃生硬缩放，通过实时感知鼠标轨迹计算缓动，让演示具备电影级运镜质感。",
+    "img": "/digest/2026-09-22-flicka-video.png?v=2026-09-22"
+  },
+  {
+    "url": "https://termphin.dev/",
+    "category": "产品设计",
+    "source": "termphin.dev",
+    "title": "Termphin：永不断线的移动端终端",
+    "note": "重塑移动端底层网络恢复机制，在锁屏与蜂窝切换间保持会话，消解碎片运维焦虑。",
+    "img": "/digest/2026-09-22-termphin-ssh.png?v=2026-09-22"
+  },
+  {
+    "url": "https://jayjudah.com/101/",
+    "category": "产品设计",
+    "source": "jayjudah.com",
+    "title": "The 101：把高速车流转化为音符",
+    "note": "把监控探头下的拥堵车流实时映射为实验声景，打破数字冰冷，展现人机交互艺术张力。",
+    "img": "/digest/2026-09-22-the-101-plays-itself.png?v=2026-09-22"
+  },
+  {
+    "url": "https://simular.ai/",
+    "category": "产品设计",
+    "source": "simular.ai",
+    "title": "Simular：自主操作桌面软件的智能体",
+    "note": "打破传统软件必须人工手动点击的局限，让模型自主看屏与点击，重构人机协作体验。",
+    "img": "/digest/2026-09-22-simular-agent.png?v=2026-09-22"
+  },
+  {
+    "url": "https://github.com/pmndrs/glyph",
+    "category": "产品设计",
+    "source": "github.com",
+    "title": "pmndrs/glyph：面向三维画布排版",
+    "note": "突破三维场景字体锯齿与断词换行难题，为三维画布带来比肩纸质印刷的严谨网格规范。",
+    "img": "/digest/2026-09-22-pmndrs-glyph.png?v=2026-09-22"
+  },
+  {
+    "url": "https://www.designboom.com/art/prada-galleria-eight-floors-fashion-art-history-pastry-milan/",
+    "category": "审美提升",
+    "source": "designboom.com",
+    "title": "Prada Galleria：米兰八层时装殿堂",
+    "note": "把时装陈列、档案与甜品交织在古典拱廊中，让商业空间升华为漫游剧场。",
+    "img": "/digest/2026-09-22-prada-galleria.png?v=2026-09-22"
+  },
+  {
+    "url": "https://www.typewolf.com/site-of-the-day/heart-and-soil",
+    "category": "审美提升",
+    "source": "typewolf.com",
+    "title": "Heart & Soil：大地质感与硬派排版",
+    "note": "把无衬线标题与细腻手写批注形成反差，在强悍工业力量与自然质感间建信任。",
+    "img": "/digest/2026-09-22-heart-and-soil-typewolf.png?v=2026-09-22"
+  },
+  {
+    "url": "https://www.lappka.store/",
+    "category": "产品营销",
+    "source": "lappka.store",
+    "title": "Lappka：将原始界面变为高转化商店图",
+    "note": "把繁琐多尺寸切图转为拖拽配置，数分钟产出具有留白质感的出海宣发卡片。",
+    "img": "/digest/2026-09-22-lappka-store.png?v=2026-09-22"
+  },
+  {
+    "url": "https://www.bmpi.dev/dev/jev-boundary/",
+    "category": "产品营销",
+    "source": "bmpi.dev",
+    "title": "bmpi：Jev 边界与被动收入工程思考",
+    "note": "探讨智能体接管决策原语后的护城河，从被动收入系统剖析真实长线生存法则。",
+    "img": "/digest/2026-09-22-bmpi-jev-boundary.png?v=2026-09-22"
+  },
+  {
+    "url": "https://github.com/akitaonrails/ai-memory",
+    "category": "AI 协作",
+    "source": "github.com",
+    "title": "ai-memory：跨编码终端长期记忆库",
+    "note": "以独立标准存储跨终端会话沉淀与历史决定，切换模型时无需重新解释项目背景规范。",
+    "img": "/digest/2026-09-22-akitaonrails-ai-memory.png?v=2026-09-22"
+  },
+  {
+    "url": "https://secaiq.com/",
+    "category": "AI 协作",
+    "source": "secaiq.com",
+    "title": "SecAIQ：本地桌面 AI 行为安全哨兵",
+    "note": "以透明面板暴露本地 AI 调用的文件、网络与系统权限，把掌控权交还。",
+    "img": "/digest/2026-09-22-secaiq-watch.png?v=2026-09-22"
+  },
+  {
+    "url": "https://artificialanalysis.ai/articles/benchmarking-grok-4-7",
+    "category": "AI 资讯",
+    "source": "artificialanalysis.ai",
+    "title": "AA 评测：Grok 4.7 跻身知识第一梯队",
+    "note": "脱离厂商自说自话，以独立公允的长文档与办公基准验证模型实力，给技术选型提供参考。",
+    "img": "/digest/2026-09-22-artificial-analysis-grok.png?v=2026-09-22"
+  },
+  {
+    "url": "https://github.com/Open-Dev-Society/OpenStock",
+    "category": "一人公司",
+    "source": "github.com",
+    "title": "OpenStock：开源免费实时金融平台",
+    "note": "以极简排版与低延迟数据总线重塑行情看板，为个人投资者提供无复杂套路的资产界面。",
+    "img": "/digest/2026-09-22-openstock-finance.png?v=2026-09-22"
+  },
+  {
+    "url": "https://chainyourmac.com/",
+    "category": "一人公司",
+    "source": "chainyourmac.com",
+    "title": "Chain Your Mac：横向滚动窗口管理",
+    "note": "告别重叠混乱的窗口堆叠，在水平无限画卷上平铺程序，配合触控板滑移打造如丝顺滑。",
+    "img": "/digest/2026-09-22-chain-your-mac.png?v=2026-09-22"
+  },
+  {
+    "url": "https://turfs.app/",
+    "category": "产品设计",
+    "source": "turfs.app",
+    "title": "Turfs：macOS 原生桌面空间围栏",
+    "note": "在桌面开辟具备阻尼感的固定交互围栏，将碎片文件整理为触手可及的物理工作区。",
+    "img": "/digest/2026-09-22-turfs-fences.png?v=2026-09-22"
+  },
+  {
+    "url": "https://mantratimer.app/",
+    "category": "产品设计",
+    "source": "mantratimer.app",
+    "title": "Mantra：克制留白的纯粹冥想计时",
+    "note": "剔除打卡社群与繁杂打扰，仅凭清脆钵音与深邃留白唤醒专注，重现数字产品最初宁静。",
+    "img": "/digest/2026-09-22-mantra-timer.png?v=2026-09-22"
+  },
+  {
+    "url": "https://bibimba.mamama.company/",
+    "category": "产品设计",
+    "source": "bibimba.mamama.company",
+    "title": "BiBimba：深度识别截图文本剪贴板",
+    "note": "不仅记录文字复制流，更自动解析截图中的数值片段，让非结构剪贴板成为秒级索引。",
+    "img": "/digest/2026-09-22-bibimba-clipboard.png?v=2026-09-22"
+  },
+  {
+    "url": "https://machinedrum-study.pages.dev/",
+    "category": "产品设计",
+    "source": "machinedrum-study.pages.dev",
+    "title": "Machinedrum：网页端高保真电子鼓",
+    "note": "在浏览器中以极低延迟复现经典硬件鼓机参数调制与步进器，展现免安装沉浸音频手感。",
+    "img": "/digest/2026-09-22-machinedrum-study.png?v=2026-09-22"
+  },
+  {
+    "url": "https://www.designboom.com/design/formafantasma-exhibition-design-interview/",
+    "category": "审美提升",
+    "source": "designboom.com",
+    "title": "Formafantasma：在张力中重构展陈",
+    "note": "拒绝沦为画作背景板的死板布展，以未修饰工业骨架与克制张力，让观者感知空间拉扯。",
+    "img": "/digest/2026-09-22-formafantasma-interview.png?v=2026-09-22"
+  },
+  {
+    "url": "https://www.designboom.com/design/guitar-sound-stone-bebeau-builds-slate-rock/",
+    "category": "审美提升",
+    "source": "designboom.com",
+    "title": "Bebeau：18 块石板打磨的天然吉他",
+    "note": "打破木制乐器传统铁律，用冰冷天然板岩雕琢出清脆琴体，展现矿物材质反常识空灵共鸣。",
+    "img": "/digest/2026-09-22-slate-stone-guitar.png?v=2026-09-22"
+  },
+  {
+    "url": "https://www.lennysnewsletter.com/p/how-warp-ships-2000-prs-a-month-with",
+    "category": "产品营销",
+    "source": "lennysnewsletter.com",
+    "title": "Warp：靠 AI 工厂每月合并两千 PR",
+    "note": "不把 AI 当补丁，而是建立由智能体自主认领与自测的软件装配流水线。",
+    "img": "/digest/2026-09-22-warp-ai-factories.png?v=2026-09-22"
+  },
+  {
+    "url": "https://www.wired.me/story/meta-smart-glasses-detector-app-zuckoff",
+    "category": "产品营销",
+    "source": "wired.me",
+    "title": "ZuckOff：蓝牙侦测智能眼镜引发热议",
+    "note": "精准抓住公众对穿戴暗中拍摄的焦虑，以反叛命名与免费引爆全网传播。",
+    "img": "/digest/2026-09-22-zuckoff-app.png?v=2026-09-22"
+  },
+  {
+    "url": "https://github.com/trycua/cua",
+    "category": "AI 协作",
+    "source": "github.com",
+    "title": "trycua/cua：开源系统级操控引擎",
+    "note": "统一多操作系统的驱动抽象，为各类智能体提供操控真实操作系统的手足。",
+    "img": "/digest/2026-09-22-trycua-cua.png?v=2026-09-22"
+  },
+  {
+    "url": "https://blog.cloudflare.com/python-workers-ga/",
+    "category": "AI 协作",
+    "source": "blog.cloudflare.com",
+    "title": "Python Workers：边缘无服务商用",
+    "note": "无需冷启动等待即可在边缘执行原生代码与数据清洗，将轻量服务交付周期缩短至秒级。",
+    "img": "/digest/2026-09-22-cloudflare-python-workers.png?v=2026-09-22"
+  },
+  {
+    "url": "https://github.com/yynxxxxx/Codex-X",
+    "category": "AI 协作",
+    "source": "github.com",
+    "title": "Codex-X：跨平台智能体配置管理面板",
+    "note": "把终端深处的繁复配置解构为直观卡片，让多渠道模型切换与技能装卸拥有丝滑控制台。",
+    "img": "/digest/2026-09-22-codex-x-manager.png?v=2026-09-22"
+  }
+]
