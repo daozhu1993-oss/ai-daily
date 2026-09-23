@@ -1,0 +1,482 @@
+[
+  {
+    "url": "https://www.anthropic.com/claude-opus-5-5",
+    "category": "AI 资讯",
+    "source": "anthropic.com",
+    "title": "Anthropic：发布 Opus 5.5",
+    "note": "大幅降低调用成本的同时提升推演连贯度，为工程级长程任务带来更稳健的智力底座。",
+    "img": "/digest/2026-09-23-claude-opus-5-5-79f021e5da83.png?v=2026-09-23"
+  },
+  {
+    "url": "https://openrouter.ai/blog/announcements/batch-api",
+    "category": "AI 资讯",
+    "source": "openrouter.ai",
+    "title": "OpenRouter：上线半价离线批处理接口",
+    "note": "把非实时长文本清洗与评估转移至非高峰算力，帮中小团队大幅削减日常研发开销。",
+    "img": "/digest/2026-09-23-openrouter-batch-api-16e60d536fba.png?v=2026-09-23"
+  },
+  {
+    "url": "https://www.producthunt.com/products/xem",
+    "category": "一人公司",
+    "source": "producthunt.com",
+    "title": "Xem：自带托管发送的开源邮件营销栈",
+    "note": "无需高成本采购庞大云端服务，用完全掌控的开源代码实现极速订阅管理与送达。",
+    "img": "/digest/2026-09-23-xem-email-marketing-56660699aa41.png?v=2026-09-23"
+  },
+  {
+    "url": "https://www.producthunt.com/products/refoid-decline-unreasonable-refunds",
+    "category": "一人公司",
+    "source": "producthunt.com",
+    "title": "Refoid：App 恶意退款自动化申诉机",
+    "note": "把耗费心力的维权流程变为自动化规则，帮独立出海开发者守护辛苦赚来的营收底线。",
+    "img": "/digest/2026-09-23-refoid-refund-defense-8ae7dfbcedbd.png?v=2026-09-23"
+  },
+  {
+    "url": "https://www.producthunt.com/products/videoflow-studio",
+    "category": "一人公司",
+    "source": "producthunt.com",
+    "title": "VideoFlow：输入网址自动合成产品宣发片",
+    "note": "提炼着陆页核心叙事与视觉基因，用算法运镜与动态排版生成不落俗套的高清预告片。",
+    "img": "/digest/2026-09-23-videoflow-studio-10b200a35647.png?v=2026-09-23"
+  },
+  {
+    "url": "https://sspai.com/post/114479",
+    "category": "产品设计",
+    "source": "sspai.com",
+    "title": "Coast：十年记账沉淀的终点感账本",
+    "note": "告别繁重统计与机械录入，用轻盈可视化呈现每一笔支出的终局影响与资产沉淀。",
+    "img": "/digest/2026-09-23-coast-expense-app-e4509fd5f995.png?v=2026-09-23"
+  },
+  {
+    "url": "https://www.producthunt.com/products/pastely-2",
+    "category": "产品设计",
+    "source": "producthunt.com",
+    "title": "Pastely：根据落点自适应变形的剪贴板",
+    "note": "打破格式生搬硬套，在粘贴瞬间智能感知目标输入框语境并完成格式清洗重组。",
+    "img": "/digest/2026-09-23-pastely-clipboard-de9e57fc1259.png?v=2026-09-23"
+  },
+  {
+    "url": "https://github.com/LuliYanng/LiquidType",
+    "category": "产品设计",
+    "source": "github.com",
+    "title": "LiquidType：毛玻璃光感语音输入法",
+    "note": "用流体玻璃光感重构悬浮窗，在语音录入中实现富有呼吸感的水滴波纹动态反馈。",
+    "img": "/digest/2026-09-23-liquidtype-input-74729dddd721.png?v=2026-09-23"
+  },
+  {
+    "url": "https://www.producthunt.com/products/walkie-3",
+    "category": "产品设计",
+    "source": "producthunt.com",
+    "title": "Walkie：完全端侧运行的听读一体机",
+    "note": "杜绝网络延迟与隐私泄露担忧，在本地利用轻量模型实现即讲即译与精准发音朗读。",
+    "img": "/digest/2026-09-23-walkie-dictation-56d455573bae.png?v=2026-09-23"
+  },
+  {
+    "url": "https://www.dezeen.com/2026/09/22/tato-architects-house-in-mibu",
+    "category": "审美提升",
+    "source": "dezeen.com",
+    "title": "Tato：日本烧杉木包裹的错层居所",
+    "note": "用碳化木材的深邃暗黑包裹通透居所，借助错层台阶将狭小地块编织为立体的光之舞台。",
+    "img": "/digest/2026-09-23-tato-charred-timber-46ae4e56516a.png?v=2026-09-23"
+  },
+  {
+    "url": "https://www.designboom.com/architecture/apple-music-venue-london-battersea-power-station",
+    "category": "审美提升",
+    "source": "designboom.com",
+    "title": "Apple：在伦敦巴特西电站筑造声学艺术殿堂",
+    "note": "以极度克制的声学木纹格栅嵌合历史工业红砖，在巨型遗址深处营造出温暖亲密的现场。",
+    "img": "/digest/2026-09-23-apple-battersea-venue-dfaa4ee37ed3.png?v=2026-09-23"
+  },
+  {
+    "url": "https://www.producthunt.com/products/freebuff-2",
+    "category": "产品营销",
+    "source": "producthunt.com",
+    "title": "Freebuff：在智能体中嵌入原生广告",
+    "note": "不依赖粗暴弹窗与追踪代码，在开发者调试完成的自然停顿处呈现相关基建方案。",
+    "img": "/digest/2026-09-23-freebuff-ads-agent-80f17a84cb94.png?v=2026-09-23"
+  },
+  {
+    "url": "https://www.bristol.ac.uk/news/2026/september/world-cup-viewers.html",
+    "category": "产品营销",
+    "source": "bristol.ac.uk",
+    "title": "布里斯托大学：世界杯每分钟九条广告的反噬",
+    "note": "过度商业化正在肢解赛事本身的观赏纯粹性，盲目刷脸轰炸反而诱发观众集体厌倦抵制。",
+    "img": "/digest/2026-09-23-fifa-ad-density-f7d17a52d629.png?v=2026-09-23"
+  },
+  {
+    "url": "https://github.com/dream-num/univer",
+    "category": "AI 协作",
+    "source": "github.com",
+    "title": "Univer：新一代全栈可嵌入文档协同引擎",
+    "note": "打破独立办公套件的孤岛封锁，用组件化画布为任意企业系统注入无缝实时协同。",
+    "img": "/digest/2026-09-23-univer-collaborative-1b74b4962d51.png?v=2026-09-23"
+  },
+  {
+    "url": "https://www.producthunt.com/products/planehq",
+    "category": "AI 协作",
+    "source": "producthunt.com",
+    "title": "Plane Agents：把智能体作为成员派单",
+    "note": "不设割裂的专用后台，直接在项目看板中将任务分配给 Agent 并实时跟进产出。",
+    "img": "/digest/2026-09-23-plane-agents-8eb2f89c8f40.png?v=2026-09-23"
+  },
+  {
+    "url": "https://www.producthunt.com/products/serenedb-krummelanke",
+    "category": "AI 协作",
+    "source": "producthunt.com",
+    "title": "SereneDB：专为智能体查询优化的分析引擎",
+    "note": "针对大语言模型生成 SQL 的特征定制执行计划，消除歧义耗时以实现微秒级响应。",
+    "img": "/digest/2026-09-23-serenedb-database-d0e6c235db79.png?v=2026-09-23"
+  },
+  {
+    "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+    "category": "AI 资讯",
+    "source": "openai.com",
+    "title": "OpenAI：推出 GPT-6 新双子模型",
+    "note": "以极具竞争力的阶梯定价冲击工业市场，让规模化智能体集群的日常部署变得平易近人。",
+    "img": "/digest/2026-09-23-openai-gpt-6-sol-luna-e3da153347c9.png?v=2026-09-23"
+  },
+  {
+    "url": "https://x.com/arena/status/2102416020678008986",
+    "category": "AI 资讯",
+    "source": "x.com",
+    "title": "阿里：开源 Qwen 图像编辑模型",
+    "note": "攻克局部微调与图文对齐的精度难题，登顶基准榜首并让高质量视觉二次创作完全受控。",
+    "img": "/digest/2026-09-23-qwen-image-model-d0de193e451b.png?v=2026-09-23"
+  },
+  {
+    "url": "https://www.producthunt.com/products/pewcb-in-house-pcb-prototyping-machine",
+    "category": "一人公司",
+    "source": "producthunt.com",
+    "title": "PewCB：摆在独立创客书桌上的制板工厂",
+    "note": "将数周的打样等待压缩至一顿午饭时间，让硬件极客在工位即刻完成电路验证迭代。",
+    "img": "/digest/2026-09-23-pewcb-hardware-6054f559c022.png?v=2026-09-23"
+  },
+  {
+    "url": "https://www.producthunt.com/products/jev-wrapped",
+    "category": "一人公司",
+    "source": "producthunt.com",
+    "title": "Jev Wrapped：透明化社群广告占比透视",
+    "note": "用结构化模型快速扫描长历史消息，在用户加入前客观呈现频道的真实信息密度。",
+    "img": "/digest/2026-09-23-jev-wrapped-analyzer-2ba3146d4322.png?v=2026-09-23"
+  },
+  {
+    "url": "https://www.producthunt.com/products/edyt",
+    "category": "一人公司",
+    "source": "producthunt.com",
+    "title": "Edyt：唤醒屏幕任意不可选文字的重塑器",
+    "note": "跨越操作系统底层控件绘制限制，通过快捷键直接对选不中的文字完成编辑与翻译。",
+    "img": "/digest/2026-09-23-edyt-screen-text-4fc40fc72e74.png?v=2026-09-23"
+  },
+  {
+    "url": "https://sspai.com/post/114823",
+    "category": "产品设计",
+    "source": "sspai.com",
+    "title": "泡泡骚 Low Pro：极薄碳纹磁吸气囊",
+    "note": "把多档位手持与支架功能压进极限厚度，在克制尺寸中平衡握持安全与手感舒适。",
+    "img": "/digest/2026-09-23-popsockets-low-pro-65a41d333ea6.png?v=2026-09-23"
+  },
+  {
+    "url": "https://www.producthunt.com/products/feedsbar",
+    "category": "产品设计",
+    "source": "producthunt.com",
+    "title": "FeedsBar：不打扰思绪的桌面滚动流",
+    "note": "以极慢匀速在菜单栏流淌高价值动态，彻底消除通知弹窗对沉浸心流的粗暴打断。",
+    "img": "/digest/2026-09-23-feedsbar-ticker-00321e67ab15.png?v=2026-09-23"
+  },
+  {
+    "url": "https://www.v2ex.com/t/1244041",
+    "category": "产品设计",
+    "source": "v2ex.com",
+    "title": "Countdown.im：轻盈优雅的端侧倒计时",
+    "note": "剔除纷杂设置与过度包装，用极简排版与纯净色彩还原时间流逝的专注仪式感。",
+    "img": "/digest/2026-09-23-countdown-minimal-7c562084b591.png?v=2026-09-23"
+  },
+  {
+    "url": "https://www.producthunt.com/products/diurnal",
+    "category": "产品设计",
+    "source": "producthunt.com",
+    "title": "Diurnal：闪电排空的瞬时思维草稿本",
+    "note": "不在记录时强加分类层级，让灵感在敲击键盘的瞬间毫无阻力地沉淀为永久资产。",
+    "img": "/digest/2026-09-23-diurnal-thought-cac01a0d794d.png?v=2026-09-23"
+  },
+  {
+    "url": "https://www.dezeen.com/2026/09/22/cork-wall-gencork-dezeen-showroom",
+    "category": "审美提升",
+    "source": "dezeen.com",
+    "title": "Gencork：用生成式几何雕琢天然软木声学板",
+    "note": "将算法参数化起伏注入软木肌理，让原本枯燥的消音墙面化作随光影变幻的浮雕画卷。",
+    "img": "/digest/2026-09-23-gencork-acoustic-6397c4caee81.png?v=2026-09-23"
+  },
+  {
+    "url": "https://www.designboom.com/design/mschf-bends-twists-lexus-cars-surreal-sculptures-new-york-motomorphosis",
+    "category": "审美提升",
+    "source": "designboom.com",
+    "title": "MSCHF：将雷克萨斯车体扭转为超现实雕塑",
+    "note": "撕碎汽车工业精密严谨的模具神话，用戏剧性扭曲撕扯拷问消费主义与速度崇拜的虚妄。",
+    "img": "/digest/2026-09-23-mschf-lexus-sculpture-15ba9ab82215.png?v=2026-09-23"
+  },
+  {
+    "url": "https://www.producthunt.com/products/decode-by-entropik",
+    "category": "产品营销",
+    "source": "producthunt.com",
+    "title": "Decode：在真金白银投放前预判广告胜率",
+    "note": "通过多模态神经感知模拟受众注视焦点与情绪波动，用预先验证终结盲目买量浪费。",
+    "img": "/digest/2026-09-23-decode-creative-insights-f0ce4d79e9a0.png?v=2026-09-23"
+  },
+  {
+    "url": "https://www.techradar.com/phones/iphone/i-wish-apple-would-just-stop-that-crap-apple-has-added-persistent-ads-to-ios-and-its-driving-users-crazy",
+    "category": "产品营销",
+    "source": "techradar.com",
+    "title": "TechRadar：iOS 强行植入推广惹议",
+    "note": "把尊贵的高价硬件系统沦为自家订阅服务的私域看板，消耗的是多年建立的高级审美信誉。",
+    "img": "/digest/2026-09-23-apple-ios-ads-9290a09504a3.png?v=2026-09-23"
+  },
+  {
+    "url": "https://github.com/davila7/claude-code-templates",
+    "category": "AI 协作",
+    "source": "github.com",
+    "title": "davila7：开源企业级编码代理最佳模板",
+    "note": "汇集实战沉淀的权限与子流程规范，帮助工程团队规避智能体自主改写带来的风险。",
+    "img": "/digest/2026-09-23-claude-code-templates-f50bc992e43a.png?v=2026-09-23"
+  },
+  {
+    "url": "https://www.producthunt.com/products/weweb-io",
+    "category": "AI 协作",
+    "source": "producthunt.com",
+    "title": "WeWeb MCP：人机协同搭建复杂前端页面",
+    "note": "智能体负责编排繁复逻辑与组件，开发者保持对视觉审美与发布权限的绝对掌控。",
+    "img": "/digest/2026-09-23-weweb-mcp-collab-ba5941d122af.png?v=2026-09-23"
+  },
+  {
+    "url": "https://epoch.ai/publications/the-plunging-price-of-thought",
+    "category": "AI 资讯",
+    "source": "epoch.ai",
+    "title": "Epoch AI：智能推理成本每季下降近五成",
+    "note": "用扎实历史数据量化机器思考的通缩规律，预示软件价值分配将迎来结构性洗牌。",
+    "img": "/digest/2026-09-23-epoch-ai-cost-report-04ac70641b38.png?v=2026-09-23"
+  },
+  {
+    "url": "https://www.bloomberg.com/graphics/2026-iran-school-attack",
+    "category": "AI 资讯",
+    "source": "bloomberg.com",
+    "title": "彭博：五角大楼审查过度依赖 AI 误击事故",
+    "note": "当算法给出看似理性的高置信度指标，人类常陷入盲信陷阱，暴露了关键防御的伦理脆弱。",
+    "img": "/digest/2026-09-23-bloomberg-pentagon-ai-15291f2d40a6.png?v=2026-09-23"
+  },
+  {
+    "url": "https://www.producthunt.com/products/know-what-s-really-free-before-you-click",
+    "category": "一人公司",
+    "source": "producthunt.com",
+    "title": "ReallyFree：一键看穿伪免费的排雷插件",
+    "note": "在用户点击试用前拆穿套路条款，用真实社区标记倒逼 SaaS 厂商回归透明诚信。",
+    "img": "/digest/2026-09-23-reallyfree-scanner-7eb2ca786246.png?v=2026-09-23"
+  },
+  {
+    "url": "https://www.v2ex.com/t/1244097",
+    "category": "一人公司",
+    "source": "v2ex.com",
+    "title": "Codex Reset：独立黑客半天抓抢配额红利",
+    "note": "敏锐洞察大厂额度刷新机制的情绪痛点，用极简表单与轻量自动化迅速搭建需求桥梁。",
+    "img": "/digest/2026-09-23-codex-reset-site-30e7a8ea4d9c.png?v=2026-09-23"
+  },
+  {
+    "url": "https://blog.google/products-and-platforms/devices/googlebook/pre-order-googlebook",
+    "category": "产品设计",
+    "source": "blog.google",
+    "title": "Googlebook：安卓生态原生协同笔记本",
+    "note": "打破桌面与移动系统的割裂藩篱，通过硬件级协议将手机算力无缝延展至大屏交互。",
+    "img": "/digest/2026-09-23-googlebook-preorder-ce9fc8ee0e02.png?v=2026-09-23"
+  },
+  {
+    "url": "https://www.producthunt.com/products/shootsolo",
+    "category": "产品设计",
+    "source": "producthunt.com",
+    "title": "Shootsolo 2.0：语音驱动提词相机",
+    "note": "用自适应语速跟读替代生硬滚动，让单人视频创作者在镜头前自然表达与专注思考。",
+    "img": "/digest/2026-09-23-shootsolo-camera-e4fa492908c8.png?v=2026-09-23"
+  },
+  {
+    "url": "https://www.producthunt.com/products/fulvid",
+    "category": "产品设计",
+    "source": "producthunt.com",
+    "title": "Fulvid：轻量纯粹的 MDX 独立桌面书写器",
+    "note": "剥离大型开发环境的冗余插件负担，还原代码与排版即时渲染的专注打字手感。",
+    "img": "/digest/2026-09-23-fulvid-mdx-editor-ea306c314e0e.png?v=2026-09-23"
+  },
+  {
+    "url": "https://www.v2ex.com/t/1244077",
+    "category": "产品设计",
+    "source": "v2ex.com",
+    "title": "UU 远程：菜单栏一键终端会话管理",
+    "note": "把长连接与多终端会话藏进小巧菜单，为远程云端编程带来原生桌面的开箱顺滑感。",
+    "img": "/digest/2026-09-23-uu-terminal-manager-fe70a54119f4.png?v=2026-09-23"
+  },
+  {
+    "url": "https://www.dezeen.com/2026/09/22/cattle-armchair-design-seating-furniture-furnishings-surfaces-tiles-dezeen-showroom",
+    "category": "审美提升",
+    "source": "dezeen.com",
+    "title": "Gibson Karlo：澳洲粗犷农作转译",
+    "note": "把内陆放牧设施的钢管骨架与粗野连接提炼为优雅室内单椅，在质朴与精密间找到平衡。",
+    "img": "/digest/2026-09-23-cattle-armchair-8094977d1f35.png?v=2026-09-23"
+  },
+  {
+    "url": "https://www.dezeen.com/2026/09/22/grimshaw-city-rail-link-stations-auckland",
+    "category": "审美提升",
+    "source": "dezeen.com",
+    "title": "Grimshaw：把毛利史诗铸入现代轨道枢纽",
+    "note": "拒绝沦为冷冰冰的换乘通道，用图腾编织感穹顶与大地色彩重连市民与原住民文化记忆。",
+    "img": "/digest/2026-09-23-grimshaw-auckland-stations-0a523f7ebe9e.png?v=2026-09-23"
+  },
+  {
+    "url": "https://www.designboom.com/design/sobo-paris-listening-restaurant-oak-vintage-furniture-acoustic-panels-studio-louis-morgan",
+    "category": "审美提升",
+    "source": "designboom.com",
+    "title": "SOBO：黑胶与橡木织就的巴黎听觉餐厅",
+    "note": "将高保真声学扩散板化作温暖墙面饰板，让味觉享受与黑胶原声在复古光晕中沉浸交融。",
+    "img": "/digest/2026-09-23-sobo-listening-restaurant-36853182bc7a.png?v=2026-09-23"
+  },
+  {
+    "url": "https://www.producthunt.com/products/lead-sparker",
+    "category": "产品营销",
+    "source": "producthunt.com",
+    "title": "Lead Sparker：输入链接秒出提案",
+    "note": "免去繁琐的数据搬运折腾，自动把公开财报与用户差评整理为直击痛点的商业幻灯片。",
+    "img": "/digest/2026-09-23-lead-sparker-deck-82496d769e83.png?v=2026-09-23"
+  },
+  {
+    "url": "https://newsletter.pragmaticengineer.com/p/windows-and-ai",
+    "category": "AI 协作",
+    "source": "newsletter.pragmaticengineer.com",
+    "title": "Pragmatic：拆解系统级 AI 架构",
+    "note": "不再把大模型当作应用层外挂，而是将其铸入系统调度内核以重新定义窗口与文件。",
+    "img": "/digest/2026-09-23-pragmatic-windows-ai-4d544018fbf6.png?v=2026-09-23"
+  },
+  {
+    "url": "https://github.com/superdesigndev/treg",
+    "category": "AI 协作",
+    "source": "github.com",
+    "title": "Treg：面向编码智能体的组件注册表",
+    "note": "结构化拆解前端依赖与样式规范，让智能体在代码编写时能即时调取高质设计资产。",
+    "img": "/digest/2026-09-23-treg-component-registry-07e08c2587c6.png?v=2026-09-23"
+  },
+  {
+    "url": "https://www.producthunt.com/products/fez-2",
+    "category": "AI 协作",
+    "source": "producthunt.com",
+    "title": "Fez：支持群体多轮博弈的智能体委员会",
+    "note": "引入对抗性批判与加权投票，避免单一模型盲区导致的工程架构或业务决策失误。",
+    "img": "/digest/2026-09-23-fez-decision-committee-d0aaf9225219.png?v=2026-09-23"
+  },
+  {
+    "url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
+    "category": "AI 资讯",
+    "source": "huggingface.co",
+    "title": "HF：原生支持 GGUF 本地直载",
+    "note": "抹平复杂格式转换与二次编译壁垒，让主流开发管线零门槛吞吐高性价比量化权重。",
+    "img": "/digest/2026-09-23-huggingface-gguf-support-b20bdba484a7.png?v=2026-09-23"
+  },
+  {
+    "url": "https://droprun.sh/",
+    "category": "一人公司",
+    "source": "droprun.sh",
+    "title": "Drop：基于 gVisor 的非特权容器沙箱",
+    "note": "以极轻内存开销构建安全沙箱，让独立应用能够高密度隔离运行不可信的用户代码。",
+    "img": "/digest/2026-09-23-droprun-sandbox-44ae2e28a18b.png?v=2026-09-23"
+  },
+  {
+    "url": "https://www.producthunt.com/products/robot-voice-bridge",
+    "category": "一人公司",
+    "source": "producthunt.com",
+    "title": "Voice Bridge：在本地调度云端配音",
+    "note": "把繁琐的网页参数调节整合进系统混音台，让视频剪辑师享受如同现场录音的掌控感。",
+    "img": "/digest/2026-09-23-voice-bridge-audio-df9d53cfa9a7.png?v=2026-09-23"
+  },
+  {
+    "url": "https://sspai.com/post/114878",
+    "category": "产品设计",
+    "source": "sspai.com",
+    "title": "Beats 360：空间声场定制头戴旗舰",
+    "note": "融合物理阻尼声学结构与个性化定制，在轻量化机身中重塑个人听觉沉浸体验。",
+    "img": "/digest/2026-09-23-beats-360-headphones-ea7617973ae2.png?v=2026-09-23"
+  },
+  {
+    "url": "https://www.producthunt.com/products/quietglass",
+    "category": "产品设计",
+    "source": "producthunt.com",
+    "title": "QuietGlass：耳机联动的防窥屏幕雾化",
+    "note": "通过耳机佩戴状态自适应模糊工作区，在公共场所为独立办公筑起轻巧安全屏障。",
+    "img": "/digest/2026-09-23-quietglass-privacy-be68c65a35a7.png?v=2026-09-23"
+  },
+  {
+    "url": "https://www.producthunt.com/products/clueso",
+    "category": "产品设计",
+    "source": "producthunt.com",
+    "title": "Clueso MCP：对话式视频智能剪辑层",
+    "note": "把剪辑时间线抽象为协议动作，让智能体通过自然交谈完成裁切调色与字幕排版。",
+    "img": "/digest/2026-09-23-clueso-mcp-video-66a347cabcea.png?v=2026-09-23"
+  },
+  {
+    "url": "https://www.v2ex.com/t/1244093",
+    "category": "产品设计",
+    "source": "v2ex.com",
+    "title": "RedTV：为客厅大屏定制的图文浏览端",
+    "note": "重绘瀑布流与高清图卡比例，让社交内容在大屏电视上呈现出画册般的观赏质感。",
+    "img": "/digest/2026-09-23-appletv-rednote-650dc39a74a4.png?v=2026-09-23"
+  },
+  {
+    "url": "https://www.dezeen.com/2026/09/22/quirky-architecture-burning-man-2026",
+    "category": "审美提升",
+    "source": "dezeen.com",
+    "title": "火人节 2026：荒漠极端环境下的即兴建筑",
+    "note": "抛弃永久结构的傲慢束缚，用可降解织物与临时张拉结构探索人与自然的瞬时对话。",
+    "img": "/digest/2026-09-23-burning-man-architecture-08e241849a4d.png?v=2026-09-23"
+  },
+  {
+    "url": "https://www.dezeen.com/2026/09/22/andersson-bell-tokyo-store-i-in",
+    "category": "审美提升",
+    "source": "dezeen.com",
+    "title": "I IN：粗粝素混凝土与明快彩染的东京碰撞",
+    "note": "以冷峻未修饰的清水模为底座，用饱和亚克力与织物色块激荡出后现代时尚的戏剧张力。",
+    "img": "/digest/2026-09-23-andersson-bell-tokyo-65db1d6121dd.png?v=2026-09-23"
+  },
+  {
+    "url": "https://www.lennysnewsletter.com/p/advanced-evals-how-to-find-and-fix",
+    "category": "产品营销",
+    "source": "lennysnewsletter.com",
+    "title": "Lenny：如何精准排查隐藏的 AI 体验暗坑",
+    "note": "拒绝死看模糊的全局评分，建立细颗粒度端到端测试链路以守护产品留存与口碑信任。",
+    "img": "/digest/2026-09-23-lenny-evals-guide-d6c2b38a41d0.png?v=2026-09-23"
+  },
+  {
+    "url": "https://www.producthunt.com/products/thestory-run",
+    "category": "产品营销",
+    "source": "producthunt.com",
+    "title": "thestory.run：商业叙事节奏教练",
+    "note": "不替作者粗暴代写空洞行话，而是像老练主编般逐句诊断故事钩子与长文转折张力。",
+    "img": "/digest/2026-09-23-thestory-writing-coach-f3445ab31971.png?v=2026-09-23"
+  },
+  {
+    "url": "https://github.com/anthropics/financial-services",
+    "category": "AI 协作",
+    "source": "github.com",
+    "title": "Anthropic：开源金融领域智能体架构",
+    "note": "为高合规要求的业务提供可解释链路，使复杂逻辑计算具备可追溯的审计安全边界。",
+    "img": "/digest/2026-09-23-anthropic-financial-agent-893d3b772717.png?v=2026-09-23"
+  },
+  {
+    "url": "https://github.com/agent-substrate/substrate",
+    "category": "AI 协作",
+    "source": "github.com",
+    "title": "Substrate：去中心化智能体协同基底",
+    "note": "为异步协作的多智能体提供确定性状态总线，在分布式并发中确保记忆一致与事务回滚。",
+    "img": "/digest/2026-09-23-substrate-runtime-d64c7108905e.png?v=2026-09-23"
+  },
+  {
+    "url": "https://www.producthunt.com/products/contextberg",
+    "category": "AI 协作",
+    "source": "producthunt.com",
+    "title": "Contextberg：基于 MCP 本地记忆库",
+    "note": "拒绝向第三方云端同步知识图谱，通过标准协议在本地为各项开发助理提供上下文补全。",
+    "img": "/digest/2026-09-23-contextberg-memory-c8de2dc7ab9a.png?v=2026-09-23"
+  }
+]
