@@ -1,0 +1,482 @@
+[
+  {
+    "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+    "category": "AI 资讯",
+    "source": "anthropic.com",
+    "title": "Anthropic：发现新型类基因编辑酶系统",
+    "note": "生物学团队让智能体挖掘噬菌体基因数据，自主发现具备基因切贴能力的全新酶系统。",
+    "img": "/digest/2026-09-24-anthropic-crispr-enzyme-00fdc7106a03.png?v=2026-09-24"
+  },
+  {
+    "url": "https://x.com/Alibaba_Qwen/status/2102687258990026993",
+    "category": "AI 资讯",
+    "source": "x.com",
+    "title": "通义千问：升级全栈音频模型家族",
+    "note": "全线模型大幅降价，实时语音支持随时打断与情感感知，并新增创作与理解独立模型。",
+    "img": "/digest/2026-09-24-qwen-audio-suite-e193f9f3e5ca.png?v=2026-09-24"
+  },
+  {
+    "url": "https://x.com/levelsio/status/2102739359715774665",
+    "category": "一人公司",
+    "source": "x.com",
+    "title": "Levelsio：一人公司年入千万与高净利",
+    "note": "用自建极简代码替代昂贵外置服务组件，展示由睡眠指标与即时营收交织的个人大盘。",
+    "img": "/digest/2026-09-24-levelsio-10m-situation-4749d0b9fa31.png?v=2026-09-24"
+  },
+  {
+    "url": "https://x.com/op7418/status/2102590676156432876",
+    "category": "一人公司",
+    "source": "x.com",
+    "title": "归藏：去除机器翻译味技能库迎来版本大修",
+    "note": "吸收开源社区真实批注与口语修正反馈，让生成文案更加贴近人类自然叙述节奏。",
+    "img": "/digest/2026-09-24-op7418-humanizer-update-d2b6684059cb.png?v=2026-09-24"
+  },
+  {
+    "url": "https://drivingbench.com/",
+    "category": "一人公司",
+    "source": "drivingbench.com",
+    "title": "DrivingBench：评测模型的真实驾驶决策",
+    "note": "构建真实道路动态感知与紧急制动沙盒，全面测试大语言模型接管车辆操控的可靠性。",
+    "img": "/digest/2026-09-24-drivingbench-autonomous-eval-0ae931237acc.png?v=2026-09-24"
+  },
+  {
+    "url": "https://x.com/jasonfried/status/2102522309571641581",
+    "category": "产品设计",
+    "source": "x.com",
+    "title": "Basecamp：新增项目自定义平铺壁纸背景",
+    "note": "回归经典复古平铺纹理与个性壁纸设置，通过视觉辨识度让多项目工作流一眼可辨。",
+    "img": "/digest/2026-09-24-basecamp-5-backgrounds-dcf967d86431.png?v=2026-09-24"
+  },
+  {
+    "url": "https://tliens.github.io/picsqueeze/?lang=zh",
+    "category": "产品设计",
+    "source": "tliens.github.io",
+    "title": "PicSqueeze：纯浏览器端批量无损图片压缩",
+    "note": "利用本地算力结合量化表自适应优化体积，多图并发零上传兼顾隐私与极致压缩比。",
+    "img": "/digest/2026-09-24-picsqueeze-image-compress-773667348541.png?v=2026-09-24"
+  },
+  {
+    "url": "https://sspai.com/post/114904",
+    "category": "产品设计",
+    "source": "sspai.com",
+    "title": "Here Wallpaper：把城市足迹织成壁纸",
+    "note": "提取矢量地理轮廓与多层渐变配色，将具有情感温度的地图投影重构为极简视觉画布。",
+    "img": "/digest/2026-09-24-here-wallpaper-city-map-7a569756715a.png?v=2026-09-24"
+  },
+  {
+    "url": "https://www.dezeen.com/2026/09/23/apple-music-venue-battersea-power-station/",
+    "category": "审美提升",
+    "source": "dezeen.com",
+    "title": "Apple：在伦敦巴特西电站落成声学演艺殿堂",
+    "note": "保留工业历史遗迹红砖骨架并植入声学反射木构，在工业粗粝中凝聚殿堂级空间审美。",
+    "img": "/digest/2026-09-24-apple-battersea-venue-02ca5f4e5923.png?v=2026-09-24"
+  },
+  {
+    "url": "https://www.designboom.com/art/synesthesia-light-audrey-wright-musical-body-metropolitan-museum-geoff-robertson-stephanie-ann-boyd/",
+    "category": "审美提升",
+    "source": "designboom.com",
+    "title": "MET：把小提琴家身躯化作共感觉光影乐谱",
+    "note": "利用柔性发光阵列实时对应乐章频率变幻，将抽象的听觉通感生动外化为可触光斑。",
+    "img": "/digest/2026-09-24-audrey-wright-met-synesthesia-7476ec0e227c.png?v=2026-09-24"
+  },
+  {
+    "url": "https://www.underconsideration.com/brandnew/archives/new_logo_and_identity_for_rakbank_by_koto.php",
+    "category": "审美提升",
+    "source": "underconsideration.com",
+    "title": "Koto：重构 Rakbank 现代金融品牌视觉",
+    "note": "从阿拉伯传统航海风帆中提炼明快几何切角，将传统银行形象蜕变出亲切灵动气息。",
+    "img": "/digest/2026-09-24-koto-rakbank-rebrand-4e2d0833eace.png?v=2026-09-24"
+  },
+  {
+    "url": "https://x.com/brian_lovin/status/2102815047755948509",
+    "category": "产品营销",
+    "source": "x.com",
+    "title": "Brian Lovin：善用补贴红利沉淀自主记忆",
+    "note": "呼吁创作者跳出单一厂商的品牌盲从，以跨应用通用记忆机制享受最前沿模型红利。",
+    "img": "/digest/2026-09-24-brian-lovin-model-agnostic-4c5da76a9965.png?v=2026-09-24"
+  },
+  {
+    "url": "https://x.com/cursor_ai/status/2102861817160904808",
+    "category": "AI 协作",
+    "source": "x.com",
+    "title": "Cursor：推出变更发布巡检与加速安全审查",
+    "note": "在发布流中自动编写监控方案并预先拦截故障，代码审计效率提升两成以上。",
+    "img": "/digest/2026-09-24-cursor-rollouts-dbf794eae5de.png?v=2026-09-24"
+  },
+  {
+    "url": "https://x.com/framer/status/2102765990039998524",
+    "category": "AI 协作",
+    "source": "x.com",
+    "title": "Framer：通过页面提及引导智能体复用组件",
+    "note": "在生成界面时自动锚定既有设计规范与库资产，杜绝无约束自由发挥带来的风格割裂。",
+    "img": "/digest/2026-09-24-framer-skills-mention-ba868cc18cd0.png?v=2026-09-24"
+  },
+  {
+    "url": "https://github.com/DeusData/codebase-memory-mcp",
+    "category": "AI 协作",
+    "source": "github.com",
+    "title": "DeusData：毫秒级代码知识图谱协议服务",
+    "note": "以静态二进制将仓库解析为紧凑索引，跨平台调用消耗显著减少并杜绝上下文冗余。",
+    "img": "/digest/2026-09-24-deusdata-codebase-mcp-6ec4dff24e6b.png?v=2026-09-24"
+  },
+  {
+    "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech",
+    "category": "AI 资讯",
+    "source": "deepmind.google",
+    "title": "DeepMind：推出新一代多音色语音模型",
+    "note": "支持用自然语言直接设计音色并提供逐行表演指导，兼具低延迟与双人长程对话能力。",
+    "img": "/digest/2026-09-24-deepmind-gemini-tts-736430d438be.png?v=2026-09-24"
+  },
+  {
+    "url": "https://developers.googleblog.com/introducing-support-for-local-ai-models-in-the-antigravity-sdk",
+    "category": "AI 资讯",
+    "source": "developers.googleblog.com",
+    "title": "Google：智能体开发套件支持本地端侧模型",
+    "note": "通过轻量级运行时直连端侧高规格芯片，无需网络连接即可完整驱动多步智能体编排。",
+    "img": "/digest/2026-09-24-google-antigravity-local-5d632100c0b4.png?v=2026-09-24"
+  },
+  {
+    "url": "https://x.com/tibo_maker/status/2102691997589152007",
+    "category": "一人公司",
+    "source": "x.com",
+    "title": "Tibo：复盘数百万短视频传播指标的关键变量",
+    "note": "通过真实数据提炼出自然户外取景与三十秒紧凑节奏，以极简要素打破算法神秘感。",
+    "img": "/digest/2026-09-24-tibo-tiktok-viral-data-817ae7edf65c.png?v=2026-09-24"
+  },
+  {
+    "url": "https://naise.ai",
+    "category": "一人公司",
+    "source": "naise.ai",
+    "title": "Naise AI：微型团队传播托管智能体",
+    "note": "将品牌调性与触达公关方案固化为记忆，一人团队一天内即可完成冷启动投放链路。",
+    "img": "/digest/2026-09-24-naise-ai-marketing-agent-f8dda47af7f9.png?v=2026-09-24"
+  },
+  {
+    "url": "https://blog.szypowi.cz/p/claude-code-reads-agents.md-only-when-telemetry-is-on/",
+    "category": "一人公司",
+    "source": "blog.szypowi.cz",
+    "title": "Szypowicz：揭秘编码智能体配置读取",
+    "note": "技术逆向分析指出遥测配置与本地上下文读取耦合的深层问题，推动官方紧急修复。",
+    "img": "/digest/2026-09-24-claude-code-telemetry-64b3f3689a07.png?v=2026-09-24"
+  },
+  {
+    "url": "https://x.com/raycast/status/2102849152321568860",
+    "category": "产品设计",
+    "source": "x.com",
+    "title": "Raycast：联合重启限量定制机械键盘",
+    "note": "将启动器全局快捷键与专用物理指示灯刻入键帽细节，硬件外观与暗色主题深度咬合。",
+    "img": "/digest/2026-09-24-raycast-nuphy-keyboard-5a27729cce56.png?v=2026-09-24"
+  },
+  {
+    "url": "https://x.com/ftium4real/status/2102794322185945497",
+    "category": "产品设计",
+    "source": "x.com",
+    "title": "Apple：发布 iOS 27 独立设计规范库",
+    "note": "针对折叠屏与液态玻璃材质彻底重构，采用独立新文件规避覆盖老旧项目的灾难冲突。",
+    "img": "/digest/2026-09-24-apple-ios27-design-kit-18c67f62e589.png?v=2026-09-24"
+  },
+  {
+    "url": "https://hoston.work",
+    "category": "产品设计",
+    "source": "hoston.work",
+    "title": "Hoston：掌上手机随身运维轻量控制面板",
+    "note": "内置内网穿透与抗弱网长连接隧道，让工程师在碎片移动场景下安全调度容器实例。",
+    "img": "/digest/2026-09-24-hoston-server-panel-4e47ac4e26b5.png?v=2026-09-24"
+  },
+  {
+    "url": "https://solid.tech",
+    "category": "产品设计",
+    "source": "solid.tech",
+    "title": "Solid：自带独立沙箱运行环境的业务助手",
+    "note": "自主分配独立计算资源与合规支付预算，长周期闭环接管复杂繁琐的跨系统流程。",
+    "img": "/digest/2026-09-24-solid-agents-budget-58a2de2c3b5b.png?v=2026-09-24"
+  },
+  {
+    "url": "https://www.dezeen.com/2026/09/23/karimoku-case-azabudai-hills-tokyo/",
+    "category": "审美提升",
+    "source": "dezeen.com",
+    "title": "Karimoku：东京展厅化身写意和风旅社",
+    "note": "融合传统格子障子光晕与沉静原木家具，在闹市高楼内构建令人沉静的空灵居所。",
+    "img": "/digest/2026-09-24-karimoku-case-inn-6cd76c3c16b1.png?v=2026-09-24"
+  },
+  {
+    "url": "https://www.designboom.com/architecture/peter-zumthor-fondation-beyeler-extension-riehen-basel-switzerland-opening-09-23-2026/",
+    "category": "审美提升",
+    "source": "designboom.com",
+    "title": "卒姆托：瑞士贝耶勒基金会扩建美术馆开幕",
+    "note": "借由夯土混凝土与天然光井漫射，将现代展厅与周围百年历史私家园林诗意缝合。",
+    "img": "/digest/2026-09-24-peter-zumthor-beyeler-491a9e9620bd.png?v=2026-09-24"
+  },
+  {
+    "url": "https://x.com/gregisenberg/status/2102750021582000347",
+    "category": "产品营销",
+    "source": "x.com",
+    "title": "Greg：个人智能体浪潮带来的分发渠道套利契机",
+    "note": "指出语音交互与个人伴侣正在颠覆传统主屏阵地，在新旧平台认知差中蕴藏爆发窗口。",
+    "img": "/digest/2026-09-24-gregisenberg-personal-agents-f506e622cb16.png?v=2026-09-24"
+  },
+  {
+    "url": "https://x.com/Studiyoco/status/2102825233078157454",
+    "category": "产品营销",
+    "source": "x.com",
+    "title": "Studiyoco：3D 吉祥物拉动付费墙转化",
+    "note": "实测展示生动立体形象能有效降低付费决策防备心理，相比冷冰冰的定价表更具亲和力。",
+    "img": "/digest/2026-09-24-studiyoco-3d-mascot-paywall-a46cbcb3172e.png?v=2026-09-24"
+  },
+  {
+    "url": "https://x.com/NotionHQ/status/2102858899137466810",
+    "category": "AI 协作",
+    "source": "x.com",
+    "title": "Notion：打通与 Claude 双向协同",
+    "note": "无需反复复制导出页面，直接在模型对话流中检索、编辑并同步整个团队工作区。",
+    "img": "/digest/2026-09-24-notion-claude-integration-3d17991d6734.png?v=2026-09-24"
+  },
+  {
+    "url": "https://strandsagents.com/blog/introducing-strands-harness/",
+    "category": "AI 协作",
+    "source": "strandsagents.com",
+    "title": "Strands：推出生产级智能体测试约束框架",
+    "note": "提供全端环境模拟与端到端行为监控，帮助团队在投产前完整拦截意料外的越权行为。",
+    "img": "/digest/2026-09-24-strands-harness-sdk-50ae2239f8d7.png?v=2026-09-24"
+  },
+  {
+    "url": "https://newsletter.pragmaticengineer.com/p/design-engineering-with-maggie-appleton",
+    "category": "AI 协作",
+    "source": "newsletter.pragmaticengineer.com",
+    "title": "Pragmatic：专访谈人机交互界面演进",
+    "note": "深度拆解可视化思维工具与个人计算界面的融合，探讨后大模型时代人机界面的演化。",
+    "img": "/digest/2026-09-24-pragmatic-maggie-interview-bab5c192f229.png?v=2026-09-24"
+  },
+  {
+    "url": "https://openai.com/index/introducing-mentalhealthbench",
+    "category": "AI 资讯",
+    "source": "openai.com",
+    "title": "OpenAI：联合发布心理健康开放评测基准",
+    "note": "覆盖从日常情感倾诉到危机干预的全谱系对话，由二十多国八十余位临床专家联合构建。",
+    "img": "/digest/2026-09-24-openai-mentalhealthbench-e64975c9e8b5.png?v=2026-09-24"
+  },
+  {
+    "url": "https://simonwillison.net/2026/Sep/23/gemini-tts-playground/",
+    "category": "AI 资讯",
+    "source": "simonwillison.net",
+    "title": "Simon：开源双声线交互演练工具",
+    "note": "探索低门槛双角色实时对谈生成，让开发人员在本地快速试验多声线剧本与拟真互动。",
+    "img": "/digest/2026-09-24-simonw-gemini-tts-ui-e7d10b1ed55d.png?v=2026-09-24"
+  },
+  {
+    "url": "https://x.com/geekbb/status/2102649904518889780",
+    "category": "一人公司",
+    "source": "x.com",
+    "title": "极客哔哔：实测开源大模型界面镜像极限瘦身",
+    "note": "剥离多余底层依赖实现容器体积锐减，降低个人云服务器配置门槛与冷启动等待。",
+    "img": "/digest/2026-09-24-geekbb-openwebui-docker-8069874c4eb7.png?v=2026-09-24"
+  },
+  {
+    "url": "https://blog.cyyself.name/my-musical-dream/",
+    "category": "一人公司",
+    "source": "blog.cyyself.name",
+    "title": "cyyself：用极简硬件实现童年音乐梦想",
+    "note": "记录独立开发者如何借开源硬件自制电子合成乐器，用极低成本圆满儿时热爱。",
+    "img": "/digest/2026-09-24-cyyself-esp32-musical-dream-dbf6115e644f.png?v=2026-09-24"
+  },
+  {
+    "url": "https://x.com/sketch/status/2102683651334873509",
+    "category": "产品设计",
+    "source": "x.com",
+    "title": "Sketch：支持自动布局负间距层叠排列",
+    "note": "无需手动解除布局限制即可优雅实现头像重叠与卡片堆叠，并可自由指定前后遮挡层级。",
+    "img": "/digest/2026-09-24-sketch-stacks-negative-gap-e0709fde3695.png?v=2026-09-24"
+  },
+  {
+    "url": "https://x.com/vanschneider/status/2102842448695234875",
+    "category": "产品设计",
+    "source": "x.com",
+    "title": "mymind：推出全新原生离线桌面端应用",
+    "note": "搜索栏下沉至单手拇指热区并强化本地持久化，无网状态亦能瞬间记录灵感与视觉切片。",
+    "img": "/digest/2026-09-24-mymind-native-macos-020baa1b683f.png?v=2026-09-24"
+  },
+  {
+    "url": "https://shiftbar.0x01.build",
+    "category": "产品设计",
+    "source": "shiftbar.0x01.build",
+    "title": "ShiftBar：自主掌控股控范围的轻巧菜单栏",
+    "note": "基于原生折叠接口注入拖动调整与一键胶囊，摒弃繁复配置界面保持纯粹桌面静谧。",
+    "img": "/digest/2026-09-24-shiftbar-menu-folding-161d7ea3da1b.png?v=2026-09-24"
+  },
+  {
+    "url": "https://github.com/NevaMind-AI/jev-town",
+    "category": "产品设计",
+    "source": "github.com",
+    "title": "Jev 小镇：低功耗高频决策驱动的像素沙盒",
+    "note": "以决策模型替代大体量推理判定居民行动，百倍提速推演人际交往循环与社会动态。",
+    "img": "/digest/2026-09-24-jev-town-simulation-1c3dfd52e4fa.png?v=2026-09-24"
+  },
+  {
+    "url": "https://unlisted.careers/ghost-jobs/report/2026-09",
+    "category": "产品设计",
+    "source": "unlisted.careers",
+    "title": "Unlisted：近三成企业长期悬挂虚假在招岗位",
+    "note": "深度爬虫追踪揭示近三成职位挂牌超九十天无招聘动作，拆解劳动力市场的信号失真。",
+    "img": "/digest/2026-09-24-unlisted-ghost-jobs-14a961e629ba.png?v=2026-09-24"
+  },
+  {
+    "url": "https://www.dezeen.com/2026/09/23/grid-radiator-elisa-ossino-tubes/",
+    "category": "审美提升",
+    "source": "dezeen.com",
+    "title": "Elisa Ossino：暖气片变身几何墙饰",
+    "note": "以纤细格栅与克制极简线条隐藏传统散热结构，让取暖设备兼备现代装置艺术美感。",
+    "img": "/digest/2026-09-24-grid-radiator-ossino-7b0f833b8286.png?v=2026-09-24"
+  },
+  {
+    "url": "https://www.itsnicethat.com/articles/emi-takahashi-graphic-design-discover-230926",
+    "category": "审美提升",
+    "source": "itsnicethat.com",
+    "title": "Emi Takahashi：琼脂中生长的活体符号",
+    "note": "把黏菌孢子繁殖与植物汁液沉淀引入字体排版，借自然演化之力打破排版既定范式。",
+    "img": "/digest/2026-09-24-emi-takahashi-living-glyphs-0d6aaaac2bf3.png?v=2026-09-24"
+  },
+  {
+    "url": "https://x.com/rjs/status/2102747404395036737",
+    "category": "产品营销",
+    "source": "x.com",
+    "title": "Ryan Singer：产品负责人核心交付是整合",
+    "note": "强调文档原型皆为边界约束而非结果，将各方职责要素完整拼合成可用闭环才是产品灵魂。",
+    "img": "/digest/2026-09-24-rjs-product-integration-e2a128171149.png?v=2026-09-24"
+  },
+  {
+    "url": "https://x.com/jasonfried/status/2102863191504191575",
+    "category": "产品营销",
+    "source": "x.com",
+    "title": "Jason Fried：惯例交付周期多为虚设占位",
+    "note": "通过真实商务谈判案例指出主动催化要求能击碎常规拖延，积极乐观才能撬动更优结果。",
+    "img": "/digest/2026-09-24-jasonfried-delivery-turnaround-7317d8bdcb0e.png?v=2026-09-24"
+  },
+  {
+    "url": "https://github.com/google/ax",
+    "category": "AI 协作",
+    "source": "github.com",
+    "title": "Google：开源智能体编排运行时框架 ax",
+    "note": "将复杂多任务解耦为可观察、易恢复的轻量流，强化长程运行稳定性与异常自动修复。",
+    "img": "/digest/2026-09-24-google-ax-runtime-c9e93f8997ca.png?v=2026-09-24"
+  },
+  {
+    "url": "https://x.com/Alibaba_Qwen/status/2102727405198876753",
+    "category": "AI 协作",
+    "source": "x.com",
+    "title": "通义千问：发布移动端任务规划与操作智能体",
+    "note": "结合系统级接口与界面视觉补齐，在手机跨应用场景下实现高成功率的任务执行。",
+    "img": "/digest/2026-09-24-qwen-mobile-agents-0481e6645aa0.png?v=2026-09-24"
+  },
+  {
+    "url": "https://modal.com/blog/trillion-tokens-trillion-parameters",
+    "category": "AI 资讯",
+    "source": "modal.com",
+    "title": "Modal：万亿级编程智能体推理服务架构",
+    "note": "详述超大规模缓存路由与显存优化技巧，单实例吞吐提升数倍支撑日均高强度交付。",
+    "img": "/digest/2026-09-24-modal-trillion-token-serving-5c2537d781a6.png?v=2026-09-24"
+  },
+  {
+    "url": "https://x.com/calicastle/status/2102656623034667292",
+    "category": "一人公司",
+    "source": "x.com",
+    "title": "Cali Castle：大模型早间自印物理日报",
+    "note": "将日程通知与待办归纳为报刊排版直接出纸，以墨水质感化解清晨迎面而来的屏幕焦虑。",
+    "img": "/digest/2026-09-24-calicastle-printed-newspaper-d7c8486e2cc1.png?v=2026-09-24"
+  },
+  {
+    "url": "https://radicle.dev/2026/09/23/disclosure-of-vulnerability-in-network-protocol",
+    "category": "一人公司",
+    "source": "radicle.dev",
+    "title": "Radicle：披露去中心化网络协议漏洞报告",
+    "note": "详述点对点代码协同网络在恶意节点攻击下的容灾机制，并发布安全加固版本补丁。",
+    "img": "/digest/2026-09-24-radicle-network-protocol-aadfef05ed84.png?v=2026-09-24"
+  },
+  {
+    "url": "https://x.com/emilkowalski/status/2102798004281635184",
+    "category": "产品设计",
+    "source": "x.com",
+    "title": "Linear：重塑弹窗动效手感与缩放基准对齐",
+    "note": "以缓出曲线替换生硬弹性反馈消除视觉眩晕，并修正缩放时窗口红绿灯微弱错位。",
+    "img": "/digest/2026-09-24-linear-dialog-easing-fix-f2be49205e2d.png?v=2026-09-24"
+  },
+  {
+    "url": "https://x.com/Superhuman/status/2102790188493672452",
+    "category": "产品设计",
+    "source": "x.com",
+    "title": "Superhuman：邮件发送前自动校准数据引用",
+    "note": "针对正文中的模糊记忆数据做即时比对核实，在点击发出前阻断事实偏差与沟通失误。",
+    "img": "/digest/2026-09-24-superhuman-go-verify-1a38bf6c4c69.png?v=2026-09-24"
+  },
+  {
+    "url": "https://video-transcript.zishu.me",
+    "category": "产品设计",
+    "source": "video-transcript.zishu.me",
+    "title": "字幕工作室：浏览器端开箱即用的压制利器",
+    "note": "本地加载视频与时间轴分段样式调整，无需任何后端转码与账号登录即可导出成片。",
+    "img": "/digest/2026-09-24-video-transcript-tool-57d331f27b1b.png?v=2026-09-24"
+  },
+  {
+    "url": "https://lyricstosongai.org/zh",
+    "category": "产品设计",
+    "source": "lyricstosongai.org",
+    "title": "Lyrics2Song：聚焦文字韵律的成曲站",
+    "note": "专为个人纪念与特定写词场景设计，以直观试听流辅助创作者验证韵脚的演唱听感。",
+    "img": "/digest/2026-09-24-lyrics-to-song-ai-876350576483.png?v=2026-09-24"
+  },
+  {
+    "url": "https://www.dezeen.com/2026/09/23/bentley-first-electric-car-torcal-robin-page-interview/",
+    "category": "审美提升",
+    "source": "dezeen.com",
+    "title": "宾利：首款纯电概念车转译百年生态美学",
+    "note": "抛弃浮夸的数码大屏堆砌，以流体光影雕塑车身与传统精工天然材质诠释奢华底蕴。",
+    "img": "/digest/2026-09-24-bentley-electric-concept-34ef24632b81.png?v=2026-09-24"
+  },
+  {
+    "url": "https://www.designboom.com/design/lume-traveler-lt360-lightest-aluminum-caravan-pull-out-kitchen-09-23-2026/",
+    "category": "审美提升",
+    "source": "designboom.com",
+    "title": "Lume Traveler：极轻铝制户外露营舱",
+    "note": "全手工铆接金属曲面结合尾部整体外拉厨房，在紧凑方寸间安放顶级野奢生活情调。",
+    "img": "/digest/2026-09-24-lume-traveler-caravan-69cfad7ea36c.png?v=2026-09-24"
+  },
+  {
+    "url": "https://x.com/lennysan/status/2102808801762312693",
+    "category": "产品营销",
+    "source": "x.com",
+    "title": "Lenny：盘点一线团队紧缺的高薪设计岗位",
+    "note": "分析头部企业设计岗新标准，兼备工程素养与评测能力成为顶尖团队急招核心。",
+    "img": "/digest/2026-09-24-lennysan-evals-engineering-b2ac88321cf2.png?v=2026-09-24"
+  },
+  {
+    "url": "https://x.com/michalmalewicz/status/2102733860048146625",
+    "category": "产品营销",
+    "source": "x.com",
+    "title": "Michal：内置真人背书录制促进活动转化留存",
+    "note": "将参会者即兴视频反馈自动转录为字幕呈现在落地页，真实证言让后续活动转化翻倍。",
+    "img": "/digest/2026-09-24-michalmalewicz-mybubble-reviews-670e6357309b.png?v=2026-09-24"
+  },
+  {
+    "url": "https://x.com/OpenAI/status/2102808325742322002",
+    "category": "AI 协作",
+    "source": "x.com",
+    "title": "ChatGPT：语音助手支持插件调用与工作协同",
+    "note": "在网页端与移动端通过自然语音调度日程与通讯工具，动嘴即可实时生成文档幻灯片。",
+    "img": "/digest/2026-09-24-chatgpt-voice-work-6781f3cc6300.png?v=2026-09-24"
+  },
+  {
+    "url": "https://github.com/pbakaus/impeccable",
+    "category": "AI 协作",
+    "source": "github.com",
+    "title": "pbakaus：开源提升智能体设计审美的语言",
+    "note": "通过结构化设计系统约束模型输出，让前端智能体写出排版克制优雅的高保真界面。",
+    "img": "/digest/2026-09-24-pbakaus-impeccable-design-5830058419af.png?v=2026-09-24"
+  },
+  {
+    "url": "https://x.com/tldraw/status/2102789103809134937",
+    "category": "AI 协作",
+    "source": "x.com",
+    "title": "tldraw：无限画布引擎落地日式建筑平面图",
+    "note": "基于自研多边形算法与建筑网格对齐，免去房产团队重复自研图纸编辑器的沉重成本。",
+    "img": "/digest/2026-09-24-tldraw-canary-floor-plans-bc852de1f3e3.png?v=2026-09-24"
+  }
+]
