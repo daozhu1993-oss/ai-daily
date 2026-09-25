@@ -1,0 +1,437 @@
+import fs from "fs";
+import path from "path";
+import yaml from "js-yaml";
+
+const ALL_ITEMS_25 = [
+  // 1. AI 资讯 (4)
+  {
+    category: "AI 资讯",
+    title: "GitHub：推出 Taskflow 智能体，自动化安全模糊测试流程",
+    note: "从漏洞入口点勘测、语料生成到崩溃堆栈分诊形成自主流水线，在开源项目高危漏洞发掘中大幅缩减人工审计周期。",
+    so_what: "安全测试正在成为 Agent 最有确定性回报的落地场景；把不可信代码隔离执行并交给模型穷举边界，工程防护网比以往任何时候都更加致密。",
+    source: "github.blog",
+    url: "https://github.blog/security/application-security/ai-powered-fuzzing-with-the-github-security-lab-taskflow-agent",
+    media: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&auto=format&fit=crop&q=80",
+    pinned: true,
+  },
+  {
+    category: "AI 资讯",
+    title: "OpenRouter：深入透视 Kimi K3 开放权重背后的商用门槛",
+    note: "深入剖析国产旗舰模型权重开放背后的商业附加条款与调用限制，提醒企业在将外部模型引入核心业务前必须穿透法律风险。",
+    so_what: "“开放权重”与“真正开源”有着本质的法律边界；企业架构师在做技术选型时，必须算清未来的商用门槛与收入分成条款，避免后期被动。",
+    source: "openrouter.ai",
+    url: "https://openrouter.ai/blog/insights/kimi-k3-open-source",
+    media: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&auto=format&fit=crop&q=80",
+    pinned: true,
+  },
+  {
+    category: "AI 资讯",
+    title: "vLLM：将无失真文本水印原生接入 GPU 采样流水线",
+    note: "研发团队绕过传统事后改写文本的低效方案，直接在模型 Logits 采样阶段注入无感知统计偏置，在毫秒级开销下实现可溯源防伪。",
+    so_what: "合规与内容溯源正在下沉至底层推理引擎；把安全规则内嵌到采样算子层面，才能在不牺牲吞吐的前提下筑牢合规防线。",
+    source: "vllm.ai",
+    url: "https://vllm.ai/blog/2026-09-24-watermarking-in-vllm",
+    media: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&auto=format&fit=crop&q=80",
+    pinned: false,
+  },
+  {
+    category: "AI 资讯",
+    title: "Engram：利用动态激活转向在推理阶段调节拒答行为",
+    note: "无需重新微调底层权重，而是在推理阶段动态注入控制向量，精准抑制模型的过度安全防御与误拒答，恢复高质量专业解答。",
+    so_what: "模型微调容易造成灾难性遗忘；学会用推理期激活引导技术动态校准模型行为，是打造垂直场景高可用智能体的关键武器。",
+    source: "blog.madhukaraphatak.in",
+    url: "https://blog.madhukaraphatak.in/non-destructive-refusal-supression-using-engram",
+    media: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80",
+    pinned: false,
+  },
+
+  // 2. AI 协作 (4)
+  {
+    category: "AI 协作",
+    title: "Opaline：将个人编程会话转化为团队协作认知资产",
+    note: "聚合团队成员与 AI 智能体之间的分散对话与改动轨迹，把隐性的排错思路与技术决策沉淀为可被检索、可复用的工程知识流。",
+    so_what: "个人用 Agent 写代码是效率提升，团队用 Agent 协同是知识沉淀；打破一人一终端的孤岛状态，团队才不会重复踩入相同的技术暗坑。",
+    source: "opaline.so",
+    url: "https://opaline.so/",
+    media: "https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=800&auto=format&fit=crop&q=80",
+    pinned: true,
+  },
+  {
+    category: "AI 协作",
+    title: "Meta Connect 2026：智能眼镜全面接入外部服务连接器",
+    note: "语音与视觉多模态智能体正式越过硬件边界，直接通过开放连接器唤醒第三方打车、备忘与日历服务，重塑端侧环境感知交互。",
+    so_what: "穿戴设备的杀手级应用不是炫目的显示面板，而是隐形且随时可调用的服务生态；提前布局标准协议接口，才能吃到硬件迁移的第一波红利。",
+    source: "about.fb.com",
+    url: "https://about.fb.com/news/2026/09/the-biggest-news-from-connect-2026/",
+    media: "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?w=800&auto=format&fit=crop&q=80",
+    pinned: true,
+  },
+  {
+    category: "AI 协作",
+    title: "CtrlOps：多 Agent 自动化运维流水线的权限拦截网关",
+    note: "针对智能体自主操作生产服务器带来的潜在风险，构建确定性命令白名单与双人复核沙箱，确保高危指令必须人工确认方可执行。",
+    so_what: "自动化绝不意味着失控；给执行权限戴上坚固的“项圈”，用确定性规则把控不确定性行为，是把 Agent 推进企业生产环境的底线。",
+    source: "ctrlops.io",
+    url: "https://ctrlops.io",
+    media: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&auto=format&fit=crop&q=80",
+    pinned: false,
+  },
+  {
+    category: "AI 协作",
+    title: "Floot MCP：直接在自然语言对话流中极速部署 Web 应用",
+    note: "深度结合 Model Context Protocol 协议规范，用户与智能体聊完界面交互后，一键生成完整前端代码并自动化打包分发至边缘节点。",
+    so_what: "交付路径的每一步缩短都在成倍释放创造力；当对话框直接具备编译与边缘部署能力，从灵感迸发到上线验证只需几分钟。",
+    source: "floot.com",
+    url: "https://floot.com/",
+    media: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=800&auto=format&fit=crop&q=80",
+    pinned: false,
+  },
+
+  // 3. 一人公司 (4)
+  {
+    category: "一人公司",
+    title: "ApiCatcher：单兵开发者的桌面级 HTTPS 调试与接口分析利器",
+    note: "拒绝笨重臃肿的传统抓包软件，以极简界面将请求拦截、数据结构解析与 Mock 联调串联为轻快工作流，极大降低跨端测试心智负担。",
+    so_what: "独立开发的精髓是使用趁手的极简兵刃；把高频的接口排障时间砍半，一人公司才能在快速迭代中保持敏捷与专注。",
+    source: "apicatcher.net",
+    url: "https://apicatcher.net/",
+    media: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&auto=format&fit=crop&q=80",
+    pinned: true,
+  },
+  {
+    category: "一人公司",
+    title: "OpenApp：无需重构核心代码，为单用户应用快速套上多租户体系",
+    note: "提供轻量级外层用户隔离、组织权限管理与计费订阅对接脚手架，让开发者打造的单机 Demo 无缝升级为面向团队客户的商业 SaaS。",
+    so_what: "不要把时间浪费在重复造轮子的用户管理逻辑上；借助通用多租户隔离层快速推向市场，先验证付费意愿才是第一要务。",
+    source: "github.com",
+    url: "https://github.com/seekskyworld/openapp",
+    media: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop&q=80",
+    pinned: true,
+  },
+  {
+    category: "一人公司",
+    title: "PDF to MD：纯浏览器端隐私优先的文档极速转换工具",
+    note: "充分调用浏览器本地 WebAssembly 算力完成复杂版面与表格识别，零服务端数据上传，为用户筑牢敏感商业文档的隐私红线。",
+    so_what: "随着用户隐私意识觉醒，纯端侧无服务器应用正迎来爆发红利；免除服务器带宽与运维开销，是一人公司实现极致毛利率的最佳姿势。",
+    source: "pdf-to-md.app",
+    url: "https://pdf-to-md.app/zh/",
+    media: "https://images.unsplash.com/photo-1542744094-3a31f272c490?w=800&auto=format&fit=crop&q=80",
+    pinned: false,
+  },
+  {
+    category: "一人公司",
+    title: "Castaly：将四十余种主流视频模型整合为统一创作者工作台",
+    note: "聚合国内外主流视频生成能力，抹平不同模型复杂的参数门槛与队列等待体验，支持创作者按场景自适应调度最佳模型组合。",
+    so_what: "模型层面的军备竞赛永远不会停歇，做应用层的胜负手在于体验整合；帮助创作者屏蔽底层割裂，往往能抢占最稳固的流量入口。",
+    source: "castaly.modelflare.dev",
+    url: "https://castaly.modelflare.dev/zh/",
+    media: "https://images.unsplash.com/photo-1579208575657-c595a05383b7?w=800&auto=format&fit=crop&q=80",
+    pinned: false,
+  },
+
+  // 4. 产品设计 (4)
+  {
+    category: "产品设计",
+    title: "F-Droid 2.0：重排开源应用生态的发现与管理体验",
+    note: "彻底重构陈旧的分发界面，引入现代扁平卡片布局、清晰的版本差异标记与流畅手势导航，让极客社区目录焕发主流产品的亲和力。",
+    so_what: "开源与实用并不代表要牺牲审美；用现代设计语言重塑传统实用工具，能让硬核产品迅速跨越鸿沟，赢得更广泛的大众用户。",
+    source: "f-droid.org",
+    url: "https://f-droid.org/2026/09/24/f-droid-2.0-a-new-chapter-for-android-freedom.html",
+    media: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&auto=format&fit=crop&q=80",
+    pinned: true,
+  },
+  {
+    category: "产品设计",
+    title: "Gitstride：专为键盘流打造的 Mac 原生 GitHub 项目看板",
+    note: "抛弃笨重的 Web 端加载延迟，以极致流畅的 macOS 原生控件与全局快捷键调度，让多仓库 Issue 管理如丝般顺滑。",
+    so_what: "针对高频垂直场景打造的原生体验永远有其不可替代的魅力；把响应速度做到毫秒级，重度用户自然会为极佳的手感买单。",
+    source: "gitstride.hyperseek.tech",
+    url: "https://gitstride.hyperseek.tech/zh-cn",
+    media: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&auto=format&fit=crop&q=80",
+    pinned: true,
+  },
+  {
+    category: "产品设计",
+    title: "NotchPop：将 MacBook 顶部刘海转化为高频动作工具栏",
+    note: "巧妙化解屏幕刘海的视觉割裂，悬停即弹出常用音乐控制、系统监控与快捷启动坞，把闲置屏幕死角转变为灵动的交互绿洲。",
+    so_what: "好设计善于化劣势为生机；利用用户已有设备的物理特征做锦上添花的轻量延展，往往比生硬抢占屏幕中央更能博得好感。",
+    source: "notchpop.com",
+    url: "https://notchpop.com/",
+    media: "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800&auto=format&fit=crop&q=80",
+    pinned: false,
+  },
+  {
+    category: "产品设计",
+    title: "minimi 2.0：常驻桌面的上下文衔接猫，为下一代 Agent 补齐背景",
+    note: "以充满人情味的桌面宠物形象常驻后台，轻量捕获分散在文档、对话与会议中的意图脉络，在需要时主动向智能体注入精确上下文。",
+    so_what: "工具拟人化与情感共鸣是消除技术冰冷感的绝佳催化剂；把复杂隐蔽的上下文收集包装成陪伴型桌面伙伴，大大降低了用户的心理防线。",
+    source: "projectminimi.com",
+    url: "https://projectminimi.com/",
+    media: "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=800&auto=format&fit=crop&q=80",
+    pinned: false,
+  },
+
+  // 5. 审美提升 (4)
+  {
+    category: "审美提升",
+    title: "Hans J. Wegner：椅子之王用纯粹结构书写的现代家具哲学",
+    note: "深度回溯北欧工艺巨匠的经典轨迹：从海滩沙雕反复实测人体坐姿仰角，到用数百米耐用旗绳打破木材极限，将功能主义锤炼为永恒诗意。",
+    so_what: "顶尖审美永远根植于对人体工学与物理材质的诚实敬畏；不要用浮夸的形式掩饰结构的虚弱，诚实的结构本身就是最震撼的装饰。",
+    source: "wallpaper.com",
+    url: "https://www.wallpaper.com/design-interiors/how-hans-j-wegner-became-the-king-of-chairs/",
+    media: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&auto=format&fit=crop&q=80",
+    pinned: true,
+  },
+  {
+    category: "审美提升",
+    title: "废旧电缆与锈蚀钢骨：重构网络数据时代的新《思想者》",
+    note: "艺术家以数百英尺缠绕的数据电缆和冷硬工业钢架构筑经典雕塑，让沉思的身影在错综复杂的物理网络节点中显影，尖锐映射数字时代的认知重荷。",
+    so_what: "跨媒介艺术是当代社会情绪的显微镜；通过将看不见的数据传输物理具象化，赋予数字创作者审视技术异化的深刻反思视角。",
+    source: "designboom.com",
+    url: "https://www.designboom.com/art/hundreds-of-feet-of-cable-and-steel-reimagine-rodins-thinker-for-networked-age/",
+    media: "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?w=800&auto=format&fit=crop&q=80",
+    pinned: true,
+  },
+  {
+    category: "审美提升",
+    title: "彼得·卒姆托新作：瑞士贝耶勒基金会自然共生新馆落成",
+    note: "普利兹克奖得主历经十年雕琢的三座夯土混凝土展馆悄然隐入百年公园林荫，以静谧的漫游步道与伦佐·皮亚诺设计的旧馆形成时空对话。",
+    so_what: "建筑与自然最好的关系不是征服而是隐退；在界面设计中学会用克制的留白与环境光影衬托核心内容，同样能带来直抵人心的沉静气场。",
+    source: "dezeen.com",
+    url: "https://www.dezeen.com/2026/09/24/fondation-beyeler-peter-zumthor-switzerland/",
+    media: "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=800&auto=format&fit=crop&q=80",
+    pinned: false,
+  },
+  {
+    category: "审美提升",
+    title: "Mestiza 操刀：Canica 玩乐咖啡厅的跨代际视觉构想",
+    note: "融合严格的构成主义几何字形与生动写意的手绘墨水动物图腾，大胆打破传统儿童空间的幼稚符号，打造大人与小孩皆能怡然自得的复合空间。",
+    so_what: "优秀的视觉策略从不迁就廉价的刻板印象；打破年龄标签的代际共鸣设计，往往能创造出更具包容性与商业价值的公共场域。",
+    source: "itsnicethat.com",
+    url: "https://www.itsnicethat.com/articles/mestiza-studio-canica-graphic-design-project-240926",
+    media: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=800&auto=format&fit=crop&q=80",
+    pinned: false,
+  },
+
+  // 6. 产品营销 (4)
+  {
+    category: "产品营销",
+    title: "迪士尼流媒体再度提价 13%：用价格杠杆倒逼用户拥抱捆绑套餐",
+    note: "在利润翻倍后依然连续上调单项订阅价格，同时加大复合会员的折扣倾斜，巧妙将单点用户转化为高留存、高 LTV 的全家桶忠诚用户。",
+    so_what: "定价策略从来不是单纯的成本算术，而是引导用户行为的心心理棋局；善用价格梯次与捆绑组合，能有效筑牢存量业务的营收韧性。",
+    source: "arstechnica.com",
+    url: "https://arstechnica.com/gadgets/2026/09/disney-and-hulu-raise-prices-by-up-to-13-percent-after-doubling-profits/",
+    media: "https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37?w=800&auto=format&fit=crop&q=80",
+    pinned: true,
+  },
+  {
+    category: "产品营销",
+    title: "独立小游戏百元买量实测：投入百元仅获三元广告回报的血泪复盘",
+    note: "独立开发者真实公开初次买量投放数据，揭示休闲小游戏千次曝光成本远超广告变现分成的残酷现实，引发对草莽出海买量的深刻反思。",
+    so_what: "不要迷信大厂的买量投放神话；在未验证留存与单客模型前盲目投流就是给平台送钱，单兵产品必须从低成本的自传播渠道做起。",
+    source: "v2ex.com",
+    url: "https://www.v2ex.com/t/1244632#reply0",
+    media: "https://images.unsplash.com/photo-1556742049-0a67c5574f73?w=800&auto=format&fit=crop&q=80",
+    pinned: true,
+  },
+  {
+    category: "产品营销",
+    title: "三星智能冰箱固件更新导致变砖：过度智能化引发用户品牌信任反噬",
+    note: "强制推送的系统固件意外破坏制冷底层控制，导致全球多位用户整箱食材变质，暴露出智能家居在缺失本地回滚兜底时的灾难性体验。",
+    so_what: "硬件产品的智能化升级不能逾越基本可用性的红线；给用户保留物理离线兜底，才是维系品牌长久信任不可妥协的底线。",
+    source: "arstechnica.com",
+    url: "https://arstechnica.com/gadgets/2026/09/owners-mourn-spoiled-food-after-firmware-update-bricks-samsung-smart-fridges/",
+    media: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=800&auto=format&fit=crop&q=80",
+    pinned: false,
+  },
+  {
+    category: "产品营销",
+    title: "半年斩获 118 亿美元成交额：TikTok 正在北美全速重塑闭环电商",
+    note: "详尽拆解 TikTok Shop 在海外强力推进内容带货与全托管物流的增长曲线，通过高频短视频达人分发彻底撕开传统货架电商的流量防线。",
+    so_what: "跨境出海的重心已经从供应链价格战转向内容驱动的即时消费；善于借助短视频与直播激发冲动消费，是海外商业变现的关键增长极。",
+    source: "woshipm.com",
+    url: "https://www.woshipm.com/operate/6466753.html",
+    media: "https://images.unsplash.com/photo-1556742031-c6961e8560b0?w=800&auto=format&fit=crop&q=80",
+    pinned: false,
+  },
+
+  // 7. AI 漫剧 (4)
+  {
+    category: "AI 漫剧",
+    title: "Hookest：将短视频与短剧黄金前 3 秒打造成可检索实战脚本库",
+    note: "针对短视频与微短剧留存率最致命的开头流失问题，系统化收录数千种经过百万播放验证的悬念冲突、反常识镜头与情绪反转开头模板。",
+    so_what: "漫剧创作的成败往往在开头三秒就已注定；建立结构化的黄金开头弹药库，能让剧本团队在工业化流水线中大幅提高过审与完播率。",
+    source: "hookest.com",
+    url: "https://hookest.com/",
+    media: "https://images.unsplash.com/photo-1536240478700-b869070f9279?w=800&auto=format&fit=crop&q=80",
+    pinned: true,
+  },
+  {
+    category: "AI 漫剧",
+    title: "抖音、快手、微信三大平台公布微短剧备案细则：无备案不播出",
+    note: "全面落实广电总局关于微短剧分类分层备案的要求，平台端自检与主管机关审核无缝打通，彻底终结违规搬运与劣质短剧的偷跑空间。",
+    so_what: "平台的执行细则就是行业的生死线；熟悉各大平台的技术接口与审核周期，把合规要素前置融入编剧与拍摄流程，是团队长跑的前提。",
+    source: "wzbj1616.com",
+    url: "https://www.wzbj1616.com/script_necessary_info/703",
+    media: "https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800&auto=format&fit=crop&q=80",
+    pinned: true,
+  },
+  {
+    category: "AI 漫剧",
+    title: "长三角首届微短剧剧本大赛启动，设立百万创投基金扶持 AI 影视孵化",
+    note: "联合多地影视基地、创投机构与主流播出平台，面向全国征集高品质原创短剧剧本，特别设立 AI 辅助分镜制作与虚拟制片专项孵化资金。",
+    so_what: "地方产业政策正在真金白银地争夺优质剧本源头；积极接入区域创投生态，能帮助新兴 AI 影视团队在起步期获得充沛的现金流与场地支撑。",
+    source: "wzbj1616.com",
+    url: "https://www.wzbj1616.com/script_necessary_info/712",
+    media: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80",
+    pinned: false,
+  },
+  {
+    category: "AI 漫剧",
+    title: "万众编剧网：网络微短剧分类分层备案全流程操作实务指南",
+    note: "详尽梳理重点微短剧、普通微短剧与其他微短剧的认定标准、提交材料清单与审核时限，为影视制作机构提供保姆级的合规报审指引。",
+    so_what: "工业化生产离不开标准化的合规流转；把备案流程做成标准作业程序（SOP），能避免因材料返工导致的巨额档期延误。",
+    source: "wzbj1616.com",
+    url: "https://www.wzbj1616.com/script_necessary_info/726",
+    media: "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800&auto=format&fit=crop&q=80",
+    pinned: false,
+  },
+
+  // 8. 编剧技巧 (4)
+  {
+    category: "编剧技巧",
+    title: "万众编剧网：悬疑剧如何拓宽创作边界？多重视点与虚实叙事的因果缝合",
+    note: "深入剖析高分悬疑剧的叙事底层：跳出单纯为了反转而反转的低级趣味，利用不可靠叙述者的主观偏差与因果错位构建兼具人性深度的精巧谜局。",
+    so_what: "悬疑的最高境界不是骗过观众，而是让真相揭晓时观众感到心理震颤；扎实的人物动机与不可替代的情感抓手，才是悬疑剧的真正生命力。",
+    source: "wzbj1616.com",
+    url: "https://www.wzbj1616.com/script_necessary_info/705",
+    media: "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=800&auto=format&fit=crop&q=80",
+    pinned: true,
+  },
+  {
+    category: "编剧技巧",
+    title: "万众编剧网：主管部门权威研判：网络影视剧的核心命脉在原创故事与情节点打磨",
+    note: "剖析当前网络视听内容同质化与跟风严重的弊端，明确指出技术特效与流量明星无法掩盖文本贫乏，呼吁创作者重回扎实的情节设计与生活观察。",
+    so_what: "技术生产力的普及正在让视效贬值；当所有人都能用 AI 生成华丽画面时，独创的故事内核与精妙的情节编排反而成了唯一的稀缺品。",
+    source: "wzbj1616.com",
+    url: "https://www.wzbj1616.com/script_necessary_info/728",
+    media: "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?w=800&auto=format&fit=crop&q=80",
+    pinned: true,
+  },
+  {
+    category: "编剧技巧",
+    title: "万众编剧网：委托人未付稿酬前，编剧能否保留剧本著作权？司法判例与避坑规范",
+    note: "结合最高人民法院知识产权法庭多起经典判例，明确“付款作为著作权转让生效条件”的约定效力，为编剧群体提供合法维权的合同条款范式。",
+    so_what: "编剧不仅要懂讲故事，更要懂契约法律；在商业合同中牢牢守住“款项未清、权属不移”的红线条款，是保护心血不被白嫖的法宝。",
+    source: "wzbj1616.com",
+    url: "https://www.wzbj1616.com/script_necessary_info/739",
+    media: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800&auto=format&fit=crop&q=80",
+    pinned: false,
+  },
+  {
+    category: "编剧技巧",
+    title: "万众编剧网：剧本委托创作合同纠纷案深度复盘：验收标准模糊引发的权属僵局",
+    note: "深度剖析由于合同对“剧本质量、修改轮次与定稿标准”定义不清，导致资方无限期要求修改、最终诉诸公堂的行业典型惨痛案例。",
+    so_what: "模糊的验收约定是所有合作灾难的源头；把抽象的艺术评判量化为具体的交付节点与修改次数上限，才能建立健康可持续的创作者生态。",
+    source: "wzbj1616.com",
+    url: "https://www.wzbj1616.com/script_necessary_info/743",
+    media: "https://images.unsplash.com/photo-1450133064473-71024230f91b?w=800&auto=format&fit=crop&q=80",
+    pinned: false,
+  },
+
+  // 9. 产品经理 (4)
+  {
+    category: "产品经理",
+    title: "Pragmatic Engineer：37signals 实操复盘，手写代码时代的终结与软件工程重构",
+    note: "行业殿堂级团队一线披露：智能体已经接管日常大多数重复性业务逻辑代码，工程师的角色正在全面转向系统架构把控、安全审查与业务价值探索。",
+    so_what: "手写代码正在从核心技能演变为底层修养；对于产品经理而言，懂得如何用系统性框架向智能体精确描述业务逻辑，正成为最核心的领导力。",
+    source: "newsletter.pragmaticengineer.com",
+    url: "https://newsletter.pragmaticengineer.com/p/the-pulse-end-of-coding-by-hand",
+    media: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&auto=format&fit=crop&q=80",
+    pinned: true,
+  },
+  {
+    category: "产品经理",
+    title: "人人都是产品经理：优秀的 AI 应用 PM 长啥样？5 种核心能力和一件被严重低估的事",
+    note: "深度拆解大模型时代产品经理的能力模型迁移：从沉迷提示词黑魔法转向精准场景切入、确定性评估链路搭建，以及最被忽视的“脏活”——数据清洗标注。",
+    so_what: "谁都能调通 API 的时代，比拼的是对垂直业务泥潭的理解；甘于下沉到业务最脏最累的数据流里去构建壁垒，才是顶级产品经理的护城河。",
+    source: "woshipm.com",
+    url: "https://www.woshipm.com/pmd/6385884.html",
+    media: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&auto=format&fit=crop&q=80",
+    pinned: true,
+  },
+  {
+    category: "产品经理",
+    title: "人人都是产品经理：Agentic AI 时代，产品经理的能力模型需要如何全面重构？",
+    note: "当交互从“确定性点击跳转”变成“自主意图推演”，产品经理必须从静态功能规划者转变为多智能体系统的规则制定者与动态博弈协调者。",
+    so_what: "别再画那些死板的线框图与页面流了；学会设计 Agent 的目标函数、工具调用边界与异常兜底机制，是每个产品人必须掌握的新基本功。",
+    source: "woshipm.com",
+    url: "https://www.woshipm.com/pmd/6381677.html",
+    media: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&auto=format&fit=crop&q=80",
+    pinned: false,
+  },
+  {
+    category: "产品经理",
+    title: "人人都是产品经理：a16z 斥资 4200 万美元培养下一代硅谷创业者，全面转向全栈业务闭环",
+    note: "硅谷顶流风投最新战略下注：不再青睐只会写代码或只会画原型的单点角色，全力押注能够利用 AI 工具全流程端到端交付真实商业现金流的全栈创业者。",
+    so_what: "分工被重新缝合，单兵时代彻底到来；产品经理不能只当传话筒，必须直接面对营收、成本与用户留存，做真正为商业结果负责的操盘手。",
+    source: "woshipm.com",
+    url: "https://www.woshipm.com/it/6469261.html",
+    media: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=800&auto=format&fit=crop&q=80",
+    pinned: false,
+  },
+];
+
+const frontmatter = {
+  date: "2026-09-25",
+  title: "9 月 25 日 · 穿透虚荣与意图收敛：当手写代码落幕，真金白银重构商业常识",
+  highlights: "全网 9 大领域 36 篇高密度精选：37signals 宣布手写代码时代终结、抖音快手微信公布短剧无备案不播出细则、GitHub 发布 Taskflow 自动化模糊测试、a16z 斥资 4200 万重注全栈业务操盘手、vLLM 原生 GPU 采样水印。",
+  draft: false,
+  epigraph: "当手写代码成为过去式，能写出多少行代码就不再是值得骄傲的资本；穿透概念泡沫、算清真实账目，并把不确定的机器思考关进确定性的安全笼子里，才是当下唯一的硬道理。",
+  lead: "今天的技术世界正在以极快的速度把“虚假繁荣”撕碎并踩入泥潭：在软件研发一线，37signals 与 Pragmatic Engineer 的一线复盘正式宣判了“纯靠手写常规代码”时代的终结，日常大多数业务逻辑已全面转交智能体接管，逼得产品人与工程师必须全面转向系统架构治理、确权白名单与真实商业交付；而在文娱短剧赛道，抖音、快手、微信三巨头同步下发分类分层备案死命令，“无备案不播出”的铁律将所有投机偷跑的劣质草莽玩家彻底清场，长三角百万创投大赛则加速引导行业走向规范工业化。从独立开发者花百元买量仅换来三元营收的血泪醒悟，到三星智能冰箱因过度智能化强推固件导致变砖的用户信任危机，所有教训都在指向同一个常识：不要把精力耗费在没有自生能力的虚假繁荣上，守住产品底线，把确定性的商业闭环握在自己手中。",
+  scene: "「你们团队还在招专职写 CRUD 业务代码的前端吗？」「早不招了。现在我们一人驾驭三个 Agent 跑测试、调接口，我们现在最想要的是能把业务因果链条算得滴水不漏、能直接把产品推到市场上拿回正向现金流的全栈操盘手。」",
+  cover: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1600&auto=format&fit=crop&q=80",
+  items: ALL_ITEMS_25,
+};
+
+const closingNote = `
+## 今日主理人寄语
+
+当 37signals 这样的顶尖工程团队毫不避讳地承认“大部分代码已不再需要人手敲写”，当微短剧三大平台用“无备案不播出”将草莽投机彻底封死在门外；当独立开发者用真金白银买量换来“投一百赚三块”的清醒耳光——**商业世界的运转法则从来没有变过，它只是借着 AI 的放大镜，把所有自欺欺人的遮羞布撕得更加干净利落。**
+
+在这个时代做产品、搞技术，最危险的动作就是“在错误的战场上死磕虚假的勤奋”。
+
+**代码多不等于壁垒高，功能多不等于用户爱，买量猛更不等于业务成立。**
+
+学会把不确定的智能体约束在确定性的测试框架与权限门禁中，把有限的心智投入到真正产生商业黏性的核心价值闭环里。
+
+愿今天的 36 篇精选资讯，能为你提供清醒的参照系，在喧嚣中稳步前行。
+`;
+
+function run() {
+  const yamlContent = yaml.dump(frontmatter, { lineWidth: -1, noRefs: true });
+  const fullContent = `---\n${yamlContent}---\n${closingNote}\n`;
+  
+  const targetPath = path.resolve("src/content/daily/2026-09-25.md");
+  fs.writeFileSync(targetPath, fullContent, "utf8");
+  console.log("Successfully written:", targetPath);
+
+  // Update all-used-urls.json
+  const usedUrlsPath = path.resolve("scripts/all-used-urls.json");
+  const usedUrls = JSON.parse(fs.readFileSync(usedUrlsPath, "utf8"));
+  const usedSet = new Set(usedUrls);
+
+  let added = 0;
+  for (const item of ALL_ITEMS_25) {
+    if (!usedSet.has(item.url)) {
+      usedUrls.push(item.url);
+      usedSet.add(item.url);
+      added++;
+    }
+  }
+
+  fs.writeFileSync(usedUrlsPath, JSON.stringify(usedUrls, null, 2), "utf8");
+  console.log(`Updated all-used-urls.json: added ${added} new URLs, total count: ${usedUrls.length}`);
+}
+
+run();
