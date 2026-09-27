@@ -1,0 +1,437 @@
+import fs from "fs";
+import path from "path";
+import yaml from "js-yaml";
+
+const ALL_ITEMS_26 = [
+  // 1. AI 资讯 (4)
+  {
+    category: "AI 资讯",
+    title: "Cognition：宣布编程智能体 Devin 年化收入运行率跨过 10 亿美元大关",
+    note: "官方确认旗下自主软件工程师智能体在企业端实现规模化变现，标志着高阶代码推演与自动化交付正式跨越概念验证阶段，成为不可逆的工业级生产力基础设施。",
+    so_what: "智能体的商业兑现速度远超传统 SaaS；对于技术团队而言，不要再纠结模型是否完美，尽早建立将 Agent 嵌入核心业务流程的自动化脚手架才是核心资产。",
+    source: "cognition.com",
+    url: "https://cognition.com/blog/1b-run-rate",
+    media: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop&q=80",
+    pinned: true,
+  },
+  {
+    category: "AI 资讯",
+    title: "Wand：用自由无限画布承接“想到就做”的软件智能生成",
+    note: "打破传统线框图与原型工具的死板束缚，允许创作者在连续无界的视觉画布上通过自然语言手绘与意图批注，实时将交互构思编译为可交互的真实 Web 应用。",
+    so_what: "软件开发的交互表面正在全面白板化；把繁琐的语法配置隐藏在直观的手势与画布之后，能极大降低从脑海灵感跨越到功能原型的认知阻力。",
+    source: "wand.dance",
+    url: "https://www.wand.dance/",
+    media: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=800&auto=format&fit=crop&q=80",
+    pinned: true,
+  },
+  {
+    category: "AI 资讯",
+    title: "Ollaya：把开放决策模型做成极简本地一键唤醒入口",
+    note: "借鉴 Ollama 的极简命令行与本地运行时理念，专为轻量级推理与结构化决策模型打造开箱即用的本地容器，极大简化端侧小模型的私有化编排体验。",
+    so_what: "端侧小模型是保护商业隐私与削减 API 成本的利器；学会用标准工具链在本地高效部署专有决策模型，是一人公司构建低成本壁垒的基本功。",
+    source: "ollaya.dev",
+    url: "https://ollaya.dev/",
+    media: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&auto=format&fit=crop&q=80",
+    pinned: false,
+  },
+  {
+    category: "AI 资讯",
+    title: "Jango：用成群的自主 AI 模拟用户真实并发测试多人协作应用",
+    note: "通过在测试沙箱中实例化数十个具备真实角色设定与交互偏好的模拟用户，自动化高频推演多人在线文档与协作工具的协同冲突与状态同步极限用例。",
+    so_what: "多人协作系统的边缘崩溃往往在真实公测后才暴露；用智能体群组提前把网络抖动与并发冲突压测到底，是交付稳定企业软件的得力抓手。",
+    source: "usejango.com",
+    url: "https://usejango.com/",
+    media: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&auto=format&fit=crop&q=80",
+    pinned: false,
+  },
+
+  // 2. AI 协作 (4)
+  {
+    category: "AI 协作",
+    title: "Anthropic：Claude 正式开放官方插件提交、审核与生态分发通道",
+    note: "官方插件市场标准正式落地，提供统一的沙箱权限声明、调用审计与开发者收益归因机制，推动第三方服务无缝接入 Claude 桌面端与企业级工作台。",
+    so_what: "模型巨头正在全面从“单体聊天框”进化为“操作系统级应用平台”；尽早将自己的垂直数据或工具封装为标准插件，是搭乘生态便车的黄金窗口。",
+    source: "claude.com",
+    url: "https://claude.com/blog/build-plugins-for-claude",
+    media: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+    pinned: true,
+  },
+  {
+    category: "AI 协作",
+    title: "Basedash MCP：允许智能体在安全授权下直接读写业务数据库",
+    note: "实现 Model Context Protocol 标准协议，在生产数据库与 Agent 之间架设零信任权限防火墙，支持自然语言查询转换、变更阻断与可回滚事务控制。",
+    so_what: "不要让 Agent 成为漂浮在业务外侧的打字机；通过受控的 MCP 网关把智能体安全连进底层数据库，才能真正释放自动化运维与数据洞察的威力。",
+    source: "basedash.com",
+    url: "https://www.basedash.com/",
+    media: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&auto=format&fit=crop&q=80",
+    pinned: true,
+  },
+  {
+    category: "AI 协作",
+    title: "Que：让多个并行 Agent 排队等待人类决策的异步调度流",
+    note: "开源异步智能体状态机管理器，在多 Agent 并发长程推演中引入确定性“人机决策检查站”，当遇到重大分支时有序阻塞并汇合上下文等待人工确认。",
+    so_what: "长链条自主协作最忌讳不可逆的级联错误；用排队等待机制为系统留出人类从容干预的窗口，是化解多 Agent 协同失控的优雅解法。",
+    source: "github.com",
+    url: "https://github.com/ZIXT233/Que",
+    media: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&auto=format&fit=crop&q=80",
+    pinned: false,
+  },
+  {
+    category: "AI 协作",
+    title: "GitHub Copilot Canvases：把定制 Agent 工作流编排在可视化白板画布上",
+    note: "将繁杂的多步骤提示词编排与工具链接口映射为拖拽式节点白板，让工程新手与资深架构师皆能在直观图谱中调试智能体自动化流水线。",
+    so_what: "降低提示词工程门槛的终局不是手写长文，而是可视化架构解耦；把黑盒 Prompt 变为白盒节点流，大幅提升团队知识共享与协同效率。",
+    source: "github.blog",
+    url: "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases",
+    media: "https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=800&auto=format&fit=crop&q=80",
+    pinned: false,
+  },
+
+  // 3. 一人公司 (4)
+  {
+    category: "一人公司",
+    title: "Too AI; Didn’t Read：单兵打造的文本机器算法感识别与清洗器",
+    note: "独立开发者针对互联网泛滥的 AI 生成劣质水文痛点打造，利用轻量级困惑度与典型句式特征模型，秒级提炼核心要点并剔除虚浮公关八股。",
+    so_what: "信息过载时代，注意力清洗本身就是一种高溢价服务；专注解决受众辨别信源真伪的特定痛点，小工具也能积累起极高黏性的忠实用户群。",
+    source: "tai-dr.com",
+    url: "https://www.tai-dr.com/",
+    media: "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=800&auto=format&fit=crop&q=80",
+    pinned: true,
+  },
+  {
+    category: "一人公司",
+    title: "Stimly：把每日咖啡摄入量精准绘制成睡前神经代谢曲线",
+    note: "极简精致的健康管理轻应用，结合人体药理代谢动力学曲线，直观计算每杯咖啡在体内的半衰衰减过程，帮助脑力工作者科学安排专注与睡眠时段。",
+    so_what: "好产品不需要贪大求全，只把一件日常生活中的微妙感知做到极致；用严谨科学的数学模型包裹克制优雅的视觉设计，单兵也能打造爆款。",
+    source: "stimly.app",
+    url: "https://stimly.app/",
+    media: "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?w=800&auto=format&fit=crop&q=80",
+    pinned: true,
+  },
+  {
+    category: "一人公司",
+    title: "OmniDock：把十余类 Mac 桌面零碎工具收纳进极简单一唤醒坞",
+    note: "告别菜单栏图标无限蔓延与快捷键冲突噩梦，用丝滑的原生手势将取色器、正则调试、剪贴板历史与哈希计算整合为单一优雅的快捷悬浮窗。",
+    so_what: "桌面常驻工具的终局是减法而非加法；把碎片化的高频功能打包成一致手感的轻量原生套件，极大提升了一人团队的日常工作心流。",
+    source: "omnidock.app",
+    url: "https://omnidock.app/zh/",
+    media: "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800&auto=format&fit=crop&q=80",
+    pinned: false,
+  },
+  {
+    category: "一人公司",
+    title: "Hindsight：开源让 Agent 长期记忆随着使用自适应学习与遗忘",
+    note: "轻量嵌入式向量与图混合记忆框架，模拟人类海马体的经验巩固机制，自动为智能体建立上下文重要性衰减曲线，杜绝长期对话中的无关记忆爆炸。",
+    so_what: "不是所有历史信息都值得永远存放在 Prompt 里；建立科学的遗忘与提纯机制，不仅能让 Agent 更加专注精准，更能大幅削减长文本调用成本。",
+    source: "github.com",
+    url: "https://github.com/vectorize-io/hindsight",
+    media: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80",
+    pinned: false,
+  },
+
+  // 4. 产品设计 (4)
+  {
+    category: "产品设计",
+    title: "微软 Excel 迎来革命性更新：支持单个单元格直接容纳复杂列表与动态数组",
+    note: "打破传统表格数十年以来“单单元格仅限单一标量值”的底层铁律，允许在任意单元格内嵌入结构化记录集合与嵌套动态公式，全面颠覆复杂报表建模。",
+    so_what: "数据结构的微小升级往往能激发出巨大的交互生产力跃迁；对于产品人而言，敢于重构系统最基础的数据原子，能为整个软件生态注入十年生命力。",
+    source: "techcommunity.microsoft.com",
+    url: "https://techcommunity.microsoft.com/blog/microsoft365insiderblog/put-multiple-values-in-one-cell-with-lists-and-arrays-in-excel/4559395",
+    media: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&auto=format&fit=crop&q=80",
+    pinned: true,
+  },
+  {
+    category: "产品设计",
+    title: "Typst：新一代代码化排版引擎补齐专业出版与数学排印链路",
+    note: "旨在彻底取代 LaTeX 臃肿陈旧历史包袱的现代排版系统迎来重要里程碑：秒级即时热重载编译、简洁直观的模块化语法与极高的数学公式排版保真度。",
+    so_what: "排版技术的现代化是知识资产代码化的前提；让专业出版能够像编写前端代码一样敏捷协作并纳入版本控制，是重塑技术写作工作流的基石。",
+    source: "lwn.net",
+    url: "https://lwn.net/Articles/1092993/",
+    media: "https://images.unsplash.com/photo-1542744094-3a31f272c490?w=800&auto=format&fit=crop&q=80",
+    pinned: true,
+  },
+  {
+    category: "产品设计",
+    title: "Once UI 2.0：专为人类与编码智能体协同设计的新一代全栈组件库",
+    note: "在传统的原子设计规范之上，全面注入对 AI 代码生成极度友好的语义化白名单与样式自洽契约，确保 Agent 在生成多端界面时绝不破坏品牌整体感。",
+    so_what: "未来的设计系统不仅是为人准备的，更是为 Agent 准备的协议；让组件自带确定性的参数边界与样式守则，才能实现人机共创界面的高水准交付。",
+    source: "once-ui.com",
+    url: "https://once-ui.com/",
+    media: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&auto=format&fit=crop&q=80",
+    pinned: false,
+  },
+  {
+    category: "产品设计",
+    title: "宾利首款纯电概念车声学设计：用定制合成声学回答“它该发出什么声音”",
+    note: "豪华超跑在告别内燃机咆哮后的前沿听觉探索：摒弃虚假机械轰鸣模拟，采集自然谐振频率与纯净电子音色合成全感官声浪，重塑纯电时代的奢华手感。",
+    so_what: "当旧技术符号消失时，优秀的体验设计不是拙劣模仿旧物，而是重新定义全新体验标准；敢于用新时代的声学与材质重塑认知，才能引领未来潮流。",
+    source: "designboom.com",
+    url: "https://www.designboom.com/technology/bentley-torcal-first-electric-car-vehicle/",
+    media: "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&auto=format&fit=crop&q=80",
+    pinned: false,
+  },
+
+  // 5. 审美提升 (4)
+  {
+    category: "审美提升",
+    title: "Lindberg：Fabrizio Corneli 用极致光影把眼镜几何投影进《视觉之谜》装置",
+    note: "光学与几何阴影的极致交融：艺术家利用精准计算的特殊透镜与单一点光源，在冷白展墙上投射出层层叠叠的超现实肖像，把工业眼镜升华为光影艺术品。",
+    so_what: "真正的奢华是对隐形物理法则的精妙驾驭；学会通过负空间与光影反差烘托核心物件，能让寻常产品散发出直击心灵的神秘美感。",
+    source: "dezeen.com",
+    url: "https://www.dezeen.com/2026/09/25/fabrizio-corneli-installation-glasses-brand-lindberg/",
+    media: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=800&auto=format&fit=crop&q=80",
+    pinned: true,
+  },
+  {
+    category: "审美提升",
+    title: "Lasvit：把纳帕溪谷真实植物花朵真空封入透光玻璃吊灯群",
+    note: "捷克手工玻璃名厂在加州艺术庄园的诗意实验：将天然采摘的花草枝叶置于液态水晶玻璃中瞬态封存，借助漫反射光线把自然的脆弱与永恒定格在室内穹顶。",
+    so_what: "现代数字美学极度渴望有机天然材质的救赎；把自然界未经驯服的生长纹理引入设计之中，能有效化解冷硬工业产品带来的视觉疲劳。",
+    source: "dezeen.com",
+    url: "https://www.dezeen.com/2026/09/25/herbarium-chandelier-lighting-installation-lasvit-napa-valley-video/",
+    media: "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=800&auto=format&fit=crop&q=80",
+    pinned: true,
+  },
+  {
+    category: "审美提升",
+    title: "雅典水上装置：浮动瓷碗在水波涟漪中撞击，汇成无指挥随机交响乐",
+    note: "奥纳西斯文化中心户外水景艺术：数十只质地温润的青白瓷碗在微风与循环水流中自主漂浮碰撞，清脆空灵的自然音阶打破了所有刻意谱曲的沉闷。",
+    so_what: "最好的系统往往自带自生秩序；在产品与空间设计中为用户留出即兴碰撞的自由度，往往能收获意想不到的情感共鸣与体验惊喜。",
+    source: "designboom.com",
+    url: "https://www.designboom.com/art/celeste-boursier-mougenot-floating-ceramic-orchestra-outdoors-athens-clinamen-onassis-mandra/",
+    media: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=800&auto=format&fit=crop&q=80",
+    pinned: false,
+  },
+  {
+    category: "审美提升",
+    title: "&Cookies：Fishfinger 用“每一块都不重样”的手绘字形打造反工业烘焙品牌",
+    note: "反叛流水线标准化的英式品牌重塑：用带着手工烘焙不规则焦痕感的多变手绘排版与大胆跳跃的原色碰撞，赋予街头曲奇鲜活反叛的年轻潮流态度。",
+    so_what: "当所有人都在追求像素级的整齐划一，有温度的不完美反而成为了最耀眼的稀缺品；敢于展示手工的毛刺与真诚，才是建立品牌个性的捷径。",
+    source: "underconsideration.com",
+    url: "https://www.underconsideration.com/brandnew/archives/new_logo_and_identity_for_cookies_by_fishfinger.php",
+    media: "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=800&auto=format&fit=crop&q=80",
+    pinned: false,
+  },
+
+  // 6. 产品营销 (4)
+  {
+    category: "产品营销",
+    title: "10xJoy：反向招聘平台，先收集求职者理想结果再精准反向匹配雇主",
+    note: "彻底颠覆传统投递海量简历的被动模式，让求职者公开定义对工作方式、文化底线与薪资结构的确定性预期，由意向企业携带诚意方案反向申请沟通。",
+    so_what: "供求双方的权力博弈正在因信息透明而逆转；做平台营销要善于抓住核心优势供给方的心理痛点，以反向筛选机制迅速打破市场僵局。",
+    source: "10xjoy.com",
+    url: "https://10xjoy.com/",
+    media: "https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37?w=800&auto=format&fit=crop&q=80",
+    pinned: true,
+  },
+  {
+    category: "产品营销",
+    title: "Wendy’s：让招牌冰饮 Frosty 的傲娇情绪表情包接管全网营销传播",
+    note: "老牌快餐巨头的社交裂变新打法：不再生硬强调原料与优惠券，而是将产品拟人化为一个脾气傲娇、金句频出的表情包主角，引发全网年轻人二创狂欢。",
+    so_what: "在注意力极其碎片化的今天，情绪载体远比产品参数更容易病毒传播；把产品转译为用户乐于用来表达自我态度的社交货币，传播效果胜过千万硬广。",
+    source: "underconsideration.com",
+    url: "https://www.underconsideration.com/brandnew/archives/a_frosty_disposition.php",
+    media: "https://images.unsplash.com/photo-1556742049-0a67c5574f73?w=800&auto=format&fit=crop&q=80",
+    pinned: true,
+  },
+  {
+    category: "产品营销",
+    title: "Forkest：将枯燥的 GitHub 代码贡献热力图转译为可自豪分享的像素花园",
+    note: "极简轻巧的社交裂变产品，读取开发者年度代码提交记录与开源仓库权重，自动化生成带有生长动画与专属徽章的像素植物，在技术圈掀起自发炫耀狂潮。",
+    so_what: "增长的本质是洞察用户的虚荣心与自我认同；为用户的沉淀资产赋予极富美感的社交勋章，就能以零获客成本撬动整个社群的自裂变传播。",
+    source: "forkest.dev",
+    url: "https://www.forkest.dev/",
+    media: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop&q=80",
+    pinned: false,
+  },
+  {
+    category: "产品营销",
+    title: "人人都是产品经理：快递集体涨价“反内卷”，9.9 元包邮低价倾销模式还能撑多久？",
+    note: "深度透视电商履约底层的成本重构：头部物流网络受制于网点生存危机全面上调首重运费，倒逼依赖低价倾销的商家必须从粗放铺货转向精细化高毛利选品。",
+    so_what: "所有依赖不可持续的补贴和低廉基础设施红利的商业模式都将迎来清算；尽早建立具有真实品牌溢价与复购黏性的产品矩阵，才是抗周期的真本事。",
+    source: "woshipm.com",
+    url: "https://www.woshipm.com/it/6469420.html",
+    media: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=800&auto=format&fit=crop&q=80",
+    pinned: false,
+  },
+
+  // 7. AI 漫剧 (4)
+  {
+    category: "AI 漫剧",
+    title: "SocialGPT：把复杂视频编辑重构为“和时间线直接对话”的自然语言剪辑台",
+    note: "彻底颠覆传统剪辑软件密密麻麻的音视频轨道与关键帧操作，创作者只需对时间线说出意图指令，Agent 即可自动对齐转场、修剪呼吸气口并匹配动效节奏。",
+    so_what: "影视后期的技术门槛正在被对话式交互平民化；让编剧与导演能直接用自然语言操盘整条成片剪辑线，将极大加速短剧团队的工业化生产周转。",
+    source: "app.gpt.social",
+    url: "https://app.gpt.social/signup",
+    media: "https://images.unsplash.com/photo-1536240478700-b869070f9279?w=800&auto=format&fit=crop&q=80",
+    pinned: true,
+  },
+  {
+    category: "AI 漫剧",
+    title: "万众编剧网：周星驰联合易小星罕见入局短剧赛道，电影级班底重塑微短剧工业门槛",
+    note: "华语无厘头喜剧大师与头部新媒体导演联合下场打造精品微短剧《金猪玉叶》，以电影级拍摄规格、严密分镜与顶级美术彻底打破草莽短剧低劣粗糙的刻板印象。",
+    so_what: "专业影视正规军的下场正在加速淘汰低质作坊；短剧从业者必须迅速跟进分镜叙事与视听语言的工业化升级，靠扎实的故事文本与审美品位赢得长线留存。",
+    source: "wzbj1616.com",
+    url: "https://www.wzbj1616.com/script_necessary_info/709",
+    media: "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800&auto=format&fit=crop&q=80",
+    pinned: true,
+  },
+  {
+    category: "AI 漫剧",
+    title: "万众编剧网：芒果短剧“星火计划”启动，三大维度专项扶持青年编剧孵化",
+    note: "主流长视频大厂全面发力短剧自制生态，通过设立专属创投资金池、开放顶级 IP 授权及配备资深总监一对一剧本打磨，为新锐剧作团队打通商业化上升通道。",
+    so_what: "短剧创作者要善于抱紧头部平台的产业扶持大腿；借助平台的 IP 资源与宣发护航，能有效规避独立试错期的巨额买量与资金断裂风险。",
+    source: "wzbj1616.com",
+    url: "https://www.wzbj1616.com/script_necessary_info/745",
+    media: "https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800&auto=format&fit=crop&q=80",
+    pinned: false,
+  },
+  {
+    category: "AI 漫剧",
+    title: "万众编剧网：“跟着微短剧去旅行”主题创作计划启动，文旅与微短剧深度绑定获政策红利",
+    note: "多地文旅主管部门联合广电推出精品微短剧专项征集，将地方风土人情与非遗历史化作剧本核心冲突场景，为优秀取景作品提供场地免租与专项宣发奖补。",
+    so_what: "短剧创作要懂得向文旅和实体产业借力；把剧本故事与具体文旅场景深度共融，不仅能大幅降低场地道具重资产支出，更能开拓出传统分账之外的政企赞助商路。",
+    source: "wzbj1616.com",
+    url: "https://www.wzbj1616.com/script_necessary_info/701",
+    media: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80",
+    pinned: false,
+  },
+
+  // 8. 编剧技巧 (4)
+  {
+    category: "编剧技巧",
+    title: "万众编剧网：影视剧立项报审全流程实务：从故事梗概到成片送审的关键合规节点",
+    note: "资深制片人详尽拆解备案全流程：从立项阶段千字梗概的立意把关、重大题材审查要点，到成片技术规范与修改意见答复，梳理出一份高过审率实操指南。",
+    so_what: "合规不是创作的枷锁，而是工程化交付的标尺；熟悉主管机关的审阅逻辑与政策红线，能让剧本团队在前期设计时就排除致命雷区，保障项目平稳推进。",
+    source: "wzbj1616.com",
+    url: "https://www.wzbj1616.com/script_necessary_info/725",
+    media: "https://images.unsplash.com/photo-1450133064473-71024230f91b?w=800&auto=format&fit=crop&q=80",
+    pinned: true,
+  },
+  {
+    category: "编剧技巧",
+    title: "万众编剧网：网络影视剧备案常见 50 问答疑指南：避免形式审查退件的避坑大全",
+    note: "针对片名重复、主创资质不全、版权授权链条断裂等数十种高频退审诱因给出详尽合规解决方案，帮助影视团队一次性备齐申报材料。",
+    so_what: "工业化体系最核心的素养是细节的严谨；把报审当作严肃的系统工程对待，理清每一个签署与授权凭证，才能免遭漫长的审批退单损耗。",
+    source: "wzbj1616.com",
+    url: "https://www.wzbj1616.com/script_necessary_info/729",
+    media: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800&auto=format&fit=crop&q=80",
+    pinned: true,
+  },
+  {
+    category: "编剧技巧",
+    title: "万众编剧网：华语戏剧盛典深度研讨：剧场戏剧与影视叙事在人物动机构建上的共性与分野",
+    note: "顶级戏剧导演与电影编剧思想碰撞：舞台剧依靠演员肉身直面观众的台词张力与动作滞留，如何迁移并滋养现代镜头语言中更克制、更深邃的心理潜台词挖掘。",
+    so_what: "镜头语言无论如何演变，打动人心的终究是角色真实的内心冲突；吸纳传统舞台剧对人性深渊的凝视，能让商业短剧摆脱纸片人扁平化的弊病。",
+    source: "wzbj1616.com",
+    url: "https://www.wzbj1616.com/script_necessary_info/714",
+    media: "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?w=800&auto=format&fit=crop&q=80",
+    pinned: false,
+  },
+  {
+    category: "编剧技巧",
+    title: "万众编剧网：重大历史题材电视剧《魏武挥鞭》立项透视：历史正剧的人物弧光与史实剪裁",
+    note: "深度拆解历史巨制剧本立项背后的创作法则：如何在尊重《三国志》与基本史实骨架的前提下，通过对曹操多重复杂性格的戏剧化剪裁，提炼出具有现代共鸣的英雄悲剧。",
+    so_what: "历史剧创作不是照搬史料流水账，而是在既定历史结局下重构人物抉择的必然性；掌握史实与虚构之间的黄金平衡点，作品才能兼具厚重感与戏剧张力。",
+    source: "wzbj1616.com",
+    url: "https://www.wzbj1616.com/script_necessary_info/742",
+    media: "https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800&auto=format&fit=crop&q=80",
+    pinned: false,
+  },
+
+  // 9. 产品经理 (4)
+  {
+    category: "产品经理",
+    title: "人人都是产品经理：2026 最新版产品经理能力全景指南：从业务逻辑拆解到商业转化闭环",
+    note: "深度重构 AI 时代的产品经理能力模型：摒弃只会画静态线框图的单点技能，建立贯穿场景价值识别、确定性系统工程架构与端到端利润核算的复合全栈素养。",
+    so_what: "行业大洗牌正在无情淘汰单纯的传话筒型产品经理；唯有将系统思维与敏锐的商业嗅觉合二为一，直接为真实业务增长负责，才能维持不可替代的核心竞争力。",
+    source: "woshipm.com",
+    url: "https://www.woshipm.com/pmd/6465006.html",
+    media: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&auto=format&fit=crop&q=80",
+    pinned: true,
+  },
+  {
+    category: "产品经理",
+    title: "人人都是产品经理：AI 重塑研发链路后，产品经理的核心价值到底是什么？一线深度复盘",
+    note: "当大模型让代码编写与原型搭建的边际成本趋近于零，产品经理的稀缺性全面转移到问题本质的定义精度、极端边界工况的取舍判断与人机协同界面的心理契约。",
+    so_what: "生产力工具越强大，方向的选择就越致命；在执行被高度自动化的未来，想清楚“为什么要做”以及“坚决不做什么”，就是产品负责人最昂贵的决断力。",
+    source: "woshipm.com",
+    url: "https://www.woshipm.com/pmd/6385922.html",
+    media: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&auto=format&fit=crop&q=80",
+    pinned: true,
+  },
+  {
+    category: "产品经理",
+    title: "人人都是产品经理：“跨店下单”引出的系统级战略思维：产品经理从功能向商业生态的进化",
+    note: "以电商平台复杂多商家购物车结算演进为例，深度拆解底层多账户资金拆分、库存瞬时锁定与跨商家售后权责博弈，展示顶尖架构产品经理的生态化系统推演力。",
+    so_what: "看似简单的功能按钮背后往往隐藏着复杂的商业利益平衡体系；学会透过表层交互看清上下游利益分配格局，才能构筑起抗竞品攻击的坚韧壁垒。",
+    source: "woshipm.com",
+    url: "https://www.woshipm.com/pmd/6382902.html",
+    media: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&auto=format&fit=crop&q=80",
+    pinned: false,
+  },
+  {
+    category: "产品经理",
+    title: "Sunil Sadasivan：第一性原理思考在技术产品决策中的实战落地——把“为什么必须这样”追问到底",
+    note: "资深技术合伙人倾囊相授：如何通过层层剥离行业惯性假设与既成偏见，直抵物理世界与数学逻辑的最底层本质，在复杂系统架构中推导出最具爆发力的破局解法。",
+    so_what: "模仿只能让你成为合格的跟随者，唯有第一性原理思考能带来颠覆式创新；在面对纷繁复杂的外部噪音时，敢于回到最本质的事实，才能做出超越时代的卓越产品。",
+    source: "sunilsadasivan.com",
+    url: "https://sunilsadasivan.com/writing/first-principles-thinking/",
+    media: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=800&auto=format&fit=crop&q=80",
+    pinned: false,
+  },
+];
+
+const frontmatter = {
+  date: "2026-09-26",
+  title: "9 月 26 日 · 闭环营收与白板重塑：当 Devin 越过十亿大关，协同走向开放生态",
+  highlights: "全网 9 大领域 36 篇高密度精选：Cognition 宣布 Devin 年化收入破 10 亿美元、Anthropic 正式开放 Claude 插件市场、微软 Excel 迎来单单元格容纳数组革命性更新、周星驰易小星携电影班底入局短剧、Typst 补齐代码化排版链路。",
+  draft: false,
+  epigraph: "商业世界从不奖励没有造血能力的 Demo；当 AI 编程智能体正式跨越十亿美元年化营收门槛，所有漂浮在空中的概念都必须降落到真实的现金流土壤里。",
+  lead: "今天的数字化浪潮正在迎来一个具有强烈分水岭意味的节点：在基础工具与代码生成一线，Cognition 正式宣布旗下自主编程智能体 Devin 的年化运行收入（ARR）突破 10 亿美元大关，证明具备长程推演与端到端交付能力的 Agent 已经彻底从尝鲜玩具转变为企业级刚需生产力；与此同时，Anthropic 正式开放 Claude 官方插件生态提交通道，GitHub 推出 Copilot Canvases 可视化工作流白板，微软 Excel 更是破天荒地允许单个单元格容纳列表与动态数组，整套数字生产力工具栈正在全面走向“画布化”与“生态解耦”。而在文娱一线，周星驰与易小星等电影级主创携资本与专业班底重磅涌入微短剧赛道，芒果“星火计划”与文旅微短剧专项扶持密集落地，宣告草莽粗制滥造时代的加速出清。无论是软件代码还是影视叙事，唯有将工业化标准做扎实、把真实商业闭环跑通的创造者，才能在这一轮大分流中站稳脚跟。",
+  scene: "「你们还在争论 Agent 到底能不能替代程序员吗？」「没人争论了。Devin 已经跑出 10 亿美元年营收，连 Excel 都能直接在单元格里塞数组了。我们现在的重点不是会不会被替代，而是怎样用这套确定性的自动化管道，一个人把过去五人团队的产品直接交付上线。」",
+  cover: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1600&auto=format&fit=crop&q=80",
+  items: ALL_ITEMS_26,
+};
+
+const closingNote = `
+## 今日主理人寄语
+
+当 Cognition 凭借自主编程 Agent 在企业服务深水区硬生生斩获 10 亿美元年化营收，当微软 Excel 甚至打破了数十年不变的标量单元格限制——**技术底层的地壳运动从来不以任何人的保守意志为转移。**
+
+在这场滚滚向前的范式革命中，最危险的策略就是“坐在看台上当一个理中客评论家”。
+
+**工具在进化，界面在画布化，分工在被全栈重组。**
+
+不要在细枝末节的虚耗中浪费生命。去接入真实生态，去用第一性原理拆解你的业务骨骼，去为你的产品沉淀出能持续带来现金流的硬核价值。
+
+愿今天的 36 篇精选资讯，能为你提供笃定前行的清醒力量。
+`;
+
+function run() {
+  const yamlContent = yaml.dump(frontmatter, { lineWidth: -1, noRefs: true });
+  const fullContent = `---\n${yamlContent}---\n${closingNote}\n`;
+  
+  const targetPath = path.resolve("src/content/daily/2026-09-26.md");
+  fs.writeFileSync(targetPath, fullContent, "utf8");
+  console.log("Successfully written:", targetPath);
+
+  // Update all-used-urls.json
+  const usedUrlsPath = path.resolve("scripts/all-used-urls.json");
+  const usedUrls = JSON.parse(fs.readFileSync(usedUrlsPath, "utf8"));
+  const usedSet = new Set(usedUrls);
+
+  let added = 0;
+  for (const item of ALL_ITEMS_26) {
+    if (!usedSet.has(item.url)) {
+      usedUrls.push(item.url);
+      usedSet.add(item.url);
+      added++;
+    }
+  }
+
+  fs.writeFileSync(usedUrlsPath, JSON.stringify(usedUrls, null, 2), "utf8");
+  console.log(`Updated all-used-urls.json: added ${added} new URLs, total count: ${usedUrls.length}`);
+}
+
+run();

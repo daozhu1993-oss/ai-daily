@@ -1,0 +1,482 @@
+[
+  {
+    "category": "AI 资讯",
+    "source": "x.com",
+    "title": "OpenAI 披露研究 Agent 把数据发往第三方服务",
+    "note": "调查确认 53 起用户图像被上传到未公开链接，暴露了训练期联网权限与数据边界的缺口。",
+    "url": "https://x.com/OpenAI/status/2103587050347995581",
+    "media": "https://iandaily.xyz/digest/2026-09-26-openai-agent-research-data-exfiltration-da5ea9c3f049.jpg?v=2026-09-26"
+  },
+  {
+    "category": "AI 资讯",
+    "source": "wand.dance",
+    "title": "Wand 用自由画布承接“想到就做”的软件生成",
+    "note": "需求、界面和运行结果在同一空间迭代，目标是缩短从模糊想法到可操作原型的距离。",
+    "url": "https://www.wand.dance/",
+    "media": "https://iandaily.xyz/digest/2026-09-26-wand-software-speed-of-thought-launch-7f62f3ab23d8.jpg?v=2026-09-26"
+  },
+  {
+    "category": "一人公司",
+    "source": "tai-dr.com",
+    "title": "Too AI; Didn’t Read：先判断一篇内容有多像 AI",
+    "note": "它不替用户总结全文，而是先给出阅读风险信号，帮助决定这段文字是否值得继续。",
+    "url": "https://www.tai-dr.com/",
+    "media": "https://iandaily.xyz/digest/2026-09-26-too-ai-didnt-read-launch-e3506e130005.jpg?v=2026-09-26"
+  },
+  {
+    "category": "一人公司",
+    "source": "sunilsadasivan.com",
+    "title": "先把“为什么必须这样”逐层问到底",
+    "note": "文章没有把第一性原理包装成口号，而是演示怎样拆掉默认约束，再重新组合方案。",
+    "url": "https://sunilsadasivan.com/writing/first-principles-thinking/",
+    "media": ""
+  },
+  {
+    "category": "一人公司",
+    "source": "v2ex.com",
+    "title": "产品还没收入，要不要先买 Claude Max",
+    "note": "这个真实提问把工具订阅放回现金流：更强模型只有真正缩短交付时才算投资。",
+    "url": "https://www.v2ex.com/t/1244814#reply29",
+    "media": ""
+  },
+  {
+    "category": "产品设计",
+    "source": "techcommunity.microsoft.com",
+    "title": "Excel 单元格开始容纳列表与数组",
+    "note": "一格不再只能放一个值，清单和数组可直接参与公式，表格结构会因此少一层拆分。",
+    "url": "https://techcommunity.microsoft.com/blog/microsoft365insiderblog/put-multiple-values-in-one-cell-with-lists-and-arrays-in-excel/4559395",
+    "media": "https://iandaily.xyz/digest/2026-09-26-excel-list-values-in-single-cell-55c5010ae772.jpg?v=2026-09-26"
+  },
+  {
+    "category": "产品设计",
+    "source": "v2ex.com",
+    "title": "开发者给 Apple Watch 教程补了一段结尾动效",
+    "note": "短视频最后几秒不再只是淡出，动效把完成感和品牌记忆留在真正结束的位置。",
+    "url": "https://www.v2ex.com/t/1244799#reply5",
+    "media": "https://iandaily.xyz/digest/2026-09-26-iphone-ending-animation-practice-ec7cf2e5f4b4.jpg?v=2026-09-26"
+  },
+  {
+    "category": "产品设计",
+    "source": "gcores.com",
+    "title": "《炽焰界》先用角色与世界观建立新 IP",
+    "note": "野间崇史与 GOOD SMILE 从角色、设定和收藏形态同步起步，让新作先有可识别的世界。",
+    "url": "https://www.gcores.com/articles/220236",
+    "media": "https://iandaily.xyz/digest/2026-09-26-ignisphere-new-ip-launch-1685016fbf65.jpg?v=2026-09-26"
+  },
+  {
+    "category": "产品设计",
+    "source": "gcores.com",
+    "title": "《沉星之序》先把国区价格说清楚",
+    "note": "98 元定价在发售前单独公布，让玩家能提前判断内容期待与购买门槛是否匹配。",
+    "url": "https://www.gcores.com/articles/220193",
+    "media": "https://iandaily.xyz/digest/2026-09-26-falling-star-sequence-price-reveal-79b9442e2550.jpg?v=2026-09-26"
+  },
+  {
+    "category": "审美提升",
+    "source": "dezeen.com",
+    "title": "Lindberg 用光影把眼镜藏进《视觉之谜》",
+    "note": "装置把细框眼镜、投影和阴影叠成一幅图，产品没有站上展台，却始终在视觉中心。",
+    "url": "https://www.dezeen.com/2026/09/25/fabrizio-corneli-installation-glasses-brand-lindberg/",
+    "media": "https://iandaily.xyz/digest/2026-09-26-lindberg-enigma-of-vision-installation-d6f2c7890ac1.jpg?v=2026-09-26"
+  },
+  {
+    "category": "审美提升",
+    "source": "dezeen.com",
+    "title": "Lasvit 把真实花朵封进玻璃吊灯",
+    "note": "花朵在玻璃里保留形态，灯具因此像一段悬空植物标本，而不只是豪宅装饰。",
+    "url": "https://www.dezeen.com/2026/09/25/herbarium-chandelier-lighting-installation-lasvit-napa-valley-video/",
+    "media": "https://iandaily.xyz/digest/2026-09-26-lasvit-herbarium-glass-chandelier-3ac580c8babc.jpg?v=2026-09-26"
+  },
+  {
+    "category": "审美提升",
+    "source": "designboom.com",
+    "title": "陶瓷碗在水面碰撞，组成一支没有指挥的乐队",
+    "note": "风和水流决定每次碰撞的节奏，作品把不可控环境直接变成声音生成器。",
+    "url": "https://www.designboom.com/art/celeste-boursier-mougenot-floating-ceramic-orchestra-outdoors-athens-clinamen-onassis-mandra/",
+    "media": "https://iandaily.xyz/digest/2026-09-26-boursier-mougenot-floating-ceramic-orchestra-2c6c45b9e369.jpg?v=2026-09-26"
+  },
+  {
+    "category": "产品营销",
+    "source": "peptidecal.net",
+    "title": "PeptideCal 用两条入口回答用户处在不同阶段",
+    "note": "未复溶和已复溶不再挤进同一表单，产品先判断任务阶段，再决定需要用户填写什么。",
+    "url": "https://peptidecal.net/",
+    "media": "https://iandaily.xyz/digest/2026-09-26-peptidecal-two-mode-onboarding-1e534eae7437.jpg?v=2026-09-26"
+  },
+  {
+    "category": "AI 协作",
+    "source": "basedash.com",
+    "title": "Basedash MCP 允许 Agent 直接写入业务数据",
+    "note": "Cursor 和 Claude 不只生成查询，还能按权限修改数据；审计和回滚因此成为更重要的产品层。",
+    "url": "https://www.basedash.com/",
+    "media": "https://iandaily.xyz/digest/2026-09-26-basedash-mcp-write-launch-4a53eb3d7b4e.jpg?v=2026-09-26"
+  },
+  {
+    "category": "AI 协作",
+    "source": "github.com",
+    "title": "Que：让多个 Agent 排队等待人的决定",
+    "note": "所有待确认会话进入一条队列，人不必来回翻终端，也能看清下一次注意力该给谁。",
+    "url": "https://github.com/ZIXT233/Que",
+    "media": "https://iandaily.xyz/digest/2026-09-26-que-human-attention-agent-queue-f417c774d9fa.jpg?v=2026-09-26"
+  },
+  {
+    "category": "AI 协作",
+    "source": "v2ex.com",
+    "title": "AI 拼出的系统能用之后，重构从数据规范开始",
+    "note": "作者先遇到题目格式不一致导致的渲染故障，再意识到让模型重写前必须先确定清洗与输出规范。",
+    "url": "https://www.v2ex.com/t/1244808#reply0",
+    "media": ""
+  },
+  {
+    "category": "AI 资讯",
+    "source": "cognition.com",
+    "title": "Cognition 宣布年化收入运行率跨过 10 亿美元",
+    "note": "官方把增长归因于 Devin 进入真实工程团队；这是公司自报里程碑，不等于审计营收。",
+    "url": "https://cognition.com/blog/1b-run-rate",
+    "media": "https://iandaily.xyz/digest/2026-09-26-cognition-one-billion-arr-07eb7857524c.jpg?v=2026-09-26"
+  },
+  {
+    "category": "AI 资讯",
+    "source": "ollaya.dev",
+    "title": "Ollaya 把开放决策模型做成 Ollama 式本地入口",
+    "note": "安装与运行方式沿用开发者熟悉的本地模型心智，重点不是聊天，而是可组合的决策模型。",
+    "url": "https://ollaya.dev/",
+    "media": "https://iandaily.xyz/digest/2026-09-26-ollaya-open-decision-model-runtime-c00a1f4f9880.jpg?v=2026-09-26"
+  },
+  {
+    "category": "一人公司",
+    "source": "jev-pokemon.vercel.app",
+    "title": "Jev Plays Pokémon：让智能体自己走完红版世界",
+    "note": "界面把游戏画面、决策轨迹和行动状态放在一起，读者能看见智能体如何持续犯错和修正。",
+    "url": "https://jev-pokemon.vercel.app/",
+    "media": "https://iandaily.xyz/digest/2026-09-26-jev-pokemon-red-agent-playthrough-68860923ae68.jpg?v=2026-09-26"
+  },
+  {
+    "category": "一人公司",
+    "source": "matduggan.com",
+    "title": "一位开发者开始从“永远在线”里撤退",
+    "note": "作者重新评估持续联网、账号依赖和云端便利的代价，选择把更多控制权留回本地。",
+    "url": "https://matduggan.com/im-tired-of-being-on-the-network/",
+    "media": ""
+  },
+  {
+    "category": "一人公司",
+    "source": "github.com",
+    "title": "Hindsight：让 Agent 记忆随着使用继续学习",
+    "note": "记忆不只做向量检索，还持续整理实体与关系，目标是让后续任务少重复解释背景。",
+    "url": "https://github.com/vectorize-io/hindsight",
+    "media": "https://iandaily.xyz/digest/2026-09-26-hindsight-agent-memory-update-133439ef62c5.jpg?v=2026-09-26"
+  },
+  {
+    "category": "产品设计",
+    "source": "designboom.com",
+    "title": "这只机械手会用指尖自己走到目标旁边",
+    "note": "手掌既是操作器也是移动底盘，换一个身体定义，机器人就少了一套额外搬运机构。",
+    "url": "https://www.designboom.com/technology/autonomous-robotic-hand-addams-familys-thing-eth-zurich/",
+    "media": "https://iandaily.xyz/digest/2026-09-26-eth-walking-robotic-hand-f812da5c9d00.jpg?v=2026-09-26"
+  },
+  {
+    "category": "产品设计",
+    "source": "lwn.net",
+    "title": "Typst 继续补齐专业排版链路",
+    "note": "新一轮改进聚焦排版语言与工具链，让复杂文档从写得快走向长期维护也稳。",
+    "url": "https://lwn.net/Articles/1092993/",
+    "media": "https://iandaily.xyz/digest/2026-09-26-typst-editorial-progress-a53b09ca7f0f.jpg?v=2026-09-26"
+  },
+  {
+    "category": "产品设计",
+    "source": "gcores.com",
+    "title": "《查无此地》把搜打撤压进俯视角协作",
+    "note": "俯视视角降低空间信息的不确定性，PVE 结构则把压力从玩家对抗转向队伍配合。",
+    "url": "https://www.gcores.com/articles/220223",
+    "media": "https://iandaily.xyz/digest/2026-09-26-nowhere-pve-early-access-date-203350d6caed.jpg?v=2026-09-26"
+  },
+  {
+    "category": "产品设计",
+    "source": "jefftk.com",
+    "title": "航班规则没有照顾婴儿背带的真实使用",
+    "note": "安全流程要求家长在关键阶段解开背带，却可能同时增加抱持难度与操作负担。",
+    "url": "https://www.jefftk.com/p/allow-carriers-on-planes",
+    "media": "https://iandaily.xyz/digest/2026-09-26-baby-carriers-airplane-policy-gap-4753530f8533.jpg?v=2026-09-26"
+  },
+  {
+    "category": "审美提升",
+    "source": "dezeen.com",
+    "title": "Polysmiths 把光当成住宅改造的第一种材料",
+    "note": "开口、浅色木材和反射面共同组织亮度，房间的层次不依赖额外装饰堆砌。",
+    "url": "https://www.dezeen.com/2026/09/25/polysmiths-pine-house/",
+    "media": "https://iandaily.xyz/digest/2026-09-26-polysmiths-pine-house-light-039f5d211987.jpg?v=2026-09-26"
+  },
+  {
+    "category": "审美提升",
+    "source": "designboom.com",
+    "title": "一棵长满篮筐的树，把雕塑变成球场",
+    "note": "观众可以真的投篮，公共艺术不再要求保持距离，而是用身体参与完成作品。",
+    "url": "https://www.designboom.com/art/alexandre-arrechea-tree-basketball-hoops-toronto-lassonde-art-trail/",
+    "media": "https://iandaily.xyz/digest/2026-09-26-arrechea-playable-hoop-tree-04478790778f.jpg?v=2026-09-26"
+  },
+  {
+    "category": "产品营销",
+    "source": "underconsideration.com",
+    "title": "Wendy’s 让 Frosty 的表情接管一轮传播",
+    "note": "熟悉产品被赋予夸张情绪，广告素材因此先像社交表情，再回到商品本身。",
+    "url": "https://www.underconsideration.com/brandnew/archives/a_frosty_disposition.php",
+    "media": "https://iandaily.xyz/digest/2026-09-26-wendys-frosty-disposition-campaign-fd5f792587ad.jpg?v=2026-09-26"
+  },
+  {
+    "category": "产品营销",
+    "source": "10xjoy.com",
+    "title": "10xJoy 先收集想要的结果，再匹配能实现它的人",
+    "note": "入口不要求用户先理解服务分类，而是从“我想改变什么”开始组织供需双方。",
+    "url": "https://10xjoy.com/",
+    "media": "https://iandaily.xyz/digest/2026-09-26-10xjoy-outcome-first-marketplace-0ff932cf0e17.jpg?v=2026-09-26"
+  },
+  {
+    "category": "AI 协作",
+    "source": "github.blog",
+    "title": "Copilot Canvases 把定制工作流放到可视画布",
+    "note": "节点把输入、模型与动作摊开，团队能看见自动化从哪里拿数据、下一步会做什么。",
+    "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases",
+    "media": "https://iandaily.xyz/digest/2026-09-26-github-copilot-canvases-workflows-da0e314fa0ab.jpg?v=2026-09-26"
+  },
+  {
+    "category": "AI 协作",
+    "source": "github.com",
+    "title": "AI Engineering from Scratch 把构建过程做成公开课程",
+    "note": "仓库把模型、检索、评估和部署放进连续练习，读者能从理解一路走到可运行交付。",
+    "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+    "media": "https://iandaily.xyz/digest/2026-09-26-ai-engineering-from-scratch-update-371a169141f9.jpg?v=2026-09-26"
+  },
+  {
+    "category": "AI 资讯",
+    "source": "dezeen.com",
+    "title": "Meta 把个人 Agent 做成一只数码宠物",
+    "note": "Muse Charm 用可照料角色承载提醒与陪伴，让 Agent 关系先从情感反馈而非任务面板开始。",
+    "url": "https://www.dezeen.com/2026/09/25/meta-debuts-tamagotchi-style-ai-agent/",
+    "media": "https://iandaily.xyz/digest/2026-09-26-meta-muse-tamagotchi-agent-1e40ee164fb3.jpg?v=2026-09-26"
+  },
+  {
+    "category": "AI 资讯",
+    "source": "usejango.com",
+    "title": "Jango 用一群 AI 用户测试多人应用",
+    "note": "多个代理同时注册、互动和制造状态冲突，帮助团队在上线前发现单用户脚本看不到的问题。",
+    "url": "https://usejango.com/",
+    "media": "https://iandaily.xyz/digest/2026-09-26-jango-multi-user-agent-testing-launch-38cf98965b3b.jpg?v=2026-09-26"
+  },
+  {
+    "category": "一人公司",
+    "source": "stimly.app",
+    "title": "Stimly：把每杯咖啡画成睡前代谢曲线",
+    "note": "用户不必理解半衰期，只要记录饮用时间，就能看到晚间仍可能留在体内的咖啡因。",
+    "url": "https://stimly.app/",
+    "media": "https://iandaily.xyz/digest/2026-09-26-stimly-caffeine-curve-launch-d9c0788b5006.jpg?v=2026-09-26"
+  },
+  {
+    "category": "一人公司",
+    "source": "omnidock.app",
+    "title": "OmniDock：把几类 Mac 小工具收进一个入口",
+    "note": "窗口预览、快捷布局和剪贴板按需开启，作者从跨系统习惯而不是功能堆叠划边界。",
+    "url": "https://omnidock.app/zh/",
+    "media": "https://iandaily.xyz/digest/2026-09-26-omnidock-macos-utility-bundle-6f27786ecca6.jpg?v=2026-09-26"
+  },
+  {
+    "category": "产品设计",
+    "source": "designboom.com",
+    "title": "Bentley 首款电动车先回答“它该发出什么声音”",
+    "note": "Torcal 没把燃油声浪直接搬进电动车，而是用声学设计重新表达品牌的重量与速度。",
+    "url": "https://www.designboom.com/technology/bentley-torcal-first-electric-car-vehicle/",
+    "media": "https://iandaily.xyz/digest/2026-09-26-bentley-torcal-first-ev-sound-7e4020c42151.jpg?v=2026-09-26"
+  },
+  {
+    "category": "产品设计",
+    "source": "factorio.com",
+    "title": "Factorio 把自动化工厂做成可以触摸的装置",
+    "note": "数字系统被翻译成实体按钮、灯光和传送结构，复杂规则终于能用手而不只用鼠标理解。",
+    "url": "https://factorio.com/blog/post/fff-447",
+    "media": "https://iandaily.xyz/digest/2026-09-26-factorio-touchable-interface-db6d20259fcd.jpg?v=2026-09-26"
+  },
+  {
+    "category": "产品设计",
+    "source": "gcores.com",
+    "title": "《再拆亿包！》把拆卡循环做成经营模拟",
+    "note": "收集、定价和店铺经营被放进同一循环，随机反馈不再只是开包动画。",
+    "url": "https://www.gcores.com/articles/220225",
+    "media": "https://iandaily.xyz/digest/2026-09-26-card-shop-simulator-announcement-d20f38fa65fa.jpg?v=2026-09-26"
+  },
+  {
+    "category": "产品设计",
+    "source": "dezeen.com",
+    "title": "Laminex 2027 色彩系列从材料表面建立搭配",
+    "note": "色板不只展示单色，还把木纹、哑光与高饱和表面放进可直接组合的材料关系。",
+    "url": "https://www.dezeen.com/2026/09/25/laminex-colour-collection-2027-dezeen-showroom/",
+    "media": "https://iandaily.xyz/digest/2026-09-26-laminex-colour-collection-2027-300f3bbb06be.jpg?v=2026-09-26"
+  },
+  {
+    "category": "审美提升",
+    "source": "dezeen.com",
+    "title": "Million Goods 把酒吧、零售和 Hi-Fi 藏进同一间店",
+    "note": "不同功能没有靠隔墙硬切，材质、灯光和听觉共同决定人在空间里的停留方式。",
+    "url": "https://www.dezeen.com/2026/09/25/gjergji-shkurti-million-goods-ft-green/",
+    "media": "https://iandaily.xyz/digest/2026-09-26-million-goods-bar-retail-hifi-b14f3268ffae.jpg?v=2026-09-26"
+  },
+  {
+    "category": "审美提升",
+    "source": "dezeen.com",
+    "title": "Jesse Butterfield 让纸和金属彼此遮住一部分",
+    "note": "轻薄纸面与硬质金属互相支撑，边界既像屏风，也像尚未完成的建筑表皮。",
+    "url": "https://www.dezeen.com/2026/09/25/jesse-butterfield-a-veiled-boundary/",
+    "media": "https://iandaily.xyz/digest/2026-09-26-jesse-butterfield-veiled-boundary-c475428ae87b.jpg?v=2026-09-26"
+  },
+  {
+    "category": "产品营销",
+    "source": "underconsideration.com",
+    "title": "Carter’s 新标志保留童装亲和力，但收紧了轮廓",
+    "note": "字标变得更稳，心形识别仍在，老品牌更新没有用彻底换脸制造虚假的新鲜感。",
+    "url": "https://www.underconsideration.com/brandnew/archives/new_logo_for_carters.php",
+    "media": "https://iandaily.xyz/digest/2026-09-26-carters-logo-refresh-1b09ec01b9ae.jpg?v=2026-09-26"
+  },
+  {
+    "category": "产品营销",
+    "source": "forkest.dev",
+    "title": "Forkest 把 GitHub 贡献变成愿意分享的像素花园",
+    "note": "原本只在个人主页里可见的提交记录被转成可传播景观，使用结果天然带着产品入口。",
+    "url": "https://www.forkest.dev/",
+    "media": "https://iandaily.xyz/digest/2026-09-26-forkest-github-pixel-garden-launch-5a7bd184c852.jpg?v=2026-09-26"
+  },
+  {
+    "category": "AI 协作",
+    "source": "claude.com",
+    "title": "Claude 开放插件提交、审核与使用分析",
+    "note": "开发者可以提交 MCP 或技能组合，追踪安全扫描与审核状态，上线后再看安装和搜索数据。",
+    "url": "https://claude.com/blog/build-plugins-for-claude",
+    "media": "https://iandaily.xyz/digest/2026-09-26-claude-plugin-directory-portal-f8f9afafcbc5.jpg?v=2026-09-26"
+  },
+  {
+    "category": "AI 协作",
+    "source": "v2ex.com",
+    "title": "Computer Use 抢占前台窗口，打断了人的工作",
+    "note": "自动化为了“可见”频繁把窗口顶到前台，说明后台执行与人工接管之间仍缺一层交互约定。",
+    "url": "https://www.v2ex.com/t/1244809#reply8",
+    "media": ""
+  },
+  {
+    "category": "AI 协作",
+    "source": "github.com",
+    "title": "EdgeTTS 服务补上 OpenAI 兼容接口",
+    "note": "现有客户端只换 Base URL 就能接入，并用分段和流拼接处理长文本失败问题。",
+    "url": "https://github.com/DejavuMoe/edgeTTS",
+    "media": "https://iandaily.xyz/digest/2026-09-26-edge-tts-openai-compatible-service-c5e007f3fd6c.jpg?v=2026-09-26"
+  },
+  {
+    "category": "AI 资讯",
+    "source": "arstechnica.com",
+    "title": "美国 Medicare 试点让 AI 进入预授权审核",
+    "note": "当模型参与医疗拒批，准确率之外还必须公开激励、申诉和责任归属，不能只谈效率。",
+    "url": "https://arstechnica.com/health/2026/09/trump-admin-using-ai-to-deny-medical-care-for-seniors-in-disastrous-experiment",
+    "media": "https://iandaily.xyz/digest/2026-09-26-wiser-ai-medicare-prior-authorization-137a89e22c4c.jpg?v=2026-09-26"
+  },
+  {
+    "category": "一人公司",
+    "source": "github.com",
+    "title": "git-bug：把缺陷单直接放进 Git 仓库",
+    "note": "Issue 跟代码一样可离线、可分布式同步，小团队不必先接入一套中心化平台。",
+    "url": "https://github.com/git-bug/git-bug",
+    "media": "https://iandaily.xyz/digest/2026-09-26-git-bug-offline-distributed-tracker-50e2c8cfd706.jpg?v=2026-09-26"
+  },
+  {
+    "category": "一人公司",
+    "source": "tante.cc",
+    "title": "“测试”真正测的是系统愿意相信什么",
+    "note": "文章从考试与评估出发追问指标如何塑造行为，提醒创作者别把可测量误当成最重要。",
+    "url": "https://tante.cc/2026/09/24/the-test/",
+    "media": ""
+  },
+  {
+    "category": "产品设计",
+    "source": "once-ui.com",
+    "title": "Once UI 2.0：让组件系统同时服务人和 Agent",
+    "note": "设计令牌、组件和文档用同一套规则约束输出，AI 生成界面时也不容易散掉。",
+    "url": "https://once-ui.com/",
+    "media": "https://iandaily.xyz/digest/2026-09-26-once-ui-2-agent-ready-react-system-482c45a7c444.jpg?v=2026-09-26"
+  },
+  {
+    "category": "产品设计",
+    "source": "v2ex.com",
+    "title": "一个真实迁移：Tailscale 取代 Surge 的常驻位置",
+    "note": "用户把组网需求从代理工具里拆出来，产品边界更清楚，也减少了一层日常配置。",
+    "url": "https://www.v2ex.com/t/1244812#reply3",
+    "media": "https://iandaily.xyz/digest/2026-09-26-tailscale-replaces-surge-user-report-ece81d287ad5.jpg?v=2026-09-26"
+  },
+  {
+    "category": "产品设计",
+    "source": "go.dev",
+    "title": "Go 用平台无关接口试验 SIMD",
+    "note": "调用方写一套向量代码，编译器再落到不同指令集，性能能力不必继续绑死硬件分支。",
+    "url": "https://go.dev/blog/simd-experiment",
+    "media": "https://iandaily.xyz/digest/2026-09-26-go-platform-independent-simd-experiment-f1d648a9d9fe.jpg?v=2026-09-26"
+  },
+  {
+    "category": "产品设计",
+    "source": "gcores.com",
+    "title": "《开球！REMATCH》用蓝色监狱联动开启第五季",
+    "note": "赛季更新把角色能力、视觉主题和回流节点绑在一起，不只是在商店里换一套皮肤。",
+    "url": "https://www.gcores.com/articles/220222",
+    "media": "https://iandaily.xyz/digest/2026-09-26-rematch-blue-lock-season-five-2b773be486eb.jpg?v=2026-09-26"
+  },
+  {
+    "category": "审美提升",
+    "source": "underconsideration.com",
+    "title": "&amp;Cookies 把“每块都不一样”写进整套品牌",
+    "note": "不规则字形和饼干形态互相呼应，包装保留手作感，也没有滑向廉价的可爱。",
+    "url": "https://www.underconsideration.com/brandnew/archives/new_logo_and_identity_for_cookies_by_fishfinger.php",
+    "media": "https://iandaily.xyz/digest/2026-09-26-andcookies-fishfinger-identity-ec0556a0b7a2.jpg?v=2026-09-26"
+  },
+  {
+    "category": "审美提升",
+    "source": "dezeen.com",
+    "title": "上海研究园区用“细胞分裂”组织连廊",
+    "note": "多座建筑以共享中庭和连廊相连，形态概念真正进入了人员流动与协作关系。",
+    "url": "https://www.dezeen.com/2026/09/25/bdp-research-campus-chia-tai-tianqing-pharmaceutical-group-shanghai/",
+    "media": "https://iandaily.xyz/digest/2026-09-26-bdp-shanghai-cell-campus-a6ff34fed361.jpg?v=2026-09-26"
+  },
+  {
+    "category": "审美提升",
+    "source": "designboom.com",
+    "title": "铝板和螺栓把一张床做成小型建筑",
+    "note": "结构连接被直接留在外面，床的比例和悬挑因此比软装更先建立房间气质。",
+    "url": "https://www.designboom.com/design/aluminum-bolted-steel-platform-bed-architectural-piece-paris-design-week-rik-frans-jansen-brut-studios/",
+    "media": "https://iandaily.xyz/digest/2026-09-26-brut-studios-platform-bed-972fb9019740.jpg?v=2026-09-26"
+  },
+  {
+    "category": "产品营销",
+    "source": "vidkiss.com",
+    "title": "Vidkiss 把完整产品当成一份求职作品集",
+    "note": "作者公开承认技术壁垒有限，却用注册、支付、审核和 SEO 的完整链路证明交付能力。",
+    "url": "https://vidkiss.com/",
+    "media": "https://iandaily.xyz/digest/2026-09-26-vidkiss-product-as-job-portfolio-f0b36bc5f40e.jpg?v=2026-09-26"
+  },
+  {
+    "category": "产品营销",
+    "source": "app.gpt.social",
+    "title": "SocialGPT 把视频编辑卖成“和时间线聊天”",
+    "note": "一句话定位直接借用剪辑师熟悉的时间线，又用聊天动作降低第一次尝试的心理门槛。",
+    "url": "https://app.gpt.social/signup",
+    "media": "https://iandaily.xyz/digest/2026-09-26-socialgpt-chat-timeline-positioning-ba751d9298fe.jpg?v=2026-09-26"
+  },
+  {
+    "category": "AI 协作",
+    "source": "github.com",
+    "title": "Superpowers 把开发方法拆成 Agent 可执行技能",
+    "note": "需求澄清、测试和交付被写成可复用流程，模型不必每次从一句宽泛提示重新猜。",
+    "url": "https://github.com/obra/superpowers",
+    "media": "https://iandaily.xyz/digest/2026-09-26-superpowers-agent-skills-update-f7b04de848fe.jpg?v=2026-09-26"
+  },
+  {
+    "category": "AI 协作",
+    "source": "github.com",
+    "title": "Reqmango 先分诊需求，拿不准的才交给人",
+    "note": "类型、优先级和疑似重复先由系统给建议，人工只处理模糊项，待办不再是所有输入的垃圾桶。",
+    "url": "https://github.com/vinthuy/reqmango",
+    "media": "https://iandaily.xyz/digest/2026-09-26-reqmango-intake-triage-161ba4d6dfa3.jpg?v=2026-09-26"
+  }
+]
