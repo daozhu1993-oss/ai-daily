@@ -1,0 +1,458 @@
+[
+  {
+    "category": "AI 资讯",
+    "source": "fireworks.ai",
+    "title": "Fireworks 发布 Ember-1，把新模型的能力放回可部署场景",
+    "judgment": "发布的关键不只是评分，而是用户能否在真实延迟、成本与吞吐约束下使用。",
+    "url": "https://fireworks.ai/blog/ember-1",
+    "media": "https://iandaily.xyz/digest/2026-09-28-fireworks-ember-1-a7d11299397f.jpg?v=2026-09-28"
+  },
+  {
+    "category": "AI 资讯",
+    "source": "garymarcus.substack.com",
+    "title": "Gary Marcus 称 AI Agent 安全事件已升至数万起",
+    "judgment": "这是基于 Axios 报道的评论与召回主张，并非监管机构已核实的统计，需要保留这个边界。",
+    "url": "https://garymarcus.substack.com/p/breaking-ai-agent-incident-toll-has",
+    "media": "https://iandaily.xyz/digest/2026-09-28-gary-marcus-agent-incidents-b97759a541be.jpg?v=2026-09-28"
+  },
+  {
+    "category": "一人公司",
+    "source": "pixelambacht.nl",
+    "title": "十行代码让一个开发者重新看见编程的杠杆",
+    "judgment": "价值不在代码短，而在小段自动化开启了新的创作和学习循环。",
+    "url": "https://pixelambacht.nl/2026/ten-lines-of-code/",
+    "media": "https://iandaily.xyz/digest/2026-09-28-ten-lines-code-world-94b4bc32adf5.jpg?v=2026-09-28"
+  },
+  {
+    "category": "一人公司",
+    "source": "gcores.com",
+    "title": "机核用十年碎片还原一家内容公司的真实形状",
+    "judgment": "接机、停车和临时救场被保留下来，让品牌历史不再只剩程碑和胜利。",
+    "url": "https://www.gcores.com/radios/219908",
+    "media": "https://iandaily.xyz/digest/2026-09-28-gcores-decade-anecdotes-7d0896b87481.jpg?v=2026-09-28"
+  },
+  {
+    "category": "一人公司",
+    "source": "x.com",
+    "title": "一家拆解爆款视频的自筹平台上架 Acquire",
+    "judgment": "披露的 TTM 营收与利润让‘内容研究提效’不再只是定位词，也能被买家检查。",
+    "url": "https://x.com/agazdecki/status/2104291454818656284",
+    "media": "https://iandaily.xyz/digest/2026-09-28-acquire-viral-video-listing-3708b67dd1b5.jpg?v=2026-09-28"
+  },
+  {
+    "category": "产品设计",
+    "source": "hereticpleb.vercel.app",
+    "title": "十个细节暴露了“能用但没设计过”的界面",
+    "judgment": "从无意义渐变到相似的卡片结构，问题不是风格相似，而是组件没有回答任务差异。",
+    "url": "https://hereticpleb.vercel.app/blog/10-tells-of-slop",
+    "media": "https://iandaily.xyz/digest/2026-09-28-slop-ui-ten-signals-a462c0bd9fe6.jpg?v=2026-09-28"
+  },
+  {
+    "category": "产品设计",
+    "source": "x.com",
+    "title": "Linear 停机后把离线更改完整同步回来",
+    "judgment": "故障期间用户仍可以继续工作，服务恢复后再合并，这比只展示红色状态页更有价值。",
+    "url": "https://x.com/linear/status/2104175900887842908",
+    "media": "https://iandaily.xyz/digest/2026-09-28-linear-offline-sync-recovery-686b0e3c6c12.jpg?v=2026-09-28"
+  },
+  {
+    "category": "产品设计",
+    "source": "x.com",
+    "title": "本地决策模型工具把路由与零样本分类变成通用服务",
+    "judgment": "Laya、decider、NLI 与 GLiClass 可在本地拉取，再通过类型安全接口暴露给其他应用。",
+    "url": "https://x.com/geekbb/status/2104038313300799617",
+    "media": "https://iandaily.xyz/digest/2026-09-28-local-decision-model-server-0f1f4ddaf2a6.jpg?v=2026-09-28"
+  },
+  {
+    "category": "审美提升",
+    "source": "designboom.com",
+    "title": "Panter&amp;Tourron 把奢侈感从标识搬回材料与时间",
+    "judgment": "表面的光泽、触感和耐用方式代替了显眼符号，产品靠使用过程建立价值。",
+    "url": "https://www.designboom.com/design/studio-panter-and-tourron-redefining-codes-luxury-design/",
+    "media": "https://iandaily.xyz/digest/2026-09-28-panter-tourron-luxury-codes-01f4c6c739cb.jpg?v=2026-09-28"
+  },
+  {
+    "category": "审美提升",
+    "source": "x.com",
+    "title": "陶碗漂在水面，风与碰撞共同编写一支乐队",
+    "judgment": "作品不把声音藏在播放器里，观众可直接看到水流如何引发节奏。",
+    "url": "https://x.com/designboom/status/2104239777994445098",
+    "media": "https://iandaily.xyz/digest/2026-09-28-floating-ceramic-orchestra-91e4a8c10fca.jpg?v=2026-09-28"
+  },
+  {
+    "category": "产品营销",
+    "source": "sancho.bearblog.dev",
+    "title": "Google 的产品语言为何越来越像几家不同公司",
+    "judgment": "作者从命名、入口与叙事反复变化，指出品牌混乱会直接增加用户的理解成本。",
+    "url": "https://sancho.bearblog.dev/google-weird/",
+    "media": "https://iandaily.xyz/digest/2026-09-28-google-brand-fragmentation-71fc32fa6764.jpg?v=2026-09-28"
+  },
+  {
+    "category": "产品营销",
+    "source": "x.com",
+    "title": "为一次旅行现写一个 App，正变成产品人的新习惯",
+    "judgment": "当构建成本足够低，产品不必首先证明广阔市场，可以只服务一次真实行程。",
+    "url": "https://x.com/gabor/status/2104289371654599057",
+    "media": ""
+  },
+  {
+    "category": "AI 协作",
+    "source": "reasonable.io",
+    "title": "TLA+ 被更多人看见后，真问题是如何进入平常工作",
+    "judgment": "教程从并发状态和反例出发，帮开发者在写实现之前先检验系统规则。",
+    "url": "https://reasonable.io/blog/tla-tutorial/",
+    "media": "https://iandaily.xyz/digest/2026-09-28-tla-internet-discovery-4803a0bed8f3.jpg?v=2026-09-28"
+  },
+  {
+    "category": "AI 协作",
+    "source": "github.com",
+    "title": "VoiceStudio 补强本地 ASR 的隐私与后端边界",
+    "judgment": "多个修复集中在转写时的数据处理和服务端安全，比再增加一个模型更接近可用。",
+    "url": "https://github.com/debpalash/VoiceStudio",
+    "media": "https://iandaily.xyz/digest/2026-09-28-voicestudio-asr-hardening-66dec8f4ed64.jpg?v=2026-09-28"
+  },
+  {
+    "category": "AI 协作",
+    "source": "x.com",
+    "title": "四个 Skill 把 Opus 5.5 接进粗剪、Premiere、字幕与出片",
+    "judgment": "工作流没有用一个‘全能视频 Agent’包办所有事，而是让不同工具在它们擅长的阶段交接。",
+    "url": "https://x.com/lxfater/status/2104232636738588797",
+    "media": "https://iandaily.xyz/digest/2026-09-28-opus-video-editing-skills-c9b31129e0cd.jpg?v=2026-09-28"
+  },
+  {
+    "category": "AI 资讯",
+    "source": "authorsguild.org",
+    "title": "作家协会公开诉 Microsoft 与 OpenAI 案的新解封文件",
+    "judgment": "新文件将训练数据来源、内部知情与市场替代风险放进同一条证据链。",
+    "url": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/",
+    "media": "https://iandaily.xyz/digest/2026-09-28-authors-guild-openai-briefs-0fc87e2d13be.jpg?v=2026-09-28"
+  },
+  {
+    "category": "AI 资讯",
+    "source": "youtube.com",
+    "title": "SNL 把 Dario Amodei 的 AI 风险论述改编成周末更新短剧",
+    "judgment": "娱乐化改编说明前沿风险话语已经进入大众文化，但它不能代替技术证据。",
+    "url": "https://www.youtube.com/watch?v=-Nvne3LzBls",
+    "media": "https://iandaily.xyz/digest/2026-09-28-snl-dario-ai-threat-sketch-182cfb43057d.jpg?v=2026-09-28"
+  },
+  {
+    "category": "一人公司",
+    "source": "blog.codinghorror.com",
+    "title": "Coding Horror 重提：工具再快，也不能取代开发者互相帮助",
+    "judgment": "文章把职业认同放回同伴支持与公共知识，拒绝用单人效率解释所有进步。",
+    "url": "https://blog.codinghorror.com/if-we-do-not-stop-to-help-each-other-what-do-we-become/",
+    "media": "https://iandaily.xyz/digest/2026-09-28-coding-horror-help-each-other-58a725226aa0.jpg?v=2026-09-28"
+  },
+  {
+    "category": "一人公司",
+    "source": "x.com",
+    "title": "一条伪造 Calendly 子域的钓鱼链路，几乎复制了真实登录体验",
+    "judgment": "攻击页使用模糊日历、用户头像和 X 授权按钮，让独立开发者在熟悉界面里放下警惕。",
+    "url": "https://x.com/peduarte/status/2104276006353928328",
+    "media": "https://iandaily.xyz/digest/2026-09-28-fake-calendly-phishing-flow-fb6f0958e5c5.jpg?v=2026-09-28"
+  },
+  {
+    "category": "产品设计",
+    "source": "unsung.aresluna.org",
+    "title": "Neovim 的撤销文件事故提醒产品要对用户数据负责",
+    "judgment": "一次看似合理的兼容处理删掉了旧编辑器数据，暴露出“为用户做决定”的边界。",
+    "url": "https://unsung.aresluna.org/they-had-no-concept-of-a-duty-of-care-to-their-users/",
+    "media": "https://iandaily.xyz/digest/2026-09-28-neovim-undo-data-duty-511703e59e8a.jpg?v=2026-09-28"
+  },
+  {
+    "category": "产品设计",
+    "source": "x.com",
+    "title": "Framer 用四个站点演示互动如何参与叙事",
+    "judgment": "滚动、转场和指针反馈没有被单独展示，而是与信息出场顺序一起被组织。",
+    "url": "https://x.com/framer/status/2104297163782316167",
+    "media": "https://iandaily.xyz/digest/2026-09-28-framer-interactive-sites-5478b89980c7.jpg?v=2026-09-28"
+  },
+  {
+    "category": "产品设计",
+    "source": "x.com",
+    "title": "Opus 5.5 用 Canvas 迭代出可导出的 App Icon",
+    "judgment": "先用一句目标生成多个方向，再围绕一个方案连续修改，最后保留矢量导出。",
+    "url": "https://x.com/dotey/status/2104107699583463686",
+    "media": "https://iandaily.xyz/digest/2026-09-28-opus-canvas-app-icon-fc041ccc7c38.jpg?v=2026-09-28"
+  },
+  {
+    "category": "产品设计",
+    "source": "x.com",
+    "title": "Opus 5.5 用单文件网页做出游戏奖励动效",
+    "judgment": "提示词把世界观、材质、轮廓、灯光和节奏拆成约束，最终交付一个可点击播放的完整网页。",
+    "url": "https://x.com/op7418/status/2104085484347818226",
+    "media": "https://iandaily.xyz/digest/2026-09-28-opus-game-reward-motion-894f8ff7fdfa.jpg?v=2026-09-28"
+  },
+  {
+    "category": "审美提升",
+    "source": "dezeen.com",
+    "title": "八座建筑用炭化木把阴影做进立面",
+    "judgment": "深色表皮的不同纹理在日照下呈现细微差异，重要的不是黑，而是木材被处理后仍可读。",
+    "url": "https://www.dezeen.com/2026/09/27/buildings-dramatic-charred-timber-facades/",
+    "media": "https://iandaily.xyz/digest/2026-09-28-charred-timber-facades-9760a7a01b63.jpg?v=2026-09-28"
+  },
+  {
+    "category": "审美提升",
+    "source": "x.com",
+    "title": "八座绿屋顶住宅让建筑从地形里长出来",
+    "judgment": "植被不是附加景观，而是与坡度、视线和保温共同决定体量。",
+    "url": "https://x.com/dezeen/status/2104312939595420117",
+    "media": "https://iandaily.xyz/digest/2026-09-28-green-roof-homes-5dd3d1d88bf5.jpg?v=2026-09-28"
+  },
+  {
+    "category": "产品营销",
+    "source": "lennysnewsletter.com",
+    "title": "Lenny 把技术行业的悲伤、孤独与倦怠做成一次具体谈话",
+    "judgment": "节目没用‘提高韧性’粉饰问题，而是围绕哪些责任不应交给 AI 展开。",
+    "url": "https://www.lennysnewsletter.com/p/the-grief-loneliness-and-burnout",
+    "media": "https://iandaily.xyz/digest/2026-09-28-lenny-tech-burnout-conversation-f1b38cc51841.jpg?v=2026-09-28"
+  },
+  {
+    "category": "产品营销",
+    "source": "x.com",
+    "title": "Notion 用办公室细节继续书写品牌",
+    "judgment": "黑白、木色与大量留白延续了产品语言，但现场仍保留了工作和居留感。",
+    "url": "https://x.com/NotionHQ/status/2104222667499098184",
+    "media": "https://iandaily.xyz/digest/2026-09-28-notion-hq-brand-space-1693a846ea31.jpg?v=2026-09-28"
+  },
+  {
+    "category": "AI 协作",
+    "source": "github.com",
+    "title": "Univer 连续修正条件汇总与文档选区",
+    "judgment": "公式优化、格式与选区修复在数分钟内合入，能看到大型协作套件怎样用小补丁维持一致性。",
+    "url": "https://github.com/dream-num/univer",
+    "media": "https://iandaily.xyz/digest/2026-09-28-univer-formula-selection-fixes-27715bb834f6.jpg?v=2026-09-28"
+  },
+  {
+    "category": "AI 协作",
+    "source": "x.com",
+    "title": "连续两个月尝试 QA 思路后，开始清理自己的历史决策",
+    "judgment": "这条短记录承认试验会留下杂质，也承认清理是产品工作而非失败收尾。",
+    "url": "https://x.com/ThePrimeagen/status/2104203512355676174",
+    "media": ""
+  },
+  {
+    "category": "AI 协作",
+    "source": "x.com",
+    "title": "让 Codex 判断哪些测试真需要跑，而不是每次打满 CI",
+    "judgment": "这个计划将即时分发与每小时全量校验分开，试图在等待时间与安全网之间取得平衡。",
+    "url": "https://x.com/steipete/status/2104305554760114488",
+    "media": ""
+  },
+  {
+    "category": "AI 资讯",
+    "source": "ithome.com",
+    "title": "澳大利亚参议院传唤 OpenAI 与 Anthropic CEO 出席 AI 调查",
+    "judgment": "调查把医保系统事件从技术复盘推向公开责任问询，焦点不再只是单一产品缺陷。",
+    "url": "https://www.ithome.com/1/007/508.htm",
+    "media": "https://iandaily.xyz/digest/2026-09-28-australia-ai-ceo-hearing-5541164ed940.jpg?v=2026-09-28"
+  },
+  {
+    "category": "AI 资讯",
+    "source": "x.com",
+    "title": "NVIDIA 与 Meta 合作让 Muse Realtime Avatar 跟得上说话",
+    "judgment": "这次进展把‘实时’拆成模型效率和交互节奏，延迟是体验本身，不是后台指标。",
+    "url": "https://x.com/NVIDIAAI/status/2104276562644463892",
+    "media": "https://iandaily.xyz/digest/2026-09-28-meta-muse-avatar-nvidia-efficiency-4e8780641655.jpg?v=2026-09-28"
+  },
+  {
+    "category": "一人公司",
+    "source": "x.com",
+    "title": "把 Pi、GPU 和 LLM 概念做成可互动的技术教程",
+    "judgment": "文字解释与可操作图示被放在同一条学习路径，读者能从概念一直走到手算配置与延迟。",
+    "url": "https://x.com/indie_maker_fox/status/2104022256175534192",
+    "media": "https://iandaily.xyz/digest/2026-09-28-interactive-technical-tutorials-b1abb69ff4e9.jpg?v=2026-09-28"
+  },
+  {
+    "category": "一人公司",
+    "source": "gcores.com",
+    "title": "机核用闲谈节目拆开暑期文化产品的真实吸引力",
+    "judgment": "节目从作品、角色到消费场景逐层展开，不用单一榜单代替主持人的选择与判断。",
+    "url": "https://www.gcores.com/radios/220280",
+    "media": "https://iandaily.xyz/digest/2026-09-28-gcores-summer-season-talk-9e97726712cf.jpg?v=2026-09-28"
+  },
+  {
+    "category": "产品设计",
+    "source": "designboom.com",
+    "title": "Meadow 把手机缩回最必要的几个应用",
+    "judgment": "它不再把戒断做成另一层限额，而是从桌面结构上只保留通讯、工具和必需入口。",
+    "url": "https://www.designboom.com/technology/meadow-shrinks-smartphone-essential-apps/",
+    "media": "https://iandaily.xyz/digest/2026-09-28-meadow-essential-phone-b22316794c17.jpg?v=2026-09-28"
+  },
+  {
+    "category": "产品设计",
+    "source": "jvns.ca",
+    "title": "一次自行车灯换电池，看出可维修性的产品代价",
+    "judgment": "壳体、焊点和电芯本可分开，但消费品被默认做成整体废弃，使用寿命被藏在内部。",
+    "url": "https://jvns.ca/blog/2026/09/27/replacing-the-old-battery-on-rechargeable-bike-lights/",
+    "media": "https://iandaily.xyz/digest/2026-09-28-bike-light-replaceable-battery-7f8888172f30.jpg?v=2026-09-28"
+  },
+  {
+    "category": "产品设计",
+    "source": "x.com",
+    "title": "MarcBot 把营养记录做成 Apple Watch 上的语音圆环",
+    "judgment": "用户抬腕说出吃了什么，数据结构、定时任务和小组件再由助手自行生成。",
+    "url": "https://x.com/marckohlbrugge/status/2104167517958668776",
+    "media": ""
+  },
+  {
+    "category": "产品设计",
+    "source": "x.com",
+    "title": "乔木 AI RSS 把阅读、配色和后续动作放在一个页面",
+    "judgment": "新的暗色配色解决夜间阅读，Agent 插件还能把歌曲送入 Spotify，或把文章转成信息图。",
+    "url": "https://x.com/vista8/status/2104244123196887214",
+    "media": "https://iandaily.xyz/digest/2026-09-28-qiaomu-ai-rss-palette-2938713790b7.jpg?v=2026-09-28"
+  },
+  {
+    "category": "产品设计",
+    "source": "youtube.com",
+    "title": "一款视觉音乐应用把日本声音印象变成可互动图形",
+    "judgment": "City Pop、雅乐、古筝与‘间’不只切换音色，也同时改变即时生成的视觉语法。",
+    "url": "https://www.youtube.com/watch?v=WwiIJsEkcoE",
+    "media": "https://iandaily.xyz/digest/2026-09-28-visual-generative-music-youtube-afef1e93e510.jpg?v=2026-09-28"
+  },
+  {
+    "category": "审美提升",
+    "source": "dezeen.com",
+    "title": "哈佛把废羊毛压成可改造旧建筑的外墙板",
+    "judgment": "纤维的原始质感被保留，它同时回应保温、耐候与循环利用，没有假装成新石材。",
+    "url": "https://www.dezeen.com/2026/09/27/waste-wool-cladding-harvard-university-oslo-architecture-triennale/",
+    "media": "https://iandaily.xyz/digest/2026-09-28-waste-wool-cladding-7c60f6c91443.jpg?v=2026-09-28"
+  },
+  {
+    "category": "审美提升",
+    "source": "x.com",
+    "title": "Casa JR 用厚墙与过滤平面调节阿根廷阳光",
+    "judgment": "实墙建立安全感，孔洞与百叶又把视线和风引入内部，开与闭没有被做成二选一。",
+    "url": "https://x.com/dezeen/status/2104248473398767699",
+    "media": "https://iandaily.xyz/digest/2026-09-28-casa-jr-filtering-planes-514207674130.jpg?v=2026-09-28"
+  },
+  {
+    "category": "产品营销",
+    "source": "x.com",
+    "title": "Podcast 之所以长期有效，核心是 RSS 的开放分发",
+    "judgment": "创作者、听众和变现工具不必绑定在同一平台，内容因此能在多个入口持续流动。",
+    "url": "https://x.com/arvidkahl/status/2104168271377473727",
+    "media": "https://iandaily.xyz/digest/2026-09-28-rss-podcasting-open-distribution-1d7c2c5b0bd1.jpg?v=2026-09-28"
+  },
+  {
+    "category": "AI 协作",
+    "source": "github.com",
+    "title": "OpenRig 0.5.17 补上 Bun 安装路径",
+    "judgment": "这次更新不是添一个宏大能力，而是让不同 JavaScript 工具链的用户能顺利进入。",
+    "url": "https://github.com/mvschwarz/openrig",
+    "media": "https://iandaily.xyz/digest/2026-09-28-openrig-bun-install-8cc7f624123c.jpg?v=2026-09-28"
+  },
+  {
+    "category": "AI 协作",
+    "source": "x.com",
+    "title": "GitHub 让并行 Agent 每个拿到自己的 worktree",
+    "judgment": "不同会话分离分支和上下文，构建、审查与测试可以同时推进，再通过 Git 边界汇合。",
+    "url": "https://x.com/github/status/2104298872029741366",
+    "media": "https://iandaily.xyz/digest/2026-09-28-github-parallel-agent-worktrees-e1309c5382d7.jpg?v=2026-09-28"
+  },
+  {
+    "category": "AI 资讯",
+    "source": "eoinhiggins.substack.com",
+    "title": "‘失控 Agent’可能是一个逃避系统责任的说法",
+    "judgment": "文章将问题从拟人化的机器叛变拉回部署者、权限设计和组织决策。",
+    "url": "https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents",
+    "media": "https://iandaily.xyz/digest/2026-09-28-no-rogue-agents-framing-8f0a4f955ce5.jpg?v=2026-09-28"
+  },
+  {
+    "category": "一人公司",
+    "source": "ihatethefuture.com",
+    "title": "当不可解释的故障变成常态，小团队会先失去判断力",
+    "judgment": "文章追问为何人们开始默认服务会随机失败，并提醒开发者不要把无法说明当成新常识。",
+    "url": "https://www.ihatethefuture.com/2026/09/the-normalization-of-inexplicable.html",
+    "media": "https://iandaily.xyz/digest/2026-09-28-normalization-inexplicable-failures-f6310fab8054.jpg?v=2026-09-28"
+  },
+  {
+    "category": "一人公司",
+    "source": "x.com",
+    "title": "一台正在被打印、焊接和加固的自制机架",
+    "judgment": "进度照把埋入螺母、扩展件和当下的粗糙状态都留在画面里，没有等到成品才宣布。",
+    "url": "https://x.com/stolinski/status/2103975638193561707",
+    "media": "https://iandaily.xyz/digest/2026-09-28-printed-rack-progress-5bb38a73f831.jpg?v=2026-09-28"
+  },
+  {
+    "category": "产品设计",
+    "source": "loficities.com",
+    "title": "Lofi Cities 把像素城市和浏览器音乐变成一个夜间电台",
+    "judgment": "城市场景不只是背景，音乐、光线与颗粒质感共同维持一个可长时间停留的状态。",
+    "url": "https://loficities.com/",
+    "media": "https://iandaily.xyz/digest/2026-09-28-lofi-cities-browser-radio-e2b8f9bf9080.jpg?v=2026-09-28"
+  },
+  {
+    "category": "产品设计",
+    "source": "sspai.com",
+    "title": "少数派用场景选择而非流量排名组织本月游戏",
+    "judgment": "导购没有把新品堆成清单，而是用玩法节奏、时间投入和受众偏好帮读者缩小选择。",
+    "url": "https://sspai.com/post/115056",
+    "media": "https://iandaily.xyz/digest/2026-09-28-sspai-monthly-games-eeb29b09675a.jpg?v=2026-09-28"
+  },
+  {
+    "category": "产品设计",
+    "source": "x.com",
+    "title": "OpenAI 修复 Sol 与 Luna 的图像理解退化",
+    "judgment": "官方不只说性能已恢复，还明确建议含图工作流重跑评测，把修复转成可验证的动作。",
+    "url": "https://x.com/OpenAIDevs/status/2104252306447544447",
+    "media": "https://iandaily.xyz/digest/2026-09-28-openai-vision-bug-fix-6e91798a3871.jpg?v=2026-09-28"
+  },
+  {
+    "category": "产品设计",
+    "source": "x.com",
+    "title": "MiniMax M3.1 Flash Preview 直接进入现有 Token Plan",
+    "judgment": "新预览模型将高并发、低延迟用途与现有订阅关系说清，用户不必先重建账单。",
+    "url": "https://x.com/MiniMax_AI/status/2104256406786547800",
+    "media": "https://iandaily.xyz/digest/2026-09-28-minimax-m31-flash-token-plan-cb4ed6f657a8.jpg?v=2026-09-28"
+  },
+  {
+    "category": "审美提升",
+    "source": "dezeen.com",
+    "title": "SODA 把胶囊旅店做成有尺度感的空间",
+    "judgment": "睡眠单元、公共区和材料过渡被精细分层，密度没有被直接等同于廉价。",
+    "url": "https://www.dezeen.com/2026/09/27/soda-otherwander-soho/",
+    "media": "https://iandaily.xyz/digest/2026-09-28-soda-otherwander-pod-hotel-734e2f731d25.jpg?v=2026-09-28"
+  },
+  {
+    "category": "审美提升",
+    "source": "x.com",
+    "title": "秀场把 T 台改成建筑、表演与时装的共同镜头",
+    "judgment": "地点、路径和舞台机关先规定观众看向哪里，服装才在这个注意力结构中出场。",
+    "url": "https://x.com/designboom/status/2104213276045578419",
+    "media": "https://iandaily.xyz/digest/2026-09-28-runway-as-attention-device-b388a71b0975.jpg?v=2026-09-28"
+  },
+  {
+    "category": "产品营销",
+    "source": "nura.eco",
+    "title": "postmarketOS 更名 Nura，试图走出‘售后系统’的误解",
+    "judgment": "新名称将重点从延寿老手机转向一套独立移动操作系统，也为更大受众留出空间。",
+    "url": "https://nura.eco/blog/2026/09/27/nura-rename/",
+    "media": "https://iandaily.xyz/digest/2026-09-28-postmarketos-nura-rebrand-8f36f139e0c0.jpg?v=2026-09-28"
+  },
+  {
+    "category": "产品营销",
+    "source": "x.com",
+    "title": "当网上充满‘机会已死’时，分享想法本身就是反差",
+    "judgment": "这条短文没有保证创意一定成功，只是指出悲观解释不应成为默认沉默的理由。",
+    "url": "https://x.com/gregisenberg/status/2104288207550795904",
+    "media": ""
+  },
+  {
+    "category": "AI 协作",
+    "source": "github.com",
+    "title": "AI Engineering from Scratch 修复课程引用，并补上持续更新入口",
+    "judgment": "断链课程与首页数据问题被同时清理，说明学习仓库也需要像产品一样维护路径。",
+    "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+    "media": "https://iandaily.xyz/digest/2026-09-28-ai-engineering-course-fixes-7659287a8f04.jpg?v=2026-09-28"
+  },
+  {
+    "category": "AI 协作",
+    "source": "x.com",
+    "title": "Simon Willison 让 Opus 5.5 为演讲收尾做一段像素鹦鹉动画",
+    "judgment": "他同时公开了提示词、转录与互动 HTML，让观众能从成片回到生成过程。",
+    "url": "https://x.com/simonw/status/2104002636513206422",
+    "media": "https://iandaily.xyz/digest/2026-09-28-opus-pixel-art-talk-01f54884a0c2.jpg?v=2026-09-28"
+  }
+]
