@@ -1,0 +1,482 @@
+[
+  {
+    "category": "AI 资讯",
+    "source": "x.com",
+    "title": "SynthID Bio 把不可见水印写进蛋白序列",
+    "judgment": "签名不改变生物功能，却能帮助实验室识别 AI 设计并维护序列数据库的来源完整性。",
+    "url": "https://x.com/GoogleDeepMind/status/2105624656170643854",
+    "media": "https://iandaily.xyz/digest/2026-10-02-deepmind-synthid-bio-477dadcebf40.jpg?v=2026-10-02"
+  },
+  {
+    "category": "AI 资讯",
+    "source": "x.com",
+    "title": "GPT-6.1 Sol 的单任务成本下降约三成",
+    "judgment": "Artificial Analysis 给出相对 GPT-6 Sol 的比较结果，实际节省仍取决于成功率与任务长度。",
+    "url": "https://x.com/ArtificialAnlys/status/2105449959554441580",
+    "media": "https://iandaily.xyz/digest/2026-10-02-gpt61-sol-cost-per-task-25a3d1cc0df2.jpg?v=2026-10-02"
+  },
+  {
+    "category": "一人公司",
+    "source": "x.com",
+    "title": "垂直协会 SaaS 用长期合约拉高留存",
+    "judgment": "挂牌方称年收入三十七万美元、年增三成、净收入留存率一百三十，数据仍需买家尽调。",
+    "url": "https://x.com/agazdecki/status/2105739207725719811",
+    "media": "https://iandaily.xyz/digest/2026-10-02-association-saas-130-nrr-1f8069351a12.jpg?v=2026-10-02"
+  },
+  {
+    "category": "一人公司",
+    "source": "opusvideogen.com",
+    "title": "Opus Video Gen 把动画代码直接渲染成视频",
+    "judgment": "用户输入内容即可得到十五至六十秒横竖屏成片，适合产品演示、讲解与动态图表。",
+    "url": "https://opusvideogen.com",
+    "media": "https://iandaily.xyz/digest/2026-10-02-opus-video-code-rendering-service-317c541aba42.jpg?v=2026-10-02"
+  },
+  {
+    "category": "一人公司",
+    "source": "github.com",
+    "title": "Context Mode 用沙箱压缩代理工具输出",
+    "judgment": "项目将长输出留在沙箱并持久化会话记忆，目标是在多平台上降低上下文消耗。",
+    "url": "https://github.com/mksglu/context-mode",
+    "media": "https://iandaily.xyz/digest/2026-10-02-context-mode-agent-output-sandbox-1fcfb3790ce5.jpg?v=2026-10-02"
+  },
+  {
+    "category": "产品设计",
+    "source": "x.com",
+    "title": "Paper 验证 Pi 通过 MCP 操作设计画布",
+    "judgment": "实际测试显示 Pi 已能快速连接 Paper，设计工具开始接受更多代理客户端进入真实制作。",
+    "url": "https://x.com/stephenhaney/status/2105514746300772708",
+    "media": "https://iandaily.xyz/digest/2026-10-02-paper-pi-mcp-support-26e26b11df68.jpg?v=2026-10-02"
+  },
+  {
+    "category": "产品设计",
+    "source": "photos.duguying.net",
+    "title": "Azalea Photo 把原图备份交还给自有存储",
+    "judgment": "照片可增量写入硬盘、NAS 或对象存储，访问密钥留在设备钥匙串，服务端不保存原图。",
+    "url": "https://photos.duguying.net",
+    "media": "https://iandaily.xyz/digest/2026-10-02-azalea-photo-own-storage-backup-54e842341a5c.jpg?v=2026-10-02"
+  },
+  {
+    "category": "产品设计",
+    "source": "aime.zool.app",
+    "title": "AIME 在 RIME 上加入原生 AI 输入动作",
+    "judgment": "日常输入本地处理，打字过程中可调用翻译与润色，并保留在线词库订阅和常用语。",
+    "url": "https://aime.zool.app",
+    "media": "https://iandaily.xyz/digest/2026-10-02-aime-rime-macos-input-08a5972ec003.jpg?v=2026-10-02"
+  },
+  {
+    "category": "审美提升",
+    "source": "dezeen.com",
+    "title": "Lindberg 用光影装置让眼镜轮廓悬在空间",
+    "judgment": "Fabrizio Corneli 以精确投影构成戏剧性图像，实物与影子共同完成品牌观看体验。",
+    "url": "https://www.dezeen.com/2026/10/01/fabrizio-corneli-installation-glasses-brand-lindberg/",
+    "media": "https://iandaily.xyz/digest/2026-10-02-lindberg-shadow-installation-6a53b8179d38.jpg?v=2026-10-02"
+  },
+  {
+    "category": "审美提升",
+    "source": "designboom.com",
+    "title": "根特设计博物馆用本地废料烧制新翼砖墙",
+    "judgment": "浅色砖块把拆除材料重新带回立面，扩建以克制体量衔接历史街区。",
+    "url": "https://www.designboom.com/architecture/design-museum-gent-new-wing-locally-made-waste-brick-re-st-carmody-groarke-atama-ghent-belgium/",
+    "media": "https://iandaily.xyz/digest/2026-10-02-gent-museum-waste-brick-wing-e5b91d99cc1b.jpg?v=2026-10-02"
+  },
+  {
+    "category": "审美提升",
+    "source": "dezeen.com",
+    "title": "Our Planet 地毯把自然纹理拆成模块系统",
+    "judgment": "Gensler 与 Ege Carpets 将地貌色彩和纹理转成可组合铺装，连接材料选择与空间节奏。",
+    "url": "https://www.dezeen.com/2026/10/01/our-planet-gensler-ege-carpets-dezeen-showroom/",
+    "media": "https://iandaily.xyz/digest/2026-10-02-gensler-ege-our-planet-carpet-15ef7900fe82.jpg?v=2026-10-02"
+  },
+  {
+    "category": "产品营销",
+    "source": "x.com",
+    "title": "ChatGPT 插件出现短暂的空位分发窗口",
+    "judgment": "平台已在对话中推荐插件，早期团队可围绕高频手工任务快速试做多个入口，再按采用率收敛。",
+    "url": "https://x.com/gregisenberg/status/2105454208040206773",
+    "media": ""
+  },
+  {
+    "category": "产品营销",
+    "source": "x.com",
+    "title": "Outrank 把链接交换改成有门槛的内容市场",
+    "judgment": "站点需通过流量与内容审核，买方用现金购买真实文章位置，不再互相托管链接换积分。",
+    "url": "https://x.com/tibo_maker/status/2105632616770634089",
+    "media": ""
+  },
+  {
+    "category": "AI 协作",
+    "source": "github.com",
+    "title": "gh-secure 用一条命令补仓库安全卫生",
+    "judgment": "工具可在 Copilot 应用、CLI 或 GitHub CLI 中运行，帮助检查并减少公开代码中的密钥泄露。",
+    "url": "https://github.com/GitHubSecurityLab/gh-secure",
+    "media": "https://iandaily.xyz/digest/2026-10-02-github-gh-secure-command-7917a8c8085a.jpg?v=2026-10-02"
+  },
+  {
+    "category": "AI 协作",
+    "source": "blog.gitbutler.com",
+    "title": "Git 3.0 的 SHA-256 默认值引发迁移争议",
+    "judgment": "GitButler 认为仓库标识迁移会把兼容成本推给整个工具链，安全收益需要与实际破坏面一起衡量。",
+    "url": "https://blog.gitbutler.com/git-3-sha-256",
+    "media": "https://iandaily.xyz/digest/2026-10-02-git3-sha256-migration-cost-4bfb1c382425.jpg?v=2026-10-02"
+  },
+  {
+    "category": "AI 资讯",
+    "source": "x.com",
+    "title": "MiMo V2.6 两个版本进入 Agent Arena",
+    "judgment": "Pro 与 Flash 在开源模型中分别位列第五和第九，排名仍需结合任务、样本和后续波动阅读。",
+    "url": "https://x.com/arena/status/2105733983250301224",
+    "media": "https://iandaily.xyz/digest/2026-10-02-mimo-v26-agent-arena-a223ee2e5bd0.jpg?v=2026-10-02"
+  },
+  {
+    "category": "AI 资讯",
+    "source": "x.com",
+    "title": "FLUX 3 Image 登陆 OpenRouter 支持原生 4K",
+    "judgment": "新入口同时提供多参考编辑，便于在统一 API 中比较生成质量、分辨率与调用成本。",
+    "url": "https://x.com/OpenRouter/status/2105759062835220852",
+    "media": "https://iandaily.xyz/digest/2026-10-02-flux-3-openrouter-4k-a00d1ef8d217.jpg?v=2026-10-02"
+  },
+  {
+    "category": "一人公司",
+    "source": "vidily.ai",
+    "title": "Vidily 把 AI 媒体 API 的计费条件并排展示",
+    "judgment": "比价同时标注分辨率、时长、档位、音频与计费单位，避免只看单价造成错误比较。",
+    "url": "https://vidily.ai/",
+    "media": "https://iandaily.xyz/digest/2026-10-02-vidily-ai-api-price-comparison-207cfc340783.jpg?v=2026-10-02"
+  },
+  {
+    "category": "一人公司",
+    "source": "github.com",
+    "title": "Bookmark Guardian 先守住书签的空间记忆",
+    "judgment": "开源任务规范保留原有目录，以证书、内容与同步机制识别假存活链接，并将异常项隔离而非删除。",
+    "url": "https://github.com/askofcc/chromium-bookmark-guardian",
+    "media": "https://iandaily.xyz/digest/2026-10-02-bookmark-guardian-lossless-governance-b68b1f1657d9.jpg?v=2026-10-02"
+  },
+  {
+    "category": "产品设计",
+    "source": "x.com",
+    "title": "Figma 移动端把导航与协作做得更顺手",
+    "judgment": "手机端更新集中修正切换与共同编辑，让离开桌面后的查看、评论和跟进少一层阻力。",
+    "url": "https://x.com/figma/status/2105696428567982367",
+    "media": "https://iandaily.xyz/digest/2026-10-02-figma-mobile-navigation-collaboration-fc1dcb4f0ca9.jpg?v=2026-10-02"
+  },
+  {
+    "category": "产品设计",
+    "source": "dezeen.com",
+    "title": "Freckle 手机用探索任务替代成瘾型应用",
+    "judgment": "七至十三岁儿童可接收户外任务、识别自然对象；系统没有社交媒体、浏览器和应用商店。",
+    "url": "https://www.dezeen.com/2026/10/01/freckle-phone-sends-kids-outside/",
+    "media": "https://iandaily.xyz/digest/2026-10-02-freckle-kids-exploration-phone-3e2fdeff409f.jpg?v=2026-10-02"
+  },
+  {
+    "category": "产品设计",
+    "source": "herduck.com",
+    "title": "Herduck 给多代理任务补上可恢复进度",
+    "judgment": "它记录目标、已完成、阻塞和下一步，并把相关会话归到同一项工作，隔天也能继续。",
+    "url": "https://www.herduck.com",
+    "media": "https://iandaily.xyz/digest/2026-10-02-herduck-work-progress-memory-1bc96c5220a9.jpg?v=2026-10-02"
+  },
+  {
+    "category": "产品设计",
+    "source": "github.com",
+    "title": "crFiles 1.3.0 把多栏文件管理带到 macOS",
+    "judgment": "多页签、多分栏、局域网分享与内置预览进入同一跨平台文件管理器。",
+    "url": "https://github.com/libcr/crFiles/releases",
+    "media": "https://iandaily.xyz/digest/2026-10-02-crfiles-macos-multipane-185ecafae1d7.jpg?v=2026-10-02"
+  },
+  {
+    "category": "产品设计",
+    "source": "statusbar.vrypan.net",
+    "title": "statusbar 给任意终端加上统一状态栏",
+    "judgment": "它把会话信息收进持续可见的底栏，减少在多任务终端中反复确认上下文。",
+    "url": "https://statusbar.vrypan.net/",
+    "media": "https://iandaily.xyz/digest/2026-10-02-statusbar-terminal-status-launch-96f60ebeb5e5.jpg?v=2026-10-02"
+  },
+  {
+    "category": "审美提升",
+    "source": "designboom.com",
+    "title": "大阪木屋把运动场放进家庭中心",
+    "judgment": "开放场地替代传统客厅成为共享核心，木框架围绕活动尺度组织居住空间。",
+    "url": "https://www.designboom.com/architecture/wood-framed-family-home-osaka-flexible-open-sports-space-taichi-shioya/",
+    "media": "https://iandaily.xyz/digest/2026-10-02-osaka-house-sports-court-5b00110be15c.jpg?v=2026-10-02"
+  },
+  {
+    "category": "审美提升",
+    "source": "dezeen.com",
+    "title": "Rael San Fratello 用展览检验激进建筑想象",
+    "judgment": "作品把边境、材料与公共议题放在可体验装置中，让建筑批评不只停在图纸。",
+    "url": "https://www.dezeen.com/2026/10/01/rael-san-fratello-san-francisco-exhibition-yerba-buena-broom-roof/",
+    "media": "https://iandaily.xyz/digest/2026-10-02-rael-san-fratello-radical-imagination-4975cc39de53.jpg?v=2026-10-02"
+  },
+  {
+    "category": "产品营销",
+    "source": "moz.com",
+    "title": "Moz 让站内搜索理解完整需求句",
+    "judgment": "NL Web 可从整站内容回答复杂问题，帮助高意向访客在落地页内继续完成筛选。",
+    "url": "https://moz.com/blog/wtf-is-nl-web-whiteboard-friday",
+    "media": "https://iandaily.xyz/digest/2026-10-02-moz-natural-language-site-search-f3f43b34b796.jpg?v=2026-10-02"
+  },
+  {
+    "category": "AI 协作",
+    "source": "x.com",
+    "title": "Claude Code Mods 开放行为与界面定制",
+    "judgment": "开发者可用少量 TypeScript 改变行为、UI 和功能，再随插件在 CLI 或桌面端安装。",
+    "url": "https://x.com/ClaudeDevs/status/2105721434807083061",
+    "media": "https://iandaily.xyz/digest/2026-10-02-claude-code-mods-38723036ef0e.jpg?v=2026-10-02"
+  },
+  {
+    "category": "AI 协作",
+    "source": "github.com",
+    "title": "Cursor 公开插件规范与官方插件仓库",
+    "judgment": "工具、规则与扩展可沿同一规范分发，让团队把常用代理能力沉淀成可安装组件。",
+    "url": "https://github.com/cursor/plugins",
+    "media": "https://iandaily.xyz/digest/2026-10-02-cursor-plugin-spec-open-007f052629ea.jpg?v=2026-10-02"
+  },
+  {
+    "category": "AI 协作",
+    "source": "turbopuffer.com",
+    "title": "Turbopuffer 主张把向量数据库拆回检索能力",
+    "judgment": "文章认为向量搜索应与对象存储、过滤和计算重新组合，减少为单一索引维护整套系统。",
+    "url": "https://turbopuffer.com/blog/rip-vector-database",
+    "media": "https://iandaily.xyz/digest/2026-10-02-turbopuffer-vector-database-unbundling-d1f544c73216.jpg?v=2026-10-02"
+  },
+  {
+    "category": "AI 资讯",
+    "source": "aisi.gov.uk",
+    "title": "英国 AISI 加固环境后恢复危险能力评估",
+    "judgment": "安全措施升级后，多数高风险能力测试重新启动，说明评测基础设施本身也是安全体系的一部分。",
+    "url": "https://www.aisi.gov.uk/blog/building-a-more-secure-environment-for-evaluating-dangerous-capabilities",
+    "media": "https://iandaily.xyz/digest/2026-10-02-uk-aisi-dangerous-eval-resumed-b61464559c82.jpg?v=2026-10-02"
+  },
+  {
+    "category": "AI 资讯",
+    "source": "the-decoder.com",
+    "title": "模型蒸馏攻击在不同平台暴露处置落差",
+    "judgment": "OpenAI 称已阻断一轮能力窃取，但研究者表示相似方法在 Azure 路径仍可抽取推理内容。",
+    "url": "https://the-decoder.com/openai-says-it-stopped-a-campaign-to-steal-its-models-reasoning-but-the-trick-still-worked-on-azure/",
+    "media": "https://iandaily.xyz/digest/2026-10-02-openai-distillation-azure-gap-26ce4fb2797e.jpg?v=2026-10-02"
+  },
+  {
+    "category": "一人公司",
+    "source": "x.com",
+    "title": "[REDACTED] 用浏览器本地处理敏感信息",
+    "judgment": "人脸与视频模糊、PDF 涂黑和聊天匿名化组成免费工具集，文件无需离开设备。",
+    "url": "https://x.com/yongfook/status/2105584267795599623",
+    "media": "https://iandaily.xyz/digest/2026-10-02-redacted-local-privacy-tools-9a98b3f70dc2.jpg?v=2026-10-02"
+  },
+  {
+    "category": "一人公司",
+    "source": "github.com",
+    "title": "工作咩闹钟把闲置 Linux 设备变成副屏",
+    "judgment": "一个低依赖程序可直写帧缓冲，也能把旧音箱改成低延迟电脑扬声器。",
+    "url": "https://github.com/zanjie1999/workdayAlarmClockGo",
+    "media": "https://iandaily.xyz/digest/2026-10-02-workday-clock-linux-display-speaker-759502e80b2a.jpg?v=2026-10-02"
+  },
+  {
+    "category": "一人公司",
+    "source": "github.com",
+    "title": "Impeccable 补上纯代码首屏的审阅证据",
+    "judgment": "新版允许纯代码首屏经主机采集服务进入审阅门槛，并对无栅格画面保留覆盖率与依赖校验。",
+    "url": "https://github.com/pbakaus/impeccable",
+    "media": "https://iandaily.xyz/digest/2026-10-02-impeccable-design-language-harness-c7658bd5de21.jpg?v=2026-10-02"
+  },
+  {
+    "category": "产品设计",
+    "source": "x.com",
+    "title": "Linear 接入 Muse 整理项目阻塞与优先级",
+    "judgment": "用户可在 Muse 中追踪项目、复核优先级并找出发布阻塞，减少回到列表逐项翻查。",
+    "url": "https://x.com/linear/status/2105711389620736085",
+    "media": "https://iandaily.xyz/digest/2026-10-02-linear-muse-integration-757a934e442c.jpg?v=2026-10-02"
+  },
+  {
+    "category": "产品设计",
+    "source": "github.com",
+    "title": "StreetComplete 把街道补图带到 iOS 公测",
+    "judgment": "用户可在现场回答细小问题来完善 OpenStreetMap，移动端扩展让贡献入口覆盖更多设备。",
+    "url": "https://github.com/streetcomplete/StreetComplete/issues/5421",
+    "media": "https://iandaily.xyz/digest/2026-10-02-streetcomplete-ios-public-beta-62dc1ff121cc.jpg?v=2026-10-02"
+  },
+  {
+    "category": "产品设计",
+    "source": "github.com",
+    "title": "Layerive 增加批量改图与局部删除",
+    "judgment": "本地工作台新增批量生成、图片融合、抠图和元素移除，原图、提示词与历史记录留在电脑。",
+    "url": "https://github.com/newljs/Layerive",
+    "media": "https://iandaily.xyz/digest/2026-10-02-layerive-batch-local-image-agent-4bb4f4c169d3.jpg?v=2026-10-02"
+  },
+  {
+    "category": "产品设计",
+    "source": "rhun.app",
+    "title": "rhun 用汇编语言写了一款轻量代码编辑器",
+    "judgment": "产品把体积、启动速度和可控实现放在首位，以极窄边界重新回答编辑器需要什么。",
+    "url": "https://rhun.app/",
+    "media": "https://iandaily.xyz/digest/2026-10-02-rhun-assembly-code-editor-launch-d81167944e19.jpg?v=2026-10-02"
+  },
+  {
+    "category": "审美提升",
+    "source": "designboom.com",
+    "title": "Vollebak 用细小板岩拼出可弯曲外套",
+    "judgment": "数千块石片被固定到柔性基底，坚硬表皮随身体运动，材料反差直接形成视觉记忆。",
+    "url": "https://www.designboom.com/technology/vollebak-slate-tiles-flexible-rock-jacket-material-experiment/",
+    "media": "https://iandaily.xyz/digest/2026-10-02-vollebak-slate-jacket-7ccf4f6e22c4.jpg?v=2026-10-02"
+  },
+  {
+    "category": "审美提升",
+    "source": "dezeen.com",
+    "title": "Casa Ani 在坡屋顶下并置旧材料与新结构",
+    "judgment": "墨西哥住宅保留地方屋形，同时用开放跨度与克制细部重组采光和家庭关系。",
+    "url": "https://www.dezeen.com/2026/10/01/casa-ani-mexico-valle-de-bravo-chain-siman/",
+    "media": "https://iandaily.xyz/digest/2026-10-02-casa-ani-old-new-balance-6e3d9568a356.jpg?v=2026-10-02"
+  },
+  {
+    "category": "产品营销",
+    "source": "x.com",
+    "title": "个人品牌先要占住一个可归属的观点",
+    "judgment": "持续产出好内容已不足以形成识别，观点要具体、可重复，并能在目标受众脑中与作者绑定。",
+    "url": "https://x.com/KateBour/status/2105634488059306333",
+    "media": "https://iandaily.xyz/digest/2026-10-02-kate-bour-ownable-idea-0a2212bef832.jpg?v=2026-10-02"
+  },
+  {
+    "category": "产品营销",
+    "source": "designboom.com",
+    "title": "可持续设计要由一串小决定共同成立",
+    "judgment": "材料、制造、运输、使用和回收需在同一链路里权衡，单个绿色卖点无法替代系统选择。",
+    "url": "https://www.designboom.com/design/if-design-award-sustainable-decisions/",
+    "media": "https://iandaily.xyz/digest/2026-10-02-sustainable-design-decision-chain-318152a4fae1.jpg?v=2026-10-02"
+  },
+  {
+    "category": "AI 协作",
+    "source": "langchain.com",
+    "title": "LangChain 把模型路由器放进 Agent Harness",
+    "judgment": "工作流可按任务特点选择模型，并将判断逻辑留在可观察、可调试的执行层。",
+    "url": "https://www.langchain.com/blog/how-to-build-a-model-router-in-the-harness",
+    "media": "https://iandaily.xyz/digest/2026-10-02-langchain-harness-model-router-e05798579df4.jpg?v=2026-10-02"
+  },
+  {
+    "category": "AI 协作",
+    "source": "x.com",
+    "title": "Hugging Face 用 MCP 接入用户自己的数据",
+    "judgment": "模型与应用可通过标准工具连接外部数据，减少把每种来源单独粘进对话的重复劳动。",
+    "url": "https://x.com/huggingface/status/2105683434035384360",
+    "media": "https://iandaily.xyz/digest/2026-10-02-huggingface-mcp-data-connection-9468d4b99bf6.jpg?v=2026-10-02"
+  },
+  {
+    "category": "AI 资讯",
+    "source": "cnbc.com",
+    "title": "FTC 调查多家 AI 公司产品风险",
+    "judgment": "监管关注点落到面向消费者的真实产品影响，企业需要拿出风险控制与用户保护证据。",
+    "url": "https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html",
+    "media": ""
+  },
+  {
+    "category": "AI 资讯",
+    "source": "blog.cloudflare.com",
+    "title": "Cloudflare 开源 Clef 决策模型与强化学习平台",
+    "judgment": "项目把轻量决策模型和微调工具公开，目标是在明确动作空间里训练更可控的选择能力。",
+    "url": "https://blog.cloudflare.com/clef-decision-models/",
+    "media": "https://iandaily.xyz/digest/2026-10-02-cloudflare-clef-decision-models-c12c73c18ab6.jpg?v=2026-10-02"
+  },
+  {
+    "category": "一人公司",
+    "source": "m1besyalsgeo.meoo.pub",
+    "title": "单词消消乐把背词放进配对循环",
+    "judgment": "独立作者用消除反馈承接记忆练习，先交付可玩的单一循环，再观察学习效果。",
+    "url": "https://m1besyalsgeo.meoo.pub/",
+    "media": "https://iandaily.xyz/digest/2026-10-02-word-match-learning-game-6ae23a0bcf04.jpg?v=2026-10-02"
+  },
+  {
+    "category": "一人公司",
+    "source": "github.com",
+    "title": "UniMate 用一个模型驱动不同骨架动画",
+    "judgment": "项目面向多种骨架结构统一生成动作，减少每类角色重新适配一套动画流程。",
+    "url": "https://github.com/Friedrich-M/UniMate",
+    "media": "https://iandaily.xyz/digest/2026-10-02-unimate-unified-skeleton-animation-d5f0020d51db.jpg?v=2026-10-02"
+  },
+  {
+    "category": "产品设计",
+    "source": "x.com",
+    "title": "Framer Firewall 按地区与路径分流访客",
+    "judgment": "站点可组合国家和请求路径进行拦截或重定向，也能把访问者送往对应语言版本。",
+    "url": "https://x.com/framer/status/2105662008930770951",
+    "media": "https://iandaily.xyz/digest/2026-10-02-framer-firewall-rules-1919da86b68e.jpg?v=2026-10-02"
+  },
+  {
+    "category": "产品设计",
+    "source": "designboom.com",
+    "title": "VENTRA 概念车在行驶中收集轮胎粉尘",
+    "judgment": "车身把轮胎磨损产生的微粒捕集纳入电动车设计，补上零尾气之外仍被忽略的污染。",
+    "url": "https://www.designboom.com/technology/tu-ecomotive-ventra-electric-car-concept-captures-tire-dust-ev/",
+    "media": "https://iandaily.xyz/digest/2026-10-02-ventra-tire-dust-capture-b6c8edf3e17e.jpg?v=2026-10-02"
+  },
+  {
+    "category": "产品设计",
+    "source": "github.com",
+    "title": "DockLens 在 Dock 上直接展开实时窗口",
+    "judgment": "悬停图标即可查看、切换和关闭各空间窗口，音乐应用还提供基础播放控制。",
+    "url": "https://github.com/firstfu/DockLens-app",
+    "media": "https://iandaily.xyz/digest/2026-10-02-docklens-live-window-previews-51144b817562.jpg?v=2026-10-02"
+  },
+  {
+    "category": "产品设计",
+    "source": "clipseek.ai",
+    "title": "ClipSeek 上架商店并开放素材搜索 MCP",
+    "judgment": "本地 AI 可按自然语言或参考图检索照片与视频，代理还能直接整理、预览和导出素材。",
+    "url": "https://clipseek.ai/",
+    "media": "https://iandaily.xyz/digest/2026-10-02-clipseek-microsoft-store-mcp-bcfb94778395.jpg?v=2026-10-02"
+  },
+  {
+    "category": "审美提升",
+    "source": "designboom.com",
+    "title": "海滨步道把沙丘与植被带回城市边缘",
+    "judgment": "起伏地形和本地植物让防护、通行与停留融为一体，弱化硬质海岸线的断裂感。",
+    "url": "https://www.designboom.com/architecture/dune-inspired-promenade-sand-vegetation-comillas-waterfront-hector-navarro-arkhitekton/",
+    "media": "https://iandaily.xyz/digest/2026-10-02-comillas-dune-promenade-82aae59f6726.jpg?v=2026-10-02"
+  },
+  {
+    "category": "审美提升",
+    "source": "designboom.com",
+    "title": "Meadows 酒店用石墙围出连续花园",
+    "judgment": "低矮体量沿乡野庭院展开，粗粝石材与柔软植被共同调节住宿尺度。",
+    "url": "https://www.designboom.com/architecture/stone-built-meadows-boutique-hotel-gardens-rural-uk-pardini-hall-architecture/",
+    "media": "https://iandaily.xyz/digest/2026-10-02-meadows-stone-garden-hotel-4a0714f3b8a8.jpg?v=2026-10-02"
+  },
+  {
+    "category": "产品营销",
+    "source": "newsletter.pragmaticengineer.com",
+    "title": "Firebase 故障暴露状态页与复盘缺位",
+    "judgment": "后端变更让采用分析 SDK 的 iOS 应用崩溃数小时，官方却未及时更新状态页或发布复盘。",
+    "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-firebases-global-outage",
+    "media": "https://iandaily.xyz/digest/2026-10-02-firebase-outage-response-lesson-1a4b7b3eac3a.jpg?v=2026-10-02"
+  },
+  {
+    "category": "产品营销",
+    "source": "x.com",
+    "title": "NuPhy 用桌面布置征集激活用户作品",
+    "judgment": "品牌邀请用户公开自己的 NuSetup，每两周选出一组获奖布置，让真实使用场景成为持续内容。",
+    "url": "https://x.com/nuphystudio/status/2105629047900582182",
+    "media": "https://iandaily.xyz/digest/2026-10-02-nuphy-community-desk-setup-campaign-a6f339bb9194.jpg?v=2026-10-02"
+  },
+  {
+    "category": "AI 协作",
+    "source": "x.com",
+    "title": "代理工程需要对抗审阅与生产形态测试数据",
+    "judgment": "Arvid 主张在每一步引入互审、完整测试，并把架构、客户与运行手册留在仓库内部。",
+    "url": "https://x.com/arvidkahl/status/2105714739380973975",
+    "media": ""
+  },
+  {
+    "category": "AI 协作",
+    "source": "modal.com",
+    "title": "Modal Sidecars 为代理沙箱增加低延迟边界",
+    "judgment": "辅助服务可贴近 Sandboxes 运行，把网络、凭据或工具能力隔离在更清晰的信任层。",
+    "url": "https://modal.com/blog/introducing-sandbox-sidecars-trust-boundary",
+    "media": "https://iandaily.xyz/digest/2026-10-02-modal-sandbox-sidecars-81b07dd7094e.jpg?v=2026-10-02"
+  },
+  {
+    "category": "AI 协作",
+    "source": "nnethercote.github.io",
+    "title": "Rust 编译器九月优化公开每一项速度收益",
+    "judgment": "文章逐项拆解查询缓存、数据结构与热点修正，让性能改进从总分回到可复用的工程判断。",
+    "url": "https://nnethercote.github.io/2026/09/30/how-to-speed-up-the-rust-compiler-in-september-2026.html",
+    "media": "https://iandaily.xyz/digest/2026-10-02-rust-compiler-september-speedups-0a359a16c562.jpg?v=2026-10-02"
+  }
+]

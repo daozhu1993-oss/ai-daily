@@ -1,0 +1,482 @@
+[
+  {
+    "category": "AI 资讯",
+    "source": "deepmind.google",
+    "title": "Gemini 4 Argon 先向可信测试者开放",
+    "judgment": "模型面向长链编码、企业知识与网络防御，百万输出上限暂未直接面向公众。",
+    "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+    "media": "https://iandaily.xyz/digest/2026-10-01-gemini-4-argon-trusted-preview-05e791994bad.jpg?v=2026-10-01"
+  },
+  {
+    "category": "AI 资讯",
+    "source": "mp.weixin.qq.com",
+    "title": "Ling 3.1 Flash 面向真实长任务升级",
+    "judgment": "新版本强调多步执行与持续上下文，目标从单轮回答转向更稳定的任务完成。",
+    "url": "https://mp.weixin.qq.com/s?__biz=MzkyODk2MDQwNw==&amp;mid=2247488041&amp;idx=1&amp;sn=e895cef2129ff2a96598d78b5a45c17b&amp;chksm=c3a0565f2837a278a1a2f05d010189577c4e94fb18ccdd5e25001862b11c205fcd792160b382&amp;scene=126&amp;sessionid=1790772500#rd",
+    "media": ""
+  },
+  {
+    "category": "一人公司",
+    "source": "podscan.fm",
+    "title": "Podscan 被收购后仍由创始人继续推进",
+    "judgment": "Arvid 将交易称为更接近合并而非退出，技术已先服务买方，整合关系早于资本动作。",
+    "url": "https://podscan.fm/",
+    "media": "https://iandaily.xyz/digest/2026-10-01-podscan-audiohook-acquisition-ed1efc7536da.jpg?v=2026-10-01"
+  },
+  {
+    "category": "一人公司",
+    "source": "formulaai.net",
+    "title": "FormulaAI 补上 VBA 生成并取消登录门槛",
+    "judgment": "先让用户直接完成一次公式或代码任务，再把账户放到需要保存与复用的位置。",
+    "url": "https://formulaai.net",
+    "media": "https://iandaily.xyz/digest/2026-10-01-formulaai-vba-no-login-ab423d3a3fa1.jpg?v=2026-10-01"
+  },
+  {
+    "category": "一人公司",
+    "source": "github.com",
+    "title": "LiveNERF 公开追踪模型能力是否悄然变化",
+    "judgment": "项目用持续样本观察同一模型的输出漂移，让“是不是变弱了”从感觉变成可比较记录。",
+    "url": "https://github.com/ninjahawk/livenerf",
+    "media": "https://iandaily.xyz/digest/2026-10-01-livenerf-model-change-monitor-a552ecbe7152.jpg?v=2026-10-01"
+  },
+  {
+    "category": "产品设计",
+    "source": "x.com",
+    "title": "Paper 用一半内存接入浏览器 WebMCP",
+    "judgment": "这次更新同时补上令牌透明度、图像生成与着色器升级，画布更轻也更开放。",
+    "url": "https://x.com/paper/status/2105332225747435554",
+    "media": "https://iandaily.xyz/digest/2026-10-01-paper-performance-webmcp-76de2cab8656.jpg?v=2026-10-01"
+  },
+  {
+    "category": "产品设计",
+    "source": "pondmath.com",
+    "title": "PondMath 用跳荷叶收住心算游戏循环",
+    "judgment": "作者刻意压低金币和装备等外围机制，让移动反馈服务于计算，而不是淹没练习。",
+    "url": "https://pondmath.com/",
+    "media": "https://iandaily.xyz/digest/2026-10-01-pondmath-core-loop-c780385e0a26.jpg?v=2026-10-01"
+  },
+  {
+    "category": "产品设计",
+    "source": "bevell.app",
+    "title": "Bevell 把照片与草图转成可编辑 CAD",
+    "judgment": "它输出真实比例的 DXF 与 SVG，并识别中心线、圆弧和圆，结果可直接进入常用 CAD。",
+    "url": "https://bevell.app",
+    "media": "https://iandaily.xyz/digest/2026-10-01-bevell-launch-df7933cc567c.jpg?v=2026-10-01"
+  },
+  {
+    "category": "产品设计",
+    "source": "railway.com",
+    "title": "Railway 用一行命令开放免注册虚拟机",
+    "judgment": "临时环境可先运行再决定是否注册，把体验门槛从账号流程移到真实计算任务之后。",
+    "url": "https://railway.com",
+    "media": "https://iandaily.xyz/digest/2026-10-01-railway-no-signup-vm-3892c1e57eb9.jpg?v=2026-10-01"
+  },
+  {
+    "category": "审美提升",
+    "source": "designboom.com",
+    "title": "高速公路礼拜堂把木构做成安静洞穴",
+    "judgment": "重复肋骨、暖色表面与克制采光将交通节点里的短暂停留转成有方向的仪式感。",
+    "url": "https://www.designboom.com/architecture/david-altrath-timber-world-germany-motorway-chapel-autobahnkirche-siegerland-schneider-schumacher/",
+    "media": "https://iandaily.xyz/digest/2026-10-01-siegerland-timber-chapel-0a620443c2fe.jpg?v=2026-10-01"
+  },
+  {
+    "category": "审美提升",
+    "source": "dezeen.com",
+    "title": "MoMA 把合成记忆放进信息设计展",
+    "judgment": "展览将数据、叙事与生成图像并置，提醒观众信息设计也在决定什么会被记住。",
+    "url": "https://www.dezeen.com/2026/09/30/moma-information-design-exhibition-full-disclosure/",
+    "media": "https://iandaily.xyz/digest/2026-10-01-moma-information-design-synthetic-memory-b69c1bdcc726.jpg?v=2026-10-01"
+  },
+  {
+    "category": "产品营销",
+    "source": "moz.com",
+    "title": "Moz 开始把网站访客中的代理当成新用户",
+    "judgment": "表单、文档和页面结构需要同时服务人和自动化工具，营销站因此多了一条机器阅读路径。",
+    "url": "https://moz.com/blog/get-your-website-ready-for-ai-agents",
+    "media": "https://iandaily.xyz/digest/2026-10-01-moz-agent-ready-sites-0075d6a4dea0.jpg?v=2026-10-01"
+  },
+  {
+    "category": "产品营销",
+    "source": "x.com",
+    "title": "一款 CMS SEO 工具公开增长与利润结构",
+    "judgment": "挂牌方称其年收入一百六十万美元、利润一百二十万美元，七成利润率仍需买家尽调。",
+    "url": "https://x.com/agazdecki/status/2105375852951445581",
+    "media": "https://iandaily.xyz/digest/2026-10-01-seo-saas-listing-economics-26deb0181296.jpg?v=2026-10-01"
+  },
+  {
+    "category": "AI 协作",
+    "source": "x.com",
+    "title": "Amp 用空白代理测试 AGENTS 说明是否真能工作",
+    "judgment": "团队先加入仅供开发的登录路径，再让三名无上下文代理验证是否会按文档使用。",
+    "url": "https://x.com/AmpCode/status/2105326808782512384",
+    "media": "https://iandaily.xyz/digest/2026-10-01-amp-agent-friendly-login-eval-dd6ddf59d1d2.jpg?v=2026-10-01"
+  },
+  {
+    "category": "AI 协作",
+    "source": "x.com",
+    "title": "Claude 建立面向开发者的新内容入口",
+    "judgment": "工程深挖、Claude Code、API 指南和团队案例集中到同一站点，减少知识散落。",
+    "url": "https://x.com/ClaudeDevs/status/2105391694741119047",
+    "media": "https://iandaily.xyz/digest/2026-10-01-claude-developer-home-c5e6ebe82a27.jpg?v=2026-10-01"
+  },
+  {
+    "category": "AI 资讯",
+    "source": "openai.com",
+    "title": "OpenAI 披露并处置有组织模型蒸馏攻击",
+    "judgment": "官方说明攻击者通过批量交互抽取能力，并公布检测、封禁与合作处置路径。",
+    "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+    "media": ""
+  },
+  {
+    "category": "AI 资讯",
+    "source": "elevenlabs.io",
+    "title": "ElevenLabs 以二百二十亿美元估值回购员工股份",
+    "judgment": "三亿美元交易为早期成员提供流动性，也让语音产品增长接受新的资本定价。",
+    "url": "https://elevenlabs.io/blog/tender-22bn",
+    "media": "https://iandaily.xyz/digest/2026-10-01-elevenlabs-tender-22b-26ef6d9276e1.jpg?v=2026-10-01"
+  },
+  {
+    "category": "AI 资讯",
+    "source": "x.com",
+    "title": "Arena 限时开放 Claude Sonnet 5.5 盲测",
+    "judgment": "Direct Mode 提供四十八小时测试窗口，真实排名仍需等待更大样本和公开结果。",
+    "url": "https://x.com/arena/status/2105311267619848419",
+    "media": "https://iandaily.xyz/digest/2026-10-01-arena-sonnet-55-direct-test-557a29474a3e.jpg?v=2026-10-01"
+  },
+  {
+    "category": "一人公司",
+    "source": "jambuild.dev",
+    "title": "jambuild 为独立开发者生成可交付构建",
+    "judgment": "它把项目打包、展示与交付串成更短路径，瞄准做完代码却卡在发布的个人开发者。",
+    "url": "https://jambuild.dev/",
+    "media": "https://iandaily.xyz/digest/2026-10-01-jambuild-launch-5dea19679584.jpg?v=2026-10-01"
+  },
+  {
+    "category": "一人公司",
+    "source": "lfm.xiffy.nl",
+    "title": "小工具为 Last.fm 重新补回 RSS",
+    "judgment": "用户输入账号即可订阅近期播放与喜爱记录，把封闭平台数据接回个人阅读器。",
+    "url": "https://lfm.xiffy.nl/",
+    "media": "https://iandaily.xyz/digest/2026-10-01-lastfm-rss-generator-8f30a7b681fd.jpg?v=2026-10-01"
+  },
+  {
+    "category": "产品设计",
+    "source": "x.com",
+    "title": "Linear MCP 开始读取团队自定义视图",
+    "judgment": "代理可直接访问筛选后的项目视角，减少重新描述状态、成员和优先级的成本。",
+    "url": "https://x.com/linear/status/2105372353081291121",
+    "media": "https://iandaily.xyz/digest/2026-10-01-linear-mcp-custom-views-53f310694e21.jpg?v=2026-10-01"
+  },
+  {
+    "category": "产品设计",
+    "source": "compressgif.net",
+    "title": "CompressGIF 允许按目标体积压缩动图",
+    "judgment": "它在浏览器内完成处理，并提供 API 与 MCP，兼顾手动使用和自动化工作流。",
+    "url": "https://compressgif.net",
+    "media": "https://iandaily.xyz/digest/2026-10-01-compressgif-target-size-69ecdeb270b6.jpg?v=2026-10-01"
+  },
+  {
+    "category": "产品设计",
+    "source": "coisland.app",
+    "title": "CoIsland 把工程信号收进 Mac 刘海",
+    "judgment": "构建、部署、流水线、拉取请求与事故只显示需要处理的部分，一键交给代理继续。",
+    "url": "https://coisland.app",
+    "media": "https://iandaily.xyz/digest/2026-10-01-coisland-community-map-launch-9d59986b8e62.jpg?v=2026-10-01"
+  },
+  {
+    "category": "产品设计",
+    "source": "apps.apple.com",
+    "title": "Cyluma 把 Mac 电池状态做成会生长的景观",
+    "judgment": "充电、健康、循环与温度被翻成可见的生态状态，告警和技术细节仍能随时展开。",
+    "url": "https://apps.apple.com/us/app/cyluma/id6809171580",
+    "media": "https://iandaily.xyz/digest/2026-10-01-cyluma-ios-launch-8b99bf5eab9a.jpg?v=2026-10-01"
+  },
+  {
+    "category": "审美提升",
+    "source": "designboom.com",
+    "title": "四十四平方米公寓用紫色与半透明扩空间",
+    "judgment": "半透明隔断借光但不抹平边界，高饱和色把狭小住宅从中性背景变成完整性格。",
+    "url": "https://www.designboom.com/architecture/bureau-color-translucency-44-sqm-lilac-apartment-lisbon/",
+    "media": "https://iandaily.xyz/digest/2026-10-01-bureau-lilac-apartment-fcf52fbd3b1f.jpg?v=2026-10-01"
+  },
+  {
+    "category": "审美提升",
+    "source": "dezeen.com",
+    "title": "挪威桑拿用木肋模拟倒扣船体",
+    "judgment": "重复框架包住紧凑体量，结构、遮蔽与地方造船记忆被压缩进同一个外壳。",
+    "url": "https://www.dezeen.com/2026/09/30/rare-collectiv-skroget-sauna/",
+    "media": "https://iandaily.xyz/digest/2026-10-01-skroget-ship-hull-sauna-0f51a5092566.jpg?v=2026-10-01"
+  },
+  {
+    "category": "产品营销",
+    "source": "x.com",
+    "title": "课程没有消失，先消失的是用户信任",
+    "judgment": "Katelyn 用持续评价反驳“AI 杀死课程”，真正的阻力是低质供给透支了购买预期。",
+    "url": "https://x.com/KateBour/status/2105312800721526953",
+    "media": "https://iandaily.xyz/digest/2026-10-01-course-trust-not-demand-d5fee5f75e32.jpg?v=2026-10-01"
+  },
+  {
+    "category": "产品营销",
+    "source": "railcode.dev",
+    "title": "Railcode 复盘怎样让 AI 网站看起来像设计师做的",
+    "judgment": "案例把提示、参考、间距和组件取舍拆开，重点不是生成速度，而是连续的视觉判断。",
+    "url": "https://railcode.dev/blog/vibe-coded-website",
+    "media": "https://iandaily.xyz/digest/2026-10-01-railcode-designer-like-vibe-site-11203b49cd22.jpg?v=2026-10-01"
+  },
+  {
+    "category": "AI 协作",
+    "source": "factory.ai",
+    "title": "Factory Droid 支持定时与事件触发工程任务",
+    "judgment": "代码检查、维护和交付可在计划时间或仓库事件后自动运行，减少人工唤醒。",
+    "url": "https://factory.ai/news/automations",
+    "media": "https://iandaily.xyz/digest/2026-10-01-factory-automations-events-0983327658f9.jpg?v=2026-10-01"
+  },
+  {
+    "category": "AI 协作",
+    "source": "v0.app",
+    "title": "v0 接入 GPT-6.1 Sol 参与界面生成",
+    "judgment": "用户可在同一设计工程环境切换新模型，比较它对布局、组件与代码的实际影响。",
+    "url": "https://v0.app/?m=openai/gpt-6.1-sol",
+    "media": "https://iandaily.xyz/digest/2026-10-01-v0-gpt61-sol-3f47fae2b8e7.jpg?v=2026-10-01"
+  },
+  {
+    "category": "AI 资讯",
+    "source": "news.mit.edu",
+    "title": "Ataraxos 以低成本击败顶级 Stratego 选手",
+    "judgment": "研究把不完全信息、长期规划和欺骗放进同一游戏环境，训练成本仍保持较低。",
+    "url": "https://news.mit.edu/2026/game-playing-ai-stratego-new-champ-0930",
+    "media": "https://iandaily.xyz/digest/2026-10-01-ataraxos-stratego-agent-41ca34738f32.jpg?v=2026-10-01"
+  },
+  {
+    "category": "AI 资讯",
+    "source": "mp.weixin.qq.com",
+    "title": "DeepSeek 开源昇腾平台基础设施组件",
+    "judgment": "项目把模型运行所需的适配与工程层公开，降低在国产算力上部署和维护的摩擦。",
+    "url": "https://mp.weixin.qq.com/s?__biz=Mzk0OTYwNzc3NQ==&amp;mid=2247485843&amp;idx=1&amp;sn=565102c3642d88e814331390bf62d276&amp;chksm=c2b41a7a4ae29752ec9555ae3de574d2c8f60b42aaf1db0aaf4511c38f174d7abc860a8ee56c&amp;scene=126&amp;sessionid=1790739034#rd",
+    "media": "https://iandaily.xyz/digest/2026-10-01-deepseek-ascend-infrastructure-910449532d7f.jpg?v=2026-10-01"
+  },
+  {
+    "category": "一人公司",
+    "source": "x.com",
+    "title": "五天做完 SaaS 只换来三个试用",
+    "judgment": "产品、广告、外链和客服自动化都已启动，结果仍提醒独立开发者：制作速度不等于需求。",
+    "url": "https://x.com/dannypostma/status/2105166163382845555",
+    "media": ""
+  },
+  {
+    "category": "一人公司",
+    "source": "vocalove.io",
+    "title": "Vocalove 以单页工具试探语音需求",
+    "judgment": "作者先上线可直接体验的语音页面，再从真实使用反馈判断功能和付费边界。",
+    "url": "https://vocalove.io",
+    "media": "https://iandaily.xyz/digest/2026-10-01-vocalove-ai-tool-launch-6014a7ae72b2.jpg?v=2026-10-01"
+  },
+  {
+    "category": "一人公司",
+    "source": "how2livebetter.net",
+    "title": "循证生活指南按人生阶段重新编排",
+    "judgment": "作者把六百余条建议从知识清单改成阶段入口，让读者先看到此刻最相关的行动。",
+    "url": "https://how2livebetter.net",
+    "media": "https://iandaily.xyz/digest/2026-10-01-how-to-live-better-stage-guide-96915d178bb6.jpg?v=2026-10-01"
+  },
+  {
+    "category": "产品设计",
+    "source": "x.com",
+    "title": "Framer 让客户在建站阶段直接开分支",
+    "judgment": "设计团队还在搭主站时，客户已能进入项目建立页面，并按需调用 Agent 补齐内容。",
+    "url": "https://x.com/framer/status/2105261467721494823",
+    "media": "https://iandaily.xyz/digest/2026-10-01-framer-client-branches-b9899a581051.jpg?v=2026-10-01"
+  },
+  {
+    "category": "产品设计",
+    "source": "photofromemoji.top",
+    "title": "Emoji 马赛克把照片处理留在浏览器",
+    "judgment": "用户可调整符号、密度和颜色，原图不上传，隐私边界在界面里直接可见。",
+    "url": "https://photofromemoji.top/",
+    "media": "https://iandaily.xyz/digest/2026-10-01-photo-from-emoji-local-tool-80da9afb75c6.jpg?v=2026-10-01"
+  },
+  {
+    "category": "产品设计",
+    "source": "designboom.com",
+    "title": "Flying Flea C6 用触觉与屏幕重做电摩反馈",
+    "judgment": "圆形界面、实体控制与骑行数据围绕同一视线范围组织，让电动系统保持机械感。",
+    "url": "https://www.designboom.com/technology/royal-enfield-revolutionizes-the-electric-motorcycle-experience-with-flying-flea-c6/",
+    "media": "https://iandaily.xyz/digest/2026-10-01-flying-flea-c6-electric-motorcycle-cae97304af6f.jpg?v=2026-10-01"
+  },
+  {
+    "category": "产品设计",
+    "source": "upsolve.ai",
+    "title": "Upsolve 让业务团队直接搭数据模型",
+    "judgment": "指标、维度与关系可在可视界面里定义，再交给下游分析，而非全靠工程排期。",
+    "url": "https://upsolve.ai/features/data-models",
+    "media": "https://iandaily.xyz/digest/2026-10-01-upsolve-data-models-launch-92058c429064.jpg?v=2026-10-01"
+  },
+  {
+    "category": "审美提升",
+    "source": "designboom.com",
+    "title": "水晶动物把咆哮凝固成透明切面",
+    "judgment": "张开的口部与尖锐折面同时保留力量和脆弱感，透明材质让内部结构参与轮廓。",
+    "url": "https://www.designboom.com/art/crystal-animal-sculptures-open-mouthed-gesture-roar-ferdi-b-dick/",
+    "media": "https://iandaily.xyz/digest/2026-10-01-ferdi-crystal-animal-roars-ed7fa4defffd.jpg?v=2026-10-01"
+  },
+  {
+    "category": "审美提升",
+    "source": "designboom.com",
+    "title": "Settle 用可移动家具搭出临时公共客厅",
+    "judgment": "相同构件能组合成坐席、桌面与边界，让空地随活动密度改变而不固定用途。",
+    "url": "https://www.designboom.com/architecture/settle-movable-furniture-installation-temporary-public-interior-ireland-trestle/",
+    "media": "https://iandaily.xyz/digest/2026-10-01-settle-movable-public-interior-0a1712e3a9ac.jpg?v=2026-10-01"
+  },
+  {
+    "category": "产品营销",
+    "source": "x.com",
+    "title": "Ahrefs 用实体识别减少品牌监测误判",
+    "judgment": "系统区分公司、产品与同名普通词，AI 回答里的品牌出现次数因此更接近真实语义。",
+    "url": "https://x.com/ahrefs/status/2105325207149793535",
+    "media": "https://iandaily.xyz/digest/2026-10-01-ahrefs-brand-radar-entities-a9e24fd23ef5.jpg?v=2026-10-01"
+  },
+  {
+    "category": "产品营销",
+    "source": "x.com",
+    "title": "Tibo 用二十九万条视频比较 AI 内容表现",
+    "judgment": "其自报样本里 AI 视频平均播放量约为实拍两倍，结论仍需结合题材和账号结构理解。",
+    "url": "https://x.com/tibo_maker/status/2105228711557570842",
+    "media": "https://iandaily.xyz/digest/2026-10-01-ai-video-tiktok-study-9c2c977824dd.jpg?v=2026-10-01"
+  },
+  {
+    "category": "AI 协作",
+    "source": "x.com",
+    "title": "GitHub HydraFusion 用多模型交叉修订答案",
+    "judgment": "任务会经历起草、批评、修订或升级，用户最终只接收一份合并结果。",
+    "url": "https://x.com/github/status/2105352994875232629",
+    "media": "https://iandaily.xyz/digest/2026-10-01-github-hydrafusion-router-ac7e79dac49e.jpg?v=2026-10-01"
+  },
+  {
+    "category": "AI 协作",
+    "source": "replit.com",
+    "title": "Replit 让主代理自己决定何时加深推理",
+    "judgment": "Harness 从替模型做决定，转向提供思考、分派和不同投入强度的可选工具。",
+    "url": "https://replit.com/blog/free-the-models",
+    "media": "https://iandaily.xyz/digest/2026-10-01-replit-harness-options-61aa71344927.jpg?v=2026-10-01"
+  },
+  {
+    "category": "AI 协作",
+    "source": "lennysnewsletter.com",
+    "title": "Jev 用八个真实任务展示低成本模型边界",
+    "judgment": "案例覆盖日常工作流而非单项基准，重点是哪些任务足够快、便宜且可以反复使用。",
+    "url": "https://www.lennysnewsletter.com/p/jev-8-real-use-cases-for-the-fastest",
+    "media": ""
+  },
+  {
+    "category": "AI 资讯",
+    "source": "promptarmor.com",
+    "title": "研究者披露 Copilot Cowork 网关外传漏洞",
+    "judgment": "攻击可借 AI 网关绕过沙箱读取文件，暴露代理、浏览器与本地权限交汇处的风险。",
+    "url": "https://www.promptarmor.com/resources/hijacking-copilot-coworks-ai-gateway-to-exfiltrate-files",
+    "media": "https://iandaily.xyz/digest/2026-10-01-copilot-cowork-gateway-exfiltration-a5dd687d9db8.jpg?v=2026-10-01"
+  },
+  {
+    "category": "一人公司",
+    "source": "x.com",
+    "title": "Yongfook 暂停把公开构建当默认营销",
+    "judgment": "当技术领先期被压缩，公开过程带来的口碑可能同时给复制者送去清晰需求与路径。",
+    "url": "https://x.com/yongfook/status/2105208974140461504",
+    "media": ""
+  },
+  {
+    "category": "一人公司",
+    "source": "crawlraven.com",
+    "title": "CrawlRaven 把网页抓取做成 MCP 服务",
+    "judgment": "代理可在既有工具调用中获取结构化页面内容，减少每个项目重复维护爬取脚本。",
+    "url": "https://crawlraven.com/mcp",
+    "media": "https://iandaily.xyz/digest/2026-10-01-crawlraven-mcp-launch-e96022dc3b7c.jpg?v=2026-10-01"
+  },
+  {
+    "category": "产品设计",
+    "source": "x.com",
+    "title": "Figma Motion 把动画参数收进设计系统",
+    "judgment": "动效样式可发布到组件库，并经 MCP 与 Skill 被设计代理和编码代理直接引用。",
+    "url": "https://x.com/figma/status/2105329949548912914",
+    "media": "https://iandaily.xyz/digest/2026-10-01-figma-custom-motion-styles-97f8bf476671.jpg?v=2026-10-01"
+  },
+  {
+    "category": "产品设计",
+    "source": "sspai.com",
+    "title": "2Do 以现代交互重构经典任务管理器",
+    "judgment": "新版保留清单与项目的高密度组织，同时重做导航、录入和跨设备使用路径。",
+    "url": "https://sspai.com/post/115166",
+    "media": "https://iandaily.xyz/digest/2026-10-01-2do-modern-rebuild-4ce71a4fb1ad.jpg?v=2026-10-01"
+  },
+  {
+    "category": "产品设计",
+    "source": "facebetter.net",
+    "title": "FaceBetter 把美颜能力直接装进 OBS",
+    "judgment": "美肤、美型、妆容、贴纸与虚拟背景同时支持 macOS 和 Windows，减少直播链路拼接。",
+    "url": "https://facebetter.net/zh/obs",
+    "media": "https://iandaily.xyz/digest/2026-10-01-facebetter-obs-plugin-4b6877b0768e.jpg?v=2026-10-01"
+  },
+  {
+    "category": "产品设计",
+    "source": "boringinfra.company",
+    "title": "Campfire 给人和编码代理一间共享工作室",
+    "judgment": "目标、上下文、工具权限、决定与结果留在同一工作区，换会话也不用重建现场。",
+    "url": "https://boringinfra.company/campfire",
+    "media": "https://iandaily.xyz/digest/2026-10-01-campfire-infrastructure-launch-c678f7ff06dc.jpg?v=2026-10-01"
+  },
+  {
+    "category": "审美提升",
+    "source": "designboom.com",
+    "title": "ANREALAGE 用两千块电子墨水织出变色皮肤",
+    "judgment": "低刷新材质被用来制造缓慢显影，服装的图案从印刷结果变成持续发生的时间过程。",
+    "url": "https://www.designboom.com/technology/anrealage-dresses-eink-panels-color-changing-skin-kunihiko-morinaga/",
+    "media": "https://iandaily.xyz/digest/2026-10-01-anrealage-eink-dress-5653a2da74f4.jpg?v=2026-10-01"
+  },
+  {
+    "category": "审美提升",
+    "source": "designboom.com",
+    "title": "三座巨型吊灯重建圣罗兰历史舞厅",
+    "judgment": "尺度被放大到接近建筑，灯具既是照明也是空间坐标，把短暂秀场连回品牌记忆。",
+    "url": "https://www.designboom.com/design/monumental-chandeliers-yves-saint-laurent-trocadero-paris-anthony-vaccarello/",
+    "media": "https://iandaily.xyz/digest/2026-10-01-ysl-trocadero-chandeliers-0084011a7fcc.jpg?v=2026-10-01"
+  },
+  {
+    "category": "审美提升",
+    "source": "alphapixeldev.com",
+    "title": "一篇实测拆开四种 GPU 字体渲染方法",
+    "judgment": "文章比较清晰度、缩放、内存与实现成本，让字体边缘的视觉差异回到技术条件。",
+    "url": "https://alphapixeldev.com/sdf-vs-msdf-vs-slug-vs-rive-gpu-text-rendering/",
+    "media": "https://iandaily.xyz/digest/2026-10-01-gpu-text-rendering-methods-9e974a81bb73.jpg?v=2026-10-01"
+  },
+  {
+    "category": "产品营销",
+    "source": "x.com",
+    "title": "产品经理的核心手艺被收束为决策",
+    "judgment": "会做很多事只是表面能力，更可训练的是如何收集证据、比较代价并及时作出判断。",
+    "url": "https://x.com/lennysan/status/2105388813816299737",
+    "media": "https://iandaily.xyz/digest/2026-10-01-pm-craft-decision-making-8a40d4bbe2c7.jpg?v=2026-10-01"
+  },
+  {
+    "category": "AI 协作",
+    "source": "x.com",
+    "title": "Zed 1.22 让主代理按任务选择子模型",
+    "judgment": "每张子任务卡显示实际模型，复杂工作可以拆分，同时保留谁在处理什么的可见性。",
+    "url": "https://x.com/zeddotdev/status/2105336857689035054",
+    "media": "https://iandaily.xyz/digest/2026-10-01-zed-122-model-subagents-f2bddad072ed.jpg?v=2026-10-01"
+  },
+  {
+    "category": "AI 协作",
+    "source": "openrouter.ai",
+    "title": "OpenRouter 把工具调用与回归测试串成一套",
+    "judgment": "从生产流量抽取黄金集，再在提示或模型变化后复测，评估不必停在一次演示。",
+    "url": "https://openrouter.ai/blog/tutorials/how-to-test-tool-calling-accuracy-in-ai-agents/",
+    "media": "https://iandaily.xyz/digest/2026-10-01-openrouter-agent-eval-toolkit-95f2c68ae477.jpg?v=2026-10-01"
+  },
+  {
+    "category": "AI 协作",
+    "source": "x.com",
+    "title": "NVIDIA 用一个 Skill 搭出产线视觉代理",
+    "judgment": "教程从提示生成告警、视频搜索和事故报告，展示边缘视觉任务怎样被编排成工作流。",
+    "url": "https://x.com/NVIDIAAI/status/2105351177902948456",
+    "media": "https://iandaily.xyz/digest/2026-10-01-nvidia-visual-agent-skill-16397ca7ecbf.jpg?v=2026-10-01"
+  }
+]

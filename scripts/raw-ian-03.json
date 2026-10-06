@@ -1,0 +1,482 @@
+[
+  {
+    "category": "AI 资讯",
+    "source": "research.meta.ai",
+    "title": "Meta 与数学家协作完成六篇论文",
+    "judgment": "五篇回应公开难题，论文标注人类与 AI 主笔段落，并交由另一组数学家审阅。",
+    "url": "https://research.meta.ai/blog/solving-open-research-problems-together",
+    "media": "https://iandaily.xyz/digest/2026-10-03-meta-muse-spark-open-math-papers-b5f826f0d1ef.jpg?v=2026-10-03"
+  },
+  {
+    "category": "AI 资讯",
+    "source": "blogs.nvidia.com",
+    "title": "DGX Spark 推出 64GB 本地版",
+    "judgment": "十月下旬由多家硬件厂商发售，起价 4999 美元，可在端侧运行最高千亿参数模型。",
+    "url": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/",
+    "media": "https://iandaily.xyz/digest/2026-10-03-nvidia-dgx-spark-64gb-6a77054c55fb.jpg?v=2026-10-03"
+  },
+  {
+    "category": "AI 资讯",
+    "source": "fermionresearch.com",
+    "title": "Phonon-2 把语音识别模型压到 164MB",
+    "judgment": "2.1 比特权重取得 5.21% 词错率，M5 Air 二十秒转写一小时音频。",
+    "url": "https://www.fermionresearch.com/research/phonon-2/",
+    "media": "https://iandaily.xyz/digest/2026-10-03-phonon-2-lightweight-asr-b778d1066944.jpg?v=2026-10-03"
+  },
+  {
+    "category": "一人公司",
+    "source": "hallowpaws.com",
+    "title": "HallowPaws 一天上线并跑通首笔小额订单",
+    "judgment": "作者一天交付小站，先跑通 1.99 美元付款链路，再争取搜索流量。",
+    "url": "https://hallowpaws.com",
+    "media": "https://iandaily.xyz/digest/2026-10-03-hallowpaws-one-day-first-sale-1a1d1d3ca246.jpg?v=2026-10-03"
+  },
+  {
+    "category": "一人公司",
+    "source": "playcsbrowser.com",
+    "title": "浏览器版运输船把怀旧地图做成即点即玩",
+    "judgment": "独立作者在开源单机版本上补出联机对战，进入页面即可开局，不再要求安装客户端。",
+    "url": "https://playcsbrowser.com/zh",
+    "media": "https://iandaily.xyz/digest/2026-10-03-playcsbrowser-multiplayer-launch-074c74b36a76.jpg?v=2026-10-03"
+  },
+  {
+    "category": "产品设计",
+    "source": "dezeen.com",
+    "title": "Zonify 用吸音隔断整理混合会议空间",
+    "judgment": "墙面与桌面模块把声学处理和分区合在一起，适合在开放办公室快速建立小型会议位。",
+    "url": "https://www.dezeen.com/2026/10/02/zonify-wall-zonify-table-studio-stockholm-zilenzio-dezeen-showroom/",
+    "media": "https://iandaily.xyz/digest/2026-10-03-zonify-acoustic-meeting-system-fd558ebf5a6d.jpg?v=2026-10-03"
+  },
+  {
+    "category": "产品设计",
+    "source": "onlig.ht",
+    "title": "Onlight 把 Hue 灯控放进菜单栏",
+    "judgment": "原生工具支持房间、灯具和全局快捷键，不用打开完整客户端也能完成开关与调色。",
+    "url": "https://www.onlig.ht/",
+    "media": "https://iandaily.xyz/digest/2026-10-03-onlight-native-hue-menu-bar-2dc2ad2fb648.jpg?v=2026-10-03"
+  },
+  {
+    "category": "产品设计",
+    "source": "cssbed.com",
+    "title": "CSS Bed 收集可直接起步的无类名主题",
+    "judgment": "开发者只需替换样式表，就能为 HTML 建立排版基线，再从真实页面继续调整。",
+    "url": "https://www.cssbed.com",
+    "media": "https://iandaily.xyz/digest/2026-10-03-css-bed-classless-theme-gallery-7b5aa064625d.jpg?v=2026-10-03"
+  },
+  {
+    "category": "产品设计",
+    "source": "figure.ai",
+    "title": "Figure 把退役机器人熔成纪念构件",
+    "judgment": "F.02 机队整体熔炼既保护执行器知识产权，也把退役过程转成可见的品牌叙事。",
+    "url": "https://www.figure.ai/news/f-02-decommission",
+    "media": "https://iandaily.xyz/digest/2026-10-03-figure-f02-decommission-keepsake-158dd66eac14.jpg?v=2026-10-03"
+  },
+  {
+    "category": "审美提升",
+    "source": "designboom.com",
+    "title": "生成代码在陶瓷花器表面留下可控差异",
+    "judgment": "三件花器把算法纹样与产品体量并置，每个表面既有系统规则，也保留烧制后的变化。",
+    "url": "https://www.designboom.com/design/generative-code-patterns-mm-collective-ceramic-flower-vases-mk-designers/",
+    "media": "https://iandaily.xyz/digest/2026-10-03-mmcollective-code-pattern-vases-e8c236f7289d.jpg?v=2026-10-03"
+  },
+  {
+    "category": "审美提升",
+    "source": "dezeen.com",
+    "title": "山顶镜面水池把停留变成观看动作",
+    "judgment": "踏石穿过浅水到达观景点，阿尔卑斯山景被倒影拉近，路径本身就是一次减速。",
+    "url": "https://www.dezeen.com/2026/10/02/snohetta-lech-mountain-mirror/",
+    "media": "https://iandaily.xyz/digest/2026-10-03-snohetta-lech-mountain-mirror-788505dc241c.jpg?v=2026-10-03"
+  },
+  {
+    "category": "产品营销",
+    "source": "x.com",
+    "title": "市场先记住专家，才有机会比较谁更好",
+    "judgment": "专业能力需要被压成稳定、可复述的认知位置，否则受众很难在需要时想起具体的人。",
+    "url": "https://x.com/KateBour/status/2106051055637147688",
+    "media": ""
+  },
+  {
+    "category": "产品营销",
+    "source": "home-assistant.io",
+    "title": "Home Assistant 改名重申云的含义",
+    "judgment": "品牌公开解释为何大厂让云服务等同于锁定与订阅，并用新名称强调用户拥有和本地控制。",
+    "url": "https://www.home-assistant.io/blog/2026/10/02/big-tech-ruined-the-cloud-so-were-renaming-ours/",
+    "media": "https://iandaily.xyz/digest/2026-10-03-home-assistant-cloud-renaming-f17bc6f4c83f.jpg?v=2026-10-03"
+  },
+  {
+    "category": "AI 协作",
+    "source": "x.com",
+    "title": "Claude Code 用旁观代理提醒遗漏信息",
+    "judgment": "插件另起侧代理观察输出，把用户可能遗漏的重要信息重新提到眼前。",
+    "url": "https://x.com/ClaudeDevs/status/2106118517447876618",
+    "media": "https://iandaily.xyz/digest/2026-10-03-claude-code-you-should-know-plugin-43cfac91372a.jpg?v=2026-10-03"
+  },
+  {
+    "category": "AI 协作",
+    "source": "mondobe.com",
+    "title": "一篇反思 AI 如何改变编程手艺的文章",
+    "judgment": "作者把效率提升与失去掌控感并置，提醒团队检查自己究竟保留了哪些理解和选择。",
+    "url": "https://mondobe.com/ai-makes-me-sad",
+    "media": "https://iandaily.xyz/digest/2026-10-03-ai-makes-me-sad-craft-essay-5aca12021311.jpg?v=2026-10-03"
+  },
+  {
+    "category": "AI 资讯",
+    "source": "x.com",
+    "title": "GPT-6.1 Sol 登上代理竞技场第五名",
+    "judgment": "榜单给出 11.23% 净提升和 0.56 美元成本，让能力与费用同表比较。",
+    "url": "https://x.com/arena/status/2106109027923140928",
+    "media": "https://iandaily.xyz/digest/2026-10-03-gpt-61-sol-agent-arena-rank-81cf958d0d39.jpg?v=2026-10-03"
+  },
+  {
+    "category": "AI 资讯",
+    "source": "x.com",
+    "title": "Google 把 TPU 太空实验送入轨道",
+    "judgment": "原型卫星记录 TPU 在极端环境与飞行压力下的表现，验证轨道算力。",
+    "url": "https://x.com/GoogleAI/status/2106049984164463069",
+    "media": "https://iandaily.xyz/digest/2026-10-03-google-suncatcher-orbit-prototype-3790937684ee.jpg?v=2026-10-03"
+  },
+  {
+    "category": "一人公司",
+    "source": "x.com",
+    "title": "[REDACTED] 新增会议人脸模糊摄像头",
+    "judgment": "Mac 虚拟摄像头可模糊人脸或只保留自己，兼容 Zoom、Meet 等视频应用。",
+    "url": "https://x.com/yongfook/status/2105946193893507168",
+    "media": "https://iandaily.xyz/digest/2026-10-03-redacted-camera-face-blur-6d11619d54c8.jpg?v=2026-10-03"
+  },
+  {
+    "category": "一人公司",
+    "source": "voraxcloud.com",
+    "title": "Vorax 让文件成本由保存者分摊",
+    "judgment": "重复文件只存一份，费用由多个保存者共担，并支持 WebDAV 与自定义域名访问。",
+    "url": "https://voraxcloud.com",
+    "media": "https://iandaily.xyz/digest/2026-10-03-vorax-cloud-shared-storage-cost-bf9e921c609b.jpg?v=2026-10-03"
+  },
+  {
+    "category": "一人公司",
+    "source": "siyuzhe.com",
+    "title": "十年域名终于变成一个匿名树洞",
+    "judgment": "作者先发布最小可用的主题与留言体验，没有等内容和界面都成熟才公开。",
+    "url": "https://siyuzhe.com",
+    "media": ""
+  },
+  {
+    "category": "产品设计",
+    "source": "dezeen.com",
+    "title": "Nothing 把杯盖折进可堆肥纸杯结构",
+    "judgment": "冷热杯都用延伸杯壁形成一体式饮口，减少独立塑料盖，也让外带包装只剩一种主要材料。",
+    "url": "https://www.dezeen.com/2026/10/02/nothing-takeaway-paper-cup/",
+    "media": "https://iandaily.xyz/digest/2026-10-03-nothing-integrated-lid-paper-cup-34fe9eb7c398.jpg?v=2026-10-03"
+  },
+  {
+    "category": "产品设计",
+    "source": "shopify.com",
+    "title": "Shopify Canvas 在画板查看整家商店",
+    "judgment": "商家直接编辑真实代码渲染的页面，Sidekick 可跨模板改文件并用截图验收。",
+    "url": "https://www.shopify.com/news/introducing-canvas",
+    "media": "https://iandaily.xyz/digest/2026-10-03-shopify-canvas-whole-store-editor-c8029f91cfa0.jpg?v=2026-10-03"
+  },
+  {
+    "category": "产品设计",
+    "source": "github.com",
+    "title": "Pebrel 补齐 Windows 终端分屏会话",
+    "judgment": "新版本加入通知、补全、光标与多代理环境的 LaTeX 展示，缩小两端体验差距。",
+    "url": "https://github.com/Kuddev/pebrel",
+    "media": "https://iandaily.xyz/digest/2026-10-03-pebrel-windows-terminal-major-update-f6c159d5277f.jpg?v=2026-10-03"
+  },
+  {
+    "category": "产品设计",
+    "source": "x.com",
+    "title": "Framer Agent 一次展示四类互动组件",
+    "judgment": "弧形跑马灯、热点面板、无限画布与前后对比滑杆都给出具体提示词和交互参数。",
+    "url": "https://x.com/framer/status/2106108956263477579",
+    "media": "https://iandaily.xyz/digest/2026-10-03-framer-agent-interactive-components-b4a1139f1e07.jpg?v=2026-10-03"
+  },
+  {
+    "category": "审美提升",
+    "source": "designboom.com",
+    "title": "LOEWE 把秀场抬成一座环形白色竞技场",
+    "judgment": "临时空间脱离单一平面，让观众、模特与结构围绕圆环重新建立视线关系。",
+    "url": "https://www.designboom.com/architecture/loewe-paris-runway-ethereal-arena-casper-mueller-kneer-spring-summer-ss27/",
+    "media": "https://iandaily.xyz/digest/2026-10-03-loewe-circular-runway-arena-c9ede08d8abd.jpg?v=2026-10-03"
+  },
+  {
+    "category": "审美提升",
+    "source": "dezeen.com",
+    "title": "纽约旧立面碎片被铸成一组新家具",
+    "judgment": "Prieto 重组旧建筑构件，让材料的磨损与尺度成为家具表情。",
+    "url": "https://www.dezeen.com/2026/10/02/rafael-prieto-the-future-of-the-past-emma-scully-gallery/",
+    "media": "https://iandaily.xyz/digest/2026-10-03-prieto-salvaged-facade-furniture-88387830847f.jpg?v=2026-10-03"
+  },
+  {
+    "category": "产品营销",
+    "source": "x.com",
+    "title": "Ahrefs 开始检查 AI 搜索为何读不到页面",
+    "judgment": "审计指出被拦机器人、慢页面与规则冲突，帮助站点先修可抓取性再谈引用。",
+    "url": "https://x.com/ahrefs/status/2105930800751362508",
+    "media": "https://iandaily.xyz/digest/2026-10-03-ahrefs-ai-crawl-audit-4e27238bf454.jpg?v=2026-10-03"
+  },
+  {
+    "category": "产品营销",
+    "source": "supabase.com",
+    "title": "Supabase 收购 Turso 补边缘数据库",
+    "judgment": "分布式 SQLite 合并后可直接进入 Supabase 应用后端栈。",
+    "url": "https://supabase.com/blog/supabase-is-acquiring-turso",
+    "media": "https://iandaily.xyz/digest/2026-10-03-supabase-acquires-turso-a29eb7b8a13a.jpg?v=2026-10-03"
+  },
+  {
+    "category": "AI 协作",
+    "source": "x.com",
+    "title": "Amp Runners 让代理在自有机器上执行",
+    "judgment": "树莓派、测试设备、GPU 主机与构建机都能成为远程运行点，保留真实硬件环境。",
+    "url": "https://x.com/AmpCode/status/2105916692866248803",
+    "media": "https://iandaily.xyz/digest/2026-10-03-amp-runners-owned-machines-22fa5db2e9a3.jpg?v=2026-10-03"
+  },
+  {
+    "category": "AI 协作",
+    "source": "allenai.org",
+    "title": "AstaBrief 用 8B 模型生成引用报告",
+    "judgment": "模型把问题与检索片段组织成引用报告，训练数据开放，Fast mode 已上线。",
+    "url": "https://allenai.org/blog/astabrief",
+    "media": "https://iandaily.xyz/digest/2026-10-03-astabrief-cited-scientific-reports-52098f32b3f0.jpg?v=2026-10-03"
+  },
+  {
+    "category": "AI 资讯",
+    "source": "epoch.ai",
+    "title": "Epoch 估算 HBM 可承载的并发代理规模",
+    "judgment": "研究把未来两年硬件出货换算为三千万至一点七亿个前沿模型并发实例，并公开假设。",
+    "url": "https://epoch.ai/publications/estimating-the-agent-population",
+    "media": "https://iandaily.xyz/digest/2026-10-03-epoch-agent-population-hbm-estimate-29dc4d8b4d13.jpg?v=2026-10-03"
+  },
+  {
+    "category": "AI 资讯",
+    "source": "x.com",
+    "title": "Qwen-Image-2.1 登顶开源权重图像组",
+    "judgment": "本地部署评测中，它在生成与编辑两项榜单都成为排名最高的开源权重模型。",
+    "url": "https://x.com/ArtificialAnlys/status/2105790682376065463",
+    "media": "https://iandaily.xyz/digest/2026-10-03-qwen-image-21-open-weight-ranking-f3e5909468fc.jpg?v=2026-10-03"
+  },
+  {
+    "category": "一人公司",
+    "source": "x.com",
+    "title": "游戏广告数据平台以小团队做到高利润",
+    "judgment": "挂牌方称两年实现三百五十万美元收入和二百七十万美元利润，数字仍需买家尽调。",
+    "url": "https://x.com/agazdecki/status/2106105025940627917",
+    "media": "https://iandaily.xyz/digest/2026-10-03-gaming-ad-data-platform-listing-11ade869d590.jpg?v=2026-10-03"
+  },
+  {
+    "category": "一人公司",
+    "source": "aihotellobby.pro",
+    "title": "Riffuvo 只做好双主角舞台视频",
+    "judgment": "上传两张照片即可让朋友、宠物或原创角色同台，先把一个清楚玩法做完整再扩展。",
+    "url": "https://aihotellobby.pro",
+    "media": "https://iandaily.xyz/digest/2026-10-03-riffuvo-two-character-stage-video-e8e4fc6c6e26.jpg?v=2026-10-03"
+  },
+  {
+    "category": "一人公司",
+    "source": "promptsref.com",
+    "title": "Promptsref 把双人视频做成模板",
+    "judgment": "页面预置参考视频、提示词和参数，用户替换两张照片即可生成十五秒双人表演。",
+    "url": "https://promptsref.com/tool/AI-Video-Generator/rose-and-bruno-mars-apt-ai-video-generator",
+    "media": "https://iandaily.xyz/digest/2026-10-03-promptsref-apt-template-launch-64f7fcc4d6ca.jpg?v=2026-10-03"
+  },
+  {
+    "category": "产品设计",
+    "source": "america.gov",
+    "title": "America.gov 把分散政务入口收进一处",
+    "judgment": "统一入口基于官方来源回答办事问题，会话结束即销毁，下一步还计划串起跨机构表单。",
+    "url": "https://america.gov/",
+    "media": "https://iandaily.xyz/digest/2026-10-03-america-gov-unified-service-portal-893aeafb1293.jpg?v=2026-10-03"
+  },
+  {
+    "category": "产品设计",
+    "source": "gewujian.cn",
+    "title": "格物间用 27 次缩放走完宇宙尺度",
+    "judgment": "十个浏览器演示把光年、轨道与星系分布变成可操作的尺度变化，不登录也能直接体验。",
+    "url": "https://gewujian.cn/topics/pMaEDfRrATvyqRT6FFfvWQ",
+    "media": "https://iandaily.xyz/digest/2026-10-03-gewujian-interactive-universe-scale-169e43e28de3.jpg?v=2026-10-03"
+  },
+  {
+    "category": "产品设计",
+    "source": "github.com",
+    "title": "Audionaut 开源一套跨平台多轨音频编辑器",
+    "judgment": "项目把录音、波形、多轨剪辑与导出放进同一桌面界面，提供可自托管的轻量音频底座。",
+    "url": "https://github.com/kvoltmer/Audionaut",
+    "media": "https://iandaily.xyz/digest/2026-10-03-audionaut-cross-platform-audio-editor-8082028a3b97.jpg?v=2026-10-03"
+  },
+  {
+    "category": "审美提升",
+    "source": "designboom.com",
+    "title": "活动木瓦让六米塔楼随风改变表情",
+    "judgment": "装置借当地石塔比例建立轮廓，再用会摆动的木片把风变成表面的光影和声响。",
+    "url": "https://www.designboom.com/architecture/moving-shingles-timber-tower-lunano-stone-architecture-collectif-magma-what-stones-whisper/",
+    "media": "https://iandaily.xyz/digest/2026-10-03-lunano-moving-shingle-tower-5ffbb8dcd863.jpg?v=2026-10-03"
+  },
+  {
+    "category": "审美提升",
+    "source": "designboom.com",
+    "title": "夏洛特·佩里安的内置家具仍在住宅中工作",
+    "judgment": "六十年代公寓以收纳、厨房和构件组织日常，半个多世纪后仍显示空间与家具的整体关系。",
+    "url": "https://www.designboom.com/architecture/charlotte-perriand-built-in-interiors-1960-paris-tower-edouard-albert/",
+    "media": "https://iandaily.xyz/digest/2026-10-03-perriand-built-in-paris-interior-2919538a0e7a.jpg?v=2026-10-03"
+  },
+  {
+    "category": "审美提升",
+    "source": "placeholders.itch.io",
+    "title": "Tiny Brutalism 把粗野主义缩成游戏",
+    "judgment": "小体量游戏用混凝土块面、强阴影和有限色彩建立完整世界，尺度反差反而放大风格。",
+    "url": "https://placeholders.itch.io/tiny-brutalism",
+    "media": "https://iandaily.xyz/digest/2026-10-03-tiny-brutalism-miniature-game-2eb25de4445b.jpg?v=2026-10-03"
+  },
+  {
+    "category": "产品营销",
+    "source": "x.com",
+    "title": "Tibo 用退出经历为通讯建承诺",
+    "judgment": "落地页明确提供增长动作、失败复盘和幕后故事，并用无广告、永久免费降低订阅犹豫。",
+    "url": "https://x.com/tibo_maker/status/2105992101653582304",
+    "media": ""
+  },
+  {
+    "category": "AI 协作",
+    "source": "x.com",
+    "title": "Linear Loops 把重复工作交给定时代理",
+    "judgment": "团队可描述循环任务，系统自动选模型、接 MCP，并按事件或时间触发。",
+    "url": "https://x.com/karrisaarinen/status/2105818323162472903",
+    "media": "https://iandaily.xyz/digest/2026-10-03-linear-loops-scheduled-mcp-workflows-cace43825b1f.jpg?v=2026-10-03"
+  },
+  {
+    "category": "AI 协作",
+    "source": "x.com",
+    "title": "Zed Delta 用子线程完成代理工作交接",
+    "judgment": "接手者打开队友链接后，可让代理在旁支补齐上下文，不必污染主线程或从头重读。",
+    "url": "https://x.com/zeddotdev/status/2106097814392783116",
+    "media": "https://iandaily.xyz/digest/2026-10-03-zed-delta-thread-handoff-e34edeb64b7a.jpg?v=2026-10-03"
+  },
+  {
+    "category": "AI 协作",
+    "source": "openrouter.ai",
+    "title": "OpenRouter 把编排与路由拆成三层",
+    "judgment": "文章区分工作流、模型与提供商路由，说明三层在代理系统中的各自职责。",
+    "url": "https://openrouter.ai/blog/insights/langchain-vs-crewai-orchestration-compared-to-openrouter-native-routing/",
+    "media": "https://iandaily.xyz/digest/2026-10-03-openrouter-orchestration-routing-layers-c82251eabb68.jpg?v=2026-10-03"
+  },
+  {
+    "category": "AI 资讯",
+    "source": "x.com",
+    "title": "FLUX 3 在 Krea 支持多轮局部编辑",
+    "judgment": "新能力可用框选排版、组合十张参考图并输出 4K，同时尽量保持未编辑区域像素不变。",
+    "url": "https://x.com/krea_ai/status/2105769469880799716",
+    "media": "https://iandaily.xyz/digest/2026-10-03-flux-3-image-krea-multiturn-5b162e211a6a.jpg?v=2026-10-03"
+  },
+  {
+    "category": "一人公司",
+    "source": "x.com",
+    "title": "Repost 把线下共工聚会做成可重复活动",
+    "judgment": "用户能在任意城市发起共工见面，并把每周活动设为自动重复，避免主办人反复重建。",
+    "url": "https://x.com/levelsio/status/2106005657887424939",
+    "media": "https://iandaily.xyz/digest/2026-10-03-repost-coworking-recurring-meetups-d0a11579497c.jpg?v=2026-10-03"
+  },
+  {
+    "category": "一人公司",
+    "source": "dleanswers.com",
+    "title": "DLE Answers 用分层提示替代直接剧透",
+    "judgment": "每日谜题卡住时，读者可逐步揭示线索而不是立即看到答案，保留继续推理的乐趣。",
+    "url": "https://dleanswers.com",
+    "media": "https://iandaily.xyz/digest/2026-10-03-dleanswers-progressive-puzzle-hints-32b23e3faf50.jpg?v=2026-10-03"
+  },
+  {
+    "category": "产品设计",
+    "source": "developer.apple.com",
+    "title": "Apple 把票券制作搬进可视界面",
+    "judgment": "设计者可调整字段、颜色与图像并实时预览，减少 JSON 反复导入设备的往返。",
+    "url": "https://developer.apple.com/pass-designer/",
+    "media": "https://iandaily.xyz/digest/2026-10-03-apple-pass-designer-visual-editor-41b22b191805.jpg?v=2026-10-03"
+  },
+  {
+    "category": "产品设计",
+    "source": "polarbrowser.com",
+    "title": "Polar 浏览器让长任务沿用现有登录态",
+    "judgment": "代理可在已登录网页间持续做调研、线索整理与运营录入，用户也能随时接管当前操作。",
+    "url": "https://polarbrowser.com/",
+    "media": "https://iandaily.xyz/digest/2026-10-03-polar-browser-long-running-tasks-665d4f9273a1.jpg?v=2026-10-03"
+  },
+  {
+    "category": "产品设计",
+    "source": "github.com",
+    "title": "XiHan.UI 让同一交互行为跨三种前端宿主",
+    "judgment": "无样式组件统一键盘、焦点与读屏行为，可同时接入 React、Vue 和原生页面。",
+    "url": "https://github.com/XiHanFun/XiHan.UI",
+    "media": "https://iandaily.xyz/digest/2026-10-03-xihan-headless-components-multi-host-b93d488f977f.jpg?v=2026-10-03"
+  },
+  {
+    "category": "产品设计",
+    "source": "x.com",
+    "title": "Figma 让设计属性更贴近最终 CSS",
+    "judgment": "新能力直接映射布局与样式，让设计稿中的参数更接近最终上线实现。",
+    "url": "https://x.com/figma/status/2106080919954313434",
+    "media": "https://iandaily.xyz/digest/2026-10-03-figma-css-faithful-handoff-1e188b93a50f.jpg?v=2026-10-03"
+  },
+  {
+    "category": "产品设计",
+    "source": "v2ex.com",
+    "title": "黑白雪花视频成为受限环境的文件出口",
+    "judgment": "工具把文件编码成连续画面，再从录屏解码还原，解决只能看屏幕却难复制文件的场景。",
+    "url": "https://www.v2ex.com/t/1246180#reply0",
+    "media": "https://iandaily.xyz/digest/2026-10-03-monochrome-video-file-transfer-46a9636fb2e0.jpg?v=2026-10-03"
+  },
+  {
+    "category": "审美提升",
+    "source": "designboom.com",
+    "title": "阿布拉莫维奇把七次死亡放进地下水池",
+    "judgment": "歌剧声、渗水与微弱投影共同塑造观看节奏，作品先让身体适应黑暗，再进入影像。",
+    "url": "https://www.designboom.com/art/marina-abramovic-seven-deaths-cisterne-copenhagen/",
+    "media": "https://iandaily.xyz/digest/2026-10-03-abramovic-seven-deaths-cisterne-8619e314022d.jpg?v=2026-10-03"
+  },
+  {
+    "category": "审美提升",
+    "source": "counter-forms.com",
+    "title": "Originale 用八年重访六十年代意式无衬线",
+    "judgment": "字族在几何方感、笔画对比与温和气质间保持平衡，兼顾屏幕和印刷中的日常使用。",
+    "url": "https://counter-forms.com/typefaces/originale",
+    "media": "https://iandaily.xyz/digest/2026-10-03-originale-italian-grotesk-typeface-eb93fae14c7d.jpg?v=2026-10-03"
+  },
+  {
+    "category": "产品营销",
+    "source": "x.com",
+    "title": "前线部署工程师被拆成一堂 53 分钟实操课",
+    "judgment": "内容围绕企业现场如何发现问题、交付方案与扩大价值，补上这一角色的具体工作方法。",
+    "url": "https://x.com/gregisenberg/status/2105793758616866834",
+    "media": ""
+  },
+  {
+    "category": "产品营销",
+    "source": "x.com",
+    "title": "把 AI 当作平均水平同事，也已经足够有用",
+    "judgment": "团队先用好平均水平的工程、分析与营销能力，不必等待 AGI。",
+    "url": "https://x.com/lennysan/status/2105803765974708365",
+    "media": ""
+  },
+  {
+    "category": "AI 协作",
+    "source": "x.com",
+    "title": "Cursor Rollouts 从回归定位到修复",
+    "judgment": "监测发现问题后会找出相关 PR 并创建 issue，一键即可让云端代理开始修复。",
+    "url": "https://x.com/cursor_ai/status/2106066782155157603",
+    "media": "https://iandaily.xyz/digest/2026-10-03-cursor-rollouts-regression-fix-loop-afdb1ab7ba04.jpg?v=2026-10-03"
+  },
+  {
+    "category": "AI 协作",
+    "source": "frogandtoad.ai",
+    "title": "青蛙与蟾蜍用小故事讨论更能干的机器",
+    "judgment": "交互文章借熟悉角色拆开委托、判断与依赖，让抽象的 AI 协作问题变得容易追问。",
+    "url": "https://www.frogandtoad.ai/",
+    "media": "https://iandaily.xyz/digest/2026-10-03-frog-toad-capable-machines-essay-15a4c8647c35.jpg?v=2026-10-03"
+  },
+  {
+    "category": "AI 协作",
+    "source": "stillwet.art",
+    "title": "Still Wet 给模型一块可操作画布",
+    "judgment": "项目把模型输出连接到模拟颜料与笔触，让代理通过连续动作完成绘画而非一次生成。",
+    "url": "https://stillwet.art/",
+    "media": "https://iandaily.xyz/digest/2026-10-03-stillwet-opus-paint-canvas-4bbc08a77dbe.jpg?v=2026-10-03"
+  }
+]
