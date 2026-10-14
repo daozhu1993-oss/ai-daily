@@ -1,0 +1,482 @@
+[
+  {
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+    "category": "AI 资讯",
+    "source": "blog.google",
+    "title": "Gemini 4 Argon 从受信测试走向广泛开放",
+    "judgment": "API 与应用开始推出，网络防御计划同步扩展；官方公布监控与评测边界，非独立实测。",
+    "media": "https://iandaily.xyz/digest/2026-10-14-gemini4argon-b0ec3a98db40.jpg?v=2026-10-14"
+  },
+  {
+    "url": "https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise/",
+    "category": "AI 资讯",
+    "source": "github.blog",
+    "title": "GitHub 用小模型区分密钥与示例文本",
+    "judgment": "正则先召回，ModernBERT 再读上下文；官方报告扫描提速，把通用密钥检查推到提交之前。",
+    "media": "https://iandaily.xyz/digest/2026-10-14-githubsecretbert-70c93b28498c.jpg?v=2026-10-14"
+  },
+  {
+    "url": "https://keepword.net/",
+    "category": "一人公司",
+    "source": "keepword.net",
+    "title": "Keepword 给网页悄悄改过的话留证据",
+    "judgment": "独立见证节点抓取、签名并比对版本；网络仍在起步，不把示例覆盖当成已经普及。",
+    "media": "https://iandaily.xyz/digest/2026-10-14-keepword-95331de634d7.jpg?v=2026-10-14"
+  },
+  {
+    "url": "https://opensidian.org/",
+    "category": "一人公司",
+    "source": "opensidian.org",
+    "title": "Opensidian 用开源应用继续读本地笔记库",
+    "judgment": "Markdown 文件库沿用原结构，Linux 有多种安装包；仍在密集开发，与 Obsidian 无隶属关系。",
+    "media": "https://iandaily.xyz/digest/2026-10-14-opensidian-9096c1e50466.jpg?v=2026-10-14"
+  },
+  {
+    "url": "https://openwhispr.com/",
+    "category": "产品设计",
+    "source": "openwhispr.com",
+    "title": "OpenWhispr 开源听写新增 iOS 入口",
+    "judgment": "新增手机入口，桌面可选离线模型或自选云端；两条路径的数据处理要分别看。",
+    "media": "https://iandaily.xyz/digest/2026-10-14-openwhisprios-97348f6511bd.jpg?v=2026-10-14"
+  },
+  {
+    "url": "https://hidatalinker.onesolo.app/",
+    "category": "产品设计",
+    "source": "hidatalinker.onesolo.app",
+    "title": "HiDataLinker 给日常查库留一套轻量工具",
+    "judgment": "对象树、数据网格与 SQL 编辑同窗；MySQL 和 PostgreSQL 共用轻量界面，减少来回切换。",
+    "media": "https://iandaily.xyz/digest/2026-10-14-hidatalinker-e403b713423c.jpg?v=2026-10-14"
+  },
+  {
+    "url": "https://getret.app/",
+    "category": "产品设计",
+    "source": "getret.app",
+    "title": "Ret 把代理会话摊在可拖动的画布上",
+    "judgment": "Codex 与 Claude Code 共用工作台；待批准、待回复集中到收件箱，继续沿用个人登录。",
+    "media": "https://iandaily.xyz/digest/2026-10-14-retcanvas-c68414b5f970.jpg?v=2026-10-14"
+  },
+  {
+    "url": "https://play.google.com/store/apps/details?id=com.hnp.animoid&amp;hl=en_US",
+    "category": "产品设计",
+    "source": "play.google.com",
+    "title": "Animoid 给安卓平板一套完整动画桌",
+    "judgment": "手绘、矢量骨骼与时间轴共处；新版本收紧时间轴并修复画布跳动，笔仍是操作中心。",
+    "media": "https://iandaily.xyz/digest/2026-10-14-animoid-4c84ac67e79f.jpg?v=2026-10-14"
+  },
+  {
+    "url": "https://www.designboom.com/architecture/fifty-oak-trees-stone-paved-clearing-contemporary-italian-piazza-ghisellini-architetti/",
+    "category": "审美提升",
+    "source": "designboom.com",
+    "title": "五十棵橡树给意大利广场补上阴影",
+    "judgment": "树阵、斑岩铺地和木椅划出停留区域；透水地面与地下蓄水把雨水重新用于灌溉。",
+    "media": "https://iandaily.xyz/digest/2026-10-14-forestjump-77dd803a5190.jpg?v=2026-10-14"
+  },
+  {
+    "url": "https://www.wallpaper.com/design-interiors/noe-kuremoto-pad-2026-collectible-design",
+    "category": "审美提升",
+    "source": "wallpaper.com",
+    "title": "Noe Kuremoto 让陶器带着祖先神话站起来",
+    "judgment": "鼓起的体量与拟人结构带来图腾感；PAD 新采访里，手、水、火与泥仍是主要工具。",
+    "media": "https://iandaily.xyz/digest/2026-10-14-noejomon-e1ceda104c4e.jpg?v=2026-10-14"
+  },
+  {
+    "url": "https://www.wallpaper.com/design-interiors/interior-design/a-captivating-new-book-offers-a-look-inside-the-astonishing-chicago-headquarters-of-ebony-and-jet-magazines",
+    "category": "审美提升",
+    "source": "wallpaper.com",
+    "title": "一本新书保存 Ebony 与 Jet 的旧办公室",
+    "judgment": "Barbara Karant 把档案与空楼照片放在一起；图案、材质和色彩留下出版公司的空间记忆。",
+    "media": "https://iandaily.xyz/digest/2026-10-14-ebonyjetbook-f31ddcdc68cf.jpg?v=2026-10-14"
+  },
+  {
+    "url": "https://agentcraft.ai/",
+    "category": "产品营销",
+    "source": "agentcraft.ai",
+    "title": "Agent Craft 把员工的日常变成分发素材",
+    "judgment": "每日问题引导语音或短片，再适配八个平台；统一审阅队列保留，增长数字属官方自述。",
+    "media": "https://iandaily.xyz/digest/2026-10-14-agentcraft-7b0f32e8f3c1.jpg?v=2026-10-14"
+  },
+  {
+    "url": "https://climanager.solhun.com/",
+    "category": "AI 协作",
+    "source": "climanager.solhun.com",
+    "title": "CLI Manager 让代理操控看得见的终端",
+    "judgment": "新 Control API 可开会话、发提示并读屏；终端标明 AI 连接状态，人随时能接回来。",
+    "media": "https://iandaily.xyz/digest/2026-10-14-climanagerapi-cfd2da61043e.jpg?v=2026-10-14"
+  },
+  {
+    "url": "https://www.langchain.com/blog/agent-traces-ai-search-langsmith",
+    "category": "AI 协作",
+    "source": "langchain.com",
+    "title": "LangSmith 按行为找出代理的问题现场",
+    "judgment": "直接描述用户受挫或任务未完成，再与标签过滤合用；长轨迹按预算裁切，结果仍需复核。",
+    "media": "https://iandaily.xyz/digest/2026-10-14-langsmithaisearch-b73c0f52a981.jpg?v=2026-10-14"
+  },
+  {
+    "url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
+    "category": "AI 资讯",
+    "source": "liquid.ai",
+    "title": "Liquid AI 扩展端侧推理模型的上下文",
+    "judgment": "新 24B 模型每词激活 2B，窗口扩到 131K；权重已开放，速度数字限定官方设备测试。",
+    "media": "https://iandaily.xyz/digest/2026-10-14-lfm25a2b-81f33e6d48cb.jpg?v=2026-10-14"
+  },
+  {
+    "url": "https://huggingface.co/interfaze-ai/interfaze-1-lite",
+    "category": "AI 资讯",
+    "source": "huggingface.co",
+    "title": "Interfaze 让推理核心调用专用感知模型",
+    "judgment": "文档、语音与图像结果按 JSON 返回，附置信度；1.1 Lite 可离线跑，需一张 80GB GPU。",
+    "media": ""
+  },
+  {
+    "url": "https://guitoro.com/",
+    "category": "一人公司",
+    "source": "guitoro.com",
+    "title": "Guitoro 用电脑键盘练出吉他的手感",
+    "judgment": "左手按和弦，右手扫弦；歌曲能降到两成速度，弦与拨片同步提示，免账号使用。",
+    "media": "https://iandaily.xyz/digest/2026-10-14-guitoro-1ffcd88613d0.jpg?v=2026-10-14"
+  },
+  {
+    "url": "https://www.livecoloringbook.com/",
+    "category": "一人公司",
+    "source": "livecoloringbook.com",
+    "title": "Live Coloring Book 让涂色作品走出纸面",
+    "judgment": "涂好的动物进入共享小世界，之后还能找回来；可直接上色，也可拍摄自己的纸上作品。",
+    "media": "https://iandaily.xyz/digest/2026-10-14-livecoloring-6e7768a8eb04.jpg?v=2026-10-14"
+  },
+  {
+    "url": "https://www.betterdl.com",
+    "category": "一人公司",
+    "source": "betterdl.com",
+    "title": "BetterDL 把数字逻辑课拆成可互动的小节",
+    "judgment": "真值表、门电路与练习连在一起；前三章无需登录，后续课程需免费账号。",
+    "media": "https://iandaily.xyz/digest/2026-10-14-betterdl-5d2024270c10.jpg?v=2026-10-14"
+  },
+  {
+    "url": "https://www.apple.com/newsroom/2026/10/meet-apple-homeview-a-new-way-to-enjoy-entertainment-and-manage-the-home/",
+    "category": "产品设计",
+    "source": "apple.com",
+    "title": "HomeView 把家庭屏幕做成可共享的入口",
+    "judgment": "七英寸屏接住通话、计时与家居控制；个人信息需识别用户与配对设备，十一月交付。",
+    "media": "https://iandaily.xyz/digest/2026-10-14-homeview-708b11b27295.jpg?v=2026-10-14"
+  },
+  {
+    "url": "https://caliope.org/",
+    "category": "产品设计",
+    "source": "caliope.org",
+    "title": "Calíope 把查库工作带到多个苹果屏幕",
+    "judgment": "连接配置经 iCloud 同步，小组件显示服务器指标；1.5 已上 iOS，Mac 版仍待审核。",
+    "media": "https://iandaily.xyz/digest/2026-10-14-caliope15-e939ec6ddb58.jpg?v=2026-10-14"
+  },
+  {
+    "url": "https://music.xy.dev/",
+    "category": "产品设计",
+    "source": "music.xy.dev",
+    "title": "XY Music 让乐谱跟着播放位置走",
+    "judgment": "节拍、速度与 PDF 出口围绕同一份谱面；内置钢琴可回听，也可连接外部 MIDI 设备。",
+    "media": "https://iandaily.xyz/digest/2026-10-14-xymusic-648aa1650f16.jpg?v=2026-10-14"
+  },
+  {
+    "url": "https://makepaper.app",
+    "category": "产品设计",
+    "source": "makepaper.app",
+    "title": "MakePaper 用三步说明壁纸怎么做",
+    "judgment": "新落地页先选纹理，再调文字，最后保存；渐变与几何样式用实物般的细节解释用途。",
+    "media": "https://iandaily.xyz/digest/2026-10-14-makepaper-35aa7ec6e999.jpg?v=2026-10-14"
+  },
+  {
+    "url": "https://www.designboom.com/architecture/four-pitched-roof-volumes-timber-clad-coastal-house-of-cards-belgium/",
+    "category": "审美提升",
+    "source": "designboom.com",
+    "title": "四个木屋顶沿旧地基搭出海边住宅",
+    "judgment": "Vantieghem Talebi 用预制木板构成无柱起居层；外墙与陡屋顶共用连续木条表皮。",
+    "media": "https://iandaily.xyz/digest/2026-10-14-houseofcards-fa44b6c66929.jpg?v=2026-10-14"
+  },
+  {
+    "url": "https://www.creativeboom.com/work/kanaisasaki-is-formed-from-in-house-designers-who-have-made-a-career-out-of-staying-curious/",
+    "category": "审美提升",
+    "source": "creativeboom.com",
+    "title": "Kanaisasaki 让简单规则长出整套视觉",
+    "judgment": "字标、斜线与颜色从文具延伸到帽子和招牌；两位设计师轮流改稿，持续校正个人视角。",
+    "media": "https://iandaily.xyz/digest/2026-10-14-kanaisasaki-c2a94cd20944.jpg?v=2026-10-14"
+  },
+  {
+    "url": "https://www.mentionbird.ai/",
+    "category": "产品营销",
+    "source": "mentionbird.ai",
+    "title": "MentionBird 沿 AI 引用找到品牌缺席处",
+    "judgment": "买家问题、引用页面与竞品共用一份报告；修改建议有出处，曝光提升仍需后续测量。",
+    "media": "https://iandaily.xyz/digest/2026-10-14-mentionbird-1a3c323d829e.jpg?v=2026-10-14"
+  },
+  {
+    "url": "https://getappniche.com/tools/app-store-keyword-tool",
+    "category": "产品营销",
+    "source": "getappniche.com",
+    "title": "GetAppNiche 并排查两家商店的关键词",
+    "judgment": "前十名应用、评分量与标题用词放在一起；免费查词帮助选方向，每日跟踪另收费。",
+    "media": "https://iandaily.xyz/digest/2026-10-14-appnichekeyword-b03242191c18.jpg?v=2026-10-14"
+  },
+  {
+    "url": "https://github.com/imhuhe/gongwen-kit",
+    "category": "AI 协作",
+    "source": "github.com",
+    "title": "gongwen-kit 修文稿时留下可拒绝的痕迹",
+    "judgment": "格式调整进入 Word 修订，数字问题只插批注；合计与分项由写稿人判断，工具不代改。",
+    "media": "https://iandaily.xyz/digest/2026-10-14-gongwenkit-6a266adbd11b.jpg?v=2026-10-14"
+  },
+  {
+    "url": "https://supadupa.tech/",
+    "category": "AI 协作",
+    "source": "supadupa.tech",
+    "title": "SupaDupa 先看清文件堆，再决定怎么整理",
+    "judgment": "重复文件与空间占用并排显示，本地模型帮助命名；免费版与买断 Pro 分开，操作前先预览。",
+    "media": "https://iandaily.xyz/digest/2026-10-14-supadupa-87040c24ec15.jpg?v=2026-10-14"
+  },
+  {
+    "url": "https://blog.comfy.org/p/nvidia-vfx-nodes-for-video-upscaling",
+    "category": "AI 资讯",
+    "source": "blog.comfy.org",
+    "title": "ComfyUI 新接入 NVIDIA 视频特效节点",
+    "judgment": "本地 RTX 上可串联超分、补帧与 HDR；EXR 预览也补齐，输出色域仍需在后续节点明确。",
+    "media": "https://iandaily.xyz/digest/2026-10-14-comfyvfx-5e5f95d0ef71.jpg?v=2026-10-14"
+  },
+  {
+    "url": "https://blog.character.ai/an-update-on-character-ai/",
+    "category": "AI 资讯",
+    "source": "blog.character.ai",
+    "title": "Character.ai 进入法院监督的出售流程",
+    "judgment": "平台与订阅暂时继续，若找不到可行买家将停止运营；用户仍可导出资料或删除账号。",
+    "media": ""
+  },
+  {
+    "url": "https://allcheck.app",
+    "category": "一人公司",
+    "source": "allcheck.app",
+    "title": "AllCheck 把电影、游戏与书接到同一书架",
+    "judgment": "沿一段故事跳到另一种媒介，收藏不必分散；目前仍是 beta，界面支持英乌双语。",
+    "media": "https://iandaily.xyz/digest/2026-10-14-allcheck-3b819738e218.jpg?v=2026-10-14"
+  },
+  {
+    "url": "https://joakimeriksson.github.io/fm1-emu/",
+    "category": "一人公司",
+    "source": "joakimeriksson.github.io",
+    "title": "这台小合成器在浏览器里运行原版固件",
+    "judgment": "旋钮、键盘与声音一起模拟；触屏可弹和弦，Web MIDI 受浏览器支持范围限制。",
+    "media": "https://iandaily.xyz/digest/2026-10-14-fm1emu-da731b2e1b67.jpg?v=2026-10-14"
+  },
+  {
+    "url": "https://gotemail.net/",
+    "category": "产品设计",
+    "source": "gotemail.net",
+    "title": "GotEmail 让验证码少开一次邮件",
+    "judgment": "代码与登录链接可从菜单栏直接复制；AI 只在主动请求时起草和总结，仍可手动修改。",
+    "media": "https://iandaily.xyz/digest/2026-10-14-gotemail-7daede846ed1.jpg?v=2026-10-14"
+  },
+  {
+    "url": "https://mu3ic.xyz",
+    "category": "产品设计",
+    "source": "mu3ic.xyz",
+    "title": "Mu3ic 让断线换服不打断歌曲",
+    "judgment": "主服务器失联时自动转向备用地址，保留正在播放的歌曲与队列；需要自己的音乐服务器。",
+    "media": "https://iandaily.xyz/digest/2026-10-14-mu3ic151-3049dc3d3e09.jpg?v=2026-10-14"
+  },
+  {
+    "url": "https://autographmusic.com",
+    "category": "产品设计",
+    "source": "autographmusic.com",
+    "title": "Autograph 让手写音符变成规整乐谱",
+    "judgment": "落笔后自动调整符干与连线，随时回听；Mac 上可让 MCP 助手编辑，每步都能撤回。",
+    "media": "https://iandaily.xyz/digest/2026-10-14-autograph-e90018b6aefd.jpg?v=2026-10-14"
+  },
+  {
+    "url": "https://clipit.itzadetunji.com/",
+    "category": "产品设计",
+    "source": "clipit.itzadetunji.com",
+    "title": "Clip-It 替 Mac 留住刚刚错过的画面",
+    "judgment": "持续录屏后再截出想保留的片段；适合回收已经发生的时刻，录制权限仍由用户给出。",
+    "media": ""
+  },
+  {
+    "url": "https://quickimagekit.com",
+    "category": "产品设计",
+    "source": "quickimagekit.com",
+    "title": "Quick Image Kit 在上传前整理图片",
+    "judgment": "压缩、改尺寸、裁切与图标打包都在浏览器完成；文件留本机，页面仍有匿名访问统计。",
+    "media": "https://iandaily.xyz/digest/2026-10-14-quickimagekit-244171f632ca.jpg?v=2026-10-14"
+  },
+  {
+    "url": "https://www.designboom.com/design/1930s-cider-press-screw-sculptural-stool-reclaimed-wood-brushed-aluminum-le-pressoir-studio-jumel-ariane-ronot/",
+    "category": "审美提升",
+    "source": "designboom.com",
+    "title": "旧榨汁机的木螺杆变成一张雕塑凳",
+    "judgment": "Studio Jumel 与 Ariane Ronot 留下旧木纹，再用三毫米铝板连接；座面延续螺旋线索。",
+    "media": "https://iandaily.xyz/digest/2026-10-14-lepressoir-f3c735cf2470.jpg?v=2026-10-14"
+  },
+  {
+    "url": "https://www.designboom.com/art/prado-museum-masterpieces-free-roam-virtual-tour-brooklyn/",
+    "category": "审美提升",
+    "source": "designboom.com",
+    "title": "普拉多名作在布鲁克林展开可走入的空间",
+    "judgment": "五幅画串成三十分钟多人 VR 叙事；档案与策展研究负责细节，作品变成共享旅程。",
+    "media": "https://iandaily.xyz/digest/2026-10-14-pradovr-2eb3d47199db.jpg?v=2026-10-14"
+  },
+  {
+    "url": "https://www.creativeboom.com/work/the-experience-of-seeing-the-work-is-pretty-particular-lily-bunney-on-her-detailed-paintings-filled-with-grids-and-pixels/",
+    "category": "审美提升",
+    "source": "creativeboom.com",
+    "title": "Lily Bunney 把低清像素慢慢画到布上",
+    "judgment": "图像先经过数字处理，再转成细密网格；近看见色块，远看成影像，玻璃珠另接住光。",
+    "media": "https://iandaily.xyz/digest/2026-10-14-lilybunney-50f57a8c7095.jpg?v=2026-10-14"
+  },
+  {
+    "url": "https://postnitro.ai/agents",
+    "category": "产品营销",
+    "source": "postnitro.ai",
+    "title": "PostNitro 给代理补上排版与发布入口",
+    "judgment": "品牌套件、轮播模板与排期接成一条链；内容可先存草稿，由人确认后再发布。",
+    "media": "https://iandaily.xyz/digest/2026-10-14-postnitroagents-01a8858f8dcc.jpg?v=2026-10-14"
+  },
+  {
+    "url": "https://www.sammystraus.com/",
+    "category": "产品营销",
+    "source": "sammystraus.com",
+    "title": "Sammy 发到 HN 后迎来一波 AI 爬虫",
+    "judgment": "作者复盘突增请求与来源，提醒创作者分清人和机器人；访问量并不直接说明读者增长。",
+    "media": ""
+  },
+  {
+    "url": "https://github.com/rango886/Recursurf",
+    "category": "AI 协作",
+    "source": "github.com",
+    "title": "Recursurf 让代理沿用已登录的浏览器",
+    "judgment": "扩展接到 CLI，站点适配返回结构化结果；登录态仍在日常浏览器，操作权限需自己管理。",
+    "media": ""
+  },
+  {
+    "url": "https://www.anthropic.com/engineering/redesigning-source-control",
+    "category": "AI 协作",
+    "source": "anthropic.com",
+    "title": "Anthropic 为代理规模重做版本控制",
+    "judgment": "Scion 把历史查询与合并放到服务端，客户端按需取文件；案例针对超大仓库和在线任务。",
+    "media": "https://iandaily.xyz/digest/2026-10-14-scionsource-c7df7d70ad61.jpg?v=2026-10-14"
+  },
+  {
+    "url": "https://parsimony.lasu.dev/",
+    "category": "AI 协作",
+    "source": "parsimony.lasu.dev",
+    "title": "Parsimony 把代理多写的代码也放进比较",
+    "judgment": "统计净增语法单元，删掉的代码会扣回；当前只测 Python，体积小不等于设计更好。",
+    "media": "https://iandaily.xyz/digest/2026-10-14-parsimony-2619bff8baa1.jpg?v=2026-10-14"
+  },
+  {
+    "url": "https://wonderhop.io/en/",
+    "category": "一人公司",
+    "source": "wonderhop.io",
+    "title": "Wonderhop 让热门答案与冷门答案各有一局",
+    "judgment": "同一组问题可以猜多数人，也可以避开多数人；每天四局，单题三十秒，免付费开玩。",
+    "media": "https://iandaily.xyz/digest/2026-10-14-wonderhop-7791f1e45d87.jpg?v=2026-10-14"
+  },
+  {
+    "url": "https://namedaemon.com/",
+    "category": "一人公司",
+    "source": "namedaemon.com",
+    "title": "NameDaemon 在注册之前检查名字邻居",
+    "judgment": "名称生成、相似域名与历史共用日快照；可用性另向注册局核验，评分不等于估值。",
+    "media": "https://iandaily.xyz/digest/2026-10-14-namedaemon-f6c8097c3def.jpg?v=2026-10-14"
+  },
+  {
+    "url": "https://askdown.dev/",
+    "category": "一人公司",
+    "source": "askdown.dev",
+    "title": "Askdown 让表单像 Markdown 一样写",
+    "judgment": "标题、选项与文本框各有简单语法；内容可以版本管理，也能交给代理生成与检查。",
+    "media": "https://iandaily.xyz/digest/2026-10-14-askdown-9aeb284bd216.jpg?v=2026-10-14"
+  },
+  {
+    "url": "https://genchi.com/",
+    "category": "产品设计",
+    "source": "genchi.com",
+    "title": "Genchi 用一次匿名投票提前暴露延期",
+    "judgment": "团队在 Slack 点选交付信心，汇总后看趋势与分歧；这份预测来自实际做事的人。",
+    "media": "https://iandaily.xyz/digest/2026-10-14-genchi-bcf022ada802.jpg?v=2026-10-14"
+  },
+  {
+    "url": "https://itzik123.github.io/PaletteAtlas/",
+    "category": "产品设计",
+    "source": "itzik123.github.io",
+    "title": "Palette Atlas 从一张图的颜色找绘画",
+    "judgment": "色彩相近的馆藏作品在浏览器内检索；图像成为入口，匹配色调不等于理解画面内容。",
+    "media": "https://iandaily.xyz/digest/2026-10-14-paletteatlas-dda1704dd348.jpg?v=2026-10-14"
+  },
+  {
+    "url": "https://swiftvm.app/",
+    "category": "产品设计",
+    "source": "swiftvm.app",
+    "title": "SwiftVM 让虚拟机住在 Mac 菜单栏",
+    "judgment": "原生窗口管理 macOS 与 Linux 客户机；需要 Apple 芯片和 macOS 27，无须另装大客户端。",
+    "media": "https://iandaily.xyz/digest/2026-10-14-swiftvm-143387c0d6b0.jpg?v=2026-10-14"
+  },
+  {
+    "url": "https://nbview.org/",
+    "category": "产品设计",
+    "source": "nbview.org",
+    "title": "nbview 把笔记本阅读留在浏览器",
+    "judgment": "替换地址就能打开公开 Jupyter 文件；目录浏览有 GitHub 限额，访问令牌只存本地。",
+    "media": "https://iandaily.xyz/digest/2026-10-14-nbview-2937b2ef4b9e.jpg?v=2026-10-14"
+  },
+  {
+    "url": "https://www.designboom.com/architecture/david-altrath-architectural-photography-experience-space-guest-essay/",
+    "category": "审美提升",
+    "source": "designboom.com",
+    "title": "David Altrath 在按快门前先走进建筑",
+    "judgment": "新随笔写等光、换站位与观察细部；摄影留下空间关系，也承认声音与温度无法被拍下。",
+    "media": "https://iandaily.xyz/digest/2026-10-14-altrathseeing-aa948f33b824.jpg?v=2026-10-14"
+  },
+  {
+    "url": "https://www.wallpaper.com/watches-jewellery/hermes-arceau-cheval-natte-watch",
+    "category": "审美提升",
+    "source": "wallpaper.com",
+    "title": "爱马仕把近四百根丝线放进表盘",
+    "judgment": "Tong Ren 的马头图案化成彩色几何，丝线逐根调整角度；光泽来自材料，保留刺绣触感。",
+    "media": "https://iandaily.xyz/digest/2026-10-14-chevalnatte-fe8d9e28fa49.jpg?v=2026-10-14"
+  },
+  {
+    "url": "https://www.articos.com/",
+    "category": "产品营销",
+    "source": "articos.com",
+    "title": "Articos 把模拟买家的反应接进代理",
+    "judgment": "先按受众测试文案与页面，再读取意见；这是合成用户研究，仍需要真人反馈校准。",
+    "media": "https://iandaily.xyz/digest/2026-10-14-articosmcp-30d225811023.jpg?v=2026-10-14"
+  },
+  {
+    "url": "https://www.anku.app",
+    "category": "产品营销",
+    "source": "anku.app",
+    "title": "Anku 从漏斗流失整理待交付的修复稿",
+    "judgment": "PostHog 数据连接流程规格、跟进草稿和代码建议；示例中的预计提升不能当实测结果。",
+    "media": "https://iandaily.xyz/digest/2026-10-14-anku-678773df77eb.jpg?v=2026-10-14"
+  },
+  {
+    "url": "https://opencode.ai/",
+    "category": "AI 协作",
+    "source": "opencode.ai",
+    "title": "OpenCode 给每个项目单独设权限规则",
+    "judgment": "2.0.28 可覆盖自动批准设置，Gemini 长响应自动续接；Windows ARM64 也有原生构建。",
+    "media": "https://iandaily.xyz/digest/2026-10-14-opencode2028-fee69ad35e4b.jpg?v=2026-10-14"
+  },
+  {
+    "url": "https://newsletter.pragmaticengineer.com/p/building-resilient-systems",
+    "category": "AI 协作",
+    "source": "newsletter.pragmaticengineer.com",
+    "title": "Sam Newman 先问故障后要多久恢复",
+    "judgment": "新书节选从备份、容灾与模型变动讲起；多供应商只是选择，还需评估成本与可用资源。",
+    "media": ""
+  },
+  {
+    "url": "https://buildgist.com/",
+    "category": "AI 协作",
+    "source": "buildgist.com",
+    "title": "BuildGist 用白话解释代理这次改了什么",
+    "judgment": "运行记录带着风险提示继续交给另一代理；解释材料会发给模型服务，关键行为仍看测试。",
+    "media": "https://iandaily.xyz/digest/2026-10-14-buildgist-bbc4751ccb7e.jpg?v=2026-10-14"
+  }
+]
