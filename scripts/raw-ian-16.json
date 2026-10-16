@@ -1,0 +1,482 @@
+[
+  {
+    "url": "https://pytorch.org/blog/muse-spark-open/",
+    "category": "AI 资讯",
+    "source": "pytorch.org",
+    "title": "Meta 开放 Muse Spark Open 模型权重",
+    "judgment": "总参数八千一百六十亿、每次激活四百二十亿，支持百万上下文；采用 Muse 许可，需核对使用条款。",
+    "media": "https://iandaily.xyz/digest/2026-10-16-musesparkopen-7c4045d25b6e.jpg?v=2026-10-16"
+  },
+  {
+    "url": "https://claude.com/blog/code-review-is-now-generally-available",
+    "category": "AI 资讯",
+    "source": "claude.com",
+    "title": "Claude Code Review 向团队组织正式开放",
+    "judgment": "管理员可按仓库选择三种深度；官方称多数审阅缩短到六至十分钟，仍需结合具体改动判断。",
+    "media": ""
+  },
+  {
+    "url": "https://unfenced.land/",
+    "category": "一人公司",
+    "source": "unfenced.land",
+    "title": "Unfenced 专找与公共土地接壤的待售地块",
+    "judgment": "用官方边界核对共享边长，缩小一个细分找地需求；地图分析不等于测绘，也不代办交易。",
+    "media": "https://iandaily.xyz/digest/2026-10-16-unfenced-88b43cfa65cf.jpg?v=2026-10-16"
+  },
+  {
+    "url": "https://belownew.com/",
+    "category": "一人公司",
+    "source": "belownew.com",
+    "title": "BelowNew 把新品、翻新与二手放一起比",
+    "judgment": "按准确配置并排展示成色、卖家与售后条件；购买仍在原商家完成，价差随具体挂牌变化。",
+    "media": "https://iandaily.xyz/digest/2026-10-16-belownew-232ea97fc541.jpg?v=2026-10-16"
+  },
+  {
+    "url": "https://playcomposition.com/board/10",
+    "category": "一人公司",
+    "source": "playcomposition.com",
+    "title": "Composition 把圈住小球变成每日一幅画",
+    "judgment": "划线围合空白区，填满四分之三即完成；每天共享三次机会，历史关卡与更多练习一次买断。",
+    "media": "https://iandaily.xyz/digest/2026-10-16-composition-b9056a45c1d5.jpg?v=2026-10-16"
+  },
+  {
+    "url": "https://sygal.app",
+    "category": "产品设计",
+    "source": "sygal.app",
+    "title": "Sygal 把文档转成可继续处理的纯文本",
+    "judgment": "PDF、扫描件与网页统一输出 Markdown 或 JSON；本地转换，OCR 通道按文件和配置选择。",
+    "media": "https://iandaily.xyz/digest/2026-10-16-sygal-e31bc3f08f2d.jpg?v=2026-10-16"
+  },
+  {
+    "url": "https://apps.apple.com/us/app/diagrammar-mermaid-diagram/id6799964195",
+    "category": "产品设计",
+    "source": "apps.apple.com",
+    "title": "Diagrammar 在设备上原生绘制四种图表",
+    "judgment": "Mermaid、D2 等格式离线查看，无需账号；编辑、Markdown 模式与图片导出属于付费功能。",
+    "media": "https://iandaily.xyz/digest/2026-10-16-diagrammar-93dc65e01275.jpg?v=2026-10-16"
+  },
+  {
+    "url": "https://theorem.fundaments.work/",
+    "category": "产品设计",
+    "source": "theorem.fundaments.work",
+    "title": "Theorem 让阅读划线直接落到本地笔记库",
+    "judgment": "PDF、EPUB 与 RSS 共用阅读器，标注写成 Markdown；离线使用，可接 Obsidian 或 Logseq。",
+    "media": "https://iandaily.xyz/digest/2026-10-16-theorem-f2b3733cf975.jpg?v=2026-10-16"
+  },
+  {
+    "url": "https://www.realdesignbenchmark.com",
+    "category": "产品设计",
+    "source": "realdesignbenchmark.com",
+    "title": "Real Design Benchmark 先盲选再揭晓来源",
+    "judgment": "真实产品与 AI 方案同尺寸并排，先选更合适的，再猜来源；偏好与识别能力分开记录。",
+    "media": "https://iandaily.xyz/digest/2026-10-16-realdesign-f582758954c1.jpg?v=2026-10-16"
+  },
+  {
+    "url": "https://www.designboom.com/readers/moyo-shirt-jacket-korean-hanbok-silhouette-east-african-kitenge-textile-jerrybag-hyunah-kim-ili-studio/",
+    "category": "审美提升",
+    "source": "designboom.com",
+    "title": "MOYO 把韩服轮廓接上东非印花",
+    "judgment": "宽松叠襟与 Kitenge 高对比纹样并置，由坎帕拉合作社制作；缝线顺着结构组织图案。",
+    "media": "https://iandaily.xyz/digest/2026-10-16-moyo-3f5ad4c277f0.jpg?v=2026-10-16"
+  },
+  {
+    "url": "https://www.itsnicethat.com/articles/nicer-tuesdays-london-september-foam-magazine-151026",
+    "category": "审美提升",
+    "source": "itsnicethat.com",
+    "title": "Foam 回看二十五年不断变化的杂志版式",
+    "judgment": "主编与前艺术总监谈主题刊和档案照片的再组织；视觉方向持续变化，仍把摄影图像放在中心。",
+    "media": ""
+  },
+  {
+    "url": "https://blog.cloudflare.com/cloudflare-openai-discovery-agentic-web/",
+    "category": "产品营销",
+    "source": "blog.cloudflare.com",
+    "title": "Cloudflare 与 OpenAI 公布页面发现试验",
+    "judgment": "约百分之一网络参与，帮助索引此前未发现的页面；是否收录和排名仍由搜索侧独立判断。",
+    "media": "https://iandaily.xyz/digest/2026-10-16-cfdiscovery-213d02b806bc.jpg?v=2026-10-16"
+  },
+  {
+    "url": "https://github.com/zachbrown29/lintel-marketing-playbooks",
+    "category": "产品营销",
+    "source": "github.com",
+    "title": "Lintel 先诊断阶段，再回答 B2B 营销问题",
+    "judgment": "十三类主题按需读取，给出决策阈值并说明数字出处；主要覆盖早期软件公司，超出范围会说明。",
+    "media": ""
+  },
+  {
+    "url": "https://forwarder.cc",
+    "category": "产品营销",
+    "source": "forwarder.cc",
+    "title": "Forwarder 让静态站表单直接送达邮箱",
+    "judgment": "改一个表单地址即可接收字段和附件，无需自建后端；按消息扣额度，适合低频询盘。",
+    "media": "https://iandaily.xyz/digest/2026-10-16-forwarder-cb94914d01a7.jpg?v=2026-10-16"
+  },
+  {
+    "url": "https://polylane.com/use-cases/impact-analysis/",
+    "category": "AI 协作",
+    "source": "polylane.com",
+    "title": "Polylane 把拉取请求放进生产环境里判断",
+    "judgment": "结合真实基础设施检查变更影响，指出证据与修法；将检查设为必需后，风险改动可阻止合并。",
+    "media": "https://iandaily.xyz/digest/2026-10-16-polylaneimpact-cb75024eb3b0.jpg?v=2026-10-16"
+  },
+  {
+    "url": "https://github.com/cshum/imagor-mcp",
+    "category": "AI 协作",
+    "source": "github.com",
+    "title": "Imagor MCP 把图片排版编译成一个网址",
+    "judgment": "代理组合商品网格、引言和分享卡，交由已有 Imagor 渲染；生产部署需配置签名密钥。",
+    "media": ""
+  },
+  {
+    "url": "https://bfl.ai/blog/flux-3-image-klein",
+    "category": "AI 资讯",
+    "source": "bfl.ai",
+    "title": "FLUX 3 Image Klein 把多图参考接进编辑",
+    "judgment": "支持最多十张参考图和边界框布局；权重按 Kommunity 许可开放，商业使用受营收条件限制。",
+    "media": "https://iandaily.xyz/digest/2026-10-16-flux3klein-d80204ebcebb.jpg?v=2026-10-16"
+  },
+  {
+    "url": "https://machinelearning.apple.com/research/mlx-distributed-inference",
+    "category": "AI 资讯",
+    "source": "machinelearning.apple.com",
+    "title": "MLX 演示用四台 Mac Studio 跑大模型",
+    "judgment": "借雷雳 RDMA 分摊权重，官方在八千上下文下测得每秒三十六词元以上；不等同单机成绩。",
+    "media": "https://iandaily.xyz/digest/2026-10-16-mlxrdma-a317a7e34180.jpg?v=2026-10-16"
+  },
+  {
+    "url": "https://tryearshot.net/index.html",
+    "category": "一人公司",
+    "source": "tryearshot.net",
+    "title": "Earshot 用闲置手机听门铃和报警声",
+    "judgment": "设备本机识别后通知家人，只上传事件与置信度；仍可能漏听，作为提醒补充使用。",
+    "media": "https://iandaily.xyz/digest/2026-10-16-earshot-17b97f39e07e.jpg?v=2026-10-16"
+  },
+  {
+    "url": "https://routeeditor.com/",
+    "category": "一人公司",
+    "source": "routeeditor.com",
+    "title": "RouteEditor 把路线规划与轨迹修整放一起",
+    "judgment": "在地图上处理 GPX、FIT 和 TCX 数据，规划与修改不用来回换工具；先在网页查看路线再导出。",
+    "media": "https://iandaily.xyz/digest/2026-10-16-routeeditor-aeffc98fcf28.jpg?v=2026-10-16"
+  },
+  {
+    "url": "https://reelbird.app/",
+    "category": "产品设计",
+    "source": "reelbird.app",
+    "title": "Reelbird 让录屏、剪辑与分享留在本机",
+    "judgment": "自动跟随光标放大，字幕用系统端侧能力生成；分享可发到自有存储桶，源码采用 MIT 许可。",
+    "media": "https://iandaily.xyz/digest/2026-10-16-reelbird-4f066cc7416d.jpg?v=2026-10-16"
+  },
+  {
+    "url": "https://jab.run/",
+    "category": "产品设计",
+    "source": "jab.run",
+    "title": "Jab 用九 KB 模型猜下一个点击目标",
+    "judgment": "快捷键标出四个候选控件，确认后才点击或聚焦；排序在浏览器本地运行，不发网络请求。",
+    "media": ""
+  },
+  {
+    "url": "https://textfold.app",
+    "category": "产品设计",
+    "source": "textfold.app",
+    "title": "Textfold 用纯文本保存常用输入片段",
+    "judgment": "短缩写展开整段内容，支持填写字段与日期运算；可按应用切换，免费版本容纳十条片段。",
+    "media": "https://iandaily.xyz/digest/2026-10-16-textfold-19390ceb972a.jpg?v=2026-10-16"
+  },
+  {
+    "url": "https://sspai.com/post/115238",
+    "category": "产品设计",
+    "source": "sspai.com",
+    "title": "Mangata 让拍照任务从一次散步里长出来",
+    "judgment": "开发者复盘从颜色散步到探索卡的取舍：照片记录路上所见，不把产品做成任意相册的模板器。",
+    "media": "https://iandaily.xyz/digest/2026-10-16-mangata-e7334d0c2cd5.jpg?v=2026-10-16"
+  },
+  {
+    "url": "https://bateri.dev/",
+    "category": "产品设计",
+    "source": "bateri.dev",
+    "title": "Bateri 把命令行做成终端底部的编辑框",
+    "judgment": "窗格可拖放重排，连接生产环境时状态条变红；退出后程序仍可续跑，目前面向 Apple 芯片。",
+    "media": "https://iandaily.xyz/digest/2026-10-16-bateri-135fb955d008.jpg?v=2026-10-16"
+  },
+  {
+    "url": "https://www.designboom.com/architecture/mycelium-hypha-lume-pavilion-human-movement-light/",
+    "category": "审美提升",
+    "source": "designboom.com",
+    "title": "Hypha-Lume 让菌丝模块记住人的走动",
+    "judgment": "三种弧度的构件可重组，传感器把停留转成声光轨迹；夜间表皮叠出此前经过的路径。",
+    "media": "https://iandaily.xyz/digest/2026-10-16-hyphalume-a26152c87cd5.jpg?v=2026-10-16"
+  },
+  {
+    "url": "https://www.dezeen.com/2026/10/15/schemata-architects-linden-house/",
+    "category": "审美提升",
+    "source": "dezeen.com",
+    "title": "Linden House 用锯齿屋顶接起两栋石屋",
+    "judgment": "北坡引入柔和天光，南坡布置太阳能板；保留两栋建筑的夹角，让连接处本身成为空间。",
+    "media": "https://iandaily.xyz/digest/2026-10-16-linden-33cb50f69a4e.jpg?v=2026-10-16"
+  },
+  {
+    "url": "https://chatway.app/",
+    "category": "产品营销",
+    "source": "chatway.app",
+    "title": "Chatway 让现有代理进入客服收件箱",
+    "judgment": "通过 MCP 限定可访问的内容，接起标记、回复与转人工；也可用 Webhook 和接口接自建流程。",
+    "media": "https://iandaily.xyz/digest/2026-10-16-chatwaymcp-555e8fe0e0ae.jpg?v=2026-10-16"
+  },
+  {
+    "url": "https://www.lection.app",
+    "category": "产品营销",
+    "source": "lection.app",
+    "title": "Lection 把找客户的网页整理成可更新表格",
+    "judgment": "用描述指定字段，跨页收集后导出 CSV；可接表格、数据库和自动化，原站演示使用样例数据。",
+    "media": "https://iandaily.xyz/digest/2026-10-16-lection-fc57f281c8fe.jpg?v=2026-10-16"
+  },
+  {
+    "url": "https://withhuman.ai/",
+    "category": "AI 协作",
+    "source": "withhuman.ai",
+    "title": "withHuman 让关键工具调用先等人批准",
+    "judgment": "规则处理常规动作，金额或权限超限再交给指定人员；决定与审批者留在可回查记录里。",
+    "media": "https://iandaily.xyz/digest/2026-10-16-withhuman-f3d54d54d91c.jpg?v=2026-10-16"
+  },
+  {
+    "url": "https://gtree.dobbylab.com/",
+    "category": "AI 协作",
+    "source": "gtree.dobbylab.com",
+    "title": "Gtree 先把等你处理的代理摆到前面",
+    "judgment": "同工作树协调同文件编辑，不同工作树标出冲突；状态栏汇总批准与答复，减少逐个巡查。",
+    "media": "https://iandaily.xyz/digest/2026-10-16-gtree-43f0367cda36.jpg?v=2026-10-16"
+  },
+  {
+    "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
+    "category": "AI 资讯",
+    "source": "blogs.nvidia.com",
+    "title": "NVIDIA 同时推出云端与本地代理模型",
+    "judgment": "Super VL 面向多模态工作，Bolt 版本可落到二十四 GB 显存；四 GB 小版要等十月二十三日。",
+    "media": "https://iandaily.xyz/digest/2026-10-16-nemotron35-8be0d6a1871a.jpg?v=2026-10-16"
+  },
+  {
+    "url": "https://www.krea.ai/krea-3",
+    "category": "AI 资讯",
+    "source": "krea.ai",
+    "title": "Krea 3 把局部改图作为生产流程来做",
+    "judgment": "官网展示颜色替换和多素材合成，称尽量保留未改区域；速度、价格与效果仍需按任务实测。",
+    "media": "https://iandaily.xyz/digest/2026-10-16-krea3-fa41aad9ebb6.jpg?v=2026-10-16"
+  },
+  {
+    "url": "https://jamfetti.boondoggle.studio/",
+    "category": "一人公司",
+    "source": "jamfetti.boondoggle.studio",
+    "title": "Jamfetti 让不会乐器的人也能即兴合奏",
+    "judgment": "点按发声、拖动连成旋律，颜色随动作变化；声音在浏览器生成，访问统计可关闭。",
+    "media": "https://iandaily.xyz/digest/2026-10-16-jamfetti-c5f95c366bc1.jpg?v=2026-10-16"
+  },
+  {
+    "url": "https://bird.arjunshaji.me/",
+    "category": "一人公司",
+    "source": "bird.arjunshaji.me",
+    "title": "Bird 让提醒变成飞进屏幕的小鸟",
+    "judgment": "到点带着操作按钮出现，没处理就留下；Linux 工具用一个配置文件管理日程，本机运行。",
+    "media": "https://iandaily.xyz/digest/2026-10-16-bird-b9a591f375a2.jpg?v=2026-10-16"
+  },
+  {
+    "url": "https://talanoa.email/",
+    "category": "产品设计",
+    "source": "talanoa.email",
+    "title": "Talanoa 把邮件长线程排成聊天气泡",
+    "judgment": "折起引用、签名和免责声明，邮件还能变成有截止日的任务；桌面支持 Mac、Windows 与 Linux。",
+    "media": "https://iandaily.xyz/digest/2026-10-16-talanoa-a019dbbbfd46.jpg?v=2026-10-16"
+  },
+  {
+    "url": "https://dipperpdf.com",
+    "category": "产品设计",
+    "source": "dipperpdf.com",
+    "title": "DipperPDF 把敏感文档留在 Mac 内处理",
+    "judgment": "合并、压缩、拆页都离线完成，结果另存副本；免费开源，无需账号，原文件保留。",
+    "media": "https://iandaily.xyz/digest/2026-10-16-dipperpdf-073501c12b30.jpg?v=2026-10-16"
+  },
+  {
+    "url": "https://gitvolt.com/",
+    "category": "产品设计",
+    "source": "gitvolt.com",
+    "title": "GitVolt 把工作树改动放回提交图里",
+    "judgment": "每个工作树保留独立草稿与撤销记录；危险菜单原位二次确认，差异支持图片和排版后文档。",
+    "media": "https://iandaily.xyz/digest/2026-10-16-gitvolt-fc5b1f1940ec.jpg?v=2026-10-16"
+  },
+  {
+    "url": "https://github.com/MichaelWeissDEV/ts-chef",
+    "category": "产品设计",
+    "source": "github.com",
+    "title": "ts-chef 在编辑器里串起可视化转换管线",
+    "judgment": "编码解码、格式转换与数据检查组合成配方；支持分支图，不必反复把内容搬到外部工具。",
+    "media": "https://iandaily.xyz/digest/2026-10-16-tschef-e65ca9d5395d.jpg?v=2026-10-16"
+  },
+  {
+    "url": "https://www.dezeen.com/2026/10/15/resonance-pavilion-tallinn-architecture-biennale/",
+    "category": "审美提升",
+    "source": "dezeen.com",
+    "title": "Resonance 用普通材料围出安静内院",
+    "judgment": "石灰岩压重，绳索、钢筋与胶合板构成张拉结构；少量材料也能借光、风和重力形成空间。",
+    "media": "https://iandaily.xyz/digest/2026-10-16-resonance-f0fb061c5b8b.jpg?v=2026-10-16"
+  },
+  {
+    "url": "https://www.designboom.com/design/concert-design-art-spaces-mechanics-audience-duckunit/",
+    "category": "审美提升",
+    "source": "designboom.com",
+    "title": "DuckUnit 从舞台调度走进可游走的装置",
+    "judgment": "访谈拆解光、机械与声音怎样共同控制注意力；观众移动后，单一正面观看变成多条感知路径。",
+    "media": "https://iandaily.xyz/digest/2026-10-16-duckunit-f8284f245190.jpg?v=2026-10-16"
+  },
+  {
+    "url": "https://www.creativeboom.com/work/caroline-tremlett-is-bringing-the-victorian-jelly-back-one-wobble-at-a-time/",
+    "category": "审美提升",
+    "source": "creativeboom.com",
+    "title": "Caroline Tremlett 让古董模具重新颤动",
+    "judgment": "城堡、星形与分层色带由果冻成形；旧模具的结构限制成为作品语言，访谈同时交代制作细节。",
+    "media": "https://iandaily.xyz/digest/2026-10-16-tremlett-option1-24c4e86502f6.jpg?v=2026-10-16"
+  },
+  {
+    "url": "https://scouttide.com/",
+    "category": "产品营销",
+    "source": "scouttide.com",
+    "title": "ScoutTide 把采购需求排成每日线索队列",
+    "judgment": "按所售产品匹配公开讨论和招标公告，连同地区、期限一起筛选；覆盖数量来自平台自述。",
+    "media": "https://iandaily.xyz/digest/2026-10-16-scouttide-236e0c3dda23.jpg?v=2026-10-16"
+  },
+  {
+    "url": "https://navige.ai/",
+    "category": "AI 协作",
+    "source": "navige.ai",
+    "title": "Navige 在代理调用前拦住失控开销",
+    "judgment": "把循环保护、缓存和模型路由放在同一层，规则先于付费动作执行；省钱幅度需按任务验证。",
+    "media": "https://iandaily.xyz/digest/2026-10-16-navige-cbf1c274e0d8.jpg?v=2026-10-16"
+  },
+  {
+    "url": "https://kanary.to/agents",
+    "category": "AI 协作",
+    "source": "kanary.to",
+    "title": "Kanary 用一条指令请另一位代理接话",
+    "judgment": "只传递新增对话并标明发言者，长会话可换新线程；文件随路径和链接交接，敏感内容仍需核对。",
+    "media": "https://iandaily.xyz/digest/2026-10-16-kanaryrelay-6269dd5cb1b9.jpg?v=2026-10-16"
+  },
+  {
+    "url": "https://kerno.io/",
+    "category": "AI 协作",
+    "source": "kerno.io",
+    "title": "Kerno 把后端测试放进运行中的真实链路",
+    "judgment": "在本机串起接口、数据库与消息队列，重跑变更影响的关键流程；测试报告可交回编码代理。",
+    "media": "https://iandaily.xyz/digest/2026-10-16-kerno-c826f03a9b87.jpg?v=2026-10-16"
+  },
+  {
+    "url": "https://snoutcover.com/one-year",
+    "category": "一人公司",
+    "source": "snoutcover.com",
+    "title": "SnoutCover 从自用鼻罩做到小批量生意",
+    "judgment": "作者先公开打印文件，再为不会制作的人提供成品；复盘十三次原型与五百只狗的使用，自述数据。",
+    "media": "https://iandaily.xyz/digest/2026-10-16-snoutcover-da27e87af335.jpg?v=2026-10-16"
+  },
+  {
+    "url": "https://hashpage.dev/",
+    "category": "一人公司",
+    "source": "hashpage.dev",
+    "title": "Hashpage 把语义网页打包进一条链接",
+    "judgment": "HTML 内容随网址传播，阅读者自行换主题；编辑与阅读入口分开，适合轻量页面分享。",
+    "media": "https://iandaily.xyz/digest/2026-10-16-hashpage-88cfa94bb1fb.jpg?v=2026-10-16"
+  },
+  {
+    "url": "https://copytap.netlify.app/",
+    "category": "一人公司",
+    "source": "copytap.netlify.app",
+    "title": "CopyTap 给常用复制动作多留两个位置",
+    "judgment": "以三组剪贴板减少反复覆盖的来回操作；沿用熟悉的快捷键思路，界面直接展示切换关系。",
+    "media": "https://iandaily.xyz/digest/2026-10-16-copytap-a0d0e8f1bc5f.jpg?v=2026-10-16"
+  },
+  {
+    "url": "https://stylebot.dev/",
+    "category": "产品设计",
+    "source": "stylebot.dev",
+    "title": "Stylebot 4 让代理也能改网页样式",
+    "judgment": "指向元素调整字体和布局，保存后下次仍生效；新增终端入口，代理可写 CSS 并截图检查。",
+    "media": "https://iandaily.xyz/digest/2026-10-16-stylebot4-b5a21d655708.jpg?v=2026-10-16"
+  },
+  {
+    "url": "https://openfactor.dev/",
+    "category": "产品设计",
+    "source": "openfactor.dev",
+    "title": "OpenFactor 让手表离开手机也能出验证码",
+    "judgment": "账号密文可经 iCloud 同步，解密钥匙留在设备；尚无独立专业安全审计，需保留可恢复备份。",
+    "media": ""
+  },
+  {
+    "url": "https://uji.sh/ito/",
+    "category": "产品设计",
+    "source": "uji.sh",
+    "title": "Ito 让 Lua 终端界面在网页里边写边试",
+    "judgment": "同一套状态和输入逻辑编译为 WebAssembly；代码有错时保留上次预览，示例可直接修改。",
+    "media": "https://iandaily.xyz/digest/2026-10-16-ito-a612365842e8.jpg?v=2026-10-16"
+  },
+  {
+    "url": "https://tinylittleoffice.com/",
+    "category": "产品设计",
+    "source": "tinylittleoffice.com",
+    "title": "Tiny Little Office 把整份文档放进链接",
+    "judgment": "文字、表格、绘图与日程共用轻量入口；无需注册，只有主动选择才保存到当前设备。",
+    "media": "https://iandaily.xyz/digest/2026-10-16-tinyoffice-930198b463f0.jpg?v=2026-10-16"
+  },
+  {
+    "url": "https://www.designboom.com/design/dual-tone-solid-oak-tupi-lamp-estudio-gris-bird-rest/",
+    "category": "审美提升",
+    "source": "designboom.com",
+    "title": "TUPI 用一截深色木喙藏住灯光",
+    "judgment": "实心橡木车成停栖鸟形，光沿木纹向下落；开关嵌平底座，双色材料兼任结构与表情。",
+    "media": "https://iandaily.xyz/digest/2026-10-16-tupi-25d41600f885.jpg?v=2026-10-16"
+  },
+  {
+    "url": "https://www.dezeen.com/2026/10/15/jonas-hejduk-blurry-low-resolution-furnishings/",
+    "category": "审美提升",
+    "source": "dezeen.com",
+    "title": "Jonas Hejduk 把低清纹理织成家具",
+    "judgment": "地毯织入文件名和压缩尺寸，长凳披着模糊树皮；故意保留未加载完的错觉，图像清晰呈现作品。",
+    "media": "https://iandaily.xyz/digest/2026-10-16-lowres-8cdcbca69e11.jpg?v=2026-10-16"
+  },
+  {
+    "url": "https://www.itsnicethat.com/articles/sewell-killingstad-graphic-design-discover-151026",
+    "category": "审美提升",
+    "source": "itsnicethat.com",
+    "title": "Sewell 的扫描花瓣从个人练习走上舞台",
+    "judgment": "散步采来的花做成字母动画，后来获得音乐节委托；访谈保留偶然性，没有包装成接单公式。",
+    "media": "https://iandaily.xyz/digest/2026-10-16-sewell-4d1334b3f7e2.jpg?v=2026-10-16"
+  },
+  {
+    "url": "https://sspai.com/post/116181",
+    "category": "产品营销",
+    "source": "sspai.com",
+    "title": "少数派把投稿与首页展示的标准写清楚",
+    "judgment": "新规则区分发布、精选和首页层级，补充宣传与 AI 内容边界；作者可以按同一标准准备稿件。",
+    "media": "https://iandaily.xyz/digest/2026-10-16-sspaimanual-b2018e815def.jpg?v=2026-10-16"
+  },
+  {
+    "url": "https://www.figma.com/blog/websites-with-payload-in-figma/",
+    "category": "AI 协作",
+    "source": "figma.com",
+    "title": "Figma Make 把内容后台一起配给网站",
+    "judgment": "Payload 接起数据库、文件与登录，运营可用管理面板更新内容；托管仍在 beta，定价另行公布。",
+    "media": "https://iandaily.xyz/digest/2026-10-16-figmapayload-2a9548f899f4.jpg?v=2026-10-16"
+  },
+  {
+    "url": "https://buddy.works/sandboxes",
+    "category": "AI 协作",
+    "source": "buddy.works",
+    "title": "Buddy 给代理一台磁盘不会随任务消失的机器",
+    "judgment": "Linux 沙箱可经 MCP、终端或接口调用，支持快照与空闲停机；进程停止后，持久磁盘仍保留。",
+    "media": "https://iandaily.xyz/digest/2026-10-16-buddysandboxes-af41e9f1bc06.jpg?v=2026-10-16"
+  },
+  {
+    "url": "https://github.com/CommonForge-org/commonforge",
+    "category": "AI 协作",
+    "source": "github.com",
+    "title": "CommonForge 让客户的代理在隔离副本里改站",
+    "judgment": "每项任务独立检出，先检查和预览，再批准上线；访问范围按目录设置，已接受版本可恢复。",
+    "media": "https://iandaily.xyz/digest/2026-10-16-commonforge-93b1562964f3.jpg?v=2026-10-16"
+  }
+]
