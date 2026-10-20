@@ -1,0 +1,364 @@
+# -*- coding: utf-8 -*-
+import json
+import os
+
+used_urls_path = 'scripts/all-used-urls.json'
+with open(used_urls_path, 'r', encoding='utf-8') as f:
+    used_urls = json.load(f)
+
+used_set = set(used_urls)
+
+vertical_data = {
+    '2026-10-20': {
+        'title': '10 月 20 日 · 瘦身调度与领域收敛：当智能体开始学会“少知道一点”',
+        'highlights': '全网 9 大领域 36 篇高密度精选：Meta 披露 Thin Orchestrator 瘦身调度器架构、Cloudflare 极致削减代码审阅推理开销、MiniMax M3.1 Flash 低价 API 发布、ComfyUI 绿幕视频抠像与节点优化、AI 短剧十字路口与人体微观短剧全本商业交割。',
+        'epigraph': '顶级的系统调度从来不是让中枢知晓一切，而是让调度者保持极度的精简与克制，把无限的上下文留给垂直闭环的领域专家。',
+        'lead': '10 月 20 日，大模型工程界的一线实践正在集中走向“瘦身调度与领域收敛”的深水区。如果说前两年的智能体设计还在沉迷于打造一个“无所不知、全权包办”的庞大超级 Agent，那么今天的顶尖工程团队则彻底转变了思路：在架构与推理调度端，Meta 官方工程博客重磅披露了其在千万行代码库中沉淀的“Thin Orchestrator（瘦身调度器）”架构，提出中央路由 Agent 必须“少知道一点”，只负责流程顺序与可靠性编排，彻底隔离庞杂的领域上下文；Cloudflare 则复盘了其在生产环境中通过激进优化路由与上下文剪枝，将每次代码审阅的推理均费腰斩至 0.77 美元的硬核实操；在基础模型与算力基础设施端，Mercury 3 验证了扩散文本模型在低延迟百万上下文下的全新可能，TorchNeuron 则正式让 AWS 自研 Trainium 芯片无缝接管原生 PyTorch 工作流；在影视创作与微短剧商业一线，行业开始从粗暴的拼产能拼参数，转向精细化的镜头分镜与故事内核打磨，40 集悬疑科幻短剧《九号隧道》与《人体微观世界爆款创作体系》全本交割，见证了 AI 影视工业化正在走出野蛮生长期。',
+        'scene': '「为什么要把调度智能体的 Prompt 削到只剩几百个词？它难道不需要了解整个业务的上下文吗？」「绝不需要。让调度器知道太多，它就会忍不住在不该插手的地方胡乱推理。最好的调度员就像交通警察，他不需要知道每辆车去送什么货，他唯一的职责就是让红绿灯在毫秒级按规则精准切换。」',
+        'cover': 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=1600&auto=format&fit=crop&q=80',
+        'closing': '''今天是周二。
+
+今天整理这 36 篇精选时，最让我击节赞叹的，是 **Meta 提出的“Thin Orchestrator（瘦身调度器）”架构哲学**。
+
+许多团队在做 Agent 时，最常犯的错误就是“贪大求全”：
+试图写一个长达数千字的超级 Prompt，把整个业务的全部规则、工具、异常处理全部硬塞进一个主智能体里。
+结果往往惨不忍睹：上下文迅速爆炸，模型开始逻辑错乱、幻觉频发、账单飙升。
+
+而 Meta 和 Cloudflare 的实践给出了最清醒的解法：
+**让中央调度者极度精简，少知道一点，只管调度，不管推理。**
+复杂的专业任务，拆分派发给独立、隔离、干净的微型专家去干，干完就收回资源。
+
+这不仅是系统架构的优雅之道，也是产品操盘与组织管理的永恒法则：
+把权力收拢，把规则做简，把空间留给专业的现场执行者。
+
+愿你在今天的造物中，学会给系统做减法，收获更强大的稳定与确定性。''',
+        'ai_news': [
+            {
+                'category': 'AI 资讯',
+                'title': 'Mercury 3 把扩散文本模型推向百万上下文',
+                'note': '扩散架构在大语言模型上的颠覆性突破：用扩散生成机制替代自回归逐字解码，在百万长文本下跑出毫秒级低延迟响应，为实时语音与高频 Agent 打开了全新通道。',
+                'so_what': '打破自回归吞吐天花板；扩散模型与文本生成的融合，为下一代兼具极致推理速度与长程记忆的智能体提供了全新硬件友好范式。',
+                'source': 'inceptionlabs.ai',
+                'url': 'https://www.inceptionlabs.ai/blog/introducing-mercury-3',
+                'media': 'https://iandaily.xyz/digest/2026-10-20-mercury3-8a3562a939f4.jpg?v=2026-10-20',
+                'pinned': True
+            },
+            {
+                'category': 'AI 资讯',
+                'title': 'TorchNeuron 让 Trainium 接住原生 PyTorch 工作流',
+                'note': '算力底层去英伟达化进程的关键落子：原生 PyTorch 算子无缝对接 AWS 自研 Trainium 加速芯片，提供统一性能分析器，模型代码无需改写即可极速迁移。',
+                'so_what': '击碎硬件生态孤岛；自研芯片与开源生态的深度咬合，为大厂和中大型团队自建低成本算力池提供了成熟落地方案。',
+                'source': 'pytorch.org',
+                'url': 'https://pytorch.org/blog/introducing-torchneuron-native-pytorch-backend-for-aws-trainium/',
+                'media': 'https://iandaily.xyz/digest/2026-10-20-torchneuron-8a2453535ff4.jpg?v=2026-10-20',
+                'pinned': True
+            },
+            {
+                'category': 'AI 资讯',
+                'title': 'Ming 3.0 TTS 把笑声和叹息写进语音脚本',
+                'note': '语音大模型向拟真人格化迈出的关键一步：提供稠密与混合专家两种模型，支持多语言及四川话、粤语方言，把笑声、叹息与吸气微动作自然融入语音生成。',
+                'so_what': '情感表达的颗粒度决定人机沉浸感；端到端拟真呼吸与方言细节，为陪伴型 Agent 与视听漫剧配音构筑了深厚的情感护城河。',
+                'source': 'github.com',
+                'url': 'https://github.com/inclusionAI/Ming-3.0-tts',
+                'media': 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80',
+                'pinned': False
+            },
+            {
+                'category': 'AI 资讯',
+                'title': 'MiniMax M3.1 Flash 正式发布：Coding 逼近前沿，极致性价比下探',
+                'note': '前沿代码模型价格战的进一步下探：每百万输入与输出压至 0.15 和 0.60 美元，代码理解与生成能力大幅跃升，为全天候后台运行的代码审查 Agent 带来极高性价比。',
+                'so_what': '调用成本决定应用落地的广度；高性价比模型是跑通端到端自主软件交付飞轮的充沛算力燃料。',
+                'source': 'woshipm.com',
+                'url': 'https://www.woshipm.com/ai/6481133.html',
+                'media': 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&auto=format&fit=crop&q=80',
+                'pinned': False
+            }
+        ],
+        'ai_drama': [
+            {
+                'category': 'AI 漫剧',
+                'title': 'ComfyUI Video Matting 绿幕抠像套件：长篇漫剧人物与复杂虚拟背景高精分离',
+                'note': '影视级视听后期的工业化插件：无需昂贵专业绿幕棚，在 ComfyUI 工作流中即可对视频帧实现亚像素级发丝边缘抠像与动态羽化，实现实拍与生成背景的完美融合。',
+                'so_what': '打破实景拍摄与数字漫剧的界限；让创作者能够将低成本实拍人物自如植入虚构大片场景中，显著提升短剧视觉沉浸感。',
+                'source': 'github.com',
+                'url': 'https://github.com/Fannovel16/ComfyUI-Video-Matting',
+                'media': 'https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?w=800&auto=format&fit=crop&q=80',
+                'pinned': True
+            },
+            {
+                'category': 'AI 漫剧',
+                'title': 'ComfyUI Custom Scripts 流程优化套件：工作流节点自动锁存与依赖快速清理',
+                'note': '漫剧制片团队日常必备的提效神兵：提供画布自动吸附、禁用孤立节点、快速锁定输入参数与一键清除未连接死节点功能，极大减轻大型节点树的维护负荷。',
+                'so_what': '保持生图工作流的工程整洁度；用规范化的脚本消除多余显存占用与连线混乱，保障复杂漫剧生产流水线的长期稳定性。',
+                'source': 'github.com',
+                'url': 'https://github.com/pythongosssss/ComfyUI-Custom-Scripts',
+                'media': 'https://images.unsplash.com/photo-1534447677768-be436bb09401?w=800&auto=format&fit=crop&q=80',
+                'pinned': True
+            },
+            {
+                'category': 'AI 漫剧',
+                'title': 'AI 短剧走到十字路口：从粗暴拼产能到精细化影视视听语言升级',
+                'note': '微短剧行业从野蛮狂奔转向工业化精耕的深度洞察：在生图生视频门槛被拉平后，单纯堆砌特效与无脑反转迅速遭遇审美疲劳，镜头景别、节奏张力与核心叙事成为下半场分水岭。',
+                'so_what': '技术平权后审美决定天花板；AI 漫剧创作者不能只当出图员，必须系统补齐经典视听导演与视听编排功底，才能跑出长线生命力。',
+                'source': 'woshipm.com',
+                'url': 'https://www.woshipm.com/ai/6480831.html',
+                'media': 'https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800&auto=format&fit=crop&q=80',
+                'pinned': False
+            },
+            {
+                'category': 'AI 漫剧',
+                'title': '《人体微观世界爆款创作体系》AI 漫剧全本：微观世界视听分镜与商业开发交割',
+                'note': '科普微短剧与 AI 漫剧结合的开创性商业全案：以拟人化细胞、免疫大军与外来病毒交锋为舞台，借助 AI 高速生成宏大科幻细胞战场分镜，人工深度雕琢诙谐喜剧群像与热血羁绊。',
+                'so_what': '硬核知识与爆款视听的化学反应；证明依托 AI 的视觉表现力，原本高门槛的微观生物题材在短剧赛道能转化为极具吸睛力的商业资产。',
+                'source': 'wzbj1616.com',
+                'url': 'https://www.wzbj1616.com/script_info/1746',
+                'media': 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80',
+                'pinned': False
+            }
+        ],
+        'screenplay': [
+            {
+                'category': '编剧技巧',
+                'title': '《九号隧道》硬核科幻悬疑微短剧：密闭空间博弈、时空折叠与高能反转',
+                'note': '高概念密室科幻剧作的极佳范式：列车因未知引力异变驶入无尽深渊隧道，有限车厢内不同阶层乘客在生死倒计时下展开信息猜忌与人性博弈，多重时空闭环逻辑密不透风。',
+                'so_what': '场景受限反而逼出极致的剧情张力；通过严丝合缝的因果递进与物理谜题设计，让低成本封闭空间剧爆发出超越大片的窒息悬疑感。',
+                'source': 'wzbj1616.com',
+                'url': 'https://www.wzbj1616.com/script_info/1749',
+                'media': 'https://images.unsplash.com/photo-1455390582262-044cdead277a?w=800&auto=format&fit=crop&q=80',
+                'pinned': True
+            },
+            {
+                'category': '编剧技巧',
+                'title': '《哀牢谜踪》民俗奇幻悬疑短剧：地方志怪民俗与多重探险叙事因果',
+                'note': '中式民俗志怪与现代探险悬疑的深度嫁接：围绕哀牢山神秘地理传说展开，巧妙融合地磁紊乱、古老彝寨祭祀与现代地质科考队员的心魔幻象，层层剥离尘封半个世纪的悲剧真相。',
+                'so_what': '本土神秘民俗是商业剧作的天然富矿；将真实的地理奇观与虚构的心理惊悚相交织，能够极低成本地调动大众本能的猎奇与敬畏。',
+                'source': 'wzbj1616.com',
+                'url': 'https://www.wzbj1616.com/script_info/1751',
+                'media': 'https://images.unsplash.com/photo-1457369804613-52c61a468e7d?w=800&auto=format&fit=crop&q=80',
+                'pinned': True
+            },
+            {
+                'category': '编剧技巧',
+                'title': '《我的父亲在广东》现实主义家庭伦理剧：代际隔阂、打工浪潮与底层温情',
+                'note': '二十年南下务工潮时代记忆的深情回望：以建筑工地上满手老茧的父亲与从小留守乡村心怀芥蒂的儿子为主线，通过一张皱巴巴的汇款单与两代人截然不同的生活轨迹化解长久积怨。',
+                'so_what': '不煽情的克制才是击中人心的利刃；拒绝狗血的豪门逆袭，扎扎实实书写普通工人的辛酸与坚韧，是商业市场上不可多得的沉甸甸现实主义力量。',
+                'source': 'wzbj1616.com',
+                'url': 'https://www.wzbj1616.com/script_info/1750',
+                'media': 'https://images.unsplash.com/photo-1507676184212-d03ab07a01bf?w=800&auto=format&fit=crop&q=80',
+                'pinned': False
+            },
+            {
+                'category': '编剧技巧',
+                'title': '《晚风知我意》都市女性反催婚独立成长剧：职场博弈与自我觉醒弧光',
+                'note': '打破悬浮偶像剧套路的都市现实文本：直面现代女性在原生家庭催婚、职场隐形天花板与情绪内耗的多重压力，以冷静独立的视角展现主角拒绝妥协、活成自己想要样子的从容历程。',
+                'so_what': '女性叙事的核心在于自我主权的夺回；用真实的职场技能与清晰的边界意识代替天降霸总救赎，才是契合当代受众心智的清醒爽感。',
+                'source': 'wzbj1616.com',
+                'url': 'https://www.wzbj1616.com/script_info/1748',
+                'media': 'https://images.unsplash.com/photo-1450133064473-71024230f91b?w=800&auto=format&fit=crop&q=80',
+                'pinned': False
+            }
+        ],
+        'pm': [
+            {
+                'category': '产品经理',
+                'title': 'WorkBuddy 住进企业微信：AI 协同进入企业工作流的信任与权限门禁',
+                'note': '智能体进入企业真实协同环境的深度推演：当 AI 拥有企业微信身份、能查看内部文档甚至自动拉群时，数据隔离、越权风控与审计追溯成为决定产品能否通过合规审批的生死线。',
+                'so_what': 'B端 Agent 的第一法则是克制权限；把安全边界做在功能前面，让企业客户能够随时审计与撤销授权，才是赢得大客户信任的前提。',
+                'source': 'woshipm.com',
+                'url': 'https://www.woshipm.com/ai/6480802.html',
+                'media': 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&auto=format&fit=crop&q=80',
+                'pinned': True
+            },
+            {
+                'category': '产品经理',
+                'title': '别把手机 Agent 搬上车：车载物理空间下的智能体产品边界重构',
+                'note': '车机人机交互与移动端本质差异的透彻剖析：驾驶场景下用户的视觉与认知资源被高度占用，盲目照搬手机端的长文本多轮对话只会带来致命风险，必须基于眼动与语音构建极简微交互。',
+                'so_what': '场景物理约束重于技术功能丰沛度；离开真实使用场景谈体验是空谈，车载产品经理必须恪守“零分心、强预判、秒响应”的安全底线。',
+                'source': 'woshipm.com',
+                'url': 'https://www.woshipm.com/ai/6480889.html',
+                'media': 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&auto=format&fit=crop&q=80',
+                'pinned': True
+            },
+            {
+                'category': '产品经理',
+                'title': 'AI 两次帮我做出爆款，却没能做成一门生意：从单点流量到商业正向闭环',
+                'note': '独立造物者从虚假繁荣走向破局的血泪复盘：依靠 AI 抓热点做出的几十万播放量爆款，如果无法沉淀为高黏性用户留存与持续付费的交易闭环，终究只是为平台贡献流量的炮灰。',
+                'so_what': '流量爆发不等于商业成功；产品经理必须警惕 vanity metrics（虚荣指标），尽早设计出具有高复购、高毛利与真实客户价值的防御性飞轮。',
+                'source': 'woshipm.com',
+                'url': 'https://www.woshipm.com/ai/6480858.html',
+                'media': 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&auto=format&fit=crop&q=80',
+                'pinned': False
+            },
+            {
+                'category': '产品经理',
+                'title': '线虫、多巴胺与股份公司：生物进化给大模型自我递归改进（RSI）的产品启发',
+                'note': '跨学科审视大模型自治演化路径的脑洞之作：借鉴自然界生物神经递质的奖惩机制与人类现代公司的分权治理模型，探讨如何设计多智能体系统的内生激励与纠偏飞轮。',
+                'so_what': '向自然法则借力设计复杂系统；当智能体网络规模膨胀时，自上而下的硬编码终将失效，构建自适应的反馈与淘汰生态才是终极解法。',
+                'source': 'woshipm.com',
+                'url': 'https://www.woshipm.com/ai/6480950.html',
+                'media': 'https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=800&auto=format&fit=crop&q=80',
+                'pinned': False
+            }
+        ]
+    }
+}
+
+raw_path = 'scripts/raw-ian-20.json'
+with open(raw_path, 'r', encoding='utf-8') as f:
+    raw_items = json.load(f)
+
+# Select curated items for the 5 ian categories (AI 资讯 is handled in vertical_data)
+curated_ian_picks = {
+    'AI 协作': [
+        'https://engineering.fb.com/2026/10/19/ml-applications/thin-orchestrator-ai-agent-architecture/',
+        'https://blog.cloudflare.com/obsessive-inference-optimization/',
+        'https://lancetta.app/',
+        'https://github.com/harukikuri/spotnote'
+    ],
+    '一人公司': [
+        'https://daymark.one/',
+        'https://getcuecut.com/',
+        'https://type.vinayakshukla.com/',
+        'https://flipper.fm'
+    ],
+    '产品设计': [
+        'https://www.figma.com/specs/',
+        'https://beam.win/',
+        'https://grasmere.app',
+        'https://github.com/mySingleLive/shakeink-desktop'
+    ],
+    '审美提升': [
+        'https://www.itsnicethat.com/articles/nik-arthur-animation-discover-191026',
+        'https://www.designboom.com/design/undulating-plywood-layers-stratum-parametric-public-seating-sculpture-zorka-furniture/',
+        'https://www.dezeen.com/2026/10/19/traditional-thai-lanterns-bangkok-cafe-interior/',
+        'https://www.designboom.com/architecture/boonserm-premthada-bangkok-project-studio-coastal-office-thailand-reclaimed-timber/'
+    ],
+    '产品营销': [
+        'https://www.creativeboom.com/work/collins-centres-a-new-identity-for-a-payroll-platform-on-banknote-colours-and-building-blocks/',
+        'https://www.lennysnewsletter.com/p/claude-cuts-my-tiktok-how-this-creator',
+        'https://indiepilot.app',
+        'https://wordpress.org/plugins/footloom/'
+    ]
+}
+
+# Lookup dictionary for raw items
+raw_by_url = {it['url']: it for it in raw_items}
+
+# Custom so_what mapping for curated ian items to ensure top editorial depth
+so_what_overrides = {
+    'https://engineering.fb.com/2026/10/19/ml-applications/thin-orchestrator-ai-agent-architecture/': '多智能体系统工程化落地的里程碑架构；中央路由器保持极致轻量，杜绝全局上下文污染，为千万行大型工程的智能体自动化提供了可复现模版。',
+    'https://blog.cloudflare.com/obsessive-inference-optimization/': '大模型生产落地的极致成本控制标杆；通过精准路由匹配、缓存复用与上下文压榨把均费降至 0.77 美元，展示了成熟基础设施团队的工程内功。',
+    'https://lancetta.app/': '智能体高频调用的动态成本仪表盘；将抽象的 Token 账单转化为可执行的限流与调度建议，帮助开发者在月末账单失控前勒住算力缰绳。',
+    'https://github.com/harukikuri/spotnote': '重塑前端研发与人机协作的触觉界面；在真实运行网页中点选元素即可精准回溯源文件行列并附带样式差异，把人机联调的摩擦降到最低。',
+    'https://daymark.one/': '反击软件订阅制泛滥的买断制清流；零云端依赖、数据随设备本地备份的习惯追踪器，证明小而美的独立工具靠单次付费依然能活得很滋润。',
+    'https://getcuecut.com/': '以视线人机工程学切入的锋利微型工具；把提词器精准固定在镜头正下方并自适应语速滚动，消灭视频创作者眼神漂移的长期痛点。',
+    'https://type.vinayakshukla.com/': '将枯燥打字练习与高价值深度阅读深度缝合；在敲击键帽的肌肉记忆中心流式吸收文章精髓，展示了一人公司打磨极客审美的匠心。',
+    'https://flipper.fm': '平台围墙花园之外的个人数字音乐资产独立性；将流媒体收藏抽象为自持的唱片分类架，把内容组织权彻底还给爱乐者。',
+    'https://www.figma.com/specs/': '设计稿向代码工程交付的范式迁移；在画布旁原生内嵌面向 Agent 可读的结构化 Markdown 规格说明，极大消灭了跨职能协作的理解断层。',
+    'https://beam.win/': '打破物理设备边界的轻量虚拟化体验；让远端工作站的窗口无缝混入本地桌面 Dock 栏与快捷键心流，重塑了双机极客的协同体感。',
+    'https://grasmere.app': '本地纯文本网络的可塑性防护网；在本地自由重命名与整理 Markdown 文件的同时自动无损改写交叉链接，守护网状思考底盘。',
+    'https://github.com/mySingleLive/shakeink-desktop': '长篇复杂叙事创作者的结构化工作台；将埋设的伏笔与草蛇灰线直接连回正文章节原句，把大脑内存中的繁复情节具象化。',
+    'https://www.itsnicethat.com/articles/nik-arthur-animation-discover-191026': '自然物理介质与定格动画的诗意碰撞；用激光雕刻木模在浮萍水面上推开涟漪反向生成片头，展现了人造数字所无法替代的有机偶然性。',
+    'https://www.designboom.com/design/undulating-plywood-layers-stratum-parametric-public-seating-sculpture-zorka-furniture/': '参数化设计与工业板材叠合的流动雕塑；六百多层胶合板截面在商场中庭勾勒出既可游走穿行又可安然落座的起伏山丘。',
+    'https://www.dezeen.com/2026/10/19/traditional-thai-lanterns-bangkok-cafe-interior/': '本土传统节庆意象在现代商业空间中的高级转译；将天灯轻盈的骨架与蓝色悬浮体相融，用当代建筑语言唤醒了曼谷的在地文脉。',
+    'https://www.designboom.com/architecture/boonserm-premthada-bangkok-project-studio-coastal-office-thailand-reclaimed-timber/': '旧木材的沧桑岁月与滨海生态的温柔对话；保留拆迁旧料的原始榫口与斑驳漆面，在架空走廊与竹编穿风中书写可持续建筑的尊严。',
+    'https://www.creativeboom.com/work/collins-centres-a-new-identity-for-a-payroll-platform-on-banknote-colours-and-building-blocks/': '严肃企业服务品牌视觉的年轻化解构；用全球钞票的防伪微缩色彩与积木几何重塑薪资底座，打破传统财务软件冰冷乏味的刻板印象。',
+    'https://www.lennysnewsletter.com/p/claude-cuts-my-tiktok-how-this-creator': '创作者个人跳剪心流的算法化提炼；让智能体深度吸收自己的节奏偏好并驱动 FFmpeg 自动粗剪，揭示了个体创作者产能杠杆化的极速路径。',
+    'https://indiepilot.app': '从公域社区真实求助中挖掘高意向线索；通过语义匹配精准锁定 Reddit 讨论中同类竞品的抱怨用户，为冷启动期独立产品提供低成本获客雷达。',
+    'https://wordpress.org/plugins/footloom/': '隐私合规收紧时代的自托管访问分析底盘；把流量漏斗与行为日志死死留在自有数据库，告别第三方 Cookie 封杀与云端合规隐患。'
+}
+
+day_items = []
+
+# 1. AI 资讯 (from vertical_data)
+v_info = vertical_data['2026-10-20']
+for news in v_info['ai_news']:
+    used_set.add(news['url'])
+    day_items.append(news)
+
+# 2. 5 ian categories × 4 items
+target_5_categories = ['AI 协作', '一人公司', '产品设计', '审美提升', '产品营销']
+for c in target_5_categories:
+    picked_urls = curated_ian_picks[c]
+    for idx, u in enumerate(picked_urls):
+        raw_it = raw_by_url[u]
+        used_set.add(u)
+        day_items.append({
+            'category': c,
+            'title': raw_it['title'],
+            'note': raw_it['judgment'],
+            'so_what': so_what_overrides.get(u, '从微小变化中洞察范式转移，把外部技术演进收拢为自身确定性的产品复利。'),
+            'source': raw_it['source'],
+            'url': u,
+            'media': raw_it['media'] or 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80',
+            'pinned': (idx < 2)
+        })
+
+# 3. 3 vertical categories × 4 items
+for drama in v_info['ai_drama']:
+    used_set.add(drama['url'])
+    day_items.append(drama)
+for sp in v_info['screenplay']:
+    used_set.add(sp['url'])
+    day_items.append(sp)
+for pm in v_info['pm']:
+    used_set.add(pm['url'])
+    day_items.append(pm)
+
+if len(day_items) != 36:
+    raise ValueError(f'Items count is {len(day_items)}, expected 36!')
+
+cat_order = ['AI 资讯', 'AI 协作', '一人公司', '产品设计', '审美提升', '产品营销', 'AI 漫剧', '编剧技巧', '产品经理']
+sorted_items = []
+for co in cat_order:
+    sorted_items.extend([it for it in day_items if it['category'] == co])
+
+md_content = f"""---
+date: '2026-10-20'
+title: {json.dumps(v_info['title'], ensure_ascii=False)}
+highlights: {json.dumps(v_info['highlights'], ensure_ascii=False)}
+draft: false
+epigraph: {json.dumps(v_info['epigraph'], ensure_ascii=False)}
+lead: {json.dumps(v_info['lead'], ensure_ascii=False)}
+scene: {json.dumps(v_info['scene'], ensure_ascii=False)}
+cover: {v_info['cover']}
+items:
+"""
+for it in sorted_items:
+    clean_title = json.dumps(it['title'].replace('\n', ' ').strip(), ensure_ascii=False)
+    clean_note = json.dumps(it['note'].replace('\n', ' ').strip(), ensure_ascii=False)
+    clean_so_what = json.dumps(it['so_what'].replace('\n', ' ').strip(), ensure_ascii=False)
+    clean_source = json.dumps(it['source'].strip(), ensure_ascii=False)
+    clean_url = json.dumps(it['url'].strip(), ensure_ascii=False)
+    clean_media = json.dumps(it['media'].strip(), ensure_ascii=False)
+    pinned_val = 'true' if it.get('pinned', False) else 'false'
+    md_content += f"""  - category: {json.dumps(it['category'], ensure_ascii=False)}
+    title: {clean_title}
+    note: {clean_note}
+    so_what: {clean_so_what}
+    source: {clean_source}
+    url: {clean_url}
+    media: {clean_media}
+    pinned: {pinned_val}
+"""
+md_content += f"""---
+
+## 今日主理人寄语
+
+{v_info['closing']}
+"""
+
+out_file = 'src/content/daily/2026-10-20.md'
+with open(out_file, 'w', encoding='utf-8') as out:
+    out.write(md_content)
+print(f'Successfully generated: {out_file} (36 items)')
+
+all_used_list = list(used_urls)
+for u in used_set:
+    if u not in used_urls:
+        all_used_list.append(u)
+
+with open(used_urls_path, 'w', encoding='utf-8') as f:
+    json.dump(all_used_list, f, ensure_ascii=False, indent=2)
+
+print(f'\nFinished generating 2026-10-20! Total URLs in history: {len(all_used_list)}')
