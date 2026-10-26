@@ -1,0 +1,464 @@
+# -*- coding: utf-8 -*-
+import json
+import os
+
+items = [
+    # 1. AI 资讯 (4)
+    {
+        "category": "AI 资讯",
+        "title": "Llama Windows 把本地模型共用成一个托盘服务",
+        "note": "从 Hugging Face 一键下载模型，系统托盘统一常驻：让所有第三方桌面应用与编程 Agent 共享兼容 OpenAI 的标准接口与 KV 缓存，Alt + 空格极速呼出唤醒。",
+        "so_what": "终结每个 AI 应用各自启动独立 Python 环境与重复加载模型的内存黑洞；以极简本地中枢打造单机多 Agent 高速协作底座。",
+        "source": "llama.app",
+        "url": "https://llama.app/",
+        "media": "https://iandaily.xyz/digest/2026-10-26-llamawin-e14b51a0d8c1.jpg?v=2026-10-26",
+        "pinned": True,
+    },
+    {
+        "category": "AI 资讯",
+        "title": "Hurston-1 把英语口音语音合成带到电话线路",
+        "note": "基于 Maya1 深度微调的高真实感语音合成模型：覆盖南部美语与多种非洲英语，默认输出 24kHz 高保真音频，同时原生提供适配电话信道的 8kHz 窄带流。",
+        "so_what": "全球化出海智能外呼与客服 Agent 的关键拼图；用原汁原味的本地化口音打破跨国业务冷淡感，极大提升外呼接通与转化率。",
+        "source": "huggingface.co",
+        "url": "https://huggingface.co/destined/hurston-1",
+        "media": "https://iandaily.xyz/digest/2026-10-26-hurston1-89ab012c45fe.jpg?v=2026-10-26",
+        "pinned": True,
+    },
+    {
+        "category": "AI 资讯",
+        "title": "Clara 为预设选项返回概率而非自由文字",
+        "note": "限定结构化小决策 API：支持批量提交多道单选、多选与分级评分问题，不返回不可控的自然语言废话，而是精准输出置信度概率供调用方依阈值分流。",
+        "so_what": "将大模型从昂贵的“聊天机器”降维为极高吞吐的“业务路由器”；大幅砍掉 80% 的推理开销与解析幻觉，专为高频生产网关设计。",
+        "source": "api.saanora.com",
+        "url": "https://api.saanora.com/docs",
+        "media": "https://iandaily.xyz/digest/2026-10-26-clara-56df82bc31ea.jpg?v=2026-10-26",
+        "pinned": False,
+    },
+    {
+        "category": "AI 资讯",
+        "title": "DSpark 消费级显卡实验揭示后端参数差异",
+        "note": "深入 AMD 消费级显卡（RX 7900 GRE）的端侧基准测试：全面对比 Vulkan 与 ROCm 后端在草稿推测解码中的最佳长度与吞吐差异，实测揭示输出非确定性现象。",
+        "so_what": "为边缘端部署大模型的工程师提供了宝贵的第一手避坑账本；破除对厂商官方宣传的迷信，用真实硬件测试数据指导生产调优。",
+        "source": "github.com",
+        "url": "https://github.com/juraj-jumic/dspark-local-bench",
+        "media": "https://iandaily.xyz/digest/2026-10-26-dspark-74a91bce09ef.jpg?v=2026-10-26",
+        "pinned": False,
+    },
+
+    # 2. AI 协作 (4)
+    {
+        "category": "AI 协作",
+        "title": "Moli 为代理提供可隔离的云端浏览会话",
+        "note": "Lexmount 推出的 Agent 专属沙箱浏览器容器：同时提供多源搜索、DOM 解析与底层抓取，当智能体在复杂网页遇阻卡住时，人类可通过 Live View 毫秒级无缝接管。",
+        "so_what": "彻底解决 Agent 自主操作网页时的“黑盒失控与验证码死锁”难题；以人机协同接力机制，保障长链路自动化爬取与填表任务的绝对闭环。",
+        "source": "browser.lexmount.com",
+        "url": "https://browser.lexmount.com/",
+        "media": "https://iandaily.xyz/digest/2026-10-26-moli-482a0b1c93de.jpg?v=2026-10-26",
+        "pinned": True,
+    },
+    {
+        "category": "AI 协作",
+        "title": "Perch 把 Claude 会话、PR 与下一步放在一处",
+        "note": "专为全栈架构师打造的异步 Agent 工作台：后台静默并发运行任务，仅在需要人类关键决策、审阅代码变更或 CI 构建报警时轻度打扰，退出界面会话仍继续执行。",
+        "so_what": "消灭被动盯盘的焦虑与多终端切屏摩擦；让人类从“实时监工”升维为“异步决策总监”，最大化并发调配 AI 研发算力。",
+        "source": "perchfocus.com",
+        "url": "https://perchfocus.com/",
+        "media": "https://iandaily.xyz/digest/2026-10-26-perch-61a8ef9034cb.jpg?v=2026-10-26",
+        "pinned": True,
+    },
+    {
+        "category": "AI 协作",
+        "title": "Repotruck 把批量仓库同步成可预测目录",
+        "note": "代码库结构化治理与 MCP 中枢：终端界面与 MCP 协议共用整理能力，自动为智能体生成仓库文件拓扑地图，规范跨工程批量克隆与上下文抓取。",
+        "so_what": "为大型代码重构智能体扫清“盲人摸象”的上下文迷障；用确定性的文件地图引导 Agent 精准定位目标模块，杜绝无效搜索消耗。",
+        "source": "sametcn99.github.io",
+        "url": "https://sametcn99.github.io/repotruck/",
+        "media": "https://iandaily.xyz/digest/2026-10-26-repotruck-012abfe89304.jpg?v=2026-10-26",
+        "pinned": False,
+    },
+    {
+        "category": "AI 协作",
+        "title": "AgentGrid 让人和代理修改同一份实时产物",
+        "note": "多维协同共创画布：文档、幻灯片与应用代码共享统一上下文与细粒度权限限定，人类与多个 Agent 角色同屏编辑，消除交接任务时另存副本的严重脱节。",
+        "so_what": "告别低效的“对话框发文件再下载”旧习惯；在同一实时产物上人机协同推演，实现从方案设计到代码落地的高保真闭环。",
+        "source": "agentgrid.io",
+        "url": "https://agentgrid.io/",
+        "media": "https://iandaily.xyz/digest/2026-10-26-agentgrid-93be01ca6712.jpg?v=2026-10-26",
+        "pinned": False,
+    },
+
+    # 3. 一人公司 (4)
+    {
+        "category": "一人公司",
+        "title": "MRRaudit 把收入口径差异追到每张账单",
+        "note": "独立 SaaS 收入核算的精准审计微工具：逐客户逐笔对比 Stripe 与 ChartMogul，按订阅变更、逆向退款与税费事件清晰解释每一笔差额，只读访问安全可靠。",
+        "so_what": "独立开发者直面财务真相的护身符；告别不同报表口径自相矛盾的糊涂账，把每一分订阅现金流对账做到底层穿透。",
+        "source": "mrraudit.com",
+        "url": "https://mrraudit.com/",
+        "media": "https://iandaily.xyz/digest/2026-10-26-mrraudit-82fa0b9410ea.jpg?v=2026-10-26",
+        "pinned": True,
+    },
+    {
+        "category": "一人公司",
+        "title": "TemplateBox 把收据、简历与样机做成网页编辑器",
+        "note": "浏览器端极简单兵微产品：无需注册，开箱即可直接基于高保真模板修改版式与字段，快速生成符合国际规范的正式商业发票、收据与设备样机图。",
+        "so_what": "单兵微 SaaS 极佳的冷启动切口；零认知阻力切入全球自由职业者与小微商户日常报销的高频刚需，靠实用性自然沉淀口碑。",
+        "source": "templatebox.win",
+        "url": "https://templatebox.win/",
+        "media": "https://iandaily.xyz/digest/2026-10-26-templatebox-19cba0ef3241.jpg?v=2026-10-26",
+        "pinned": True,
+    },
+    {
+        "category": "一人公司",
+        "title": "Mood Writer 把自然声音放进写作环境",
+        "note": "独立开发者的极致体验探索：白描编辑区配合高品质雨声、柴火与深林环境白噪音，工具完全围绕“立刻动笔”展开，拒绝繁琐的项目配置与心流打断。",
+        "so_what": "反内卷、重体验的产品哲学；在充斥臃肿功能的协作软件市场，用纯粹的专注氛围切入写作者心智，以极高审美建立品牌溢价。",
+        "source": "moodwriter.app",
+        "url": "https://www.moodwriter.app/",
+        "media": "https://iandaily.xyz/digest/2026-10-26-moodwriter-77be01dc8930.jpg?v=2026-10-26",
+        "pinned": False,
+    },
+    {
+        "category": "一人公司",
+        "title": "ToolsOfWeb 把六十九个小工具留在浏览器本地",
+        "note": "纯前端离线运行的实用工具集合：涵盖图片压缩、PDF 拆分、哈希计算与开发文本转换等 69 项功能，免注册且所有数据均在用户设备内存完成计算。",
+        "so_what": "零服务器账单与零隐私风险的单兵运维范本；以纯客户端算力交付确定性功能，免去复杂的云端鉴权与带宽开销，实现长青自运转。",
+        "source": "toolsofweb.com",
+        "url": "https://www.toolsofweb.com/",
+        "media": "https://iandaily.xyz/digest/2026-10-26-toolsofweb-50da0b1e4571.jpg?v=2026-10-26",
+        "pinned": False,
+    },
+
+    # 4. 产品设计 (4)
+    {
+        "category": "产品设计",
+        "title": "Bell Weather 用历史百分位解释这阵子冷暖",
+        "note": "重塑天气感知的创新数据设计：把当下 90 天的气温变化放回该气象站的历史百年散点区间，用直观的历史百分位向用户解释“当下到底有多反常”。",
+        "so_what": "从展示冷冰冰的数字到交付深刻的认知体验；用相对坐标系替代绝对数值，展现了现代信息可视化设计对大众生活认知的重塑力。",
+        "source": "bellweather.dev",
+        "url": "https://bellweather.dev/",
+        "media": "https://iandaily.xyz/digest/2026-10-26-bellweather-33ab01df6718.jpg?v=2026-10-26",
+        "pinned": True,
+    },
+    {
+        "category": "产品设计",
+        "title": "My Kids TV 在拿起遥控器时停住推荐",
+        "note": "极具人文关怀的儿童交互电视界面：主页一次仅展示单个适龄片目，当传感器检测到孩子拿起遥控器时自动暂停轮播与诱惑推荐，确认后再跳转流媒体播放。",
+        "so_what": "对抗算法信息过载与成瘾设计的反向设计范例；主动克制屏幕诱惑，用极简的选择权保护儿童注意力，展现负责任产品的温度。",
+        "source": "github.com",
+        "url": "https://github.com/suboss87/my-kids-tv",
+        "media": "https://iandaily.xyz/digest/2026-10-26-mykidstv-110fab34de89.jpg?v=2026-10-26",
+        "pinned": True,
+    },
+    {
+        "category": "产品设计",
+        "title": "这个独立组件把 iPod 转轮放进网页",
+        "note": "经典拟物交互的现代 Web 复刻组件：支持 React 与纯 HTML，高保真还原了物理 Click Wheel 转轮的惯性阻尼手感、按键回弹声效与选歌交互。",
+        "so_what": "数字拟物手感与触觉记忆的惊艳复苏；在高度同质化的现代 Web 交互中注入独特的机械把玩乐趣，为前端创意设计打开全新灵感切角。",
+        "source": "ipod-simulator.vercel.app",
+        "url": "https://ipod-simulator.vercel.app/",
+        "media": "https://iandaily.xyz/digest/2026-10-26-ipodsim-89fa0b12cd54.jpg?v=2026-10-26",
+        "pinned": False,
+    },
+    {
+        "category": "产品设计",
+        "title": "Badgey 让手机胸牌跟着佩戴方向转身",
+        "note": "软硬件交互与社交场景的绝妙融合：倒挂挂绳时屏幕自动朝向对面的人显示大字身份，塞入胸前口袋则自动收缩为极简姓名条，口袋识别借助本机相机动态判定。",
+        "so_what": "利用设备固有传感器创造自然微交互的典范；无需任何额外昂贵配件，用极低的软件巧思化解线下展会名片交换与识别的尴尬。",
+        "source": "apps.marcoluthi.com",
+        "url": "https://apps.marcoluthi.com/badgey/",
+        "media": "https://iandaily.xyz/digest/2026-10-26-badgey-21ef09ab76a3.jpg?v=2026-10-26",
+        "pinned": False,
+    },
+
+    # 5. 审美提升 (4)
+    {
+        "category": "审美提升",
+        "title": "Table of Power 用镜面把长桌延伸到尽头",
+        "note": "荷兰设计周瞩目展陈装置：折弯成型的冷冽不锈钢长桌在两侧无缝镜面映照下延伸至无限深处，木器、温暖织物与灯饰点缀其间，空间从晚宴功能升华为视觉仪式。",
+        "so_what": "极简材质与物理虚实关系的哲学演绎；用镜像空间打破有限展馆物理边界，将普通的家具陈列升华为震撼人心的精神场域。",
+        "source": "dezeen.com",
+        "url": "https://www.dezeen.com/2026/10/25/collectible-furniture-dutch-design-week-table-of-power/",
+        "media": "https://iandaily.xyz/digest/2026-10-26-tableofpower-44ba09de1201.jpg?v=2026-10-26",
+        "pinned": True,
+    },
+    {
+        "category": "审美提升",
+        "title": "Keybytes 把每一颗键做成可重排模块",
+        "note": "开源硬件模块化美学的极致探索：每个按键独立拥有微型电路板，四周弹簧顶针无缝传递供电与通信，搭配磁吸外壳让键盘布局如积木般自由拼接排列。",
+        "so_what": "解构现代标准工业品的工匠精神再现；打破传统键盘固有形态的僵化定义，把人机交互输入设备的审美主动权彻底交回使用者手中。",
+        "source": "github.com",
+        "url": "https://github.com/notaroomba/keybytes",
+        "media": "https://iandaily.xyz/digest/2026-10-26-keybytes-78a0ef19b301.jpg?v=2026-10-26",
+        "pinned": True,
+    },
+    {
+        "category": "审美提升",
+        "title": "Datça 木棚把村庄聚会的准备区留在场边",
+        "note": "土耳其爱琴海畔的轻质公共凉亭：模数化轻型木构框架自然整合了长凳、操作台面与悬挑遮阳织物，无永久混凝土基础，季节交替时可无损拆卸回收。",
+        "so_what": "低介入度生态建筑的诗意实践；以最轻盈的结构尊重既有村落地貌，让建筑像树荫一样自然融入当地社区生活与自然呼吸。",
+        "source": "designboom.com",
+        "url": "https://www.designboom.com/architecture/modular-timber-framing-textile-canopies-open-air-civic-pavilion-turkey-datca-summer-workshop-erazo-pugliese/",
+        "media": "https://iandaily.xyz/digest/2026-10-26-datcapavilion-91ba01cd3421.jpg?v=2026-10-26",
+        "pinned": False,
+    },
+    {
+        "category": "审美提升",
+        "title": "Prounis 把纽约装饰艺术缩进金色流苏",
+        "note": "纽约高级珠宝工坊的复古新造：22K 纯金搭配天然水晶、古董切工钻石与温润玉石，从上世纪装饰艺术建筑与套色版画中提炼严谨几何与摇曳流苏韵律。",
+        "so_what": "古典重金属质感与现代几何审美的完美平衡；拒绝粗制滥造的快时尚，以手作金工的岁月沉淀交付永恒的物质尊严与触觉美感。",
+        "source": "wallpaper.com",
+        "url": "https://www.wallpaper.com/watches-jewellery/jean-prounis-moderne-jewellery-collection",
+        "media": "https://iandaily.xyz/digest/2026-10-26-prounis-12ca09ef4510.jpg?v=2026-10-26",
+        "pinned": False,
+    },
+
+    # 6. 产品营销 (4)
+    {
+        "category": "产品营销",
+        "title": "Rob Snyder 把需求验证拆回客户正在做的事",
+        "note": "Lenny 播客重磅专访：深度拆解 PULL 需求拉力框架，告别虚幻的访谈假设，从客户当下实际在执行的工作任务、替代工具的不满与成本摩擦中严谨锁定 PMF。",
+        "so_what": "刺破伪需求幻想的商业铁律；客户不会为你脑海里的点子买单，只有深度嵌入对方正在痛苦挣扎的工作现场，产品才具备真正的增长拉力。",
+        "source": "lennysnewsletter.com",
+        "url": "https://www.lennysnewsletter.com/p/an-86-minute-guide-to-finding-pmf",
+        "media": "https://iandaily.xyz/digest/2026-10-26-robsnyder-39ab01df45e0.jpg?v=2026-10-26",
+        "pinned": True,
+    },
+    {
+        "category": "产品营销",
+        "title": "Swingback 把用户投票一路接到上线通知",
+        "note": "用户反馈到交付推广的全链路闭环：看板直接同步 Linear 与 GitHub 开发任务，当对应功能构建上线时，自动向当年参与投票的用户逐一发送定制回信与更新日志。",
+        "so_what": "将日常版本迭代转化为高转化获客公关的利器；让早期支持者深刻感受到被倾听与被尊重，把冰冷的软件更新做成高黏性的社群飞轮。",
+        "source": "swingback.dev",
+        "url": "https://swingback.dev",
+        "media": "https://iandaily.xyz/digest/2026-10-26-swingback-71ba09de3204.jpg?v=2026-10-26",
+        "pinned": True,
+    },
+    {
+        "category": "产品营销",
+        "title": "Papermark 用访问控制与阅读数据承接资料分发",
+        "note": "开源方案分发与融资数据室平台：支持自定义品牌独立域名、动态访问权限与水印防盗，后台精准追踪每一页的停留时长与跳出热力图。",
+        "so_what": "B2B 销售与早期融资的关键情报雷达；穿透对方“已阅”的客套回复，用逐页停留的真实数据洞察对方最在意的核心价值点与顾虑。",
+        "source": "papermark.com",
+        "url": "https://www.papermark.com",
+        "media": "https://iandaily.xyz/digest/2026-10-26-papermark-55ab09cd1234.jpg?v=2026-10-26",
+        "pinned": False,
+    },
+    {
+        "category": "产品营销",
+        "title": "DeclineKit 用九十天失败账单做免费获客入口",
+        "note": "订阅制软件流失挽回服务的获客钩子：免费提供只读权限审计，精准汇总团队过去 90 天因信用卡过期或扣款失败而蒸发的未收回订阅款，直击财务痛点。",
+        "so_what": "免费审计作为高转化获客前端的经典教材；先用无可辩驳的真实损失数据刺痛客户神经，再顺理成章推出付费挽回方案，成单率极高。",
+        "source": "declinekit.com",
+        "url": "https://declinekit.com/audit",
+        "media": "https://iandaily.xyz/digest/2026-10-26-declinekit-09fe01ab3471.jpg?v=2026-10-26",
+        "pinned": False,
+    },
+
+    # 7. AI 漫剧 (4)
+    {
+        "category": "AI 漫剧",
+        "title": "撤金币、防沉迷，短剧的“红绿大战”没戏了：平台合规下的内容精品化生死决战",
+        "note": "微短剧下半场格局巨变的重磅复盘：随着监管规范与平台反沉迷落地，粗放依靠“看剧赚金币”与擦边爽点的买量套利彻底熄火，工业化精品叙事成为行业唯一生存线。",
+        "so_what": "微短剧草莽买量时代的终结信号；制作团队必须告别粗制滥造的套路拼接，回归人物弧光、反转因果与视听工业品质，筑牢长期内容壁垒。",
+        "source": "woshipm.com",
+        "url": "https://www.woshipm.com/it/6483996.html",
+        "media": "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?w=800&auto=format&fit=crop&q=80",
+        "pinned": True,
+    },
+    {
+        "category": "AI 漫剧",
+        "title": "中美AI，输赢难道取决于短剧？生成式视听内容出海的工业重构",
+        "note": "AI 视频大模型与视听工业结合的宏观推演：深度分析为什么高频迭代的微短剧正在成为检验生成模型角色一致性、运镜动态与全栈变现效率的最残酷练兵场。",
+        "so_what": "从算法自嗨到文化工业出海的范式转移；谁能在微短剧流水线中跑通“AI生成 + 本地化叙事 + 商业变现”闭环，谁就率先拿到了下一代流媒体的门票。",
+        "source": "woshipm.com",
+        "url": "https://www.woshipm.com/ai/6484049.html",
+        "media": "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=800&auto=format&fit=crop&q=80",
+        "pinned": True,
+    },
+    {
+        "category": "AI 漫剧",
+        "title": "从拆片到成片：我用 Seedance 2.5 学做了一条网球短片与影视分镜实操",
+        "note": "新一代视频生成管线的实战操盘复盘：从经典电影分镜拆解出发，详述如何利用 Seedance 2.5 实现镜头轨迹重构、网球物理运动拟真与连续多景别光影统一。",
+        "so_what": "打破“AI视频只能做PPT静态慢动作”的偏见；用扎实的分镜理论与运动参数掌控，证明全能单兵在数字制片中完全可以交付院线级动态视听质感。",
+        "source": "woshipm.com",
+        "url": "https://www.woshipm.com/ai/6483909.html",
+        "media": "https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800&auto=format&fit=crop&q=80",
+        "pinned": False,
+    },
+    {
+        "category": "AI 漫剧",
+        "title": "绿泡泡和短国有时差：微信生态与短剧分发战场的冷热思考",
+        "note": "公域买量与私域社交裂变的底层商业机制冲突剖析：深度对比抖音算法买量“首日回本”与微信社交关系链“长尾发酵”的截然不同生命周期，拆解私域短剧运营打法。",
+        "so_what": "分发渠道决定内容形态的深刻启示；在公域买量成本飙升的当下，学会利用社交裂变与私域留存盘活长线内容资产，是漫剧创作者的必修课。",
+        "source": "woshipm.com",
+        "url": "https://www.woshipm.com/it/6483700.html",
+        "media": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&auto=format&fit=crop&q=80",
+        "pinned": False,
+    },
+
+    # 8. 编剧技巧 (4)
+    {
+        "category": "编剧技巧",
+        "title": "《帮派女大佬伪装豪门千金》都市大女主短剧：黑白通吃与身份反转的双重快感",
+        "note": "极致身份反差爽剧剧本拆解：狠辣地下势力掌权者伪装成懦弱被弃真千金，在家族联姻与商业霸凌中隐忍设局，随后用降维雷霆手段实施清算，因果链条极其工整。",
+        "so_what": "大女主爽文短剧人设构建的方法论范本；通过极致的社会身份错位制造巨大戏剧张力，让受众在严丝合缝的打脸因果中获得高浓度代偿爽感。",
+        "source": "wzbj1616.com",
+        "url": "https://www.wzbj1616.com/script_info/1797",
+        "media": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=800&auto=format&fit=crop&q=80",
+        "pinned": True,
+    },
+    {
+        "category": "编剧技巧",
+        "title": "《滇南乱世》历史权谋短剧：边陲博弈与民族史诗的群像剧作密度",
+        "note": "高难度历史正剧微短剧的结构编排：在极短篇幅内交织部族纷争、土司割据与朝廷军机博弈，通过多线暗号与人物抉择刻画有血有肉的边陲英雄群像。",
+        "so_what": "微短剧摆脱“脸谱化纸片人”的剧作示范；证明只要情节密度与因果逻辑足够扎实，短剧同样能承载恢弘的历史厚重感与史诗情怀。",
+        "source": "wzbj1616.com",
+        "url": "https://www.wzbj1616.com/script_info/1801",
+        "media": "https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?w=800&auto=format&fit=crop&q=80",
+        "pinned": True,
+    },
+    {
+        "category": "编剧技巧",
+        "title": "《老公今天又在偷偷宠我》都市先婚后爱短剧：微动作糖点与心动节拍设计",
+        "note": "甜宠赛道情感拉扯的剧作技巧拆解：摒弃廉价粗暴的工业糖精，通过日常同居细节、口是心非的眼神避让与危机时刻的本能护短，设计多重暧昧推拉节拍。",
+        "so_what": "都市女性情感题材的心动公式；用极具烟火气的生活细节托起浪漫幻想，精准击中年轻受众对健康、平等且深情亲密关系的心理投射。",
+        "source": "wzbj1616.com",
+        "url": "https://www.wzbj1616.com/script_info/1802",
+        "media": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80",
+        "pinned": False,
+    },
+    {
+        "category": "编剧技巧",
+        "title": "《顶流她从不道歉》娱乐圈复仇短剧：舆论战与人设反噬的强戏剧反转",
+        "note": "现实主义网络公关战的戏剧化编织：主角深谙传播心理学、热搜机制与危机公关逻辑，在遭遇同行恶意设局全网网暴时冷静顺水推舟，在直播发布会上反向绝杀。",
+        "so_what": "紧跟时代痛点的现代复仇爽剧范式；用专业度极高的行业内幕支撑剧情反转，既能满足观众的猎奇心，又能交付智商在线的高级爽感。",
+        "source": "wzbj1616.com",
+        "url": "https://www.wzbj1616.com/script_info/1804",
+        "media": "https://images.unsplash.com/photo-1461360370896-922624d12aa1?w=800&auto=format&fit=crop&q=80",
+        "pinned": False,
+    },
+
+    # 9. 产品经理 (4)
+    {
+        "category": "产品经理",
+        "title": "对话 OpenAI Dots 负责人：对话框只是过渡，主动智能才是下一代 AI 的真正形态",
+        "note": "OpenAI 前沿产品领军者的深度专访：全面剖析为什么被动等待用户输入的单薄问答框正在失去生产力价值，推演系统如何凭借多模态环境感知与后台自主 Action 重塑交互。",
+        "so_what": "所有 AI 产品经理必须直面的认知跃迁；别再把精力耗在套壳聊天界面上，构建能够自主感知情境并主动交付结果的行动流系统才是未来。",
+        "source": "woshipm.com",
+        "url": "https://www.woshipm.com/ai/6483913.html",
+        "media": "https://images.unsplash.com/photo-1556742049-0a67e557224d?w=800&auto=format&fit=crop&q=80",
+        "pinned": True,
+    },
+    {
+        "category": "产品经理",
+        "title": "实测Kimi K3.1：更擅长塑造“第一印象”了，接下来真正考验在后端工程",
+        "note": "国产顶级长上下文模型的大规模生产体检：实测长文本归纳、代码生成与多轮复杂工具调用表现，客观指出长程任务下的端到端一致性与后端工程支撑才是最终分水岭。",
+        "so_what": "技术产品选型的务实避坑参考；穿透发布会营销包装，深入评估模型在多轮长链路任务中的真实抗压能力，做好工程防御与容错兜底。",
+        "source": "woshipm.com",
+        "url": "https://www.woshipm.com/evaluating/6483980.html",
+        "media": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&auto=format&fit=crop&q=80",
+        "pinned": True,
+    },
+    {
+        "category": "产品经理",
+        "title": "为什么 OpenAI 和 Anthropic 都在抢着进入这个领域？智能体端侧物理落地的战略博弈",
+        "note": "全球头部 AI 实验室战略重心的深度研判：剖析大模型为何加速从云端机房向 PC 本地操作系统与端侧硬件下沉，探讨谁掌握了底层系统调用与屏幕读写权谁就统领未来的商战本质。",
+        "so_what": "看清操作系统级权力重构的历史机遇；端侧不是云端的妥协，而是离用户物理资产与数据隐私最近的王座，产品布局必须提前卡位。",
+        "source": "woshipm.com",
+        "url": "https://www.woshipm.com/it/6483988.html",
+        "media": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=800&auto=format&fit=crop&q=80",
+        "pinned": False,
+    },
+    {
+        "category": "产品经理",
+        "title": "狂揽千亿融资之后，DeepSeek 具身投资版图浮出水面与核心资产逻辑",
+        "note": "顶尖算法团队跨界实体硬件的资本版图解密：深度透视从语言大模型到物理世界具身智能的技术演进链，拆解其在关节电机、触觉传感与多模态世界模型上的系统性布局。",
+        "so_what": "软硬件一体化浪潮下的产品视野拓展；纯软件智能正在迅速撞上天花板，能够让代码在物理实体中产生功与力、真实改变世界的具身系统才是星辰大海。",
+        "source": "woshipm.com",
+        "url": "https://www.woshipm.com/embodied/6483697.html",
+        "media": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&auto=format&fit=crop&q=80",
+        "pinned": False,
+    },
+]
+
+# Verify counts
+assert len(items) == 36, f"Expected 36 items, got {len(items)}"
+categories = [i["category"] for i in items]
+from collections import Counter
+cat_counts = Counter(categories)
+print("Categories:", dict(cat_counts))
+assert all(v == 4 for v in cat_counts.values()) and len(cat_counts) == 9
+
+# Deduplicate check against all-used-urls.json
+used_path = "scripts/all-used-urls.json"
+used_urls = set(json.load(open(used_path, "r", encoding="utf-8")))
+item_urls = [i["url"] for i in items]
+assert len(item_urls) == len(set(item_urls)), "Duplicate URLs within today's issue!"
+dups = [u for u in item_urls if u in used_urls]
+assert len(dups) == 0, f"Found duplicates in all-used-urls.json: {dups}"
+
+# Generate Markdown
+date_str = "2026-10-26"
+title_str = "10 月 26 日 · 主动智能与端侧下沉：当大模型开始“走出聊天框”"
+highlights_str = "全网 9 大领域 36 篇高密度精选：OpenAI Dots 负责人深度剖析主动智能如何终结对话框、Llama Windows 托盘统一本地模型与编程 Agent 缓存、微短剧平台合规洗牌全面告别网赚买量、DeepSeek 具身投资版图透视、Lenny 播客重磅解析 PULL 需求拉力框架。"
+epigraph_str = "被动的问答不过是智能的初级幻象；真正重塑世界的系统，从不等人类催促，而是在物理端侧、后台工作流与真实业务中主动触发结果。"
+lead_str = "10 月 26 日，新的一周以一场关于“主动式系统与端侧物理落地”的行业大洗牌揭开序幕。顶级实验室与一线工程操盘手正在形成最坚固的战略共识：OpenAI Dots 负责人正式发声宣告“对话框只是过渡，主动智能才是下一代 AI 的真正形态”，巨头竞争焦点集体从云端大模型拼参数，转向下沉端侧硬件、本地托盘服务与自主闭环能力；在协作与架构治理端，无论是将 Claude 异步调度整合进 PR 与 CI 报警闭环的 Perch，还是在云端为 Agent 开辟沙箱浏览并保留人工接管窗口的 Moli，都在加速将粗放的指令调用演进为可靠的确定性流水线；在视听与短剧工业化战场，随着“红绿大战”网赚金币模式的退场与合规防沉迷落地，靠低质擦边买量的暴利泡沫彻底破裂，取而代之的是 Seedance 2.5 驱动的工业级分镜实操与私域社交关系链沉淀；而在商业与需求验证端，Lenny 播客重磅揭示的 PULL 需求拉力框架与 Stripe 收入口径对齐审计，更给所有一人公司与产品人上了最生动的一课——停止自嗨，深入客户正在做的事，筑牢物理与商业世界的立足之基。"
+scene_str = "「大模型越来越聪明了，为什么我们的产品留存还是上不去？」「因为你只是给了用户一个空聊天框，指望他自己去想能问你什么。只有系统能在后台把代码写好、把 PR 提上、把账单对齐，把确定性的成果直接递到他眼前时，用户才会真正离不开你。」"
+
+lines = [
+    "---",
+    f"date: '{date_str}'",
+    f'title: "{title_str}"',
+    f'highlights: "{highlights_str}"',
+    "draft: false",
+    f'epigraph: "{epigraph_str}"',
+    f'lead: "{lead_str}"',
+    f'scene: "{scene_str}"',
+    "cover: https://images.unsplash.com/photo-1518770660439-4636190af475?w=1600&auto=format&fit=crop&q=80",
+    "items:",
+]
+
+for it in items:
+    lines.append(f'  - category: "{it["category"]}"')
+    lines.append(f'    title: "{it["title"]}"')
+    safe_note = it["note"].replace('"', '\\"')
+    safe_sowhat = it["so_what"].replace('"', '\\"')
+    lines.append(f'    note: "{safe_note}"')
+    lines.append(f'    so_what: "{safe_sowhat}"')
+    lines.append(f'    source: "{it["source"]}"')
+    lines.append(f'    url: "{it["url"]}"')
+    lines.append(f'    media: "{it["media"]}"')
+    lines.append(f'    pinned: {"true" if it["pinned"] else "false"}')
+
+lines.append("---")
+lines.append("")
+lines.append("## 今日主理人寄语")
+lines.append("")
+lines.append("今天是新一周的周一。")
+lines.append("")
+lines.append("整理今天这 36 篇横跨技术、设计、商业与叙事的深度精选时，最令我振奋的，是 **大模型产品终于开始长出自己的“手脚与自主性”**。")
+lines.append("")
+lines.append("过去两年，整个行业被禁锢在一个巨大的认知误区里：大家以为把模型套进一个类似 ChatGPT 的对话框，就是 AI 产品的全部。")
+lines.append("但 OpenAI Dots 负责人的冷静发声，彻底揭穿了皇帝的新衣：")
+lines.append("**被动的问答只是过渡期的妥协，真正能够重塑世界生产力的，是能够主动感知上下文、自主驱动后台工作流的主动智能系统。**")
+lines.append("")
+lines.append("从在 Windows 托盘里常驻共享的 Llama 统一模型服务，")
+lines.append("到在沙箱里默默帮人类完成复杂跨页操作并保留接管权的 Moli，")
+lines.append("再到微短剧洗去金币买量泡沫全面回归电影级视听分镜的 Seedance 2.5 实操……")
+lines.append("")
+lines.append("潮水正在不可阻挡地退去，留下的都是直面业务本质的硬核资产。")
+lines.append("新的一周，愿我们都能少一些被动的等待，多一些主动的探寻，在真实世界的工程与商业深水区里，构建属于你自己的不可替代性。周一加油！")
+
+md_content = "\n".join(lines) + "\n"
+
+target_md = f"src/content/daily/{date_str}.md"
+with open(target_md, "w", encoding="utf-8") as f:
+    f.write(md_content)
+print(f"Generated {target_md} with {len(items)} items!")
+
+# Update all-used-urls.json
+all_updated = list(used_urls) + item_urls
+with open(used_path, "w", encoding="utf-8") as f:
+    json.dump(all_updated, f, indent=2, ensure_ascii=False)
+print(f"Updated {used_path}: from {len(used_urls)} to {len(all_updated)} URLs.")
