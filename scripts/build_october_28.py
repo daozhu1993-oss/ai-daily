@@ -1,0 +1,444 @@
+# -*- coding: utf-8 -*-
+import json
+import os
+
+items = [
+    # 1. AI 资讯 (4)
+    {
+        "category": "AI 资讯",
+        "title": "谷歌发布 Genie 4：可交互通用世界模型架构与环境演变",
+        "note": "世界模型研发的历史级跃迁：不仅能从单一图像或提示词生成连续高保真动作流，更能实时响应人类操作指令并实时推演物理环境交互反馈，开辟物理仿真新纪元。",
+        "so_what": "终结被动像素生成的旧时代；让大模型具备三维空间感、重力与物理因果理解能力，为具身智能与虚拟世界工业化构建起通用的神经仿真底座。",
+        "source": "woshipm.com",
+        "url": "https://www.woshipm.com/ai/6485176.html",
+        "media": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+        "pinned": True,
+    },
+    {
+        "category": "AI 资讯",
+        "title": "Anthropic 官方深度复盘：顶尖 AI 实验室的十二条意外工程经验",
+        "note": "万亿参数模型研发一线的极客真知：深度披露数据配比失真、提示词工程边际效应递减、强化学习冷启动暗坑等生产级试错教训，彻底打破行业神话。",
+        "so_what": "照亮高估值光环下的工程泥泞；提醒每一位技术操盘手，大模型研发从不存在奇迹，唯有极度严谨的基准测试与系统级容错，才能跑通稳健的智能演进。",
+        "source": "woshipm.com",
+        "url": "https://www.woshipm.com/ai/6484800.html",
+        "media": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&auto=format&fit=crop&q=80",
+        "pinned": True,
+    },
+    {
+        "category": "AI 资讯",
+        "title": "RSI 自我递归进化新闭环：AI 介入芯片设计与算力自举范式",
+        "note": "AI 自我提升（Recursive Self-Improvement）的硬核落地：从布局布线、时序优化到微架构寻优，大模型在 EDA 芯片全流程中替代人工微调，成倍缩短流片迭代周期。",
+        "so_what": "算力自我创造算力的正反馈闭环启动；突破人类硬件工程师的脑力带宽极限，芯片设计的演进速度正在与模型智能的迭代速度完成指数级咬合。",
+        "source": "woshipm.com",
+        "url": "https://www.woshipm.com/ai/6484723.html",
+        "media": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&auto=format&fit=crop&q=80",
+        "pinned": False,
+    },
+    {
+        "category": "AI 资讯",
+        "title": "ToiletBench 征集没有指示牌的空间照片：视觉空间物理直觉评测",
+        "note": "极具启发性的视觉常识前沿基准：专挑毫无文字标志的复杂建筑室内实景，测试大模型能否仅凭建筑流线、排风口与光影走向精准预判隐藏功能区方位。",
+        "so_what": "刺穿多模态模型机械背题与文字 OCR 作弊的照妖镜；检验 AI 是否真正拥有通感直觉，为无人送货与室内服务机器人空间推演筑牢底层标尺。",
+        "source": "behu-kea.github.io",
+        "url": "https://behu-kea.github.io/toilet-bench/",
+        "media": "https://iandaily.xyz/digest/2026-10-27-toiletbench-3b76c421ae1f.jpg?v=2026-10-28",
+        "pinned": False,
+    },
+
+    # 2. AI 协作 (4)
+    {
+        "category": "AI 协作",
+        "title": "ManyAgents 用一张画布看多代理工程拓扑",
+        "note": "复杂智能体网络可视化编排利器：在一张无限画布上实时呈现各 Agent 的调用层级、通信拓扑、任务派发与上下文阻塞瓶颈，让人机协同状态一目了然。",
+        "so_what": "终结多 Agent 协作黑盒化导致的调试死局；将混沌的代理调用关系转化为清晰的工程拓扑，让系统架构师拥有全盘掌控与热重载的指挥官视野。",
+        "source": "manyagents.app",
+        "url": "https://manyagents.app/",
+        "media": "https://iandaily.xyz/digest/2026-10-27-manyagents-1e38b409609f.jpg?v=2026-10-28",
+        "pinned": True,
+    },
+    {
+        "category": "AI 协作",
+        "title": "VibeiDE 在办公室和终端网格之间切换：代理任务批处理调度",
+        "note": "兼顾视觉审阅与极客效能的 IDE 实验：既支持类似像素办公室的可视化任务排队与断点续传，又能一键切入高密度终端网格，降低动效负担并加速交付。",
+        "so_what": "为人机协作者平衡信息密度与视觉舒适度的交互范例；把枯燥的等待结果重塑为有序的生产流水线，大幅削减大批量并发时的认知过载。",
+        "source": "vibeide.dev",
+        "url": "https://vibeide.dev/",
+        "media": "https://iandaily.xyz/digest/2026-10-27-vibeide-687d73611e5b.jpg?v=2026-10-28",
+        "pinned": True,
+    },
+    {
+        "category": "AI 协作",
+        "title": "pw-repl 让人与代理共用一个浏览器控制台",
+        "note": "Playwright 驱动的端到端人机同屏调试协议：人类输入的指令与 Agent 发出的命令实时串联在同一审计流中，支持实时注入网络故障与一键接管控制权。",
+        "so_what": "打破 Agent 自动化测试中“一报错就重来”的低效魔咒；通过无缝人机接力，让人类在最关键的验收节点介入，把自动化执行成功率推至极致。",
+        "source": "github.com",
+        "url": "https://github.com/arcanemachine/pw-repl",
+        "media": "https://iandaily.xyz/digest/2026-10-27-pwrepl-34e8aa009980.jpg?v=2026-10-28",
+        "pinned": False,
+    },
+    {
+        "category": "AI 协作",
+        "title": "Hob 自动挑选本机装得下的开放模型",
+        "note": "个人开发者本地轻量模型智能调度中枢：自动扫描设备显存与内存上限，动态推荐并配置能流畅运行的开源模型，支持本地私密离线文档与代码处理。",
+        "so_what": "降低端侧模型落地门槛的实用利器；让 8GB/16GB 消费级设备也能无痛拥有本地专属智能体，守护数据主权的同时杜绝云端 API 依赖风险。",
+        "source": "github.com",
+        "url": "https://github.com/FrigadeHQ/hob",
+        "media": "https://iandaily.xyz/digest/2026-10-27-hob-383fadb42ae8.jpg?v=2026-10-28",
+        "pinned": False,
+    },
+
+    # 3. 一人公司 (4)
+    {
+        "category": "一人公司",
+        "title": "Termcraft 在终端方块世界里联机生存：单兵极简多用户网络游戏",
+        "note": "独立黑客硬核系统工程杰作：完全基于纯文本终端 ANSI 字符流与轻量网络套接字，构建出支持多用户联机采矿、建筑与生存的方块沙盒世界。",
+        "so_what": "单兵凭借极致技术审美撬动极客社区的典型代表；摆脱沉重 3D 引擎与高昂服务器开销，用纯粹的技术创意在枯燥字符间点亮浪漫微型世界。",
+        "source": "github.com",
+        "url": "https://github.com/pagel-s/termcraft/tree/v0.2.0",
+        "media": "https://iandaily.xyz/digest/2026-10-27-termcraft-7e32624e7de9.jpg?v=2026-10-28",
+        "pinned": True,
+    },
+    {
+        "category": "一人公司",
+        "title": "Freehire 直接从公司招聘板整理技术岗位：去中介化单兵求职聚合",
+        "note": "绕过猎头中介的信息聚合利器：直接实时监听各大技术公司官方 Career 页面更新，剔除虚假外包垃圾信息，精准聚合第一手真实在招岗位与薪酬范围。",
+        "so_what": "用透明信息差构建长期用户信任的微型 SaaS 典范；拒绝向招聘平台妥协算法贩卖，以极简小产品精准解决核心痛点并实现稳健盈利。",
+        "source": "freehire.me",
+        "url": "https://freehire.me/",
+        "media": "https://iandaily.xyz/digest/2026-10-27-freehire-972297376b0e.jpg?v=2026-10-28",
+        "pinned": True,
+    },
+    {
+        "category": "一人公司",
+        "title": "Valence 给自托管影音库做了完整播放界面：开源个人媒体中心",
+        "note": "极富品味的独立流媒体产品设计：以轻量现代化前端直连用户自有对象存储与影视原盘，提供媲美院线级的海报墙、字幕平滑渲染与跨端无缝断点续播。",
+        "so_what": "数字原住民对中心化流媒体平台恶心订阅制的反击；将核心视听资产所有权牢牢锁在本地，用极简审美交付最纯粹的私人家庭影院体验。",
+        "source": "getvalence.app",
+        "url": "https://www.getvalence.app/",
+        "media": "https://iandaily.xyz/digest/2026-10-27-valence-f2b1ac673243.jpg?v=2026-10-28",
+        "pinned": False,
+    },
+    {
+        "category": "一人公司",
+        "title": "ShellSprint 用打字街机练习命令记忆：高复购生产力小工具",
+        "note": "融合街机手感与系统命令记忆的微型产品：将高频 Linux/Git/Docker 命令行拆解为节奏打字闯关，借助肌肉记忆训练消除开发者的查文档卡顿。",
+        "so_what": "将专业刻意练习游戏化的绝妙构思；不依赖沉重功能，用强成瘾性的微闭环创造长效复购，为单兵独立开发提供了极具启发性的打磨样板。",
+        "source": "shellsprint-dev.pages.dev",
+        "url": "https://shellsprint-dev.pages.dev",
+        "media": "https://iandaily.xyz/digest/2026-10-27-shellsprint-c8d919cf0f4f.jpg?v=2026-10-28",
+        "pinned": False,
+    },
+
+    # 4. 产品设计 (4)
+    {
+        "category": "产品设计",
+        "title": "Freedraw 给手绘白板补上共享空间：无限画布与多人异步协同",
+        "note": "触控与手写交互的巅峰演进：保留纸笔般细腻随性的阻尼手感，通过轻量 CRDT 算法实现零延迟端侧多人手写同步与矢量空间分层组织。",
+        "so_what": "打破规整几何图表对发散思维的无形束缚；让创意团队在纯粹的手绘节奏中激荡灵感，重新确立白板工具作为思考延伸的原生触感地位。",
+        "source": "freedraw.sh",
+        "url": "https://freedraw.sh/",
+        "media": "https://iandaily.xyz/digest/2026-10-27-freedraw-487de7e45b35.jpg?v=2026-10-28",
+        "pinned": True,
+    },
+    {
+        "category": "产品设计",
+        "title": "ShowMe 把演示素材留在本地目录：克制的文件优先交互设计",
+        "note": "化繁为简的演示文稿交互范式：坚决拒绝臃肿幻灯片格式，仅凭本地文件夹里的 Markdown、图片与视频流即可按时间轴平滑播放，代码开源无锁死。",
+        "so_what": "文件优先（File-over-app）哲学的经典落地；把数据掌控权彻底交还用户，用克制的产品设计消灭一切不必要的功能赘肉与格式绑定。",
+        "source": "github.com",
+        "url": "https://github.com/KonradJuenger/ShowMe",
+        "media": "https://iandaily.xyz/digest/2026-10-27-showme-6b47e31b2306.jpg?v=2026-10-28",
+        "pinned": True,
+    },
+    {
+        "category": "产品设计",
+        "title": "Nerd Fonter 先看字体再装进终端：上下文原位对比预览体验",
+        "note": "专为命令行极客打造的原位字体工作台：将不同 Nerd Font 的特殊图标、行高间距与连字特性直接放入多语言代码样本中实时排版对比，告别盲装盲试。",
+        "so_what": "从枯燥的参数对比向场景化原位体验跃迁；在专业垂直领域，消除每一次试错摩擦往往比塞入新功能更能直接赢得核心用户的口碑盛赞。",
+        "source": "shapemachine.xyz",
+        "url": "https://shapemachine.xyz/nerd-fonter/",
+        "media": "https://iandaily.xyz/digest/2026-10-27-nerdfonter-cc1ce8332119.jpg?v=2026-10-28",
+        "pinned": False,
+    },
+    {
+        "category": "产品设计",
+        "title": "Nodewise 让 SVG 优化前后同步缩放：精细化矢量代码图形对照",
+        "note": "矢量图形设计师的专业微操利器：同时展示 SVG 优化前后在各级缩放下的曲线平滑度与控制点精简情况，并实时对齐代码尺寸压缩率与视觉精度偏差。",
+        "so_what": "以严谨的工程度量捍卫视觉品质的尊严；让设计师既能享有代码级极致压缩带来的性能飞跃，又能死守矢量弧度的艺术纯粹性与视觉张力。",
+        "source": "joysvg.com",
+        "url": "https://www.joysvg.com/nodewise.html",
+        "media": "https://iandaily.xyz/digest/2026-10-27-nodewise-0de2f4a30098.jpg?v=2026-10-28",
+        "pinned": False,
+    },
+
+    # 5. 审美提升 (4)
+    {
+        "category": "审美提升",
+        "title": "Sagmeister 把长期数据变成可感受的作品：大时间尺度的信息美学",
+        "note": "传奇设计大师施德明重磅个展：将人类数百年来的贫困率下降、预期寿命延长等宏观数据，转译为充满温度与色彩张力的大型装置艺术，对抗当代焦虑。",
+        "so_what": "跨越冰冷统计学与人类情感共鸣的伟大尝试；用高级的设计叙事穿透短期噪音，以大时间尺度的乐观主义为当代精神生活注入深刻从容与慰藉。",
+        "source": "designboom.com",
+        "url": "https://www.designboom.com/design/stefan-sagmeisters-la-gaite-lyrique/",
+        "media": "https://iandaily.xyz/digest/2026-10-27-sagmeister-e6194ed9ed25.jpg?v=2026-10-28",
+        "pinned": True,
+    },
+    {
+        "category": "审美提升",
+        "title": "Spacon 把跑步地图藏进金属试衣帘：穿孔铝板与工业材质触感",
+        "note": "哥本哈根阿迪达斯旗舰店的工业触觉实验：以精密穿孔铝板作为试衣帘结构，并在微孔阵列中隐喻城市马拉松路线，搭配复古鞋盒回收地毯，质感厚重。",
+        "so_what": "商业空间设计中在地文化与工业粗粝感的诗意对话；拒绝千篇一律的廉价装饰，用坚固耐磨的建筑五金与环保材质赋予零售空间深沉的运动尊严。",
+        "source": "designboom.com",
+        "url": "https://www.designboom.com/design/spacon-perforated-aluminum-curtain-vintage-shoe-box-carpets-adidas-copenhagen/",
+        "media": "https://iandaily.xyz/digest/2026-10-27-spacon-08535ee07f57.jpg?v=2026-10-28",
+        "pinned": True,
+    },
+    {
+        "category": "审美提升",
+        "title": "Gamaya 用碎石屋顶把度假空间藏进山坡：大地景观与生态建筑融合",
+        "note": "融合地景主义的生态建筑探索：依傍山坡原有等高线嵌入高低错落的露台，以本地开采碎石与植被覆盖坡形屋顶，将建筑体量自然消解于苍翠丘陵之中。",
+        "so_what": "对粗暴人造体介入自然的深刻反思；让建筑退后为大地背景，用呼吸般的谦逊姿态与周围生物群落共生，重构当代建筑的生态敬畏与宁静之美。",
+        "source": "dezeen.com",
+        "url": "https://www.dezeen.com/2026/10/26/gamaya-farms-biome-environmental-solutions/",
+        "media": "https://iandaily.xyz/digest/2026-10-27-gamaya-c20eb4edf713.jpg?v=2026-10-28",
+        "pinned": False,
+    },
+    {
+        "category": "审美提升",
+        "title": "Marfa Stance 把拼布外套的逻辑移到椅子：跨媒介时装解构家具",
+        "note": "跨界时装与家具工艺的解构美学：将高端功能性拼接外套的可拆卸衬里、绗缝织物与按扣系统移植至复古工业钢管椅，支持用户按季节自由重组靠垫纹理。",
+        "so_what": "可穿戴时尚与耐久家具形制的大胆交融；打破固定家居产品的审美惰性，让家具像高级定制服饰一样具备个性化模块迭代的生命张力。",
+        "source": "wallpaper.com",
+        "url": "https://www.wallpaper.com/design-interiors/furniture/marfa-stance-furniture-stephen-kenn-studio-gees-bend",
+        "media": "https://iandaily.xyz/digest/2026-10-27-marfa-cccda0a74fd6.jpg?v=2026-10-28",
+        "pinned": False,
+    },
+
+    # 6. 产品营销 (4)
+    {
+        "category": "产品营销",
+        "title": "产品经理定价指南：7 步从商业目标推演到落地结果",
+        "note": "拆解特斯拉、比亚迪与戴森定价逻辑的操盘干货：抽丝剥茧梳理从用户心理账户定位、边际成本核算、价格锚点确立到动态博弈测试的完整方法论闭环。",
+        "so_what": "商业模式落地最核心却最容易被忽视的生死门槛；定价不是拍脑袋的算术游戏，而是对用户价值让渡与商业护城河防御的综合顶层设计。",
+        "source": "woshipm.com",
+        "url": "https://www.woshipm.com/marketing/6484810.html",
+        "media": "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=800&auto=format&fit=crop&q=80",
+        "pinned": True,
+    },
+    {
+        "category": "产品营销",
+        "title": "ASOClimb 把关键词缺口和排名排到一处：应用商店透明化自然流量获取",
+        "note": "出海移动应用自然增长的作弊器：将竞品核心词排名变动、高价值流量词缺口与多语言本地化评级置于同一分析看板，用确定性数据指导 ASO 迭代。",
+        "so_what": "消灭高昂买量买不起时的增长焦虑；深挖应用商店搜索自然沉淀的长尾流量，用精准的元数据优化筑起最低边际获客成本的护城河。",
+        "source": "asoclimb.com",
+        "url": "https://asoclimb.com/",
+        "media": "https://iandaily.xyz/digest/2026-10-27-asoclimb-b98e1bcdc7ab.jpg?v=2026-10-28",
+        "pinned": True,
+    },
+    {
+        "category": "产品营销",
+        "title": "Alchemy 把同一份素材拆成不同渠道草稿：跨平台内容营销自动化杠杆",
+        "note": "一人公司内容矩阵爆发的关键中枢：输入一篇深度长文或产品更新日志，本地大模型自适应拆解为小红书图文文案、Twitter/X 钩子串与邮件简报。",
+        "so_what": "以最小生产力杠杆撬动全域分发效应；消灭多渠道排版与风格转译的繁重损耗，让个人开发者把精力牢牢锁定在最高价值的一手内容打磨上。",
+        "source": "alchemy-ai-amber.vercel.app",
+        "url": "https://alchemy-ai-amber.vercel.app",
+        "media": "https://iandaily.xyz/digest/2026-10-27-alchemy-008fc572dd46.jpg?v=2026-10-28",
+        "pinned": False,
+    },
+    {
+        "category": "产品营销",
+        "title": "Hither 让一条应用链接照顾不同商店地区：全球化智能分流与归因",
+        "note": "轻量级出海应用通用智能短链服务：根据访问者 IP、设备系统与本地语言，零延迟自动路由至对应的 App Store、Google Play 或地区官网，完整保留来源归因。",
+        "so_what": "抹平跨国分发过程中的转化率损耗断点；杜绝因多地区下载链接混乱导致的用户流失，用最轻的短链实现最专业的出海营销转化闭环。",
+        "source": "hither.link",
+        "url": "https://hither.link/",
+        "media": "https://iandaily.xyz/digest/2026-10-27-hither-495d096f615a.jpg?v=2026-10-28",
+        "pinned": False,
+    },
+
+    # 7. AI 漫剧 (4)
+    {
+        "category": "AI 漫剧",
+        "title": "短剧之争下半场：微信生态“轻”打法与红果全生态对抗",
+        "note": "国内微短剧分发格局大洗牌深度观察：剖析微信依托熟人社交裂变、小程序即开即走与公众号流量池的“轻模式”，与字节红果沉浸式 App 的全生态重兵对垒。",
+        "so_what": "渠道变迁倒逼短剧制片方重新站队；搞懂社交关系链裂变与重度买量投放的底层差异，因地制宜选择投放通路，才能在平台博弈中保持长线盈利。",
+        "source": "woshipm.com",
+        "url": "https://www.woshipm.com/it/6485097.html",
+        "media": "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?w=800&auto=format&fit=crop&q=80",
+        "pinned": True,
+    },
+    {
+        "category": "AI 漫剧",
+        "title": "红果、Seedance 与字节：微短剧工业化视听大模型实操复盘",
+        "note": "大厂生成式 AI 视听管线在微短剧场景的实战渗透剖析：从分镜脚本自动化解析、角色一致性种子锁定到批量视听渲染交付，全流程重构影视供应链效率。",
+        "so_what": "视听工业从作坊手工业向重工业自动化装配线的残酷跃迁；单点工具玩耍时代终结，掌握端到端生成管线的团队正在以十倍吞吐量改写行业分工规则。",
+        "source": "woshipm.com",
+        "url": "https://www.woshipm.com/it/6485027.html",
+        "media": "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=800&auto=format&fit=crop&q=80",
+        "pinned": True,
+    },
+    {
+        "category": "AI 漫剧",
+        "title": "腾讯打出短剧新牌：公众号小说 100% 分成与改编 5% 持续激励",
+        "note": "微短剧上游 IP 供给侧的重磅核弹：巨头打破传统阶梯抽成潜规则，以公众号爆款网文 100% 收益让利与后续短剧改编 5% 流水奖金，强力收割头部创作者。",
+        "so_what": "内容源头决定短剧生命线的终极争夺；短剧竞争的本质不再是比拼谁的买量预算高，而是看谁能持续垄断最具情绪穿透力的原创好故事。",
+        "source": "woshipm.com",
+        "url": "https://www.woshipm.com/it/6485091.html",
+        "media": "https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800&auto=format&fit=crop&q=80",
+        "pinned": False,
+    },
+    {
+        "category": "AI 漫剧",
+        "title": "短剧版多邻国来了：上头追剧与沉浸式语言学习的跨界视听产品范式",
+        "note": "生成式短剧在教育垂直场景的绝妙融合：将微短剧的黄金 3 秒悬念与强情节上头机制，改造为嵌入高频口语与情景剧对白的游戏化语言学习应用。",
+        "so_what": "微短剧视听技术跨界赋能严肃业务的创新样板；用高密度的多巴胺奖励机制重构枯燥学习体验，为漫剧技术在娱乐之外探索出极高价值的商业蓝海。",
+        "source": "woshipm.com",
+        "url": "https://www.woshipm.com/ai/6484959.html",
+        "media": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&auto=format&fit=crop&q=80",
+        "pinned": False,
+    },
+
+    # 8. 编剧技巧 (4)
+    {
+        "category": "编剧技巧",
+        "title": "《与死神共舞》民国探案复仇短剧：连环反转与本格密室嫌疑因果链",
+        "note": "高智商本格推理短剧的剧作节拍拆解：民国乱世背景下一桩看似铁证如山的家族灭门案，通过微物线索推演、时间线重叠与全员嫌疑设计，环环相扣层层反转。",
+        "so_what": "悬疑短剧跳出低智狗血套路的实战范式；用严密的逻辑闭环与因果伏笔支撑剧情狂飙，让受众在步步惊心的智力博弈中享受极致解密快感。",
+        "source": "wzbj1616.com",
+        "url": "https://www.wzbj1616.com/script_info/2187",
+        "media": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=800&auto=format&fit=crop&q=80",
+        "pinned": True,
+    },
+    {
+        "category": "编剧技巧",
+        "title": "《半路母女》现实主义催泪短剧：草根逆袭与下沉市场女性情感羁绊",
+        "note": "现实主义家庭温情短剧的情绪价值调动技法：围绕一对毫无血缘关系的拾荒养母与残疾养女展开，将底层生活的辛酸挣扎、人间冷暖与彼此救赎深刻交织。",
+        "so_what": "紧扣下沉市场最广大共情心智的深情力作；拒绝浮夸悬浮的豪门打脸，用真实入骨的生活细节打磨出催人泪下的情感重拳，沉淀持久长尾口碑。",
+        "source": "wzbj1616.com",
+        "url": "https://www.wzbj1616.com/script_info/2293",
+        "media": "https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?w=800&auto=format&fit=crop&q=80",
+        "pinned": True,
+    },
+    {
+        "category": "编剧技巧",
+        "title": "《古籍谍影》都市奇幻谍战短剧：文物秘宝博弈与双重身份危机节拍",
+        "note": "都市高概念与谍战悬疑交融的快节奏铺排：当代古籍修复师在千年残卷中意外解开跨国文物走私密匙，在各方势力围剿与反向追踪中借势破局。",
+        "so_what": "文化遗产题材年轻化与商业类型片转化的极佳样板；把厚重历史知识与现代极限逃生强节奏紧密结合，兼顾严肃知识密度与商业爽点爆发。",
+        "source": "wzbj1616.com",
+        "url": "https://www.wzbj1616.com/script_info/2269",
+        "media": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80",
+        "pinned": False,
+    },
+    {
+        "category": "编剧技巧",
+        "title": "《月球来信》硬核科幻地月灾难短剧：极端密闭生存与宏大绝境救援叙事",
+        "note": "硬核科幻短剧的危机升级与人性张力设计：月球背面基地突遭未知陨石风暴通讯中断，两名孤立无援的科研人员在有限氧气倒计时下展开绝境自救。",
+        "so_what": "极小成本场景承载宏大科幻叙事的典范；用极限资源压力迫使角色直面生死考验，在狭窄密闭空间中爆发震撼人心的英雄主义弧光。",
+        "source": "wzbj1616.com",
+        "url": "https://www.wzbj1616.com/script_info/2173",
+        "media": "https://images.unsplash.com/photo-1461360370896-922624d12aa1?w=800&auto=format&fit=crop&q=80",
+        "pinned": False,
+    },
+
+    # 9. 产品经理 (4)
+    {
+        "category": "产品经理",
+        "title": "机器人产品经理实战思考：别只想着替代人，要重构人机协作界面",
+        "note": "具身智能产品落地的醒脑复盘：剖析为什么当前把人形机器人直接套入人类岗位的尝试多数沦为昂贵的玩具，唯有重构人机协同分工边界才能跑通商业 ROI。",
+        "so_what": "具身智能产品经理必须建立的务实认知；技术成熟度决定了当前是“人机互补”而非“无人替代”，产品设计的重心在于降低人机交接的物理与心理摩擦。",
+        "source": "woshipm.com",
+        "url": "https://www.woshipm.com/embodied/6485117.html",
+        "media": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&auto=format&fit=crop&q=80",
+        "pinned": True,
+    },
+    {
+        "category": "产品经理",
+        "title": "远程评标系统落地复盘：严肃业务产品别把合规系统等同于视频会议",
+        "note": "G端与大型央国企招投标产品经理的深度避坑指南：抽丝剥茧拆解暗标评审防串通、人脸活体静默检测、区块链操作存证与硬件抗作弊的长链路系统设计。",
+        "so_what": "复杂高合规业务产品经理的基本功底线；严肃业务从不追求浮夸体验，只要法务合规与证据链闭环出现微小纰漏，整个产品系统便将面临万劫不复。",
+        "source": "woshipm.com",
+        "url": "https://www.woshipm.com/operate/6485291.html",
+        "media": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&auto=format&fit=crop&q=80",
+        "pinned": True,
+    },
+    {
+        "category": "产品经理",
+        "title": "融资 3000 万美金，一个非典型 Personal Agent 的商业与产品解构",
+        "note": "海外爆款个人代理产品的商业化复盘：深入拆解其如何摒弃传统对话框，通过后台常驻感知用户跨软件动作流，打造无感代办的主动智能闭环。",
+        "so_what": "AI 原生应用从玩具走向生产力刚需的跃迁样本；用户买单的永远不是对话框里的客套寒暄，而是真正替自己从头到尾解决繁琐任务的交付确定性。",
+        "source": "woshipm.com",
+        "url": "https://www.woshipm.com/ai/6485085.html",
+        "media": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=800&auto=format&fit=crop&q=80",
+        "pinned": False,
+    },
+    {
+        "category": "产品经理",
+        "title": "Arc 让位 AI 浏览器，WorkBuddy 则让 AI 兼容旧浏览器：工具与生态的务实演进",
+        "note": "人机交互界面演进的冷思考：探讨为什么推翻一切重造新浏览器的尝试屡屡受挫，而尊重用户既有插件、书签与工作流生态的渐进式兼容反而赢得市场。",
+        "so_what": "产品经理对抗“颠覆一切”虚荣诱惑的清醒标尺；颠覆不仅意味着革命，更意味着对用户迁移成本的傲慢，尊重成熟生态往往能走得更快更稳。",
+        "source": "woshipm.com",
+        "url": "https://www.woshipm.com/ai/6484817.html",
+        "media": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&auto=format&fit=crop&q=80",
+        "pinned": False,
+    },
+]
+
+# Verify counts
+assert len(items) == 36, f"Expected 36 items, got {len(items)}"
+categories = [i["category"] for i in items]
+from collections import Counter
+cat_counts = Counter(categories)
+print("Categories:", dict(cat_counts))
+assert all(v == 4 for v in cat_counts.values()) and len(cat_counts) == 9
+
+# Deduplicate check against all-used-urls.json
+used_path = "/Users/gx/.gemini/antigravity/scratch/ai-daily/scripts/all-used-urls.json"
+used_urls = set(json.load(open(used_path, "r", encoding="utf-8")))
+item_urls = [i["url"] for i in items]
+assert len(item_urls) == len(set(item_urls)), "Duplicate URLs within today's issue!"
+dups = [u for u in item_urls if u in used_urls]
+assert len(dups) == 0, f"Found duplicates in all-used-urls.json: {dups}"
+
+# Write Markdown
+target_md = "/Users/gx/.gemini/antigravity/scratch/ai-daily/src/content/daily/2026-10-28.md"
+
+md_lines = [
+    "---",
+    "date: '2026-10-28'",
+    'title: "10 月 28 日 · 世界模型具身化与算力自举：从被动预测到环境交互的重构"',
+    'highlights: "全网 9 大领域 36 篇高密度精选：谷歌重磅发布 Genie 4 通用交互世界模型架构、Anthropic 官方交底 12 条顶尖 AI 实验室意外工程经验、RSI 新闭环：AI 参与芯片设计实现算力自举、腾讯推短剧新牌：小说 100% 分成与改编激励、机器人产品经理实操：别只想着替代人，要重构人机协作界面。"',
+    "draft: false",
+    'epigraph: "世界模型解决的不是画面的精致度，而是对物理规律与动态因果的敬畏；算力只有能自主理解环境、在真实交互中自我纠偏，才算真正拥有了智能的骨骼。"',
+    'lead: "10 月 28 日，生成式 AI 的技术竞争正从“单向文本/图像生成”全面跃迁至“世界模型（World Models）与物理环境闭环交互”的新阶段。谷歌重磅发布 Genie 4，将可交互的生成式物理世界带入研发视野，标志着从被动预测像素向具备空间直觉与环境动态推演的质变；而在半导体与算力底层，AI 参与芯片设计的自我递归改进（RSI）正在形成商业飞轮，Anthropic 最新公开的技术复盘更警示行业——代码与算力并非孤立存在，唯有深入生产关系的结构性重组才能释放真正生产力；在具身智能与智能体落地一线，机器人产品经理从“盲目替代人”转向“人机协同最优解”，而短剧赛道上，微信与抖音生态的分野以及 100% 分成机制的推出，更将视听生成推向供给侧工业化竞争的终局。时代不再奖励单点技术炫技，谁能将世界模型、业务规则与商业契约严密咬合，谁才能拿到下一轮周期的入场券。"',
+    'scene: "「你们的世界模型生成的分辨率这么高，为什么测试时连个桌角都绕不过去？」「因为高保真的像素只是幻影，真正的世界模型需要懂得质量、摩擦力与时间因果。不能把物理常识算进去的生成，在物理引擎面前就是一触即溃的代码泡沫。」"',
+    "cover: https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1600&auto=format&fit=crop&q=80",
+    "items:"
+]
+
+for it in items:
+    md_lines.append(f'  - category: "{it["category"]}"')
+    md_lines.append(f'    title: "{it["title"]}"')
+    md_lines.append(f'    note: "{it["note"]}"')
+    md_lines.append(f'    so_what: "{it["so_what"]}"')
+    md_lines.append(f'    source: "{it["source"]}"')
+    md_lines.append(f'    url: "{it["url"]}"')
+    md_lines.append(f'    media: "{it["media"]}"')
+    md_lines.append(f'    pinned: {"true" if it["pinned"] else "false"}')
+
+md_lines.append("---")
+md_lines.append("")
+md_lines.append("### 岛主今日寄语")
+md_lines.append("")
+md_lines.append("技术的演进往往呈现出一种奇妙的反讽：当所有人都以为大模型的尽头是生成更多华丽的辞藻与精美的像素时，最硬核的突破却往往发生在最朴素的物理规律与底层算力架构之间。从谷歌 Genie 4 开启的世界模型物理仿真，到 AI 参与芯片布局的自举飞轮，再到下沉市场短剧原创 IP 的分成争夺，无一不在提醒我们——脱离了真实物理环境与商业闭环的技术不过是空中楼阁。做有根的产品，写有骨骼的叙事，方能在狂飙的周期中立于不败之地。")
+
+with open(target_md, "w", encoding="utf-8") as f:
+    f.write("\n".join(md_lines))
+
+print(f"Successfully generated {target_md}")
+
+# Append to all-used-urls.json
+all_urls = json.load(open(used_path, "r", encoding="utf-8"))
+all_urls.extend(item_urls)
+with open(used_path, "w", encoding="utf-8") as f:
+    json.dump(all_urls, f, ensure_ascii=False, indent=2)
+
+print(f"Updated all-used-urls.json, now contains {len(all_urls)} URLs.")
