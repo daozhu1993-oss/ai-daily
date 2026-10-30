@@ -1,0 +1,444 @@
+# -*- coding: utf-8 -*-
+import json
+import os
+from collections import Counter
+
+items = [
+    # 1. AI 资讯 (4)
+    {
+        "category": "AI 资讯",
+        "title": "SkyPilot 针对 Blackwell 架构推出拓扑感知调度：多卡吞吐跃升",
+        "note": "万卡大模型集群调度的底层破局：通过将长通信任务严格锁定在 NVLink 域内、动态重组机架碎片，大幅降低长序列训练与推理时的跨节点延迟瓶颈。",
+        "so_what": "打破万卡集群算力利用率（MFU）暴跌的魔咒；硬件军备竞赛进入拓扑精细化管理阶段，调度算法正在成为比增加 GPU 更具杠杆效应的降本利器。",
+        "source": "skypilot.ai",
+        "url": "https://skypilot.ai/blog/grace-blackwell-needs-a-new-scheduler",
+        "media": "https://iandaily.xyz/digest/2026-10-30-skypilot-7467244ab86f.jpg",
+        "pinned": True,
+    },
+    {
+        "category": "AI 资讯",
+        "title": "Kinoloom 在单台消费级设备串联短片制作：端到端影视工作流",
+        "note": "开源多模态视听管线的里程碑突破：在普通单机环境下一体化调度角色肖像锁定、镜头脚本生成、分镜合成与音频对齐，无需昂贵算力集群即可跑通短片闭环。",
+        "so_what": "影视制作工业化算力平权的先锋样本；彻底击碎传统三维建模与视效棚的高昂门槛，让独立创作者拥有匹敌中型制片厂的连续生成能力。",
+        "source": "github.com",
+        "url": "https://github.com/harlixay7/Kinoloom",
+        "media": "https://iandaily.xyz/digest/2026-10-30-kinoloom-44a86eb81992.jpg",
+        "pinned": True,
+    },
+    {
+        "category": "AI 资讯",
+        "title": "Pidgeon 给智能体独立专属邮箱：异步通信与指令注入风险过滤",
+        "note": "Agent 交互基础设施的关键补丁：为每个自主智能体生成独立 API 邮箱，收拢外部邮件与回复线索，并在交付执行前对附件与正文进行深度 Prompt 注入筛查。",
+        "so_what": "打通智能体与人类传统办公体系的防火墙通道；在完全放权前筑牢安全沙箱，让 Agent 真正能够替人类异步处理跨企业商务往来。",
+        "source": "pidgeon.ai",
+        "url": "https://pidgeon.ai",
+        "media": "https://iandaily.xyz/digest/2026-10-30-pidgeon-a537b1354708.jpg",
+        "pinned": False,
+    },
+    {
+        "category": "AI 资讯",
+        "title": "扩散模型杀进 Agent 主场：350 亿参数推理速度超越自回归范式",
+        "note": "智能体底层思考架构的范式颠覆：突破传统自回归逐字生成的串行速度天花板，通过连续扩散表征实现全并行规划，复杂逻辑推演速度提升一倍以上。",
+        "so_what": "自回归霸权时代迎来的最强挑战者；在实时操作与物理交互场景中，毫秒级决策延迟直接决定生死，扩散智能体正在重构边缘端交互范式。",
+        "source": "woshipm.com",
+        "url": "https://www.woshipm.com/ai/6485620.html",
+        "media": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+        "pinned": False,
+    },
+
+    # 2. AI 协作 (4)
+    {
+        "category": "AI 协作",
+        "title": "Recto 为编码代理提供即时可视化画布：所见即所得意图调整",
+        "note": "人机协同前端界面的交互质变：当代码代理在后台生成布局时，人类可以在左侧无限画布中直接拖拽间距、替换视觉层级，修改瞬间双向逆向映射回代码仓库。",
+        "so_what": "消灭文字描述 UI 时的语义损耗断点；将图形设计的肌肉直觉与大模型代码生成无缝咬合，让非技术设计人员也能直接驾驭智能体编程流水线。",
+        "source": "recto.design",
+        "url": "https://recto.design",
+        "media": "https://iandaily.xyz/digest/2026-10-30-recto-38ec6f708bd1.jpg",
+        "pinned": True,
+    },
+    {
+        "category": "AI 协作",
+        "title": "Kin 统一智能体账号操作权限：允许、询问与拦截分级沙箱",
+        "note": "企业级多智能体协同的安全总线：让所有接入系统的 AI 助手共用统一访问规则，将转账、数据库写入与跨设备操作严格切分为三级管控，留存完整审计链条。",
+        "so_what": "智能体从玩具走向企业核心资产的合规入场券；解决业务操盘手“既想享受全自动红利，又怕 Agent 误删生产数据”的心智阻碍，筑牢风控底线。",
+        "source": "kinlab.ai",
+        "url": "https://kinlab.ai",
+        "media": "https://iandaily.xyz/digest/2026-10-30-kin-be806c1a5ca8.jpg",
+        "pinned": True,
+    },
+    {
+        "category": "AI 协作",
+        "title": "Nori 专为智能体补丁打造的轻量 Git 审阅端：毫秒级变基与比对",
+        "note": "针对高频代码生成场景的极致审阅工具：摆脱厚重 IDE 的卡顿，用独立的原生轻量窗口实时聚焦 Agent 提交的 AST 变更，支持单键批准、行内调校与极速变基。",
+        "so_what": "重构人类在人机协同链条中的角色定位；当代码产出速度提升十倍，审阅吞吐量就成了团队唯一的木桶短板，专有工具是保持工程质量的关键护栏。",
+        "source": "meetnori.app",
+        "url": "https://meetnori.app/",
+        "media": "https://iandaily.xyz/digest/2026-10-30-nori-703601180332.jpg",
+        "pinned": False,
+    },
+    {
+        "category": "AI 协作",
+        "title": "Apgar 从真实调用轨迹评估智能体发布：告别大模型裁判主观偏差",
+        "note": "自主代理工程化落地的硬核评测体系：摒弃不可靠的 LLM-as-a-judge，通过记录工具调用报错率、循环死锁次数、延迟波动与真实 API 成本，客观度量版本退步。",
+        "so_what": "戳穿智能体刷分神话的照妖镜；生产环境的交付不需要虚幻的基准高分，唯有基于调用轨迹的工程级容错率，才能保证线上系统的坚若磐石。",
+        "source": "useapgar.dev",
+        "url": "https://useapgar.dev/",
+        "media": "https://iandaily.xyz/digest/2026-10-30-apgar-4fed98a64e22.jpg",
+        "pinned": False,
+    },
+
+    # 3. 一人公司 (4)
+    {
+        "category": "一人公司",
+        "title": "CarFree 聚合城市无车慢行探索：小众健康生活方式的独立变现",
+        "note": "深耕垂直生活美学的单兵产品：剔除喧闹的机动车主干道，用算法专门规划沿河绿道、林荫小巷与步行友好街区，为城市骑行者沉淀高纯度路线社区。",
+        "so_what": "单兵产品对抗综合地图巨头的差异化打法；不与高德谷歌比拼交通导航，而是用独特的精神主张与社群审美，把微小需求做成高溢价付费服务。",
+        "source": "carfreeapp.com",
+        "url": "https://carfreeapp.com/",
+        "media": "https://iandaily.xyz/digest/2026-10-30-carfree-b51c26857de3.jpg",
+        "pinned": True,
+    },
+    {
+        "category": "一人公司",
+        "title": "TypeBook 逐字敲完整本书练习深度阅读：极简体验与打字冥想",
+        "note": "反常识的数字阅读创新产品：将严肃经典名著转化为交互式打字练字本，用户必须逐字敲击输入才能推动故事前进，在肌肉记忆中找回深阅读心流。",
+        "so_what": "用减法重构用户行为的极致产品思维；在短视频快节奏轰炸的时代，将慢阅读与打字解压巧妙结合，以极轻的前端代码撬动全球文青的持续订阅。",
+        "source": "typebook.lol",
+        "url": "https://typebook.lol/",
+        "media": "https://iandaily.xyz/digest/2026-10-30-typebook-d402fe8ef9ef.jpg",
+        "pinned": True,
+    },
+    {
+        "category": "一人公司",
+        "title": "BigChecklist 把待办放大到隔室可见：大字体环境态信息管理",
+        "note": "彻底摒弃复杂嵌套标签的巨型待办清单：全屏极简黑白高对比度大字呈现当前唯一核心要务，即使放在房间对角线也能产生强烈的心理督促效应。",
+        "so_what": "一人开发者对认知心理学的绝妙运用；多数生产力工具的失败在于把任务管理变成了繁重负担，回归最原始的大字提醒反而拥有最高执行转化率。",
+        "source": "bigchecklist.com",
+        "url": "https://www.bigchecklist.com",
+        "media": "https://iandaily.xyz/digest/2026-10-30-bigchecklist-3583e8784f3b.jpg",
+        "pinned": False,
+    },
+    {
+        "category": "一人公司",
+        "title": "MorsePass 把摩尔斯节奏变成听觉关卡：极客爱好者的微型 SaaS",
+        "note": "专为无线电与密码爱好者打磨的节奏训练器：自适应生成不同速度的蜂鸣点划音频流，用游戏化音感过关模式带领受众肌肉记忆摩尔斯编码。",
+        "so_what": "一人公司挖掘亚文化金矿的典范；看似极度小众的需求，在全球互联网分发杠杆下足以汇聚成数万高忠诚度付费拥趸，维持健康的个人现金流。",
+        "source": "morsepass.com",
+        "url": "https://morsepass.com/",
+        "media": "https://iandaily.xyz/digest/2026-10-30-morsepass-231885e11ce6.jpg",
+        "pinned": False,
+    },
+
+    # 4. 产品设计 (4)
+    {
+        "category": "产品设计",
+        "title": "Sidekeys 把 iPhone 变成 Mac 物理级控制台：跨端触控协同",
+        "note": "多设备联动硬件感的交互创新：通过低延迟本地局域网通讯，将手机屏幕转化为 Mac 快捷操作面板、滚轮旋钮与实时监控表盘，带来真实触感反馈。",
+        "so_what": "废旧闲置硬件再利用的极致工业体验；免除昂贵专用外设开销，利用手机的高刷屏幕与线性马达赋能桌面专业生产力，重塑跨生态连接价值。",
+        "source": "sidekeysapp.com",
+        "url": "https://sidekeysapp.com/",
+        "media": "https://iandaily.xyz/digest/2026-10-30-sidekeys-64ccd59c45e2.jpg",
+        "pinned": True,
+    },
+    {
+        "category": "产品设计",
+        "title": "Sunlight 镜头式缩放重构窗口管理：连续平滑空间交互新标杆",
+        "note": "对传统重叠窗口与分屏平铺的交互革命：借助图形引擎的摄像机视角无级拉远与推近，所有应用如星系般分布在统一空间，彻底消除切换窗口的眩晕感。",
+        "so_what": "现代计算机图形交互在操作系统层的优雅延伸；用人类演化千万年的空间位置记忆替代抽象的文字标签，极大降低长期高强度脑力工作的疲劳感。",
+        "source": "sunlight.software",
+        "url": "https://sunlight.software/",
+        "media": "https://iandaily.xyz/digest/2026-10-30-sunlight-a475993aadd0.jpg",
+        "pinned": True,
+    },
+    {
+        "category": "产品设计",
+        "title": "OhmLens 让抽象电路在屏幕上流动仿真：触手可及的物理直觉",
+        "note": "教育类软件交互设计的教科书之作：将枯燥的欧姆定律与电磁公式转化为色彩流淌的动态电流管线，用户随意拨动滑动条即可实时观察电容充放电波形。",
+        "so_what": "用可交互仿真穿透认知厚墙的范式样本；好的设计不仅让界面好看，更能让人一眼看懂冰冷数据背后的物理因果，重塑理工科学习体验。",
+        "source": "ohmlens.com",
+        "url": "https://ohmlens.com/",
+        "media": "https://iandaily.xyz/digest/2026-10-30-ohmlens-87bb8174a2a1.jpg",
+        "pinned": False,
+    },
+    {
+        "category": "产品设计",
+        "title": "Overtone 自动重排横竖屏双端字幕断句：跨平台视听排版系统",
+        "note": "解决竖屏短视频字幕机械换行痛点的专业排版工具：结合语义语法停顿与不同屏幕宽高比，自动优化字幕断行与字距呼吸感，保证视线阅读流动性。",
+        "so_what": "对微观视听体验的极致匠心把控；看似不起眼的字幕排版直接决定受众的阅读疲劳度，用算法解放人工微调，让视频内容更具电影质感。",
+        "source": "github.com",
+        "url": "https://github.com/lonthq/overtone-captions",
+        "media": "https://iandaily.xyz/digest/2026-10-30-overtone-1f07da430f25.jpg",
+        "pinned": False,
+    },
+
+    # 5. 审美提升 (4)
+    {
+        "category": "审美提升",
+        "title": "Edicola 518 阶梯红橡木报亭：让古老公共阅读在街头温柔苏醒",
+        "note": "意大利佩鲁贾历史街区的微建筑改造奇迹：用温暖的阶梯式红橡木结构将破败的百年金属铁皮报亭改造为向所有人开放的街道微型阅览室与精神驿站。",
+        "so_what": "城市微更新与公共美学相融的诗意力作；不靠大拆大建，用几块考究的原木与典雅的书脊陈列，便为快节奏冷漠的现代都市注入温润的人文生机。",
+        "source": "designboom.com",
+        "url": "https://www.designboom.com/architecture/historic-perugia-newsstand-stepped-red-oak-mini-reading-kiosk-edicola-518-giuseppe-arezzi/",
+        "media": "https://iandaily.xyz/digest/2026-10-30-edicola-74f7b0a6649f.jpg",
+        "pinned": True,
+    },
+    {
+        "category": "审美提升",
+        "title": "Ori Merhav 仿生树脂琥珀雕塑：以昆虫分泌物吹制有机发光气泡",
+        "note": "跨界材料与生物艺术的先锋实验：提炼大自然中昆虫天然分泌的高分子树脂，在特定温控下吹制出半透明有机形态，内部微小气泡在光影下宛若史前化石。",
+        "so_what": "超越工业均质塑料的生命美学探索；大自然的有机造物永远比人工算法生成的线条更具不可预测的混沌美，提醒创作者保持对物质质感的敏锐敬畏。",
+        "source": "designboom.com",
+        "url": "https://www.designboom.com/design/glowing-amber-sculptures-polymer-insects-ori-orisun-merhav/",
+        "media": "https://iandaily.xyz/digest/2026-10-30-amber-7ab73a6fc28f.jpg",
+        "pinned": True,
+    },
+    {
+        "category": "审美提升",
+        "title": "PREGO 巨型钢钉比例重构先锋家具：工业构件的解构主义张力",
+        "note": "将微观建筑连接件推向视觉主角的极致概念设计：将一根普通木工钢钉的几何比例放大数十倍，以实心冷轧钢锻造为兼具野蛮与优雅的雕塑感咖啡桌。",
+        "so_what": "用颠覆尺度的视角击碎日常审美疲劳；最高级的美感往往隐藏在被忽视的工业微结构中，改变观察比例便能创造出具有强烈心理震撼的现代物象。",
+        "source": "designboom.com",
+        "url": "https://www.designboom.com/design/rotulo-em-branco-prego-oversized-nails-steel-furniture/",
+        "media": "https://iandaily.xyz/digest/2026-10-30-prego-d21300026133.jpg",
+        "pinned": False,
+    },
+    {
+        "category": "审美提升",
+        "title": "木村浩一 73 平方米独居住宅：极致挑空与几何光影的精神庇护所",
+        "note": "日本当代极简住宅设计的空间魔术：在逼仄狭窄的城市地块上，通过垂直方向的极限挑空、几何折角切面与天窗漫反射，构筑出如教堂般静谧的独处宇宙。",
+        "so_what": "小户型设计的终极哲学升华；空间的奢华从不在于占地平米数，而在于对光线、视线延伸与心理私密边界的精妙编排，给心灵留出舒展呼吸的缝隙。",
+        "source": "dezeen.com",
+        "url": "https://www.dezeen.com/2026/10/29/minimalist-house-form-kouichi-kimura/",
+        "media": "https://iandaily.xyz/digest/2026-10-30-minimalist-1bfd6bd9971c.jpg",
+        "pinned": False,
+    },
+
+    # 6. 产品营销 (4)
+    {
+        "category": "产品营销",
+        "title": "CatalogKite 静态目录直接承接订单：B2B 采购链路缩短实践",
+        "note": "颠覆传统笨重 ERP 与复杂采购门户的轻量方案：直接将供应商的 PDF/网页产品画册转化为可交互下单页面，采购商点击任意规格即可完成结算询盘。",
+        "so_what": "B2B 交易转化的黄金减法；不要强迫企业客户去适应繁琐的后台账号系统，用他们最熟悉的阅读习惯包裹交易流程，立竿见影提升采购成单率。",
+        "source": "catalogkite.com",
+        "url": "https://catalogkite.com/",
+        "media": "https://iandaily.xyz/digest/2026-10-30-catalogkite-e772882f5d02.jpg",
+        "pinned": True,
+    },
+    {
+        "category": "产品营销",
+        "title": "LiveWire 汇流全渠道动态为单一时间线：团队增长态势一屏掌握",
+        "note": "轻量级增长运营信号塔：将 Stripe 成交订单、新用户注册、高风险退订与生产环境致命报警汇流成单一实时流水线，支持自定义重要事件声音提示。",
+        "so_what": "让整个团队对核心商业脉搏保持同频共振；打破各业务系统的孤岛屏障，把冷冰冰的每日统计报表变成实时跳动的生命体，激发一线操盘手的战斗欲。",
+        "source": "getlivewire.app",
+        "url": "https://www.getlivewire.app/",
+        "media": "https://iandaily.xyz/digest/2026-10-30-livewire-97ac8e3f6ebd.jpg",
+        "pinned": True,
+    },
+    {
+        "category": "产品营销",
+        "title": "ASO Studio 贯穿关键词与商店转化全链路：出海应用增长中枢",
+        "note": "面向移动应用开发者的精细化获客套件：从全球 App Store 关键词热度挖掘、竞品元数据变动追踪，到实际下载转化率的漏斗归因，一站式闭环优化。",
+        "so_what": "在获客成本飙升时代深挖自然流量红利；告别盲目的买量豪赌，用科学的自然搜索排名与商店转化率测试，为应用构建稳定低成本的增长自驱力。",
+        "source": "asostudio.app",
+        "url": "https://asostudio.app",
+        "media": "https://iandaily.xyz/digest/2026-10-30-asostudio-fbadb921c67a.jpg",
+        "pinned": False,
+    },
+    {
+        "category": "产品营销",
+        "title": "Rowsend 让营销邮件直接连接自有数据库：消除三方同步损耗",
+        "note": "架构极简的高可用 EDM 引擎：无需将千万级用户数据全量同步至第三方 SaaS，营销邮件触发器直接对接内部 Postgres 库，按需动态拉取最新个性化字段。",
+        "so_what": "企业数据隐私与营销合规的坚强后盾；消除跨平台数据同步延迟与接口账单剥削，用现代开发者优先的架构打造自主可控的私域触达链路。",
+        "source": "rowsend.com",
+        "url": "https://rowsend.com/",
+        "media": "https://iandaily.xyz/digest/2026-10-30-rowsend-ece205b469b0.jpg",
+        "pinned": False,
+    },
+
+    # 7. AI 漫剧 (4)
+    {
+        "category": "AI 漫剧",
+        "title": "红果短剧砍掉看剧金币补贴：退潮后微短剧生态的存量大考",
+        "note": "透视微短剧赛道里程碑式的拐点事件：当巨头彻底关停依靠金币撒钱拉新获客的烧钱机器，平台必须依靠纯粹的内容吸引力与高品质叙事留存用户。",
+        "so_what": "粗暴买量时代画上句号，内容质量重回王座；没有了金币羊毛党的水分掩盖，只有真正具备情绪黏性与工业化生产能力的剧集才能在存量市场存活。",
+        "source": "woshipm.com",
+        "url": "https://www.woshipm.com/it/6485436.html",
+        "media": "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?w=800&auto=format&fit=crop&q=80",
+        "pinned": True,
+    },
+    {
+        "category": "AI 漫剧",
+        "title": "AI 短剧流水线打工人深度揭秘：影视供应链的效率狂欢与阵痛",
+        "note": "深入一线微短剧制作车间的全景纪实：揭秘生成式模型如何将原来几周的布景灯光压缩为几分钟的提示词渲染，以及幕后创作者如何应对角色动作畸变。",
+        "so_what": "从狂热崇拜走向理性磨合的行业白皮书；AI 从未消灭影视专业壁垒，反而对导演的审美把控力、剪辑节奏感与现场微调能力提出了更严苛的要求。",
+        "source": "woshipm.com",
+        "url": "https://www.woshipm.com/ai/6484731.html",
+        "media": "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=800&auto=format&fit=crop&q=80",
+        "pinned": True,
+    },
+    {
+        "category": "AI 漫剧",
+        "title": "张一鸣又造出国民级视听娱乐爆款：短剧与推荐算法的飞轮进化",
+        "note": "拆解字节跳动在互动视听领域的新一轮战略收网：将顶级推荐引擎、高密度短剧情绪点与用户注意力沉浸机制深度融合，打造势不可挡的时长黑洞。",
+        "so_what": "算法与内容供给侧深度咬合的工业奇观；单点创意团队无法与巨头的全产业链系统抗衡，唯有理解巨头流量分配的底层偏好，才能顺势搭上分发快车。",
+        "source": "woshipm.com",
+        "url": "https://www.woshipm.com/ai/6486183.html",
+        "media": "https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800&auto=format&fit=crop&q=80",
+        "pinned": False,
+    },
+    {
+        "category": "AI 漫剧",
+        "title": "腾讯出手：面向 Agent 时代的云端内容资产库到底该长什么样",
+        "note": "巨头对下一代视听资产存储与智能调用的前瞻布局：摒弃传统静态文件夹，为智能体多模态解析、镜头素材元数据自动索引与高速切片调用重构底层架构。",
+        "so_what": "影视多媒体资产从“死存储”升级为“活知识库”；智能体视听工业化离不开超高速素材索引底座，谁拥有最高效的素材资产池，谁就能主导生成生态。",
+        "source": "woshipm.com",
+        "url": "https://www.woshipm.com/ai/6486266.html",
+        "media": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&auto=format&fit=crop&q=80",
+        "pinned": False,
+    },
+
+    # 8. 编剧技巧 (4)
+    {
+        "category": "编剧技巧",
+        "title": "《穿越之农门贵女》AI 协同剧作实操：古言种田与女频逆袭节拍",
+        "note": "现代女频爽剧的矛盾升级范式：将现代商业知识与古代农家贫瘠困境无缝嵌合，通过层层递进的宗族冲突、小本买卖致富与情感博弈构筑高密度追剧动力。",
+        "so_what": "种田经商题材紧扣代入感的剧作密码；拒绝假大空的玛丽苏幻想，用扎实的物质积累细节与每集一个解压爽点，牢牢锁死下沉女性用户的心智共鸣。",
+        "source": "wzbj1616.com",
+        "url": "https://www.wzbj1616.com/script_info/2200",
+        "media": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=800&auto=format&fit=crop&q=80",
+        "pinned": True,
+    },
+    {
+        "category": "编剧技巧",
+        "title": "《末世我为王》男频末世生存短剧：丧尸危机与重生囤货因果链",
+        "note": "男频末日题材的剧作安全感与爆发力设计：重生回灾变前 72 小时，利用信息差极限套现、打造终极避难堡垒并反杀背叛者，节奏快如闪电。",
+        "so_what": "紧扣受众深层焦虑的极致情绪宣泄范式；用严密的资源兑换逻辑与步步为营的防御建设，给受众带来掌控命运、抵御未知灾难的巨大心理补偿。",
+        "source": "wzbj1616.com",
+        "url": "https://www.wzbj1616.com/script_info/2201",
+        "media": "https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?w=800&auto=format&fit=crop&q=80",
+        "pinned": True,
+    },
+    {
+        "category": "编剧技巧",
+        "title": "《槐树村首富》现实题材乡土爽剧：宗族纷争与商战逆袭冲突编排",
+        "note": "现实主义乡土题材的戏剧张力构建：青年返乡遭遇宗族排挤与恶性竞争，凭借绿色生态农业产业链与现代电商思维逆风翻盘，重构乡村秩序。",
+        "so_what": "接地气的现实题材商业化转化的成功样板；将政策红利、乡土人情与现代商业规律巧妙糅合，在兼顾正能量价值观的同时保持剧集的高昂商业可看性。",
+        "source": "wzbj1616.com",
+        "url": "https://www.wzbj1616.com/script_info/2202",
+        "media": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80",
+        "pinned": False,
+    },
+    {
+        "category": "编剧技巧",
+        "title": "《纨绔掌舵》都市豪门扮猪吃虎短剧：双重身份隐匿与高潮打脸节奏",
+        "note": "经典男频都市题材的结构性升级：隐匿首富独子身份潜入底层历练，在遭遇各路势利小人百般刁难后逐步解封权力与资产，层层引爆反转高潮。",
+        "so_what": "商业短剧百试不爽的情绪钟摆法则；先将角色的屈辱与隐忍压抑到极致，再以雷霆万钧之势展开降维打击，极致的情绪落差是驱动付费的黄金催化剂。",
+        "source": "wzbj1616.com",
+        "url": "https://www.wzbj1616.com/script_info/2204",
+        "media": "https://images.unsplash.com/photo-1461360370896-922624d12aa1?w=800&auto=format&fit=crop&q=80",
+        "pinned": False,
+    },
+
+    # 9. 产品经理 (4)
+    {
+        "category": "产品经理",
+        "title": "融资 1750 万美金，a16z 盛赞为“创意领域 Claude Code”的产品解构",
+        "note": "海外爆款 AI 创意生成工具的深度商业复盘：剖析其如何摒弃花哨的扩散模型交互，将自然语言直接编译为可生产级微调的工程图层与设计系统。",
+        "so_what": "创意生产力工具从“玩具”向“专业基础设施”跨越的标杆；资本不再为炫酷演示买单，唯有能融入专业设计团队既有交付管线的产品才能享有高估值。",
+        "source": "woshipm.com",
+        "url": "https://www.woshipm.com/chuangye/6486172.html",
+        "media": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&auto=format&fit=crop&q=80",
+        "pinned": True,
+    },
+    {
+        "category": "产品经理",
+        "title": "WorkBuddy 为何突然引爆国民度？工具型应用爆发的底层逻辑",
+        "note": "深入拆解新一代办公辅助工具的冷启动裂变密码：不搞宏大颠覆，专门瞄准白领最痛的“跨软件格式转换与报表对账”，以极简手感打穿企业员工圈层。",
+        "so_what": "工具类产品经理必须牢记的朴素真理；用户需要的永远不是高深莫测的技术概念，而是能帮自己准点下班、把繁重机械劳动一键消除的可靠帮手。",
+        "source": "woshipm.com",
+        "url": "https://www.woshipm.com/ai/6486098.html",
+        "media": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&auto=format&fit=crop&q=80",
+        "pinned": True,
+    },
+    {
+        "category": "产品经理",
+        "title": "AI 浏览器都在抢夺“大脑”，ego lite 偏偏只死磕“手脚执行”",
+        "note": "反其道而行的浏览器智能体产品哲学：不在云端大模型思考上浪费算力，专门把网页 DOM 解析、按钮精准点击与表单自动填充的端侧执行做到极致零容错。",
+        "so_what": "产品差异化竞争的绝妙切入点；当所有竞品都在拼高大上的推理能力时，做深做透最脏最累的底层执行管道，反而成了整个生态不可或缺的关键拼图。",
+        "source": "woshipm.com",
+        "url": "https://www.woshipm.com/evaluating/6486055.html",
+        "media": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=800&auto=format&fit=crop&q=80",
+        "pinned": False,
+    },
+    {
+        "category": "产品经理",
+        "title": "产品经理怎么做运营：B 端与 G 端业务从 0 到 1 的 7 个关键步骤",
+        "note": "复杂严肃业务产品经理的操盘实战红宝书：抽丝剥茧拆解标杆客户打造、内部阻力破除、权限审批链条梳理以及客户成功案例沉淀的全套实操方法论。",
+        "so_what": "从单纯“功能产出者”蜕变为“业务操盘手”的必经之路；严肃业务的成败 30% 看系统好坏，70% 取决于推动客户组织变迁与利益分配的运营基本功。",
+        "source": "woshipm.com",
+        "url": "https://www.woshipm.com/operate/6485108.html",
+        "media": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&auto=format&fit=crop&q=80",
+        "pinned": False,
+    },
+]
+
+# Verify counts
+assert len(items) == 36, f"Expected 36 items, got {len(items)}"
+categories = [i["category"] for i in items]
+cat_counts = Counter(categories)
+print("Categories:", dict(cat_counts))
+assert all(v == 4 for v in cat_counts.values()) and len(cat_counts) == 9
+
+# Deduplicate check against all-used-urls.json
+used_path = "/Users/gx/.gemini/antigravity/scratch/ai-daily/scripts/all-used-urls.json"
+used_urls = set(json.load(open(used_path, "r", encoding="utf-8")))
+item_urls = [i["url"] for i in items]
+assert len(item_urls) == len(set(item_urls)), "Duplicate URLs within today's issue!"
+dups = [u for u in item_urls if u in used_urls]
+assert len(dups) == 0, f"Found duplicates in all-used-urls.json: {dups}"
+
+# Write Markdown
+target_md = "/Users/gx/.gemini/antigravity/scratch/ai-daily/src/content/daily/2026-10-30.md"
+
+md_lines = [
+    "---",
+    "date: '2026-10-30'",
+    'title: "10 月 30 日 · 拓扑感知调度与执行底座构建：从大模型炫技到基础设施重构"',
+    'highlights: "全网 9 大领域 36 篇高密度精选：SkyPilot 针对 Blackwell 架构推出拓扑感知调度、Kinoloom 单机跑通端到端影视工作流、Recto 打造代码代理可视化画布、红果砍掉看剧金币补贴：存量大考开启、AI 浏览器抢大脑，ego lite 独辟蹊径死磕手脚执行。"',
+    "draft: false",
+    'epigraph: "当参数膨胀的泡沫逐渐散去，真正决定技术能否穿越周期的，永远是底层的拓扑调度效率与最脏最累的端侧执行纪律。"',
+    'lead: "10 月 30 日，人工智能行业正迎来从“上层算法概念炫技”向“底层工程基础设施硬碰硬”的深刻转折。在万卡算力集群最前线，SkyPilot 针对英伟达 Blackwell 架构推出拓扑感知调度，将任务牢牢锁在 NVLink 域内以消灭通信瓶颈；而在视听与开发工具链端，Kinoloom 证明了依靠严密的多模态管线编排，单台消费级设备亦能跑通完整的短片工业化制作；在人机协作前沿，Recto 将代码生成逆向映射到即时画布，赋予人类更直观的意图干预能力。商业生态侧，红果短剧彻底砍掉拉新金币补贴，宣告微短剧狂飙突进的买量时代终结、存量叙事品质大考全面开打；在各种 AI 浏览器争先恐后抢占超级大脑时，专注死磕网页底层执行管道的产品反而走出差异化路径。浮躁退场，重工业基建与务实商业逻辑正在成为时代的唯一硬通货。"',
+    'scene: "「市面上那么多团队在讲通用大模型的宏大愿景，为什么你们只做网页元素的高可靠点击和执行？」「因为再聪明的大脑，如果手脚笨拙踩不准按钮，在现实业务里就是个彻头彻尾的废柴。把执行的准确率从 90% 做到 99.99%，才是能让企业放心付钱的硬壁垒。」"',
+    "cover: https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1600&auto=format&fit=crop&q=80",
+    "items:"
+]
+
+for it in items:
+    md_lines.append(f'  - category: "{it["category"]}"')
+    md_lines.append(f'    title: "{it["title"]}"')
+    md_lines.append(f'    note: "{it["note"]}"')
+    md_lines.append(f'    so_what: "{it["so_what"]}"')
+    md_lines.append(f'    source: "{it["source"]}"')
+    md_lines.append(f'    url: "{it["url"]}"')
+    md_lines.append(f'    media: "{it["media"]}"')
+    md_lines.append(f'    pinned: {"true" if it["pinned"] else "false"}')
+
+md_lines.append("---")
+md_lines.append("")
+md_lines.append("### 岛主今日寄语")
+md_lines.append("")
+md_lines.append("技术浪潮的每一次退潮，都是一次荡涤虚浮、回归常识的洗礼。从万卡集群对拓扑通信的毫秒级苛求，到红果短剧停发金币回归内容品质，再到智能体工具从吹嘘全知全能转向死磕端到端可靠执行，行业正在集体走向成熟与克制。对于真正做事的独立创造者而言，这从来不是寒冬，而是最好的黎明。不必追逐每一个刺眼的聚光灯，守住你的业务真问题，磨利你的执行工具，时间终会奖赏那些有耐心筑牢根基的人。")
+
+with open(target_md, "w", encoding="utf-8") as f:
+    f.write("\n".join(md_lines))
+
+print(f"Successfully generated {target_md}")
+
+# Append to all-used-urls.json
+all_urls = json.load(open(used_path, "r", encoding="utf-8"))
+all_urls.extend(item_urls)
+with open(used_path, "w", encoding="utf-8") as f:
+    json.dump(all_urls, f, ensure_ascii=False, indent=2)
+
+print(f"Updated all-used-urls.json, now contains {len(all_urls)} URLs.")
