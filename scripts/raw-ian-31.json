@@ -1,0 +1,542 @@
+[
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "alttabr-2026-10-30",
+    "title": "alt-tabr 让切换器直接选中窗口",
+    "url": "https://alt-tabr.com/",
+    "judgment": "同一应用的多个窗口分开列出；切换时可预览，也能关闭或最小化选中的窗口。",
+    "img": "/digest/2026-10-31-alttabr-b8e57d6a0c88.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "pocketpoems-2026-10-30",
+    "title": "Pocket Poems 把每日单词变成诗",
+    "url": "https://pocketpoems.io",
+    "judgment": "从当天给定的词里点选、拖动重排，拼出一首短诗；限制词库成了创作的起点。",
+    "img": "/digest/2026-10-31-pocketpoems-db4345054e70.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "beamdisk-2026-10-30",
+    "title": "BeamDisk 把网络磁盘接进 Mac",
+    "url": "https://beamdisk.app/",
+    "judgment": "连接远程磁盘，菜单栏显示吞吐与延迟，断线尝试重连；需 Apple Silicon 与 macOS 27。",
+    "img": "/digest/2026-10-31-beamdisk-1671a5356915.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "fishoid-2026-10-30",
+    "title": "Fishoid 在浏览器里养一缸像素鱼",
+    "url": "https://fishoid.net/",
+    "judgment": "水族箱作为屏幕背景缓慢运行，可调整鱼与布景；不用把放松时间再做成任务清单。",
+    "img": "/digest/2026-10-31-fishoid-d223fb794ef7.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "inputconfig-2026-10-30",
+    "title": "InputConfig 把手柄变成 Mac 输入设备",
+    "url": "https://github.com/ryleighnewman/InputConfig",
+    "judgment": "按键、旋钮与触控区域都能映射操作；即时可视化帮助调死区，也可按应用切换预设，免费开源。",
+    "img": "/digest/2026-10-31-inputconfig-4ac06d8e269a.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "elitehoops-2026-10-30",
+    "title": "Elite Hoops 让战术白板逐步动起来",
+    "url": "https://elitehoopsapp.com/play-designer",
+    "judgment": "拖球员、画跑位，再按回合添加步骤；浏览器免费画与播放，保存或发送需账户。",
+    "img": "/digest/2026-10-31-elitehoops-e5f83589d23e.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "tinycap-2026-10-30",
+    "title": "Tinycap 为报错和代码审查缩小录屏",
+    "url": "https://soleo.github.io/tinycap/",
+    "judgment": "菜单栏选择窗口或区域，截图还能标箭头与步骤；开源 Mac 工具，输出面向日常沟通。",
+    "img": "/digest/2026-10-31-tinycap-6d217b694b3c.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "stackapella-2026-10-30",
+    "title": "Stackapella 让一个人叠唱四部和声",
+    "url": "https://stackapella.com/",
+    "judgment": "逐轨学唱后录下自己的声部，边听其他轨边补全；浏览器可起步，也可邀请朋友合唱。",
+    "img": "/digest/2026-10-31-stackapella-433dda6763f2.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "outlayr-2026-10-30",
+    "title": "Outlayr 用一句话记下日常开销",
+    "url": "https://github.com/danestves/outlayr",
+    "judgment": "支持语音和收据扫描，账本留在手机；预算、订阅与提醒齐备，登录同步可以后选。",
+    "img": "/digest/2026-10-31-outlayr-df115a68c43e.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "ordinate-2026-10-30",
+    "title": "Ordinate 把电子表格放进纯文本",
+    "url": "https://app.ordinate.dev",
+    "judgment": "在文本文件里保留表格与计算关系，另配可视化编辑器；修改输入时，关联结果会跟着更新。",
+    "img": "/digest/2026-10-31-ordinate-f521fa41562a.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "prompt-2026-10-30",
+    "title": "Prompt 把命令行输入做成文本编辑器",
+    "url": "https://github.com/paul-oms/prompt",
+    "judgment": "点击定位、拖选和多行编辑沿用熟悉手感；基于 libghostty，目前仍是可能崩溃的早期版。",
+    "img": "/digest/2026-10-31-prompt-72639b9474e6.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "wayther-2026-10-30",
+    "title": "Wayther 按抵达时间预报沿途天气",
+    "url": "https://wayther.alpennec.com/",
+    "judgment": "把路线各点与预计到达时刻对齐，出发前比较雨风和能见度；这次介绍的应用已运营多年。",
+    "img": "/digest/2026-10-31-wayther-37e35b34b345.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "hyperbin-2026-10-30",
+    "title": "hyperbin 让满垃圾桶长出怪东西",
+    "url": "https://hypernuclear.com/hyperbin/",
+    "judgment": "文件越积越多，系统垃圾桶就出现苍蝇、黏液和触手；用状态变化提醒清理磁盘。",
+    "img": "/digest/2026-10-31-hyperbin-9776ea8f68f1.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "axoris-2026-10-30",
+    "title": "Axoris 用快捷键唤出四家 AI 网页",
+    "url": "https://www.axoris.app/",
+    "judgment": "双击 Option 打开输入框，组合键选择服务；沿用各家网站与账户，无需另填 API 密钥。",
+    "img": "/digest/2026-10-31-axoris-d849d8c334fb.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "hackerflow-2026-10-30",
+    "title": "HackerFlow 把新闻阅读拆成多种视图",
+    "url": "https://hn.vinceroyer.ca/",
+    "judgment": "列表、杂志与文章预览可切换，评论支持键盘跳转；离线保存列表，原文仍需联网。",
+    "img": "/digest/2026-10-31-hackerflow-0416b4205b9f.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "ascente-2026-10-30",
+    "title": "Ascente 让设计工具围着光标展开",
+    "url": "https://ascente.design/",
+    "judgment": "右键环形菜单、随选区出现的属性控件，减少往返侧栏；画布支持可编辑的 AI 图层，需邀测。",
+    "img": "/digest/2026-10-31-ascente-66d2c36b66e2.jpg"
+  },
+  {
+    "section": "indie",
+    "category": "一人公司",
+    "eventId": "shellpet-2026-10-30",
+    "title": "Shell-pet 让仓库活动养出寄居蟹",
+    "url": "https://shell-pet.vercel.app",
+    "judgment": "把徽章放进 README，星标与贡献影响小动物状态；无需账户，访问时约每小时更新一次。",
+    "img": "/digest/2026-10-31-shellpet-10f3c1d7e716.jpg"
+  },
+  {
+    "section": "indie",
+    "category": "一人公司",
+    "eventId": "podby-2026-10-30",
+    "title": "PodBy 用固定月费托管小型应用",
+    "url": "https://podby.com/",
+    "judgment": "静态站每月五欧元，应用容器十五欧元并可带数据库；数据在欧洲，主动压缩服务选项。",
+    "img": "/digest/2026-10-31-podby-2e89a581bf15.jpg"
+  },
+  {
+    "section": "indie",
+    "category": "一人公司",
+    "eventId": "pauzenna-2026-10-30",
+    "title": "Pauzenna 让漏记的计时也能补回来",
+    "url": "https://pauzenna.app",
+    "judgment": "拖动起止时间即可改当前或过去的记录；计时、完整历史与提醒免费，不把问卷放在入口。",
+    "img": "/digest/2026-10-31-pauzenna-071937ea2d00.jpg"
+  },
+  {
+    "section": "indie",
+    "category": "一人公司",
+    "eventId": "catcopter-2026-10-30",
+    "title": "Catcopter 让飞行猫在网页里混战",
+    "url": "https://catcopter.com",
+    "judgment": "四只爪子当旋翼，角色各有武器和机动能力；打开浏览器选服务器，便能进入多人对战。",
+    "img": "/digest/2026-10-31-catcopter-920d884566e4.jpg"
+  },
+  {
+    "section": "indie",
+    "category": "一人公司",
+    "eventId": "fraktur-2026-10-30",
+    "title": "Fraktur 为不想订阅的 DJ 做混音台",
+    "url": "https://greenvitriol.com/posts/fraktur",
+    "judgment": "作者把自己需要的混音流程搬进浏览器；波形、曲库与预听游标同屏，保留直接上手的操作。",
+    "img": "/digest/2026-10-31-fraktur-927142d4442b.jpg"
+  },
+  {
+    "section": "indie",
+    "category": "一人公司",
+    "eventId": "picoplayer-2026-10-30",
+    "title": "PicoPlayer 做了一个小而轻的游戏厅",
+    "url": "https://picoplayer.net/",
+    "judgment": "把精选 PICO-8 网页游戏放进统一播放器；页面压缩到挑选和开玩，少绕一层平台导航。",
+    "img": "/digest/2026-10-31-picoplayer-4b7765f568bc.jpg"
+  },
+  {
+    "section": "indie",
+    "category": "一人公司",
+    "eventId": "invoicingpro-2026-10-30",
+    "title": "InvoicingPro 用一次付费替代月租",
+    "url": "https://invoicingpro.org/",
+    "judgment": "发票、客户与收款状态可离线管理，联网后跨端同步；免费版起步，完整 Pro 一次四十九美元。",
+    "img": "/digest/2026-10-31-invoicingpro-a89a3f7ba882.jpg"
+  },
+  {
+    "section": "indie",
+    "category": "一人公司",
+    "eventId": "sortsage-2026-10-30",
+    "title": "SortSage 先预览规则再整理文件",
+    "url": "https://enlightpixel.com/products/sortsage",
+    "judgment": "按名称、类型和日期匹配 Windows 文件；支持部分操作撤回，永久删除与外部脚本不在其内。",
+    "img": "/digest/2026-10-31-sortsage-138619ba8e46.jpg"
+  },
+  {
+    "section": "indie",
+    "category": "一人公司",
+    "eventId": "deckdrill-2026-10-30",
+    "title": "Deckdrill 把 Anki 卡片变成跟读音频",
+    "url": "https://www.deckdrill.app",
+    "judgment": "按句长插入练习停顿，也可用自己的克隆声音；自带服务商密钥，免费设备语音同样能播放。",
+    "img": "/digest/2026-10-31-deckdrill-b1e5e9744ffe.jpg"
+  },
+  {
+    "section": "indie",
+    "category": "一人公司",
+    "eventId": "newtonwars-2026-10-30",
+    "title": "Newton Wars 让星球引力拐弯炮弹",
+    "url": "https://newtonwars.wipgames.dev/",
+    "judgment": "多人对战要先选角度与力度，弹道会被星球拉偏；简单的发射动作，因为重力多出一层判断。",
+    "img": "/digest/2026-10-31-newtonwars-20e2c7c064e7.jpg"
+  },
+  {
+    "section": "taste",
+    "category": "审美提升",
+    "eventId": "focacha-2026-10-30",
+    "title": "Focacha 把复古酒吧藏在面包店后",
+    "url": "https://www.designboom.com/architecture/retro-cocktail-bar-multi-chrome-lighting-curved-steel-barcelona-focacceria-isern-serra-focacha/",
+    "judgment": "弧形钢墙和多色灯光重现巴塞罗那旧日夜生活；入口与内场的反差，比装饰更能建立记忆。",
+    "img": "/digest/2026-10-31-focacha-a4e8258cf39a.jpg"
+  },
+  {
+    "section": "taste",
+    "category": "审美提升",
+    "eventId": "generali-2026-10-30",
+    "title": "米兰新球场把大教堂石工变成结构",
+    "url": "https://www.designboom.com/architecture/foster-partners-generali-stadium-milan-duomo-manica-san-siro-italy/",
+    "judgment": "Foster 与 MANICA 公布七万余座新方案；外露 X 形框架和细密立面，仍处于规划阶段。",
+    "img": "/digest/2026-10-31-generali-00648ef074d4.jpg"
+  },
+  {
+    "section": "taste",
+    "category": "审美提升",
+    "eventId": "thiss-2026-10-30",
+    "title": "THISS 把拆解方式放到设计起点",
+    "url": "https://www.designboom.com/architecture/thiss-studio-tamsin-hanke-radical-reuse-exhibition-design-interview/",
+    "judgment": "从旧谷仓、浮船到展览构件，先看材料还能怎么用；访谈谈的是可拆与再用的具体限制。",
+    "img": "/digest/2026-10-31-thiss-4caebe7ea5b6.jpg"
+  },
+  {
+    "section": "taste",
+    "category": "审美提升",
+    "eventId": "eames-2026-10-30",
+    "title": "Eames 新馆保留仓库起伏的混凝土屋顶",
+    "url": "https://www.designboom.com/architecture/herzog-de-meuron-eames-institute-museum-birkenstock-warehouse-novato/",
+    "judgment": "Herzog 团队公布改造方案，把旧鞋厂仓库变为设计博物馆；屋顶成为继续利用的主角。",
+    "img": "/digest/2026-10-31-eames-4107142b635e.jpg"
+  },
+  {
+    "section": "taste",
+    "category": "审美提升",
+    "eventId": "olaver-2026-10-30",
+    "title": "Olaver 用玻璃砖给花园添一盏灯",
+    "url": "https://www.dezeen.com/2026/10/30/olaver-laneway-studio-glass-block-facade-melbourne/",
+    "judgment": "白色回收砖托起半透立面，白天反光、夜里发亮；小楼同时容纳工作与家庭活动。",
+    "img": "/digest/2026-10-31-olaver-fac330b669bf.jpg"
+  },
+  {
+    "section": "taste",
+    "category": "审美提升",
+    "eventId": "aesop-2026-10-30",
+    "title": "Aesop 用陶土柜台做一座微型建筑",
+    "url": "https://www.dezeen.com/2026/10/30/al-jawad-pike-aesop-store-harrods-terracotta-counter/",
+    "judgment": "Al-Jawad Pike 改造 Harrods 店中店，叠砌的砖面与转角层次，把古波斯意象落在触手处。",
+    "img": "/digest/2026-10-31-aesop-e708a40b4446.jpg"
+  },
+  {
+    "section": "taste",
+    "category": "审美提升",
+    "eventId": "henryholland-2026-10-30",
+    "title": "Henry Holland 把陶艺纹理转进墙纸",
+    "url": "https://www.dezeen.com/2026/10/29/henry-holland-wallpaper-fabric-collection-ceramics/",
+    "judgment": "与 Harlequin 合作的墙纸及面料保留手作线条；色块和图案来自陶瓷实践与品牌档案。",
+    "img": "/digest/2026-10-31-henryholland-2b232f973d45.jpg"
+  },
+  {
+    "section": "taste",
+    "category": "审美提升",
+    "eventId": "florilegium-2026-10-30",
+    "title": "Florilegium 让花边长满纸张余白",
+    "url": "https://github.com/kevinraymond/florilegium",
+    "judgment": "Lua 计算每片花瓣、叶与茎，直接写入 PDF；文字换页后，蓝色花园随剩余空间重新生长。",
+    "img": "/digest/2026-10-31-florilegium-09e51f63fc15.jpg"
+  },
+  {
+    "section": "taste",
+    "category": "审美提升",
+    "eventId": "mubien-2026-10-30",
+    "title": "Mubien 为高迪建筑更新参观品牌",
+    "url": "https://www.underconsideration.com/brandnew/archives/new_logo_and_identity_for_el_capricho_de_gaudi_by_mubien.php",
+    "judgment": "El Capricho 的新标志与应用延续建筑的装饰线索；看历史场所如何把识别延伸到日常物料。",
+    "img": "/digest/2026-10-31-mubien-d769809d776a.jpg"
+  },
+  {
+    "section": "taste",
+    "category": "审美提升",
+    "eventId": "isabel-2026-10-30",
+    "title": "Isabel Mayfair 用黄铜花瓣组织餐厅",
+    "url": "https://www.designboom.com/readers/sculptural-brass-petals-silk-embroideries-isabel-mayfair-restaurant-abu-dhabi-dbm/",
+    "judgment": "雕塑般的金属瓣片与丝绣软装并置，层叠出阿布扎比新店的私密感；留意硬与软的尺度。",
+    "img": "/digest/2026-10-31-isabel-f52bfe720d2d.jpg"
+  },
+  {
+    "section": "marketing",
+    "category": "产品营销",
+    "eventId": "showbuild-2026-10-30",
+    "title": "ShowBuild 给在做的项目一个展示页",
+    "url": "https://showbuild.co/",
+    "judgment": "围绕开发进展组织讨论，提交后拥有可被搜索的独立页面；适合观察过程如何成为分发素材。",
+    "img": "/digest/2026-10-31-showbuild-0ca007e9a91d.jpg"
+  },
+  {
+    "section": "marketing",
+    "category": "产品营销",
+    "eventId": "aiknowsus-2026-10-30",
+    "title": "AI Knows Us 从买家问题查品牌提名",
+    "url": "https://www.aiknowsus.com",
+    "judgment": "用不含品牌名的问题检查谁被推荐、引用了谁；再发布可引用页面，效果仍要按周期复测。",
+    "img": "/digest/2026-10-31-aiknowsus-d311c4878cd4.jpg"
+  },
+  {
+    "section": "marketing",
+    "category": "产品营销",
+    "eventId": "posthog-2026-10-30",
+    "title": "PostHog 从真实提示词看用户怎么用 AI",
+    "url": "https://posthog.com/blog/what-people-are-prompting",
+    "judgment": "按角色聚合一年里的提问，区分数据分析与其他用途；文末交代统计方法，别把提问直接当需求。",
+    "img": "/digest/2026-10-31-posthog-93b4b0d02998.jpg"
+  },
+  {
+    "section": "marketing",
+    "category": "产品营销",
+    "eventId": "ahrefs-2026-10-30",
+    "title": "Ahrefs 用 BLUF 把结论移到第一句",
+    "url": "https://ahrefs.com/blog/bluf/",
+    "judgment": "文章给出邮件、汇报与网页写法示例，并附改写工具；先说重点，让读者更快判断是否继续。",
+    "img": "/digest/2026-10-31-ahrefs-92371a951c61.jpg"
+  },
+  {
+    "section": "marketing",
+    "category": "产品营销",
+    "eventId": "notchmetrics-2026-10-30",
+    "title": "Notch Metrics 把收入指标放到刘海里",
+    "url": "https://notchmetrics.com",
+    "judgment": "收入、订阅数和试用转化常驻屏幕顶端；连接 Stripe 等业务工具，用一眼可见的数字减少反复查后台。",
+    "img": "/digest/2026-10-31-notchmetrics-8d56d8d2ed02.jpg"
+  },
+  {
+    "section": "marketing",
+    "category": "产品营销",
+    "eventId": "shopify-2026-10-30",
+    "title": "Shopify 用 shop.md 接入代理购物",
+    "url": "https://www.shopify.com/editions/fall2026",
+    "judgment": "给助手商店技能，发现商品并用 Shop Pay 结账；商家在后台管理资料与订单，形成新的销售入口。",
+    "img": "/digest/2026-10-31-shopify-91ef09071f6e.jpg"
+  },
+  {
+    "section": "marketing",
+    "category": "产品营销",
+    "eventId": "vaqira-2026-10-30",
+    "title": "VAQIRA 给收入榜每个数字附上出处",
+    "url": "https://vaqira.com",
+    "judgment": "只记创始人公开的原口径，按近三十天收入排序；不估算、不卖名次，已发布期次不回改。",
+    "img": "/digest/2026-10-31-vaqira-839430f6e4f5.jpg"
+  },
+  {
+    "section": "collab",
+    "category": "AI 协作",
+    "eventId": "palomino-2026-10-30",
+    "title": "Palomino 把代理和浏览器放进同一窗",
+    "url": "https://trypalomino.com/",
+    "judgment": "Rust 工作区并排运行 Claude Code、Codex 与 Pi；终端、文件和页面同处一处，先开放 Mac。",
+    "img": "/digest/2026-10-31-palomino-39583998efd6.jpg"
+  },
+  {
+    "section": "collab",
+    "category": "AI 协作",
+    "eventId": "kitepod-2026-10-30",
+    "title": "Kitepod 让 WordPress 修改先待审批",
+    "url": "https://kitepod.com/",
+    "judgment": "助手在预览里暂存网站变更，批准后再发布；可恢复修改，沿用已有编辑器与 AI 订阅。",
+    "img": "/digest/2026-10-31-kitepod-a30fbf1d40a1.jpg"
+  },
+  {
+    "section": "collab",
+    "category": "AI 协作",
+    "eventId": "specdeck-2026-10-30",
+    "title": "SpecDeck 把代理决策写回产品规格",
+    "url": "https://specdeck.ai/",
+    "judgment": "折扣不能叠加等规则与验收条件一起版本化；下一次开发读当前规格，减少只看单张工单的遗漏。",
+    "img": "/digest/2026-10-31-specdeck-f985be2fff2f.jpg"
+  },
+  {
+    "section": "collab",
+    "category": "AI 协作",
+    "eventId": "mydash-2026-10-30",
+    "title": "mydash 把代理产物送到手机上审阅",
+    "url": "https://github.com/vanmiku/mydash",
+    "judgment": "方案、PDF 和网页按项目归档，可选段批注；本机自托管，用反馈命令把意见交回代理。",
+    "img": "/digest/2026-10-31-mydash-5b54a7a2b9bc.jpg"
+  },
+  {
+    "section": "collab",
+    "category": "AI 协作",
+    "eventId": "breatic-2026-10-30",
+    "title": "Breatic 让创作团队共用文档与画布",
+    "url": "https://github.com/orime-org/breatic",
+    "judgment": "简报、场景和媒体分空间保存，助手沿项目上下文工作；在线版可起步，生成额度另外计费。",
+    "img": "/digest/2026-10-31-breatic-7a4bd688d7c8.jpg"
+  },
+  {
+    "section": "collab",
+    "category": "AI 协作",
+    "eventId": "permaura-2026-10-30",
+    "title": "Permaura 让代理拿权限而非拿密钥",
+    "url": "https://permaura.com",
+    "judgment": "规则在网关执行，高风险操作推到手机或手表批准；网关可自托管，账户密钥留在服务端。",
+    "img": "/digest/2026-10-31-permaura-b2498fc7ebca.jpg"
+  },
+  {
+    "section": "collab",
+    "category": "AI 协作",
+    "eventId": "mobileagent-2026-10-30",
+    "title": "mobile-agent 让代理操作真实手机",
+    "url": "https://github.com/gesposito/mobile-agent",
+    "judgment": "给 Android 与 iOS 提供设备控制接口，把点击和读屏接入自动化；需自行准备设备环境。",
+    "img": ""
+  },
+  {
+    "section": "collab",
+    "category": "AI 协作",
+    "eventId": "ccpair-2026-10-30",
+    "title": "cc-pair 让两种编码代理轮流审查",
+    "url": "https://github.com/leonlee/cc-pair",
+    "judgment": "一方写、一方复核，通过本地文件交换意见；默认最多三轮，仍有问题就停止交给人判断。",
+    "img": ""
+  },
+  {
+    "section": "collab",
+    "category": "AI 协作",
+    "eventId": "dbprint-2026-10-30",
+    "title": "dbprint 把数据库业务含义留在代码旁",
+    "url": "https://github.com/jakubro/dbprint",
+    "judgment": "先测结构和取值，再注释字段真正的含义；后续代理离线读取，不必每次重新查询线上库。",
+    "img": ""
+  },
+  {
+    "section": "collab",
+    "category": "AI 协作",
+    "eventId": "charter-2026-10-30",
+    "title": "Charter 按字段约束代理的 API 调用",
+    "url": "https://github.com/r28ai/charter",
+    "judgment": "客户身份从应用上下文注入，模型无权改写；同一份声明同时负责运行校验和访问范围审查。",
+    "img": ""
+  },
+  {
+    "section": "ai",
+    "category": "AI 资讯",
+    "eventId": "nesformer-2026-10-30",
+    "title": "Nesformer 把任天堂 CPU 编进模型权重",
+    "url": "https://github.com/dbreunig/nesformer",
+    "judgment": "无需训练，由编译器写入 Qwen 权重；模型逐词输出执行轨迹，画面与手柄仍由外部程序承担。",
+    "img": "/digest/2026-10-31-nesformer-9095ef9549b3.jpg"
+  },
+  {
+    "section": "ai",
+    "category": "AI 资讯",
+    "eventId": "doomformer-2026-10-30",
+    "title": "Doomformer 用游戏机关计算神经网络",
+    "url": "https://github.com/mottopanikeiku/doomformer",
+    "judgment": "人偶越线完成加权求和，灯光与地板高度存数；逐值对照整数参考，正确计算不等于识别全对。",
+    "img": "/digest/2026-10-31-doomformer-8c0baddc50b4.jpg"
+  },
+  {
+    "section": "ai",
+    "category": "AI 资讯",
+    "eventId": "artificer-2026-10-30",
+    "title": "Nua 用四十亿参数判断机器人任务进度",
+    "url": "https://usenua.com/blog/artificer",
+    "judgment": "从视频估计完成程度与成功状态，减少人工逐段回看；目前展示厂商评测，邀请团队提供任务视频。",
+    "img": "/digest/2026-10-31-artificer-ba58f1ab61b1.jpg"
+  },
+  {
+    "section": "ai",
+    "category": "AI 资讯",
+    "eventId": "cerebellum-2026-10-30",
+    "title": "Cerebellum 按后果分派机器人决策",
+    "url": "https://github.com/cerebellum-labs/cerebellum",
+    "judgment": "可逆动作先交给设备小模型，难以撤回的操作交云端批准；断网记录日志，再恢复同步。",
+    "img": "/digest/2026-10-31-cerebellum-1869f669d276.jpg"
+  },
+  {
+    "section": "ai",
+    "category": "AI 资讯",
+    "eventId": "spinf-2026-10-30",
+    "title": "Spinf-serve 一次读入后回答多道评分题",
+    "url": "https://github.com/spinfinc/spinf-serve",
+    "judgment": "面向批量分类和提取，为选项返回概率而非聊天长文；需要自备适配 GPU，目标是吞吐量。",
+    "img": ""
+  },
+  {
+    "section": "ai",
+    "category": "AI 资讯",
+    "eventId": "gemini-2026-10-30",
+    "title": "Gemini API 的电脑操作工具正式开放",
+    "url": "https://ai.google.dev/gemini-api/docs/changelog#10-30-2026",
+    "judgment": "Computer Use 同时进入两套调用接口的正式可用阶段；接入端仍需处理动作执行与用户确认。",
+    "img": ""
+  },
+  {
+    "section": "ai",
+    "category": "AI 资讯",
+    "eventId": "openrouter-2026-10-30",
+    "title": "OpenRouter 比较三档 Claude 的选型",
+    "url": "https://openrouter.ai/blog/insights/claude-opus-vs-sonnet-vs-haiku/",
+    "judgment": "把速度、费用和失败代价放到同一张选择表；默认建议与高风险长任务分开，仍要用自身数据复测。",
+    "img": "/digest/2026-10-31-openrouter-54bf7a12873e.jpg"
+  }
+]
