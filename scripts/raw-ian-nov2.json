@@ -1,0 +1,542 @@
+[
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "typeitbig-2026-11-01",
+    "title": "Type It Big 把屏幕变成大字手牌",
+    "url": "https://typeitbig.com/",
+    "judgment": "接机、课堂或安静交流时，把文字铺满屏幕；分享链接带着样式，减少动态偏好会默认静止。",
+    "img": "/digest/2026-11-02-typeitbig-212a337e437c.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "crosswalk-2026-11-01",
+    "title": "Crosswalk 给每个终端留一行任务备注",
+    "url": "https://wareshq.com/crosswalk",
+    "judgment": "会话在后台持续运行，标签区显示工作与等待状态；切换回来还能保留滚动位置和未发命令。",
+    "img": "/digest/2026-11-02-crosswalk-3ba2516defe8.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "doppinow-2026-11-01",
+    "title": "DoppiNow 用页面涟漪提醒走神",
+    "url": "https://doppinow.com/",
+    "judgment": "偏离目标十秒后轻推一下，点卡片回到原页；奖励回来后的专注，不靠封锁网站维持进度。",
+    "img": "/digest/2026-11-02-doppinow-883b75f9cf25.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "recento-2026-11-01",
+    "title": "Recento 把十二种 Mac 小工具并在一起",
+    "url": "https://1dot.ai/recento-pro",
+    "judgment": "公开测试版整合剪贴板、截图、电池限制与文件架；原生运行，需 macOS 14 或更新版本。",
+    "img": "/digest/2026-11-02-recento-b309d9f7659a.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "gradualdaylight-2026-11-01",
+    "title": "Gradual Daylight 把换时钟变成渐变",
+    "url": "https://gradual.johndimm.org",
+    "judgment": "左右时钟对照全年日期，一边突然跳时，一边每天微调；用可操作演示解释一个时间制度设想。",
+    "img": "/digest/2026-11-02-gradualdaylight-a42f215e6416.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "omnidiff-2026-11-01",
+    "title": "OmniDiff 按文件类型展示真正的差异",
+    "url": "https://github.com/ivankovic/omnidiff",
+    "judgment": "代码、图片、字体和 PDF 采用不同对照方式；把二进制文件也变成能读懂的变更，数据来自作者测试。",
+    "img": "/digest/2026-11-02-omnidiff-275b736128bd.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "interviewfit-2026-11-01",
+    "title": "InterviewFit 用五十题练出解题路径",
+    "url": "https://interviewfit.io/dev/coding/sets/starter-50",
+    "judgment": "按模式与难度筛题，标明面试报告的证据等级；收集频次是复习线索，不预测下一场会考什么。",
+    "img": "/digest/2026-11-02-interviewfit-a70e2a9576d2.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "winsqlite-2026-11-01",
+    "title": "WinSQLite 把向量查询放进原生编辑器",
+    "url": "https://github.com/srdzank/WinSQLite-Editor",
+    "judgment": "C++ 与 Qt 界面结合表格、可视化查询和三维图；数据库里的向量关系可以直接查看。",
+    "img": "/digest/2026-11-02-winsqlite-4801a66888cf.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "lanes-2026-11-01",
+    "title": "LanesMac 让窗口沿横向长桌展开",
+    "url": "https://lanesmac.com",
+    "judgment": "窗口保持尺寸，横向滚动去找下一项；列宽、堆叠与标签列都能用键盘调整。",
+    "img": "/digest/2026-11-02-lanes-07dc46914291.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "bobby-2026-11-01",
+    "title": "Bobby 按依赖关系安排代码审阅",
+    "url": "https://bobby.viraj.computer/",
+    "judgment": "先看变更依赖什么，再看会影响什么；文件地图与单个差异切换，声明能浮在原位查看。",
+    "img": "/digest/2026-11-02-bobby-b8102f35b647.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "vela-2026-11-01",
+    "title": "Vela 首个测试版补齐桌面日常操作",
+    "url": "https://velade.org/blog/vela-0-1/",
+    "judgment": "设置里更新、原生蓝牙与签名包一并接上；窗口分组和实时预览已能用，仍保留测试版边界。",
+    "img": "/digest/2026-11-02-vela-c40ce01c0d17.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "kin-2026-11-01",
+    "title": "Kin 把家庭语音留成可搜索的记忆",
+    "url": "https://kin.camera",
+    "judgment": "围绕成长片段建立私人档案，用自然语言找回录音里的细节；重点是再找到，而非多存一份。",
+    "img": "/digest/2026-11-02-kin-be7d2b98d759.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "pew-2026-11-01",
+    "title": "PewPewPew 在浏览器里打多人太空战",
+    "url": "https://pewpewpew.io/",
+    "judgment": "手机与桌面直接进房间，支持最多三十二人；回放和伤害记录让一次阵亡也能被看明白。",
+    "img": "/digest/2026-11-02-pew-b116b99b1f0e.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "lightyears-2026-11-01",
+    "title": "Lightyears Home 靠脉冲星寻找地球",
+    "url": "https://lightyears-home.pages.dev/",
+    "judgment": "把星际导航做成浏览器游戏，让玩家从信号判断位置；探索的重点落在方向与距离。",
+    "img": "/digest/2026-11-02-lightyears-7802892d0c84.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "galta-2026-11-01",
+    "title": "Galta 让视觉参考接着交给代理做",
+    "url": "https://galta.art/zh-hans/guides/web-reference-canvas/",
+    "judgment": "网页来源、草图和结果留在同一画布；公开测试版可接 Codex，演示步骤明确是界面重演。",
+    "img": "/digest/2026-11-02-galta-82f77b80fadf.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "telunkey-2026-11-01",
+    "title": "TelunKey 用键盘与触摸调整窗口",
+    "url": "https://telunkey.shop",
+    "judgment": "作者公开介绍 Mac 快捷启动和窗口整理工具；把连续操作压进手势，源码与产品入口都可查。",
+    "img": "/digest/2026-11-02-telunkey-92398fde08c9.jpg"
+  },
+  {
+    "section": "indie",
+    "category": "一人公司",
+    "eventId": "folio-2026-11-01",
+    "title": "Folio 清理重复照片前先解释保留原因",
+    "url": "https://caddora.ie/folio",
+    "judgment": "支持文件夹、照片图库与摄影目录；先审阅再批准，前一百张清理免费，其后一次付费。",
+    "img": "/digest/2026-11-02-folio-94b34ae92c1a.jpg"
+  },
+  {
+    "section": "indie",
+    "category": "一人公司",
+    "eventId": "shroom-2026-11-01",
+    "title": "Shroom 把录屏费用交回自己的云账号",
+    "url": "https://shroom.am",
+    "judgment": "Mac 录屏保存在自有 Cloudflare，按存储而非人数计费；自动清理旧视频，想留的再固定。",
+    "img": "/digest/2026-11-02-shroom-59c64c97ff6d.jpg"
+  },
+  {
+    "section": "indie",
+    "category": "一人公司",
+    "eventId": "hackerbooks-2026-11-01",
+    "title": "HackerBooks 从讨论里整理出书单",
+    "url": "https://hackerbooks.org",
+    "judgment": "把 HN 多人提到的书汇在一起，每本回链原评论；提及次数可作线索，不能等同于推荐。",
+    "img": "/digest/2026-11-02-hackerbooks-5d9c0acd7855.jpg"
+  },
+  {
+    "section": "indie",
+    "category": "一人公司",
+    "eventId": "wayside-2026-11-01",
+    "title": "Wayside 把写日记变成暗色冒险",
+    "url": "https://waysideapp.io/",
+    "judgment": "每日场景与人物陪着文字前进，记录保存在设备；随时导出 Markdown，不把回忆锁在应用里。",
+    "img": "/digest/2026-11-02-wayside-677dce603892.jpg"
+  },
+  {
+    "section": "indie",
+    "category": "一人公司",
+    "eventId": "pixel-2026-11-01",
+    "title": "PixelShrink 在浏览器本地压缩图片",
+    "url": "https://compress-image.uk/",
+    "judgment": "支持调整质量、尺寸和输出格式，再打包下载；图片不上传，GIF 只处理第一帧。",
+    "img": "/digest/2026-11-02-pixel-8ae7f22844fc.jpg"
+  },
+  {
+    "section": "indie",
+    "category": "一人公司",
+    "eventId": "beeswax-2026-11-01",
+    "title": "Beeswax 把安卓变成少干扰手机",
+    "url": "https://beeswax.getflourish.org/",
+    "judgment": "选定应用与新装应用都需口令解锁；初始配置要用电脑和 ADB，适合愿意主动设置限制的人。",
+    "img": "/digest/2026-11-02-beeswax-d64aef13332b.jpg"
+  },
+  {
+    "section": "indie",
+    "category": "一人公司",
+    "eventId": "centauri-2026-11-01",
+    "title": "十五岁作者做了免费无线电备考站",
+    "url": "https://centauriacademy.app/",
+    "judgment": "Centauri 用题库、模拟考和错题复习服务美国执照考试；不注册也能开始，账号只负责同步。",
+    "img": "/digest/2026-11-02-centauri-a1dfb35ad781.jpg"
+  },
+  {
+    "section": "indie",
+    "category": "一人公司",
+    "eventId": "resticker-2026-11-01",
+    "title": "Resticker 让备份在 Mac 醒来后补跑",
+    "url": "https://github.com/marcboeker/resticker",
+    "judgment": "菜单栏查看最近快照与传输量；恢复前选择目录，目标已有文件保持原样，减少误覆盖。",
+    "img": "/digest/2026-11-02-resticker-4a74084b86e2.jpg"
+  },
+  {
+    "section": "indie",
+    "category": "一人公司",
+    "eventId": "ebi-2026-11-01",
+    "title": "EBI Space 给刷信息流加一枚计时浮窗",
+    "url": "https://ebispace.app/",
+    "judgment": "把已花掉的时间放在眼前，覆盖社交浏览与手游场景；用持续可见的反馈提醒何时收手。",
+    "img": "/digest/2026-11-02-ebi-214985dc1f1b.jpg"
+  },
+  {
+    "section": "indie",
+    "category": "一人公司",
+    "eventId": "tariff-2026-11-01",
+    "title": "TariffPedia 从商品编码查起进口成本",
+    "url": "https://tariffpedia.com/",
+    "judgment": "把四个市场的税率入口与官方来源并列；基础税率之外仍要核对产地、细分税号和实际条件。",
+    "img": "/digest/2026-11-02-tariff-4ef881541af2.jpg"
+  },
+  {
+    "section": "taste",
+    "category": "审美提升",
+    "eventId": "bamboo-2026-11-01",
+    "title": "澳门竹塔把脚手架工艺留在水边",
+    "url": "https://www.designboom.com/architecture/traditional-bamboo-scaffolding-tea-waste-panels-impromptu-projects-pagoda-macau/",
+    "judgment": "十三米临时塔身用竹构与半透明织物滤光，脚下铺茶渣复合板；材料的来处也能参与空间叙事。",
+    "img": "/digest/2026-11-02-bamboo-416911e2e1be.jpg"
+  },
+  {
+    "section": "taste",
+    "category": "审美提升",
+    "eventId": "buoy-2026-11-01",
+    "title": "Buoy 把废旧船绳打印成会摇的凳子",
+    "url": "https://www.dezeen.com/2026/11/01/buoy-stools-the-new-raw/",
+    "judgment": "颜色沿用原绳，尖底让坐姿轻轻晃动；港口的材料与浮标动作，在同一件街头家具里相遇。",
+    "img": "/digest/2026-11-02-buoy-1151dee535ab.jpg"
+  },
+  {
+    "section": "taste",
+    "category": "审美提升",
+    "eventId": "rami-2026-11-01",
+    "title": "Rami 图书馆用彩色模块改写游园路线",
+    "url": "https://www.designboom.com/architecture/chromatic-pavilions-modular-play-structures-historic-istanbul-rami-library-milimetrik-architects/",
+    "judgment": "新披露案例把房屋形展亭与几何体放进历史院落；临时结构承接游戏与书展，不改动原建筑。",
+    "img": "/digest/2026-11-02-rami-c9cde8aef6d1.jpg"
+  },
+  {
+    "section": "taste",
+    "category": "审美提升",
+    "eventId": "concrete-2026-11-01",
+    "title": "Concrete New York 把城市读成雕塑",
+    "url": "https://www.wallpaper.com/architecture/concrete-new-york-is-the-latest-blue-crow-guidebook-to-sculptural-architectural-design",
+    "judgment": "新指南选入纽约五区五十余处混凝土建筑；从街道尺度看体量、表面和城市里的空隙。",
+    "img": "/digest/2026-11-02-concrete-3eaa8735a6df.jpg"
+  },
+  {
+    "section": "taste",
+    "category": "审美提升",
+    "eventId": "karon-2026-11-01",
+    "title": "Karon Davis 把舞台动作凝在石膏里",
+    "url": "https://www.wallpaper.com/art/exhibitions-shows/step-inside-karon-davis-theatrical-and-creative-world",
+    "judgment": "新访谈谈到舞台经验如何进入石膏装置：身体停住以后，姿势与道具仍能让观众补完一段故事。",
+    "img": "/digest/2026-11-02-karon-e6cba8c70e38.jpg"
+  },
+  {
+    "section": "taste",
+    "category": "审美提升",
+    "eventId": "hemp-2026-11-01",
+    "title": "冰岛小屋把本地材料做成长期实验",
+    "url": "https://www.wallpaper.com/architecture/hempcrete-biobuilding-ludica-iceland",
+    "judgment": "大麻混凝土、海藻窗帘与木结构组合；建筑师继续监测交付后的表现，让材料选择留下证据。",
+    "img": "/digest/2026-11-02-hemp-ffddc397e012.jpg"
+  },
+  {
+    "section": "taste",
+    "category": "审美提升",
+    "eventId": "supremath-2026-11-01",
+    "title": "Supremath 用几何规则生成构成画",
+    "url": "https://supremath.art/",
+    "judgment": "主形、共同倾角与非对称平衡一起控制画面；每幅结果先检查规则，再把色块交给观看者。",
+    "img": "/digest/2026-11-02-supremath-0d7760225ddf.jpg"
+  },
+  {
+    "section": "taste",
+    "category": "审美提升",
+    "eventId": "typeart-2026-11-01",
+    "title": "TypeArt 把文字层叠成可编辑图像",
+    "url": "https://typeart.mitpit.com/",
+    "judgment": "字体、错位与混合方式共同塑形，导出的作品仍是 HTML 文本层；浏览器本身就是排版引擎。",
+    "img": "/digest/2026-11-02-typeart-85fd59c63887.jpg"
+  },
+  {
+    "section": "taste",
+    "category": "审美提升",
+    "eventId": "hyrule-2026-11-01",
+    "title": "海拉鲁地图变成桌上一座彩绘浮雕",
+    "url": "https://legendofhyrule.com/map/",
+    "judgment": "地形来自游戏高度数据，日夜与天气可切换；引导游览把地标、旅人与道路串成风景。",
+    "img": "/digest/2026-11-02-hyrule-f002360aee86.jpg"
+  },
+  {
+    "section": "taste",
+    "category": "审美提升",
+    "eventId": "bitcheer-2026-11-01",
+    "title": "Bit Cheer 用 Winamp 风格双碟练混音",
+    "url": "https://bit-cheer.com/",
+    "judgment": "浏览器双播放器并排，速度和节拍操作就在手边；桌面限定的小练习，把复古皮肤变成学习入口。",
+    "img": "/digest/2026-11-02-bitcheer-2cc82a74cec3.jpg"
+  },
+  {
+    "section": "marketing",
+    "category": "产品营销",
+    "eventId": "lenny-2026-11-01",
+    "title": "Wispr Flow 把创作者合作做成广告产线",
+    "url": "https://www.lennysnewsletter.com/p/how-a-19-year-old-intern-built-the",
+    "judgment": "访谈披露约五十位创作者每月供给数百条素材，并按投放分成；这是团队自述，值得看的是激励结构。",
+    "img": ""
+  },
+  {
+    "section": "marketing",
+    "category": "产品营销",
+    "eventId": "winch-2026-11-01",
+    "title": "Winch 让自己的代理接管商店优化",
+    "url": "https://getwinch.app/",
+    "judgment": "关键词、竞品和多语种页面放在同一工作台；代理能操作界面，发布到商店前仍需确认。",
+    "img": "/digest/2026-11-02-winch-5ae3b64de0c0.jpg"
+  },
+  {
+    "section": "marketing",
+    "category": "产品营销",
+    "eventId": "overhear-2026-11-01",
+    "title": "Overhear 把舆情订阅改为按次扫描",
+    "url": "https://overhear.dev/",
+    "judgment": "X、Reddit 等来源并行查找，再标注意向与问题；每次列明消耗，低频品牌不必长期包月。",
+    "img": "/digest/2026-11-02-overhear-572a0f5d0c1e.jpg"
+  },
+  {
+    "section": "marketing",
+    "category": "产品营销",
+    "eventId": "citeon-2026-11-01",
+    "title": "Citeon 保留品牌在 AI 回答里的原话",
+    "url": "https://citeon.dev",
+    "judgment": "追踪哪些问题推荐了竞品，再给出内容与结构化数据草稿；效果需靠后续扫描核对。",
+    "img": "/digest/2026-11-02-citeon-91f66afa2896.jpg"
+  },
+  {
+    "section": "marketing",
+    "category": "产品营销",
+    "eventId": "dataquest-2026-11-01",
+    "title": "DataQuest 把网站数据送进聊天软件",
+    "url": "https://questdata.web.app/",
+    "judgment": "围绕 Discord 接收访问动态，追踪事件和转化；少开一个后台，让小站运营更容易持续看数据。",
+    "img": "/digest/2026-11-02-dataquest-b8e81b2dd90f.jpg"
+  },
+  {
+    "section": "marketing",
+    "category": "产品营销",
+    "eventId": "boothwall-2026-11-01",
+    "title": "BoothWall 用一份配置搭出活动照片墙",
+    "url": "https://github.com/boothwall/boothwall-oss",
+    "judgment": "手机上传、主持审核与电视展示连在一起；开源部署到自己的云账号，品牌与活动信息可替换。",
+    "img": "/digest/2026-11-02-boothwall-80117f73319d.jpg"
+  },
+  {
+    "section": "marketing",
+    "category": "产品营销",
+    "eventId": "siteone-2026-11-01",
+    "title": "SiteOne 把网站体检交成可读报告",
+    "url": "https://crawler.siteone.io/",
+    "judgment": "爬取后集中看 SEO、断链、可访问性与性能；也能输出离线镜像，让改版前后有同一份底稿。",
+    "img": "/digest/2026-11-02-siteone-edaa65bc9bf4.jpg"
+  },
+  {
+    "section": "collab",
+    "category": "AI 协作",
+    "eventId": "bowerbird-2026-11-01",
+    "title": "Bowerbird 给回答中的引语逐条验出处",
+    "url": "https://github.com/jolovicdev/bowerbird",
+    "judgment": "资料放本地，回答可用自选模型；核对原句存在，不代表解释一定正确，仍留原文供人判断。",
+    "img": "/digest/2026-11-02-bowerbird-4e7f5854ac19.jpg"
+  },
+  {
+    "section": "collab",
+    "category": "AI 协作",
+    "eventId": "sweet-2026-11-01",
+    "title": "Sweet-search 让代理先查索引再读代码",
+    "url": "https://github.com/mrsladoje/sweet-search",
+    "judgment": "检索、追踪与读取都在本机，索引跟随工作区更新；省费数字来自作者的任务集测试。",
+    "img": "/digest/2026-11-02-sweet-5bce6b0cd5a4.jpg"
+  },
+  {
+    "section": "collab",
+    "category": "AI 协作",
+    "eventId": "amidumb-2026-11-01",
+    "title": "Amidumb 从本地会话复盘指挥方式",
+    "url": "https://github.com/jjinendra3/amidumb",
+    "judgment": "按需求、转向与验证等维度给出评分，吐槽要引用实际提示；结果更适合自查，别当能力排名。",
+    "img": "/digest/2026-11-02-amidumb-cad6c97965f6.jpg"
+  },
+  {
+    "section": "collab",
+    "category": "AI 协作",
+    "eventId": "relay-2026-11-01",
+    "title": "Relayvora 把未完成任务交给另一代理",
+    "url": "https://github.com/Dagimassefa/Relayvora",
+    "judgment": "Claude Code 与 Codex 间保留工作上下文；换工具时把进度交清楚，减少从头解释项目。",
+    "img": ""
+  },
+  {
+    "section": "collab",
+    "category": "AI 协作",
+    "eventId": "spec-2026-11-01",
+    "title": "SpecGuardian 用状态规格检查 AI 实现",
+    "url": "https://github.com/mrasu/spec-guardian",
+    "judgment": "把 FizzBee 允许的状态转成测试，插入故障再比对结果；规格约束的是行为，不只是函数形状。",
+    "img": "/digest/2026-11-02-spec-6a09bcf3026d.jpg"
+  },
+  {
+    "section": "collab",
+    "category": "AI 协作",
+    "eventId": "jury-2026-11-01",
+    "title": "Modeljury 把模型分歧变成人工复核入口",
+    "url": "https://github.com/YasserManss/modeljury",
+    "judgment": "多模型投票后保留反对理由；作者同时披露胜负与样本限制，不能把一致意见当成正确保证。",
+    "img": "/digest/2026-11-02-jury-d67a3d3b9253.jpg"
+  },
+  {
+    "section": "collab",
+    "category": "AI 协作",
+    "eventId": "openrouter-2026-11-01",
+    "title": "OpenRouter 让审查脚本在沙箱里验证问题",
+    "url": "https://openrouter.ai/blog/tutorials/ai-code-review/",
+    "judgment": "教程组合文件、Shell 与补丁工具，让模型先跑检查再给改动；用可执行证据约束审查结论。",
+    "img": "/digest/2026-11-02-openrouter-75e4cc86799e.jpg"
+  },
+  {
+    "section": "collab",
+    "category": "AI 协作",
+    "eventId": "castov-2026-11-01",
+    "title": "Castov 把本地小工具接进 CLI 与 MCP",
+    "url": "https://castov.com",
+    "judgment": "格式转换、时间与安全检查可组成流水线；网页和终端共享工具，敏感输入少走一次云端。",
+    "img": "/digest/2026-11-02-castov-b1b38866a1d4.jpg"
+  },
+  {
+    "section": "collab",
+    "category": "AI 协作",
+    "eventId": "stack-2026-11-01",
+    "title": "StackVitals 用仓库自己的流水线量健康度",
+    "url": "https://github.com/stackvitals/stackvitals",
+    "judgment": "CI 失败、审阅节奏与依赖风险汇成页面，历史留仓库；私有项目仍需计入 GitHub 运行分钟。",
+    "img": "/digest/2026-11-02-stack-839532fe82b2.jpg"
+  },
+  {
+    "section": "collab",
+    "category": "AI 协作",
+    "eventId": "storytella-2026-11-01",
+    "title": "Storytella 用 WebGPU 在本地读网页",
+    "url": "https://storytella.io/",
+    "judgment": "把网页转成语音的过程放进浏览器，模型在设备侧运行；阅读之外也给长内容留一条听的入口。",
+    "img": "/digest/2026-11-02-storytella-a60bc4c0c68d.jpg"
+  },
+  {
+    "section": "ai",
+    "category": "AI 资讯",
+    "eventId": "memdoor-2026-11-01",
+    "title": "Memdoor 公开小模型协作解题记录",
+    "url": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve",
+    "judgment": "十道题、五轮实验留下请求与判题结果；作者明确样本很小，不能据此概括全面超越大模型。",
+    "img": "/digest/2026-11-02-memdoor-f6592e79c88f.jpg"
+  },
+  {
+    "section": "ai",
+    "category": "AI 资讯",
+    "eventId": "reuse-2026-11-01",
+    "title": "RE-USE 降噪演示在浏览器本地运行",
+    "url": "https://re-use-demo.geronimo-labs.com",
+    "judgment": "WebGPU 承接语音增强模型，让音频处理可在页面试用；实际速度与效果仍取决于设备和输入。",
+    "img": "/digest/2026-11-02-reuse-eae1576a30df.jpg"
+  },
+  {
+    "section": "ai",
+    "category": "AI 资讯",
+    "eventId": "mwmbl-2026-11-01",
+    "title": "Mwmbl 开放搜索索引完整快照",
+    "url": "https://mwmbl.org/dumps",
+    "judgment": "公开压缩文件、清单与校验值，方便研究和自建索引；解压需约四百二十 GB 空间，并注意许可。",
+    "img": "/digest/2026-11-02-mwmbl-3e2cfe75a036.jpg"
+  },
+  {
+    "section": "ai",
+    "category": "AI 资讯",
+    "eventId": "datasette-2026-11-01",
+    "title": "Datasette 插件自动沿用已有默认模型",
+    "url": "https://simonwillison.net/2026/Oct/31/datasette-llm/",
+    "judgment": "0.1a9 让 Agent 启动少填一项配置；已有 LLM 模型选择直接生效，改动落在首次使用的摩擦上。",
+    "img": ""
+  },
+  {
+    "section": "ai",
+    "category": "AI 资讯",
+    "eventId": "calegari-2026-11-01",
+    "title": "Calegari 谈 AI 论文之后数学怎样继续",
+    "url": "https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/",
+    "judgment": "陶哲轩博客刊出客座文章，讨论训练、发表与新的问题空间；作者观点与研究事实分开阅读。",
+    "img": ""
+  },
+  {
+    "section": "ai",
+    "category": "AI 资讯",
+    "eventId": "hushkey-2026-11-01",
+    "title": "Hushkey 实验用无声口型输入文字",
+    "url": "https://github.com/amirrsyed/hushkey",
+    "judgment": "Mac 摄像头读取嘴唇、下颌与喉部运动，本地模型输出文字；目前是概念验证，准确率依赖个性化训练。",
+    "img": ""
+  },
+  {
+    "section": "ai",
+    "category": "AI 资讯",
+    "eventId": "memory-2026-11-01",
+    "title": "本地记忆实验按未来用途决定保留什么",
+    "url": "https://github.com/krapcys1-maker/adaptive-agent-memory-research",
+    "judgment": "追加日志保留经验，再探索何时归纳与修订；作者明确它是研究引擎，仍有粗糙处与待验证部分。",
+    "img": ""
+  }
+]
