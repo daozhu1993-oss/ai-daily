@@ -1,0 +1,542 @@
+[
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "oncue-2026-11-04",
+    "title": "OnCue 把孩子的日程画成倒计时",
+    "url": "https://www.oncueboard.com/",
+    "judgment": "用逐渐缩短的色条和步骤图标交代下一件事，不需要识字；iPad 版已上架，墨水屏硬件仍在预订。",
+    "img": "/digest/2026-11-05-oncue-c7dd5cd57418.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "ratio-2026-11-04",
+    "title": "Ratio 让笔记里的数字直接算出结果",
+    "url": "https://useratio.app/",
+    "judgment": "写下账单、汇率或时区，答案出现在行旁；引用前一行再改一个数，后面的计算跟着更新。",
+    "img": "/digest/2026-11-05-ratio-f52eebadb52d.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "mdview-2026-11-04",
+    "title": "Mdview 给 Windows 一扇 Markdown 阅读窗",
+    "url": "https://mdview.io/desktop",
+    "judgment": "双击即可看表格、公式和流程图，文件在本机渲染；文件夹、实时刷新与导出 PDF 属于 Pro 功能。",
+    "img": "/digest/2026-11-05-mdview-a7aeaee63adf.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "unclickbait-2026-11-04",
+    "title": "Unclickbait 用视频中段替换夸张封面",
+    "url": "https://unclickbait.app/",
+    "judgment": "扩展保留原标题，只把缩略图换成中段静帧；直播或尚未处理的视频没有对应画面时，沿用原封面。",
+    "img": "/digest/2026-11-05-unclickbait-5d06e13e2e9c.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "acoustic-2026-11-04",
+    "title": "Acoustic Orbit 让不同音箱在一间房里合奏",
+    "url": "https://acousticorbit.com/",
+    "judgment": "用麦克风校准延迟，再给有线、蓝牙等音箱分配声道；支持 Apple 芯片 Mac，暂不支持 HomePod。",
+    "img": "/digest/2026-11-05-acoustic-5755b702b0e8.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "milda-2026-11-04",
+    "title": "Milda 让设计系统拥有可编辑的语言",
+    "url": "https://play.milda.dev",
+    "judgment": "在代码与可视化工作台之间切换，把颜色、排版和组件规则放进同一份文件；可在浏览器里试写。",
+    "img": "/digest/2026-11-05-milda-56cdbe0ba0ef.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "tabtrail-2026-11-04",
+    "title": "Tab Trail 把网页键盘焦点路线画出来",
+    "url": "https://matjazkorosec.com/tools/tab-trail",
+    "judgment": "把书签工具拖进栏里，再在网页上运行；编号显示 Tab 顺序，漏掉的按钮、焦点陷阱等问题用红框标出。",
+    "img": "/digest/2026-11-05-tabtrail-b6f3b7fd8a11.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "axisdrag-2026-11-04",
+    "title": "React Axis Drag 让拖动先选定方向",
+    "url": "https://sorena-labs.github.io/react-axis-drag/",
+    "judgment": "横向滑动与纵向滚动不再同时抢手势；示例把方向锁定的触发和释放展示在可拖动的组件里。",
+    "img": "/digest/2026-11-05-axisdrag-252dadb8e349.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "md2docx-2026-11-04",
+    "title": "Md2Docx 把 Markdown 编成可编辑 Word",
+    "url": "https://md2docx.js.org/",
+    "judgment": "公式、表格和流程图由独立插件处理，可在浏览器预览再导出；交付的是原生文档结构。",
+    "img": "/digest/2026-11-05-md2docx-da44a5edca86.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "dryplate-2026-11-04",
+    "title": "Dryplate 把常用图片处理留在浏览器",
+    "url": "https://dryplate.dev/",
+    "judgment": "转格式、压缩、裁切和清除元数据集中在一个工具箱；批量最多五十张，文件无需上传。",
+    "img": "/digest/2026-11-05-dryplate-0aff6bfbe903.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "elmway-2026-11-04",
+    "title": "Elmway 把习惯当作会重复的任务",
+    "url": "https://elmway.app",
+    "judgment": "一次待办与长期习惯共用任务模型，可记录完成状态或具体数值；不用切换独立习惯页，再用图表回看进度。",
+    "img": "/digest/2026-11-05-elmway-e4d1b0737dd1.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "cybelle-2026-11-04",
+    "title": "Cybelle 在浏览器里还原模拟合成器",
+    "url": "https://browsertape.com/metro#share=7bcc8ad92b7a4f458d924e3ea7ebf8b5",
+    "judgment": "旋钮、键盘与音色控制组成可操作的工作台；作者用电路建模复现 Juno 106，并提供演奏示例。",
+    "img": "/digest/2026-11-05-cybelle-6419804e042a.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "myosotis-2026-11-04",
+    "title": "Myosotis 让截图标注变成连续动作",
+    "url": "https://github.com/nekoium/Myosotis",
+    "judgment": "选中后双击完成，空格可代替鼠标点击；右键能把当前画面变成白板，保留已经画好的标注。",
+    "img": "/digest/2026-11-05-myosotis-948b4cf931bd.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "beavery-2026-11-04",
+    "title": "Beavery 在一段视频里批量挑出实况照片",
+    "url": "https://beavery.savetimefor.fun",
+    "judgment": "慢拖时间轴会放大到逐帧，再把多个片段加入待导出；照片、实况和 GIF 可一次输出，素材留在本机。",
+    "img": "/digest/2026-11-05-beavery-6ad5dd695226.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "aside-2026-11-04",
+    "title": "旁白把翻译和划词提问合在一个扩展",
+    "url": "https://worldtheater.github.io/aside/zh/",
+    "judgment": "选中文字后可解释、提问或运行自定义提示词；开源且无需账号，需要自备兼容模型的 API 密钥。",
+    "img": "/digest/2026-11-05-aside-ec529b02909f.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "rivermark-2026-11-04",
+    "title": "Rivermark 把生成式设计放进画布",
+    "url": "https://rivermark.ai/",
+    "judgment": "在同一个画布里组织素材、修改图像和排版，让生成结果继续参与设计，而不只是从聊天框下载图片。",
+    "img": "/digest/2026-11-05-rivermark-d9759a2aed10.jpg"
+  },
+  {
+    "section": "indie",
+    "category": "一人公司",
+    "eventId": "pcdeal-2026-11-04",
+    "title": "PC Deal Check 拆开整机价格给你看",
+    "url": "https://pcdealcheck.com/",
+    "judgment": "贴入商品链接或配置照片，得到按零件估价的报告；目前面向美国市场，样例价格有日期且不等于现售报价。",
+    "img": "/digest/2026-11-05-pcdeal-841a0fa664c4.jpg"
+  },
+  {
+    "section": "indie",
+    "category": "一人公司",
+    "eventId": "meshword-2026-11-04",
+    "title": "Meshword 把填字和逻辑拼图叠在一起",
+    "url": "https://meshword.org/",
+    "judgment": "每行每列的字母都要拼出单词，交叉格同时满足两边；每天一题，练习模式另分三个难度。",
+    "img": "/digest/2026-11-05-meshword-252ff13037c1.jpg"
+  },
+  {
+    "section": "indie",
+    "category": "一人公司",
+    "eventId": "pinery-2026-11-04",
+    "title": "Pinery 让 WordPress 继续编辑、静态发布",
+    "url": "https://www.pinery.pro/en/",
+    "judgment": "插件用 PHP 导出并部署到 Cloudflare Pages；评论、表单和商品的动态功能通过 Pro 接回原站。",
+    "img": "/digest/2026-11-05-pinery-23dc0d4b5754.jpg"
+  },
+  {
+    "section": "indie",
+    "category": "一人公司",
+    "eventId": "hyperbutler-2026-11-04",
+    "title": "Hyperbutler 给 Windows 一套轻量容器引擎",
+    "url": "https://hyperbutler.dev/",
+    "judgment": "直接启动小型 Linux 虚拟机，再兼容现成 Docker 命令；无需 WSL，占用数据来自作者单机实测。",
+    "img": "/digest/2026-11-05-hyperbutler-f42129dae215.jpg"
+  },
+  {
+    "section": "indie",
+    "category": "一人公司",
+    "eventId": "podbook-2026-11-04",
+    "title": "PodBookCase 从播客访谈里找书",
+    "url": "https://podbookcase.com/",
+    "judgment": "按书名、作者或嘉宾搜索，查看书籍在哪场对话里被提到；把随口推荐整理成能继续追读的书架。",
+    "img": "/digest/2026-11-05-podbook-327722dddc23.jpg"
+  },
+  {
+    "section": "indie",
+    "category": "一人公司",
+    "eventId": "lets1up-2026-11-04",
+    "title": "Lets1UP 把客厅电视变成派对主持台",
+    "url": "https://lets1up.com/",
+    "judgment": "规则、倒计时和终局环节由屏幕承担，人负责现场组织；游戏包单独购买，适用年龄与人数分别标明。",
+    "img": "/digest/2026-11-05-lets1up-0c3e7ab9f1aa.jpg"
+  },
+  {
+    "section": "indie",
+    "category": "一人公司",
+    "eventId": "dropmypage-2026-11-04",
+    "title": "DropMyPage 把文件变成链接和二维码",
+    "url": "https://dropmypage.com",
+    "judgment": "上传 HTML 或 PDF 就能分享；免费链接保留七天，Pro 可更新内容并保留原二维码，适合菜单和邀请函。",
+    "img": "/digest/2026-11-05-dropmypage-667ddd034999.jpg"
+  },
+  {
+    "section": "indie",
+    "category": "一人公司",
+    "eventId": "spooler-2026-11-04",
+    "title": "Spooler 把消息队列缩成发送、接收、确认",
+    "url": "https://spooler.sh/",
+    "judgment": "托管服务保留清楚的三步流程，命令行与 Go 示例可直接阅读；减少小团队自己维护队列的工作。",
+    "img": "/digest/2026-11-05-spooler-e612264e6dd8.jpg"
+  },
+  {
+    "section": "indie",
+    "category": "一人公司",
+    "eventId": "holepunch-2026-11-04",
+    "title": "Hole Punch 靠放置黑洞把飞船送回家",
+    "url": "https://apps.apple.com/gb/app/hole-punch/id6819102242",
+    "judgment": "玩家不能直接操纵飞船，只能拖动黑洞、增加引力来弯曲路线；先看虚线预测，再按发射键检验。",
+    "img": "/digest/2026-11-05-holepunch-06bedca5d056.jpg"
+  },
+  {
+    "section": "indie",
+    "category": "一人公司",
+    "eventId": "hackereverything-2026-11-04",
+    "title": "HackerEverything 收拢社区推荐过的东西",
+    "url": "https://hackereverything.pages.dev/",
+    "judgment": "把散在 HN 讨论里的书、工具和产品整理成可浏览目录，保留出处，方便沿着具体推荐回到原讨论。",
+    "img": "/digest/2026-11-05-hackereverything-80b561a39b83.jpg"
+  },
+  {
+    "section": "taste",
+    "category": "审美提升",
+    "eventId": "jakob-2026-11-04",
+    "title": "Psychosphere 把深海影像带进地下水库",
+    "url": "https://www.designboom.com/art/this-installation-by-jakob-kudsk-steensen-considers-the-origins-and-agency-of-life/",
+    "judgment": "新刊访谈回看这件 2025 年作品：影像映进地面积水，玻璃与树脂雕塑让深海生态延伸到观看者身旁。",
+    "img": "/digest/2026-11-05-jakob-9498e548cbf7.jpg"
+  },
+  {
+    "section": "taste",
+    "category": "审美提升",
+    "eventId": "manferdini-2026-11-04",
+    "title": "Manferdini 给变电站披上像素化外墙",
+    "url": "https://www.designboom.com/architecture/pixelated-ceramic-tiles-folded-aluminum-electrical-substation-facade-virginia-atelier-manferdini-invisible/",
+    "judgment": "陶瓷砖与折叠铝板交错，让基础设施的立面产生颜色和阴影层次，远看图案，近看材料。",
+    "img": "/digest/2026-11-05-manferdini-1808b6091e26.jpg"
+  },
+  {
+    "section": "taste",
+    "category": "审美提升",
+    "eventId": "scad-2026-11-04",
+    "title": "Abel Macias 用簇绒色块改写古老楼梯",
+    "url": "https://www.dezeen.com/2026/11/04/scad-installation-design-miami-paris/",
+    "judgment": "本次公开影像展示巴黎展场：西南沙漠地貌化作阶梯上的色块，楼上再用刺绣纸筒悬挂出另一层节奏。",
+    "img": "/digest/2026-11-05-scad-d35cbfbc28c0.jpg"
+  },
+  {
+    "section": "taste",
+    "category": "审美提升",
+    "eventId": "jeju-2026-11-04",
+    "title": "Jeju 餐厅把三根木杆变成营业信号",
+    "url": "https://www.dezeen.com/2026/11/04/jeju-restaurant-daughters/",
+    "judgment": "玄武岩、软木和茅草保留粗粝触感；入口每天放下两根横杆表示开门，把传统符号变成日常动作。",
+    "img": "/digest/2026-11-05-jeju-195a14e1d03d.jpg"
+  },
+  {
+    "section": "taste",
+    "category": "审美提升",
+    "eventId": "yinka-2026-11-04",
+    "title": "Yinka Ilori 把看台的热闹穿到球衣上",
+    "url": "https://www.creativeboom.com/news/yinka-ilori-brings-his-joyful-love-of-colour-to-reimagine-the-tottenham-hotspur-away-shirt/",
+    "judgment": "深蓝底色上叠粉紫与橙色条纹，背面围绕口号排出花瓣和圆环；球队归属感通过色彩与图案表达。",
+    "img": "/digest/2026-11-05-yinka-0d20ab8bc485.jpg"
+  },
+  {
+    "section": "taste",
+    "category": "审美提升",
+    "eventId": "jurman-2026-11-04",
+    "title": "Daniel Jurman 留住数字黏土的凹凸感",
+    "url": "https://www.creativeboom.com/inspiration/burger-trees-spying-fruit-and-flying-taxis-discover-the-digital-clay-world-of-daniel-jurman/",
+    "judgment": "汉堡长在树上、冰箱踩着跑步机，短动画用一个荒诞动作讲完；像手捏过的褶皱替代光滑的三维表面。",
+    "img": "/digest/2026-11-05-jurman-619746d9274d.jpg"
+  },
+  {
+    "section": "taste",
+    "category": "审美提升",
+    "eventId": "loog-2026-11-04",
+    "title": "Loog 把经典贝斯缩成儿童能抱住的三弦",
+    "url": "https://www.wallpaper.com/tech/fender-x-loog-precision-bass-and-tiny-telecaster",
+    "judgment": "保留 Fender 的拇指托、拾音器等识别细节，同时缩小尺寸；让乐器的入门方式和外观传统一起留下。",
+    "img": "/digest/2026-11-05-loog-b4c1d570fac8.jpg"
+  },
+  {
+    "section": "taste",
+    "category": "审美提升",
+    "eventId": "kinraden-2026-11-04",
+    "title": "Kinraden 缩小首饰时重新计算每一处连接",
+    "url": "https://www.wallpaper.com/watches-jewellery/kinraden-all-things-tiny-jewellery",
+    "judgment": "再生金银构成互相咬合的链节；调整的不只是尺寸，还包括厚度、重量和佩戴时的平衡。",
+    "img": "/digest/2026-11-05-kinraden-78516483d795.jpg"
+  },
+  {
+    "section": "taste",
+    "category": "审美提升",
+    "eventId": "tartu-2026-11-04",
+    "title": "Tartu Punch 用厚重字形做出音乐节的冲击力",
+    "url": "https://www.underconsideration.com/brandnew/archives/new_logo_and_identity_for_tartu_punch_by_stepan_solodkov.php",
+    "judgment": "标识和应用样张把紧凑字形与反复出现的图案放在一起，让音乐节身份可以在大幅海报上被快速认出。",
+    "img": "/digest/2026-11-05-tartu-cbb444d2e84c.jpg"
+  },
+  {
+    "section": "taste",
+    "category": "审美提升",
+    "eventId": "cvs-2026-11-04",
+    "title": "CVS 把自有品牌包装重新整理成一个家族",
+    "url": "https://www.underconsideration.com/brandnew/archives/new_packaging_for_cvs_private_label_by_pearlfisher.php",
+    "judgment": "公开样张展示新旧包装的颜色、信息层级和心形符号变化；让货架上的不同品类共享清楚的识别线索。",
+    "img": "/digest/2026-11-05-cvs-b40a8eaf2cf2.jpg"
+  },
+  {
+    "section": "marketing",
+    "category": "产品营销",
+    "eventId": "kagi-2026-11-04",
+    "title": "Kagi 把学校的搜索选择写成一份公开回应",
+    "url": "https://blog.kagi.com/education-should-not-be-held-for-ransom",
+    "judgment": "围绕搜索与 AI 功能捆绑的争议，明确自己的教育产品立场；用具体使用条件解释替代方案。",
+    "img": ""
+  },
+  {
+    "section": "marketing",
+    "category": "产品营销",
+    "eventId": "cloudflare-2026-11-04",
+    "title": "Cloudflare 让站长看清哪些代理正在访问",
+    "url": "https://blog.cloudflare.com/personal-agents-visibility-control/",
+    "judgment": "新增个人助手流量分类，再按代理决定允许、拦截或只拦带广告页面；账号级识别功能仍有早期访问限制。",
+    "img": "/digest/2026-11-05-cloudflare-1efc6b169107.jpg"
+  },
+  {
+    "section": "marketing",
+    "category": "产品营销",
+    "eventId": "25posts-2026-11-04",
+    "title": "25posts 把 LinkedIn 曝光量做成猜题",
+    "url": "https://25posts.com/play",
+    "judgment": "先看帖子内容，再猜实际曝光；把对标题、选题与表达的直觉变成可比较的判断练习。",
+    "img": "/digest/2026-11-05-25posts-d5eedbeae84a.jpg"
+  },
+  {
+    "section": "marketing",
+    "category": "产品营销",
+    "eventId": "slashtrends-2026-11-04",
+    "title": "Slashtrends 让 Reddit 话题热度可检索",
+    "url": "https://slashtrends.com/",
+    "judgment": "按时间范围查看每日提词用户占比，再回原帖读语境；可找受众关心的话题，声量不等于购买意愿。",
+    "img": "/digest/2026-11-05-slashtrends-57a7d59f76b2.jpg"
+  },
+  {
+    "section": "marketing",
+    "category": "产品营销",
+    "eventId": "rotatead-2026-11-04",
+    "title": "RotateAd 把网站目录和横幅互推分开卖",
+    "url": "https://rotate.ad/",
+    "judgment": "一次付费获得固定编号席位，跨站横幅轮播另收月费；站内明确列出当前参与网站，避免把机制当成效果保证。",
+    "img": "/digest/2026-11-05-rotatead-8e68914f260f.jpg"
+  },
+  {
+    "section": "marketing",
+    "category": "产品营销",
+    "eventId": "cuehq-2026-11-04",
+    "title": "CueHQ 先展示潜在线索，再让你决定注册",
+    "url": "https://www.cuehq.social/demo",
+    "judgment": "输入网站或产品描述即可运行演示，查找近三十天相关讨论；把线索搜索放在注册之前，也接受无结果。",
+    "img": "/digest/2026-11-05-cuehq-43f52e8f1d0d.jpg"
+  },
+  {
+    "section": "marketing",
+    "category": "产品营销",
+    "eventId": "andstudio-2026-11-04",
+    "title": "Andstudio 先让作品出海，再等海外客户",
+    "url": "https://www.creativeboom.com/insight/andstudios-augustinas-paukste-on-10-years-of-building-a-global-studio-from-vilnius/",
+    "judgment": "创始人回顾向国际设计媒体投稿、与同行交换工作室的经历；全球曝光先于海外客户，方法来自十年的亲历。",
+    "img": ""
+  },
+  {
+    "section": "collab",
+    "category": "AI 协作",
+    "eventId": "qamcp-2026-11-04",
+    "title": "QAmcp 给 MCP 服务器加上测试和监测",
+    "url": "https://qamcp.dev/?from=hackernews",
+    "judgment": "按确定规则检查工具描述、输入错误与响应时间，只执行安全的只读调用；报告明确写出哪些项目没有测试。",
+    "img": "/digest/2026-11-05-qamcp-c20805d53e5d.jpg"
+  },
+  {
+    "section": "collab",
+    "category": "AI 协作",
+    "eventId": "atlas-2026-11-04",
+    "title": "Atlas 给代理一张不会抢鼠标的 Mac 桌面",
+    "url": "https://atlas.insanearts.io/",
+    "judgment": "应用在隐藏的第二桌面里打开、点击和输入，用户继续操作自己的屏幕；可在 Atlas 中查看执行过程。",
+    "img": "/digest/2026-11-05-atlas-1708007e9dfc.jpg"
+  },
+  {
+    "section": "collab",
+    "category": "AI 协作",
+    "eventId": "fount-2026-11-04",
+    "title": "Fount 把表格和文档放进私密 AI 编辑器",
+    "url": "https://www.fount.sh/",
+    "judgment": "文档可修订回退，表格保留公式；私密模型在隔离环境里推理，自备密钥与闭源模型不享同等保护。",
+    "img": "/digest/2026-11-05-fount-e3fbd11f2925.jpg"
+  },
+  {
+    "section": "collab",
+    "category": "AI 协作",
+    "eventId": "screenplay-2026-11-04",
+    "title": "Screenplay 让代理写脚本、工具负责拍演示",
+    "url": "https://github.com/gmpetrov/agent-screenplay",
+    "judgment": "代理先探索页面并写场景，录制器再执行和剪辑；自动跟随光标缩放，也能加标注、字幕和配音。",
+    "img": "/digest/2026-11-05-screenplay-7d8595f2bb0f.jpg"
+  },
+  {
+    "section": "collab",
+    "category": "AI 协作",
+    "eventId": "scanvector-2026-11-04",
+    "title": "Scan to Vector 把扫描页重建成矢量 PDF",
+    "url": "https://github.com/3351666087/scan-to-vector-skill",
+    "judgment": "文字可搜索复制，图表按路径重绘，照片保留栅格；逐页建立记录，并和原扫描叠加检查位置。",
+    "img": "/digest/2026-11-05-scanvector-5070083e1ca2.jpg"
+  },
+  {
+    "section": "collab",
+    "category": "AI 协作",
+    "eventId": "smallprint-2026-11-04",
+    "title": "Small Print 记录 MCP 工具说明悄悄改了什么",
+    "url": "https://smallprint.dev",
+    "judgment": "比较服务器和技能的不同版本，按公开规则标出描述变化；风险标签说明规则命中，不等于判定作者意图。",
+    "img": "/digest/2026-11-05-smallprint-fb26cf13c4b1.jpg"
+  },
+  {
+    "section": "collab",
+    "category": "AI 协作",
+    "eventId": "datasette-2026-11-04",
+    "title": "Datasette Apps 让代理引用应用前先过权限",
+    "url": "https://simonwillison.net/2026/Nov/4/datasette-apps/",
+    "judgment": "输入井号可引用有权查看的应用；新增工具管理允许的查询，赋予写入能力前先向用户请求批准。",
+    "img": ""
+  },
+  {
+    "section": "collab",
+    "category": "AI 协作",
+    "eventId": "piwork-2026-11-04",
+    "title": "Pi-Work 把代理的整个工作环境装进文件",
+    "url": "https://pphboy.github.io/piwork/",
+    "judgment": "工具和文件跑在 MicroVM 里，可导出为 .work 再导入继续；目前是早期 MVP，主要面向 x86-64。",
+    "img": "/digest/2026-11-05-piwork-abe9a6ba5946.jpg"
+  },
+  {
+    "section": "collab",
+    "category": "AI 协作",
+    "eventId": "autoloop-2026-11-04",
+    "title": "Agent Autoloop 让任务能退出等待、再接着跑",
+    "url": "https://github.com/KKKKhazix/agent-autoloop",
+    "judgment": "事件派给命令行代理，一轮结束就退出；需要人决定时发卡片，收到回复再续接会话，目前支持 Mac 和 Linux。",
+    "img": "/digest/2026-11-05-autoloop-188327d2650a.jpg"
+  },
+  {
+    "section": "collab",
+    "category": "AI 协作",
+    "eventId": "tw93-2026-11-04",
+    "title": "Tw93 让两套原生应用共享规则与设计",
+    "url": "https://sspai.com/post/117713",
+    "judgment": "Mac 与 Windows 各写各的底层，设计 token、文案和功能对账同步；AI 提高产量后，真机验证仍要人负责。",
+    "img": ""
+  },
+  {
+    "section": "ai",
+    "category": "AI 资讯",
+    "eventId": "ripple-2026-11-04",
+    "title": "Ripple 65B 预览版开放权重与长上下文",
+    "url": "https://www.ricursive.com/ripple",
+    "judgment": "采用稠密架构并支持百万 token 上下文；团队公布编码评测与训练成本，成绩仍按其测试条件理解。",
+    "img": "/digest/2026-11-05-ripple-b591e5b67fee.jpg"
+  },
+  {
+    "section": "ai",
+    "category": "AI 资讯",
+    "eventId": "kimi-2026-11-04",
+    "title": "Kimi K3.1 Pro 开放多模态模型权重",
+    "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+    "judgment": "模型卡给出 2.8T 总参数、104B 激活参数与百万上下文；下载部署仍需核对许可和硬件条件。",
+    "img": "/digest/2026-11-05-kimi-9f8b1677ba57.jpg"
+  },
+  {
+    "section": "ai",
+    "category": "AI 资讯",
+    "eventId": "claudecode-2026-11-04",
+    "title": "Claude Code 减少后台任务状态更新的消耗",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.316",
+    "judgment": "状态栏改由 Haiku 读取短笔记生成，不再反复重读整段会话；官方称相关会话用量约降 5%，子代理模型不变。",
+    "img": "/digest/2026-11-05-claudecode-105ea9f203b2.jpg"
+  },
+  {
+    "section": "ai",
+    "category": "AI 资讯",
+    "eventId": "linum-2026-11-04",
+    "title": "Linum 用低成本训练实验检验图像生成架构",
+    "url": "https://www.linum.ai/field-notes/pjit-21k",
+    "judgment": "两人团队公开约 2.1 万美元算力训练的模型与权重，让压缩和生成一起学习；仍是通向视频模型的实验。",
+    "img": "/digest/2026-11-05-linum-3a53fa3a21d4.jpg"
+  },
+  {
+    "section": "ai",
+    "category": "AI 资讯",
+    "eventId": "phonon-2026-11-04",
+    "title": "Phonon 在浏览器合成语音时给出逐词时间",
+    "url": "https://blixt.xyz/phonon/",
+    "judgment": "WebGPU 运行时边生成边返回词语起止时间，方便字幕与高亮同步；31M 模型约需首次下载 44MB。",
+    "img": "/digest/2026-11-05-phonon-8c38648f3577.jpg"
+  },
+  {
+    "section": "ai",
+    "category": "AI 资讯",
+    "eventId": "openai-2026-11-04",
+    "title": "OpenAI 公开 Linux 漏洞验证与补丁流水线",
+    "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+    "judgment": "报告称一次运行验证了 948 个本地提权漏洞并生成候选补丁；结果还需人工审阅，不能等同全部修复已合入。",
+    "img": ""
+  },
+  {
+    "section": "ai",
+    "category": "AI 资讯",
+    "eventId": "factory-2026-11-04",
+    "title": "Factory 收购 HumanLayer 并计划开放源码",
+    "url": "https://factory.com/news/humanlayer",
+    "judgment": "过渡期继续运行服务，支持数据导出、迁移或自托管；多人任务与计划协作功能将逐步并入 Factory。",
+    "img": ""
+  }
+]
