@@ -1,0 +1,542 @@
+[
+  {
+    "section": "ai",
+    "category": "AI 资讯",
+    "eventId": "laplace-2026-11-07",
+    "title": "Laplace’s Scissors 在保护既有回答时修改模型",
+    "url": "https://github.com/Miyamoto-Renya/LaplacesScissors",
+    "judgment": "旋转输出矩阵并用 GPU 实际结果核对目标与保护条件；这是权重编辑实验，适用性依检查点与任务变化。",
+    "img": ""
+  },
+  {
+    "section": "ai",
+    "category": "AI 资讯",
+    "eventId": "jacq-2026-11-07",
+    "title": "Jacq 从可读模型描述生成 CUDA 推理代码",
+    "url": "https://github.com/ImpossibleComputing/jacq",
+    "judgment": "模型和内核用文本规格表达，再导出运行时与权重工具；规格文件本身不是训练好的模型。",
+    "img": ""
+  },
+  {
+    "section": "ai",
+    "category": "AI 资讯",
+    "eventId": "hyperflow-2026-11-07",
+    "title": "HyperFlow H3 Flash 把同步音画压到少步生成",
+    "url": "https://github.com/Video-Rebirth/hyperflow-h3-flash",
+    "judgment": "提供文本、关键帧和参考素材入口；作者公布多种显卡结果，内存、量化与运行方式须按配置逐项确认。",
+    "img": "/digest/2026-11-08-hyperflow-eb072ad07d46.jpg"
+  },
+  {
+    "section": "ai",
+    "category": "AI 资讯",
+    "eventId": "trellis-2026-11-07",
+    "title": "TRELLIS.2 的社区安装器补上 Blackwell 路径",
+    "url": "https://github.com/Creepybits/trellis2-blackwell-wsl",
+    "judgment": "针对 WSL2 调整依赖与兼容补丁，输入图片生成带纹理模型；验证配置是 RTX 5090，并非官方通用安装包。",
+    "img": ""
+  },
+  {
+    "section": "ai",
+    "category": "AI 资讯",
+    "eventId": "goethe-2026-11-07",
+    "title": "Goethe 把自己的 Linux 机器变成模型 API",
+    "url": "https://github.com/meshapplied/Goethe",
+    "judgment": "安装模型、配置访问后，为应用或同伴分配独立密钥；提供常用接口兼容，硬件与对外访问仍须自己管理。",
+    "img": ""
+  },
+  {
+    "section": "ai",
+    "category": "AI 资讯",
+    "eventId": "cinnamon-2026-11-07",
+    "title": "Cinnamon 把家庭共享与个人上下文分开",
+    "url": "https://getcinnamon.ai/",
+    "judgment": "计划、提醒与执行前批准放在同一助手，最多邀请五人；共享区成员可见内容，私人空间另设边界。",
+    "img": "/digest/2026-11-08-cinnamon-d0c4eb99cdea.jpg"
+  },
+  {
+    "section": "indie",
+    "category": "一人公司",
+    "eventId": "atlasstreak-2026-11-07",
+    "title": "Atlas Streak 让你亲手把国家放回地图",
+    "url": "https://crux.quest/atlas/",
+    "judgment": "十个国家、三条命，点选地图位置后确认；难度分级与连续挑战共用一张地图，反馈直接落在地理位置上。",
+    "img": "/digest/2026-11-08-atlasstreak-5f4a164025a1.jpg"
+  },
+  {
+    "section": "indie",
+    "category": "一人公司",
+    "eventId": "quiztoolkit-2026-11-07",
+    "title": "Quiz Toolkit 把手机变成现场抢答器",
+    "url": "https://quiztoolkit.com/",
+    "judgment": "主持人用大屏放题，参与者扫码接入；题库留当前浏览器，无需账号，换设备前要导出备份。",
+    "img": "/digest/2026-11-08-quiztoolkit-3200fc20d242.jpg"
+  },
+  {
+    "section": "indie",
+    "category": "一人公司",
+    "eventId": "spiralnest-2026-11-07",
+    "title": "Spiral Nest 把蚁群轨迹变成气泡室螺旋",
+    "url": "https://johnveds15-spiral-nest.static.hf.space/index.html",
+    "judgment": "磁场、能量损失与发射率可调整，轨迹终点沉积出巢穴；这是创意模拟，适合观察规则怎样长出图案。",
+    "img": "/digest/2026-11-08-spiralnest-7e7b7862e318.jpg"
+  },
+  {
+    "section": "indie",
+    "category": "一人公司",
+    "eventId": "nyneon-2026-11-07",
+    "title": "Ny Neon 把丹麦八家超市优惠放进同一搜索",
+    "url": "https://nyneon.net/supermarket-offers-denmark/",
+    "judgment": "英文关键词可找到丹麦商品，比较时保留单位价格；每日更新的独立页面，把一个地区的问题做得具体。",
+    "img": "/digest/2026-11-08-nyneon-2c7dfc68e90e.jpg"
+  },
+  {
+    "section": "indie",
+    "category": "一人公司",
+    "eventId": "princepost-2026-11-07",
+    "title": "Prince of Post 从寄件二维码还原打印标签",
+    "url": "https://princeofpost.com",
+    "judgment": "截图或 PDF 在浏览器本机读取，再印成标签；服务针对支持的 Royal Mail 码，寄件方式仍需核对。",
+    "img": "/digest/2026-11-08-princepost-84b0f2ca5078.jpg"
+  },
+  {
+    "section": "indie",
+    "category": "一人公司",
+    "eventId": "kantamigo-2026-11-07",
+    "title": "Kantamigo 让一屋人的歌词跟着主唱走",
+    "url": "https://kantamigo.com",
+    "judgment": "朋友扫码加入后逐行同步，也能提议下一首；私人歌本与转调、调音等免费工具分开提供。",
+    "img": "/digest/2026-11-08-kantamigo-d8996756818d.jpg"
+  },
+  {
+    "section": "indie",
+    "category": "一人公司",
+    "eventId": "pentagonize-2026-11-07",
+    "title": "Pentagonize 在五子连线里插入整行滑动",
+    "url": "https://pentagonize.com",
+    "judgment": "每次落子后必须移动一行或一列，边缘棋块循环回来；同屏、邀请链接与电脑对手共用这套规则。",
+    "img": "/digest/2026-11-08-pentagonize-def2b247b133.jpg"
+  },
+  {
+    "section": "indie",
+    "category": "一人公司",
+    "eventId": "notchrevenue-2026-11-07",
+    "title": "Notch Revenue 把 Stripe 收入藏进屏幕刘海",
+    "url": "https://notchrevenue.com/?lang=en",
+    "judgment": "只读连接在本机汇总多账户，发现新付款时庆祝；约两小时同步一次，网页金额是交互示例。",
+    "img": "/digest/2026-11-08-notchrevenue-c2d5ff929a5b.jpg"
+  },
+  {
+    "section": "indie",
+    "category": "一人公司",
+    "eventId": "backwords-2026-11-07",
+    "title": "Backwords 让你跟着声音练习倒着说话",
+    "url": "https://backwords.greg.technology/",
+    "judgment": "先听模型反向发音，再录下自己并倒放核对；慢速与正常速度并列，反馈直接落到声音上。",
+    "img": "/digest/2026-11-08-backwords-04e1223e3211.jpg"
+  },
+  {
+    "section": "indie",
+    "category": "一人公司",
+    "eventId": "burst-2026-11-07",
+    "title": "Burst Super-Res 把连拍合成一张更细的照片",
+    "url": "https://github.com/skittleson/burst-superres",
+    "judgment": "桌面工具对齐多张照片并剔除坏帧，支持 Sony RAW；效果依素材与手持位移变化，不保证凭空补细节。",
+    "img": "/digest/2026-11-08-burst-d60d8be46aec.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "spot-2026-11-07",
+    "title": "Spot 把电脑操作逐步摊在眼前",
+    "url": "https://spot.deemwar.com",
+    "judgment": "按快捷键提出请求，面板显示每一步；沿用已有模型账户，免费测试版仍有慢响应与平台限制。",
+    "img": "/digest/2026-11-08-spot-afaa29199cc6.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "macget-2026-11-07",
+    "title": "MacGet 会在服务器拒绝后减少下载连接",
+    "url": "https://macget.suryansh.work/",
+    "judgment": "分块进度可续传，断网与站点限流分开处理；需要 Apple 芯片及 macOS 26.4 以上。",
+    "img": "/digest/2026-11-08-macget-90eff18c0f31.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "twombly-2026-11-07",
+    "title": "Twombly 把代理的界面探索摆上同一画布",
+    "url": "https://twombly.app/",
+    "judgment": "每版保留可运行静态文件，评论与语音围绕具体画面展开；本机画布需主动分享才会上线。",
+    "img": "/digest/2026-11-08-twombly-29fd432d790f.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "solous-2026-11-07",
+    "title": "Solous 让未来的自己回复今天的日记",
+    "url": "https://solous.net/",
+    "judgment": "一条记录可分给不同情绪角色，旧条目再次出现时继续接话；把独处记录组织成有时间跨度的对话。",
+    "img": "/digest/2026-11-08-solous-2229336fa644.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "trailback-2026-11-07",
+    "title": "Trailback 从本机历史找回看过的资料",
+    "url": "https://trailback.app/",
+    "judgment": "网页、文件与截图进入离线搜索，官网演示跨语言找回片段；实际索引范围与资源占用仍需试用。",
+    "img": "/digest/2026-11-08-trailback-3d37de9cb502.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "logodeal-2026-11-07",
+    "title": "logo.deal 把模板预览与 SVG 编辑接起来",
+    "url": "https://logo.deal/",
+    "judgment": "本机模板可预览不同字标与构图，水印明确保留；AI 生成与商业导出按方案区分，尚未独立实测。",
+    "img": "/digest/2026-11-08-logodeal-0e390db16c23.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "hodos-2026-11-07",
+    "title": "Hodos 用手机颠簸合成道路隐患地图",
+    "url": "https://hodos.devilabs.dev/",
+    "judgment": "不同设备多次经过后再确认坑洼，离线地图保留提醒；聚合道路数据有商业授权，位置政策需一起看。",
+    "img": "/digest/2026-11-08-hodos-ff0f12e2c142.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "kinrox-2026-11-07",
+    "title": "Kinrox 让 iPhone 成为 Mac 播放遥控器",
+    "url": "https://awaik.github.io/Kinrox/",
+    "judgment": "局域网发现设备后用六位码配对，视频与遥控无需联网；Spotify 是可选连接，更新也由用户确认。",
+    "img": "/digest/2026-11-08-kinrox-4d8a401af35a.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "tidymac-2026-11-07",
+    "title": "TidyMac 把开发缓存和空间分布放在一起",
+    "url": "https://github.com/welefen/TidyMac",
+    "judgment": "SwiftUI 清理工具默认把文件移进废纸篓，逐项确认路径；文件分析留本机，匿名使用统计默认开启。",
+    "img": "/digest/2026-11-08-tidymac-d22b203ce03b.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "tyler-2026-11-07",
+    "title": "Tyler 把全文与图片留下来离线阅读",
+    "url": "https://goodapps.store/tyler-rss/",
+    "judgment": "跨平台 RSS 阅读器支持文件夹、标签和搜索，资料保存在本机；无需账号，起步目录含九十多个源。",
+    "img": "/digest/2026-11-08-tyler-9d428878f0c1.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "uniform-2026-11-07",
+    "title": "Uniform 让界面布局与渲染共用一套底层",
+    "url": "https://github.com/rkaehn/uniform",
+    "judgment": "JavaScript 调用 C 核心，网页端编译为 WASM；仍为预览，Windows、Linux 与 Android 支持在计划中。",
+    "img": ""
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "ivynote-2026-11-07",
+    "title": "ivyNote 先在本机写，再同步笔记关系",
+    "url": "https://ivynote.app/",
+    "judgment": "Markdown、双链与跨笔记提问放在同一工具，离线也能写；官网标注自托管仍待推出。",
+    "img": "/digest/2026-11-08-ivynote-58377f0cf525.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "handbrake-2026-11-07",
+    "title": "Handbrake 把学车时数和观察练习分开",
+    "url": "https://apps.apple.com/us/app/handbrake-driving-log/id6822426461",
+    "judgment": "白天、夜间驾驶单独记录并可导出；插画场景供停车时观察，不计训练时数，也不代替正式教学。",
+    "img": "/digest/2026-11-08-handbrake-c185d4bc9fe0.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "shepi-2026-11-07",
+    "title": "Shepi 给已有终端任务补上 Mac 桌面入口",
+    "url": "https://shepi.app/?v=20261107",
+    "judgment": "与 Herdr 共用工作区、会话和远程机器，等待介入的任务集中提醒；需 Herdr 0.9.3 及 macOS 15。",
+    "img": "/digest/2026-11-08-shepi-4d6c388d7395.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "mdt-2026-11-07",
+    "title": "mdt 让终端里的 Markdown 也能点选与检索",
+    "url": "https://github.com/VaibhavAcharya/mdt",
+    "judgment": "目录、正则搜索、代码复制与 JSON 浏览放进键盘流程；图片按终端能力显示，表格和图解也有文本呈现。",
+    "img": "/digest/2026-11-08-mdt-1da7437c82d0.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "shiptape-2026-11-07",
+    "title": "Shiptape 用两次扫码截取一份打包证据",
+    "url": "https://shiptape.in",
+    "judgment": "扫描订单开始、扫描面单结束，视频加水印并备份；争议是否获赔由平台判断，不能照信官网胜诉口号。",
+    "img": "/digest/2026-11-08-shiptape-78d97013d15d.jpg"
+  },
+  {
+    "section": "taste",
+    "category": "审美提升",
+    "eventId": "kelp-2026-11-07",
+    "title": "Julia Lohmann 用海带薄皮围出异形骨架",
+    "url": "https://www.designboom.com/design/julia-lohmann-otherworldly-kelp-sculptures-future-beyond-human/",
+    "judgment": "本次长文回看她的材料实践：半透明海藻覆在肋状结构上；作品早于本期，重点是材料如何影响造型。",
+    "img": "/digest/2026-11-08-kelp-b567aaa802db.jpg"
+  },
+  {
+    "section": "taste",
+    "category": "审美提升",
+    "eventId": "brunebasse-2026-11-07",
+    "title": "GABU 用木网格和薄布回应山坡上的石塔",
+    "url": "https://www.designboom.com/architecture/atelier-gabu-observation-tower-french-hillside-timber-translucent-fabric-brunebasse/",
+    "judgment": "作者本次介绍 2021 年临时观景塔，轻透表皮与厚重遗迹相对；结构的孔隙让风景穿过建筑。",
+    "img": "/digest/2026-11-08-brunebasse-eb00e96cfa9a.jpg"
+  },
+  {
+    "section": "taste",
+    "category": "审美提升",
+    "eventId": "macchina-2026-11-07",
+    "title": "Macchina 让咖啡空间围着汽车展陈展开",
+    "url": "https://www.designboom.com/architecture/concrete-brushed-metal-hybrid-automotive-gallery-cafe-hong-kong-macchina-studio-ruei/",
+    "judgment": "混凝土与拉丝金属控制背景，车辆成为不断轮换的主角；吧台、动线与展位共同组织这间香港小店。",
+    "img": "/digest/2026-11-08-macchina-94c8eb667240.jpg"
+  },
+  {
+    "section": "taste",
+    "category": "审美提升",
+    "eventId": "sabo-2026-11-07",
+    "title": "SABO 用圆角隔墙打通曼哈顿小公寓",
+    "url": "https://www.dezeen.com/2026/11/07/sabo-project-soft-divisions-apartment-renovation-lower-east-side/",
+    "judgment": "六十八平方米里保留功能分区，用弧面与绿色细节软化边界；客厅的视线延伸到周边空间。",
+    "img": "/digest/2026-11-08-sabo-f9b368b76e91.jpg"
+  },
+  {
+    "section": "taste",
+    "category": "审美提升",
+    "eventId": "casanova-2026-11-07",
+    "title": "Casa Nova 把树木留在两条混凝土体量之间",
+    "url": "https://www.dezeen.com/2026/11/07/taller-alberto-calleja-casa-nova/",
+    "judgment": "狭长住宅由架高木步道连接，中间裂隙保留绿意；面海露台和窄长体量共同回应场地。",
+    "img": "/digest/2026-11-08-casanova-52947e5920da.jpg"
+  },
+  {
+    "section": "taste",
+    "category": "审美提升",
+    "eventId": "chirp-2026-11-07",
+    "title": "Chirp 把艺术家的几何语言做成喂鸟器",
+    "url": "https://www.wallpaper.com/design-interiors/chirp-artist-birdfeeders",
+    "judgment": "蒙德里安的平面、草间的重复变成可停留和盛食的结构；鸟的颜色与动作继续改写构图。",
+    "img": "/digest/2026-11-08-chirp-f170f0c802b9.jpg"
+  },
+  {
+    "section": "taste",
+    "category": "审美提升",
+    "eventId": "smallprint-2026-11-07",
+    "title": "Small Print 把二百五十八本微型书搬到洛杉矶",
+    "url": "https://www.wallpaper.com/design-interiors/veronica-ditting-small-print-exhibition-los-angeles",
+    "judgment": "展览从书店进入画廊，放大装订、纸张与比例的差异；电话音频导览继续讲每本小书的来历。",
+    "img": "/digest/2026-11-08-smallprint-0bae733524a3.jpg"
+  },
+  {
+    "section": "taste",
+    "category": "审美提升",
+    "eventId": "kentbarn-2026-11-07",
+    "title": "Sandy Rendel 用薄钢屋顶重新连接旧谷仓",
+    "url": "https://www.wallpaper.com/architecture/residential/listed-barn-extension-sandy-rendel-uk",
+    "judgment": "新厨房借玻璃通道与旧建筑衔接，竖向木饰面区别原横板；激光切槽把排水收进屋檐。",
+    "img": "/digest/2026-11-08-kentbarn-f60cccdabd26.jpg"
+  },
+  {
+    "section": "taste",
+    "category": "审美提升",
+    "eventId": "electra-2026-11-07",
+    "title": "Electra 用八枚电动螺旋桨解释短距起降",
+    "url": "https://www.wallpaper.com/transportation/electra-aero-el9-high-lift-blown-wings",
+    "judgment": "本次访谈展示吹气增升与混动布局；已飞示范机和九座 EL9 模型分清，后者仍计划明年试飞。",
+    "img": "/digest/2026-11-08-electra-85bd0ef5b43d.jpg"
+  },
+  {
+    "section": "taste",
+    "category": "审美提升",
+    "eventId": "freetown-2026-11-07",
+    "title": "Oshinówò 用四片发光玻璃延伸旧纪念碑",
+    "url": "https://www.wallpaper.com/architecture/freetown-memorial-oshinowo-studio-sierra-leone",
+    "judgment": "新棱柱把姓名刻进透明结构，灯光让场地边界外也能感知；旧石基经过加固，保留原有建筑。",
+    "img": "/digest/2026-11-08-freetown-0ef0b104c39a.jpg"
+  },
+  {
+    "section": "marketing",
+    "category": "产品营销",
+    "eventId": "launchzone-2026-11-07",
+    "title": "LaunchZone 把目录代投做成可追踪订单",
+    "url": "https://submit.launchzone.co",
+    "judgment": "按所选目录收费，人工提交后继续跟踪是否上线；展示的链接与权重不是获客、排名或收录保证。",
+    "img": "/digest/2026-11-08-launchzone-475c6e0791da.jpg"
+  },
+  {
+    "section": "marketing",
+    "category": "产品营销",
+    "eventId": "trendalyse-2026-11-07",
+    "title": "Trendalyse 先用搜索兴趣收窄产品假设",
+    "url": "https://trendalyse.com/",
+    "judgment": "最多比较五个主题并导出数据，再让模型整理线索；需要 SerpApi，搜索热度不能代替付费意愿。",
+    "img": ""
+  },
+  {
+    "section": "marketing",
+    "category": "产品营销",
+    "eventId": "maildignity-2026-11-07",
+    "title": "MailDignity 在冷邮件发出前挑出冒犯感",
+    "url": "https://maildignity.com/",
+    "judgment": "网页、API 与 MCP 检查空泛恭维和不合适请求；它改善表达，送达率与回复仍要另行验证。",
+    "img": "/digest/2026-11-08-maildignity-85221539c8b0.jpg"
+  },
+  {
+    "section": "marketing",
+    "category": "产品营销",
+    "eventId": "journalistic-2026-11-07",
+    "title": "journalistic.tech 把采访问题交给你异步回答",
+    "url": "https://journalistic.tech/",
+    "judgment": "语音或文字进入署名草稿，HackerNoon 编辑审核后才发布；问题模板把表达与分发入口接在一起。",
+    "img": "/digest/2026-11-08-journalistic-07c1204ae0a2.jpg"
+  },
+  {
+    "section": "marketing",
+    "category": "产品营销",
+    "eventId": "foryou-2026-11-07",
+    "title": "For You Skills 让发帖建议能追到推荐代码",
+    "url": "https://github.com/alexliyu7352/for-you-skills",
+    "judgment": "回答会列原始代码、适用条件和未解问题；公开快照里的分数倍率，不等于曝光倍率或每日发帖配额。",
+    "img": "/digest/2026-11-08-foryou-ee90adf17347.jpg"
+  },
+  {
+    "section": "marketing",
+    "category": "产品营销",
+    "eventId": "trace-2026-11-07",
+    "title": "TRACE 把抓取接口的比较做成每周公开数据",
+    "url": "https://trace.context.dev/",
+    "judgment": "同一批网页比较成功率、速度与成本，提供下载；主办方 Context.dev 同时参赛，结果须连方法一起读。",
+    "img": "/digest/2026-11-08-trace-7266a346366c.jpg"
+  },
+  {
+    "section": "marketing",
+    "category": "产品营销",
+    "eventId": "fabricmarket-2026-11-07",
+    "title": "Fabric.market 把联系方式留到双方成交意向后",
+    "url": "https://fabric.market/",
+    "judgment": "买卖布料先匿名议价，双方接受才交换资料；现阶段免费且零佣金，未来订阅可能另行通知。",
+    "img": "/digest/2026-11-08-fabricmarket-4e3a7aeb1d8e.jpg"
+  },
+  {
+    "section": "collab",
+    "category": "AI 协作",
+    "eventId": "keycontain-2026-11-07",
+    "title": "KeyContain 按请求内容分配代理 API 权限",
+    "url": "https://keycontain.com",
+    "judgment": "允许、拒绝与等人批准分开设置，收件人或分支也能限制；服务托管密钥，不能当作无需信任的本机隔离。",
+    "img": "/digest/2026-11-08-keycontain-6b9ce8064221.jpg"
+  },
+  {
+    "section": "collab",
+    "category": "AI 协作",
+    "eventId": "goodtoken-2026-11-07",
+    "title": "Good First Token 把空余额度接到开源待办",
+    "url": "https://goodfirsttoken.org/",
+    "judgment": "先挑维护者允许外部协助的问题，代理过程可看、PR 可审；额度变成贡献仍要经过人的验收。",
+    "img": "/digest/2026-11-08-goodtoken-3ebeedae517c.jpg"
+  },
+  {
+    "section": "collab",
+    "category": "AI 协作",
+    "eventId": "vondet-2026-11-07",
+    "title": "Vondet 让多轮对话继续写同一张计划板",
+    "url": "https://vondet.com/en?ref=hn",
+    "judgment": "决策、任务和待确认事项累积在板上，不随聊天重开；官网对话是示意，实际要先连接工具。",
+    "img": "/digest/2026-11-08-vondet-83fa70d54f33.jpg"
+  },
+  {
+    "section": "collab",
+    "category": "AI 协作",
+    "eventId": "project5pi-2026-11-07",
+    "title": "Project5pi 直接写出可编辑的 FL Studio 工程",
+    "url": "https://github.com/ProjectFlowmar/project5pi-midi-for-claude",
+    "judgment": "代理用 JSON 描述歌曲，工具生成工程再调用本机渲染；分析结果反馈给模型，桌面一键版仍在候补阶段。",
+    "img": "/digest/2026-11-08-project5pi-b7a82060d468.jpg"
+  },
+  {
+    "section": "collab",
+    "category": "AI 协作",
+    "eventId": "offstage-2026-11-07",
+    "title": "offstage 给代理一台可运行 Xcode 的云端 Mac",
+    "url": "https://offstage.cloud/",
+    "judgment": "沙盒按秒计费，可跑构建与测试；多个环境共享机器，性能随并发变化，付费充值尚未开放。",
+    "img": "/digest/2026-11-08-offstage-a8739c9ed740.jpg"
+  },
+  {
+    "section": "collab",
+    "category": "AI 协作",
+    "eventId": "backendskills-2026-11-07",
+    "title": "backendskills 用隐藏检查验证后端约束",
+    "url": "https://github.com/globalmpc/backendskills",
+    "judgment": "把并发库存、越权读取和迁移兼容放进十五项任务；作者公开对照结果，不能推成所有项目的收益。",
+    "img": "/digest/2026-11-08-backendskills-1b01ac04a504.jpg"
+  },
+  {
+    "section": "collab",
+    "category": "AI 协作",
+    "eventId": "mcpdiff-2026-11-07",
+    "title": "MCP 工具列表变了，先看输入与描述差异",
+    "url": "https://mcp.brydge-ai.com/diff.html",
+    "judgment": "把两个版本贴进网页，在本机比新增、移除和参数变化；没有执行工具，不能据此认定行为安全。",
+    "img": "/digest/2026-11-08-mcpdiff-10b670469e40.jpg"
+  },
+  {
+    "section": "collab",
+    "category": "AI 协作",
+    "eventId": "promptcheckup-2026-11-07",
+    "title": "promptcheckup 把新旧提示放回同一批题",
+    "url": "https://github.com/gael55x/promptcheckup",
+    "judgment": "成对重放并输出置信区间，结果可为更好、更差或尚不确定；模拟数据说明方法，不冒充线上收益。",
+    "img": "/digest/2026-11-08-promptcheckup-93a38adf4146.jpg"
+  },
+  {
+    "section": "collab",
+    "category": "AI 协作",
+    "eventId": "devcircuit-2026-11-07",
+    "title": "Dev-circuit 让当前设计与决策账本分开保存",
+    "url": "https://github.com/iswalterwu/dev-circuit-ultra",
+    "judgment": "五步循环只保留现行设计，历史放进私有账本；只有容器档提供文件系统隔离，自测成本不作普遍承诺。",
+    "img": "/digest/2026-11-08-devcircuit-9560e24ba2fa.jpg"
+  },
+  {
+    "section": "collab",
+    "category": "AI 协作",
+    "eventId": "ajx-2026-11-07",
+    "title": "AJX 把代理用产品时走过的弯路画出来",
+    "url": "https://ajx.dev/",
+    "judgment": "测试网站、CLI 或接口的完成路径，并验证最终交付；首页旅程用虚构示例，真实试验需配置执行环境。",
+    "img": "/digest/2026-11-08-ajx-1ec6cc5dd1c7.jpg"
+  },
+  {
+    "section": "collab",
+    "category": "AI 协作",
+    "eventId": "myco-2026-11-07",
+    "title": "myco 让云端与本机代理彼此找到对方",
+    "url": "https://github.com/chenhg5/myco",
+    "judgment": "通过 Hub 登记和转送任务，可用 VPS、Cloudflare 或 Tailscale 接入；部署与权限仍由使用者管理。",
+    "img": "/digest/2026-11-08-myco-66f56f2f7b75.jpg"
+  }
+]
