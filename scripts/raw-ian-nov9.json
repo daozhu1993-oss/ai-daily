@@ -1,0 +1,515 @@
+[
+  {
+    "section": "ai",
+    "category": "AI 资讯",
+    "eventId": "mei-2026-11-08",
+    "title": "MEI 将模型工程表现与使用成本并排",
+    "url": "https://git-aarvin.github.io/mei/",
+    "judgment": "用工程任务表现对照费用或 token 消耗，方便按预算比较；榜单分数需结合其评测方法阅读。",
+    "img": "/digest/2026-11-09-mei-c140d2266489.jpg"
+  },
+  {
+    "section": "ai",
+    "category": "AI 资讯",
+    "eventId": "maple-2026-11-08",
+    "title": "MAPLE 用专家裁剪压低本地模型体积",
+    "url": "https://amsach.github.io/maple/",
+    "judgment": "作者展示六 GB 显存运行 Gemma 的量化方案；速度与精度依赖测试条件，预印本结论待验证。",
+    "img": "/digest/2026-11-09-maple-a73c7acc6486.jpg"
+  },
+  {
+    "section": "ai",
+    "category": "AI 资讯",
+    "eventId": "modelrefs-2026-11-08",
+    "title": "ModelRefs 把模型选择连到可追溯证据",
+    "url": "https://modelrefs.com/",
+    "judgment": "整理模型、供应商与评测的关系，同时标出时效和限制；网页免费阅读，证据 API 另有套餐。",
+    "img": "/digest/2026-11-09-modelrefs-1ea3fd99094f.jpg"
+  },
+  {
+    "section": "ai",
+    "category": "AI 资讯",
+    "eventId": "offlinevault-2026-11-08",
+    "title": "OfflineVault 将资料库与本地问答打包",
+    "url": "https://offlinevault.dev",
+    "judgment": "断网时仍可检索文档并查看引用；作者公开回答错误，涉及应急知识时仍应核对原始资料。",
+    "img": "/digest/2026-11-09-offlinevault-ad9599ffd343.jpg"
+  },
+  {
+    "section": "ai",
+    "category": "AI 资讯",
+    "eventId": "renderpixels-2026-11-08",
+    "title": "RenderPixels 在助手里生成精确尺寸图片",
+    "url": "https://renderpixels.com",
+    "judgment": "经 MCP 描述版式，输出分享图、横幅或图标等文件；免费额度按月计算，官网例子保留样例性质。",
+    "img": "/digest/2026-11-09-renderpixels-81251a163017.jpg"
+  },
+  {
+    "section": "ai",
+    "category": "AI 资讯",
+    "eventId": "sibyl-2026-11-08",
+    "title": "Sibyl 把电脑变成带路由的本地推理机",
+    "url": "https://github.com/diffsec/sibyl",
+    "judgment": "整合模型切换、网页控制台与兼容接口，也能设置云端预算；项目明确处于前期实验阶段。",
+    "img": ""
+  },
+  {
+    "section": "indie",
+    "category": "一人公司",
+    "eventId": "chiptunes-2026-11-08",
+    "title": "Chiptunes 用一个链接分享八位音乐",
+    "url": "https://chiptunes.studio/",
+    "judgment": "三个脉冲声道加噪声声道，编排片段后组成歌曲；浏览器直接创作，无需注册或安装。",
+    "img": "/digest/2026-11-09-chiptunes-9d730b76c50c.jpg"
+  },
+  {
+    "section": "indie",
+    "category": "一人公司",
+    "eventId": "doshare-2026-11-08",
+    "title": "DoShare 探索个人云盘的买断方案",
+    "url": "https://getcloud.doshare.me/",
+    "judgment": "将文件存储、多设备访问与链接分享集中起来；官网提供永久方案，购买前仍需核对额度。",
+    "img": "/digest/2026-11-09-doshare-629f6af3ffab.jpg"
+  },
+  {
+    "section": "indie",
+    "category": "一人公司",
+    "eventId": "ghanagames-2026-11-08",
+    "title": "Ghana Street Games 复刻街头童年",
+    "url": "https://www.ghanastreetgames.com/",
+    "judgment": "把加纳街头游戏做成可在浏览器玩的三维合集，支持触屏控制与好友模式，保留地域记忆。",
+    "img": "/digest/2026-11-09-ghanagames-2a765e3deb48.jpg"
+  },
+  {
+    "section": "indie",
+    "category": "一人公司",
+    "eventId": "fuelatlas-2026-11-08",
+    "title": "FuelPriceAtlas 汇总各国官方油价",
+    "url": "https://fuelpriceatlas.com/",
+    "judgment": "从国家均价下钻到加油站，并保留当地语言与货币；跨境比较时需看数据时间和覆盖范围。",
+    "img": "/digest/2026-11-09-fuelatlas-8bc2f94b17b8.jpg"
+  },
+  {
+    "section": "indie",
+    "category": "一人公司",
+    "eventId": "overdrive-2026-11-08",
+    "title": "Overdrive 围绕听歌习惯做原生播放器",
+    "url": "https://github.com/skhaz/overdrive",
+    "judgment": "macOS 应用结合同步歌词、音量均衡和 Last.fm 记录，也能查找对应的 YouTube 音乐视频。",
+    "img": "/digest/2026-11-09-overdrive-9b7b087ceef6.jpg"
+  },
+  {
+    "section": "indie",
+    "category": "一人公司",
+    "eventId": "lunalearn-2026-11-08",
+    "title": "Luna 把任意主题变成可操作课程",
+    "url": "https://www.lunalearn.app",
+    "judgment": "课程不只有问答，还展示拖动曲线、涂色与填代码等题型；官网交互是学习形式的样例。",
+    "img": "/digest/2026-11-09-lunalearn-f31b63868c53.jpg"
+  },
+  {
+    "section": "indie",
+    "category": "一人公司",
+    "eventId": "reyesy-2026-11-08",
+    "title": "R-eyesy 让旧手机长出一对机器人眼睛",
+    "url": "https://wispplayer.com/reyesy/",
+    "judgment": "打开网页即可眨眼、回应动作或随音乐变化；摄像头与声音在设备端处理，也能关闭授权。",
+    "img": "/digest/2026-11-09-reyesy-874db5646157.jpg"
+  },
+  {
+    "section": "indie",
+    "category": "一人公司",
+    "eventId": "kindleclip-2026-11-08",
+    "title": "Kindle 摘录整理器把修改保留在浏览器",
+    "url": "https://kindleclippings.pages.dev/",
+    "judgment": "导入摘录后可改书名、删内容并导出 Markdown；再次导入只补新条目，另可备份 JSON。",
+    "img": "/digest/2026-11-09-kindleclip-af8274fc6702.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "tableague-2026-11-08",
+    "title": "Tab-league 给关闭标签页留条退路",
+    "url": "https://github.com/Shann5/tab-league",
+    "judgment": "页面先归入本地档案，再按主题、阅读与截止时间整理；官网截图采用虚构演示数据。",
+    "img": "/digest/2026-11-09-tableague-f7907148295e.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "notekpr-2026-11-08",
+    "title": "Notekpr 把协作笔记加密后再同步",
+    "url": "https://notekpr.md",
+    "judgment": "Markdown、绘图和评论放在同一界面；目前可自行部署，托管服务仍标注即将推出。",
+    "img": "/digest/2026-11-09-notekpr-61235978c7e4.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "antifind-2026-11-08",
+    "title": "AntiFind 一次搜索多块磁盘的文件名",
+    "url": "https://antisoftworks.com/antifind",
+    "judgment": "索引搜索同时提供图形界面与命令行，结果可返回 JSON；速度数字来自开发者测试。",
+    "img": "/digest/2026-11-09-antifind-8631f32261cb.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "buildcores-2026-11-08",
+    "title": "BuildCores 把装机清单变成三维预览",
+    "url": "https://www.buildcores.com",
+    "judgment": "更换机箱与配件时同时检查兼容性、比较价格；画面里的配置与预算属于站点示例。",
+    "img": "/digest/2026-11-09-buildcores-011be672fc77.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "justpause-2026-11-08",
+    "title": "Just a Pause 在你转头时模糊屏幕",
+    "url": "https://justapause.com",
+    "judgment": "借助 AirPods 的运动传感器判断朝向，打字或视频会议时暂停介入，不依赖摄像头。",
+    "img": "/digest/2026-11-09-justpause-59e5c1b1e31b.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "emcee-2026-11-08",
+    "title": "Emcee 让窗口分组可以自由拖动",
+    "url": "https://fuzzyfoundry.com/emcee",
+    "judgment": "沿用台前调度的分组思路，补上拖入窗口、重排分组等操作；面向小屏幕 Mac 工作流。",
+    "img": "/digest/2026-11-09-emcee-70e8dedbfab8.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "xmarkdown-2026-11-08",
+    "title": "XMarkdown 在文档里容纳图表与控件",
+    "url": "https://xmarkdown-zeta.vercel.app/",
+    "judgment": "用受限结构描述图表、公式和 SVG，再交给渲染器；仍是早期版本，不运行作者脚本。",
+    "img": "/digest/2026-11-09-xmarkdown-61a0e72d31b7.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "planfinder-2026-11-08",
+    "title": "PlanFinder 从轮廓生成单层住宅布局",
+    "url": "https://playground.planfinder.xyz",
+    "judgment": "先指定采光边、入口和房间需求，再生成与编辑平面；工具范围限定在单层住宅公寓。",
+    "img": "/digest/2026-11-09-planfinder-db82c8f13d7b.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "gitbet-2026-11-08",
+    "title": "Gitbet 为 Linux 补上熟悉的 Git 视图",
+    "url": "https://www.gitbet.dev/",
+    "judgment": "作者从迁移系统后的个人需求出发，做出类似 SourceTree 的免费客户端，保留开源代码。",
+    "img": "/digest/2026-11-09-gitbet-f8377e3e0c89.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "ferrule-2026-11-08",
+    "title": "Ferrule 把跨端组件直接复制进项目",
+    "url": "https://leoanimesh.github.io/ferrule/",
+    "judgment": "React Native 组件覆盖移动端与网页，调色板集中切换；当前为 0.x，需查看平台测试状态。",
+    "img": "/digest/2026-11-09-ferrule-6a564380a02b.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "hackercolumn-2026-11-08",
+    "title": "Hacker Column 用分栏跟进评论分支",
+    "url": "https://hn.orbitalchicken.com",
+    "judgment": "将 Hacker News 的阅读做成横向展开的列，字号与行距可调，偏好留在当前浏览器。",
+    "img": "/digest/2026-11-09-hackercolumn-59e859b93105.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "gimbap-2026-11-08",
+    "title": "Gimbap 给 Mac 程序坞换上可玩主题",
+    "url": "https://minho42.github.io/gimbap/",
+    "judgment": "应用、文件夹与废纸篓沿用 Dock 习惯，外观可换水面、字符或爆米花；提供七天试用。",
+    "img": "/digest/2026-11-09-gimbap-8cc7015d97e9.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "eyesrhythm-2026-11-08",
+    "title": "EyesRhythm 把眨眼节奏放到桌边",
+    "url": "https://eyesrhythm.com/",
+    "judgment": "本机摄像头统计频率与规律性，也显示头部转向；无需账户，适合作为休息提醒工具。",
+    "img": "/digest/2026-11-09-eyesrhythm-2b0ccbfd9908.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "wherewerewe-2026-11-08",
+    "title": "Where Were We 把旧照片变成猜谜",
+    "url": "https://wherewerewe.app/",
+    "judgment": "朋友同时猜拍摄地点与月份；分享链接可查看照片和位置，上传相册三十天后自动删除。",
+    "img": "/digest/2026-11-09-wherewerewe-b99fbe931424.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "qingqing-2026-11-08",
+    "title": "轻轻每次只给你二十张旧照片整理",
+    "url": "https://apps.apple.com/app/id6801997805",
+    "judgment": "四向手势区分保留、删除、跳过和归档；删除前再复核，分类额度每天恢复，也提供买断。",
+    "img": "/digest/2026-11-09-qingqing-6ba9b3d91c64.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "glowtrans-2026-11-08",
+    "title": "GlowTrans 让译文出现在正在打字的地方",
+    "url": "https://glowtrans.beautare.com/",
+    "judgment": "沿用原有输入法，停顿后在光标附近显示译文，减少切换网页；提供 macOS 和 Windows 版本。",
+    "img": "/digest/2026-11-09-glowtrans-4beacbf03dde.jpg"
+  },
+  {
+    "section": "taste",
+    "category": "审美提升",
+    "eventId": "rawapartment-2026-11-08",
+    "title": "Raw Apartment 保留混凝土的原始肌理",
+    "url": "https://www.designboom.com/architecture/raw-concrete-steel-stripped-back-1960s-apartment-zagreb-simple-architecture/",
+    "judgment": "萨格勒布旧公寓拆去多余饰面，以钢构件和裸露结构组织日常空间，材料本身成为视觉层次。",
+    "img": "/digest/2026-11-09-rawapartment-02bdd60dc816.jpg"
+  },
+  {
+    "section": "taste",
+    "category": "审美提升",
+    "eventId": "rizhao-2026-11-08",
+    "title": "ZAO 将混凝土切口嵌进日照山坡",
+    "url": "https://www.designboom.com/architecture/sweeping-concrete-zao-art-center-rizhao-china/",
+    "judgment": "社区艺术中心顺着林地地形展开，连续曲面与洞口把光线引入内部，建筑像一块被掏空的体量。",
+    "img": "/digest/2026-11-09-rizhao-6497eca33bad.jpg"
+  },
+  {
+    "section": "taste",
+    "category": "审美提升",
+    "eventId": "sknypl-2026-11-08",
+    "title": "SKNYPL 在拆迁现场架起观察座席",
+    "url": "https://www.designboom.com/art/scaffolding-safety-mesh-observation-platforms-lugano-demolition-sites-sit-for-a-while-sknypl/",
+    "judgment": "借脚手架与安全网搭出临时平台，让城市更新中的空地成为可停留和观看的公共场所。",
+    "img": "/digest/2026-11-09-sknypl-cd618936c012.jpg"
+  },
+  {
+    "section": "taste",
+    "category": "审美提升",
+    "eventId": "fala-2026-11-08",
+    "title": "Fala 用三个半圆体量组成山坡退居所",
+    "url": "https://www.dezeen.com/2026/11/08/fala-atelier-cookie-cutter-retreat/",
+    "judgment": "不同尺度的曲面嵌入葡萄牙坡地，露台与室内交错，给远程工作者划出休息和交流的空间。",
+    "img": "/digest/2026-11-09-fala-563450cd7790.jpg"
+  },
+  {
+    "section": "taste",
+    "category": "审美提升",
+    "eventId": "meso-2026-11-08",
+    "title": "Mesoamerican Modern 重读古今建筑联系",
+    "url": "https://www.dezeen.com/2026/11/08/mesoamerican-modern-book-mexico-architecture/",
+    "judgment": "Su Wu 以书中五个案例观察墨西哥建筑，重点是古代空间原则如何进入现代材料与建造方式。",
+    "img": "/digest/2026-11-09-meso-01e3cbe562b6.jpg"
+  },
+  {
+    "section": "taste",
+    "category": "审美提升",
+    "eventId": "thun-2026-11-08",
+    "title": "Matteo Thun 从米兰老塔借取室内颜色",
+    "url": "https://www.dezeen.com/2026/11/08/matteo-thun-torre-velasca-interiors/",
+    "judgment": "Torre Velasca 的新内装沿用建筑原有材质线索，粉色呼应外墙，让更新和原建筑保持联系。",
+    "img": "/digest/2026-11-09-thun-1db0d96df655.jpg"
+  },
+  {
+    "section": "taste",
+    "category": "审美提升",
+    "eventId": "lelii-2026-11-08",
+    "title": "Angelo Lelii 的灯具把工程感做得轻巧",
+    "url": "https://www.wallpaper.com/design-interiors/lighting/angelo-lelii-guide-arredoluce-lighting-design",
+    "judgment": "本期回顾 Arredoluce 创始人的经典作品，细杆、转轴和配重使灯光位置成为可调整的构图。",
+    "img": "/digest/2026-11-09-lelii-b40d981be652.jpg"
+  },
+  {
+    "section": "taste",
+    "category": "审美提升",
+    "eventId": "prague-2026-11-08",
+    "title": "布拉格建筑师把自宅塞进局促地块",
+    "url": "https://www.wallpaper.com/architecture/residential/architects-house-in-prague-small-site",
+    "judgment": "Stempel & Tesar 的设计以紧凑体量回应棘手场地，将多年住宅经验浓缩到一家人的日常尺度。",
+    "img": "/digest/2026-11-09-prague-b836ae6cf8a9.jpg"
+  },
+  {
+    "section": "taste",
+    "category": "审美提升",
+    "eventId": "iwancookbook-2026-11-08",
+    "title": "一本艺术家食谱集把餐桌变成创作档案",
+    "url": "https://www.wallpaper.com/art/inside-the-art-worlds-most-intriguing-new-cookbook-featuring-recipes-by-cindy-sherman-and-frank-bowling",
+    "judgment": "从生日礼物发展出两百多道食谱，食物、手写内容与作品并置，记录艺术圈共享的生活经验。",
+    "img": "/digest/2026-11-09-iwancookbook-ce705214f2e2.jpg"
+  },
+  {
+    "section": "taste",
+    "category": "审美提升",
+    "eventId": "lepasaura-2026-11-08",
+    "title": "Lepas Aura 以静止姿态表达车身张力",
+    "url": "https://www.wallpaper.com/transportation/lepas-aura-concept-car",
+    "judgment": "这辆概念车借豹的姿态探索品牌未来造型，流动曲面与灯光共同塑形，仍是审美方向的预告。",
+    "img": "/digest/2026-11-09-lepasaura-c63b7fe8b10b.jpg"
+  },
+  {
+    "section": "marketing",
+    "category": "产品营销",
+    "eventId": "recap-2026-11-08",
+    "title": "Recap 自动把产品录屏的重点放大",
+    "url": "https://recap.studio/",
+    "judgment": "跟随点击缩放并平滑光标，减少演示视频的后期工作；录制与编辑免费，导出条件需另看。",
+    "img": "/digest/2026-11-09-recap-570ac1779e9b.jpg"
+  },
+  {
+    "section": "marketing",
+    "category": "产品营销",
+    "eventId": "aircheck-2026-11-08",
+    "title": "Aircheck 在发送前排齐代理写的帖子",
+    "url": "https://aircheck.dev",
+    "judgment": "时间条、缩略图和列表展示当天待发内容，先看媒体与状态，再处理需要修正的那一条。",
+    "img": "/digest/2026-11-09-aircheck-86a670649793.jpg"
+  },
+  {
+    "section": "marketing",
+    "category": "产品营销",
+    "eventId": "aida-2026-11-08",
+    "title": "AIDA 从真实应用制作用户使用指南",
+    "url": "https://github.com/tryaida/aida",
+    "judgment": "配合编码代理操作应用，输出图文说明与旁白教程，并尝试在持续集成里保持文档同步。",
+    "img": "/digest/2026-11-09-aida-302e248e5c22.jpg"
+  },
+  {
+    "section": "marketing",
+    "category": "产品营销",
+    "eventId": "picodiet-2026-11-08",
+    "title": "PicoDiet 按视觉质量目标压缩图片",
+    "url": "https://picodiet.com/",
+    "judgment": "可选择接近原图的程度或文件大小上限，一次处理多张；页面提供照片与界面样本对照。",
+    "img": "/digest/2026-11-09-picodiet-f9759c7341dc.jpg"
+  },
+  {
+    "section": "marketing",
+    "category": "产品营销",
+    "eventId": "shutdown-2026-11-08",
+    "title": "Shutdown Watch 提醒产品停服与导出期限",
+    "url": "https://shutdownwatch.com/",
+    "judgment": "将应用关闭日期、数据迁出截止与替代工具放在一起，帮使用者在服务结束前安排迁移。",
+    "img": "/digest/2026-11-09-shutdown-bcabd1b4de83.jpg"
+  },
+  {
+    "section": "marketing",
+    "category": "产品营销",
+    "eventId": "lennypm-2026-11-08",
+    "title": "Tulsee Doshi 谈前沿模型如何形成产品",
+    "url": "https://www.lennysnewsletter.com/p/what-it-actually-takes-to-build-frontier",
+    "judgment": "访谈介绍用评测与体验判断分配产品投入，也讨论 PM 的角色；公开摘要可读，完整内容有付费部分。",
+    "img": ""
+  },
+  {
+    "section": "collab",
+    "category": "AI 协作",
+    "eventId": "apclab-2026-11-08",
+    "title": "APC 在本地试验工具调用的权限规则",
+    "url": "https://playground.alephapc.com/",
+    "judgment": "修改规则与请求，再加载越权或重放样例；浏览器评估不代表生产环境已建立强制保护。",
+    "img": "/digest/2026-11-09-apclab-5bfeaa1a112f.jpg"
+  },
+  {
+    "section": "collab",
+    "category": "AI 协作",
+    "eventId": "plannotator-2026-11-08",
+    "title": "Plannotator 用收件箱接住代理的待办",
+    "url": "https://plannotator.ai/inbox/",
+    "judgment": "计划、原型和阻塞像邮件一样到达，人批注后代理继续；本地运行，按所用工具安装连接。",
+    "img": "/digest/2026-11-09-plannotator-1867a718f218.jpg"
+  },
+  {
+    "section": "collab",
+    "category": "AI 协作",
+    "eventId": "psi-2026-11-08",
+    "title": "Psi 把编码代理装进可携带的小程序",
+    "url": "https://psicode.ai/",
+    "judgment": "C 核心配 Lua 行为层，支持切换模型和续接上下文；代码开放，平台支持需看实际构建。",
+    "img": "/digest/2026-11-09-psi-080c126e5420.jpg"
+  },
+  {
+    "section": "collab",
+    "category": "AI 协作",
+    "eventId": "orbtile-2026-11-08",
+    "title": "Orbtile 在网页里搭配编码状态栏",
+    "url": "https://orbtile.com/tools/claude-code-statusline-builder",
+    "judgment": "选工作区、成本与代码增减字段，预览后复制配置和 Python 脚本，全程在浏览器本地生成。",
+    "img": "/digest/2026-11-09-orbtile-06d650207efc.jpg"
+  },
+  {
+    "section": "collab",
+    "category": "AI 协作",
+    "eventId": "webcrawl-2026-11-08",
+    "title": "Webcrawl 把本地抓取工具接进代理",
+    "url": "https://github.com/brainfish-ai/webcrawl-anything",
+    "judgment": "搜索、映射和网页转 Markdown 可经命令或 MCP 调用；无需服务密钥不等于所有网站都能抓取。",
+    "img": ""
+  },
+  {
+    "section": "collab",
+    "category": "AI 协作",
+    "eventId": "recalc-2026-11-08",
+    "title": "Recalc 让表格单元格成为代理终端",
+    "url": "https://github.com/sshah03/recalc",
+    "judgment": "数字、公式、命令与代理共用一张网格，人能直接修改结果；仍属早期测试版，需要保留备份。",
+    "img": "/digest/2026-11-09-recalc-e6ae35900665.jpg"
+  },
+  {
+    "section": "collab",
+    "category": "AI 协作",
+    "eventId": "loop-2026-11-08",
+    "title": "Loop 把编码结果送到手机上等你回复",
+    "url": "https://github.com/j-asefa/loop",
+    "judgment": "扫码连接自己的电脑，优先显示问题、审批与完成结果；展示截图为样例，支持多种编码工具。",
+    "img": "/digest/2026-11-09-loop-e9dd96626d6d.jpg"
+  },
+  {
+    "section": "collab",
+    "category": "AI 协作",
+    "eventId": "repomagpie-2026-11-08",
+    "title": "RepoMagpie 记住你对开发工具的评价",
+    "url": "https://github.com/Varshavia/RepoMagpie",
+    "judgment": "把用过的仓库和弃用理由存为个人 Markdown 笔记，让代理选依赖前先查你留下的判断。",
+    "img": ""
+  },
+  {
+    "section": "collab",
+    "category": "AI 协作",
+    "eventId": "codend-2026-11-08",
+    "title": "Codend 把编码任务串到预览与拉取请求",
+    "url": "https://codend.dev",
+    "judgment": "从修复问题、补测试到定时任务共用工作入口；官网展示流程样例，实际额度随套餐变化。",
+    "img": "/digest/2026-11-09-codend-f8a81e4cc255.jpg"
+  },
+  {
+    "section": "collab",
+    "category": "AI 协作",
+    "eventId": "sentient-2026-11-08",
+    "title": "Sentient 从系统事件追踪代理的实际动作",
+    "url": "https://nosaka.ai/sentient/",
+    "judgment": "在 Linux 上结合内核事件与会话记录还原文件、进程和网络变化，规则负责标出风险操作。",
+    "img": "/digest/2026-11-09-sentient-30604b0a9496.jpg"
+  },
+  {
+    "section": "collab",
+    "category": "AI 协作",
+    "eventId": "setem-2026-11-08",
+    "title": "Setem 松开快捷键后确认语音输入结果",
+    "url": "https://github.com/zcyoung2000/Setem",
+    "judgment": "菜单栏工具支持云端与本机识别，浮窗定稿后一次写入；第三方云接口可能变化，代码开放。",
+    "img": ""
+  }
+]
