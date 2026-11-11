@@ -1,0 +1,542 @@
+[
+  {
+    "section": "ai",
+    "category": "AI 资讯",
+    "eventId": "claudefable52-2026-11-09",
+    "title": "Anthropic 发布 Claude Fable 5.2 与 Mythos 5.2",
+    "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+    "judgment": "在长上下文推理与科学探究能力上取得突破，以 65 分登顶综合大模型智力评测排行榜。",
+    "img": "/digest/2026-11-10-claudefable52-b5dd394055dc.jpg"
+  },
+  {
+    "section": "ai",
+    "category": "AI 资讯",
+    "eventId": "metamuseember-2026-11-09",
+    "title": "Meta 推出最小端侧模型 Muse Ember 主打代理循环",
+    "url": "https://research.meta.ai/blog/muse-ember",
+    "judgment": "针对智能体高频工具调用与环境感知进行深度蒸馏，以极小显存占用实现快速连续推理。",
+    "img": "/digest/2026-11-10-metamuseember-5ee3db0e6036.jpg"
+  },
+  {
+    "section": "ai",
+    "category": "AI 资讯",
+    "eventId": "emeans10x-2026-11-09",
+    "title": "E-means 在保持等精度下将 K-Means 提速十倍",
+    "url": "https://e-means.github.io/",
+    "judgment": "利用高维空间距离不等式剔除冗余点积计算，为大规模向量检索聚类提供即插即用优化方案。",
+    "img": "/digest/2026-11-10-emeans10x-4e2521a0eedb.jpg"
+  },
+  {
+    "section": "ai",
+    "category": "AI 资讯",
+    "eventId": "nextconceptmod-2026-11-09",
+    "title": "下一概念建模将文本生成从细颗粒度推向并行化",
+    "url": "https://arxiv.org/abs/2610.14162",
+    "judgment": "打破传统自回归逐词生成的串行瓶颈，先生成高层语义骨架再并行填充细节表述。",
+    "img": ""
+  },
+  {
+    "section": "ai",
+    "category": "AI 资讯",
+    "eventId": "omnijevflide-2026-11-09",
+    "title": "Flide 将 Jev 风格决策模型的推理速度提升近十倍",
+    "url": "https://github.com/OmniJev/Flide",
+    "judgment": "重构多分支决策树与评分张量内核，让复杂的认知模拟能在消费级硬件上飞速响应。",
+    "img": "/digest/2026-11-10-omnijevflide-b21e312fcf76.jpg"
+  },
+  {
+    "section": "ai",
+    "category": "AI 资讯",
+    "eventId": "sentineleval-2026-11-09",
+    "title": "Sentinel Eval 揭示智能体长期记忆的安全泄漏风险",
+    "url": "https://github.com/harishbalasubramanian/sentinel-eval",
+    "judgment": "对比发现原始 RAG 检索无泄露，而代理在跨轮次对话总结沉淀中存在 67% 的隐性记忆溢出。",
+    "img": ""
+  },
+  {
+    "section": "indie",
+    "category": "一人公司",
+    "eventId": "foldableflight-2026-11-09",
+    "title": "Foldable Flight 建立纸飞机折法终极档案",
+    "url": "https://www.foldableflight.com",
+    "judgment": "从升力重心到尾翼配重，将折纸手工整理成包含气动分析与实拍教程的独立百科。",
+    "img": "/digest/2026-11-10-foldableflight-70cfd5f2ab34.jpg"
+  },
+  {
+    "section": "indie",
+    "category": "一人公司",
+    "eventId": "deskland-2026-11-09",
+    "title": "Deskland 让桌面壁纸随图标排布动态让位",
+    "url": "https://deskland.app/",
+    "judgment": "自动检测屏幕图标聚集区域，实时调整插画构图重心，避免视觉元素被文件遮挡。",
+    "img": "/digest/2026-11-10-deskland-f09ed394f39b.jpg"
+  },
+  {
+    "section": "indie",
+    "category": "一人公司",
+    "eventId": "kiiwiapp-2026-11-09",
+    "title": "Kiiwi 把机械键盘清脆轴体音效带回电脑",
+    "url": "https://kiiwi.app/",
+    "judgment": "监听系统键盘敲击事件，实时合成段落轴与线性轴回弹声，打造沉浸打字现场。",
+    "img": "/digest/2026-11-10-kiiwiapp-0a5a01ece5df.jpg"
+  },
+  {
+    "section": "indie",
+    "category": "一人公司",
+    "eventId": "logcrux-2026-11-09",
+    "title": "Logcrux 在本地用小模型诊断复杂服务日志",
+    "url": "https://logcrux.com",
+    "judgment": "无需将包含敏感数据的生产日志上传云端，端侧快速归组错误堆栈并给出排障指引。",
+    "img": "/digest/2026-11-10-logcrux-d298456dee74.jpg"
+  },
+  {
+    "section": "indie",
+    "category": "一人公司",
+    "eventId": "rollare-2026-11-09",
+    "title": "Rollare 为草根线下赛设计极简对阵签表",
+    "url": "https://rollare.com/",
+    "judgment": "支持选手扫码报到与即时比分录入，淘汰赛树状图自动计算晋级路线与轮空排布。",
+    "img": "/digest/2026-11-10-rollare-e6daaea92ab2.jpg"
+  },
+  {
+    "section": "indie",
+    "category": "一人公司",
+    "eventId": "steampunksh-2026-11-09",
+    "title": "SteamPunk 用滑动卡片探索 Steam 游戏库",
+    "url": "https://steampunk.sh/",
+    "judgment": "把传统冗长的商城列表重构为卡片流，左滑跳过右滑收藏，发现冷门独立佳作。",
+    "img": "/digest/2026-11-10-steampunksh-8a1ce859a997.jpg"
+  },
+  {
+    "section": "indie",
+    "category": "一人公司",
+    "eventId": "lampjack-2026-11-09",
+    "title": "Lampjack 随音频律动生成实时三维声波空间",
+    "url": "https://lampjack.app/",
+    "judgment": "在浏览器中实时分析音频频段响应，生成与音乐旋律共振的粒子与几何变形动画。",
+    "img": "/digest/2026-11-10-lampjack-4b9cc398ee26.jpg"
+  },
+  {
+    "section": "indie",
+    "category": "一人公司",
+    "eventId": "floodroute-2026-11-09",
+    "title": "FloodRoute 在地图上拉动时间轴查看淹水街区",
+    "url": "https://floodroute.com",
+    "judgment": "结合潮汐预报与地形高程模型，滑动滑块即可直观预览不同水深淹没的沿海街道。",
+    "img": "/digest/2026-11-10-floodroute-edec8f0cee6e.jpg"
+  },
+  {
+    "section": "indie",
+    "category": "一人公司",
+    "eventId": "deedbell-2026-11-09",
+    "title": "Deedbell 每天早晨送上一条随手可做的善意提示",
+    "url": "https://deedbell.com/today",
+    "judgment": "不做宏大口号叙事，将关心朋友或清理社区等微小善举拆解为每日可打卡的温暖清单。",
+    "img": "/digest/2026-11-10-deedbell-85e422f308da.jpg"
+  },
+  {
+    "section": "indie",
+    "category": "一人公司",
+    "eventId": "blackfridaydev-2026-11-09",
+    "title": "Black Friday for Developers 汇总工程师专属折扣",
+    "url": "https://www.blackfriday.dev",
+    "judgment": "过滤消费主义杂音，专注收集独立开发者自建工具、API 配额与精品课程的黑五特惠。",
+    "img": "/digest/2026-11-10-blackfridaydev-8c8a6331e133.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "ketchup3d-2026-11-09",
+    "title": "KetchUp 在浏览器里复活轻量 3D 建模",
+    "url": "https://ketchup3d.github.io/app/",
+    "judgment": "用 Rust 与 WebGPU 重写经典 SketchUp 操作，无需安装即可拉伸面与推移实体。",
+    "img": "/digest/2026-11-10-ketchup3d-f084106221e7.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "meowdisplay-2026-11-09",
+    "title": "MeowDisplay 把 Mac 画面反向镜像到手机",
+    "url": "https://meowdisplay.app/",
+    "judgment": "不依赖 AirPlay 接收端协议，直接将桌面视窗作为可交互触屏副屏投射至移动设备。",
+    "img": "/digest/2026-11-10-meowdisplay-f54bad69d1a9.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "someonewashere-2026-11-09",
+    "title": "Someone Was Here 记录离开电脑时的静默触碰",
+    "url": "https://someonewashere.app/",
+    "judgment": "在锁屏状态下监听外设唤醒与摄像头微动，离开座位后留下一份确切的物理接触记录。",
+    "img": "/digest/2026-11-10-someonewashere-6c7044476e19.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "getwimi-2026-11-09",
+    "title": "Wimi 为 macOS 带来鼠标优先的窗口平铺",
+    "url": "https://getwimi.app",
+    "judgment": "不强制全键盘记忆快捷键，通过屏幕边缘手势与磁吸悬停完成多窗口快速重排。",
+    "img": "/digest/2026-11-10-getwimi-9aaf62112a60.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "sayjot-2026-11-09",
+    "title": "Jot 双击 Shift 将选中文字归入 Markdown",
+    "url": "https://sayjot.xyz/",
+    "judgment": "全局轻量选区捕获工具，双击按键后自动剥离格式并保留来源上下文到本地纯文本。",
+    "img": "/digest/2026-11-10-sayjot-906dea141867.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "velorki-2026-11-09",
+    "title": "Velorki 只靠一部手机完成骑行路线指引",
+    "url": "https://velorki.com",
+    "judgment": "摒弃繁琐的码表外设，用大色块转向指引与离线高度剖面图为自行车骑手导航。",
+    "img": "/digest/2026-11-10-velorki-95b1dd7d9ca1.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "watchedearth-2026-11-09",
+    "title": "Watched Earth 查清头顶飞过的每一颗人造卫星",
+    "url": "https://www.watched.earth",
+    "judgment": "基于地理坐标反查本周掠过的全部卫星轨道，并同步呈现公开拍摄的光学与雷达照片。",
+    "img": "/digest/2026-11-10-watchedearth-171207557bdc.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "airgapcheck-2026-11-09",
+    "title": "Airgap-check 排查 AI 应用偷偷下载的离线包",
+    "url": "https://github.com/humanethq/airgap-check",
+    "judgment": "拦截客户端启动时的静默网络外联，列出模型权重、遥测与未声明二进制组件清单。",
+    "img": "/digest/2026-11-10-airgapcheck-9d37034220b1.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "getnegs-2026-11-09",
+    "title": "Spektrafilm Negs 在浏览器模拟胶片光谱响应",
+    "url": "https://getnegs.com/try/",
+    "judgment": "跳过通用色彩滤镜，基于真实卤化银感光曲线还原负片色彩与暗室冲印过渡。",
+    "img": "/digest/2026-11-10-getnegs-0f913616ab6e.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "ratracets-2026-11-09",
+    "title": "Rat Race 把 1994 年经典屏保从 68k 移植至 TS",
+    "url": "https://rat-race.heyitsjam.es/",
+    "judgment": "从三十年前的汇编代码逆向重写，完整保留经典老鼠赛跑动画帧与碰撞物理逻辑。",
+    "img": "/digest/2026-11-10-ratracets-6cbc402f7bf3.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "withicons-2026-11-09",
+    "title": "WithIcons 用 34 种视觉质感绘制同一图标库",
+    "url": "https://withicons.com/",
+    "judgment": "同一套符号体系横跨可爱黏土、扁平单色与节日微立体，提供即拿即用的 SVG 源文件。",
+    "img": "/digest/2026-11-10-withicons-b3ca68e6468b.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "spirolo-2026-11-09",
+    "title": "Spirolo 用 Rust 静态扫描前端测试套件隐患",
+    "url": "https://spirolo.com/",
+    "judgment": "无需运行真实测试用例，静态提取无效断言、竞态等待与虚假覆盖率盲区。",
+    "img": "/digest/2026-11-10-spirolo-27e442d4c342.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "iphoneuseapp-2026-11-09",
+    "title": "iPhone-use-app 让大模型直接操作真机界面",
+    "url": "https://github.com/EliotAndres/iphone-use-app",
+    "judgment": "摆脱 Mac 宿主机桥接限制，在移动设备本地运行代理操作指令并响应视觉元素。",
+    "img": "/digest/2026-11-10-iphoneuseapp-073ade3333c3.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "zebkit-2026-11-09",
+    "title": "Zebkit 把 Chromium 打包成极简可嵌入类库",
+    "url": "https://github.com/ikey4u/zebkit",
+    "judgment": "剥离多余平台依赖与包装层，为原生应用内嵌现代网页渲染能力提供轻量选项。",
+    "img": "/digest/2026-11-10-zebkit-12eac2421836.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "faceanalysis-2026-11-09",
+    "title": "Face Analysis 在本地完成人脸特征几何测量",
+    "url": "https://faceanalysis.app/",
+    "judgment": "图像不出本地沙箱，利用端侧算力测量面部五官比例并生成结构化对称性报告。",
+    "img": "/digest/2026-11-10-faceanalysis-168e1b7beac5.jpg"
+  },
+  {
+    "section": "product",
+    "category": "产品设计",
+    "eventId": "abcmod-2026-11-09",
+    "title": "CodingNow 动手复活三十年前的 ABC 输入法",
+    "url": "https://blog.codingnow.com/2026/11/abc_mod.html",
+    "judgment": "云风在现代系统上重现标准双打编码机制，用现代架构找回纯粹的键入击发手感。",
+    "img": "/digest/2026-11-10-abcmod-2911678563c4.jpg"
+  },
+  {
+    "section": "taste",
+    "category": "审美提升",
+    "eventId": "dezeencorktrophy-2026-11-09",
+    "title": "Dezeen Awards 奖杯回归天然软木材质",
+    "url": "https://www.dezeen.com/2026/11/09/dezeen-awards-2026-trophy-cork-amorim-corticeira/",
+    "judgment": "摒弃重金属电镀工艺，携手葡萄牙阿莫林工坊，用古老软木材料雕琢极简圆柱奖杯。",
+    "img": "/digest/2026-11-10-dezeencorktrophy-76892df77a9b.jpg"
+  },
+  {
+    "section": "taste",
+    "category": "审美提升",
+    "eventId": "carstenholler-2026-11-09",
+    "title": "Carsten Höller 在墨西哥城盘旋立起巨型滑梯",
+    "url": "https://www.dezeen.com/2026/11/09/carsten-holler-mexico-city/",
+    "judgment": "金属管道如同巨蟒缠绕现代建筑立面，将童真冒险体验无缝融入严肃的城市公共空间。",
+    "img": "/digest/2026-11-10-carstenholler-e66f13d13f1a.jpg"
+  },
+  {
+    "section": "taste",
+    "category": "审美提升",
+    "eventId": "ebbadutchbarn-2026-11-09",
+    "title": "EBBA 将康沃尔旧农用谷仓化作静谧避难所",
+    "url": "https://www.dezeen.com/2026/11/09/ebba-architects-dutch-barn/",
+    "judgment": "保留裸露木梁与起伏瓦顶，在粗粝乡村外壳内部注入温润的微水泥与下沉式阅读空间。",
+    "img": "/digest/2026-11-10-ebbadutchbarn-66f592c118da.jpg"
+  },
+  {
+    "section": "taste",
+    "category": "审美提升",
+    "eventId": "oshinowomemorial-2026-11-09",
+    "title": "Oshinówò 为塞拉利昂搬运兵团加冕玻璃棱镜",
+    "url": "https://www.dezeen.com/2026/11/09/freetown-memorial-sierra-leone-carrier-corps-tosin-oshinowo/",
+    "judgment": "在历史纪念碑顶端安放现代折射玻璃，利用日光角度投射彩虹，重塑对历史的庄重敬意。",
+    "img": "/digest/2026-11-10-oshinowomemorial-fea83a342351.jpg"
+  },
+  {
+    "section": "taste",
+    "category": "审美提升",
+    "eventId": "aurumprinter-2026-11-09",
+    "title": "Studio Aslak 打造药剂师专用的 Aurum 打印机",
+    "url": "https://www.dezeen.com/2026/11/09/studio-aslak-curifylabs-pharmaprinter-aurum-empower-pharmacists/",
+    "judgment": "以高级工业设计语言重构医疗仪器，紧凑金属机身与防尘舱让现场定制药物优雅精准。",
+    "img": "/digest/2026-11-10-aurumprinter-f4b86fc25501.jpg"
+  },
+  {
+    "section": "taste",
+    "category": "审美提升",
+    "eventId": "balzarvalencia-2026-11-09",
+    "title": "Balzar 在瓦伦西亚融合侘寂与十九世纪老宅",
+    "url": "https://www.designboom.com/architecture/balzar-arquitectos-19th-century-modernist-interiors-wabi-sabi-materiality-valencia-apartment-renovation-ciutat-vella-apartment/",
+    "judgment": "保留古雅的拱顶天花与石膏雕花，用微水泥大地色调与天然石材铺陈克制内敛的居住哲学。",
+    "img": "/digest/2026-11-10-balzarvalencia-657e82770000.jpg"
+  },
+  {
+    "section": "taste",
+    "category": "审美提升",
+    "eventId": "gizaartportals-2026-11-09",
+    "title": "吉萨金字塔脚下跌落金色门户与守护神雕塑",
+    "url": "https://www.designboom.com/art/sculptural-portals-golden-guardians-giza-art-degypte-forever-now-06/",
+    "judgment": "Art d Égypte 当代艺术季启幕，艺术家用镜面金属与巨型几何体与数千年黄沙展开对话。",
+    "img": "/digest/2026-11-10-gizaartportals-6937a436b868.jpg"
+  },
+  {
+    "section": "taste",
+    "category": "审美提升",
+    "eventId": "pearcecamden-2026-11-09",
+    "title": "Pearce+ 用废弃旧木与帆布在伦敦搭起野性凉亭",
+    "url": "https://www.designboom.com/architecture/pearce-plus-guerrilla-shading-pavilion-salvaged-timber-canvas-sails-camden-london/",
+    "judgment": "采用未加工的二手建筑木料与旧船帆，在街角营建一处可自由拆卸的社区遮阳聚会地。",
+    "img": "/digest/2026-11-10-pearcecamden-9272c501e71d.jpg"
+  },
+  {
+    "section": "taste",
+    "category": "审美提升",
+    "eventId": "casamouda-2026-11-09",
+    "title": "Casa Mouda 在拉各斯搭建当代非洲设计舞台",
+    "url": "https://www.wallpaper.com/design-interiors/casa-mouda-lagos",
+    "judgment": "以粗粝红土外墙结合现代大跨度悬挑空间，将传统手工艺编织与非洲现代先锋家具并置呈现。",
+    "img": "/digest/2026-11-10-casamouda-24bb15a9db1d.jpg"
+  },
+  {
+    "section": "taste",
+    "category": "审美提升",
+    "eventId": "baldwinresidence-2026-11-09",
+    "title": "John Lautner 洛杉矶经典住宅 Baldwin 挂牌",
+    "url": "https://www.wallpaper.com/architecture/residential/baldwin-residence-john-lautner-for-sale",
+    "judgment": "大师经典的屋顶曲线与全景观景推拉门，以极致简练的混凝土结构勾勒半个世纪前的现代美感。",
+    "img": "/digest/2026-11-10-baldwinresidence-a25ac16e71d7.jpg"
+  },
+  {
+    "section": "marketing",
+    "category": "产品营销",
+    "eventId": "vitefundcf-2026-11-09",
+    "title": "Cloudflare 设立 Vite 生态发展专项基金",
+    "url": "https://blog.cloudflare.com/launching-vite-ecosystem-fund/",
+    "judgment": "联合开源社区提供长期资金与基础设施支持，为现代前端开发工具链注入可持续动力。",
+    "img": "/digest/2026-11-10-vitefundcf-8e1acd43f284.jpg"
+  },
+  {
+    "section": "marketing",
+    "category": "产品营销",
+    "eventId": "uspszipcodes-2026-11-09",
+    "title": "美国邮政公开全美精确邮编边界多边形",
+    "url": "https://postalpro.usps.com/zcb",
+    "judgment": "打破长期被商业地图垄断的数据壁垒，直接向公众开放高精度的官方行政划分矢量边界。",
+    "img": "/digest/2026-11-10-uspszipcodes-b3916622038d.jpg"
+  },
+  {
+    "section": "marketing",
+    "category": "产品营销",
+    "eventId": "gpudisparity-2026-11-09",
+    "title": "H100 算力租金在不同云厂商间存在数倍价差",
+    "url": "https://github.com/datareceipts/data-receipts/tree/main/109-gpu-pricing",
+    "judgment": "开源数据集实测多平台计费账单，揭示相同规格硬件在现货与长期预订下的巨大利润空间。",
+    "img": "/digest/2026-11-10-gpudisparity-e9870611d574.jpg"
+  },
+  {
+    "section": "marketing",
+    "category": "产品营销",
+    "eventId": "isawyourhn-2026-11-09",
+    "title": "从一条 HN 评论推导出极为精准的客户触达路线",
+    "url": "https://joshstrange.com/2026/11/09/i-saw-your-hn-comment/",
+    "judgment": "复盘如何通过公共技术讨论捕捉潜在用户的隐秘痛点，完成从零到一的微型获客闭环。",
+    "img": ""
+  },
+  {
+    "section": "marketing",
+    "category": "产品营销",
+    "eventId": "unlockanycar-2026-11-09",
+    "title": "白帽黑客披露全球某品牌汽车远程开锁漏洞",
+    "url": "https://shubs.io/unlocking-any-car-from-x-brand-in-most-of-the-world/",
+    "judgment": "深入剖析车联网 API 的越权访问缺陷，警示汽车软硬件服务在云端权限控制上的巨大盲区。",
+    "img": "/digest/2026-11-10-unlockanycar-839ca732b446.jpg"
+  },
+  {
+    "section": "marketing",
+    "category": "产品营销",
+    "eventId": "matalanswitch-2026-11-09",
+    "title": "Matalan 广告以时装周真假混剪完成亲民反转",
+    "url": "https://www.creativeboom.com/news/ozos-campaign-for-matalan-pulls-off-a-clever-catwalk-switcheroo/",
+    "judgment": "Ozo 团队将快时尚服饰混入高定秀场拍摄模特反应，用视觉落差传递平价时尚的品牌心智。",
+    "img": "/digest/2026-11-10-matalanswitch-dcad44722f98.jpg"
+  },
+  {
+    "section": "marketing",
+    "category": "产品营销",
+    "eventId": "detailsprslop-2026-11-09",
+    "title": "Simon Willison 建议把 AI 生成的 PR 描述折叠",
+    "url": "https://simonwillison.net/2026/Nov/9/details-summary/",
+    "judgment": "提倡用 details 与 summary 标签隐藏大模型水文，让代码审查者先直面真正重要的核心改动。",
+    "img": ""
+  },
+  {
+    "section": "collab",
+    "category": "AI 协作",
+    "eventId": "thrumteam-2026-11-09",
+    "title": "Thrum 把 Claude Code 与 Codex 编入同一支战队",
+    "url": "https://thrum.team/",
+    "judgment": "不再局限于单智能体独奏，通过共享会话总线协调不同代码模型的特长与审查边界。",
+    "img": "/digest/2026-11-10-thrumteam-9a1233874d49.jpg"
+  },
+  {
+    "section": "collab",
+    "category": "AI 协作",
+    "eventId": "toolshedrun-2026-11-09",
+    "title": "Toolshed 用一套终端界面管理所有 MCP 服务",
+    "url": "https://toolshed.run",
+    "judgment": "专为 Claude Code 与 Codex 设计的统一控制台，一键切换不同代理的环境变量与工具配额。",
+    "img": "/digest/2026-11-10-toolshedrun-7766ba843e72.jpg"
+  },
+  {
+    "section": "collab",
+    "category": "AI 协作",
+    "eventId": "mergeatlas-2026-11-09",
+    "title": "MergeAtlas 以视觉化地图重塑拉取请求代码审查",
+    "url": "https://mergeatlas.dev/",
+    "judgment": "将杂乱的代码 diff 按模块调用关系生成树状流程图，快速理清变更引发的潜在副作用。",
+    "img": "/digest/2026-11-10-mergeatlas-ca9b4f652a7c.jpg"
+  },
+  {
+    "section": "collab",
+    "category": "AI 协作",
+    "eventId": "venzxtry-2026-11-09",
+    "title": "Venzx 在 AI 触发危险工具前插入人工确认卡",
+    "url": "https://venzx.com/try",
+    "judgment": "拦截代理向数据库写入或发起外部网络请求的关键动作，等待团队成员授权再继续推进。",
+    "img": "/digest/2026-11-10-venzxtry-2bd465910cd4.jpg"
+  },
+  {
+    "section": "collab",
+    "category": "AI 协作",
+    "eventId": "prelooploopt-2026-11-09",
+    "title": "Loopt 允许用任意编程语言撰写 GitHub Actions",
+    "url": "https://github.com/preloopdev/loopt",
+    "judgment": "告别冗长复杂的 YAML 脚本配置，使用熟悉的 TypeScript 或 Python 语法定义 CI 流水线。",
+    "img": "/digest/2026-11-10-prelooploopt-7d5809232666.jpg"
+  },
+  {
+    "section": "collab",
+    "category": "AI 协作",
+    "eventId": "snishdesk-2026-11-09",
+    "title": "Desk 为命令行代码代理搭建原生 macOS 工作台",
+    "url": "https://github.com/s-nish/desk",
+    "judgment": "自动捕获代理在终端中的多轮修改、分支状态与预览端口，集成进简洁的桌面卡片视窗。",
+    "img": "/digest/2026-11-10-snishdesk-37fd09746d45.jpg"
+  },
+  {
+    "section": "collab",
+    "category": "AI 协作",
+    "eventId": "safescriptjs-2026-11-09",
+    "title": "SafeScript 在隔离环境中执行不可信 JavaScript",
+    "url": "https://github.com/SafeScript/safescript",
+    "judgment": "基于轻量沙箱隔离宿主原生原型链与全局环境，安全运行第三方插件代码而无渗透隐患。",
+    "img": ""
+  },
+  {
+    "section": "collab",
+    "category": "AI 协作",
+    "eventId": "claudebulkhead-2026-11-09",
+    "title": "Claude Bulkhead 测算并行代码代理的写冲突概率",
+    "url": "https://github.com/dooly6276/claude-bulkhead",
+    "judgment": "重放开发日志中多个终端实例同时操作同一仓库的时段，量化多代理协作的文件重叠代价。",
+    "img": ""
+  },
+  {
+    "section": "collab",
+    "category": "AI 协作",
+    "eventId": "fmpplugins-2026-11-09",
+    "title": "FMP Plugins 让智能体记住改 Bug 的真实解法",
+    "url": "https://github.com/GDM-Digital-Media-Group/fmp-plugins",
+    "judgment": "不只是保存一句话总结，自动捕获上下文依赖与 diff 修补逻辑，供后续任务精准复用。",
+    "img": "/digest/2026-11-10-fmpplugins-9dab984458ea.jpg"
+  },
+  {
+    "section": "collab",
+    "category": "AI 协作",
+    "eventId": "attentrycheck-2026-11-09",
+    "title": "Attentry 本地审查代码代理的每一次文件篡改",
+    "url": "https://github.com/Aarv-1o/Attentry",
+    "judgment": "在文件写入磁盘瞬间执行 AST 规则检查，拦截幻觉引入的废弃 API 或破坏性删除动作。",
+    "img": "/digest/2026-11-10-attentrycheck-fcd714e96447.jpg"
+  },
+  {
+    "section": "collab",
+    "category": "AI 协作",
+    "eventId": "smarchonedocs-2026-11-09",
+    "title": "Smarchone 让文档服务器根据批注直接改稿",
+    "url": "https://smarchone.github.io/docs/",
+    "judgment": "用户在在线文档段落旁随手留下评审意见，后台服务自动派发任务给代码代理更新正文。",
+    "img": "/digest/2026-11-10-smarchonedocs-56f6da992812.jpg"
+  }
+]
