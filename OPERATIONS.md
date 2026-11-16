@@ -56,7 +56,7 @@ items:
 
 ## 🎨 2. 全站配置与变现开关 (`src/config/site.ts`)
 
-全站所有文本、路由、商业化槽位均在 [`src/config/site.ts`](file:///Users/gx/.gemini/antigravity/scratch/ai-daily/src/config/site.ts) 集中控制，修改后保存即生效：
+全站所有文本、路由、商业化槽位均在 [`src/config/site.ts`](./src/config/site.ts) 集中控制，修改后保存即生效：
 
 | 配置项 | 路径 | 说明 |
 |---|---|---|
@@ -71,7 +71,7 @@ items:
 
 ## 🏷️ 3. 增删与修改分类 (`src/config/categories.ts`)
 
-全站**严禁硬编码分类字符串**。增删分类只需修改 [`src/config/categories.ts`](file:///Users/gx/.gemini/antigravity/scratch/ai-daily/src/config/categories.ts)：
+全站**严禁硬编码分类字符串**。增删分类只需修改 [`src/config/categories.ts`](./src/config/categories.ts)：
 ```typescript
 export const CATEGORIES: Record<string, CategoryMeta> = {
   '新分类名': {

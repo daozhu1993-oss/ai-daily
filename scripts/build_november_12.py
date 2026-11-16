@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 import json
 import os
+_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+os.chdir(_ROOT)
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -208,13 +210,13 @@ lines.append("")
 lines.append(closing_note)
 lines.append("")
 
-out_path = f"/Users/gx/.gemini/antigravity/scratch/ai-daily/src/content/daily/{date_str}.md"
+out_path = f"src/content/daily/{date_str}.md"
 with open(out_path, "w", encoding="utf-8") as f:
     f.write("\n".join(lines))
 
 print(f"Successfully wrote {out_path} ({os.path.getsize(out_path)} bytes)")
 
-all_used_path = "/Users/gx/.gemini/antigravity/scratch/ai-daily/scripts/all-used-urls.json"
+all_used_path = "scripts/all-used-urls.json"
 with open(all_used_path, "r", encoding="utf-8") as f:
     used_list = json.load(f)
 

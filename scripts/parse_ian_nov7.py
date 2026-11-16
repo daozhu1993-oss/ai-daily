@@ -1,9 +1,12 @@
 # -*- coding: utf-8 -*-
+import os
+_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+os.chdir(_ROOT)
 import re
 import json
 
 def parse_ian_nov7():
-    with open('/Users/gx/.gemini/antigravity/scratch/ai-daily/scripts/raw-ian-nov7.html', 'r', encoding='utf-8') as f:
+    with open('scripts/raw-ian-nov7.html', 'r', encoding='utf-8') as f:
         html = f.read()
 
     section_map = {
@@ -53,7 +56,7 @@ def parse_ian_nov7():
             })
 
     print(f"Total extracted for Nov 7: {len(all_items)}")
-    with open('/Users/gx/.gemini/antigravity/scratch/ai-daily/scripts/raw-ian-nov7.json', 'w', encoding='utf-8') as f:
+    with open('scripts/raw-ian-nov7.json', 'w', encoding='utf-8') as f:
         json.dump(all_items, f, ensure_ascii=False, indent=2)
 
 if __name__ == '__main__':

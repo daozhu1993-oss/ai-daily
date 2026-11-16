@@ -1,4 +1,7 @@
 # -*- coding: utf-8 -*-
+import os
+_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+os.chdir(_ROOT)
 import json, re
 
 with open("scripts/all-used-urls.json") as f:

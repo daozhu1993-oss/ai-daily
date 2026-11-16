@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 import json
 import os
+_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+os.chdir(_ROOT)
 
 date_str = "2026-11-11"
 title = "11 月 11 日 · 巨头牌桌洗牌与局部自愈：形式化代码、端侧本地化及办公生态侵蚀"
@@ -210,14 +212,14 @@ lines.append("")
 lines.append(closing_note)
 lines.append("")
 
-out_path = "/Users/gx/.gemini/antigravity/scratch/ai-daily/src/content/daily/2026-11-11.md"
+out_path = "src/content/daily/2026-11-11.md"
 with open(out_path, "w", encoding="utf-8") as f:
     f.write("\n".join(lines))
 
 print(f"Successfully wrote {out_path} ({os.path.getsize(out_path)} bytes)")
 
 # Update scripts/all-used-urls.json
-all_used_path = "/Users/gx/.gemini/antigravity/scratch/ai-daily/scripts/all-used-urls.json"
+all_used_path = "scripts/all-used-urls.json"
 with open(all_used_path, "r", encoding="utf-8") as f:
     used_list = json.load(f)
 

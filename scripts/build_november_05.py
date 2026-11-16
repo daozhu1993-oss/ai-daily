@@ -2,6 +2,8 @@
 import json
 import yaml
 import os
+_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+os.chdir(_ROOT)
 
 items = [
     # AI 资讯
@@ -413,13 +415,13 @@ def build():
 
     full_md = f"---\n{yaml_str}---\n\n{closing_text}\n"
 
-    target_path = "/Users/gx/.gemini/antigravity/scratch/ai-daily/src/content/daily/2026-11-05.md"
+    target_path = "src/content/daily/2026-11-05.md"
     with open(target_path, "w", encoding="utf-8") as f:
         f.write(full_md)
     print(f"Successfully generated {target_path}")
 
     # Update all-used-urls.json
-    used_path = "/Users/gx/.gemini/antigravity/scratch/ai-daily/scripts/all-used-urls.json"
+    used_path = "scripts/all-used-urls.json"
     with open(used_path, "r", encoding="utf-8") as f:
         used_list = json.load(f)
     used_set = set(used_list)

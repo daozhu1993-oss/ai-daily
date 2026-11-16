@@ -1,5 +1,7 @@
 import json
 import os
+_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+os.chdir(_ROOT)
 import re
 
 used_urls_path = 'scripts/all-used-urls.json'

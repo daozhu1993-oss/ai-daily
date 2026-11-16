@@ -1,10 +1,12 @@
 import fs from "fs";
 import path from "path";
+import { fileURLToPath } from "url";
 import { exec } from "child_process";
 import { promisify } from "util";
 const execAsync = promisify(exec);
 
-const dir = "/Users/gx/.gemini/antigravity/scratch/ai-daily/src/content/daily";
+const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
+const dir = path.join(ROOT, "src/content/daily");
 const targetDates = [
   "2026-10-27",
   "2026-10-26",

@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 import json
 import os
+_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+os.chdir(_ROOT)
 from collections import Counter
 
 items = [
@@ -391,7 +393,7 @@ print("Categories:", dict(cat_counts))
 assert all(v == 4 for v in cat_counts.values()) and len(cat_counts) == 9
 
 # Deduplicate check against all-used-urls.json
-used_path = "/Users/gx/.gemini/antigravity/scratch/ai-daily/scripts/all-used-urls.json"
+used_path = "scripts/all-used-urls.json"
 used_urls = set(json.load(open(used_path, "r", encoding="utf-8")))
 item_urls = [i["url"] for i in items]
 assert len(item_urls) == len(set(item_urls)), "Duplicate URLs within today's issue!"
@@ -399,7 +401,7 @@ dups = [u for u in item_urls if u in used_urls]
 assert len(dups) == 0, f"Found duplicates in all-used-urls.json: {dups}"
 
 # Write Markdown
-target_md = "/Users/gx/.gemini/antigravity/scratch/ai-daily/src/content/daily/2026-10-31.md"
+target_md = "src/content/daily/2026-10-31.md"
 
 md_lines = [
     "---",

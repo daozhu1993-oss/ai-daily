@@ -1,4 +1,7 @@
 # -*- coding: utf-8 -*-
+import os
+_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+os.chdir(_ROOT)
 import json
 import re
 
@@ -19,8 +22,8 @@ THEME_FALLBACKS = {
 
 def fix_file(day):
     date = f"2026-10-{day}"
-    md_path = f"/Users/gx/.gemini/antigravity/scratch/ai-daily/src/content/daily/{date}.md"
-    raw_path = f"/Users/gx/.gemini/antigravity/scratch/ai-daily/scripts/raw-ian-{day}.json"
+    md_path = f"src/content/daily/{date}.md"
+    raw_path = f"scripts/raw-ian-{day}.json"
     
     raw_items = json.load(open(raw_path, encoding="utf-8"))
     url_map = {it["url"]: it.get("img") for it in raw_items if "url" in it}

@@ -87,4 +87,4 @@ npm run draft
 
 ## 📖 详细运维手册
 
-请查阅 [一页纸极简运维手册 (OPERATIONS.md)](file:///Users/gx/.gemini/antigravity/scratch/ai-daily/OPERATIONS.md) 了解如何发刊、增删分类、开关变现模块及部署上线。
+请查阅 [一页纸极简运维手册 (OPERATIONS.md)](./OPERATIONS.md) 了解如何发刊、增删分类、开关变现模块及部署上线。

@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 import json
 import os
+_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+os.chdir(_ROOT)
 
 items = [
     # 1. AI 资讯 (4)
