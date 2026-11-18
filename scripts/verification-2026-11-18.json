@@ -1,0 +1,598 @@
+{
+  "date": "2026-11-18",
+  "checked_at": "2026-11-18T09:16:58.129239+00:00",
+  "candidate_sha256": "be26c421b552e5f773930a7238848a410c546f996621ac5b728a6d78ddc2f942",
+  "used_sha256": "57a0bf4783c0e7488f122db7b004f5bf2278c27002bc06800c1b69dc248db9d5",
+  "previous_url_count": 3684,
+  "category_counts": {
+    "AI 资讯": 4,
+    "AI 协作": 4,
+    "一人公司": 4,
+    "产品设计": 4,
+    "审美提升": 4,
+    "产品营销": 4,
+    "AI 漫剧": 4,
+    "产品经理": 4,
+    "编剧技巧": 4
+  },
+  "duplicates": [],
+  "endpoints": [
+    {
+      "kind": "URL",
+      "url": "https://github.com/RunanywhereAI/trnrt",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://github.com/RunanywhereAI/trnrt",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-18-trnrt-e97e8e564416.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-18-trnrt-e97e8e564416.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-18-gemini-7e3992b65413.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-18-gemini-7e3992b65413.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://suno.com/blog/introducing-visuals",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://suno.com/blog/introducing-visuals",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-18-suno-b84866da8808.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-18-suno-b84866da8808.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://replit.com/blog/introducing-replit-missions",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://replit.com/blog/introducing-replit-missions",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-18-missions-f7b5613d2de8.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-18-missions-f7b5613d2de8.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://fardesk.franzai.com/",
+      "status": "200",
+      "content_type": "text/html",
+      "final_url": "https://fardesk.franzai.com/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-18-fardesk-7a0e7bcc5391.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-18-fardesk-7a0e7bcc5391.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://github.com/lludo/ScreenClip",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://github.com/lludo/ScreenClip",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-18-screenclip-f25fc73fe698.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-18-screenclip-f25fc73fe698.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://github.com/chetanty/machine_internet",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://github.com/chetanty/machine_internet",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-18-machineinternet-102c7e69152d.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-18-machineinternet-102c7e69152d.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://crosshead.sh/",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://crosshead.sh/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-18-crosshead-00724eec7583.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-18-crosshead-00724eec7583.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://whiz.pub",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://whiz.pub/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-18-whiz-3602c5d8bde8.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-18-whiz-3602c5d8bde8.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://habitstats.app/",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://habitstats.app/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-18-habitstats-f548ee1aabcd.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-18-habitstats-f548ee1aabcd.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://spokendocs.com/",
+      "status": "200",
+      "content_type": "text/html",
+      "final_url": "https://spokendocs.com/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-18-spokendocs-c5dcf0742ffc.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-18-spokendocs-c5dcf0742ffc.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.dailyscribe.ca",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://www.dailyscribe.ca/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-18-scribe-0d78d854d2d7.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-18-scribe-0d78d854d2d7.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://compactcontacts.com/",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://compactcontacts.com/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-18-contacts-c87d72e51ef4.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-18-contacts-c87d72e51ef4.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://euler.dawei7.com",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://euler.dawei7.com/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-18-euler-76406339c66f.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-18-euler-76406339c66f.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://playrisca.com/en/",
+      "status": "200",
+      "content_type": "text/html",
+      "final_url": "https://playrisca.com/en/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-18-risca-0bd8926e2525.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-18-risca-0bd8926e2525.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://useblobby.com/",
+      "status": "200",
+      "content_type": "text/html",
+      "final_url": "https://useblobby.com/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-18-blobby-61659f8811df.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-18-blobby-61659f8811df.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.dezeen.com/2026/11/17/perron-kitchen-interior-renovation-quebec-canada/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.dezeen.com/2026/11/17/perron-kitchen-interior-renovation-quebec-canada/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-18-perron-8ed9749f45cc.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-18-perron-8ed9749f45cc.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.dezeen.com/2026/11/17/som-30-street-station-philadelphia-restoration/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.dezeen.com/2026/11/17/som-30-street-station-philadelphia-restoration/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-18-som-160874b72c37.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-18-som-160874b72c37.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.dezeen.com/2026/11/17/ssdh-adaptation-warehouse-melbourne/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.dezeen.com/2026/11/17/ssdh-adaptation-warehouse-melbourne/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-18-ssdh-0a3e6317574d.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-18-ssdh-0a3e6317574d.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.dezeen.com/2026/11/17/xinu-tokyo-esrawe-studio-cadena-concepts/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.dezeen.com/2026/11/17/xinu-tokyo-esrawe-studio-cadena-concepts/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-18-xinu-290202efbbbc.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-18-xinu-290202efbbbc.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://releaseszn.com",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://releaseszn.com/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-18-releaseszn-72cf00e736da.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-18-releaseszn-72cf00e736da.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://ugcapi.dev/",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://ugcapi.dev/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-18-ugcapi-5c142c3334fe.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-18-ugcapi-5c142c3334fe.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://github.com/formgong/dead-forms-study",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://github.com/formgong/dead-forms-study",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-18-deadforms-da24f88af011.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-18-deadforms-da24f88af011.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://github.com/Feasible-Analytics/app.feasible.lol",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://github.com/Feasible-Analytics/app.feasible.lol",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-18-feasible-0cd048192712.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-18-feasible-0cd048192712.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.woshipm.com/ai/6495761.html",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.woshipm.com/ai/6495761.html",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://image.woshipm.com/2024/09/30/da29e510-7f18-11ef-9237-00163e142b65.png",
+      "status": "200",
+      "content_type": "image/png",
+      "final_url": "https://image.woshipm.com/2024/09/30/da29e510-7f18-11ef-9237-00163e142b65.png",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.woshipm.com/ai/6495672.html",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.woshipm.com/ai/6495672.html",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://image.woshipm.com/wp-files/sha256/c0/ac/c0ac44b95ea775b08d3d2ff635a40163ac17cfa3eb2eeb61a89958e6a1f633f2.png",
+      "status": "200",
+      "content_type": "image/png",
+      "final_url": "https://image.woshipm.com/wp-files/sha256/c0/ac/c0ac44b95ea775b08d3d2ff635a40163ac17cfa3eb2eeb61a89958e6a1f633f2.png",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.woshipm.com/ai/6495351.html",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.woshipm.com/ai/6495351.html",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://image.woshipm.com/2023/04/13/9047d7f2-d9df-11ed-8440-00163e0b5ff3.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://image.woshipm.com/2023/04/13/9047d7f2-d9df-11ed-8440-00163e0b5ff3.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.woshipm.com/ai/6480718.html",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.woshipm.com/ai/6480718.html",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://image.woshipm.com/2023/09/12/c2e5f596-5116-11ee-b8bc-00163e142b65.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://image.woshipm.com/2023/09/12/c2e5f596-5116-11ee-b8bc-00163e142b65.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.woshipm.com/ai/6495490.html",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.woshipm.com/ai/6495490.html",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://image.woshipm.com/2026/11/17/d4f9c64a-e281-11f1-b9b0-00163e4b86a1.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://image.woshipm.com/2026/11/17/d4f9c64a-e281-11f1-b9b0-00163e4b86a1.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.woshipm.com/ai/6495515.html",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.woshipm.com/ai/6495515.html",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://image.woshipm.com/2023/04/14/81b09606-da9e-11ed-aee8-00163e0b5ff3.png",
+      "status": "200",
+      "content_type": "image/png",
+      "final_url": "https://image.woshipm.com/2023/04/14/81b09606-da9e-11ed-aee8-00163e0b5ff3.png",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.woshipm.com/ai/6495706.html",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.woshipm.com/ai/6495706.html",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://image.woshipm.com/2023/04/14/70427236-da9e-11ed-9b82-00163e0b5ff3.png",
+      "status": "200",
+      "content_type": "image/png",
+      "final_url": "https://image.woshipm.com/2023/04/14/70427236-da9e-11ed-9b82-00163e0b5ff3.png",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.woshipm.com/ai/6418442.html",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.woshipm.com/ai/6418442.html",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://image.woshipm.com/2026/06/22/aa656df2-6e47-11f1-b9ac-00163e09d72f.png",
+      "status": "200",
+      "content_type": "image/png",
+      "final_url": "https://image.woshipm.com/2026/06/22/aa656df2-6e47-11f1-b9ac-00163e09d72f.png",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.wzbj1616.com/script_necessary_info/982",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://www.wzbj1616.com/script_necessary_info/982",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://www.wzbj1616.com/storage/system/20200915/b29d26edb5e6322de989654c40c92aaf.png",
+      "status": "200",
+      "content_type": "image/png",
+      "final_url": "https://www.wzbj1616.com/storage/system/20200915/b29d26edb5e6322de989654c40c92aaf.png",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.wzbj1616.com/script_necessary_info/964",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://www.wzbj1616.com/script_necessary_info/964",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://www.wzbj1616.com/storage/system/20200915/b29d26edb5e6322de989654c40c92aaf.png",
+      "status": "200",
+      "content_type": "image/png",
+      "final_url": "https://www.wzbj1616.com/storage/system/20200915/b29d26edb5e6322de989654c40c92aaf.png",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.wzbj1616.com/script_info/2297",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://www.wzbj1616.com/script_info/2297",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://www.wzbj1616.com/storage/script/20261027/112ee861ec3efcb67cb80f58e9d9c19f.png",
+      "status": "200",
+      "content_type": "image/png",
+      "final_url": "https://www.wzbj1616.com/storage/script/20261027/112ee861ec3efcb67cb80f58e9d9c19f.png",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.wzbj1616.com/script_info/1726",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://www.wzbj1616.com/script_info/1726",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://www.wzbj1616.com/storage/script/20260420/7a9b92580f53b65453c295e53e0e40d4.png",
+      "status": "200",
+      "content_type": "image/png",
+      "final_url": "https://www.wzbj1616.com/storage/script/20260420/7a9b92580f53b65453c295e53e0e40d4.png",
+      "ok": true
+    }
+  ],
+  "passed": true
+}
