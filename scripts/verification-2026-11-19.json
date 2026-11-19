@@ -1,0 +1,598 @@
+{
+  "date": "2026-11-19",
+  "checked_at": "2026-11-19T03:09:41.582805+00:00",
+  "candidate_sha256": "f1320220480937fba5dbfb7f907618c82772c115e4c60cb726a84c7623d472d8",
+  "used_sha256": "d16b8d454dc0bff10d3911bab57d6230a73b44a7c0f7cd6fe9689969d7c4d712",
+  "previous_url_count": 3720,
+  "category_counts": {
+    "AI 资讯": 4,
+    "AI 协作": 4,
+    "一人公司": 4,
+    "产品设计": 4,
+    "审美提升": 4,
+    "产品营销": 4,
+    "AI 漫剧": 4,
+    "产品经理": 4,
+    "编剧技巧": 4
+  },
+  "duplicates": [],
+  "endpoints": [
+    {
+      "kind": "URL",
+      "url": "https://github.com/Tencent-Hunyuan/Hy4-flash",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://github.com/Tencent-Hunyuan/Hy4-flash",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-19-hy4-dc0cfa0ab70b.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-19-hy4-dc0cfa0ab70b.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.cerebras.ai/blog/cerebras-launches-disaggregated-inference",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://www.cerebras.ai/blog/cerebras-launches-disaggregated-inference",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-19-cerebras-2a304ebd4a13.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-19-cerebras-2a304ebd4a13.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://energy-based-reasoners.github.io/",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://energy-based-reasoners.github.io/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-19-reasoners-bcc65fd94f6d.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-19-reasoners-bcc65fd94f6d.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.woshipm.com/ai/6495931.html",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.woshipm.com/ai/6495931.html",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://image.woshipm.com/wp-files/sha256/1e/f6/1ef661d14d24ddf5fcdc8b75cb07811692ec3079076c508861ab2d0a6bef43e5.png",
+      "status": "200",
+      "content_type": "image/png",
+      "final_url": "https://image.woshipm.com/wp-files/sha256/1e/f6/1ef661d14d24ddf5fcdc8b75cb07811692ec3079076c508861ab2d0a6bef43e5.png",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://mailscope.app/",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://mailscope.app/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-19-mailscope-d23ed4f26b5e.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-19-mailscope-d23ed4f26b5e.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://honcho.dev/blog/dream-histories",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://honcho.dev/blog/dream-histories",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-19-honcho-2bde4268977b.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-19-honcho-2bde4268977b.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://github.com/bashovski/reflektor",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://github.com/bashovski/reflektor",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-19-reflektor-a24e68435e94.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-19-reflektor-a24e68435e94.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://github.com/cloveric/tarobird",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://github.com/cloveric/tarobird",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-19-tarobird-6e569a08aa46.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-19-tarobird-6e569a08aa46.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://kalkansoftware.com/fazor/",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://kalkansoftware.com/fazor/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-19-fazor-0e8a01c7eab9.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-19-fazor-0e8a01c7eab9.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://confetti.to/",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://confetti.to/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-19-confetti-796503cbae20.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-19-confetti-796503cbae20.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://record-voice.lifere.top/",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://record-voice.lifere.top/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-19-recorder-45267522a68e.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-19-recorder-45267522a68e.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://mailtopdf.top/en",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://mailtopdf.top/en",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-19-mailtopdf-6e28342626f8.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-19-mailtopdf-6e28342626f8.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://rshekhar.com/voyager/",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://rshekhar.com/voyager/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-19-voyager-c19da0c98e39.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-19-voyager-c19da0c98e39.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://typefighter2.com/",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://typefighter2.com/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-19-fighter-cd35ac1cf3d7.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-19-fighter-cd35ac1cf3d7.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://openedda.is/",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://openedda.is/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-19-edda-063c121a4b57.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-19-edda-063c121a4b57.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://dockquit.heino.top/zh/",
+      "status": "200",
+      "content_type": "text/html",
+      "final_url": "https://dockquit.heino.top/zh/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-19-dockquit-671d941dfe7d.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-19-dockquit-671d941dfe7d.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.designboom.com/design/material-agency-alea-work-grows-chairs-underground-fungi-textiles-mycelium-interview/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.designboom.com/design/material-agency-alea-work-grows-chairs-underground-fungi-textiles-mycelium-interview/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-19-fungi-979602bfc169.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-19-fungi-979602bfc169.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.designboom.com/art/jennifer-latour-imaginary-creatures-flowers-interview/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.designboom.com/art/jennifer-latour-imaginary-creatures-flowers-interview/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-19-latour-4afbabd7e041.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-19-latour-4afbabd7e041.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.designboom.com/architecture/former-sheet-metal-workshop-japan-residence-carved-out-garden-terrace-akio-isshiki/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.designboom.com/architecture/former-sheet-metal-workshop-japan-residence-carved-out-garden-terrace-akio-isshiki/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-19-akio-f811175074e0.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-19-akio-f811175074e0.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.dezeen.com/2026/11/18/clb-architects-wiley-adu-wyoming-rock-climbing/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.dezeen.com/2026/11/18/clb-architects-wiley-adu-wyoming-rock-climbing/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-19-clb-b37d0c9a5926.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-19-clb-b37d0c9a5926.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://indexingdoctor.com/",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://indexingdoctor.com/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-19-indexdoctor-ab3aac1f6bf3.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-19-indexdoctor-ab3aac1f6bf3.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://retryfix.com/#sample",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://retryfix.com/#sample",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-19-retryfix-ef0f175c37ae.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-19-retryfix-ef0f175c37ae.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://hookchecker.com/",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://hookchecker.com/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-19-hookchecker-37c0813be09e.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-19-hookchecker-37c0813be09e.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://crx8.com/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://crx8.com/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-19-crx8-852476b7a54e.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-19-crx8-852476b7a54e.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.woshipm.com/ai/6496064.html",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.woshipm.com/ai/6496064.html",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://image.woshipm.com/2023/04/14/0639dc80-da8f-11ed-a86f-00163e0b5ff3.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://image.woshipm.com/2023/04/14/0639dc80-da8f-11ed-a86f-00163e0b5ff3.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.woshipm.com/share/6341692.html",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.woshipm.com/share/6341692.html",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://image.woshipm.com/2026/02/11/d30a9502-074a-11f1-acc3-00163e4b86a1.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://image.woshipm.com/2026/02/11/d30a9502-074a-11f1-acc3-00163e4b86a1.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.woshipm.com/ai/6389471.html",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.woshipm.com/ai/6389471.html",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://image.woshipm.com/2023/04/13/13569fa6-d9eb-11ed-889f-00163e0b5ff3.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://image.woshipm.com/2023/04/13/13569fa6-d9eb-11ed-889f-00163e0b5ff3.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.woshipm.com/ai/6496051.html",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.woshipm.com/ai/6496051.html",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://image.woshipm.com/2024/07/24/4b4a4e3e-499e-11ef-a43d-00163e142b65.png",
+      "status": "200",
+      "content_type": "image/png",
+      "final_url": "https://image.woshipm.com/2024/07/24/4b4a4e3e-499e-11ef-a43d-00163e142b65.png",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.woshipm.com/pmd/6236609.html",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.woshipm.com/pmd/6236609.html",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://image.woshipm.com/2024/05/13/08008f6e-10f8-11ef-b503-00163e142b65.png",
+      "status": "200",
+      "content_type": "image/png",
+      "final_url": "https://image.woshipm.com/2024/05/13/08008f6e-10f8-11ef-b503-00163e142b65.png",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.woshipm.com/ai/6343161.html",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.woshipm.com/ai/6343161.html",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://image.woshipm.com/wp-files/2026/02/9oNJJk5ZlkPLUBTuK60j.png",
+      "status": "200",
+      "content_type": "image/png",
+      "final_url": "https://image.woshipm.com/wp-files/2026/02/9oNJJk5ZlkPLUBTuK60j.png",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.woshipm.com/share/6384030.html",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.woshipm.com/share/6384030.html",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://image.woshipm.com/2023/05/06/9cff87e0-ec01-11ed-adbb-00163e0b5ff3.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://image.woshipm.com/2023/05/06/9cff87e0-ec01-11ed-adbb-00163e0b5ff3.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.woshipm.com/pmd/6496215.html",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.woshipm.com/pmd/6496215.html",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://image.woshipm.com/wp-files/2026/11/IDMHVoNGs9n5c0UGibXd.jpeg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://image.woshipm.com/wp-files/2026/11/IDMHVoNGs9n5c0UGibXd.jpeg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.wzbj1616.com/script_info/2316",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://www.wzbj1616.com/script_info/2316",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://www.wzbj1616.com/storage/script/20250912/083c22b956a49d6b279200e12fe0de04.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://www.wzbj1616.com/storage/script/20250912/083c22b956a49d6b279200e12fe0de04.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.wzbj1616.com/script_info/2252",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://www.wzbj1616.com/script_info/2252",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://www.wzbj1616.com/storage/script/20261013/e0ffafa4a31b3cc9b2d228de8ed51313.png",
+      "status": "200",
+      "content_type": "image/png",
+      "final_url": "https://www.wzbj1616.com/storage/script/20261013/e0ffafa4a31b3cc9b2d228de8ed51313.png",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.wzbj1616.com/script_info/2345",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://www.wzbj1616.com/script_info/2345",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://www.wzbj1616.com/storage/script/20250912/4086dc5344ad6e9ee224af782e9d2283.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://www.wzbj1616.com/storage/script/20250912/4086dc5344ad6e9ee224af782e9d2283.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.wzbj1616.com/script_info/2074",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://www.wzbj1616.com/script_info/2074",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://www.wzbj1616.com/storage/script/20260818/9033ff6d5e6f736e97e7eb8c7bcb0005.png",
+      "status": "200",
+      "content_type": "image/png",
+      "final_url": "https://www.wzbj1616.com/storage/script/20260818/9033ff6d5e6f736e97e7eb8c7bcb0005.png",
+      "ok": true
+    }
+  ],
+  "passed": true
+}

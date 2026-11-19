@@ -1,0 +1,362 @@
+[
+  {
+    "title": "混元 Hy4 flash 开放权重与部署入口",
+    "note": "混元 Hy4 flash 的官方仓库补齐权重、GGUF 和部署说明，给前两日的模型介绍增加了可实际接入的入口。开放权重仍受腾讯许可约束，商用和再分发要核对具体条款。",
+    "url": "https://github.com/Tencent-Hunyuan/Hy4-flash",
+    "media": "https://iandaily.xyz/digest/2026-11-19-hy4-dc0cfa0ab70b.jpg",
+    "category": "AI 资讯",
+    "so_what": "团队试部署时，除效果和资源预算，也把许可范围列进选型记录。",
+    "pinned": true,
+    "source": "github.com"
+  },
+  {
+    "title": "Cerebras 把推理前后两段分开运行",
+    "note": "Cerebras 将输入处理交给 GPU、输出生成交给晶圆级引擎，并称方案已投入生产。吞吐收益属于厂商测试结果，具体负载和部署条件决定它能否迁移到别人的账本。",
+    "url": "https://www.cerebras.ai/blog/cerebras-launches-disaggregated-inference",
+    "media": "https://iandaily.xyz/digest/2026-11-19-cerebras-2a304ebd4a13.jpg",
+    "category": "AI 资讯",
+    "so_what": "做推理产品预算时区分输入长度、输出速度与并发需求，再找匹配的服务架构。",
+    "pinned": false,
+    "source": "cerebras.ai"
+  },
+  {
+    "title": "能量式推理在解题时继续调整状态",
+    "note": "Energy-Based Reasoners 为循环推理增加能量函数，用状态变化指导更新与停止。论文实验覆盖四类算法任务，这条路线值得看，尚不足以证明通用大模型的整体跃升。",
+    "url": "https://energy-based-reasoners.github.io/",
+    "media": "https://iandaily.xyz/digest/2026-11-19-reasoners-bcc65fd94f6d.jpg",
+    "category": "AI 资讯",
+    "so_what": "研究型能力先在自己的窄任务上复测，保留基线和停止条件，再谈扩大应用。",
+    "pinned": false,
+    "source": "energy-based-reasoners.github.io"
+  },
+  {
+    "category": "AI 资讯",
+    "title": "通用模型开始走进硬件研发",
+    "url": "https://www.woshipm.com/ai/6495931.html",
+    "media": "https://image.woshipm.com/wp-files/sha256/1e/f6/1ef661d14d24ddf5fcdc8b75cb07811692ec3079076c508861ab2d0a6bef43e5.png",
+    "note": "这篇报道梳理通用模型参与电路、结构和固件设计的案例，也保留制造前多轮复核与调整。走出屏幕之后，设计文件还要经受加工和装配的检验。",
+    "so_what": "硬件原型的交付标准要覆盖实物复核和制造反馈，不能只停在设计文件生成。",
+    "pinned": false,
+    "source": "woshipm.com"
+  },
+  {
+    "title": "MailScope 在本机接住开发测试邮件",
+    "note": "MailScope 在 Mac 本机接收开发测试邮件，检查残留模板变量、缺失内嵌图片和空链接，并提供只读 MCP。手机预览基于 WebKit，不能等同于所有邮件客户端的真实渲染。",
+    "url": "https://mailscope.app/",
+    "media": "https://iandaily.xyz/digest/2026-11-19-mailscope-d23ed4f26b5e.jpg",
+    "category": "AI 协作",
+    "so_what": "把开发邮件纳入本地验收，同时保留目标客户端的真实预览检查。",
+    "pinned": false,
+    "source": "mailscope.app"
+  },
+  {
+    "title": "Honcho 让记忆结论的来路可追溯",
+    "note": "Honcho 的 Dream Histories 展示记忆推理新增了什么、替换了什么，以及背后的观察依据。记忆可以持续更新，用户也需要知道结论是怎样形成的。",
+    "url": "https://honcho.dev/blog/dream-histories",
+    "media": "https://iandaily.xyz/digest/2026-11-19-honcho-2bde4268977b.jpg",
+    "category": "AI 协作",
+    "so_what": "给代理记忆保存观察来源和修改历史，让错误结论有机会被发现与修正。",
+    "pinned": true,
+    "source": "honcho.dev"
+  },
+  {
+    "title": "Reflektor 给代码分支生成验收报告",
+    "note": "Reflektor 围绕代码分支组织项目检查、界面截图和数据库变更说明，再汇成审阅报告。报告提供核对入口，是否足够验收仍取决于项目自己的检查覆盖。",
+    "url": "https://github.com/bashovski/reflektor",
+    "media": "https://iandaily.xyz/digest/2026-11-19-reflektor-a24e68435e94.jpg",
+    "category": "AI 协作",
+    "so_what": "让审阅报告指向可重跑的检查与实际截图，减少只读结论就合并的冲动。",
+    "pinned": false,
+    "source": "github.com"
+  },
+  {
+    "title": "TaroBird 把多路编码会话带到手机",
+    "note": "TaroBird 把自有电脑或服务器上的编码代理集中到同一工作台，桌面与手机可接续会话。交付文件和运行状态得留在可找回的位置，远程操作才有连续性。",
+    "url": "https://github.com/cloveric/tarobird",
+    "media": "https://iandaily.xyz/digest/2026-11-19-tarobird-6e569a08aa46.jpg",
+    "category": "AI 协作",
+    "so_what": "多设备工作先打通会话和文件的对应关系，再增加同时运行的任务数量。",
+    "pinned": false,
+    "source": "github.com"
+  },
+  {
+    "title": "Fazor 把电工计算器装进口袋",
+    "note": "Fazor 将十一类电工计算放进离线 Android 工具，结果旁展示公式与标准参照，支持 IEC 与 NEC 切换。它服务的是有专业背景的现场使用者，工具本身不替代工程判断。",
+    "url": "https://kalkansoftware.com/fazor/",
+    "media": "https://iandaily.xyz/digest/2026-11-19-fazor-0e8a01c7eab9.jpg",
+    "category": "一人公司",
+    "so_what": "面向专业人群做工具，把计算过程和适用标准放在结果旁，帮助使用者复核。",
+    "pinned": false,
+    "source": "kalkansoftware.com"
+  },
+  {
+    "title": "Confetti 收齐朋友的祝福再送出",
+    "note": "Confetti 借 WhatsApp 收集朋友们的祝福片段，再按设定时间汇成礼物。这个小服务承接的是反复邀请、收齐素材和准时交付的组织成本。",
+    "url": "https://confetti.to/",
+    "media": "https://iandaily.xyz/digest/2026-11-19-confetti-796503cbae20.jpg",
+    "category": "一人公司",
+    "so_what": "一人公司可以寻找多人协作里没人愿意承担的催收、整理与交付环节。",
+    "pinned": false,
+    "source": "confetti.to"
+  },
+  {
+    "title": "手表录音沿着手机归档到 NAS",
+    "note": "一生声迹从 iPhone 或 Apple Watch 录音，再归档到 NAS 或本机，并可回读校验。位置、心率与本地转写均有单独条件和开关，记录的上下文由人选择。",
+    "url": "https://record-voice.lifere.top/",
+    "media": "https://iandaily.xyz/digest/2026-11-19-recorder-45267522a68e.jpg",
+    "category": "一人公司",
+    "so_what": "给个人记录产品设计明确的保存位置与归档反馈，让用户能找回原始资料。",
+    "pinned": true,
+    "source": "record-voice.lifere.top"
+  },
+  {
+    "title": "MailToPDF 在浏览器整理邮件档案",
+    "note": "MailToPDF 在浏览器读取邮件文件与归档，输出 PDF；免费范围主要是预览，完整批量导出需要订阅。先看清输入限制和导出范围，才知道它是否适合自己的旧邮件。",
+    "url": "https://mailtopdf.top/en",
+    "media": "https://iandaily.xyz/digest/2026-11-19-mailtopdf-6e28342626f8.jpg",
+    "category": "一人公司",
+    "so_what": "资料迁移工具应先让用户预览结果，再清楚说明付费解锁的具体输出。",
+    "pinned": false,
+    "source": "mailtopdf.top"
+  },
+  {
+    "title": "在三维太阳系里追踪旅行者号",
+    "note": "Voyager 把旅行者号的航程放进可缩放的三维空间与时间线，还提供分层探索入口。很远的距离、很长的时间，经过交互安排才容易被人感知。",
+    "url": "https://rshekhar.com/voyager/",
+    "media": "https://iandaily.xyz/digest/2026-11-19-voyager-c19da0c98e39.jpg",
+    "category": "产品设计",
+    "so_what": "解释宏大主题时，试着把时间和空间变成可操作的尺度，而非再加一段说明。",
+    "pinned": false,
+    "source": "rshekhar.com"
+  },
+  {
+    "title": "TypeFighter 把打字变成格斗",
+    "note": "伊恩今日推荐 TypeFighter，把输入屏幕单词变成格斗动作。原站可访问，但页面依赖脚本；本期未独立验证游戏难度或输入训练效果。",
+    "url": "https://typefighter2.com/",
+    "media": "https://iandaily.xyz/digest/2026-11-19-fighter-cd35ac1cf3d7.jpg",
+    "category": "产品设计",
+    "so_what": "技能练习可以尝试即时反馈和轻量游戏规则，再用实际训练数据检验效果。",
+    "pinned": false,
+    "source": "typefighter2.com"
+  },
+  {
+    "title": "Open Edda 把北欧古籍并排读",
+    "note": "Open Edda 将古诺尔斯语、冰岛语和英语并排呈现，并说明文本来源及翻译、校对状态。多语言阅读的信任，来自读者能够一路追到出处。",
+    "url": "https://openedda.is/",
+    "media": "https://iandaily.xyz/digest/2026-11-19-edda-063c121a4b57.jpg",
+    "category": "产品设计",
+    "so_what": "多语言与知识产品要区分原文、自动生成和人工校对，让读者知道信任建立在哪里。",
+    "pinned": true,
+    "source": "openedda.is"
+  },
+  {
+    "title": "DockQuit 在程序坞上加退出键",
+    "note": "DockQuit 在程序坞提供悬停退出与中键操作，仍请求应用正常退出，让保存提示交回原应用。付费自动退出另有触发条件，会避开隐藏或最小化窗口。",
+    "url": "https://dockquit.heino.top/zh/",
+    "media": "https://iandaily.xyz/digest/2026-11-19-dockquit-671d941dfe7d.jpg",
+    "category": "产品设计",
+    "so_what": "给高频操作增加捷径时保留原有的保存与确认行为，避免效率来自误操作。",
+    "pinned": false,
+    "source": "dockquit.heino.top"
+  },
+  {
+    "title": "Aléa 在地下培育一把菌丝椅",
+    "note": "Aléa work 让地下真菌参与椅子的生成，也研究真菌与纺织染料的关系。材料在这里会影响设计结果，相关修复能力仍属于研究探索。",
+    "url": "https://www.designboom.com/design/material-agency-alea-work-grows-chairs-underground-fungi-textiles-mycelium-interview/",
+    "media": "https://iandaily.xyz/digest/2026-11-19-fungi-979602bfc169.jpg",
+    "category": "审美提升",
+    "so_what": "建立审美参考时，把材料如何生成形态也记下来，给自己的创作增加可试验的变量。",
+    "pinned": false,
+    "source": "designboom.com"
+  },
+  {
+    "title": "Jennifer Latour 拼接花朵生物",
+    "note": "Jennifer Latour 在拍摄前真实拼接花朵、叶片和茎，组成看似新物种的形态。熟悉材料之间重新安排关系，就能让观看产生停顿。",
+    "url": "https://www.designboom.com/art/jennifer-latour-imaginary-creatures-flowers-interview/",
+    "media": "https://iandaily.xyz/digest/2026-11-19-latour-4afbabd7e041.jpg",
+    "category": "审美提升",
+    "so_what": "低预算视觉创作可以先重组现成材料，用关系和构图获得新鲜感。",
+    "pinned": false,
+    "source": "designboom.com"
+  },
+  {
+    "title": "日本旧钣金工坊挖出私密小庭院",
+    "note": "一色晓生把日本旧钣金工坊改成住宅，在建筑内部留出庭院露台，引入光与植物。卷帘和梁柱等旧痕迹继续参与新的居住体验。",
+    "url": "https://www.designboom.com/architecture/former-sheet-metal-workshop-japan-residence-carved-out-garden-terrace-akio-isshiki/",
+    "media": "https://iandaily.xyz/digest/2026-11-19-akio-f811175074e0.jpg",
+    "category": "审美提升",
+    "so_what": "改造旧产品或空间时，先识别能继续使用的结构，再安排新入口。",
+    "pinned": false,
+    "source": "designboom.com"
+  },
+  {
+    "title": "CLB 给老年夫妇的小屋留面攀岩墙",
+    "note": "CLB 为一对老年夫妇设计紧凑附属住宅，还保留室外攀岩墙。年龄之外，这对屋主具体怎样生活，才是空间安排的依据。",
+    "url": "https://www.dezeen.com/2026/11/18/clb-architects-wiley-adu-wyoming-rock-climbing/",
+    "media": "https://iandaily.xyz/digest/2026-11-19-clb-b37d0c9a5926.jpg",
+    "category": "审美提升",
+    "so_what": "用户画像除了年龄和职业，还要记录一个人想继续保留的生活习惯。",
+    "pinned": true,
+    "source": "dezeen.com"
+  },
+  {
+    "title": "IndexDoctor 先查页面为何难收录",
+    "note": "IndexDoctor 检查 robots、noindex、规范网址和重定向等可见问题。它能寻找收录障碍，却看不到 Google 的实际索引状态，也不保证页面会被收录。",
+    "url": "https://indexingdoctor.com/",
+    "media": "https://iandaily.xyz/digest/2026-11-19-indexdoctor-ab3aac1f6bf3.jpg",
+    "category": "产品营销",
+    "so_what": "将 SEO 检查工具当作排障入口，另用真实抓取与索引数据追踪后续效果。",
+    "pinned": true,
+    "source": "indexingdoctor.com"
+  },
+  {
+    "title": "RetryFix 按失败原因追回订阅款",
+    "note": "RetryFix 根据 Stripe 扣款失败原因安排后续跟进，并说明哪些追回款会计费。官网仪表盘为虚构示例，示范中的金额不能当成已验证的客户收益。",
+    "url": "https://retryfix.com/#sample",
+    "media": "https://iandaily.xyz/digest/2026-11-19-retryfix-ef0f175c37ae.jpg",
+    "category": "产品营销",
+    "so_what": "订阅恢复业务先约定归因规则，区分自然重试、人工跟进与工具促成的回款。",
+    "pinned": false,
+    "source": "retryfix.com"
+  },
+  {
+    "title": "HookChecker 帮短视频重写开场",
+    "note": "HookChecker 按视频片段给出开场风险判断和改写建议，页面示范属于预测评分。它可以帮助形成试验假设，真正的留存仍要发布后看。",
+    "url": "https://hookchecker.com/",
+    "media": "https://iandaily.xyz/digest/2026-11-19-hookchecker-37c0813be09e.jpg",
+    "category": "产品营销",
+    "so_what": "把开场评分写成一条可检验的改稿假设，用真实播放数据比较修改前后。",
+    "pinned": false,
+    "source": "hookchecker.com"
+  },
+  {
+    "title": "CRX8 用权限检查组织扩展目录",
+    "note": "CRX8 将扩展权限检查、源码解包和目录发现放在一起，也提供付费展示位。目录的安全评分与商业推荐，各自依据都应看清。",
+    "url": "https://crx8.com/",
+    "media": "https://iandaily.xyz/digest/2026-11-19-crx8-852476b7a54e.jpg",
+    "category": "产品营销",
+    "so_what": "发布浏览器扩展时公开说明权限用途，同时记录目录曝光实际带来的试用。",
+    "pinned": false,
+    "source": "crx8.com"
+  },
+  {
+    "category": "AI 漫剧",
+    "title": "红果短剧引来的平台竞争",
+    "url": "https://www.woshipm.com/ai/6496064.html",
+    "media": "https://image.woshipm.com/2023/04/14/0639dc80-da8f-11ed-a86f-00163e0b5ff3.jpg",
+    "note": "报道将红果带来的竞争放回用户时间分配中，梳理多家平台进入短剧。文章转述的规模数据有统计口径和时点，本期关注的是创作者的分发选择。",
+    "so_what": "做漫剧发行计划时比较平台用户、内容偏好与结算条件，分散单一渠道依赖。",
+    "pinned": false,
+    "source": "woshipm.com"
+  },
+  {
+    "category": "AI 漫剧",
+    "title": "真实犯罪改编与 AI 短剧订阅产品",
+    "url": "https://www.woshipm.com/share/6341692.html",
+    "media": "https://image.woshipm.com/2026/02/11/d30a9502-074a-11f1-acc3-00163e4b86a1.jpg",
+    "note": "TrueShort 案例用真实犯罪题材切入短剧订阅，文中的收入和增长为报道转述的公司口径。细分题材值得研究，案件叙述仍要把事实和戏剧加工分开。",
+    "so_what": "题材产品化先做小样验证付费意愿，同时让受众能辨认事实依据与改编部分。",
+    "pinned": false,
+    "source": "woshipm.com"
+  },
+  {
+    "category": "AI 漫剧",
+    "title": "把脸借给 AI 短剧之后的授权问题",
+    "url": "https://www.woshipm.com/ai/6389471.html",
+    "media": "https://image.woshipm.com/2023/04/13/13569fa6-d9eb-11ed-889f-00163e0b5ff3.jpg",
+    "note": "这篇报道追问普通人的面孔进入 AI 短剧后，能否控制用途和后续流转。它提供制作授权问题的观察入口，个案描述不能替代对具体协议的逐项核对。",
+    "so_what": "使用真人形象前写清允许用途、流转范围与退出方式，并保留可追踪的授权记录。",
+    "pinned": true,
+    "source": "woshipm.com"
+  },
+  {
+    "category": "AI 漫剧",
+    "title": "WorkBuddy 操作 Photoshop 制作详情页",
+    "url": "https://www.woshipm.com/ai/6496051.html",
+    "media": "https://image.woshipm.com/2024/07/24/4b4a4e3e-499e-11ef-a43d-00163e142b65.png",
+    "note": "作者演示 WorkBuddy 经脚本与电脑操作能力驱动 Photoshop，最终导出分层 PSD。对漫剧前期美术有借鉴价值的是图层与重复动作的组织，成品质量仍需人审。",
+    "so_what": "优先自动化分层、排版和批量导出等重复动作，把角色与镜头判断留在验收环节。",
+    "pinned": false,
+    "source": "woshipm.com"
+  },
+  {
+    "category": "产品经理",
+    "title": "产品经理怎么思考问题",
+    "url": "https://www.woshipm.com/pmd/6236609.html",
+    "media": "https://image.woshipm.com/2024/05/13/08008f6e-10f8-11ef-b503-00163e142b65.png",
+    "note": "这篇入门文章回到产品经理如何理解问题、分析需求和形成方案。学习框架时，最好带着一个真实问题读，否则术语很容易替代判断。",
+    "so_what": "将一个真实需求拆成现状、目标和约束，先检查问题是否定义清楚。",
+    "pinned": false,
+    "source": "woshipm.com"
+  },
+  {
+    "category": "产品经理",
+    "title": "AI 产品经理的数据思维",
+    "url": "https://www.woshipm.com/ai/6343161.html",
+    "media": "https://image.woshipm.com/wp-files/2026/02/9oNJJk5ZlkPLUBTuK60j.png",
+    "note": "作者建议 AI 产品经理深入数据分布、质量标准和失败案例。改写提示词之外，哪些场景缺样本、怎样定义好回答，也需要有人负责。",
+    "so_what": "为失败案例建一个可重复检查的小集合，用相同标准观察改动前后。",
+    "pinned": true,
+    "source": "woshipm.com"
+  },
+  {
+    "category": "产品经理",
+    "title": "汽车出海：用户 App 架构如何取舍",
+    "url": "https://www.woshipm.com/share/6384030.html",
+    "media": "https://image.woshipm.com/2023/05/06/9cff87e0-ec01-11ed-adbb-00163e0b5ff3.jpg",
+    "note": "汽车出海 App 的案例将统一管理与区域故障隔离放在一起权衡。业务承诺越重，架构取舍越要说明一次故障会影响哪些用户。",
+    "so_what": "在产品方案中写出故障影响范围和恢复路径，再讨论统一架构节省多少维护成本。",
+    "pinned": false,
+    "source": "woshipm.com"
+  },
+  {
+    "category": "产品经理",
+    "title": "产品经理的工作方式与 MBTI 标签",
+    "url": "https://www.woshipm.com/pmd/6496215.html",
+    "media": "https://image.woshipm.com/wp-files/2026/11/IDMHVoNGs9n5c0UGibXd.jpeg",
+    "note": "文章从职场里的 MBTI 话题讨论破冰和沟通需求，也涉及测量争议。性格标签可以提供交谈入口，不能据此判定一个人的岗位能力。",
+    "so_what": "团队分工以真实行为和工作成果为依据，用具体沟通偏好替代四字母推断。",
+    "pinned": false,
+    "source": "woshipm.com"
+  },
+  {
+    "category": "编剧技巧",
+    "title": "《最后一桌》：家庭伦理剧的冲突练习",
+    "url": "https://www.wzbj1616.com/script_info/2316",
+    "media": "https://www.wzbj1616.com/storage/script/20250912/083c22b956a49d6b279200e12fe0de04.jpg",
+    "note": "《最后一桌》的公开简介以烧烤店搬迁聚拢熟人关系，让老周在不断帮助别人中碰到自己的限度。可据此练习：外部失去一间店，怎样推动内部的放手。",
+    "so_what": "写家庭伦理故事时，为主角安排一个具体的失去，让情感变化通过行动发生。",
+    "pinned": true,
+    "source": "wzbj1616.com"
+  },
+  {
+    "category": "编剧技巧",
+    "title": "《志怪司档案》：单元悬疑的阅读入口",
+    "url": "https://www.wzbj1616.com/script_info/2252",
+    "media": "https://www.wzbj1616.com/storage/script/20261013/e0ffafa4a31b3cc9b2d228de8ed51313.png",
+    "note": "《志怪司档案》的公开简介将新人探员、母亲失踪与封印危机连成成长线。适合拿来设计练习：单元事件怎样持续改变主角对自身身份的理解。",
+    "so_what": "为单元悬疑列一张主线进展表，让每个案件都留下新的关系或身份信息。",
+    "pinned": false,
+    "source": "wzbj1616.com"
+  },
+  {
+    "category": "编剧技巧",
+    "title": "《真假AI》：喜剧身份错位的阅读入口",
+    "url": "https://www.wzbj1616.com/script_info/2345",
+    "media": "https://www.wzbj1616.com/storage/script/20250912/4086dc5344ad6e9ee224af782e9d2283.jpg",
+    "note": "《真假AI》的小品简介利用真人、替身与朋友之间的信息差推进误会。练习时可以逐场标出谁知道真相、谁还不知道，再看笑点由谁的误判产生。",
+    "so_what": "用一页表记录角色各自掌握的信息，排查误会何时加深、何时必须揭开。",
+    "pinned": false,
+    "source": "wzbj1616.com"
+  },
+  {
+    "category": "编剧技巧",
+    "title": "《翼族时空之旅》：少女成长与冒险设定",
+    "url": "https://www.wzbj1616.com/script_info/2074",
+    "media": "https://www.wzbj1616.com/storage/script/20260818/9033ff6d5e6f736e97e7eb8c7bcb0005.png",
+    "note": "《翼族时空之旅》的公开介绍从少女长出翅膀与穿越，走到乌托邦危机和伙伴逃生。可用来检查奇幻设定怎样落到人物要作出的选择上。",
+    "so_what": "每加入一条世界规则，就检查它会让主角多付出什么，或必须放弃什么。",
+    "pinned": false,
+    "source": "wzbj1616.com"
+  }
+]
