@@ -1,0 +1,362 @@
+[
+  {
+    "title": "Google 发布高性价比前沿模型 Gemini 4 Neon",
+    "note": "Google 发布 Gemini 4 Neon，重点展示复杂编程、知识工作与科学任务的完成效率。榜单与成本比较来自官方说明，自己的长任务仍需按完成率和总消耗复测。",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+    "media": "https://iandaily.xyz/digest/2026-11-20-gemini-4-neon-8d3ea2004ec9.jpg?v=2026-11-20",
+    "category": "AI 资讯",
+    "so_what": "用同一组真实任务比较模型，把人工修改和失败重试也计入成本。",
+    "pinned": true,
+    "source": "blog.google"
+  },
+  {
+    "title": "Anthropic 公布 IPO 定价与上市安排",
+    "note": "Anthropic 公告将 IPO 发行价定为每股八十三美元，并披露发行和拟上市安排。公告中的交易与交割时间属于安排说明，本期不据此判断后续股价或投资价值。",
+    "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+    "media": "https://iandaily.xyz/digest/2026-11-20-anthropic-ipo-0a9a235dc8f2.jpg?v=2026-11-20",
+    "category": "AI 资讯",
+    "so_what": "关注大模型企业怎样把能力转成可持续收入，同时将资本市场叙事与自己的产品需求分开。",
+    "pinned": false,
+    "source": "anthropic.com"
+  },
+  {
+    "title": "MIT 测算美国数据中心用电带来跨区域空气污染",
+    "note": "MIT 研究将数据中心用电与发电产生的跨区域空气污染联系起来，提醒人们影响可能发生在设施之外。结果属于特定年份和模型条件下的测算；原文图片署名为 MIT News / Getty Images。",
+    "url": "https://news.mit.edu/2026/study-reveals-data-centers-long-distance-damage-air-quality-1119",
+    "media": "https://iandaily.xyz/digest/2026-11-20-mit-datacenter-air-8b5554d87440.jpg?v=2026-11-20",
+    "category": "AI 资讯",
+    "so_what": "做算力与基础设施讨论时，把用电之外的外部影响也纳入资料和选址问题清单。",
+    "pinned": false,
+    "source": "news.mit.edu"
+  },
+  {
+    "title": "Ai2 在 Asta 上线并开源科研理论生成体 Theorizer",
+    "note": "Ai2 将 Theorizer 接入 Asta，并提供开源入口：从科学文献中组合解释、提出可检验假设。生成理论只是研究的起步，证据和实验仍要接着走。",
+    "url": "https://allenai.org/blog/theorizer-in-asta",
+    "media": "https://iandaily.xyz/digest/2026-11-20-ai2-theorizer-5d01eae43540.jpg?v=2026-11-20",
+    "category": "AI 资讯",
+    "so_what": "研究辅助产品应将文献依据、假设和验证结果分开保存，给研究者留下追溯入口。",
+    "pinned": false,
+    "source": "allenai.org"
+  },
+  {
+    "title": "Vercel 推出面向多 Agent 协作的共享留言板",
+    "note": "Vercel Board 把任务、委派、状态和完成记录放进共享留言板，服务跨代理协作，目前是实验性公开测试。协作有了公共位置，也需要明确谁能写入和怎样确认完成。",
+    "url": "https://vercel.com/blog/introducing-vercel-board",
+    "media": "https://iandaily.xyz/digest/2026-11-20-vercel-board-b822bbe389f6.jpg?v=2026-11-20",
+    "category": "AI 协作",
+    "so_what": "多代理流程先约定任务状态、写入权限和交付位置，再扩大并发数量。",
+    "pinned": true,
+    "source": "vercel.com"
+  },
+  {
+    "title": "Pitot 把可观测性塞进单文件并接入 MCP",
+    "note": "Pitot 用单个程序接收 OTLP 遥测，存储为 Parquet，再用 DuckDB 查询，并提供 MCP 接口。它让代理能够接近运行证据，能否排对问题仍取决于采集质量。",
+    "url": "https://github.com/labstack/pitot",
+    "media": "https://iandaily.xyz/digest/2026-11-20-pitot-otel-mcp-e2a94c194d2a.jpg?v=2026-11-20",
+    "category": "AI 协作",
+    "so_what": "让代理诊断连接到真实日志与指标，同时保留原始证据供人复核。",
+    "pinned": false,
+    "source": "github.com"
+  },
+  {
+    "title": "Maglev 用一把密钥打通 39 家 Agent 工具接口",
+    "note": "Maglev 将多个外部工具接入收拢到一把密钥、一个余额与按次计费入口。少配一些账号之外，用户仍要看清每类调用的权限、费用和数据去向。",
+    "url": "https://maglev.sh/",
+    "media": "https://iandaily.xyz/digest/2026-11-20-maglev-agent-tools-be1968954f1e.jpg?v=2026-11-20",
+    "category": "AI 协作",
+    "so_what": "接入聚合工具后，为任务设置调用预算与授权范围，避免统一入口掩盖了不同动作的代价。",
+    "pinned": false,
+    "source": "maglev.sh"
+  },
+  {
+    "title": "Mingle 把本地编码 Agent 接进微信飞书等聊天窗",
+    "note": "Mingle 将本机编码代理接进常用聊天应用，在不同入口延续任务与记忆。消息入口变多以后，谁在发起任务、执行结果回到哪里，都需要清楚的对应关系。",
+    "url": "https://mingle.build/",
+    "media": "https://iandaily.xyz/digest/2026-11-20-mingle-build-1a886324089c.jpg?v=2026-11-20",
+    "category": "AI 协作",
+    "so_what": "跨聊天应用接续工作时，保持发起人、执行主机与交付目的地清楚可查。",
+    "pinned": false,
+    "source": "mingle.build"
+  },
+  {
+    "title": "Lattice 提供开源免费的 Obsidian 静态发布器",
+    "note": "Lattice 把 Obsidian 笔记库发布成静态站，保留双链、搜索、悬浮预览和可选叠页阅读。对已有知识资产的人，价值在于少搬一次内容。",
+    "url": "https://lattice.jacobg.co",
+    "media": "https://iandaily.xyz/digest/2026-11-20-lattice-publish-c3c8739e2a85.jpg?v=2026-11-20",
+    "category": "一人公司",
+    "so_what": "把已经长期维护的笔记发布成可搜索的网站，先服务一类具体读者。",
+    "pinned": false,
+    "source": "lattice.jacobg.co"
+  },
+  {
+    "title": "Twinform 在浏览器本地生成中英双语报价单",
+    "note": "Twinform 在浏览器本机生成双语报价单与形式发票，明确说明不算税，也不是增值税发票。功能边界清楚，反而更容易进入一个具体业务环节。",
+    "url": "https://xiaoyangge1993.github.io/twinform/",
+    "media": "https://iandaily.xyz/digest/2026-11-20-twinform-9c7c8440e2a5.jpg?v=2026-11-20",
+    "category": "一人公司",
+    "so_what": "小工具可以围绕一个明确单据环节做深，清楚说明哪些工作仍需其他流程完成。",
+    "pinned": true,
+    "source": "xiaoyangge1993.github.io"
+  },
+  {
+    "title": "ClearBG 自部署 BiRefNet 提供每日免费高清抠图",
+    "note": "ClearBG 提供每日一次免注册、原分辨率抠图，更多处理按点数收费。把入口放轻，再让批量需求付费，是这款小工具公开展示的路径。",
+    "url": "https://clearbg.org/",
+    "media": "https://iandaily.xyz/digest/2026-11-20-clearbg-bc9b2c7c086e.jpg?v=2026-11-20",
+    "category": "一人公司",
+    "so_what": "独立产品先让用户完成一次核心任务，再用真实批量需求检验收费方式。",
+    "pinned": false,
+    "source": "clearbg.org"
+  },
+  {
+    "title": "Cornhole News 仿 HN 打造美国中西部地方资讯站",
+    "note": "Cornhole News 以简洁列表聚合美国中西部地方新闻，提供投票、评论和政治内容筛选。一个熟悉的信息组织方式，也可以因服务的地域不同而重新有用。",
+    "url": "https://cornholenews.news",
+    "media": "https://iandaily.xyz/digest/2026-11-20-cornhole-news-22733fabc4b1.jpg?v=2026-11-20",
+    "category": "一人公司",
+    "so_what": "内容创业可以从一个地区或小群体的信息缺口开始，再培养持续参与。",
+    "pinned": false,
+    "source": "cornholenews.news"
+  },
+  {
+    "title": "Foolscap 推出陪写不代写的长文写作应用",
+    "note": "Foolscap 声明 AI 只观察书稿中的联系与悬而未决的线索，不代写正文；标为私密后可不经 AI 处理。写作工具的差异，也可以来自它愿意把什么留给作者。",
+    "url": "https://foolscap.works/",
+    "media": "https://iandaily.xyz/digest/2026-11-20-foolscap-800fc17c0de1.jpg?v=2026-11-20",
+    "category": "产品设计",
+    "so_what": "为创作者设计 AI 工具时，先问哪些决定希望自己保留，再安排辅助能力。",
+    "pinned": true,
+    "source": "foolscap.works"
+  },
+  {
+    "title": "QR Anatomy 交互拆解二维码纠错原理",
+    "note": "QR Anatomy 让人逐格看懂二维码，再手绘破坏码面，观察纠错何时还能起作用。难以解释的技术结构，变成了可以亲手验证的小实验。",
+    "url": "https://hrih.si/projects/qr-anatomy/",
+    "media": "https://iandaily.xyz/digest/2026-11-20-qr-anatomy-535a87b1873f.jpg?v=2026-11-20",
+    "category": "产品设计",
+    "so_what": "知识产品可以把抽象规则做成允许出错的互动实验，让反馈代替部分解释。",
+    "pinned": false,
+    "source": "hrih.si"
+  },
+  {
+    "title": "Drisp 提供免注册的真实 3D 设备样机",
+    "note": "Drisp 把截图放进三维设备样机，处理玻璃与光照，并提供 MCP 接口。它服务的是上架页、发布图与提案里那些反复要做的展示工作。",
+    "url": "https://drint.io/drisp",
+    "media": "https://iandaily.xyz/digest/2026-11-20-drisp-728610499414.jpg?v=2026-11-20",
+    "category": "产品设计",
+    "so_what": "把常用展示图整理成可复用规格，缩短每次发布前重复排版的时间。",
+    "pinned": false,
+    "source": "drint.io"
+  },
+  {
+    "title": "Dinoscript 用三角龙陪孩子写第一行代码",
+    "note": "Dinoscript 用三角龙角色、文字游戏和数学谜题引导儿童编程，提供浏览器与桌面入口，项目免费开源。教学体验还要观察孩子是否真的理解了自己写下的指令。",
+    "url": "https://dinoscript.org/",
+    "media": "https://iandaily.xyz/digest/2026-11-20-dinoscript-646a535d903c.jpg?v=2026-11-20",
+    "category": "产品设计",
+    "so_what": "儿童编程工具先用短任务观察理解和挫败点，避免只看是否顺利点完流程。",
+    "pinned": false,
+    "source": "dinoscript.org"
+  },
+  {
+    "title": "日本小田原寺庙建起悬浮水面混凝土圆环",
+    "note": "Assistant 在日本寺庙中设计悬于浅水之上的混凝土圆筒，用底部留缝和倒影改变重量感。材料本身很重，观看时的感受却由关系和光线组织。",
+    "url": "https://www.designboom.com/architecture/floating-concrete-cylinder-water-basin-buddhist-memorial-japan-assistant/",
+    "media": "https://iandaily.xyz/digest/2026-11-20-floating-cylinder-japan-504766485735.jpg?v=2026-11-20",
+    "category": "审美提升",
+    "so_what": "设计视觉重心时，同时观察实体、留白与倒影，不必把复杂度都加在造型上。",
+    "pinned": false,
+    "source": "designboom.com"
+  },
+  {
+    "title": "Fictional Project 用弧形屋檐框住喀拉拉花园",
+    "note": "Fictional Project 用下垂弧形屋顶框住喀拉拉住宅两侧的小花园。室内和景观的连接，来自边界如何落下，而不只是多开几扇窗。",
+    "url": "https://www.dezeen.com/2026/11/19/fictional-project-interstitial-living/",
+    "media": "https://iandaily.xyz/digest/2026-11-20-fictional-project-kerala-9c16a32cd933.jpg?v=2026-11-20",
+    "category": "审美提升",
+    "so_what": "界面与空间都可以通过边界形状引导视线，先画出人要看见和经过的路径。",
+    "pinned": false,
+    "source": "dezeen.com"
+  },
+  {
+    "title": "Somaforma 把国际象棋做成壁挂几何雕塑",
+    "note": "Somaforma 将磁吸皮革棋子与不锈钢棋盘组合成可挂墙的作品。对弈与陈列共享同一结构，闲置时也保留它在房间里的存在理由。",
+    "url": "https://www.designboom.com/design/engraved-stainless-steel-magnetic-leather-pieces-wall-mounted-chess-set-play-forms-somaforma/",
+    "media": "https://iandaily.xyz/digest/2026-11-20-somaforma-chess-84319fa0c9e3.jpg?v=2026-11-20",
+    "category": "审美提升",
+    "so_what": "设计低频物件时，也想清楚不用它的时间怎样收纳或展示。",
+    "pinned": false,
+    "source": "designboom.com"
+  },
+  {
+    "title": "Katrijn Westland 编织会呼吸的柔性感官装置",
+    "note": "Katrijn Westland 以柔软织物和轻缓机械运动构造仿佛会呼吸的装置。陪伴体验可以通过触觉与节奏出现，未必都需要一块会回答的屏幕。",
+    "url": "https://www.designboom.com/design/soft-breathing-creatures-katrijn-westland-interview/",
+    "media": "https://iandaily.xyz/digest/2026-11-20-katrijn-westland-92f139f1df87.jpg?v=2026-11-20",
+    "category": "审美提升",
+    "so_what": "做交互原型时试着加入材料、动作和节奏，探索屏幕之外的反馈。",
+    "pinned": true,
+    "source": "designboom.com"
+  },
+  {
+    "title": "Vybe 开放免注册的 AI 落地页转化与 SEO 体检",
+    "note": "Vybe 的 Nova 提供网站转化、SEO、速度等方面的免费分析入口，输出修改优先级。自动报告适合提出排查线索，建议的收益仍需在真实网站上验证。",
+    "url": "https://www.vybe.build/website-analyzer",
+    "media": "https://iandaily.xyz/digest/2026-11-20-vybe-website-analyzer-c4953d536aa2.jpg?v=2026-11-20",
+    "category": "产品营销",
+    "so_what": "将自动分析转成少量可实施的修改，再用实际转化和体验数据判断是否有效。",
+    "pinned": false,
+    "source": "vybe.build"
+  },
+  {
+    "title": "Element 公布 Matrix 公共部门应用案例资料",
+    "note": "Element 公布 Matrix 公共部门会议资料，包含欧盟委员会和联合国相关机构的分享。可以观察企业怎样借具体使用场景解释互通、部署和服务能力，会议案例不等于独立验收。",
+    "url": "https://element.io/en/matrix-conference-presentations-2026",
+    "media": "https://iandaily.xyz/digest/2026-11-20-element-ec-matrix-5f14e7317218.jpg?v=2026-11-20",
+    "category": "产品营销",
+    "so_what": "做 B 端传播时，用明确角色和部署场景解释价值，让客户看见采用后的工作变化。",
+    "pinned": false,
+    "source": "element.io"
+  },
+  {
+    "title": "一家德国门店尝试为游戏下载服务收费",
+    "note": "机核报道德国一家门店以二十九点九九欧元提供游戏下载服务，并强调不包含游戏本体。争论背后是一个产品问题：同样的等待，对不同用户值多少钱。",
+    "url": "https://www.gcores.com/articles/222515",
+    "media": "https://image.gcores.com/ea3335161537cfdd9d36335f71e44aa6-640-359.webp?x-oss-process=image/resize,limit_1,m_fill,w_200,h_200/quality,q_90",
+    "category": "产品营销",
+    "so_what": "为服务定价时观察用户节省的时间与麻烦，并通过小规模成交验证意愿。",
+    "pinned": true,
+    "source": "gcores.com"
+  },
+  {
+    "title": "少数派发起 2026 年苹果产品线大众评分调研",
+    "note": "少数派邀请读者为 Apple 年度产品与变化评分，将编辑观察接到用户反馈上。参与式内容既收集真实感受，也要留意主动答题者并不代表所有消费者。",
+    "url": "https://sspai.com/post/119191",
+    "media": "https://iandaily.xyz/digest/2026-11-20-sspai-apple-2026-91dbefaec370.jpg?v=2026-11-20",
+    "category": "产品营销",
+    "so_what": "用读者参与增强内容产品的反馈，但按人群与使用经历分层解释评分。",
+    "pinned": false,
+    "source": "sspai.com"
+  },
+  {
+    "category": "AI 漫剧",
+    "title": "一人制作 AI 科幻长片的创作经历",
+    "url": "https://www.woshipm.com/ai/6497015.html",
+    "media": "https://image.woshipm.com/wp-files/sha256/8f/c8/8fc8f3b98a9bcb0f5a52c94654bbb02c1495ebaec664fbbeb347b719504069c2.jpg",
+    "note": "报道记录灵玉独自制作《代号：悟空》的经历，涉及自学、工作流与收入断档。播放和获奖信息按报道口径呈现；值得细读的是成片之前持续投入的过程。",
+    "so_what": "规划一人影像项目时，把试错周期和生活成本一起算进制作计划。",
+    "pinned": true,
+    "source": "woshipm.com"
+  },
+  {
+    "category": "AI 漫剧",
+    "title": "AI 视频的成本与生产方式变化",
+    "url": "https://www.woshipm.com/ai/6496990.html",
+    "media": "https://image.woshipm.com/wp-files/sha256/43/e2/43e2d779caee6f5f5e5125b4a6ef32fa93923e1e8096fcaa8dc7e46cd3a55912.jpg",
+    "note": "文章比较 AI 视频生成降价与平台收入结构，讨论创作者批量调用的变化。报价具有时间与档位条件，低单次价格不自动等于低成片成本。",
+    "so_what": "按可用镜头和后期修补时间核算预算，定期用相同分镜重新比较工具。",
+    "pinned": false,
+    "source": "woshipm.com"
+  },
+  {
+    "category": "AI 漫剧",
+    "title": "视频选题的三个检查角度",
+    "url": "https://www.woshipm.com/marketing/6422832.html",
+    "media": "https://image.woshipm.com/2023/05/06/2721b740-ec02-11ed-96ae-00163e0b5ff3.jpg",
+    "note": "作者用有趣、有用和有共鸣三个角度检查视频选题，提醒创作者先想受众在乎什么。框架提供改稿线索，不是每条内容都能增长的保证。",
+    "so_what": "写漫剧或短视频开头前，先写出观众为何愿意继续看下一幕。",
+    "pinned": false,
+    "source": "woshipm.com"
+  },
+  {
+    "category": "AI 漫剧",
+    "title": "AI 音乐给独立音乐人带来的变化",
+    "url": "https://www.woshipm.com/ai/6496084.html",
+    "media": "https://image.woshipm.com/2023/04/14/0d8c676e-da8f-11ed-a86f-00163e0b5ff3.jpg",
+    "note": "这篇独立音乐人报道呈现 AI 生产增加后，部分从业者在收入、分工与审美上的压力。个案无法代表全行业，却让内容降本背后的人有了面孔。",
+    "so_what": "为影像选择配乐时，同时考虑创作合作、素材来源与后续使用范围。",
+    "pinned": false,
+    "source": "woshipm.com"
+  },
+  {
+    "category": "产品经理",
+    "title": "DesignOps：核对规则在不同场景中的表现",
+    "url": "https://www.woshipm.com/ai/6497057.html",
+    "media": "https://image.woshipm.com/2023/04/13/2810016a-d9de-11ed-8fc2-00163e0b5ff3.jpg",
+    "note": "DesignOps 从同一组件的两个相似场景入手，并排核对用户目标、不操作的后果和能否忽略。样式一致之外，行为含义也需要一致。",
+    "so_what": "评审组件复用时比较真实操作后果，别只核对视觉样式是否相同。",
+    "pinned": false,
+    "source": "woshipm.com"
+  },
+  {
+    "category": "产品经理",
+    "title": "游戏资产命名：从人工传递到规则生成",
+    "url": "https://www.woshipm.com/ai/6411997.html",
+    "media": "https://image.woshipm.com/2023/04/13/deb33d5a-d9df-11ed-8fc2-00163e0b5ff3.jpg",
+    "note": "作者从游戏资产命名的实际麻烦切入，把缩写、命名公式与同步规则逐步做成工具。AI 介入的价值，落在少一次人工转述和少一处配置歧义。",
+    "so_what": "从团队最常反复确认的一条业务规则开始做工具，优先减少传话与歧义。",
+    "pinned": true,
+    "source": "woshipm.com"
+  },
+  {
+    "category": "产品经理",
+    "title": "AI 功能上线后没人用，怎么办",
+    "url": "https://www.woshipm.com/ai/6496841.html",
+    "media": "https://image.woshipm.com/2023/04/14/ca031e98-da8e-11ed-a86f-00163e0b5ff3.jpg",
+    "note": "文章用进入、完成和重复使用三个环节排查 AI 功能采纳问题。文中引用的比例与阈值属于来源样本和作者建议，不能直接套成所有产品的标准。",
+    "so_what": "把发现功能、完成任务和再次回来分开看，再决定要改入口、质量还是使用路径。",
+    "pinned": false,
+    "source": "woshipm.com"
+  },
+  {
+    "category": "产品经理",
+    "title": "接手旧项目，FDE 先看哪里",
+    "url": "https://www.woshipm.com/ai/6496872.html",
+    "media": "https://image.woshipm.com/2024/09/30/da29e510-7f18-11ef-9237-00163e142b65.png",
+    "note": "FDE 接手旧项目的经验从配置、客户改动和未完成工单开始，再厘清当前责任。先找回系统经历了什么，修复才有可靠的起点。",
+    "so_what": "接手维护先查真实配置、变更和工单，给每项待修问题标明依据和负责人。",
+    "pinned": false,
+    "source": "woshipm.com"
+  },
+  {
+    "category": "编剧技巧",
+    "title": "《发小揍我考满分》：校园喜剧与软科幻设定",
+    "url": "https://www.wzbj1616.com/script_info/2312",
+    "media": "https://www.wzbj1616.com/storage/script/20261030/4cef4545f58a6adf6ea9bd7152de854e.jpeg",
+    "note": "《发小揍我考满分》的公开简介以机器逻辑与校园日常碰撞，承接青梅竹马的情感线。适合练习：一条软科幻规则怎样持续制造喜剧，又参与情绪收束。",
+    "so_what": "为科幻设定安排至少一次喜剧作用和一次情感作用，检查它是否真正长在故事里。",
+    "pinned": true,
+    "source": "wzbj1616.com"
+  },
+  {
+    "category": "编剧技巧",
+    "title": "《爻变长安》：五单元悬疑结构的阅读入口",
+    "url": "https://www.wzbj1616.com/script_info/1930",
+    "media": "https://www.wzbj1616.com/storage/script/20260701/167ed3d0e9a332129cc8b6d4d81c4700.jpg",
+    "note": "《爻变长安》的公开介绍从命案时辰、死法和遗留物建立关联。阅读练习可以聚焦线索的规则性：哪些细节先被看到，哪些到后面才获得意义。",
+    "so_what": "列出线索第一次出现与意义揭晓的位置，检查观众能否在回看时拼出因果。",
+    "pinned": false,
+    "source": "wzbj1616.com"
+  },
+  {
+    "category": "编剧技巧",
+    "title": "《求求你，别爱我》：家庭喜剧的关系设计",
+    "url": "https://www.wzbj1616.com/script_info/1757",
+    "media": "https://www.wzbj1616.com/storage/script/20260513/31931713e17c087483c18dd79644febd.jpg",
+    "note": "《求求你，别爱我》的公开简介将父母撮合、职场误会和假婚姻交织在一起。关系喜剧的推进，来自各人目的不同，却不得不继续同处一个局面。",
+    "so_what": "画出角色各自想要什么，以及哪件事逼他们持续相处，让冲突从关系里生长。",
+    "pinned": false,
+    "source": "wzbj1616.com"
+  },
+  {
+    "category": "编剧技巧",
+    "title": "《诡镇谜案》：民俗惊悚与悬疑线索",
+    "url": "https://www.wzbj1616.com/script_info/2172",
+    "media": "https://www.wzbj1616.com/storage/script/20260918/9e086e353b48dd02869c41b07eb60c2b.png",
+    "note": "《诡镇谜案》的公开介绍用民俗异事包裹旧怨与人心，强调悬疑反转。可以练习区分表面的怪事与背后的因果，再看揭晓前是否留够了可回看的线索。",
+    "so_what": "把每个惊悚事件对应到背后的人物动机，避免谜底只靠最后新增的信息。",
+    "pinned": false,
+    "source": "wzbj1616.com"
+  }
+]
