@@ -1,0 +1,362 @@
+[
+  {
+    "category": "AI 资讯",
+    "title": "Thinking Machines 开源笔记本级 Inkling 2 Mini",
+    "note": "Inkling 2 Mini 通过循环复用中间层增加推理深度，提供本地部署入口。性能领先的表述来自发布方基准，实际体验仍要看自己的任务与设备。",
+    "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+    "media": "https://iandaily.xyz/digest/2026-11-21-inkling-2-mini-1b6e2dd8739f.jpg?v=2026-11-21",
+    "so_what": "用真实本地任务比较速度、内存和完成率，别只看模型大小。",
+    "pinned": true,
+    "source": "thinkingmachines.ai"
+  },
+  {
+    "category": "AI 资讯",
+    "title": "MiniMax 内部模型 MIM 实现多项密码学实用攻击",
+    "note": "MiniMax 公布内部研究模型的密码分析结果与验证材料。它讨论特定密码方案与攻击路径，不能概括成现有加密系统已被普遍攻破。",
+    "url": "https://www.minimax.io/blog/practical-cryptanalysis-with-minimaxs-latest-internal-model",
+    "media": "https://iandaily.xyz/digest/2026-11-21-minimax-mim-bb2c610ac113.jpg?v=2026-11-21",
+    "so_what": "将研究结果对应到具体算法与验证材料，避免泛化安全结论。",
+    "pinned": false,
+    "source": "minimax.io"
+  },
+  {
+    "category": "AI 资讯",
+    "title": "Frostbite：AI 端到端设计并验证新 CPU 架构",
+    "note": "Architect Labs 展示 AI 参与处理器架构设计与验证的 Frostbite 项目。项目方报告值得研究，设计验证与实际量产性能仍是不同阶段。",
+    "url": "https://architectlabs.com/blog/frostbite",
+    "media": "https://iandaily.xyz/digest/2026-11-21-frostbite-cpu-1cb1c69f1d7e.jpg?v=2026-11-21",
+    "so_what": "硬件项目分别设定设计、验证、制造和实测的验收条件。",
+    "pinned": false,
+    "source": "architectlabs.com"
+  },
+  {
+    "category": "AI 资讯",
+    "title": "DeepMind 研究所长文：AGI 之后如何通向 ASI",
+    "note": "DeepMind Institute 将通用智能之后的演进拆成多个路径，讨论模型、协作与自我改进。这是一份研究判断，并非已经实现超智能的公告。",
+    "url": "https://institute.deepmind.com/essays/what-comes-after-agi/",
+    "media": "https://iandaily.xyz/digest/2026-11-21-deepmind-after-agi-788805c6786a.jpg?v=2026-11-21",
+    "so_what": "把长期研究判断转成可观察的阶段指标，再决定产品投入。",
+    "pinned": false,
+    "source": "institute.deepmind.com"
+  },
+  {
+    "category": "AI 协作",
+    "title": "OpenComputer 开源可自托管的 Devin 替代品",
+    "note": "OpenComputer 在团队聊天里接任务，于独立电脑环境执行并交回 PR，可选自托管。把执行环境和审查入口一起交付，是它的重要设计。",
+    "url": "https://github.com/diggerhq/opencomputer",
+    "media": "https://iandaily.xyz/digest/2026-11-21-opencomputer-8cb5dac8f309.jpg?v=2026-11-21",
+    "so_what": "为代理规定执行环境、交付分支和人工审查条件。",
+    "pinned": true,
+    "source": "github.com"
+  },
+  {
+    "category": "AI 协作",
+    "title": "Frowse 用本地 DOM 摘要削减浏览器代理 Token",
+    "note": "Frowse 用简洁 DOM 摘要与本地定位减少浏览器代理输入。节省幅度属于作者测试结果，页面兼容性与定位错误仍需要实际检查。",
+    "url": "https://github.com/figranium/frowse",
+    "media": "https://iandaily.xyz/digest/2026-11-21-frowse-fd1bc0f20b14.jpg?v=2026-11-21",
+    "so_what": "用自己的目标页面比较调用消耗和任务成功率。",
+    "pinned": false,
+    "source": "github.com"
+  },
+  {
+    "category": "AI 协作",
+    "title": "OpenSRE 用开源代理自动排查并修复 CI 报错",
+    "note": "OpenSRE 从失败的流水线中读取日志、追踪原因，再提交待审修复。项目处于公开 Alpha，自动提出修复并不等于可以直接合并。",
+    "url": "https://github.com/Tracer-Cloud/opensre",
+    "media": "https://iandaily.xyz/digest/2026-11-21-opensre-8c79128502ab.jpg?v=2026-11-21",
+    "so_what": "让自动修复进入待审流程，并保留原始失败日志。",
+    "pinned": false,
+    "source": "github.com"
+  },
+  {
+    "category": "AI 协作",
+    "title": "browser-use 1.0 用单 Python 工具取代 24 个动作",
+    "note": "browser-use 1.0 用持久 Python 环境组织浏览器操作，减少固定动作菜单。发布方也说明整版测试收益不能全部归因于工具数量变化。",
+    "url": "https://browser-use.com/posts/browser-use-1-0",
+    "media": "https://iandaily.xyz/digest/2026-11-21-browser-use-1-7d6b1a95edd6.jpg?v=2026-11-21",
+    "so_what": "选型时比较整项任务的成本与恢复能力，保留相同测试任务。",
+    "pinned": false,
+    "source": "browser-use.com"
+  },
+  {
+    "category": "一人公司",
+    "title": "开源双端商店过审指南收录 117 条拒审坑",
+    "note": "这份开源上架指南组织常见拒审问题和提交前检查。它适合作为准备工作的入口，平台最新规则仍需回到官方说明核对。",
+    "url": "https://github.com/mjmirza/app-store-compliance",
+    "media": "https://iandaily.xyz/digest/2026-11-21-app-store-compliance-0f73be94eca8.jpg?v=2026-11-21",
+    "so_what": "发布应用前建立对应平台的检查清单，并核对规则更新时间。",
+    "pinned": true,
+    "source": "github.com"
+  },
+  {
+    "category": "一人公司",
+    "title": "Kamira 开源上线，做 CleanShot X 轻量平替",
+    "note": "Kamira 把范围收在截图、标注和快速复制，采用 MIT 许可。一个常驻工具的价值，也可以来自少占资源、少打断工作。",
+    "url": "https://github.com/okayzk/Kamira",
+    "media": "https://iandaily.xyz/digest/2026-11-21-kamira-gh-261f4b8c58bd.jpg?v=2026-11-21",
+    "so_what": "独立工具先把一个高频动作做顺，再考虑扩充范围。",
+    "pinned": false,
+    "source": "github.com"
+  },
+  {
+    "category": "一人公司",
+    "title": "Vercel X 开放申请，押注种子前 AI 创业者",
+    "note": "Vercel X 提供早期创业支持和资源额度，页面列出申请期限与参与安排。资源支持有具体条件，不能当作所有申请者都会获得的现金。",
+    "url": "https://vercel.com/x",
+    "media": "https://iandaily.xyz/digest/2026-11-21-vercel-x-08355ee21fbe.jpg?v=2026-11-21",
+    "so_what": "申请资源前核对期限、参与要求和实际覆盖的开销。",
+    "pinned": false,
+    "source": "vercel.com"
+  },
+  {
+    "category": "一人公司",
+    "title": "开发者记录用 AI 辅助设计推理芯片实验",
+    "note": "开发者记录在 FPGA 上运行语言模型的实验，把对话式编码带入硬件探索。个人实验提供了路径，也保留了工程尝试与成熟芯片之间的距离。",
+    "url": "https://ankitg.me/blog/vibecoding-inference-chip/",
+    "media": "https://iandaily.xyz/digest/2026-11-21-vibecoding-chip-47a091d06faf.jpg?v=2026-11-21",
+    "so_what": "把陌生领域拆成可以逐步验证的小实验，记录每一步依据。",
+    "pinned": false,
+    "source": "ankitg.me"
+  },
+  {
+    "category": "产品设计",
+    "title": "CompMD 让 Markdown 兼容组件与交互输入",
+    "note": "CompMD 在 Markdown 中加入组件、数据与交互输入，同时考虑纯文本阅读。文档的可移植性和界面表达，开始被放在一起设计。",
+    "url": "https://compmd.dev",
+    "media": "https://iandaily.xyz/digest/2026-11-21-compmd-80cce0dc9f83.jpg?v=2026-11-21",
+    "so_what": "做交互文档时保留纯文本内容的可读性和数据来源。",
+    "pinned": true,
+    "source": "compmd.dev"
+  },
+  {
+    "category": "产品设计",
+    "title": "Reaktiv Workbook 把表格每格变成 Python",
+    "note": "Reaktiv Workbook 让 Python 单元格按依赖更新数值、图表和段落。清楚显示依赖关系，有助于发现表格和笔记里悄悄过期的结果。",
+    "url": "https://workbook.bui.app/",
+    "media": "https://iandaily.xyz/digest/2026-11-21-reaktiv-workbook-2120b0e168d1.jpg?v=2026-11-21",
+    "so_what": "为计算型产品展示依赖与更新状态，帮助用户识别旧结果。",
+    "pinned": false,
+    "source": "workbook.bui.app"
+  },
+  {
+    "category": "产品设计",
+    "title": "SynthCamp 推出免登录网页本地母带工具",
+    "note": "SynthCamp 在浏览器本机提供均衡、压缩和母带处理，也能给出建议参数。自动建议只是起点，最终听感仍需对照原始混音判断。",
+    "url": "https://synthcamp.net/mastering",
+    "media": "https://iandaily.xyz/digest/2026-11-21-synthcamp-mastering-06feeccf78cd.jpg?v=2026-11-21",
+    "so_what": "给音频处理留出原声对比和撤回步骤。",
+    "pinned": false,
+    "source": "synthcamp.net"
+  },
+  {
+    "category": "产品设计",
+    "title": "Billet 用 6MB 桌面看板接管代理任务文件",
+    "note": "Billet 把仓库中的 Markdown 任务文件转成桌面看板，保留提议与准备执行等状态。文件与界面共享一份任务依据，交接更容易核对。",
+    "url": "https://mktwsk.xyz/billet/",
+    "media": "https://iandaily.xyz/digest/2026-11-21-billet-38869925e9c5.jpg?v=2026-11-21",
+    "so_what": "让代理任务状态与实际文件相互对应，减少看板失真。",
+    "pinned": false,
+    "source": "mktwsk.xyz"
+  },
+  {
+    "category": "审美提升",
+    "title": "Atelier Manferdini 用故障纹理重塑变电站",
+    "note": "Atelier Manferdini 用折面金属与马赛克组织变电站立面，把工业设施纳入街区视觉。基础设施也会影响人每天经过时的感受。",
+    "url": "https://www.dezeen.com/2026/11/20/atelier-manferdini-virginia-power-station/",
+    "media": "https://iandaily.xyz/digest/2026-11-21-dezeen-manferdini-15e7671259b2.jpg?v=2026-11-21",
+    "so_what": "设计公共界面时也考虑它在环境中的长期存在。",
+    "pinned": true,
+    "source": "dezeen.com"
+  },
+  {
+    "category": "审美提升",
+    "title": "James Turrell 在纽约画廊造出悬浮光立方",
+    "note": "James Turrell 以光线和墙面色域制造悬浮几何体的观看体验。形体的存在感，可以通过光与空间关系被重新安排。",
+    "url": "https://www.designboom.com/art/james-turrell-new-york-gallery-almine-rech-something-old-new-borrowed-blue/",
+    "media": "https://iandaily.xyz/digest/2026-11-21-designboom-turrell-1e0d2b89462a.jpg?v=2026-11-21",
+    "so_what": "做视觉参考时同时记录光线、背景与观看距离。",
+    "pinned": false,
+    "source": "designboom.com"
+  },
+  {
+    "category": "审美提升",
+    "title": "爱丁堡旧医院改造为未来学院，入围建筑奖项",
+    "note": "爱丁堡未来学院改造保留医院石砌结构并引入新的公共学习空间。报道涉及建筑奖项入围，不能将入围直接写成获奖。",
+    "url": "https://www.dezeen.com/2026/11/20/bennetts-associates-edinburgh-futures-institute-rias-doolan-award/",
+    "media": "https://iandaily.xyz/digest/2026-11-21-dezeen-edinburgh-4105a4845811.jpg?v=2026-11-21",
+    "so_what": "改造既有产品先找仍有价值的结构，再接入新用途。",
+    "pinned": false,
+    "source": "dezeen.com"
+  },
+  {
+    "category": "审美提升",
+    "title": "CAN 用混凝土管与彩钢翻新伦敦红砖住宅",
+    "note": "CAN 将混凝土管、彩色钢构与波纹板加入伦敦住宅改造。熟悉材料换一种组合，能让日常空间出现新的趣味。",
+    "url": "https://www.dezeen.com/2026/11/20/can-house-tropicalia/",
+    "media": "https://iandaily.xyz/digest/2026-11-21-dezeen-can-house-dbca32ef1e8a.jpg?v=2026-11-21",
+    "so_what": "用低成本材料的小样测试比例与配色，再决定整体方案。",
+    "pinned": false,
+    "source": "dezeen.com"
+  },
+  {
+    "category": "产品营销",
+    "title": "Bending Spoons 签署收购 Mailchimp 协议",
+    "note": "Bending Spoons 公告已签署收购 Mailchimp 的协议，交易仍需满足交割条件。营销基础设施的所有权变化，值得现有用户关注后续产品安排。",
+    "url": "https://investors.bendingspoons.com/newsroom/bending-spoons-to-acquire-mailchimp",
+    "media": "https://iandaily.xyz/digest/2026-11-21-bendingspoons-mailchimp-9873928d0d24.jpg?v=2026-11-21",
+    "so_what": "使用关键营销服务时记录数据导出和迁移路径，持续关注合同与产品变化。",
+    "pinned": true,
+    "source": "investors.bendingspoons.com"
+  },
+  {
+    "category": "产品营销",
+    "title": "Pug.sh 开源自托管产品分析与漏斗工具",
+    "note": "Pug 提供事件采集、漏斗、留存与分群分析，支持自托管，使用 AGPL 许可。掌握数据之后，还要有人维护采集口径和服务。",
+    "url": "https://github.com/pug-sh/pug",
+    "media": "https://iandaily.xyz/digest/2026-11-21-pug-sh-709cb6c821d9.jpg?v=2026-11-21",
+    "so_what": "先统一事件与漏斗口径，再讨论报表展示。",
+    "pinned": false,
+    "source": "github.com"
+  },
+  {
+    "category": "产品营销",
+    "title": "实测 12 万次提问：AI 正给出千篇一律的建议",
+    "note": "这项实验观察多个模型对重复问题的建议趋同。样本与问法会影响结果，它提示的是推荐多样性问题，不是所有 AI 回答的统一结论。",
+    "url": "https://a90.com/experiments/same-advice/",
+    "media": "https://iandaily.xyz/digest/2026-11-21-same-advice-3a1af8a3d64e.jpg?v=2026-11-21",
+    "so_what": "用不同提问与一手用户材料交叉检查 AI 推荐，避免选题趋同。",
+    "pinned": false,
+    "source": "a90.com"
+  },
+  {
+    "category": "产品营销",
+    "title": "Framery 推出办公静音舱灵活订阅服务",
+    "note": "Framery 以订阅和翻新回应办公家具迁移与扩缩编需求。原文属于品牌合作内容，其环保与成本主张仍需结合客户实际条件判断。",
+    "url": "https://www.dezeen.com/2026/11/20/framerys-flexible-office-pod-subscription-office-needs/",
+    "media": "https://iandaily.xyz/digest/2026-11-21-framery-sub-0ddc9f4be07b.jpg?v=2026-11-21",
+    "so_what": "比较订阅、搬迁和维护的完整周期成本，再判断服务模式。",
+    "pinned": false,
+    "source": "dezeen.com"
+  },
+  {
+    "category": "AI 漫剧",
+    "title": "微信看一看与短剧入口",
+    "url": "https://www.woshipm.com/ai/6494463.html",
+    "media": "https://image.woshipm.com/2023/04/17/44ede800-dcf5-11ed-a8f2-00163e0b5ff3.png",
+    "note": "文章讨论微信内容入口向短剧延伸的变化。平台入口可以带来分发机会，创作者仍要对照真实受众和结算条件选择渠道。",
+    "so_what": "将平台机会做成小规模发行试验，记录受众和收益。",
+    "pinned": true,
+    "source": "woshipm.com"
+  },
+  {
+    "category": "AI 漫剧",
+    "title": "从 Vibe Video 到 Vibe World",
+    "url": "https://www.woshipm.com/ai/6492845.html",
+    "media": "https://image.woshipm.com/2023/04/14/b6fdcf88-daa1-11ed-aaf8-00163e0b5ff3.png",
+    "note": "这篇观察将视频生成与可交互世界联系起来。展示和设想可以启发分镜设计，持续可控的交互体验仍需逐项验证。",
+    "so_what": "先做一个角色和一段可控交互，再逐步扩大世界设定。",
+    "pinned": false,
+    "source": "woshipm.com"
+  },
+  {
+    "category": "AI 漫剧",
+    "title": "AI 知识视频的制作与编辑",
+    "url": "https://www.woshipm.com/ai/6495632.html",
+    "media": "https://image.woshipm.com/wp-files/sha256/c5/ff/c5ff5ccf8157baad6fbbcbfbe67c81a8f19f414170f7f1bc2ebf81b0e18dbfa1.png",
+    "note": "文章讨论用动态图形讲解知识，并介绍可继续编辑的制作方式。画面会动只是起点，信息顺序与解释节奏决定观众能否跟上。",
+    "so_what": "知识视频先排信息层级，再为每个关键概念设计动效。",
+    "pinned": false,
+    "source": "woshipm.com"
+  },
+  {
+    "category": "AI 漫剧",
+    "title": "Nano Banana 图像提示与创作技巧",
+    "url": "https://www.woshipm.com/ai/6376850.html",
+    "media": "https://image.woshipm.com/wp-files/2026/04/8lUJyO3GjUaatnoMwQCb.png",
+    "note": "这份图像创作教程列出参考图、文字和构图等使用场景。教程对应的模型版本与价格具有时效性，适合作为小样练习材料。",
+    "so_what": "用同一角色和参考图测试不同提示方案，检查可控性与返工。",
+    "pinned": false,
+    "source": "woshipm.com"
+  },
+  {
+    "category": "产品经理",
+    "title": "业务方要的 AI 功能与产品方向冲突",
+    "url": "https://www.woshipm.com/pd/6496884.html",
+    "media": "https://image.woshipm.com/2025/06/24/0910e454-50e8-11f0-95de-00163e09d72f.png",
+    "note": "作者把业务、产品和研发的目标差异拆开讨论。明确谁要解决什么问题，才能把笼统的 AI 期待变成可交付范围。",
+    "so_what": "把冲突需求写成目标、限制和验收条件，分阶段达成共识。",
+    "pinned": true,
+    "source": "woshipm.com"
+  },
+  {
+    "category": "产品经理",
+    "title": "销售怎样理解客户真正购买的价值",
+    "url": "https://www.woshipm.com/share/6330527.html",
+    "media": "https://image.woshipm.com/2025/08/19/edd9a20e-7caf-11f0-9e45-00163e4b86a1.png",
+    "note": "文章从销售案例谈客户对价值与信任的判断。个人经验不能替代所有销售场景，但能提醒产品经理少用功能清单代替客户问题。",
+    "so_what": "访谈客户时记录要改善的结果，再决定演示哪些功能。",
+    "pinned": false,
+    "source": "woshipm.com"
+  },
+  {
+    "category": "产品经理",
+    "title": "代理记忆选型：RAG 与微调",
+    "url": "https://www.woshipm.com/ai/6435143.html",
+    "media": "https://image.woshipm.com/2023/07/07/4732f132-1c97-11ee-94c6-00163e0b5ff3.jpg",
+    "note": "文章按知识更新、能力需求与成本讨论 RAG 和微调。两种办法也可能组合使用，实际选型要检查资料来源、错误类型与评估样本。",
+    "so_what": "先建立失败案例集，区分检索不到、资料过时和行为不稳定。",
+    "pinned": false,
+    "source": "woshipm.com"
+  },
+  {
+    "category": "产品经理",
+    "title": "产品经理招聘中的 AI 编码要求",
+    "url": "https://www.woshipm.com/ai/6496851.html",
+    "media": "https://image.woshipm.com/2023/04/14/91d2911a-da9e-11ed-95a1-00163e0b5ff3.png",
+    "note": "作者从一份招聘需求讨论应用型 AI 产品经理的业务、技术与交付能力。单个岗位不代表整个行业，但能帮助检视自己的能力缺口。",
+    "so_what": "用一个实际业务原型展示判断与交付能力，同时说明边界。",
+    "pinned": false,
+    "source": "woshipm.com"
+  },
+  {
+    "category": "编剧技巧",
+    "title": "《民办教师》：现实题材的人物行动",
+    "url": "https://www.wzbj1616.com/script_info/2117",
+    "media": "https://www.wzbj1616.com/storage/script/20260913/1d95eeff73885196f43a75e18b7cd0b3.jpeg",
+    "note": "《民办教师》的公开简介用一连串舍弃和坚守组织人物经历。阅读练习可以追问：每次留下，主角究竟放弃了什么具体机会。",
+    "so_what": "写人物成长时，把价值选择落实成可见的得失。",
+    "pinned": true,
+    "source": "wzbj1616.com"
+  },
+  {
+    "category": "编剧技巧",
+    "title": "《角儿》：非遗题材的长篇故事",
+    "url": "https://www.wzbj1616.com/script_info/1827",
+    "media": "https://www.wzbj1616.com/storage/script/20260611/691da6fb72f0965c4649ab2d5cf8f33c.png",
+    "note": "《角儿》的公开简介将演员与长期观众的关系放进时代变化。可练习用重复出现的观看动作，呈现人物关系如何随时间改变。",
+    "so_what": "为跨年代故事选一个反复出现的动作或场景，观察其意义变化。",
+    "pinned": false,
+    "source": "wzbj1616.com"
+  },
+  {
+    "category": "编剧技巧",
+    "title": "《紫锈禁区》：科幻与悬疑设定",
+    "url": "https://www.wzbj1616.com/script_info/2026",
+    "media": "https://www.wzbj1616.com/storage/script/20240407/12f5f2bfe2594beab521cab1e83fa071.jpg",
+    "note": "《紫锈禁区》的简介以寻找失踪队员推动旧部重聚与禁区探险。适合检查外部危机怎样迫使一组有旧矛盾的人共同作出选择。",
+    "so_what": "为团队冒险列出每个人不愿合作的原因，再设计不得不合作的事件。",
+    "pinned": false,
+    "source": "wzbj1616.com"
+  },
+  {
+    "category": "编剧技巧",
+    "title": "《我妈死了十一年》：家庭悬疑的阅读入口",
+    "url": "https://www.wzbj1616.com/script_info/2361",
+    "media": "https://www.wzbj1616.com/storage/script/20261119/6a92fb0ead32b1d736ecb23f0ecfb87b.jpg",
+    "note": "《我妈死了十一年》的简介用一笔定时转账、便签和干笋引出家庭秘密。可观察低成本物件怎样承担线索与情感双重作用。",
+    "so_what": "给每件关键道具安排线索作用和情感回响，让揭晓有据可循。",
+    "pinned": false,
+    "source": "wzbj1616.com"
+  }
+]
