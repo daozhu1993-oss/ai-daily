@@ -1,0 +1,598 @@
+{
+  "date": "2026-11-22",
+  "checked_at": "2026-11-22T03:05:50.802994+00:00",
+  "candidate_sha256": "aa9546fed73d8046c63cdfc33ac9bcd8cea71eef99dcf0697bec84812ed5a86c",
+  "used_sha256": "03a8d4fa8a9923b31299e08544828bdd86317928d2319302c17143eca21c9715",
+  "previous_url_count": 3828,
+  "category_counts": {
+    "AI 资讯": 4,
+    "AI 协作": 4,
+    "一人公司": 4,
+    "产品设计": 4,
+    "审美提升": 4,
+    "产品营销": 4,
+    "AI 漫剧": 4,
+    "编剧技巧": 4,
+    "产品经理": 4
+  },
+  "duplicates": [],
+  "endpoints": [
+    {
+      "kind": "URL",
+      "url": "https://github.com/ShinMegamiBoson/lookatmyquant",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://github.com/ShinMegamiBoson/lookatmyquant",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-22-lookatmyquant-inkling-56b5662f5693.jpg?v=2026-11-22",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-22-lookatmyquant-inkling-56b5662f5693.jpg?v=2026-11-22",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://aihot.news/items/d32df9vzpliz9m348fug74inq",
+      "status": "200",
+      "content_type": "text/html",
+      "final_url": "https://aihot.news/items/d32df9vzpliz9m348fug74inq",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-22-aihot-claude-3sum-apsp-b5dfe22f2ea2.jpg?v=2026-11-22",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-22-aihot-claude-3sum-apsp-b5dfe22f2ea2.jpg?v=2026-11-22",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://dev.meta.ai/models/muse-spark",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://dev.meta.ai/models/muse-spark",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-22-meta-muse-spark-13-0679774a4914.jpg?v=2026-11-22",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-22-meta-muse-spark-13-0679774a4914.jpg?v=2026-11-22",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://andrewxhill.com/frontier-model-weight-edits/",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://andrewxhill.com/frontier-model-weight-edits/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-22-direct-weight-edits-8055edfec610.jpg?v=2026-11-22",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-22-direct-weight-edits-8055edfec610.jpg?v=2026-11-22",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://github.com/natsu0529/agent-mcts",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://github.com/natsu0529/agent-mcts",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-22-agent-mcts-claude-9bb3dae2d743.jpg?v=2026-11-22",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-22-agent-mcts-claude-9bb3dae2d743.jpg?v=2026-11-22",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://saturnsql.com/context-layer",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://saturnsql.com/context-layer",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-22-saturnsql-context-c30aedc29bce.jpg?v=2026-11-22",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-22-saturnsql-context-c30aedc29bce.jpg?v=2026-11-22",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://clawvet.vercel.app/",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://clawvet.vercel.app/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-22-clawvet-scanner-b2c8b058b2c7.jpg?v=2026-11-22",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-22-clawvet-scanner-b2c8b058b2c7.jpg?v=2026-11-22",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.rmrfbench.com/",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://www.rmrfbench.com/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-22-rmrfbench-agents-e39323f008ed.jpg?v=2026-11-22",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-22-rmrfbench-agents-e39323f008ed.jpg?v=2026-11-22",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://sspai.com/post/119291",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://sspai.com/post/119291",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-22-sspai-harmony-devs-f8bff211573f.jpg?v=2026-11-22",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-22-sspai-harmony-devs-f8bff211573f.jpg?v=2026-11-22",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://progrium.xyz/articles/2026/single-binary-postgres",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://progrium.xyz/articles/2026/single-binary-postgres/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-22-single-binary-postgres-2e22f6e83d4a.jpg?v=2026-11-22",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-22-single-binary-postgres-2e22f6e83d4a.jpg?v=2026-11-22",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://github.com/wanghao-SunSky/AgySwitch",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://github.com/wanghao-SunSky/AgySwitch",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-22-agyswitch-macos-5a5f014316d2.jpg?v=2026-11-22",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-22-agyswitch-macos-5a5f014316d2.jpg?v=2026-11-22",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://gettab.dev/",
+      "status": "200",
+      "content_type": "text/html",
+      "final_url": "https://gettab.dev/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-22-tab-rust-browser-87ca57a345d0.jpg?v=2026-11-22",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-22-tab-rust-browser-87ca57a345d0.jpg?v=2026-11-22",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-22-chess-classic-games-a06e7faf18b4.jpg?v=2026-11-22",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-22-chess-classic-games-a06e7faf18b4.jpg?v=2026-11-22",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://github.com/niyamvora/ILoveNotch",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://github.com/niyamvora/ILoveNotch",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-22-ilovenotch-2-12ac4acfd0db.jpg?v=2026-11-22",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-22-ilovenotch-2-12ac4acfd0db.jpg?v=2026-11-22",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://enterguard.dev",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://enterguard.dev/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-22-enterguard-ext-7dc139ce3215.jpg?v=2026-11-22",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-22-enterguard-ext-7dc139ce3215.jpg?v=2026-11-22",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://9to5mac.com/2026/11/21/indie-app-spotlight-salon-is-an-apple-tv-app-that-turns-your-tv-into-a-picture-frame/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://9to5mac.com/2026/11/21/indie-app-spotlight-salon-is-an-apple-tv-app-that-turns-your-tv-into-a-picture-frame/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-22-salon-apple-tv-63f870f6a63a.jpg?v=2026-11-22",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-22-salon-apple-tv-63f870f6a63a.jpg?v=2026-11-22",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.dezeen.com/2026/11/21/exterior-staircases-facade/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.dezeen.com/2026/11/21/exterior-staircases-facade/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-22-dezeen-staircase-facade-7e16c913d82c.jpg?v=2026-11-22",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-22-dezeen-staircase-facade-7e16c913d82c.jpg?v=2026-11-22",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.designboom.com/art/protect-learned-notice-jon-mccormacks-photography-patterns-natural-world-interview/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.designboom.com/art/protect-learned-notice-jon-mccormacks-photography-patterns-natural-world-interview/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-22-jon-mccormack-photo-24f95ac8aa96.jpg?v=2026-11-22",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-22-jon-mccormack-photo-24f95ac8aa96.jpg?v=2026-11-22",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.dezeen.com/2026/11/21/dezeen-20x20-this-week/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.dezeen.com/2026/11/21/dezeen-20x20-this-week/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-22-dezeen-20x20-3fd609fcdf6d.jpg?v=2026-11-22",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-22-dezeen-20x20-3fd609fcdf6d.jpg?v=2026-11-22",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.dezeen.com/2026/11/21/zha-theatre-royal-de-rabat-morroco/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.dezeen.com/2026/11/21/zha-theatre-royal-de-rabat-morroco/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-22-zha-rabat-theatre-c3ced897349f.jpg?v=2026-11-22",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-22-zha-rabat-theatre-c3ced897349f.jpg?v=2026-11-22",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.backblaze.com/company/policy/privacy",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://www.backblaze.com/company/policy/privacy",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-22-backblaze-privacy-6119fd55448b.jpg?v=2026-11-22",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-22-backblaze-privacy-6119fd55448b.jpg?v=2026-11-22",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.macrumors.com/2026/11/21/rip-apple-support-community/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.macrumors.com/2026/11/21/rip-apple-support-community/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-22-rip-apple-support-comm-fd69db4c050c.jpg?v=2026-11-22",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-22-rip-apple-support-comm-fd69db4c050c.jpg?v=2026-11-22",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.theverge.com/transportation/1038448/harbinger-ev-startup-240m-series-d-fedex-army-trucks",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://www.theverge.com/transportation/1038448/harbinger-ev-startup-240m-series-d-fedex-army-trucks",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-22-harbinger-ev-240m-fa61e4221584.jpg?v=2026-11-22",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-22-harbinger-ev-240m-fa61e4221584.jpg?v=2026-11-22",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-22-tc-microdrama-ai-face-51e9b59ab49a.jpg?v=2026-11-22",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-22-tc-microdrama-ai-face-51e9b59ab49a.jpg?v=2026-11-22",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.woshipm.com/ai/6491906.html",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.woshipm.com/ai/6491906.html",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://image.woshipm.com/2024/09/24/72da5626-7a66-11ef-b388-00163e142b65.png",
+      "status": "200",
+      "content_type": "image/png",
+      "final_url": "https://image.woshipm.com/2024/09/24/72da5626-7a66-11ef-b388-00163e142b65.png",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.woshipm.com/it/6491908.html",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.woshipm.com/it/6491908.html",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://image.woshipm.com/2023/04/13/9047d7f2-d9df-11ed-8440-00163e0b5ff3.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://image.woshipm.com/2023/04/13/9047d7f2-d9df-11ed-8440-00163e0b5ff3.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.woshipm.com/ai/6485306.html",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.woshipm.com/ai/6485306.html",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://image.woshipm.com/2023/04/13/e19524d4-d9ee-11ed-bd74-00163e0b5ff3.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://image.woshipm.com/2023/04/13/e19524d4-d9ee-11ed-bd74-00163e0b5ff3.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.woshipm.com/ai/6493414.html",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.woshipm.com/ai/6493414.html",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://image.woshipm.com/2023/04/13/280e0b6c-d9de-11ed-8fc2-00163e0b5ff3.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://image.woshipm.com/2023/04/13/280e0b6c-d9de-11ed-8fc2-00163e0b5ff3.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.wzbj1616.com/script_info/2330",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://www.wzbj1616.com/script_info/2330",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://www.wzbj1616.com/storage/script/20221014/4bd78e36e97b19870554ab5382659b79.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://www.wzbj1616.com/storage/script/20221014/4bd78e36e97b19870554ab5382659b79.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.wzbj1616.com/script_info/2331",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://www.wzbj1616.com/script_info/2331",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://www.wzbj1616.com/storage/script/20261106/1679f8d560915a7f6d8fadc0a278a248.png",
+      "status": "200",
+      "content_type": "image/png",
+      "final_url": "https://www.wzbj1616.com/storage/script/20261106/1679f8d560915a7f6d8fadc0a278a248.png",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.wzbj1616.com/script_info/2332",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://www.wzbj1616.com/script_info/2332",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://www.wzbj1616.com/storage/script/20261107/0cd1fad9e0cd9491d1ec6ab01e2f4abe.jpeg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://www.wzbj1616.com/storage/script/20261107/0cd1fad9e0cd9491d1ec6ab01e2f4abe.jpeg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.wzbj1616.com/script_info/2333",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://www.wzbj1616.com/script_info/2333",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://www.wzbj1616.com/storage/script/20261107/c0cbee725d9a6de34e44d2d233bfd96e.png",
+      "status": "200",
+      "content_type": "image/png",
+      "final_url": "https://www.wzbj1616.com/storage/script/20261107/c0cbee725d9a6de34e44d2d233bfd96e.png",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.woshipm.com/ai/6490907.html",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.woshipm.com/ai/6490907.html",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://image.woshipm.com/2023/04/13/2413a510-d9ef-11ed-889f-00163e0b5ff3.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://image.woshipm.com/2023/04/13/2413a510-d9ef-11ed-889f-00163e0b5ff3.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.woshipm.com/pd/6487810.html",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.woshipm.com/pd/6487810.html",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://image.woshipm.com/2023/09/21/c69780ca-5877-11ee-b301-00163e142b65.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://image.woshipm.com/2023/09/21/c69780ca-5877-11ee-b301-00163e142b65.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.woshipm.com/ai/6487618.html",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.woshipm.com/ai/6487618.html",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://image.woshipm.com/2023/05/29/bcfce10c-fdc0-11ed-88d8-00163e0b5ff3.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://image.woshipm.com/2023/05/29/bcfce10c-fdc0-11ed-88d8-00163e0b5ff3.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.woshipm.com/share/6491281.html",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.woshipm.com/share/6491281.html",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://image.woshipm.com/2023/04/14/7785da1c-daa1-11ed-aee8-00163e0b5ff3.png",
+      "status": "200",
+      "content_type": "image/png",
+      "final_url": "https://image.woshipm.com/2023/04/14/7785da1c-daa1-11ed-aee8-00163e0b5ff3.png",
+      "ok": true
+    }
+  ],
+  "passed": true
+}
