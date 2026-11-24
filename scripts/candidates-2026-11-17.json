@@ -241,43 +241,43 @@
   },
   {
     "category": "AI 漫剧",
-    "title": "OiiOii 的 AI 视频创作与传播",
-    "url": "https://www.woshipm.com/ai/6494836.html",
-    "media": "https://image.woshipm.com/2023/04/13/47db8502-d9eb-11ed-bd74-00163e0b5ff3.jpg",
-    "note": "作者拆解 OiiOii 萌宠短片的参考图、表情微调与超分流程；文中播放量和节省积分来自作者案例。最可复用的是先试镜头、再为定稿花钱。",
-    "so_what": "漫剧制作先以低规格验证节奏和角色，再把预算花在选中的镜头上。",
+    "title": "揭秘《Obsession》面部微表情数字精修管线与无痕合成工艺",
+    "note": "befores & afters 深度拆解制作团队如何在不破坏演员原生表演肌理的前提下，用精细数字工具完成微妙面部修饰与光影匹配。",
+    "url": "https://beforesandafters.com/2026/11/17/behind-the-tools-and-techniques-used-to-craft-those-subtle-facial-enhancements-in-obsession/",
+    "media": "https://beforesandafters.com/wp-content/uploads/2026/11/obsession_Px19wx.jpg",
+    "so_what": "AI 漫剧换脸或微调最怕磨皮成假人，保留皮肤纹理与真实眼神光反射，才能过得了观众这一关。",
     "pinned": true,
-    "source": "woshipm.com"
+    "source": "beforesandafters.com"
   },
   {
     "category": "AI 漫剧",
-    "title": "萌系 AI 动画的动物 IP 增长",
-    "url": "https://www.woshipm.com/ai/6494344.html",
-    "media": "https://image.woshipm.com/2023/04/14/59e0bb5c-da8e-11ed-b69c-00163e0b5ff3.png",
-    "note": "文章从萌系动物搭档账号切入，观察无对白叙事与同质化问题；粉丝和播放数据属于报道时点。角色能否持续产生新冲突，决定后续还有没有故事。",
-    "so_what": "把动物 IP 的关系、欲望和冲突写成系列设定，给角色留出持续变化的空间。",
+    "title": "真假难辨：拆解灾难片《The Lost Bus》里实拍与 CG 的无缝边界",
+    "note": "对比片场原始素材与最终成片，还原剧组如何把烟火实拍元素叠加进全 CG 危机环境，用物理交互细节欺骗人眼。",
+    "url": "https://beforesandafters.com/2026/11/17/you-wont-believe-whats-real-or-cg-in-the-lost-bus/",
+    "media": "https://beforesandafters.com/wp-content/uploads/2026/11/Lost_Bus_v3b.jpg",
+    "so_what": "漫剧与短片做大场面不必迷信纯端到端生成，用真实烟雾、火光素材做前景叠加合成，质感立刻逼近院线。",
     "pinned": false,
-    "source": "woshipm.com"
+    "source": "beforesandafters.com"
   },
   {
     "category": "AI 漫剧",
-    "title": "六年自媒体作者的 AI 视频工作流",
-    "url": "https://www.woshipm.com/ai/6494640.html",
-    "media": "https://image.woshipm.com/2023/04/13/3adeef4c-d9eb-11ed-bd74-00163e0b5ff3.jpg",
-    "note": "作者公开 AI 视频的选题、稿件、配图、剪辑与配音链条，把判断和修改留给自己。完整流程的参考价值，往往高于某个惊艳片段。",
-    "so_what": "为自己的内容链记录每环节的人工耗时，优先改最费时间的那一环。",
+    "title": "莱卡工作室开启定格新片《Wildwood》试映，坚守高难度手工奇观",
+    "note": "Animation Magazine 报道顶级定格厂牌 LAIKA 的最新动向，在全行业狂卷 AI 提速的当下继续用极致工艺建立不可替代的品牌溢价。",
+    "url": "https://www.animationmagazine.net/2026/11/laika-offers-portlanders-free-wildwood-screenings/",
+    "media": "https://www.animationmagazine.net/wordpress/wp-content/uploads/Wildwood_Benson-bubbler.jpg",
+    "so_what": "越是效率工具普及，顶级手作工艺就越变成奢侈品；找准自己团队在“效率”与“工艺”光谱上的生态位。",
     "pinned": false,
-    "source": "woshipm.com"
+    "source": "animationmagazine.net"
   },
   {
     "category": "AI 漫剧",
-    "title": "Seedance 2.5 flash 视频生成实测",
-    "url": "https://www.woshipm.com/ai/6494541.html",
-    "media": "https://image.woshipm.com/wp-files/sha256/e2/c1/e2c172094e6f141fca5911f85e2a7e269926daa89e169210bf52377b521af486.png",
-    "note": "这篇 Seedance 2.5 flash 实测把视频效果和成本放到具体样例中讨论。单篇体验提供的是试用线索，自己的角色与镜头仍要单独验收。",
-    "so_what": "用同一组角色参考和分镜做小样比对，按可交付率核算生成成本。",
+    "title": "Cinelab 推出便携远程片场样片套件，打通跨洲实时审片流程",
+    "note": "CineD 报道专业影视后期方案商如何把沉重的数据回传与校色样片压缩进便携箱，实现全球外景地与后期机房的当日协同。",
+    "url": "https://www.cined.com/cinelabs-remote-kit-on-location-dailies-on-iodyne-pro-data-from-easter-island-to-kenya/",
+    "media": "https://www.cined.com/content/uploads/2026/11/iodyne-Pro-Data-3.jpeg",
+    "so_what": "远程分布式协作已成为影视与漫剧团队常态，把版本命名、样片批注与资产回传规范化，能大幅降低沟通成本。",
     "pinned": false,
-    "source": "woshipm.com"
+    "source": "cined.com"
   },
   {
     "category": "产品经理",
@@ -321,42 +321,42 @@
   },
   {
     "category": "编剧技巧",
-    "title": "故事结构的深层逻辑",
-    "url": "https://www.wzbj1616.com/script_necessary_info/978",
-    "media": "https://www.wzbj1616.com/storage/system/20200915/b29d26edb5e6322de989654c40c92aaf.png",
-    "note": "这篇十一月五日的教程借特鲁比结构讨论道德论点、人物网络与行动计划。给每场戏一把取舍的尺子，比把二十二步逐项填满更重要。（配图为信源品牌图。）",
-    "so_what": "为短剧母本写一句可被情节检验的判断，再删掉与它无关的支线。",
+    "title": "StudioBinder 镜表指南：把文字剧本精准翻译成导演镜头清单",
+    "note": "完整解析 Shot List 里的景别、机位角度、运镜方式与声音提示字段，帮助创作者在开机或生图前把每一场戏的视听语言定死。",
+    "url": "https://www.studiobinder.com/blog/shot-list-template-free-download/",
+    "media": "https://s.studiobinder.com/wp-content/uploads/2016/07/Free-Shot-List-Template-Download-Header-Image-StudioBinder.jpg",
+    "so_what": "AI 漫剧提示词写不稳，往往是缺了这张镜头清单——先把景别、角度、主体动作拆成表格，出片率能翻一倍。",
     "pinned": true,
-    "source": "wzbj1616.com"
+    "source": "studiobinder.com"
   },
   {
     "category": "编剧技巧",
-    "title": "不是所有好故事都要强情节：故事三角与序列法",
-    "url": "https://www.wzbj1616.com/script_necessary_info/977",
-    "media": "https://www.wzbj1616.com/storage/system/20200915/b29d26edb5e6322de989654c40c92aaf.png",
-    "note": "这篇十一月五日的教程比较故事三角与序列组织，提醒创作者先选叙事方式。安静的故事也能成立，条件是人物的变化足够清楚。（配图为信源品牌图。）",
-    "so_what": "先确定作品依靠事件推进还是内心变化，再选择结构工具，别强塞反转。",
+    "title": "Industrial Scripts：如何塑造让观众真正共情、念念不忘的角色",
+    "note": "拆解观众爱上一个角色的四个关键触发器：具体的小善意、不完美的脆弱感、主动采取行动的决心，以及面临两难时的真实代价。",
+    "url": "https://industrialscripts.com/relatable-characters/",
+    "media": "https://industrialscripts.com/wp-content/uploads/2024/11/WebStory-Spider-Man-Tobey-Maguireslide-18.webp",
+    "so_what": "被动挨打、只靠金手指翻盘的主角很难留住人；让角色在逆境里主动迈出哪怕微小的一步，共情就建立了。",
     "pinned": false,
-    "source": "wzbj1616.com"
+    "source": "industrialscripts.com"
   },
   {
     "category": "编剧技巧",
-    "title": "英雄之旅：为什么全世界都爱这个套路",
-    "url": "https://www.wzbj1616.com/script_necessary_info/968",
-    "media": "https://www.wzbj1616.com/storage/system/20200915/b29d26edb5e6322de989654c40c92aaf.png",
-    "note": "这篇十月二十一日的教程把英雄之旅落在门槛、磨难与归来后的改变。阶段表只供诊断，角色得为跨过门槛付出真实代价。（配图为信源品牌图。）",
-    "so_what": "检查主角跨过门槛后失去什么，以及结尾带回什么可见的改变。",
+    "title": "黑名单编剧访谈（第二篇）：如何把模糊灵感孵化成扎实分场大纲",
+    "note": "Katla Sólnes 分享从笔记碎片走到完整故事骨架的实操步骤，重点讨论如何在动笔写对话前先验证所有情节点是否成立。",
+    "url": "https://gointothestory.blcklst.com/go-into-the-story-interview-part-2-katla-solnes/",
+    "media": "https://storage.ghost.io/c/8f/29/8f29b0a7-49e5-431c-a9bb-3ade9c0a785e/content/images/2026/11/Nicholl-Solnes-1.jpg",
+    "so_what": "别一有灵感就急着写第一场对白；先用索引卡把开端、中点、灵魂暗夜和结局四个锚点钉牢，能少废三稿。",
     "pinned": false,
-    "source": "wzbj1616.com"
+    "source": "gointothestory.blcklst.com"
   },
   {
     "category": "编剧技巧",
-    "title": "第二幕总塌？用救猫咪十五节拍自查",
-    "url": "https://www.wzbj1616.com/script_necessary_info/965",
-    "media": "https://www.wzbj1616.com/storage/system/20200915/b29d26edb5e6322de989654c40c92aaf.png",
-    "note": "这篇十月十六日的教程用十五节拍排查第二幕，重点看中点逆转、失去退路与自省。故事中段有没有改变信息或力量关系，值得先检查。（配图为信源品牌图。）",
-    "so_what": "把中段每场戏新增的信息写出来；没有新增信息的重复冲突优先删改。",
+    "title": "No Film School 拉片：1993 年《亚当斯一家 2》为何封神喜剧名场面",
+    "note": "逐镜拆解克里斯蒂娜·里奇主演的经典感恩节舞台剧桥段，剖析如何用极度一本正经的反讽表演颠覆传统合家欢套路。",
+    "url": "https://nofilmschool.com/addams-family-values-thanksgiving-scene",
+    "media": "https://nofilmschool.com/media-library/image.jpg?id=68752336&width=1200&height=600&coordinates=0%2C33%2C0%2C33",
+    "so_what": "高级讽刺喜剧从不挤眉弄眼讨好观众——让角色用最严肃的态度干最离谱的事，笑点才足够锋利。",
     "pinned": false,
-    "source": "wzbj1616.com"
+    "source": "nofilmschool.com"
   }
 ]

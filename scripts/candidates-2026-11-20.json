@@ -241,43 +241,43 @@
   },
   {
     "category": "AI 漫剧",
-    "title": "一人制作 AI 科幻长片的创作经历",
-    "url": "https://www.woshipm.com/ai/6497015.html",
-    "media": "https://image.woshipm.com/wp-files/sha256/8f/c8/8fc8f3b98a9bcb0f5a52c94654bbb02c1495ebaec664fbbeb347b719504069c2.jpg",
-    "note": "报道记录灵玉独自制作《代号：悟空》的经历，涉及自学、工作流与收入断档。播放和获奖信息按报道口径呈现；值得细读的是成片之前持续投入的过程。",
-    "so_what": "规划一人影像项目时，把试错周期和生活成本一起算进制作计划。",
+    "title": "Instagram 上线内容防盗保护：自动监测搬运并测试 AI 语音比对",
+    "note": "CineD 报道平台推出跨账号搬运自动拦截与 AI 口播声纹匹配测试，帮助原创短视频与漫剧团队守住流量归属与署名权。",
+    "url": "https://www.cined.com/instagram-content-protection-launched-automatic-repost-detection-credit-links-and-ai-spoken-word-matching-test/",
+    "media": "https://www.cined.com/content/uploads/2026/11/instagram-content-protection-featured.jpg",
+    "so_what": "漫剧爆款最怕上线两小时就被全网切片搬运，善用平台原声与画面指纹保护机制是保住 ROI 的必修课。",
     "pinned": true,
-    "source": "woshipm.com"
+    "source": "cined.com"
   },
   {
     "category": "AI 漫剧",
-    "title": "AI 视频的成本与生产方式变化",
-    "url": "https://www.woshipm.com/ai/6496990.html",
-    "media": "https://image.woshipm.com/wp-files/sha256/43/e2/43e2d779caee6f5f5e5125b4a6ef32fa93923e1e8096fcaa8dc7e46cd3a55912.jpg",
-    "note": "文章比较 AI 视频生成降价与平台收入结构，讨论创作者批量调用的变化。报价具有时间与档位条件，低单次价格不自动等于低成片成本。",
-    "so_what": "按可用镜头和后期修补时间核算预算，定期用相同分镜重新比较工具。",
+    "title": "CoSA 团队拆解现象级怪谈《Backrooms（后室）》视效制作流程",
+    "note": "befores & afters 揭秘工作室如何把风靡全网的阈限空间都市传说做成高质感影视画面，拆解低光噪点、复古画幅与空间畸变技巧。",
+    "url": "https://beforesandafters.com/2026/11/20/cosa-breaks-down-its-backrooms-vfx/",
+    "media": "https://beforesandafters.com/wp-content/uploads/2026/11/cosa11.jpg",
+    "so_what": "规则怪谈与阈限空间极度契合 AI 漫剧的低成本优势——靠氛围压迫与声音设计取胜，无需昂贵大场面特效。",
     "pinned": false,
-    "source": "woshipm.com"
+    "source": "beforesandafters.com"
   },
   {
     "category": "AI 漫剧",
-    "title": "视频选题的三个检查角度",
-    "url": "https://www.woshipm.com/marketing/6422832.html",
-    "media": "https://image.woshipm.com/2023/05/06/2721b740-ec02-11ed-96ae-00163e0b5ff3.jpg",
-    "note": "作者用有趣、有用和有共鸣三个角度检查视频选题，提醒创作者先想受众在乎什么。框架提供改稿线索，不是每条内容都能增长的保证。",
-    "so_what": "写漫剧或短视频开头前，先写出观众为何愿意继续看下一幕。",
+    "title": "定格动画的魅力：抽帧质感与手工材质如何击中数字时代观众",
+    "note": "剖析定格动画刻意保留的帧率顿挫与手作肌理为何在超清流媒体时代反而极具吸引力，为风格化短片提供反向参考。",
+    "url": "https://beforesandafters.com/2026/11/20/stop-motion-delights/",
+    "media": "https://beforesandafters.com/wp-content/uploads/2026/11/Droids_02.jpg",
+    "so_what": "AI 漫剧未必非要追求丝滑 60 帧，刻意控制抽帧节奏与黏土/剪纸材质感，反而能做出过目不忘的视觉标签。",
     "pinned": false,
-    "source": "woshipm.com"
+    "source": "beforesandafters.com"
   },
   {
     "category": "AI 漫剧",
-    "title": "AI 音乐给独立音乐人带来的变化",
-    "url": "https://www.woshipm.com/ai/6496084.html",
-    "media": "https://image.woshipm.com/2023/04/14/0d8c676e-da8f-11ed-a86f-00163e0b5ff3.jpg",
-    "note": "这篇独立音乐人报道呈现 AI 生产增加后，部分从业者在收入、分工与审美上的压力。个案无法代表全行业，却让内容降本背后的人有了面孔。",
-    "so_what": "为影像选择配乐时，同时考虑创作合作、素材来源与后续使用范围。",
+    "title": "奥斯卡学院软件基金会迎来新掌门，推动影视开源资产标准演进",
+    "note": "AWN 报道 Andrew Pearce 出任 ASWF 执行总监，持续推进 OpenUSD、OpenEXR 等开源标准，打通影视与实时引擎资产互通。",
+    "url": "https://www.awn.com/news/andrew-pearce-named-academy-software-foundation-executive-director",
+    "media": "https://www.awn.com/sites/default/files/styles/og_1200/public/image/attached/1081885-andrew-pearce-1-1280.jpg?itok=jGuebfx4",
+    "so_what": "OpenUSD 等开放格式正在成为跨工具流转的通用语言，漫剧团队沉淀场景与角色资产时尽量拥抱开放标准。",
     "pinned": false,
-    "source": "woshipm.com"
+    "source": "awn.com"
   },
   {
     "category": "产品经理",
@@ -321,42 +321,42 @@
   },
   {
     "category": "编剧技巧",
-    "title": "《发小揍我考满分》：校园喜剧与软科幻设定",
-    "url": "https://www.wzbj1616.com/script_info/2312",
-    "media": "https://www.wzbj1616.com/storage/script/20261030/4cef4545f58a6adf6ea9bd7152de854e.jpeg",
-    "note": "《发小揍我考满分》的公开简介以机器逻辑与校园日常碰撞，承接青梅竹马的情感线。适合练习：一条软科幻规则怎样持续制造喜剧，又参与情绪收束。",
-    "so_what": "为科幻设定安排至少一次喜剧作用和一次情感作用，检查它是否真正长在故事里。",
+    "title": "Industrial Scripts：如何写出极具追更粘性的剧集单集剧本",
+    "note": "系统拆解剧集 A/B/C 多线穿插配比、冷开场（Teaser）钩子设计与幕间悬念卡点，教你用结构留住下一集点击率。",
+    "url": "https://industrialscripts.com/how-to-write-a-tv-show-script/",
+    "media": "https://industrialscripts.com/wp-content/uploads/2025/01/image-1024x576.png",
+    "so_what": "剧集与电影最大的不同在于“不能一次解决所有矛盾”——每集结尾留一个撕开新伤口的小反转，观众才会追更。",
     "pinned": true,
-    "source": "wzbj1616.com"
+    "source": "industrialscripts.com"
   },
   {
     "category": "编剧技巧",
-    "title": "《爻变长安》：五单元悬疑结构的阅读入口",
-    "url": "https://www.wzbj1616.com/script_info/1930",
-    "media": "https://www.wzbj1616.com/storage/script/20260701/167ed3d0e9a332129cc8b6d4d81c4700.jpg",
-    "note": "《爻变长安》的公开介绍从命案时辰、死法和遗留物建立关联。阅读练习可以聚焦线索的规则性：哪些细节先被看到，哪些到后面才获得意义。",
-    "so_what": "列出线索第一次出现与意义揭晓的位置，检查观众能否在回看时拼出因果。",
+    "title": "黑名单交易剧本《Fairytale in New York》：高概念都市喜剧怎么立",
+    "note": "Go Into The Story 拆解最新成交的纽约背景原创剧本，分析特定城市空间如何与倒计时事件绑定，催生高密度喜剧误会。",
+    "url": "https://gointothestory.blcklst.com/spec-script-deal-fairytale-in-new-york/",
+    "media": "https://storage.ghost.io/c/8f/29/8f29b0a7-49e5-431c-a9bb-3ade9c0a785e/content/images/2026/11/Hollywood---venti-views-6QDvwq2Fjsc-unsplash-copy.jpg",
+    "so_what": "好故事离不开具体的物理空间约束：把角色关在特定时间与地点的“高压锅”里，戏自然就沸腾了。",
     "pinned": false,
-    "source": "wzbj1616.com"
+    "source": "gointothestory.blcklst.com"
   },
   {
     "category": "编剧技巧",
-    "title": "《求求你，别爱我》：家庭喜剧的关系设计",
-    "url": "https://www.wzbj1616.com/script_info/1757",
-    "media": "https://www.wzbj1616.com/storage/script/20260513/31931713e17c087483c18dd79644febd.jpg",
-    "note": "《求求你，别爱我》的公开简介将父母撮合、职场误会和假婚姻交织在一起。关系喜剧的推进，来自各人目的不同，却不得不继续同处一个局面。",
-    "so_what": "画出角色各自想要什么，以及哪件事逼他们持续相处，让冲突从关系里生长。",
+    "title": "No Film School：007 詹姆斯·邦德必须遵守的四条系列人物铁律",
+    "note": "复盘延续六十余年的顶级动作 IP 角色圣经，解析创作者如何在时代变迁中既刷新剧情又不破坏核心观众对人设的底线期待。",
+    "url": "https://nofilmschool.com/james-bond-rules-dos-and-donts",
+    "media": "https://nofilmschool.com/media-library/image.jpg?id=34055569&width=1200&height=600&coordinates=0%2C53%2C0%2C54",
+    "so_what": "做系列漫剧或长篇 IP，先写清主角“绝对会做”和“绝对不做”的四条铁律，换编剧也不会写崩人设。",
     "pinned": false,
-    "source": "wzbj1616.com"
+    "source": "nofilmschool.com"
   },
   {
     "category": "编剧技巧",
-    "title": "《诡镇谜案》：民俗惊悚与悬疑线索",
-    "url": "https://www.wzbj1616.com/script_info/2172",
-    "media": "https://www.wzbj1616.com/storage/script/20260918/9e086e353b48dd02869c41b07eb60c2b.png",
-    "note": "《诡镇谜案》的公开介绍用民俗异事包裹旧怨与人心，强调悬疑反转。可以练习区分表面的怪事与背后的因果，再看揭晓前是否留够了可回看的线索。",
-    "so_what": "把每个惊悚事件对应到背后的人物动机，避免谜底只靠最后新增的信息。",
+    "title": "John August 分享《人物塑造工具箱》：避免写出一堆同质化工具人",
+    "note": "提供一套从日常习惯、口头禅、回避话题到道德底线的多维人物校验法，帮助编剧在动笔写对白前先把角色声线彻底拉开。",
+    "url": "https://johnaugust.com/2026/character-creator-kit",
+    "media": "https://johnaugust.com/wp-content/uploads/2026/10/deck-square.jpg",
+    "so_what": "检验人物成不成功就用“遮名测试”：把剧本里角色名字全遮住，看读者还能不能一眼认出这句话是谁说的。",
     "pinned": false,
-    "source": "wzbj1616.com"
+    "source": "johnaugust.com"
   }
 ]

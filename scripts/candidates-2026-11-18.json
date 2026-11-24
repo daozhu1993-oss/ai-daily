@@ -241,43 +241,43 @@
   },
   {
     "category": "AI 漫剧",
-    "title": "说一句人话出图，点一下只改这里",
-    "url": "https://www.woshipm.com/ai/6495761.html",
-    "media": "https://image.woshipm.com/2024/09/30/da29e510-7f18-11ef-9237-00163e142b65.png",
-    "note": "Baopix 的发布介绍强调用白话生成设计、局部修改和分层导出。对漫剧前期而言，值得试的是改表情或道具时，其他画面元素能否真正保住。",
-    "so_what": "用同一张角色图做局部修改小样，检查未选中区域漂移，再决定是否接入分镜流程。",
-    "pinned": false,
-    "source": "woshipm.com"
-  },
-  {
-    "category": "AI 漫剧",
-    "title": "第一人称互动视频 Loopcat 的产品尝试",
-    "url": "https://www.woshipm.com/ai/6495672.html",
-    "media": "https://image.woshipm.com/wp-files/sha256/c0/ac/c0ac44b95ea775b08d3d2ff635a40163ac17cfa3eb2eeb61a89958e6a1f633f2.png",
-    "note": "Loopcat 让观众输入台词和动作，再生成下一回合的视频与角色回应。报道展示了角色设定、时间线与羁绊系统，观看正在变成参与一段关系。",
-    "so_what": "互动故事先写清每轮可选择什么、改变什么，避免输入框很自由、剧情却毫无反应。",
+    "title": "雪山实拍遇上数字资产：《Tenzing》幕后视效拆解卷曝光",
+    "note": "befores & afters 放出登山传记片视效对比卷，展示如何将真实外景与程序化暴风雪、山脊数字绘景无缝融合，兼顾安全与宏大尺度。",
+    "url": "https://beforesandafters.com/2026/11/18/go-behind-the-scenes-of-tenzing-with-this-vfx-reel/",
+    "media": "https://beforesandafters.com/wp-content/uploads/2026/11/ten.jpg",
+    "so_what": "宏大奇观场景不必全靠盲生成，把前景人物表演做稳、中远景用可控数字绘景延伸，最省算力也最稳。",
     "pinned": true,
-    "source": "woshipm.com"
+    "source": "beforesandafters.com"
   },
   {
     "category": "AI 漫剧",
-    "title": "Seedance 进入影视制作现场",
-    "url": "https://www.woshipm.com/ai/6495351.html",
-    "media": "https://image.woshipm.com/2023/04/13/9047d7f2-d9df-11ed-8440-00163e0b5ff3.jpg",
-    "note": "这篇行业报道介绍 Seedance 进入剧集、片场与后期制作的案例，并讨论参考素材、样片和高分辨率交付。商业案例属于报道口径，不等于每个团队都能复现的产能。",
-    "so_what": "选一个明确镜头做样片，按成片可用率和后期修补时间核算制作成本。",
+    "title": "Pluto TV 免费频道一口气引入六部 Adult Swim 热门成人动画",
+    "note": "Animation Magazine 报道免费广告流媒体（FAST）大举加码成人向动画内容，印证轻体量、强风格成人动画拥有极高的复看留存。",
+    "url": "https://www.animationmagazine.net/2026/11/pluto-tv-adds-six-adult-swim-animation-hits-to-free-library/",
+    "media": "https://www.animationmagazine.net/wordpress/wp-content/uploads/Adult-Swim-on-Pluto-TV.png",
+    "so_what": "成人向短平快动画的商业生命周期极长，把单集控制在 5-15 分钟且梗密度拉满，非常适合跨平台长尾分发。",
     "pinned": false,
-    "source": "woshipm.com"
+    "source": "animationmagazine.net"
   },
   {
     "category": "AI 漫剧",
-    "title": "番茄与红果：短剧平台的内容生意",
-    "url": "https://www.woshipm.com/ai/6480718.html",
-    "media": "https://image.woshipm.com/2023/09/12/c2e5f596-5116-11ee-b8bc-00163e142b65.jpg",
-    "note": "这篇十月的行业分析串起番茄网文、红果短剧与动画改编，讨论免费分发和作者供给。内容平台扩大出口的同时，也会改变创作者的议价位置。",
-    "so_what": "做漫剧IP规划时，同时考虑故事来源、改编权与分发依赖，别把流量入口当作自己的资产。",
+    "title": "波丽佳音官宣原创动画新企划《KUKU-LOOP》，定档 2027 亮相",
+    "note": "AWN 追踪日本老牌厂牌继续押注“时间循环”母题原创番剧，展示日漫委员会制下提前两年锁定核心视觉与宣发节点的节奏。",
+    "url": "https://www.awn.com/news/pony-canyon-sets-2027-debut-kuku-loop-anime",
+    "media": "https://www.awn.com/sites/default/files/styles/og_1200/public/image/attached/1081872-kukuloopteaser-visualen-2-1280.jpg?itok=q3wIjeOy",
+    "so_what": "“循环”母题在漫剧与动画里经久不衰，因为场景资产可以高频复用，极省预算又能靠信息差不断制造反转。",
     "pinned": false,
-    "source": "woshipm.com"
+    "source": "awn.com"
+  },
+  {
+    "category": "AI 漫剧",
+    "title": "Maga Animation 操刀游戏续作《The Wardrobe 2》2D 预告动画",
+    "note": "独立游戏与专业 2D 动画工作室跨界联动，用极高帧数的夸张手绘喜剧表现力在预告片阶段迅速引爆玩家社区讨论。",
+    "url": "https://www.awn.com/news/maga-animation-studio-animates-wardrobe-2-teaser",
+    "media": "https://www.awn.com/sites/default/files/styles/og_1200/public/image/attached/1081881-maga-animation-studio-cinic-games-thewardrobe2-giordana-raccah-1280.jpg?itok=9irft1O7",
+    "so_what": "独立游戏宣发 PV 正在成为精品 AI/2D 动画团队的高客单价 B 端业务入口，短而炸的 60 秒成片最吃香。",
+    "pinned": false,
+    "source": "awn.com"
   },
   {
     "category": "产品经理",
@@ -321,42 +321,42 @@
   },
   {
     "category": "编剧技巧",
-    "title": "场景写不对，全剧都白费",
-    "url": "https://www.wzbj1616.com/script_necessary_info/982",
-    "media": "https://www.wzbj1616.com/storage/system/20200915/b29d26edb5e6322de989654c40c92aaf.png",
-    "note": "十一月十七日更新的场景教程，用目标、冲突和转折检查一场戏是否真的推进了人物处境。少写寒暄，多看场末的关系和信息有没有变化。配图为信源品牌图。",
-    "so_what": "为每场戏写下开场与结尾的状态差异，删掉没有推动关系或信息的重复对话。",
+    "title": "StudioBinder 实操：如何专业拆解剧本并制作统筹拆解表",
+    "note": "手把手示范如何用色彩标记从文字剧本中提取角色、道具、服化、特效与场景清单，打通编剧案头到实际制片预算的关键一跃。",
+    "url": "https://www.studiobinder.com/blog/free-script-breakdown-sheet/",
+    "media": "https://s.studiobinder.com/wp-content/uploads/2018/06/How-to-Break-Down-a-Script-with-a-FREE-Script-Breakdown-Sheet-Template-StudioBinder-Script-Breakdown-and-Scheduling-Software-Header.png",
+    "so_what": "无论实拍还是 AI 漫剧，动工前先做完剧本三清单（角色/场景/道具资产锁），能减少后期 80% 的穿帮与返工。",
     "pinned": true,
-    "source": "wzbj1616.com"
+    "source": "studiobinder.com"
   },
   {
     "category": "编剧技巧",
-    "title": "人物出场三分钟，观众就该记住他",
-    "url": "https://www.wzbj1616.com/script_necessary_info/964",
-    "media": "https://www.wzbj1616.com/storage/system/20200915/b29d26edb5e6322de989654c40c92aaf.png",
-    "note": "这篇人物出场教程强调用动作与选择建立第一印象，再留一点反差。人物履历再完整，也替代不了观众亲眼看见的一次决定。配图为信源品牌图。",
-    "so_what": "给新角色安排一个小而有代价的选择，让性格先在行动里成立。",
+    "title": "Industrial Scripts：如何构建步步紧逼、绝不泄气的强戏剧冲突",
+    "note": "区分外部障碍、人际对抗与内心撕裂三层冲突，示范如何让对手的动机和主角同样充分，避免反派沦为纯功能性的降智沙包。",
+    "url": "https://industrialscripts.com/conflict-in-a-story/",
+    "media": "https://industrialscripts.com/wp-content/uploads/2024/11/therevenantleonardo.jpg",
+    "so_what": "反派有多强，主角的高光就有多亮；给反派一套站得住脚的价值观，整部戏的格局会瞬间拉高。",
     "pinned": false,
-    "source": "wzbj1616.com"
+    "source": "industrialscripts.com"
   },
   {
     "category": "编剧技巧",
-    "title": "《黑客帝国3：矩阵革命》剧本阅读",
-    "url": "https://www.wzbj1616.com/script_info/2297",
-    "media": "https://www.wzbj1616.com/storage/script/20261027/112ee861ec3efcb67cb80f58e9d9c19f.png",
-    "note": "《黑客帝国3》赏读入口提供影片简介及阅读入口，可用来观察终章如何同时处理群体危机和主角选择。本期依据公开简介推荐，不将其当作全剧本细读报告。",
-    "so_what": "写系列终章时，分别列出外部危机与人物内在选择，检查两者是否在结尾相遇。",
+    "title": "John August：文字里的“隐形导演术”，不写运镜词如何控镜头",
+    "note": "教编剧如何通过段落换行、信息揭示顺序与感官动词引导读者脑海里的景别切换，而无需在剧本里堆满生硬的“特写/推镜”指令。",
+    "url": "https://johnaugust.com/2026/directing-your-writing",
+    "media": "https://johnaugust.com/wp-content/uploads/2021/04/ja-tw-card-small.png",
+    "so_what": "好剧本不用写“镜头推进”，只需另起一行写“茶杯里的水纹颤了一下”，所有读者和导演都会自动切到特写。",
     "pinned": false,
-    "source": "wzbj1616.com"
+    "source": "johnaugust.com"
   },
   {
     "category": "编剧技巧",
-    "title": "《咸亨酒店》：鲁迅小说的舞台改编",
-    "url": "https://www.wzbj1616.com/script_info/1726",
-    "media": "https://www.wzbj1616.com/storage/script/20260420/7a9b92580f53b65453c295e53e0e40d4.png",
-    "note": "《咸亨酒店》的公开介绍将鲁迅多部小说人物汇入同一舞台空间。这个改编入口适合思考：多条人物线如何共享一个地点，又保留各自的困境。",
-    "so_what": "改编多篇短故事时，先找共享空间与主题冲突，再决定人物怎样相互影响。",
+    "title": "No Film School：秋天意象在影像叙事中如何承担隐形情绪转场",
+    "note": "分析经典影片如何利用季节枯荣、色调冷暖与落叶环境音外化人物内心的告别与转折，用视觉隐喻替代多余的旁白独白。",
+    "url": "https://nofilmschool.com/autumn-symbolism-queer-cinema",
+    "media": "https://nofilmschool.com/media-library/image.png?id=68747919&width=1200&height=600&coordinates=0%2C39%2C0%2C39",
+    "so_what": "能用环境天气和色彩变化演出来的情绪，就别让角色张嘴念出来；克制的意象比煽情台词更耐人回味。",
     "pinned": false,
-    "source": "wzbj1616.com"
+    "source": "nofilmschool.com"
   }
 ]

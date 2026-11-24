@@ -1,6 +1,14 @@
 {
-  "description": "每日 AI 日报公开抓取与监控数据源清单",
+  "description": "每日 AI 日报公开抓取与监控数据源清单（含 AI 漫剧与编剧技巧高质量垂直新信源）",
+  "updated_at": "2026-11-24",
   "sources": [
+    {
+      "category": "综合主源（6 大赛道）",
+      "name": "伊恩日刊 iandaily.xyz",
+      "type": "web",
+      "url": "https://iandaily.xyz/",
+      "description": "每日精选 AI 资讯、AI 协作、一人公司、产品设计、审美提升、产品营销一手条目"
+    },
     {
       "category": "AI 资讯",
       "name": "Anthropic Official Blog",
@@ -23,53 +31,116 @@
       "description": "全球前沿开源学术论文与权重突破"
     },
     {
-      "category": "一人公司",
-      "name": "Product Hunt Trending",
+      "category": "AI 漫剧",
+      "name": "AIbase 资讯",
       "type": "web",
-      "url": "https://www.producthunt.com",
-      "description": "每日热门独立产品与新应用"
+      "url": "https://news.aibase.com/zh/news",
+      "noproxy": true,
+      "description": "中文 AI 视频、可灵/即梦/Seedance 与 AI 漫剧一线快讯"
     },
     {
-      "category": "一人公司",
-      "name": "Indie Hackers",
+      "category": "AI 漫剧",
+      "name": "量子位 QbitAI",
       "type": "rss",
-      "url": "https://www.indiehackers.com",
-      "description": "独立开发者营收分享与实战案例"
+      "url": "https://www.qbitai.com/feed",
+      "noproxy": true,
+      "description": "中文一手多模态、AI 视频模型与短剧创作实测"
     },
     {
-      "category": "产品设计",
-      "name": "Sidebar Design Digest",
+      "category": "AI 漫剧",
+      "name": "AWN 动画世界",
       "type": "rss",
-      "url": "https://sidebar.io",
-      "description": "全球优质 UI/UX 设计文章与交互案例"
+      "url": "https://www.awn.com/rss.xml",
+      "noproxy": false,
+      "description": "全球头部动画与 VFX 媒体，聚焦动画管线、AI 辅助动画与虚拟制片"
     },
     {
-      "category": "产品设计",
-      "name": "Linear Readme & Changelog",
-      "type": "web",
-      "url": "https://linear.app/changelog",
-      "description": "顶级产品设计范式与工程美学"
+      "category": "AI 漫剧",
+      "name": "Animation Magazine",
+      "type": "rss",
+      "url": "https://www.animationmagazine.net/feed/",
+      "noproxy": false,
+      "description": "动画行业日更，覆盖短片、漫剧工业化与流媒体动画趋势"
     },
     {
-      "category": "审美提升",
-      "name": "Typewolf / Typography",
-      "type": "web",
-      "url": "https://www.typewolf.com",
-      "description": "数字排版与字体流行风向标"
+      "category": "AI 漫剧",
+      "name": "befores & afters",
+      "type": "rss",
+      "url": "https://beforesandafters.com/feed/",
+      "noproxy": false,
+      "description": "顶级视效与虚拟制片幕后拆解（分镜、预演、资产管线）"
     },
     {
-      "category": "产品营销",
-      "name": "Growth Design Case Studies",
-      "type": "web",
-      "url": "https://growth.design/case-studies",
-      "description": "以故事分镜拆解的增长黑客与营销案例"
+      "category": "AI 漫剧",
+      "name": "CineD",
+      "type": "rss",
+      "url": "https://www.cined.com/feed/",
+      "noproxy": false,
+      "description": "影视拍摄、后期与 AI 视频制作工具实操"
     },
     {
-      "category": "AI 协作",
-      "name": "GitHub Trending AI",
+      "category": "编剧技巧",
+      "name": "No Film School",
+      "type": "rss",
+      "url": "https://nofilmschool.com/rss.xml",
+      "noproxy": false,
+      "description": "每日高产剧作结构、名片拉片、镜头叙事与编剧访谈"
+    },
+    {
+      "category": "编剧技巧",
+      "name": "Go Into The Story (The Black List)",
+      "type": "rss",
+      "url": "https://gointothestory.blcklst.com/feed",
+      "noproxy": false,
+      "description": "The Black List 官方编剧日更站，业内公认第一编剧方法论博客"
+    },
+    {
+      "category": "编剧技巧",
+      "name": "StudioBinder Screenwriting",
       "type": "web",
-      "url": "https://github.com/trending?since=daily",
-      "description": "每日热门 AI Agent 与开发者协作工具仓库"
+      "url": "https://www.studiobinder.com/blog/screenwriting/",
+      "noproxy": false,
+      "description": "教科书级编剧结构、人物弧光与分镜图文拆解"
+    },
+    {
+      "category": "编剧技巧",
+      "name": "Industrial Scripts",
+      "type": "rss",
+      "url": "https://industrialscripts.com/feed/",
+      "noproxy": false,
+      "description": "剧本诊断、类型片套路、反派构建与冲突升级拆解"
+    },
+    {
+      "category": "编剧技巧",
+      "name": "John August",
+      "type": "rss",
+      "url": "https://johnaugust.com/feed",
+      "noproxy": false,
+      "description": "好莱坞一线编剧博客与 Scriptnotes 精华，聚焦真实编剧工业问题"
+    },
+    {
+      "category": "编剧技巧",
+      "name": "IndieWire Film",
+      "type": "rss",
+      "url": "https://www.indiewire.com/c/film/feed/",
+      "noproxy": false,
+      "description": "顶级导演与编剧深度访谈、创作机制揭秘"
+    },
+    {
+      "category": "编剧技巧",
+      "name": "机核网 GCORES",
+      "type": "rss",
+      "url": "https://www.gcores.com/rss",
+      "noproxy": true,
+      "description": "中文高密度叙事分析、影视与游戏世界观拆解"
+    },
+    {
+      "category": "产品经理",
+      "name": "人人都是产品经理",
+      "type": "web",
+      "url": "https://www.woshipm.com/",
+      "noproxy": true,
+      "description": "中文产品方法论、需求定义与 AI 产品实战复盘"
     }
   ]
 }

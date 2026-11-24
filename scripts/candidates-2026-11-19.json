@@ -241,43 +241,43 @@
   },
   {
     "category": "AI 漫剧",
-    "title": "红果短剧引来的平台竞争",
-    "url": "https://www.woshipm.com/ai/6496064.html",
-    "media": "https://image.woshipm.com/2023/04/14/0639dc80-da8f-11ed-a86f-00163e0b5ff3.jpg",
-    "note": "报道将红果带来的竞争放回用户时间分配中，梳理多家平台进入短剧。文章转述的规模数据有统计口径和时点，本期关注的是创作者的分发选择。",
-    "so_what": "做漫剧发行计划时比较平台用户、内容偏好与结算条件，分散单一渠道依赖。",
-    "pinned": false,
-    "source": "woshipm.com"
-  },
-  {
-    "category": "AI 漫剧",
-    "title": "真实犯罪改编与 AI 短剧订阅产品",
-    "url": "https://www.woshipm.com/share/6341692.html",
-    "media": "https://image.woshipm.com/2026/02/11/d30a9502-074a-11f1-acc3-00163e4b86a1.jpg",
-    "note": "TrueShort 案例用真实犯罪题材切入短剧订阅，文中的收入和增长为报道转述的公司口径。细分题材值得研究，案件叙述仍要把事实和戏剧加工分开。",
-    "so_what": "题材产品化先做小样验证付费意愿，同时让受众能辨认事实依据与改编部分。",
-    "pinned": false,
-    "source": "woshipm.com"
-  },
-  {
-    "category": "AI 漫剧",
-    "title": "把脸借给 AI 短剧之后的授权问题",
-    "url": "https://www.woshipm.com/ai/6389471.html",
-    "media": "https://image.woshipm.com/2023/04/13/13569fa6-d9eb-11ed-889f-00163e0b5ff3.jpg",
-    "note": "这篇报道追问普通人的面孔进入 AI 短剧后，能否控制用途和后续流转。它提供制作授权问题的观察入口，个案描述不能替代对具体协议的逐项核对。",
-    "so_what": "使用真人形象前写清允许用途、流转范围与退出方式，并保留可追踪的授权记录。",
+    "title": "电影拉片与分镜神库 ShotDeck 大改版：支持自然语言检索动态片段",
+    "note": "CineD 报道专业影视参考库升级自然语言搜镜头与影视动态片段功能，并开放公开参考板，极大加速导演与分镜师前期找参考效率。",
+    "url": "https://www.cined.com/shotdeck-relaunch-announced-natural-language-search-movie-and-tv-clips-public-decks/",
+    "media": "https://www.cined.com/content/uploads/2026/11/shotdeck-relaunch-new-look-web-mobile.jpg",
+    "so_what": "AI 生图生视频最怕“空想提示词”，用 ShotDeck 先按情绪和光影找到电影实拍参考帧，画质和构图瞬间稳两个档次。",
     "pinned": true,
-    "source": "woshipm.com"
+    "source": "cined.com"
   },
   {
     "category": "AI 漫剧",
-    "title": "WorkBuddy 操作 Photoshop 制作详情页",
-    "url": "https://www.woshipm.com/ai/6496051.html",
-    "media": "https://image.woshipm.com/2024/07/24/4b4a4e3e-499e-11ef-a43d-00163e142b65.png",
-    "note": "作者演示 WorkBuddy 经脚本与电脑操作能力驱动 Photoshop，最终导出分层 PSD。对漫剧前期美术有借鉴价值的是图层与重复动作的组织，成品质量仍需人审。",
-    "so_what": "优先自动化分层、排版和批量导出等重复动作，把角色与镜头判断留在验收环节。",
+    "title": "Aiarty Video Enhancer 实测：纯离线端侧 AI 视频去噪与 4K 超分",
+    "note": "面向视频创作者的本地化画质增强工具，针对低光照噪点、压缩伪影与分辨率不足做专项修复，免去大素材上传云端的耗时。",
+    "url": "https://www.cined.com/aiarty-video-enhancer-offline-ai-denoising-4k-upscaling-and-black-friday-offer/",
+    "media": "https://www.cined.com/content/uploads/2026/11/aiarty-video-enhancer-img2-1.jpeg",
+    "so_what": "AI 视频模型直出素材常带闪烁和糊边，在后期环节接一套稳定的离线超分去噪管线，成片质感立竿见影。",
     "pinned": false,
-    "source": "woshipm.com"
+    "source": "cined.com"
+  },
+  {
+    "category": "AI 漫剧",
+    "title": "rushes Rentals 上线：90% 分成的独立影视自建站直售新工具",
+    "note": "定位 Vimeo On Demand 的轻量替代品，允许创作者直接在自己官网开启付费点播租赁并拿走 90% 净收入，降低对大平台抽成依赖。",
+    "url": "https://www.cined.com/rushes-rentals-launched-vimeo-on-demand-alternative-with-90-revenue-share-and-rentals-from-your-own-website/",
+    "media": "https://www.cined.com/content/uploads/2026/11/Rushes-Presents_-Rentals-feature2.jpg",
+    "so_what": "精品独立漫剧与动画短片除了靠平台流量分成，完全可以搭配自建站做高毛利核心粉丝直售。",
+    "pinned": false,
+    "source": "cined.com"
+  },
+  {
+    "category": "AI 漫剧",
+    "title": "《生命之书》导演 Jorge R. Gutiérrez 领衔新厂牌 HEEBOO 创作片单",
+    "note": "AWN 报道知名风格化动画导演主导创作者驱动型新片单，押注高辨识度拉美视觉美学与跨媒介原创 IP 孵化。",
+    "url": "https://www.awn.com/news/jorge-r-guti-rrez-heads-heeboos-founding-creator-slate",
+    "media": "https://www.awn.com/sites/default/files/styles/og_1200/public/image/attached/1081874-heeboo-slate-grid-9ips16x9-1280.jpg?itok=M3_2UgEG",
+    "so_what": "强视觉作者风格是最难被竞品复制的护城河，小厂牌与其模仿迪士尼，不如死磕一种极致独特的地域或民俗画风。",
+    "pinned": false,
+    "source": "awn.com"
   },
   {
     "category": "产品经理",
@@ -321,42 +321,42 @@
   },
   {
     "category": "编剧技巧",
-    "title": "《最后一桌》：家庭伦理剧的冲突练习",
-    "url": "https://www.wzbj1616.com/script_info/2316",
-    "media": "https://www.wzbj1616.com/storage/script/20250912/083c22b956a49d6b279200e12fe0de04.jpg",
-    "note": "《最后一桌》的公开简介以烧烤店搬迁聚拢熟人关系，让老周在不断帮助别人中碰到自己的限度。可据此练习：外部失去一间店，怎样推动内部的放手。",
-    "so_what": "写家庭伦理故事时，为主角安排一个具体的失去，让情感变化通过行动发生。",
+    "title": "StudioBinder 终极指南：如何写好一部抓人的正剧（Drama）剧本",
+    "note": "从核心道德困境、渐进式危机升级到角色内在缺陷外化，用经典名片图解正剧如何不靠狗血反转也能让观众屏息看完。",
+    "url": "https://www.studiobinder.com/blog/how-to-write-a-drama-script/",
+    "media": "https://s.studiobinder.com/wp-content/uploads/2026/10/How-to-write-a-drama-script-storytelling-structure-and-screenwriting-fundamentals-StudioBinder.jpg",
+    "so_what": "高级戏剧张力不是靠坏人降智使坏，而是让两个都有苦衷的好人在无法妥协的利益面前迎头相撞。",
     "pinned": true,
-    "source": "wzbj1616.com"
+    "source": "studiobinder.com"
   },
   {
     "category": "编剧技巧",
-    "title": "《志怪司档案》：单元悬疑的阅读入口",
-    "url": "https://www.wzbj1616.com/script_info/2252",
-    "media": "https://www.wzbj1616.com/storage/script/20261013/e0ffafa4a31b3cc9b2d228de8ed51313.png",
-    "note": "《志怪司档案》的公开简介将新人探员、母亲失踪与封印危机连成成长线。适合拿来设计练习：单元事件怎样持续改变主角对自身身份的理解。",
-    "so_what": "为单元悬疑列一张主线进展表，让每个案件都留下新的关系或身份信息。",
+    "title": "Industrial Scripts：混合类型片（Genre-Blending）的叙事平衡艺术",
+    "note": "拆解如何把悬疑+喜剧、科幻+家庭伦理等跨类型元素有机缝合，指出必须先定好一个主类型兑现观众核心预期，再用副类型制造新鲜感。",
+    "url": "https://industrialscripts.com/genre-blending/",
+    "media": "https://industrialscripts.com/wp-content/uploads/2025/01/image-70.png",
+    "so_what": "微短剧和漫剧最容易出爆款的是“熟类型+新皮囊”，但切忌两头不靠，主线的情感爽感一定要给足。",
     "pinned": false,
-    "source": "wzbj1616.com"
+    "source": "industrialscripts.com"
   },
   {
     "category": "编剧技巧",
-    "title": "《真假AI》：喜剧身份错位的阅读入口",
-    "url": "https://www.wzbj1616.com/script_info/2345",
-    "media": "https://www.wzbj1616.com/storage/script/20250912/4086dc5344ad6e9ee224af782e9d2283.jpg",
-    "note": "《真假AI》的小品简介利用真人、替身与朋友之间的信息差推进误会。练习时可以逐场标出谁知道真相、谁还不知道，再看笑点由谁的误判产生。",
-    "so_what": "用一页表记录角色各自掌握的信息，排查误会何时加深、何时必须揭开。",
+    "title": "John August 拆解经典人物原型（Archetypes）的现代反套路用法",
+    "note": "深入讨论导师、骗徒、阴影对手等经典叙事原型如何避免沦为脸谱化刻板印象，通过给原型注入反常识弱点重新激活戏剧新鲜感。",
+    "url": "https://johnaugust.com/2026/archetypes",
+    "media": "https://johnaugust.com/wp-content/uploads/2021/04/ja-tw-card-small.png",
+    "so_what": "套路之所以管用是因为符合人类深层心理，用原型搭骨架、用反差细节填血肉，既省理解成本又不显老套。",
     "pinned": false,
-    "source": "wzbj1616.com"
+    "source": "johnaugust.com"
   },
   {
     "category": "编剧技巧",
-    "title": "《翼族时空之旅》：少女成长与冒险设定",
-    "url": "https://www.wzbj1616.com/script_info/2074",
-    "media": "https://www.wzbj1616.com/storage/script/20260818/9033ff6d5e6f736e97e7eb8c7bcb0005.png",
-    "note": "《翼族时空之旅》的公开介绍从少女长出翅膀与穿越，走到乌托邦危机和伙伴逃生。可用来检查奇幻设定怎样落到人物要作出的选择上。",
-    "so_what": "每加入一条世界规则，就检查它会让主角多付出什么，或必须放弃什么。",
+    "title": "黑名单编剧访谈（第三篇）：如何靠场景压力逼出人物真实选择",
+    "note": "Katla Sólnes 分享自己在写第二幕中段时，如何不断撤掉主角的后路，逼迫角色在公开场合做出无法挽回的决定。",
+    "url": "https://gointothestory.blcklst.com/go-into-the-story-interview-part-3-katla-solnes/",
+    "media": "https://storage.ghost.io/c/8f/29/8f29b0a7-49e5-431c-a9bb-3ade9c0a785e/content/images/2026/11/Nicholl-Fellows-and-Finalists-Black-List.jpg",
+    "so_what": "第二幕发水最常见的原因是主角还能轻松逃避；把退路堵死，角色才会被迫行动起来。",
     "pinned": false,
-    "source": "wzbj1616.com"
+    "source": "gointothestory.blcklst.com"
   }
 ]

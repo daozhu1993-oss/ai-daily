@@ -241,83 +241,83 @@
   },
   {
     "category": "AI 漫剧",
-    "title": "50 岁大爷、网约车司机和宝妈做出了百亿播放短剧",
-    "note": "一线微短剧团队复盘草根创作者通过模块化剧本套路、紧凑节奏与高密度反转跑出爆款的工业化流水线。",
-    "url": "https://www.woshipm.com/ai/6491906.html",
-    "media": "https://image.woshipm.com/2024/09/24/72da5626-7a66-11ef-b388-00163e142b65.png",
-    "so_what": "短剧爆款不在于特效多么奢华，而在于前 3 秒能否抓住核心戏剧冲突。",
+    "title": "动画短片《The Piano》获官方“纯人工制作认证”，行业分化加剧",
+    "note": "Animation Magazine 报道独立动画短片正式贴上 Human Made Mark 标签，折射出在 AI 生成席卷影视后，创作者开始主动区分手艺边界。",
+    "url": "https://www.animationmagazine.net/2026/11/the-piano-animated-short-receives-official-human-made-mark-certification/",
+    "media": "https://www.animationmagazine.net/wordpress/wp-content/uploads/The-Piano-7.27.47-.png",
+    "so_what": "透明标注制作方式将成为行业常态：走工业效率流就拼更新速度与爽点密度，走艺术收藏流就拼稀缺手艺。",
     "pinned": true,
-    "source": "woshipm.com"
+    "source": "animationmagazine.net"
   },
   {
     "category": "AI 漫剧",
-    "title": "扎堆入局短剧，明星光环为何往往不灵了？",
-    "note": "分析传统影视明星下场做短剧时的水土不服，传统戏剧的铺垫节奏往往难以适应竖屏用户的即时爽点需求。",
-    "url": "https://www.woshipm.com/it/6491908.html",
-    "media": "https://image.woshipm.com/2023/04/13/9047d7f2-d9df-11ed-8440-00163e0b5ff3.jpg",
-    "so_what": "媒介形态决定叙事节奏，跨平台内容移植必须按目标渠道的交互习惯彻底重构。",
+    "title": "拆解《足球教练》第四季里那些观众根本看不出来的“隐形视效”",
+    "note": "befores & afters 揭秘剧集如何用大量无缝环境扩展、人群合成与天气替换服务文戏表演，把视效彻底藏在故事背后。",
+    "url": "https://beforesandafters.com/2026/11/21/all-the-invisible-effects-in-ted-lasso-season-4/",
+    "media": "https://beforesandafters.com/wp-content/uploads/2026/11/tedlasso_featured.jpg",
+    "so_what": "最好的技术应用不是炫技炸屏，而是用低成本数字补景解决实拍或漫剧场景一致性难题。",
     "pinned": false,
-    "source": "woshipm.com"
+    "source": "beforesandafters.com"
   },
   {
     "category": "AI 漫剧",
-    "title": "腾讯 Motus AI：90+ 游戏接入的一站式 3D 动画资产生成",
-    "note": "深入拆解大厂将生成式 AI 融入角色骨骼绑定与动作捕捉的流水线，把多月动画周期缩短为天级交付。",
-    "url": "https://www.woshipm.com/ai/6485306.html",
-    "media": "https://image.woshipm.com/2023/04/13/e19524d4-d9ee-11ed-bd74-00163e0b5ff3.jpg",
-    "so_what": "虚拟制片的核心是资产的可复用性，工具链打通才能兑现生产力。",
+    "title": "冲奥动画短片《Beyond Measure》全网上线，极简叙事样本解析",
+    "note": "具备奥斯卡竞逐资格的独立短片开放线上免费观看，展示在几分钟极短篇幅内如何靠纯视觉节奏讲完一个完整情绪弧光。",
+    "url": "https://www.animationmagazine.net/2026/11/oscar-qualified-animated-short-beyond-measure-launches-online/",
+    "media": "https://www.animationmagazine.net/wordpress/wp-content/uploads/Beyond-Measure-main.jpg",
+    "so_what": "做 2 分钟一集的漫剧非常值得多拉冲奥动画短片，学习它们如何省去废话、纯靠镜头对比传递情绪。",
     "pinned": false,
-    "source": "woshipm.com"
+    "source": "animationmagazine.net"
   },
   {
     "category": "AI 漫剧",
-    "title": "大家都在追视频生成，却把用量最大的生图工具忘了",
-    "note": "梳理 AI 分镜制作中图像生成在角色一致性、场景连贯与细节控制上的基石作用，稳定的图生视频仍离不开好静态底图。",
-    "url": "https://www.woshipm.com/ai/6493414.html",
-    "media": "https://image.woshipm.com/2023/04/13/280e0b6c-d9de-11ed-8fc2-00163e0b5ff3.jpg",
-    "so_what": "视频生成的质量上限取决于单帧画面的控制力，静态分镜打扎实才能做好动态。",
+    "title": "AI 影视工作室 Utopai Studios 在比弗利山庄设立新据点扩张",
+    "note": "AWN 报道主打生成式影视管线的 Utopai Studios 进驻好莱坞核心圈，加速对接主流制片方与商业项目落地。",
+    "url": "https://www.awn.com/news/utopai-studios-opens-beverly-hills-office",
+    "media": "https://www.awn.com/sites/default/files/styles/og_1200/public/image/attached/1081877-utopai1-1280.jpg?itok=JWfVm7sD",
+    "so_what": "AI 影视团队正在从“技术极客小作坊”向“对接传统制片资源的正规军”演进，制片统筹能力正变得稀缺。",
     "pinned": false,
-    "source": "woshipm.com"
+    "source": "awn.com"
   },
   {
     "category": "编剧技巧",
-    "title": "《我妈十七岁》：反向带娃与母女轻喜剧的人物设计",
-    "note": "通过两代人身份错位的奇幻设定建立天然戏剧张力，在密集包袱中展开母女代际和解的温情内核。",
-    "url": "https://www.wzbj1616.com/script_info/2330",
-    "media": "https://www.wzbj1616.com/storage/script/20221014/4bd78e36e97b19870554ab5382659b79.jpg",
-    "so_what": "喜剧的前提必须让两人不得不绑在一起，人物错位才能持续输出自然笑料。",
+    "title": "Screenwriting 101：爱情喜剧大师南希·迈耶斯的剧作心法",
+    "note": "黑名单博客梳理南希·迈耶斯如何把角色性格写进居住空间、道具细节与日常争执，让轻松喜剧同时具备极高的生活质感与共情力。",
+    "url": "https://gointothestory.blcklst.com/screenwriting-101-nancy-meyers-3/",
+    "media": "https://storage.ghost.io/c/8f/29/8f29b0a7-49e5-431c-a9bb-3ade9c0a785e/content/images/size/w1200/2026/11/A-SCWR-101-2.jpg",
+    "so_what": "场景不只是台词的背景板；让角色住什么房子、桌面摆什么物件直接开口交代性格，能省掉大段自我介绍。",
     "pinned": true,
-    "source": "wzbj1616.com"
+    "source": "gointothestory.blcklst.com"
   },
   {
     "category": "编剧技巧",
-    "title": "《补天手》：古玩鉴宝与行业悬疑复仇的类型融合",
-    "note": "把深厚行业专业知识拆成剧情推进的破解道具，让鉴宝细节成为反击对手的伏笔与武器。",
-    "url": "https://www.wzbj1616.com/script_info/2331",
-    "media": "https://www.wzbj1616.com/storage/script/20261106/1679f8d560915a7f6d8fadc0a278a248.png",
-    "so_what": "行业剧的专业门槛不是自嗨，而是要把专业术语转化为剧情逆转的关键筹码。",
+    "title": "No Film School：你的下一个爆款剧集创意，可能就坐在餐桌对面",
+    "note": "拆解如何把家庭聚会或职场饭局里的尴尬瞬间升级为高概念影视前提，用“如果把这件小事推到极端会怎样”的思维练出好题材。",
+    "url": "https://nofilmschool.com/holiday-movie-ideas",
+    "media": "https://nofilmschool.com/media-library/home-for-the-holidays.webp?id=68750871&width=1200&height=600&coordinates=0%2C37%2C0%2C38",
+    "so_what": "别在真空里憋宏大世界观，最容易引发观众共鸣的戏剧冲突，往往藏在亲密关系里那句没说出口的怨言中。",
     "pinned": false,
-    "source": "wzbj1616.com"
+    "source": "nofilmschool.com"
   },
   {
     "category": "编剧技巧",
-    "title": "《坏账》：当代经济犯罪与法治悬疑的因果链条",
-    "note": "聚焦现实题材中的利益诱惑与程序正义，用多视角交叉审讯的方式层层剥开企业坏账背后的权力博弈。",
-    "url": "https://www.wzbj1616.com/script_info/2332",
-    "media": "https://www.wzbj1616.com/storage/script/20261107/0cd1fad9e0cd9491d1ec6ab01e2f4abe.jpeg",
-    "so_what": "悬疑故事的厚度取决于对手的强大，多方立场的合理性才能推高对抗高潮。",
+    "title": "Industrial Scripts：如何写出高级潜台词，让对白言外有意",
+    "note": "深度解析“说出口的面具”与“没说出口的诉求”之间的张力，用大量正反例示范如何改掉直白喊口号的 On-the-nose 烂台词。",
+    "url": "https://industrialscripts.com/how-to-write-subtext/",
+    "media": "https://industrialscripts.com/wp-content/uploads/2025/01/atonement-james-mcavoy-1108x0-c-default.jpg",
+    "so_what": "人物越想隐藏什么，对白就越绕着什么打转；把直白的情绪宣泄改成借题发挥，台词立刻长出钩子。",
     "pinned": false,
-    "source": "wzbj1616.com"
+    "source": "industrialscripts.com"
   },
   {
     "category": "编剧技巧",
-    "title": "《药香》：古代家族复仇与商道博弈的双线结构",
-    "note": "以医药世家兴衰为背景，将私人复仇线与行业救市线交织，在快节奏逆袭中兼顾中医文脉的传承呈现。",
-    "url": "https://www.wzbj1616.com/script_info/2333",
-    "media": "https://www.wzbj1616.com/storage/script/20261107/c0cbee725d9a6de34e44d2d233bfd96e.png",
-    "so_what": "复仇线负责调动即时爽感，行业救赎负责托底主控思想，双线并进更耐读。",
+    "title": "John August：超越一句话梗概，回答清楚你的故事究竟在讲什么",
+    "note": "剖析 Logline（卖点梗概）与 Theme（主题立意）的区别，提醒编剧在向制片人提案前必须先想透故事真正探讨的人性命题。",
+    "url": "https://johnaugust.com/2026/what-its-about-moving-beyond-loglines",
+    "media": "https://johnaugust.com/wp-content/uploads/2021/04/ja-tw-card-small.png",
+    "so_what": "卖点决定别人愿不愿意点开第一集，而内核主题决定观众看完后会不会主动帮你转发安利。",
     "pinned": false,
-    "source": "wzbj1616.com"
+    "source": "johnaugust.com"
   },
   {
     "category": "产品经理",

@@ -1,0 +1,1607 @@
+{
+  "total": 160,
+  "passed": true,
+  "failed": [],
+  "endpoints": [
+    {
+      "date": "2026-11-15",
+      "category": "AI 漫剧",
+      "idx": 0,
+      "kind": "URL",
+      "url": "https://www.animationmagazine.net/2026/11/cinanima-2026-god-is-shy-son-of-a-bitch-virgin-fandango-win-major-awards/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-15",
+      "category": "AI 漫剧",
+      "idx": 0,
+      "kind": "MEDIA",
+      "url": "https://www.animationmagazine.net/wordpress/wp-content/uploads/Cinanima-2026-winners.png",
+      "status": "200",
+      "content_type": "image/png",
+      "ok": true
+    },
+    {
+      "date": "2026-11-15",
+      "category": "AI 漫剧",
+      "idx": 1,
+      "kind": "URL",
+      "url": "https://www.animationmagazine.net/2026/11/tms-celebrates-detective-conan-at-anime-frontier-with-film-screening-open-auditions/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-15",
+      "category": "AI 漫剧",
+      "idx": 1,
+      "kind": "MEDIA",
+      "url": "https://www.animationmagazine.net/wordpress/wp-content/uploads/Detective-Conan-The-Million-Dollar-Pentagram-still.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "ok": true
+    },
+    {
+      "date": "2026-11-15",
+      "category": "AI 漫剧",
+      "idx": 2,
+      "kind": "URL",
+      "url": "https://www.awn.com/news/awn-trailer-roundup-november-23-angry-birds-invincible-and-hirayasumi",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-15",
+      "category": "AI 漫剧",
+      "idx": 2,
+      "kind": "MEDIA",
+      "url": "https://www.awn.com/sites/default/files/styles/og_1200/public/image/attached/1081897-compositetrailer-roundup2026-1120v2.jpg?itok=8ijA28Z-",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "ok": true
+    },
+    {
+      "date": "2026-11-15",
+      "category": "AI 漫剧",
+      "idx": 3,
+      "kind": "URL",
+      "url": "https://www.animationmagazine.net/2026/11/ozzy-fox-short-form-musical-series-sets-disney-debut/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-15",
+      "category": "AI 漫剧",
+      "idx": 3,
+      "kind": "MEDIA",
+      "url": "https://www.animationmagazine.net/wordpress/wp-content/uploads/Ozzy-Fox-trailer-sc.png",
+      "status": "200",
+      "content_type": "image/png",
+      "ok": true
+    },
+    {
+      "date": "2026-11-15",
+      "category": "编剧技巧",
+      "idx": 0,
+      "kind": "URL",
+      "url": "https://industrialscripts.com/plot-vs-story/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-15",
+      "category": "编剧技巧",
+      "idx": 0,
+      "kind": "MEDIA",
+      "url": "https://industrialscripts.com/wp-content/uploads/2024/10/this-fan-theory-believes-the-joker-didn-t-return-in-the-dark-knight-rises-because-batman-664185.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "ok": true
+    },
+    {
+      "date": "2026-11-15",
+      "category": "编剧技巧",
+      "idx": 1,
+      "kind": "URL",
+      "url": "https://industrialscripts.com/how-to-write-a-script-treatment/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-15",
+      "category": "编剧技巧",
+      "idx": 1,
+      "kind": "MEDIA",
+      "url": "https://industrialscripts.com/wp-content/uploads/2024/12/image-48.png",
+      "status": "200",
+      "content_type": "image/png",
+      "ok": true
+    },
+    {
+      "date": "2026-11-15",
+      "category": "编剧技巧",
+      "idx": 2,
+      "kind": "URL",
+      "url": "https://gointothestory.blcklst.com/the-spirit-of-the-spec/",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-15",
+      "category": "编剧技巧",
+      "idx": 2,
+      "kind": "MEDIA",
+      "url": "https://storage.ghost.io/c/8f/29/8f29b0a7-49e5-431c-a9bb-3ade9c0a785e/content/images/2026/11/spec.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "ok": true
+    },
+    {
+      "date": "2026-11-15",
+      "category": "编剧技巧",
+      "idx": 3,
+      "kind": "URL",
+      "url": "https://industrialscripts.com/denouement-in-a-story/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-15",
+      "category": "编剧技巧",
+      "idx": 3,
+      "kind": "MEDIA",
+      "url": "https://industrialscripts.com/wp-content/uploads/2024/09/Inception.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "ok": true
+    },
+    {
+      "date": "2026-11-16",
+      "category": "AI 漫剧",
+      "idx": 0,
+      "kind": "URL",
+      "url": "https://www.animationmagazine.net/2026/11/new-optimus-prime-short-the-transformers-the-movie-set-for-special-youtube-event-on-black-friday/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-16",
+      "category": "AI 漫剧",
+      "idx": 0,
+      "kind": "MEDIA",
+      "url": "https://www.animationmagazine.net/wordpress/wp-content/uploads/Optimus-Prime-Awakening-2.png",
+      "status": "200",
+      "content_type": "image/png",
+      "ok": true
+    },
+    {
+      "date": "2026-11-16",
+      "category": "AI 漫剧",
+      "idx": 1,
+      "kind": "URL",
+      "url": "https://www.animationmagazine.net/2026/11/don-bluth-somewhere-out-there-directors-look-back-on-the-animation-pioneers-legacy-in-their-new-documentary/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-16",
+      "category": "AI 漫剧",
+      "idx": 1,
+      "kind": "MEDIA",
+      "url": "https://www.animationmagazine.net/wordpress/wp-content/uploads/Don-Bluth-Somewhere-Out-There-feat.png",
+      "status": "200",
+      "content_type": "image/png",
+      "ok": true
+    },
+    {
+      "date": "2026-11-16",
+      "category": "AI 漫剧",
+      "idx": 2,
+      "kind": "URL",
+      "url": "https://www.awn.com/news/200-million-books-later-little-critter-gets-animated-series",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-16",
+      "category": "AI 漫剧",
+      "idx": 2,
+      "kind": "MEDIA",
+      "url": "https://www.awn.com/sites/default/files/styles/og_1200/public/image/attached/1081873-lcritter2.jpg?itok=yE4cbjd-",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "ok": true
+    },
+    {
+      "date": "2026-11-16",
+      "category": "AI 漫剧",
+      "idx": 3,
+      "kind": "URL",
+      "url": "https://www.ifanr.com/1690991",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-16",
+      "category": "AI 漫剧",
+      "idx": 3,
+      "kind": "MEDIA",
+      "url": "https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1795413620551-4.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "ok": true
+    },
+    {
+      "date": "2026-11-16",
+      "category": "编剧技巧",
+      "idx": 0,
+      "kind": "URL",
+      "url": "https://www.studiobinder.com/blog/best-storyboard-software-free-storyboard-templates/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-16",
+      "category": "编剧技巧",
+      "idx": 0,
+      "kind": "MEDIA",
+      "url": "https://s.studiobinder.com/wp-content/uploads/2018/10/Best-Storyboard-Software-StudioBinder-Production-Management-Software-Featured.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "ok": true
+    },
+    {
+      "date": "2026-11-16",
+      "category": "编剧技巧",
+      "idx": 1,
+      "kind": "URL",
+      "url": "https://industrialscripts.com/5-act-structure/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-16",
+      "category": "编剧技巧",
+      "idx": 1,
+      "kind": "MEDIA",
+      "url": "https://industrialscripts.com/wp-content/uploads/2024/11/Titanic-1.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "ok": true
+    },
+    {
+      "date": "2026-11-16",
+      "category": "编剧技巧",
+      "idx": 2,
+      "kind": "URL",
+      "url": "https://johnaugust.com/2026/the-one-with-aaron-sorkin",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-16",
+      "category": "编剧技巧",
+      "idx": 2,
+      "kind": "MEDIA",
+      "url": "https://johnaugust.com/wp-content/uploads/2021/04/ja-tw-card-small.png",
+      "status": "200",
+      "content_type": "image/png",
+      "ok": true
+    },
+    {
+      "date": "2026-11-16",
+      "category": "编剧技巧",
+      "idx": 3,
+      "kind": "URL",
+      "url": "https://gointothestory.blcklst.com/spec-script-deal-non-refundable/",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-16",
+      "category": "编剧技巧",
+      "idx": 3,
+      "kind": "MEDIA",
+      "url": "https://storage.ghost.io/c/8f/29/8f29b0a7-49e5-431c-a9bb-3ade9c0a785e/content/images/2026/11/Hollywood---venti-views-6QDvwq2Fjsc-unsplash.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "ok": true
+    },
+    {
+      "date": "2026-11-17",
+      "category": "AI 漫剧",
+      "idx": 0,
+      "kind": "URL",
+      "url": "https://beforesandafters.com/2026/11/17/behind-the-tools-and-techniques-used-to-craft-those-subtle-facial-enhancements-in-obsession/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-17",
+      "category": "AI 漫剧",
+      "idx": 0,
+      "kind": "MEDIA",
+      "url": "https://beforesandafters.com/wp-content/uploads/2026/11/obsession_Px19wx.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "ok": true
+    },
+    {
+      "date": "2026-11-17",
+      "category": "AI 漫剧",
+      "idx": 1,
+      "kind": "URL",
+      "url": "https://beforesandafters.com/2026/11/17/you-wont-believe-whats-real-or-cg-in-the-lost-bus/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-17",
+      "category": "AI 漫剧",
+      "idx": 1,
+      "kind": "MEDIA",
+      "url": "https://beforesandafters.com/wp-content/uploads/2026/11/Lost_Bus_v3b.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "ok": true
+    },
+    {
+      "date": "2026-11-17",
+      "category": "AI 漫剧",
+      "idx": 2,
+      "kind": "URL",
+      "url": "https://www.animationmagazine.net/2026/11/laika-offers-portlanders-free-wildwood-screenings/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-17",
+      "category": "AI 漫剧",
+      "idx": 2,
+      "kind": "MEDIA",
+      "url": "https://www.animationmagazine.net/wordpress/wp-content/uploads/Wildwood_Benson-bubbler.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "ok": true
+    },
+    {
+      "date": "2026-11-17",
+      "category": "AI 漫剧",
+      "idx": 3,
+      "kind": "URL",
+      "url": "https://www.cined.com/cinelabs-remote-kit-on-location-dailies-on-iodyne-pro-data-from-easter-island-to-kenya/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-17",
+      "category": "AI 漫剧",
+      "idx": 3,
+      "kind": "MEDIA",
+      "url": "https://www.cined.com/content/uploads/2026/11/iodyne-Pro-Data-3.jpeg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "ok": true
+    },
+    {
+      "date": "2026-11-17",
+      "category": "编剧技巧",
+      "idx": 0,
+      "kind": "URL",
+      "url": "https://www.studiobinder.com/blog/shot-list-template-free-download/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-17",
+      "category": "编剧技巧",
+      "idx": 0,
+      "kind": "MEDIA",
+      "url": "https://s.studiobinder.com/wp-content/uploads/2016/07/Free-Shot-List-Template-Download-Header-Image-StudioBinder.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "ok": true
+    },
+    {
+      "date": "2026-11-17",
+      "category": "编剧技巧",
+      "idx": 1,
+      "kind": "URL",
+      "url": "https://industrialscripts.com/relatable-characters/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-17",
+      "category": "编剧技巧",
+      "idx": 1,
+      "kind": "MEDIA",
+      "url": "https://industrialscripts.com/wp-content/uploads/2024/11/WebStory-Spider-Man-Tobey-Maguireslide-18.webp",
+      "status": "200",
+      "content_type": "image/webp",
+      "ok": true
+    },
+    {
+      "date": "2026-11-17",
+      "category": "编剧技巧",
+      "idx": 2,
+      "kind": "URL",
+      "url": "https://gointothestory.blcklst.com/go-into-the-story-interview-part-2-katla-solnes/",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-17",
+      "category": "编剧技巧",
+      "idx": 2,
+      "kind": "MEDIA",
+      "url": "https://storage.ghost.io/c/8f/29/8f29b0a7-49e5-431c-a9bb-3ade9c0a785e/content/images/2026/11/Nicholl-Solnes-1.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "ok": true
+    },
+    {
+      "date": "2026-11-17",
+      "category": "编剧技巧",
+      "idx": 3,
+      "kind": "URL",
+      "url": "https://nofilmschool.com/addams-family-values-thanksgiving-scene",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-17",
+      "category": "编剧技巧",
+      "idx": 3,
+      "kind": "MEDIA",
+      "url": "https://nofilmschool.com/media-library/image.jpg?id=68752336&width=1200&height=600&coordinates=0%2C33%2C0%2C33",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "ok": true
+    },
+    {
+      "date": "2026-11-18",
+      "category": "AI 漫剧",
+      "idx": 0,
+      "kind": "URL",
+      "url": "https://beforesandafters.com/2026/11/18/go-behind-the-scenes-of-tenzing-with-this-vfx-reel/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-18",
+      "category": "AI 漫剧",
+      "idx": 0,
+      "kind": "MEDIA",
+      "url": "https://beforesandafters.com/wp-content/uploads/2026/11/ten.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "ok": true
+    },
+    {
+      "date": "2026-11-18",
+      "category": "AI 漫剧",
+      "idx": 1,
+      "kind": "URL",
+      "url": "https://www.animationmagazine.net/2026/11/pluto-tv-adds-six-adult-swim-animation-hits-to-free-library/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-18",
+      "category": "AI 漫剧",
+      "idx": 1,
+      "kind": "MEDIA",
+      "url": "https://www.animationmagazine.net/wordpress/wp-content/uploads/Adult-Swim-on-Pluto-TV.png",
+      "status": "200",
+      "content_type": "image/png",
+      "ok": true
+    },
+    {
+      "date": "2026-11-18",
+      "category": "AI 漫剧",
+      "idx": 2,
+      "kind": "URL",
+      "url": "https://www.awn.com/news/pony-canyon-sets-2027-debut-kuku-loop-anime",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-18",
+      "category": "AI 漫剧",
+      "idx": 2,
+      "kind": "MEDIA",
+      "url": "https://www.awn.com/sites/default/files/styles/og_1200/public/image/attached/1081872-kukuloopteaser-visualen-2-1280.jpg?itok=q3wIjeOy",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "ok": true
+    },
+    {
+      "date": "2026-11-18",
+      "category": "AI 漫剧",
+      "idx": 3,
+      "kind": "URL",
+      "url": "https://www.awn.com/news/maga-animation-studio-animates-wardrobe-2-teaser",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-18",
+      "category": "AI 漫剧",
+      "idx": 3,
+      "kind": "MEDIA",
+      "url": "https://www.awn.com/sites/default/files/styles/og_1200/public/image/attached/1081881-maga-animation-studio-cinic-games-thewardrobe2-giordana-raccah-1280.jpg?itok=9irft1O7",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "ok": true
+    },
+    {
+      "date": "2026-11-18",
+      "category": "编剧技巧",
+      "idx": 0,
+      "kind": "URL",
+      "url": "https://www.studiobinder.com/blog/free-script-breakdown-sheet/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-18",
+      "category": "编剧技巧",
+      "idx": 0,
+      "kind": "MEDIA",
+      "url": "https://s.studiobinder.com/wp-content/uploads/2018/06/How-to-Break-Down-a-Script-with-a-FREE-Script-Breakdown-Sheet-Template-StudioBinder-Script-Breakdown-and-Scheduling-Software-Header.png",
+      "status": "200",
+      "content_type": "image/png",
+      "ok": true
+    },
+    {
+      "date": "2026-11-18",
+      "category": "编剧技巧",
+      "idx": 1,
+      "kind": "URL",
+      "url": "https://industrialscripts.com/conflict-in-a-story/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-18",
+      "category": "编剧技巧",
+      "idx": 1,
+      "kind": "MEDIA",
+      "url": "https://industrialscripts.com/wp-content/uploads/2024/11/therevenantleonardo.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "ok": true
+    },
+    {
+      "date": "2026-11-18",
+      "category": "编剧技巧",
+      "idx": 2,
+      "kind": "URL",
+      "url": "https://johnaugust.com/2026/directing-your-writing",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-18",
+      "category": "编剧技巧",
+      "idx": 2,
+      "kind": "MEDIA",
+      "url": "https://johnaugust.com/wp-content/uploads/2021/04/ja-tw-card-small.png",
+      "status": "200",
+      "content_type": "image/png",
+      "ok": true
+    },
+    {
+      "date": "2026-11-18",
+      "category": "编剧技巧",
+      "idx": 3,
+      "kind": "URL",
+      "url": "https://nofilmschool.com/autumn-symbolism-queer-cinema",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-18",
+      "category": "编剧技巧",
+      "idx": 3,
+      "kind": "MEDIA",
+      "url": "https://nofilmschool.com/media-library/image.png?id=68747919&width=1200&height=600&coordinates=0%2C39%2C0%2C39",
+      "status": "200",
+      "content_type": "image/png",
+      "ok": true
+    },
+    {
+      "date": "2026-11-19",
+      "category": "AI 漫剧",
+      "idx": 0,
+      "kind": "URL",
+      "url": "https://www.cined.com/shotdeck-relaunch-announced-natural-language-search-movie-and-tv-clips-public-decks/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-19",
+      "category": "AI 漫剧",
+      "idx": 0,
+      "kind": "MEDIA",
+      "url": "https://www.cined.com/content/uploads/2026/11/shotdeck-relaunch-new-look-web-mobile.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "ok": true
+    },
+    {
+      "date": "2026-11-19",
+      "category": "AI 漫剧",
+      "idx": 1,
+      "kind": "URL",
+      "url": "https://www.cined.com/aiarty-video-enhancer-offline-ai-denoising-4k-upscaling-and-black-friday-offer/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-19",
+      "category": "AI 漫剧",
+      "idx": 1,
+      "kind": "MEDIA",
+      "url": "https://www.cined.com/content/uploads/2026/11/aiarty-video-enhancer-img2-1.jpeg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "ok": true
+    },
+    {
+      "date": "2026-11-19",
+      "category": "AI 漫剧",
+      "idx": 2,
+      "kind": "URL",
+      "url": "https://www.cined.com/rushes-rentals-launched-vimeo-on-demand-alternative-with-90-revenue-share-and-rentals-from-your-own-website/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-19",
+      "category": "AI 漫剧",
+      "idx": 2,
+      "kind": "MEDIA",
+      "url": "https://www.cined.com/content/uploads/2026/11/Rushes-Presents_-Rentals-feature2.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "ok": true
+    },
+    {
+      "date": "2026-11-19",
+      "category": "AI 漫剧",
+      "idx": 3,
+      "kind": "URL",
+      "url": "https://www.awn.com/news/jorge-r-guti-rrez-heads-heeboos-founding-creator-slate",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-19",
+      "category": "AI 漫剧",
+      "idx": 3,
+      "kind": "MEDIA",
+      "url": "https://www.awn.com/sites/default/files/styles/og_1200/public/image/attached/1081874-heeboo-slate-grid-9ips16x9-1280.jpg?itok=M3_2UgEG",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "ok": true
+    },
+    {
+      "date": "2026-11-19",
+      "category": "编剧技巧",
+      "idx": 0,
+      "kind": "URL",
+      "url": "https://www.studiobinder.com/blog/how-to-write-a-drama-script/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-19",
+      "category": "编剧技巧",
+      "idx": 0,
+      "kind": "MEDIA",
+      "url": "https://s.studiobinder.com/wp-content/uploads/2026/10/How-to-write-a-drama-script-storytelling-structure-and-screenwriting-fundamentals-StudioBinder.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "ok": true
+    },
+    {
+      "date": "2026-11-19",
+      "category": "编剧技巧",
+      "idx": 1,
+      "kind": "URL",
+      "url": "https://industrialscripts.com/genre-blending/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-19",
+      "category": "编剧技巧",
+      "idx": 1,
+      "kind": "MEDIA",
+      "url": "https://industrialscripts.com/wp-content/uploads/2025/01/image-70.png",
+      "status": "200",
+      "content_type": "image/png",
+      "ok": true
+    },
+    {
+      "date": "2026-11-19",
+      "category": "编剧技巧",
+      "idx": 2,
+      "kind": "URL",
+      "url": "https://johnaugust.com/2026/archetypes",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-19",
+      "category": "编剧技巧",
+      "idx": 2,
+      "kind": "MEDIA",
+      "url": "https://johnaugust.com/wp-content/uploads/2021/04/ja-tw-card-small.png",
+      "status": "200",
+      "content_type": "image/png",
+      "ok": true
+    },
+    {
+      "date": "2026-11-19",
+      "category": "编剧技巧",
+      "idx": 3,
+      "kind": "URL",
+      "url": "https://gointothestory.blcklst.com/go-into-the-story-interview-part-3-katla-solnes/",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-19",
+      "category": "编剧技巧",
+      "idx": 3,
+      "kind": "MEDIA",
+      "url": "https://storage.ghost.io/c/8f/29/8f29b0a7-49e5-431c-a9bb-3ade9c0a785e/content/images/2026/11/Nicholl-Fellows-and-Finalists-Black-List.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "ok": true
+    },
+    {
+      "date": "2026-11-20",
+      "category": "AI 漫剧",
+      "idx": 0,
+      "kind": "URL",
+      "url": "https://www.cined.com/instagram-content-protection-launched-automatic-repost-detection-credit-links-and-ai-spoken-word-matching-test/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-20",
+      "category": "AI 漫剧",
+      "idx": 0,
+      "kind": "MEDIA",
+      "url": "https://www.cined.com/content/uploads/2026/11/instagram-content-protection-featured.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "ok": true
+    },
+    {
+      "date": "2026-11-20",
+      "category": "AI 漫剧",
+      "idx": 1,
+      "kind": "URL",
+      "url": "https://beforesandafters.com/2026/11/20/cosa-breaks-down-its-backrooms-vfx/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-20",
+      "category": "AI 漫剧",
+      "idx": 1,
+      "kind": "MEDIA",
+      "url": "https://beforesandafters.com/wp-content/uploads/2026/11/cosa11.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "ok": true
+    },
+    {
+      "date": "2026-11-20",
+      "category": "AI 漫剧",
+      "idx": 2,
+      "kind": "URL",
+      "url": "https://beforesandafters.com/2026/11/20/stop-motion-delights/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-20",
+      "category": "AI 漫剧",
+      "idx": 2,
+      "kind": "MEDIA",
+      "url": "https://beforesandafters.com/wp-content/uploads/2026/11/Droids_02.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "ok": true
+    },
+    {
+      "date": "2026-11-20",
+      "category": "AI 漫剧",
+      "idx": 3,
+      "kind": "URL",
+      "url": "https://www.awn.com/news/andrew-pearce-named-academy-software-foundation-executive-director",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-20",
+      "category": "AI 漫剧",
+      "idx": 3,
+      "kind": "MEDIA",
+      "url": "https://www.awn.com/sites/default/files/styles/og_1200/public/image/attached/1081885-andrew-pearce-1-1280.jpg?itok=jGuebfx4",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "ok": true
+    },
+    {
+      "date": "2026-11-20",
+      "category": "编剧技巧",
+      "idx": 0,
+      "kind": "URL",
+      "url": "https://industrialscripts.com/how-to-write-a-tv-show-script/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-20",
+      "category": "编剧技巧",
+      "idx": 0,
+      "kind": "MEDIA",
+      "url": "https://industrialscripts.com/wp-content/uploads/2025/01/image-1024x576.png",
+      "status": "200",
+      "content_type": "image/png",
+      "ok": true
+    },
+    {
+      "date": "2026-11-20",
+      "category": "编剧技巧",
+      "idx": 1,
+      "kind": "URL",
+      "url": "https://gointothestory.blcklst.com/spec-script-deal-fairytale-in-new-york/",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-20",
+      "category": "编剧技巧",
+      "idx": 1,
+      "kind": "MEDIA",
+      "url": "https://storage.ghost.io/c/8f/29/8f29b0a7-49e5-431c-a9bb-3ade9c0a785e/content/images/2026/11/Hollywood---venti-views-6QDvwq2Fjsc-unsplash-copy.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "ok": true
+    },
+    {
+      "date": "2026-11-20",
+      "category": "编剧技巧",
+      "idx": 2,
+      "kind": "URL",
+      "url": "https://nofilmschool.com/james-bond-rules-dos-and-donts",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-20",
+      "category": "编剧技巧",
+      "idx": 2,
+      "kind": "MEDIA",
+      "url": "https://nofilmschool.com/media-library/image.jpg?id=34055569&width=1200&height=600&coordinates=0%2C53%2C0%2C54",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "ok": true
+    },
+    {
+      "date": "2026-11-20",
+      "category": "编剧技巧",
+      "idx": 3,
+      "kind": "URL",
+      "url": "https://johnaugust.com/2026/character-creator-kit",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-20",
+      "category": "编剧技巧",
+      "idx": 3,
+      "kind": "MEDIA",
+      "url": "https://johnaugust.com/wp-content/uploads/2026/10/deck-square.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "ok": true
+    },
+    {
+      "date": "2026-11-21",
+      "category": "AI 漫剧",
+      "idx": 0,
+      "kind": "URL",
+      "url": "https://www.awn.com/news/animajs-ozzy-fox-comes-disney-december-5",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-21",
+      "category": "AI 漫剧",
+      "idx": 0,
+      "kind": "MEDIA",
+      "url": "https://www.awn.com/sites/default/files/styles/og_1200/public/image/attached/1081884-ofavailable-youtube-1280.jpg?itok=lVeNLNwd",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "ok": true
+    },
+    {
+      "date": "2026-11-21",
+      "category": "AI 漫剧",
+      "idx": 1,
+      "kind": "URL",
+      "url": "https://beforesandafters.com/2026/11/21/why-gollum-worked-so-well/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-21",
+      "category": "AI 漫剧",
+      "idx": 1,
+      "kind": "MEDIA",
+      "url": "https://beforesandafters.com/wp-content/uploads/2026/11/GOLLUMTHUMB.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "ok": true
+    },
+    {
+      "date": "2026-11-21",
+      "category": "AI 漫剧",
+      "idx": 2,
+      "kind": "URL",
+      "url": "https://www.animationmagazine.net/2026/11/paradaiz-director-matea-radic-shares-the-personal-inspirations-of-her-oscar-qualified-animated-short/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-21",
+      "category": "AI 漫剧",
+      "idx": 2,
+      "kind": "MEDIA",
+      "url": "https://www.animationmagazine.net/wordpress/wp-content/uploads/1-Paradaiz_10004706-1.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "ok": true
+    },
+    {
+      "date": "2026-11-21",
+      "category": "AI 漫剧",
+      "idx": 3,
+      "kind": "URL",
+      "url": "https://www.awn.com/news/animotions-question-club-launches-bilibili-china",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-21",
+      "category": "AI 漫剧",
+      "idx": 3,
+      "kind": "MEDIA",
+      "url": "https://www.awn.com/sites/default/files/styles/og_1200/public/image/attached/1081880-qqbilibili-16x9-1280.jpg?itok=2UhQPW7J",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "ok": true
+    },
+    {
+      "date": "2026-11-21",
+      "category": "编剧技巧",
+      "idx": 0,
+      "kind": "URL",
+      "url": "https://industrialscripts.com/how-to-write-a-fight-scene/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-21",
+      "category": "编剧技巧",
+      "idx": 0,
+      "kind": "MEDIA",
+      "url": "https://industrialscripts.com/wp-content/uploads/2025/01/madmax-anatomy-videoSixteenByNine1050.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "ok": true
+    },
+    {
+      "date": "2026-11-21",
+      "category": "编剧技巧",
+      "idx": 1,
+      "kind": "URL",
+      "url": "https://www.indiewire.com/film/film/inside-out-2-writer-meg-lefauve-pixar-brain-trust-1235017147/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-21",
+      "category": "编剧技巧",
+      "idx": 1,
+      "kind": "MEDIA",
+      "url": "https://www.indiewire.com/wp-content/uploads/2024/01/MCDINOU_WD002.jpg?w=650",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "ok": true
+    },
+    {
+      "date": "2026-11-21",
+      "category": "编剧技巧",
+      "idx": 2,
+      "kind": "URL",
+      "url": "https://gointothestory.blcklst.com/go-into-the-story-interview-part-5-katla-solnes/",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-21",
+      "category": "编剧技巧",
+      "idx": 2,
+      "kind": "MEDIA",
+      "url": "https://storage.ghost.io/c/8f/29/8f29b0a7-49e5-431c-a9bb-3ade9c0a785e/content/images/2026/11/Award-Solnes.png",
+      "status": "200",
+      "content_type": "image/png",
+      "ok": true
+    },
+    {
+      "date": "2026-11-21",
+      "category": "编剧技巧",
+      "idx": 3,
+      "kind": "URL",
+      "url": "https://johnaugust.com/2026/austin-2026-three-page-challenge",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-21",
+      "category": "编剧技巧",
+      "idx": 3,
+      "kind": "MEDIA",
+      "url": "https://johnaugust.com/wp-content/uploads/2021/04/ja-tw-card-small.png",
+      "status": "200",
+      "content_type": "image/png",
+      "ok": true
+    },
+    {
+      "date": "2026-11-22",
+      "category": "AI 漫剧",
+      "idx": 0,
+      "kind": "URL",
+      "url": "https://www.animationmagazine.net/2026/11/the-piano-animated-short-receives-official-human-made-mark-certification/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-22",
+      "category": "AI 漫剧",
+      "idx": 0,
+      "kind": "MEDIA",
+      "url": "https://www.animationmagazine.net/wordpress/wp-content/uploads/The-Piano-7.27.47-.png",
+      "status": "200",
+      "content_type": "image/png",
+      "ok": true
+    },
+    {
+      "date": "2026-11-22",
+      "category": "AI 漫剧",
+      "idx": 1,
+      "kind": "URL",
+      "url": "https://beforesandafters.com/2026/11/21/all-the-invisible-effects-in-ted-lasso-season-4/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-22",
+      "category": "AI 漫剧",
+      "idx": 1,
+      "kind": "MEDIA",
+      "url": "https://beforesandafters.com/wp-content/uploads/2026/11/tedlasso_featured.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "ok": true
+    },
+    {
+      "date": "2026-11-22",
+      "category": "AI 漫剧",
+      "idx": 2,
+      "kind": "URL",
+      "url": "https://www.animationmagazine.net/2026/11/oscar-qualified-animated-short-beyond-measure-launches-online/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-22",
+      "category": "AI 漫剧",
+      "idx": 2,
+      "kind": "MEDIA",
+      "url": "https://www.animationmagazine.net/wordpress/wp-content/uploads/Beyond-Measure-main.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "ok": true
+    },
+    {
+      "date": "2026-11-22",
+      "category": "AI 漫剧",
+      "idx": 3,
+      "kind": "URL",
+      "url": "https://www.awn.com/news/utopai-studios-opens-beverly-hills-office",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-22",
+      "category": "AI 漫剧",
+      "idx": 3,
+      "kind": "MEDIA",
+      "url": "https://www.awn.com/sites/default/files/styles/og_1200/public/image/attached/1081877-utopai1-1280.jpg?itok=JWfVm7sD",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "ok": true
+    },
+    {
+      "date": "2026-11-22",
+      "category": "编剧技巧",
+      "idx": 0,
+      "kind": "URL",
+      "url": "https://gointothestory.blcklst.com/screenwriting-101-nancy-meyers-3/",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-22",
+      "category": "编剧技巧",
+      "idx": 0,
+      "kind": "MEDIA",
+      "url": "https://storage.ghost.io/c/8f/29/8f29b0a7-49e5-431c-a9bb-3ade9c0a785e/content/images/size/w1200/2026/11/A-SCWR-101-2.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "ok": true
+    },
+    {
+      "date": "2026-11-22",
+      "category": "编剧技巧",
+      "idx": 1,
+      "kind": "URL",
+      "url": "https://nofilmschool.com/holiday-movie-ideas",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-22",
+      "category": "编剧技巧",
+      "idx": 1,
+      "kind": "MEDIA",
+      "url": "https://nofilmschool.com/media-library/home-for-the-holidays.webp?id=68750871&width=1200&height=600&coordinates=0%2C37%2C0%2C38",
+      "status": "200",
+      "content_type": "image/webp",
+      "ok": true
+    },
+    {
+      "date": "2026-11-22",
+      "category": "编剧技巧",
+      "idx": 2,
+      "kind": "URL",
+      "url": "https://industrialscripts.com/how-to-write-subtext/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-22",
+      "category": "编剧技巧",
+      "idx": 2,
+      "kind": "MEDIA",
+      "url": "https://industrialscripts.com/wp-content/uploads/2025/01/atonement-james-mcavoy-1108x0-c-default.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "ok": true
+    },
+    {
+      "date": "2026-11-22",
+      "category": "编剧技巧",
+      "idx": 3,
+      "kind": "URL",
+      "url": "https://johnaugust.com/2026/what-its-about-moving-beyond-loglines",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-22",
+      "category": "编剧技巧",
+      "idx": 3,
+      "kind": "MEDIA",
+      "url": "https://johnaugust.com/wp-content/uploads/2021/04/ja-tw-card-small.png",
+      "status": "200",
+      "content_type": "image/png",
+      "ok": true
+    },
+    {
+      "date": "2026-11-23",
+      "category": "AI 漫剧",
+      "idx": 0,
+      "kind": "URL",
+      "url": "https://www.ifanr.com/1691079",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-23",
+      "category": "AI 漫剧",
+      "idx": 0,
+      "kind": "MEDIA",
+      "url": "https://s3.ifanr.com/wp-content/uploads/2026/11/lark2pad-1795426978808-1.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "ok": true
+    },
+    {
+      "date": "2026-11-23",
+      "category": "AI 漫剧",
+      "idx": 1,
+      "kind": "URL",
+      "url": "https://www.awn.com/news/record-38-animated-features-eligible-99th-oscars",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-23",
+      "category": "AI 漫剧",
+      "idx": 1,
+      "kind": "MEDIA",
+      "url": "https://www.awn.com/sites/default/files/styles/og_1200/public/image/attached/1081893-theoscars1000.jpg?itok=S0aPEJK0",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "ok": true
+    },
+    {
+      "date": "2026-11-23",
+      "category": "AI 漫剧",
+      "idx": 2,
+      "kind": "URL",
+      "url": "https://beforesandafters.com/2026/11/23/a-visual-journey-through-the-miniatures-of-digger/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-23",
+      "category": "AI 漫剧",
+      "idx": 2,
+      "kind": "MEDIA",
+      "url": "https://beforesandafters.com/wp-content/uploads/2026/11/IMG_9835.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "ok": true
+    },
+    {
+      "date": "2026-11-23",
+      "category": "AI 漫剧",
+      "idx": 3,
+      "kind": "URL",
+      "url": "https://www.animationmagazine.net/2026/11/fireborn-comics-slated-for-animated-series-at-vox-machina-studio-titmouse/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-23",
+      "category": "AI 漫剧",
+      "idx": 3,
+      "kind": "MEDIA",
+      "url": "https://www.animationmagazine.net/wordpress/wp-content/uploads/Fireborn-No-1-cover-crop.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "ok": true
+    },
+    {
+      "date": "2026-11-23",
+      "category": "编剧技巧",
+      "idx": 0,
+      "kind": "URL",
+      "url": "https://nofilmschool.com/why-most-writers-write-boringly",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-23",
+      "category": "编剧技巧",
+      "idx": 0,
+      "kind": "MEDIA",
+      "url": "https://nofilmschool.com/media-library/image.jpg?id=68725454&width=1200&height=600&coordinates=0%2C39%2C0%2C39",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "ok": true
+    },
+    {
+      "date": "2026-11-23",
+      "category": "编剧技巧",
+      "idx": 1,
+      "kind": "URL",
+      "url": "https://gointothestory.blcklst.com/reflections-of-2026-black-list-feature-writers-lab-participants/",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-23",
+      "category": "编剧技巧",
+      "idx": 1,
+      "kind": "MEDIA",
+      "url": "https://storage.ghost.io/c/8f/29/8f29b0a7-49e5-431c-a9bb-3ade9c0a785e/content/images/size/w1200/2026/11/Cohort---SBM.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "ok": true
+    },
+    {
+      "date": "2026-11-23",
+      "category": "编剧技巧",
+      "idx": 2,
+      "kind": "URL",
+      "url": "https://johnaugust.com/2026/the-lost-art-of-the-bit-part",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-23",
+      "category": "编剧技巧",
+      "idx": 2,
+      "kind": "MEDIA",
+      "url": "https://johnaugust.com/wp-content/uploads/2021/04/ja-tw-card-small.png",
+      "status": "200",
+      "content_type": "image/png",
+      "ok": true
+    },
+    {
+      "date": "2026-11-23",
+      "category": "编剧技巧",
+      "idx": 3,
+      "kind": "URL",
+      "url": "https://industrialscripts.com/fixing-the-worst-scene-in-your-screenplay-exclusive-ebook/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-23",
+      "category": "编剧技巧",
+      "idx": 3,
+      "kind": "MEDIA",
+      "url": "https://industrialscripts.com/wp-content/uploads/2026/07/image11-1024x1024.png",
+      "status": "200",
+      "content_type": "image/png",
+      "ok": true
+    },
+    {
+      "date": "2026-11-24",
+      "category": "AI 漫剧",
+      "idx": 0,
+      "kind": "URL",
+      "url": "https://news.aibase.com/zh/news/32479",
+      "status": "200",
+      "content_type": "text/html;charset=utf-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-24",
+      "category": "AI 漫剧",
+      "idx": 0,
+      "kind": "MEDIA",
+      "url": "https://upload.chinaz.com/2026/1123/6393105314465750055545371.png",
+      "status": "200",
+      "content_type": "image/png",
+      "ok": true
+    },
+    {
+      "date": "2026-11-24",
+      "category": "AI 漫剧",
+      "idx": 1,
+      "kind": "URL",
+      "url": "https://www.awn.com/news/maxon-plus-brings-opt-ai-cinema-4d-and-zbrush",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-24",
+      "category": "AI 漫剧",
+      "idx": 1,
+      "kind": "MEDIA",
+      "url": "https://www.awn.com/sites/default/files/styles/og_1200/public/image/attached/1081896-maxonplus-1-1280.jpg?itok=Sh7fs-q_",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "ok": true
+    },
+    {
+      "date": "2026-11-24",
+      "category": "AI 漫剧",
+      "idx": 2,
+      "kind": "URL",
+      "url": "https://www.animationmagazine.net/2026/11/rotoscopy-to-the-rescue-cherry-and-virgin-director-masanao-kawajiri-on-the-films-shifting-visual-styles/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-24",
+      "category": "AI 漫剧",
+      "idx": 2,
+      "kind": "MEDIA",
+      "url": "https://www.animationmagazine.net/wordpress/wp-content/uploads/Cherry-and-Virgin-14-1.png",
+      "status": "200",
+      "content_type": "image/png",
+      "ok": true
+    },
+    {
+      "date": "2026-11-24",
+      "category": "AI 漫剧",
+      "idx": 3,
+      "kind": "URL",
+      "url": "https://beforesandafters.com/2026/11/24/showcasing-spidey-in-action/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-24",
+      "category": "AI 漫剧",
+      "idx": 3,
+      "kind": "MEDIA",
+      "url": "https://beforesandafters.com/wp-content/uploads/2026/11/spideycover.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "ok": true
+    },
+    {
+      "date": "2026-11-24",
+      "category": "编剧技巧",
+      "idx": 0,
+      "kind": "URL",
+      "url": "https://www.studiobinder.com/blog/micro-drama-script/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-24",
+      "category": "编剧技巧",
+      "idx": 0,
+      "kind": "MEDIA",
+      "url": "https://s.studiobinder.com/wp-content/uploads/2026/10/Micro-drama-script-vertical-storytelling-and-episodic-writing-techniques-StudioBinder.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "ok": true
+    },
+    {
+      "date": "2026-11-24",
+      "category": "编剧技巧",
+      "idx": 1,
+      "kind": "URL",
+      "url": "https://gointothestory.blcklst.com/spec-script-deal-tell-me-everything/",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-24",
+      "category": "编剧技巧",
+      "idx": 1,
+      "kind": "MEDIA",
+      "url": "https://storage.ghost.io/c/8f/29/8f29b0a7-49e5-431c-a9bb-3ade9c0a785e/content/images/2026/11/Hollywood---venti-views-6QDvwq2Fjsc-unsplash-copy-1.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "ok": true
+    },
+    {
+      "date": "2026-11-24",
+      "category": "编剧技巧",
+      "idx": 2,
+      "kind": "URL",
+      "url": "https://johnaugust.com/2026/envy-and-other-deadly-sins",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-24",
+      "category": "编剧技巧",
+      "idx": 2,
+      "kind": "MEDIA",
+      "url": "https://johnaugust.com/wp-content/uploads/2021/04/ja-tw-card-small.png",
+      "status": "200",
+      "content_type": "image/png",
+      "ok": true
+    },
+    {
+      "date": "2026-11-24",
+      "category": "编剧技巧",
+      "idx": 3,
+      "kind": "URL",
+      "url": "https://industrialscripts.com/first-page-of-screenplay/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "ok": true
+    },
+    {
+      "date": "2026-11-24",
+      "category": "编剧技巧",
+      "idx": 3,
+      "kind": "MEDIA",
+      "url": "https://industrialscripts.com/wp-content/uploads/2026/07/First-Page-Boxshot-1024x1024.png",
+      "status": "200",
+      "content_type": "image/png",
+      "ok": true
+    }
+  ]
+}
