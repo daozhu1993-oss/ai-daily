@@ -1,0 +1,362 @@
+[
+  {
+    "category": "AI 资讯",
+    "title": "智谱发布循环架构旗舰 GLM-5.4，主攻复杂编程任务",
+    "note": "采用 28 层共享权重循环两轮加深推理深度，官方称不增参数规模即可逼近超大规模模型表现，实际编码能力尚待社区第三方复测。",
+    "url": "https://z.ai/blog/glm-5.4",
+    "media": "https://iandaily.xyz/digest/2026-11-24-zhipu-glm-54-loop-13f8b71aa465.jpg?v=2026-11-24",
+    "so_what": "模型架构正从盲目堆参数转向计算复用，选型时把延迟与真实代码通过率放在一起算账。",
+    "pinned": true,
+    "source": "z.ai"
+  },
+  {
+    "category": "AI 资讯",
+    "title": "英国 AISI 实证：攻击策略选择会严重扭曲安全评测结果",
+    "note": "研究显示同一监视器对基础提示漏报仅 0.2%，换用转录编辑策略后漏报飙升至 22.7%，合成评测难以兜底真实线上安全。",
+    "url": "https://www.aisi.gov.uk/blog/attack-policy-selection-can-make-monitor-evaluations-misleading",
+    "media": "https://iandaily.xyz/digest/2026-11-24-uk-aisi-monitor-evals-a1337aa1d375.jpg?v=2026-11-24",
+    "so_what": "别把内部红队跑出的高分当免死金牌，线上护栏必须按真实对抗路径持续做压力测试。",
+    "pinned": false,
+    "source": "aisi.gov.uk"
+  },
+  {
+    "category": "AI 资讯",
+    "title": "亚马逊据报 75 亿美元收购 Decart 推理优化技术栈",
+    "note": "官方确认收购推理加速技术 DOS 及核心团队，彭博曝作价 75 亿美元，意在补齐自研 Trainium 芯片的软件生态短板。",
+    "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
+    "media": "https://iandaily.xyz/digest/2026-11-24-amazon-decart-75b-c87266ddf17a.jpg?v=2026-11-24",
+    "so_what": "算力竞争已经打到推理编译器与调度层，云厂商的硬件押注最终都会传导成 API 价格战。",
+    "pinned": false,
+    "source": "techcrunch.com"
+  },
+  {
+    "category": "AI 资讯",
+    "title": "DeepMind 结合多智能体与 Lean 形式化验证优化量子电路",
+    "note": "多组 Gemini 4 协作探索新算法并经 Lean 数学验证，官方称可将未来量子模拟开销降低十倍，核心解法已向学界开源。",
+    "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+    "media": "https://iandaily.xyz/digest/2026-11-24-deepmind-quantum-lean-1d408391fa4f.jpg?v=2026-11-24",
+    "so_what": "大模型发散探索叠加形式化验证器闭环，正在成为攻克高确定性科学工程难题的标准范式。",
+    "pinned": false,
+    "source": "deepmind.google"
+  },
+  {
+    "category": "AI 协作",
+    "title": "Claude Ship 开启公测：自动审查、修复并按策略审批 PR",
+    "note": "把代码审查、自动修补与合规策略审批串成三环流水线，命令行输入 /ship 即可接入，最终合并权仍留给仓库分支保护规则。",
+    "url": "https://claude.com/blog/introducing-claude-ship",
+    "media": "https://iandaily.xyz/digest/2026-11-24-anthropic-claude-ship-931facb1a08e.jpg?v=2026-11-24",
+    "so_what": "把重复的 PR 审查和修补交给代理，但一定要把最终合并的权限锁死在确定性规则里。",
+    "pinned": true,
+    "source": "claude.com"
+  },
+  {
+    "category": "AI 协作",
+    "title": "Lenny 访谈：科技高管如何用 Mac 跑起个人代理管家",
+    "note": "Innovaccer CTO 拆解如何借助 OpenClaw 与明确的护栏文档自动处理审批催办与日程整理，持续清扫日常工作中的 1% 摩擦。",
+    "url": "https://www.lennysnewsletter.com/p/openclaw-for-executives-automate",
+    "media": "https://iandaily.xyz/digest/2026-11-24-lenny-openclaw-exec-789be943d4db.jpg?v=2026-11-24",
+    "so_what": "个人代理落地不要一步到位造大管家，先把每天最烦人的两三件固定催办写清护栏跑通。",
+    "pinned": false,
+    "source": "lennysnewsletter.com"
+  },
+  {
+    "category": "AI 协作",
+    "title": "Rokan 推出纯浏览器本地运行的代理日志排查器",
+    "note": "拖入导出的代理轨迹文件即可自动定位沉默卡死、死循环或工具调用报错，基于 Pyodide 断网本地运行且免费开放。",
+    "url": "https://rokan.computer/check",
+    "media": "https://iandaily.xyz/digest/2026-11-24-rokan-trace-checker-793ac92e6315.jpg?v=2026-11-24",
+    "so_what": "代理跑飞不可怕，可怕的是不知道在哪一步跑飞；本地日志诊断工具是团队上马 Agent 的标配。",
+    "pinned": false,
+    "source": "rokan.computer"
+  },
+  {
+    "category": "AI 协作",
+    "title": "Blobby 把多代理运行状态与审批弹窗挂上 MacBook 刘海",
+    "note": "免账号即可在屏幕刘海区域实时监控本地代理进度并一键放行终端命令，减少在多个窗口之间频繁切屏的注意力损耗。",
+    "url": "https://blobbyapp.com",
+    "media": "https://iandaily.xyz/digest/2026-11-24-blobby-mac-notch-566ef17d4082.jpg?v=2026-11-24",
+    "so_what": "多代理并行时代的交互核心不是对话窗口，而是低打扰的状态雷达与即时审批入口。",
+    "pinned": false,
+    "source": "blobbyapp.com"
+  },
+  {
+    "category": "一人公司",
+    "title": "Hermit CRM 开源：专为一人公司打造的本地纯文本客户工具",
+    "note": "所有客户资料与跟进记录均以纯文本文件保存在本地电脑，采用 Apache 2.0 协议，极易直接交给 AI 编码工具按需魔改。",
+    "url": "https://hermitcrm.io/",
+    "media": "https://iandaily.xyz/digest/2026-11-24-hermit-crm-local-c12570c8f57e.jpg?v=2026-11-24",
+    "so_what": "一人公司最怕被重型 SaaS 锁死数据，纯文本本地存储天然适配 AI 工作流与自主扩展。",
+    "pinned": true,
+    "source": "hermitcrm.io"
+  },
+  {
+    "category": "一人公司",
+    "title": "WebSidTracker 在浏览器里完整复刻 1985 年 C64 编曲芯片",
+    "note": "免账号模拟三声道 SID 复古音频芯片，并附带仅 2KB 大小的 MIT 开源播放器，可直接嵌进独立网页游戏做原声引擎。",
+    "url": "https://ddecoene.github.io/WebSidTracker/",
+    "media": "https://iandaily.xyz/digest/2026-11-24-websidtracker-c64-0abee88d5c0f.jpg?v=2026-11-24",
+    "so_what": "把极客情怀做到足够轻巧且可直接集成，小众复古工具也能在独立开发圈层拿到长尾复用。",
+    "pinned": false,
+    "source": "ddecoene.github.io"
+  },
+  {
+    "category": "一人公司",
+    "title": "Spelunkr 把互联网档案馆冷门老片做成 24 小时免费电视",
+    "note": "将公共领域的历史录像重新编排成全天候同步播出的虚拟频道，配复古遥控器切台且零广告，在 HN 社区收获 880 余赞。",
+    "url": "https://spelunkr.tv",
+    "media": "https://iandaily.xyz/digest/2026-11-24-spelunkr-tv-a185a2dff141.jpg?v=2026-11-24",
+    "so_what": "信息过载时代，替用户做减法的“策展型体验”本身就是稀缺产品，不一定要自己生产内容。",
+    "pinned": false,
+    "source": "spelunkr.tv"
+  },
+  {
+    "category": "一人公司",
+    "title": "Peerdeck 开源苹果生态原生多端 PT 下载遥控工具",
+    "note": "将多台 NAS 上的 qBittorrent、Transmission 与 Flood 下载任务统一收拢到原生界面，免去反复登录网页端的繁琐。",
+    "url": "https://github.com/xheiop/Peerdeck",
+    "media": "https://iandaily.xyz/digest/2026-11-24-peerdeck-pt-remote-59acf2cc5b06.jpg?v=2026-11-24",
+    "so_what": "给硬核极客的高频痛点做一套顺手的原生壳，往往比追风口做大而全应用更容易攒下种子用户。",
+    "pinned": false,
+    "source": "github.com"
+  },
+  {
+    "category": "产品设计",
+    "title": "Pattern Dump 0.9：让设计规范文档直接从前端代码派生",
+    "note": "主打 HTML 优先的组件工作台，组件文档与状态直接由真实代码自动生成，并在构建阶段自动拦截违背契约的样式改动。",
+    "url": "https://pattern-dump.design/",
+    "media": "https://iandaily.xyz/digest/2026-11-24-pattern-dump-090-4ba544ba0d20.jpg?v=2026-11-24",
+    "so_what": "静态设计规范文档上线三天就会过期，把规范变成构建期强校验的代码契约才能真正落地。",
+    "pinned": true,
+    "source": "pattern-dump.design"
+  },
+  {
+    "category": "产品设计",
+    "title": "从零自研内核的独立浏览器 Ladybird 开放早期公测包",
+    "note": "彻底脱离 Chromium 与 WebKit 分支从头构建排版引擎，已放出 macOS 与 Linux 安装包，官方坦承现阶段仍有兼容与崩溃。",
+    "url": "https://ladybird.org/posts/alpha/",
+    "media": "https://iandaily.xyz/digest/2026-11-24-ladybird-browser-alpha-492000e96f25.jpg?v=2026-11-24",
+    "so_what": "公测阶段坦诚暴露缺陷边界，反而能筛选出真正愿意一起打磨基础设施的高质量早期社区。",
+    "pinned": false,
+    "source": "ladybird.org"
+  },
+  {
+    "category": "产品设计",
+    "title": "Unbox 开源极简解压工具：高仿 Win11 原生弹窗且用完即走",
+    "note": "基于 7z 内核重新封装，砍掉所有右键广告与臃肿主窗口，只保留原生质感的速度曲线弹窗并在解压完成后自动退出。",
+    "url": "https://github.com/Snowail/Unbox",
+    "media": "https://iandaily.xyz/digest/2026-11-24-unbox-win11-extract-b0f3213a508d.jpg?v=2026-11-24",
+    "so_what": "工具软件最高的礼貌是办完事立刻消失，克制不打扰本身就能形成极强的口碑传播。",
+    "pinned": false,
+    "source": "github.com"
+  },
+  {
+    "category": "产品设计",
+    "title": "Kagi Mail 开启公测：无广告、无追踪的付费隐私邮箱",
+    "note": "整合日历与自定义域名功能，提供 60 天免费试用后按 99 美元每年订阅，延续付费搜索引擎用钱买清净的产品哲学。",
+    "url": "https://blog.kagi.com/kagi-mail-public-beta",
+    "media": "https://iandaily.xyz/digest/2026-11-24-kagi-mail-public-beta-e6e8b1a289b2.jpg?v=2026-11-24",
+    "so_what": "当免费软件的隐性隐私代价越来越高，直接向用户明码标价卖“克制与安全”反而成了清晰定位。",
+    "pinned": false,
+    "source": "blog.kagi.com"
+  },
+  {
+    "category": "审美提升",
+    "title": "Midori 推出直接夹在胶带卷上的便携弹簧切刀",
+    "note": "舍弃笨重占桌面的传统底座，用精巧弹簧夹跨扣卷芯与外缘，无论大小纸胶带或透明胶卷都能随手一夹即切即走。",
+    "url": "https://www.yankodesign.com/2026/11/23/midoris-tape-cutter-clips-onto-the-roll-and-goes-with-it/",
+    "media": "https://iandaily.xyz/digest/2026-11-24-midori-tape-cutter-3b3cbc8ad6fa.jpg?v=2026-11-24",
+    "so_what": "好设计不是给旧物件加装饰，而是重新审视人与物的附着关系，把多余的底座直接拿掉。",
+    "pinned": true,
+    "source": "yankodesign.com"
+  },
+  {
+    "category": "审美提升",
+    "title": "Pentagram 用四行节拍字标重塑英国爱乐乐团八十周年形象",
+    "note": "将乐团全名按音乐四拍节奏拆分排版，搭配更温暖的赤红色与分层印刷工艺，让视觉系统同时驾驭古典大厅与跨界演出。",
+    "url": "https://abduzeedo.com/philharmonia-orchestral-brand-identity-pentagram/",
+    "media": "https://iandaily.xyz/digest/2026-11-24-pentagram-philharmonia-c1eaef073747.jpg?v=2026-11-24",
+    "so_what": "字体排版也能传递声音与律动，找到行业自带的原生隐喻，比硬套抽象图形更有生命力。",
+    "pinned": false,
+    "source": "abduzeedo.com"
+  },
+  {
+    "category": "审美提升",
+    "title": "字体厂 Dinamo 为 Are.na 重绘默认无衬线字体并全族免费公开",
+    "note": "保留网页早期默认 Arial 字体十五年来的克制中立气质，但在底层彻底重绘字形曲线与字重细节，并向所有创作者免费开放。",
+    "url": "https://abduzeedo.com/typography-abc-areal-dinamo-reimagines-arial-arena/",
+    "media": "https://iandaily.xyz/digest/2026-11-24-dinamo-abc-areal-82134598d793.jpg?v=2026-11-24",
+    "so_what": "克制不等于粗糙，把人人习以为常的默认基础设施重新精雕细琢，最能体现品牌的审美底气。",
+    "pinned": false,
+    "source": "abduzeedo.com"
+  },
+  {
+    "category": "审美提升",
+    "title": "SABO 用弧形隔断与定制织物柔化纽约下东区紧凑小宅",
+    "note": "在有限公寓里大胆保留裸露钢梁与砌块墙面，借圆角白墙与大尺度图案布艺缓冲工业硬朗感，拓展空间层次。",
+    "url": "https://www.designboom.com/architecture/bold-shapes-rounded-partitions-soft-divisions-new-york-apartment-sabo-project/",
+    "media": "https://iandaily.xyz/digest/2026-11-24-sabo-nyc-soft-division-5c9cb0910fa6.jpg?v=2026-11-24",
+    "so_what": "空间或界面局促时，用柔和的材质过渡替代生硬分割线，既能保住功能分区又不显压抑。",
+    "pinned": false,
+    "source": "designboom.com"
+  },
+  {
+    "category": "产品营销",
+    "title": "a16z 实测 1.1 万次 AI 代理购物，拆解 B2A 经济五大法则",
+    "note": "联合研究机构跑完上万次真实消费决策任务，对比人类数据拆解 AI 买家筛选商品、比价与放弃下单的关键信号。",
+    "url": "https://www.a16z.news/p/welcome-to-the-b2a-economy-how-agents",
+    "media": "https://iandaily.xyz/digest/2026-11-24-a16z-b2a-economy-0e426eec6bcb.jpg?v=2026-11-24",
+    "so_what": "未来的流量入口不仅是人眼更是代理爬虫，商品参数结构化与透明定价将直接决定转化率。",
+    "pinned": true,
+    "source": "a16z.news"
+  },
+  {
+    "category": "产品营销",
+    "title": "OpenAI 推出 OpenWorks 计划，补贴顾问线下帮小微商户落地",
+    "note": "由官方出资支持社区技术顾问免费为本地小店搭建库存与排班工具，用最传统的线下地推模式切入全美中小商家渠道。",
+    "url": "https://openai.com/openworks",
+    "media": "https://iandaily.xyz/digest/2026-11-24-openai-openworks-49b70332bf23.jpg?v=2026-11-24",
+    "so_what": "再前沿的技术进入下沉市场也绕不开手把手交付，谁能帮小老板解决琐事谁就拿走渠道。",
+    "pinned": false,
+    "source": "openai.com"
+  },
+  {
+    "category": "产品营销",
+    "title": "奢侈大牌节日广告集体回归手工动画，AI 补帧细节引发审视",
+    "note": "Prada、Levi's 与 Dior 今年纷纷押注传统动画叙事，但 Dior 因被观众揪出疑似 AI 补帧痕迹遭到质疑，手艺真实度成焦点。",
+    "url": "https://www.creativeboom.com/insight/this-years-holiday-ads-have-one-thing-in-common-and-its-good-news-for-creatives/",
+    "media": "https://iandaily.xyz/digest/2026-11-24-holiday-ads-craft-2026-4f736fed4222.jpg?v=2026-11-24",
+    "so_what": "当生成内容泛滥成廉价背景音，“肉眼可见的人工手作感”反而成了高端品牌最稀缺的溢价。",
+    "pinned": false,
+    "source": "creativeboom.com"
+  },
+  {
+    "category": "产品营销",
+    "title": "客服 AI 独角兽 Sierra 半年估值翻倍至 300 亿美元",
+    "note": "由前 Salesforce 联席 CEO 创立，拿下 17.5 亿美元 F 轮融资，印证按结果付费的企业级客服代理商业化增速惊人。",
+    "url": "https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off/",
+    "media": "https://iandaily.xyz/digest/2026-11-24-sierra-30b-valuation-84299a3cfee5.jpg?v=2026-11-24",
+    "so_what": "企业客户不愿再为虚无的按席位软件买单，敢把定价直接挂钩“问题解决率”才拿得到大单。",
+    "pinned": false,
+    "source": "techcrunch.com"
+  },
+  {
+    "category": "AI 漫剧",
+    "title": "OpenAI 挥刀关停 Sora：一场蓄谋已久的断臂求生与路线转向",
+    "note": "复盘明星视频项目从惊艳亮相到全面收缩的算力账与商业账，剖析纯文生视频若无法融入可控工业管线所面临的变现困局。",
+    "url": "https://www.woshipm.com/ai/6364213.html",
+    "media": "https://image.woshipm.com/2023/04/13/8b7d61a4-d9eb-11ed-a8b0-00163e0b5ff3.jpg",
+    "so_what": "漫剧与影视工业化不能押注单一闭源黑盒，可控、低成本、可替换的分镜管线才是生存底牌。",
+    "pinned": true,
+    "source": "woshipm.com"
+  },
+  {
+    "category": "AI 漫剧",
+    "title": "AI 主播 48 小时限时挑战赚 4 万打赏，实时互动变现跑通了吗？",
+    "note": "拆解造梦次元联合生数科技打造的虚拟角色紫樱 48 小时直播实验，以任务清零机制拉高互动参与感，吸引 31 万人次围观。",
+    "url": "https://www.woshipm.com/ai/6486087.html",
+    "media": "https://image.woshipm.com/wp-files/sha256/6f/88/6f88293cc2020575255c0b69279e103b6b585ade4f379d8e579a3baf93c53517.png",
+    "so_what": "虚拟角色变现的关键不在画质多逼真，而在能否设计出让观众有掌控感与陪伴感的互动规则。",
+    "pinned": false,
+    "source": "woshipm.com"
+  },
+  {
+    "category": "AI 漫剧",
+    "title": "从 2D 解压小游戏到 3D 赛车，EvoMeme 把互动创作搬进 AI 工厂",
+    "note": "实测新一代互动内容工厂如何把自然语言创意直接编译成可玩、有物理反馈的轻量小游戏，打通从视觉生成到交互落地的断层。",
+    "url": "https://www.woshipm.com/ai/6487382.html",
+    "media": "https://image.woshipm.com/wp-files/sha256/46/bd/46bdfe19e051f0a4f90af43a4f1375c3a0bdff1928a2f350e413a9704029e517.png",
+    "so_what": "互动漫剧与轻量小游戏的边界正在消融，给剧情加上简单的操作反馈能显著拉升完播与停留。",
+    "pinned": false,
+    "source": "woshipm.com"
+  },
+  {
+    "category": "AI 漫剧",
+    "title": "GPT-6「看不懂 3D」实测：250 道空间题仅得 0.53 分暴露盲区",
+    "note": "对比炫酷的 CAD 演示视频与真实空间基准测试，揭示前沿大模型在三维透视、遮挡关系与空间一致性上的底层短板。",
+    "url": "https://www.woshipm.com/ai/6487214.html",
+    "media": "https://image.woshipm.com/wp-files/sha256/cc/2e/cc2e30777d285d5cf8a742874d666e9881a73ebfdf028b290764d34861959de6.jpg",
+    "so_what": "做 AI 漫剧分镜别迷信模型的空间脑补能力，复杂机位与多视角转换仍需用参考图和三视图锁死。",
+    "pinned": false,
+    "source": "woshipm.com"
+  },
+  {
+    "category": "编剧技巧",
+    "title": "《说书人》：半张书作饵与“三印分立”拆网的复仇爽剧结构",
+    "note": "跛脚说书人重返临州，以三年残卷为诱饵、一册窑册作铁证，借满城人心织局将十年前吞银灭门的贪官逼上刑台并烧册拆网。",
+    "url": "https://www.wzbj1616.com/script_info/2347",
+    "media": "https://www.wzbj1616.com/storage/script/20261109/c6c4d279b275dc95781be1386ea47d78.jpg",
+    "so_what": "高级复仇剧不只靠主角开挂手刃仇人，而是把反派赖以生存的利益网络变成反噬他自己的陷阱。",
+    "pinned": true,
+    "source": "wzbj1616.com"
+  },
+  {
+    "category": "编剧技巧",
+    "title": "《六扇门》：过目不忘的天赋撞上盘根错节的制度壁垒",
+    "note": "主角顾拾手握查案异能，面对的却不是单一凶徒而是官官相护的庞大体系，探讨普通人在无法彻底翻盘的旧案中如何守住底线。",
+    "url": "https://www.wzbj1616.com/script_info/2344",
+    "media": "https://www.wzbj1616.com/storage/script/20261109/3c15de7ec6158b6eaf56d9643a6f1e81.jpg",
+    "so_what": "给主角越强的单项天赋，就越要设计一个单靠天赋无法碾压的系统性对手，冲突才不会早早泄气。",
+    "pinned": false,
+    "source": "wzbj1616.com"
+  },
+  {
+    "category": "编剧技巧",
+    "title": "《杂役》：十年挑水练就眼力，底层小人物的武侠逆袭切口",
+    "note": "沈九在澄水道挑水十年练出从脚步水痕识破真相的绝活，却在进身考核前夕发现名额被执事明码标价售出，瞬间引爆阶层冲突。",
+    "url": "https://www.wzbj1616.com/script_info/2346",
+    "media": "https://www.wzbj1616.com/storage/script/20261109/1a903a5536e7cd5b8607b3b2b4bf4c63.jpg",
+    "so_what": "小人物的翻盘技能必须长在他的日常苦役里，让十年卑微劳作成为破局暗器，情绪宣泄才够痛快。",
+    "pinned": false,
+    "source": "wzbj1616.com"
+  },
+  {
+    "category": "编剧技巧",
+    "title": "《红太阳一中二三事》：把黑帮话事人套进校园交流大会的荒诞喜剧",
+    "note": "前年级第一出国留出权力真空，作业组与各派学生围绕“高二话事人”展开一本正经的权谋交锋，用高反差类型错位制造密集笑点。",
+    "url": "https://www.wzbj1616.com/script_info/2342",
+    "media": "https://www.wzbj1616.com/storage/script/20250912/4086dc5344ad6e9ee224af782e9d2283.jpg",
+    "so_what": "校园喜剧最出彩的写法是“大题小做”，把黑帮权谋的庄重语态套在课间小事上，反差天然生笑。",
+    "pinned": false,
+    "source": "wzbj1616.com"
+  },
+  {
+    "category": "产品经理",
+    "title": "深度拆解：在 AI 浪潮下，究竟什么样的产品最容易被颠覆？",
+    "note": "借前 Tinder 首席产品官的分析框架，从信息套利、操作界面复杂度与数据飞轮三个维度，评估存量软件面对大模型时的脆弱点。",
+    "url": "https://www.woshipm.com/ai/6245516.html",
+    "media": "https://image.woshipm.com/2024/06/05/eb774294-22df-11ef-a5e1-00163e142b65.png",
+    "so_what": "凡是靠帮用户翻菜单、填表单赚取效率差的产品都在危险区，抓紧向私有工作流与独家数据迁移。",
+    "pinned": true,
+    "source": "woshipm.com"
+  },
+  {
+    "category": "产品经理",
+    "title": "你还在苦写 PRD？隔壁产品经理已经用多代理跑完活动全流程",
+    "note": "对比传统两周评审排期与三代理协同落地的真实案例，展示产品经理如何从写静态需求文档转向直接编排并验收可运行原型。",
+    "url": "https://www.woshipm.com/ai/6365148.html",
+    "media": "https://image.woshipm.com/2024/03/08/8e4dc7a8-dd31-11ee-9846-00163e142b65.png",
+    "so_what": "文字 PRD 的信息损耗太大，用 AI 快速拉出可点击的真实原型再评审，能省掉一半扯皮时间。",
+    "pinned": false,
+    "source": "woshipm.com"
+  },
+  {
+    "category": "产品经理",
+    "title": "产品经理必知的 9 个前端 UI 框架：用共同语言拉齐界面质感",
+    "note": "梳理当下 AI 应用与 B 端后台最常用的九套组件库特性与适用边界，帮助产品经理在不写全量代码的前提下精准沟通交互预期。",
+    "url": "https://www.woshipm.com/pd/6411644.html",
+    "media": "https://image.woshipm.com/wp-files/2026/06/z6wtrhcWdyjbndBD1VT3.png",
+    "so_what": "懂主流组件库不是为了抢前端饭碗，而是为了避免提出高开发成本、低业务价值的伪定制交互。",
+    "pinned": false,
+    "source": "woshipm.com"
+  },
+  {
+    "category": "产品经理",
+    "title": "时代变了：为什么谁都不再抢“用户时长第一”这个头衔？",
+    "note": "复盘围绕互联网时长占比报告引发的行业争论，剖析在监管预期与消费理性的双重作用下，大厂指标如何从抢时间转向抢交易效率。",
+    "url": "https://www.woshipm.com/share/6486192.html",
+    "media": "https://image.woshipm.com/2023/04/13/85970002-d9ea-11ed-889f-00163e0b5ff3.jpg",
+    "so_what": "纯靠杀时间换广告位的指标正在失效，下一代好产品的北极星指标应该是帮用户省下多少时间。",
+    "pinned": false,
+    "source": "woshipm.com"
+  }
+]
