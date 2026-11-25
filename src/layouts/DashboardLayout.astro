@@ -96,14 +96,14 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site || siteConfig.url);
     <!-- 3-Column Dashboard Container -->
     <div class="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8 py-6">
       <div class="flex flex-col lg:flex-row gap-8 items-start relative">
-        <!-- 1. Left Sidebar -->
-        <LeftSidebar currentDate={currentIssue.data.date} allIssues={allIssues} />
 
         <!-- 2. Center Main Gallery Stream -->
         <main class="flex-1 min-w-0 w-full relative">
           <!-- Gallery Slot -->
           <slot />
         </main>
+
+        <LeftSidebar currentDate={currentIssue.data.date} allIssues={allIssues} />
 
         <!-- 3. Right Sidebar (Sticky Highlights) -->
         {showRightSidebar && <RightSidebar issue={currentIssue} />}
