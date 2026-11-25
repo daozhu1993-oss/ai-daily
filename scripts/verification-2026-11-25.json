@@ -1,0 +1,598 @@
+{
+  "date": "2026-11-25",
+  "checked_at": "2026-11-25T01:46:21.175462+00:00",
+  "candidate_sha256": "d83279f2435dd0db57feeffb14dd5d726afc04692f07119708ae9a8d0439a46f",
+  "used_sha256": "fb182ef0ec99726fcc50f48935a64b9760dbd2a3c0684114b6d8b4ff727a6443",
+  "previous_url_count": 4016,
+  "category_counts": {
+    "AI 资讯": 4,
+    "AI 协作": 4,
+    "一人公司": 4,
+    "产品设计": 4,
+    "审美提升": 4,
+    "产品营销": 4,
+    "AI 漫剧": 4,
+    "编剧技巧": 4,
+    "产品经理": 4
+  },
+  "duplicates": [],
+  "endpoints": [
+    {
+      "kind": "URL",
+      "url": "https://prismml.com/news/bonsai-2-5-27b",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://prismml.com/news/bonsai-2-5-27b",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-25-prismml-bonsai-cfa8a2ceac80.jpg?v=2026-11-25",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-25-prismml-bonsai-cfa8a2ceac80.jpg?v=2026-11-25",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://techcrunch.com/2026/11/24/uber-and-nuro-begin-driverless-testing-of-lucid-robotaxis-ahead-of-2027-launch/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://techcrunch.com/2026/11/24/uber-and-nuro-begin-driverless-testing-of-lucid-robotaxis-ahead-of-2027-launch/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-25-uber-lucid-9c3ff7841450.jpg?v=2026-11-25",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-25-uber-lucid-9c3ff7841450.jpg?v=2026-11-25",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-25-meta-muse-ig-90b372cf93ad.jpg?v=2026-11-25",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-25-meta-muse-ig-90b372cf93ad.jpg?v=2026-11-25",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://techcrunch.com/2026/11/24/pinterest-will-now-let-parents-limit-the-ai-generated-content-their-teens-see/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://techcrunch.com/2026/11/24/pinterest-will-now-let-parents-limit-the-ai-generated-content-their-teens-see/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-25-pinterest-ai-d17df106f70d.jpg?v=2026-11-25",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-25-pinterest-ai-d17df106f70d.jpg?v=2026-11-25",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://claude.com/blog/install-as-app",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://claude.com/resources/articles/install-as-app",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-25-claude-app-1f8b9b326bbf.jpg?v=2026-11-25",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-25-claude-app-1f8b9b326bbf.jpg?v=2026-11-25",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://davidtemkin.github.io/declarelang/",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://davidtemkin.github.io/declarelang/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-25-declare-ui-39f2fbdf9d15.jpg?v=2026-11-25",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-25-declare-ui-39f2fbdf9d15.jpg?v=2026-11-25",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://github.com/sous-labs/songe",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://github.com/sous-labs/songe",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-25-songe-train-4b381c1cd3e2.jpg?v=2026-11-25",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-25-songe-train-4b381c1cd3e2.jpg?v=2026-11-25",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://newsletter.pragmaticengineer.com/p/the-pragmatic-engineer-essay-challenge",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://newsletter.pragmaticengineer.com/p/the-pragmatic-engineer-essay-challenge",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-25-pragmatic-ai-19df4a9dc51f.jpg?v=2026-11-25",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-25-pragmatic-ai-19df4a9dc51f.jpg?v=2026-11-25",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://sunbridger.github.io/localpeek/",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://sunbridger.github.io/localpeek/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-25-localpeek-4a7ec53b14fc.jpg?v=2026-11-25",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-25-localpeek-4a7ec53b14fc.jpg?v=2026-11-25",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://github.com/clockoli/clockoli",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://github.com/clockoli/clockoli",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-25-clockoli-9c325b43a8a1.jpg?v=2026-11-25",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-25-clockoli-9c325b43a8a1.jpg?v=2026-11-25",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://masondata.ai/",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://masondata.ai/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-25-mason-pg-7933a26ae31f.jpg?v=2026-11-25",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-25-mason-pg-7933a26ae31f.jpg?v=2026-11-25",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://github.com/fred2045/diting",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://github.com/fred2045/diting",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-25-diting-rss-2cb6b93bb818.jpg?v=2026-11-25",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-25-diting-rss-2cb6b93bb818.jpg?v=2026-11-25",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://tday.com/",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://tday.com/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-25-tday-demo-836492340862.jpg?v=2026-11-25",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-25-tday-demo-836492340862.jpg?v=2026-11-25",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://parkweb.co/",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://parkweb.co/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-25-park-browser-fbe888767f29.jpg?v=2026-11-25",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-25-park-browser-fbe888767f29.jpg?v=2026-11-25",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://livingwallapp.com/hn",
+      "status": "200",
+      "content_type": "text/html",
+      "final_url": "https://livingwallapp.com/hn",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-25-livingwall-c27a6ccb6971.jpg?v=2026-11-25",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-25-livingwall-c27a6ccb6971.jpg?v=2026-11-25",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://culturedcode.com/things/blog/2026/11/things-for-touch-macs/",
+      "status": "200",
+      "content_type": "text/html",
+      "final_url": "https://culturedcode.com/things/blog/2026/11/things-for-touch-macs/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-25-things-touch-10772333eb4e.jpg?v=2026-11-25",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-25-things-touch-10772333eb4e.jpg?v=2026-11-25",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.itsnicethat.com/articles/base-design-visa-brand-refresh-graphic-design-project-241126",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://www.itsnicethat.com/articles/base-design-visa-brand-refresh-graphic-design-project-241126",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-25-visa-refresh-b5a33e9e140c.jpg?v=2026-11-25",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-25-visa-refresh-b5a33e9e140c.jpg?v=2026-11-25",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://abduzeedo.com/stow-precision-coffee-packaging-design-raw/",
+      "status": "200",
+      "content_type": "text/html",
+      "final_url": "https://abduzeedo.com/stow-precision-coffee-packaging-design-raw",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-25-stow-coffee-943442c9f10f.jpg?v=2026-11-25",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-25-stow-coffee-943442c9f10f.jpg?v=2026-11-25",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.dezeen.com/2026/11/24/raul-sanchez-architects-casa-de-las-lavanderas/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.dezeen.com/2026/11/24/raul-sanchez-architects-casa-de-las-lavanderas/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-25-lavanderas-2663db382777.jpg?v=2026-11-25",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-25-lavanderas-2663db382777.jpg?v=2026-11-25",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://abduzeedo.com/new-orbit-ultra-low-satellite-brand-identity-manual/",
+      "status": "200",
+      "content_type": "text/html",
+      "final_url": "https://abduzeedo.com/new-orbit-ultra-low-satellite-brand-identity-manual",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-25-new-orbit-76d849a6f1ed.jpg?v=2026-11-25",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-25-new-orbit-76d849a6f1ed.jpg?v=2026-11-25",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-25-tidal-ai-fb6e22a80ffa.jpg?v=2026-11-25",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-25-tidal-ai-fb6e22a80ffa.jpg?v=2026-11-25",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://growtika.com/blog/wikipedia-traffic-study",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://growtika.com/blog/wikipedia-traffic-study",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-25-wiki-traffic-7511b9e66881.jpg?v=2026-11-25",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-25-wiki-traffic-7511b9e66881.jpg?v=2026-11-25",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.creativeboom.com/news/whats-the-answer-to-a-sea-of-lookalike-ai-brands-a-fossilised-typewriter-a-flight-delay-and-some-hand-drawn-cave-art-of-course/",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://www.creativeboom.com/news/whats-the-answer-to-a-sea-of-lookalike-ai-brands-a-fossilised-typewriter-a-flight-delay-and-some-hand-drawn-cave-art-of-course/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-25-verve-zero-c905fdaec655.jpg?v=2026-11-25",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-25-verve-zero-c905fdaec655.jpg?v=2026-11-25",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.coframe.com/",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://www.coframe.com/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-25-coframe-cro-e70c73a73d5f.jpg?v=2026-11-25",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-25-coframe-cro-e70c73a73d5f.jpg?v=2026-11-25",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://news.aibase.com/zh/news/32505",
+      "status": "200",
+      "content_type": "text/html;charset=utf-8",
+      "final_url": "https://news.aibase.com/zh/news/32505",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://upload.chinaz.com/2026/1125/6393119418885581694367609.png",
+      "status": "200",
+      "content_type": "image/png",
+      "final_url": "https://upload.chinaz.com/2026/1125/6393119418885581694367609.png",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://news.aibase.com/zh/news/32499",
+      "status": "200",
+      "content_type": "text/html;charset=utf-8",
+      "final_url": "https://news.aibase.com/zh/news/32499",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://upload.chinaz.com/2026/1124/6393112902321455155192119.png",
+      "status": "200",
+      "content_type": "image/png",
+      "final_url": "https://upload.chinaz.com/2026/1124/6393112902321455155192119.png",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://nofilmschool.com/chroma-awards-season-2",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://nofilmschool.com/chroma-awards-season-2",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://nofilmschool.com/media-library/image.png?id=68759724&width=1200&height=600&coordinates=0%2C60%2C0%2C60",
+      "status": "200",
+      "content_type": "image/png",
+      "final_url": "https://nofilmschool.com/media-library/image.png?id=68759724&width=1200&height=600&coordinates=0%2C60%2C0%2C60",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.awn.com/news/wildwood-godzilla-minus-zero-each-make-7-critics-choice-craft-lists",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://www.awn.com/news/wildwood-godzilla-minus-zero-each-make-7-critics-choice-craft-lists",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://www.awn.com/sites/default/files/styles/og_1200/public/image/attached/1081909-ccawards1.jpg?itok=X4s0r9JP",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://www.awn.com/sites/default/files/styles/og_1200/public/image/attached/1081909-ccawards1.jpg?itok=X4s0r9JP",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://nofilmschool.com/how-to-write-better-during-the-ai-boom",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://nofilmschool.com/how-to-write-better-during-the-ai-boom",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://nofilmschool.com/media-library/image.jpg?id=68754861&width=1200&height=600&coordinates=0%2C39%2C0%2C39",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://nofilmschool.com/media-library/image.jpg?id=68754861&width=1200&height=600&coordinates=0%2C39%2C0%2C39",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://gointothestory.blcklst.com/reflections-on-receptive-writing-and-reflective-writing/",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://gointothestory.blcklst.com/reflections-on-receptive-writing-and-reflective-writing/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://storage.ghost.io/c/8f/29/8f29b0a7-49e5-431c-a9bb-3ade9c0a785e/content/images/2026/11/Writing---hannah-olinger-8eSrC43qdro-unsplash.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://storage.ghost.io/c/8f/29/8f29b0a7-49e5-431c-a9bb-3ade9c0a785e/content/images/2026/11/Writing---hannah-olinger-8eSrC43qdro-unsplash.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.studiobinder.com/blog/how-to-film-short-drama-clips/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.studiobinder.com/blog/how-to-film-short-drama-clips/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://s.studiobinder.com/wp-content/uploads/2026/10/How-to-film-short-drama-clips-vertical-production-and-shooting-strategies-StudioBinder.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://s.studiobinder.com/wp-content/uploads/2026/10/How-to-film-short-drama-clips-vertical-production-and-shooting-strategies-StudioBinder.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://johnaugust.com/2026/nerding-out-on-story-with-andrew-stanton",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://johnaugust.com/2026/nerding-out-on-story-with-andrew-stanton",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://johnaugust.com/wp-content/uploads/2021/04/ja-tw-card-small.png",
+      "status": "200",
+      "content_type": "image/png",
+      "final_url": "https://johnaugust.com/wp-content/uploads/2021/04/ja-tw-card-small.png",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.svpg.com/ai-and-the-future-of-the-product-role/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.svpg.com/ai-and-the-future-of-the-product-role/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://www.svpg.com/wp-content/themes/svpg2022/app/img/svpg-social.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://www.svpg.com/wp-content/themes/svpg2022/app/img/svpg-social.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.producttalk.org/bugs-all-things-product-podcast-with-teresa-torres-petra-wille/",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://www.producttalk.org/bugs-all-things-product-podcast-with-teresa-torres-petra-wille/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://storage.ghost.io/c/57/9b/579b6dca-f48a-4307-844f-f0533595d058/content/images/size/w1200/2026/10/bugs-atp.webp",
+      "status": "200",
+      "content_type": "image/webp",
+      "final_url": "https://storage.ghost.io/c/57/9b/579b6dca-f48a-4307-844f-f0533595d058/content/images/size/w1200/2026/10/bugs-atp.webp",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.woshipm.com/ai/6486181.html",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.woshipm.com/ai/6486181.html",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://image.woshipm.com/2023/04/13/e19524d4-d9ee-11ed-bd74-00163e0b5ff3.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://image.woshipm.com/2023/04/13/e19524d4-d9ee-11ed-bd74-00163e0b5ff3.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.woshipm.com/share/6486110.html",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.woshipm.com/share/6486110.html",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://image.woshipm.com/2026/10/29/7a798d64-d349-11f1-8645-00163e4b86a1.png",
+      "status": "200",
+      "content_type": "image/png",
+      "final_url": "https://image.woshipm.com/2026/10/29/7a798d64-d349-11f1-8645-00163e4b86a1.png",
+      "ok": true
+    }
+  ],
+  "passed": true
+}

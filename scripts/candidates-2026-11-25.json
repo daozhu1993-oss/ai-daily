@@ -1,0 +1,362 @@
+[
+  {
+    "category": "AI 资讯",
+    "title": "PrismML 推出 5.9GB 三值量化模型 Bonsai 2.5，压缩 27B 底座跑本地代理",
+    "note": "基于 27B 参数底座通过三值量化压缩至不足 6GB，官方称显著强化端侧多轮工具调用与编码能力，让普通电脑也能承担本地代理工作。",
+    "url": "https://prismml.com/news/bonsai-2-5-27b",
+    "media": "https://iandaily.xyz/digest/2026-11-25-prismml-bonsai-cfa8a2ceac80.jpg?v=2026-11-25",
+    "so_what": "端侧小体积模型正从“只能闲聊”迈向“稳定调工具”，独立产品可以把隐私高频任务放回用户本机。",
+    "pinned": true,
+    "source": "prismml.com"
+  },
+  {
+    "category": "AI 资讯",
+    "title": "Uber 与 Nuro 在旧金山启动无安全员 Robotaxi 路测，剑指 2027 商用",
+    "note": "拿到许可半年后正式撤掉车内安全员开展实路测试，采用 Lucid 电动车型平台，计划 2027 年一季度向公众开放商业叫车。",
+    "url": "https://techcrunch.com/2026/11/24/uber-and-nuro-begin-driverless-testing-of-lucid-robotaxis-ahead-of-2027-launch/",
+    "media": "https://iandaily.xyz/digest/2026-11-25-uber-lucid-9c3ff7841450.jpg?v=2026-11-25",
+    "so_what": "自动驾驶正从技术验证切换进运力与车队成本比拼，软件能力最终要通过规模化调度兑现商业价值。",
+    "pinned": false,
+    "source": "techcrunch.com"
+  },
+  {
+    "category": "AI 资讯",
+    "title": "Meta 将 AI 代理 Muse 直接嵌进 Instagram 私信流，免切应用即问即查",
+    "note": "用户无需跳出聊天窗口即可直接追问帖子里的地点与商品、梳理未读群聊摘要，并同步向英国市场推送，把代理塞进高频社交入口。",
+    "url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
+    "media": "https://iandaily.xyz/digest/2026-11-25-meta-muse-ig-90b372cf93ad.jpg?v=2026-11-25",
+    "so_what": "大厂的杀手锏从来不是单做一个独立聊天框，而是把 AI 缝进用户本来每天打开五十次的原生场景里。",
+    "pinned": false,
+    "source": "techcrunch.com"
+  },
+  {
+    "category": "AI 资讯",
+    "title": "Pinterest 推出家长管控滑块，允许直接调低信息流中的 AI 生成图片比例",
+    "note": "在主流视觉内容平台中率先把“AI 内容浓度调节权”交还用户与家长，直面平台信息流被批量生成图淹没后的生态治理压力。",
+    "url": "https://techcrunch.com/2026/11/24/pinterest-will-now-let-parents-limit-the-ai-generated-content-their-teens-see/",
+    "media": "https://iandaily.xyz/digest/2026-11-25-pinterest-ai-d17df106f70d.jpg?v=2026-11-25",
+    "so_what": "当生成内容过载成为用户痛点，提供清晰透明的“AI 含量过滤开关”正在变成内容平台的新信任基建。",
+    "pinned": false,
+    "source": "techcrunch.com"
+  },
+  {
+    "category": "AI 协作",
+    "title": "Claude Artifacts 支持一键装成桌面独立应用，免打包签名直调连接器",
+    "note": "用户一句话生成的交互工具可直接安装为带独立窗口与系统通知的桌面应用，省去打包、签名和密钥配置，额度计入现有桌面套餐。",
+    "url": "https://claude.com/blog/install-as-app",
+    "media": "https://iandaily.xyz/digest/2026-11-25-claude-app-1f8b9b326bbf.jpg?v=2026-11-25",
+    "so_what": "“用完即走的小软件”彻底跳过商店分发与工程打包，未来团队内部 80% 的微型效率工具都将按需现做现装。",
+    "pinned": true,
+    "source": "claude.com"
+  },
+  {
+    "category": "AI 协作",
+    "title": "Declare 开源人机共用可编译界面语言，几百行写出原生可打断动效",
+    "note": "专为人类与 AI 协同设计的新型声明式界面语言，经严格编译器校验且代码清晰可读，让模型生成前端交互不再变成难以维护的黑盒。",
+    "url": "https://davidtemkin.github.io/declarelang/",
+    "media": "https://iandaily.xyz/digest/2026-11-25-declare-ui-39f2fbdf9d15.jpg?v=2026-11-25",
+    "so_what": "AI 时代好编程语言的标准变了：不仅要人好写，更要编译器约束强、让模型极难写出隐蔽 Bug。",
+    "pinned": false,
+    "source": "davidtemkin.github.io"
+  },
+  {
+    "category": "AI 协作",
+    "title": "Songe 开源本地闲置算力微调工具，一条命令把私密数据训成专属小模型",
+    "note": "数据全程留在用户本机，趁电脑闲置时自动用本地算力增量微调小模型，在 Hacker News 引发开发者热议，探索个人专属模型路线。",
+    "url": "https://github.com/sous-labs/songe",
+    "media": "https://iandaily.xyz/digest/2026-11-25-songe-train-4b381c1cd3e2.jpg?v=2026-11-25",
+    "so_what": "未来最懂你的不是云端万亿大模型，而是趁你睡觉时默默消化你本地笔记与工作流的端侧小模型。",
+    "pinned": false,
+    "source": "github.com"
+  },
+  {
+    "category": "AI 协作",
+    "title": "Pragmatic Engineer 揭晓 AI 改写研发征文优胜：直击代码审查塌缩难题",
+    "note": "精选三篇获奖长文与四十余篇一线工程师实战复盘，聚焦生成代码量暴增后人工 Code Review 失效、新人断层与团队分工重组。",
+    "url": "https://newsletter.pragmaticengineer.com/p/the-pragmatic-engineer-essay-challenge",
+    "media": "https://iandaily.xyz/digest/2026-11-25-pragmatic-ai-19df4a9dc51f.jpg?v=2026-11-25",
+    "so_what": "写代码提速十倍后，研发瓶颈立刻转移到审代码和保架构；团队必须重建自动化验收门禁。",
+    "pinned": false,
+    "source": "newsletter.pragmaticengineer.com"
+  },
+  {
+    "category": "一人公司",
+    "title": "LocalPeek 开源单窗只读看板，一眼看全本机所有开发服务与日志",
+    "note": "自动扫描本机运行的数据库、监听端口与四栏实时日志，面向 Apple Silicon 采用 MIT 协议开源，省去在十几个终端标签间翻找的麻烦。",
+    "url": "https://sunbridger.github.io/localpeek/",
+    "media": "https://iandaily.xyz/digest/2026-11-25-localpeek-4a7ec53b14fc.jpg?v=2026-11-25",
+    "so_what": "独立开发者自己每天踩十次的顺手痛点，打磨成一个轻量只读工具放上开源社区，最容易收获第一批精准口碑。",
+    "pinned": true,
+    "source": "sunbridger.github.io"
+  },
+  {
+    "category": "一人公司",
+    "title": "Clockoli 用私有 Git 仓库替代按席位收费的工时统计 SaaS",
+    "note": "开源免费且无人数上限，靠浏览器扩展把网页工时记录直接提交进团队自己的私有 Git 库，零独立服务器运维、数据完全自主可控。",
+    "url": "https://github.com/clockoli/clockoli",
+    "media": "https://iandaily.xyz/digest/2026-11-25-clockoli-9c325b43a8a1.jpg?v=2026-11-25",
+    "so_what": "一人公司和小团队不必为每个微功能都买一份月付 SaaS，拿 Git 当轻型后端能把固定成本压到接近零。",
+    "pinned": false,
+    "source": "github.com"
+  },
+  {
+    "category": "一人公司",
+    "title": "Mason 开源列式 Postgres 只读副本，免迁仓让千万行聚合提速 81 倍",
+    "note": "完全沿用现有 SQL 与 Postgres 生态，无需大动干戈引入重型数仓，作者自测千万级分析查询提速数十倍，极大降低小团队数据基建门槛。",
+    "url": "https://masondata.ai/",
+    "media": "https://iandaily.xyz/digest/2026-11-25-mason-pg-7933a26ae31f.jpg?v=2026-11-25",
+    "so_what": "单兵和微型团队选架构的核心准则是“少引入一个组件就少一份运维债”，能在 Postgres 生态内解决绝不另起炉灶。",
+    "pinned": false,
+    "source": "masondata.ai"
+  },
+  {
+    "category": "一人公司",
+    "title": "谛听开源抗焦虑 RSS 分级阅读器：用大模型自动滤噪并沉淀本地知识库",
+    "note": "针对信息过载痛点，接入大模型按个人关注权重给每日订阅源分级打分，自动筛掉标题党水文并把干货结构化归档至本地库。",
+    "url": "https://github.com/fred2045/diting",
+    "media": "https://iandaily.xyz/digest/2026-11-25-diting-rss-2cb6b93bb818.jpg?v=2026-11-25",
+    "so_what": "信息差时代已经结束，今天真正值钱的是“信息降噪器”——帮用户把每天两小时刷屏压成十分钟精读就是好产品。",
+    "pinned": false,
+    "source": "github.com"
+  },
+  {
+    "category": "产品设计",
+    "title": "tday.com 让编程代理通过 MCP 自动录屏、运镜并生成产品演示配音",
+    "note": "只需在常用代码代理里贴一句指令，就能自动操作网页或桌面完成平滑缩放录屏与旁白解说，大幅压低独立产品做发布视频的门槛。",
+    "url": "https://tday.com/",
+    "media": "https://iandaily.xyz/digest/2026-11-25-tday-demo-836492340862.jpg?v=2026-11-25",
+    "so_what": "产品演示视频正在变成可编程资产，把录屏脚本放进发版流程，每次大迭代都能顺手自动生成新宣发片。",
+    "pinned": true,
+    "source": "tday.com"
+  },
+  {
+    "category": "产品设计",
+    "title": "Park 浏览器 Mac 公测：把标签页、工作区与速览收进同一张开放画布",
+    "note": "跳出延续三十年的顶部线性标签栏，用空间画布与全局命令栏组织多任务网页上下文，探索信息密集型脑力工作的下一代界面。",
+    "url": "https://parkweb.co/",
+    "media": "https://iandaily.xyz/digest/2026-11-25-park-browser-fbe888767f29.jpg?v=2026-11-25",
+    "so_what": "AI 时代用户同时推进的并发任务数激增，线性标签页已经装不下复杂上下文，空间画布交互值得持续跟进。",
+    "pinned": false,
+    "source": "parkweb.co"
+  },
+  {
+    "category": "产品设计",
+    "title": "Living Wall 动态壁纸藏进极致的细节克制：拖动桌面图标时枝叶主动避让",
+    "note": "当你在 Mac 桌面拖动文件夹时，动态画面里的花枝与蝴蝶会实时感知位置并优雅让开，免费提供且通过苹果公证，把微交互玩出生命感。",
+    "url": "https://livingwallapp.com/hn",
+    "media": "https://iandaily.xyz/digest/2026-11-25-livingwall-c27a6ccb6971.jpg?v=2026-11-25",
+    "so_what": "让人忍不住截图安利的往往不是核心功能，而是某个“原本没必要做、但你竟然用心做了”的物理响应细节。",
+    "pinned": false,
+    "source": "livingwallapp.com"
+  },
+  {
+    "category": "产品设计",
+    "title": "Things 3.25 深度适配触屏 Mac：重写拖拽、弹窗与双指划选手势",
+    "note": "老牌设计标杆第一时间给出触屏桌面端交互范本，支持右滑排期、左滑多选与双指划选范围，兼顾键鼠精准度与触控直觉。",
+    "url": "https://culturedcode.com/things/blog/2026/11/things-for-touch-macs/",
+    "media": "https://iandaily.xyz/digest/2026-11-25-things-touch-10772333eb4e.jpg?v=2026-11-25",
+    "so_what": "新交互介质出现时不能简单把旧界面放大，必须重新校准触控热区、滑动反馈与手势撤销机制。",
+    "pinned": false,
+    "source": "culturedcode.com"
+  },
+  {
+    "category": "审美提升",
+    "title": "Visa 联手 Base Design 焕新视觉：抽出独立 V 标并定制多屏专属字体",
+    "note": "在保留国民级信任认知的前提下，提炼出极易在微缩数字支付入口识别的独立 V 符号，并定制高辨识度无衬线体统一全球多屏体验。",
+    "url": "https://www.itsnicethat.com/articles/base-design-visa-brand-refresh-graphic-design-project-241126",
+    "media": "https://iandaily.xyz/digest/2026-11-25-visa-refresh-b5a33e9e140c.jpg?v=2026-11-25",
+    "so_what": "老牌大品牌升级最忌推倒重来，提炼出能在 16px 图标里一眼认出的超级符号，才是数字时代视觉资产的核心。",
+    "pinned": true,
+    "source": "itsnicethat.com"
+  },
+  {
+    "category": "审美提升",
+    "title": "STOW 咖啡包装设计：用等宽烘焙日志与顶盖色标打造冷峻实验室秩序",
+    "note": "摒弃泛滥的田园插画风，把咖啡豆的产地、海拔与烘焙曲线排成精密等宽数据表，配合盒顶五种风味色签，功能信息直接长成美学。",
+    "url": "https://abduzeedo.com/stow-precision-coffee-packaging-design-raw/",
+    "media": "https://iandaily.xyz/digest/2026-11-25-stow-coffee-943442c9f10f.jpg?v=2026-11-25",
+    "so_what": "高信息密度不等于杂乱；当真实参数按严谨网格与色彩编码排布出来时，专业度本身就是最高级的装饰。",
+    "pinned": false,
+    "source": "abduzeedo.com"
+  },
+  {
+    "category": "审美提升",
+    "title": "巴塞罗那旧洗衣房住宅改造：屋顶开出克莱因蓝几何天井呼应历史水井",
+    "note": "建筑师保留老场地的记忆线索，在素白空间顶部切出浓烈深蓝几何光井，并以明黄折门与红凳做极少点缀，小体量迸发强烈戏剧光影。",
+    "url": "https://www.dezeen.com/2026/11/24/raul-sanchez-architects-casa-de-las-lavanderas/",
+    "media": "https://iandaily.xyz/digest/2026-11-25-lavanderas-2663db382777.jpg?v=2026-11-25",
+    "so_what": "大面积留白配一处极高纯度的视觉锚点，比满屏铺满低饱和渐变更能制造过目难忘的记忆点。",
+    "pinned": false,
+    "source": "dezeen.com"
+  },
+  {
+    "category": "审美提升",
+    "title": "Manual 重塑超低轨卫星品牌：用粒子点阵与原色牛皮纸避开科幻俗套",
+    "note": "摒弃航天科技惯用的深黑霓虹蓝紫渐变，从 180 公里轨道大气粒子提炼出极简点阵符号与工程线图，在硬核科技里做出温暖触感。",
+    "url": "https://abduzeedo.com/new-orbit-ultra-low-satellite-brand-identity-manual/",
+    "media": "https://iandaily.xyz/digest/2026-11-25-new-orbit-76d849a6f1ed.jpg?v=2026-11-25",
+    "so_what": "做 AI 与前沿科技品牌最容易撞脸“黑底蓝紫光”，主动往反方向的工程手稿与纸质触感走，辨识度立刻拉满。",
+    "pinned": false,
+    "source": "abduzeedo.com"
+  },
+  {
+    "category": "产品营销",
+    "title": "Tidal 宣布清退 2,700 万首纯 AI 生成歌曲：新上传占比飙升至 43%",
+    "note": "近三个月平台新上传纯 AI 曲目占比暴涨至 43%，严重稀释版权池与听歌体验，平台宣布 12 月 9 日起清零全生成曲、仅保留 AI 辅助作品。",
+    "url": "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/",
+    "media": "https://iandaily.xyz/digest/2026-11-25-tidal-ai-fb6e22a80ffa.jpg?v=2026-11-25",
+    "so_what": "低成本垃圾生成正在触发全行业“清仓式反击”；平台站出来替用户守住内容信噪比，本身就是最强品牌营销。",
+    "pinned": true,
+    "source": "arstechnica.com"
+  },
+  {
+    "category": "产品营销",
+    "title": "十一年流量实证：维基百科科普解释页访问暴跌 40%，人物传记仅跌 9%",
+    "note": "追踪一万余核心词条的长期变化，证明标准答案类“定义型内容”正被大模型直接截胡，而具备独特视角与具体人物故事的内容抗跌得多。",
+    "url": "https://growtika.com/blog/wikipedia-traffic-study",
+    "media": "https://iandaily.xyz/digest/2026-11-25-wiki-traffic-7511b9e66881.jpg?v=2026-11-25",
+    "so_what": "靠堆 SEO 百科词条获客的时代彻底结束了；内容营销必须转向一手实测、真实人物案例与鲜明观点。",
+    "pinned": false,
+    "source": "growtika.com"
+  },
+  {
+    "category": "产品营销",
+    "title": "Verve 用化石打字机与手绘岩画重塑 AI 品牌 Zero，跳出千篇一律套壳感",
+    "note": "围绕“让旧软件成为历史化石”的核心主张，大胆摒弃千篇一律的科技感渐变，用极具荒诞幽默的手绘岩画和实物摄影迅速出圈。",
+    "url": "https://www.creativeboom.com/news/whats-the-answer-to-a-sea-of-lookalike-ai-brands-a-fossilised-typewriter-a-flight-delay-and-some-hand-drawn-cave-art-of-course/",
+    "media": "https://iandaily.xyz/digest/2026-11-25-verve-zero-c905fdaec655.jpg?v=2026-11-25",
+    "so_what": "当竞争对手都用同一套 AI 模板做官网和海报，回归具体、荒诞、带人味儿的视觉隐喻就是最低成本的差异化破圈。",
+    "pinned": false,
+    "source": "creativeboom.com"
+  },
+  {
+    "category": "产品营销",
+    "title": "Coframe 用多代理闭环自动跑着陆页转化实验，把 CRO 从月级压缩到小时级",
+    "note": "将增长策略规划、页面文案变体与广告流量对照测试串成自动代理流水线，官网称已为客户带来超 3 亿美元增量营收。",
+    "url": "https://www.coframe.com/",
+    "media": "https://iandaily.xyz/digest/2026-11-25-coframe-cro-e70c73a73d5f.jpg?v=2026-11-25",
+    "so_what": "着陆页转化优化不再依赖运营拍脑袋改标题，建立“假设—生成—小流量测验—留存归因”的自动闭环才是现代增长标配。",
+    "pinned": false,
+    "source": "coframe.com"
+  },
+  {
+    "category": "AI 漫剧",
+    "title": "告别“抽卡式”AI 视频！MAGI-2 发布 50 毫秒级精准控镜，单秒成本降至 0.5 元",
+    "note": "新一代工业级视频生成模型把镜头运镜与节拍控制精度推进到 50 毫秒级，并将生成单价打到 0.5 元/秒，直击漫剧批量生产的返工痛点。",
+    "url": "https://news.aibase.com/zh/news/32505",
+    "media": "https://upload.chinaz.com/2026/1125/6393119418885581694367609.png",
+    "so_what": "决定 AI 漫剧能否跑通商业模型的不是单帧炫技，而是“时间轴精准控镜 + 可算清的单秒成本”两大工业硬指标。",
+    "pinned": true,
+    "source": "news.aibase.com"
+  },
+  {
+    "category": "AI 漫剧",
+    "title": "书旗中文网 2027 年再投 3 亿元，全面加码“原创 IP + AI 漫剧”生态协同",
+    "note": "网文大平台正式把 AI 漫剧升格为年度战略级孵化通道，砸下 3 亿真金白银打通从网文爽点验证、剧本改编到 AI 漫剧可视化分发的链路。",
+    "url": "https://news.aibase.com/zh/news/32499",
+    "media": "https://upload.chinaz.com/2026/1124/6393112902321455155192119.png",
+    "so_what": "上游网文 IP 池与下游 AI 漫剧产能正在加速合龙；中小团队抢占细分爽文改编权比从零硬憋新世界观胜率高得多。",
+    "pinned": false,
+    "source": "news.aibase.com"
+  },
+  {
+    "category": "AI 漫剧",
+    "title": "ElevenLabs 旗舰 AI 影视创作大赛 Chroma Awards 第二季正式开启",
+    "note": "面向全球 AI 短片、动画与音频叙事创作者的顶级赛事回归，集中呈现最新多模态配音、音效合成与生成式导演工作流的实战上限。",
+    "url": "https://nofilmschool.com/chroma-awards-season-2",
+    "media": "https://nofilmschool.com/media-library/image.png?id=68759724&width=1200&height=600&coordinates=0%2C60%2C0%2C60",
+    "so_what": "紧盯头部 AI 影视大赛的入围与获奖作品，是观察“声音驱动画面”最新工业手法与寻找海外爆款灵感的最快窗口。",
+    "pinned": false,
+    "source": "nofilmschool.com"
+  },
+  {
+    "category": "AI 漫剧",
+    "title": "《Wildwood》与《哥斯拉-0》双双七项入围评论家选择奖幕后视效工艺榜",
+    "note": "AWN 盘点年度影视幕后工艺风向，莱卡定格动画与小预算逆袭视效大片同时领跑，印证“克制预算 + 极致风格与调度”照样能打赢巨制。",
+    "url": "https://www.awn.com/news/wildwood-godzilla-minus-zero-each-make-7-critics-choice-craft-lists",
+    "media": "https://www.awn.com/sites/default/files/styles/og_1200/public/image/attached/1081909-ccawards1.jpg?itok=X4s0r9JP",
+    "so_what": "不管是实拍、定格还是 AI 漫剧，观众买单的从来不是堆钱特效，而是把每一分算力和美术都花在刀刃上的视听震撼。",
+    "pinned": false,
+    "source": "awn.com"
+  },
+  {
+    "category": "编剧技巧",
+    "title": "No Film School：AI 写作泛滥的当下，编剧靠什么写出不可替代的锋芒？",
+    "note": "剖析模型写作天然趋向“均值安全”的局限，给出四条人类编剧的突围纪律：注入反常识的私人体验、保留不完美的道德灰度、敢于打破三幕公式。",
+    "url": "https://nofilmschool.com/how-to-write-better-during-the-ai-boom",
+    "media": "https://nofilmschool.com/media-library/image.jpg?id=68754861&width=1200&height=600&coordinates=0%2C39%2C0%2C39",
+    "so_what": "AI 越擅长拼出 75 分的工整大纲，敢写出 95 分尖锐人性痛点与怪诞细节的创作者就越稀缺。",
+    "pinned": true,
+    "source": "nofilmschool.com"
+  },
+  {
+    "category": "编剧技巧",
+    "title": "黑名单主理人：分清“接收型写作”与“反思型写作”，彻底治好卡稿内耗",
+    "note": "Scott Myers 拆解高效编剧的双脑切换术：写初稿时彻底关闭挑刺的理性脑、只管顺着角色冲动往前冲；改稿时再切换反思脑狠心砍戏。",
+    "url": "https://gointothestory.blcklst.com/reflections-on-receptive-writing-and-reflective-writing/",
+    "media": "https://storage.ghost.io/c/8f/29/8f29b0a7-49e5-431c-a9bb-3ade9c0a785e/content/images/2026/11/Writing---hannah-olinger-8eSrC43qdro-unsplash.jpg",
+    "so_what": "写不出稿大多是因为一边吐字一边审稿导致自我锁死；把“放飞写初稿”和“冷血改结构”严格拆成两段时间，产能立刻翻倍。",
+    "pinned": false,
+    "source": "gointothestory.blcklst.com"
+  },
+  {
+    "category": "编剧技巧",
+    "title": "StudioBinder 实战：竖屏微短剧片段怎么写分镜、怎么构图才抓人？",
+    "note": "系统拆解 9:16 竖屏画幅下的景别压缩、近景情绪放大与双人对话调度技巧，帮你把横屏电影思维彻底转换成手机端高完播视听语言。",
+    "url": "https://www.studiobinder.com/blog/how-to-film-short-drama-clips/",
+    "media": "https://s.studiobinder.com/wp-content/uploads/2026/10/How-to-film-short-drama-clips-vertical-production-and-shooting-strategies-StudioBinder.jpg",
+    "so_what": "竖屏剧不是横屏裁掉两边；写剧本时就要刻意设计近距离对峙与单人特写反应，让手机小屏塞满情绪张力。",
+    "pinned": false,
+    "source": "studiobinder.com"
+  },
+  {
+    "category": "编剧技巧",
+    "title": "John August 对话皮克斯名导安德鲁·斯坦顿：拆解传世故事的底层架构",
+    "note": "《机器人总动员》《海底总动员》导演兼编剧深度复盘皮克斯故事哲学：如何用“2+2 留白法则”让观众自己拼出答案，从而产生极强参与感。",
+    "url": "https://johnaugust.com/2026/nerding-out-on-story-with-andrew-stanton",
+    "media": "https://johnaugust.com/wp-content/uploads/2021/04/ja-tw-card-small.png",
+    "so_what": "别把所有潜台词喂到观众嘴里——给观众“2+2”而不是直接写“4”，观众在脑海里补完的那一瞬间，共情就彻底锁死了。",
+    "pinned": false,
+    "source": "johnaugust.com"
+  },
+  {
+    "category": "产品经理",
+    "title": "Marty Cagan 重磅长文：AI 时代产品经理角色的终局与能力重塑",
+    "note": "硅谷产品教父直面 AI 编码与自动原型对产研分工的冲击，指出“传话筒式需求经理”将被迅速淘汰，真正稀缺的是懂技术边界与商业结果的发现型 PM。",
+    "url": "https://www.svpg.com/ai-and-the-future-of-the-product-role/",
+    "media": "https://www.svpg.com/wp-content/themes/svpg2022/app/img/svpg-social.jpg",
+    "so_what": "别再把画原型和写文档当护城河；产品经理唯一的铁饭碗，是对用户真痛点的判断力与对商业结果的担当。",
+    "pinned": true,
+    "source": "svpg.com"
+  },
+  {
+    "category": "产品经理",
+    "title": "Teresa Torres 对谈：在概率型 AI 产品里，究竟什么才算一个“Bug”？",
+    "note": "两位顶级产品教练拆解传统确定性软件的缺陷定义如何在 AI 时代失效——模型偶发答偏到底算 Bug、评测集缺口还是产品预期管理失误？",
+    "url": "https://www.producttalk.org/bugs-all-things-product-podcast-with-teresa-torres-petra-wille/",
+    "media": "https://storage.ghost.io/c/57/9b/579b6dca-f48a-4307-844f-f0533595d058/content/images/size/w1200/2026/10/bugs-atp.webp",
+    "so_what": "做 AI 产品必须先和研发、客服对齐“可接受错误率”与兜底体验，否则团队会永远陷在修不完的偶发客诉里。",
+    "pinned": false,
+    "source": "producttalk.org"
+  },
+  {
+    "category": "产品经理",
+    "title": "腾讯网盘上线行业首个 Agent 网盘：从“存文件”转向“替你找和干活”",
+    "note": "一手实测新上线的 Agent 网盘如何把沉睡在文件夹里的文档、发票与素材变成可对话、可自动归档调用的主动资产，重塑云存储入口。",
+    "url": "https://www.woshipm.com/ai/6486181.html",
+    "media": "https://image.woshipm.com/2023/04/13/e19524d4-d9ee-11ed-bd74-00163e0b5ff3.jpg",
+    "so_what": "存量工具产品做 AI 升级切忌只挂一个侧边聊天球，把核心对象（文件/表格/邮件）直接变成代理可操作对象才算真重构。",
+    "pinned": false,
+    "source": "woshipm.com"
+  },
+  {
+    "category": "产品经理",
+    "title": "用户要的从来不是钻头，而是墙上的洞：警惕参数与控件细节自嗨",
+    "note": "复盘体验评审中团队最容易陷入的惯性——疯狂打磨动画曲线、堆叠配置参数，却忘了检验用户最终要完成的任务有没有变快一步。",
+    "url": "https://www.woshipm.com/share/6486110.html",
+    "media": "https://image.woshipm.com/2026/10/29/7a798d64-d349-11f1-8645-00163e4b86a1.png",
+    "so_what": "每次需求评审前先逼自己回答一句：如果砍掉这个炫酷交互，用户的核心结果会变差吗？答不上来就果断砍掉。",
+    "pinned": false,
+    "source": "woshipm.com"
+  }
+]
