@@ -108,9 +108,7 @@ const displayMedia = item.media || fallbackMedia;
         )}
 
         <div class="pt-2 border-t border-zinc-100 dark:border-zinc-800/80 flex items-center justify-between text-xs text-zinc-400">
-          <span class="text-[10px] font-mono">
-            点击展开精读
-          </span>
+          <button type="button" class="read-item py-2 text-xs font-medium underline underline-offset-4 focus-visible:outline-2" aria-haspopup="dialog" aria-label={`展开精读 · ${item.title}`}>展开精读</button>
 
           <a
             href={item.url}

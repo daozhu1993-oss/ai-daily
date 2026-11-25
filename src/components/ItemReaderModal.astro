@@ -5,7 +5,7 @@
 <div
   id="item-reader-modal"
   class="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 opacity-0 pointer-events-none transition-all duration-200"
-  aria-hidden="true"
+  aria-hidden="true" inert
 >
   <!-- Backdrop -->
   <div
@@ -17,7 +17,7 @@
   <div
     class="relative w-full max-w-2xl max-h-[90vh] bg-white dark:bg-[#17191e] border border-zinc-200 dark:border-zinc-800 rounded-3xl shadow-2xl overflow-hidden flex flex-col transform scale-95 transition-transform duration-200"
     role="dialog"
-    aria-modal="true"
+    aria-modal="true" aria-labelledby="modal-title"
   >
     <!-- Modal Header -->
     <div class="px-6 pt-6 pb-4 border-b border-zinc-100 dark:border-zinc-800/80 flex items-center justify-between gap-4 shrink-0">
@@ -112,7 +112,9 @@
 <script>
   function setupReaderModal() {
     const modalEl = document.getElementById('item-reader-modal');
-    if (!modalEl) return;
+    if (!modalEl || modalEl.dataset.readerReady) return;
+    modalEl.dataset.readerReady = 'true';
+    let returnFocus: HTMLButtonElement | null = null;
 
     const backdrop = document.getElementById('modal-backdrop');
     const closeBtn = document.getElementById('modal-close-btn');
@@ -156,6 +158,9 @@
         mediaContainer.classList.add('hidden');
       }
 
+      modalEl.inert = false;
+      modalEl.setAttribute('aria-hidden', 'false');
+      closeBtn?.focus();
       modalEl.classList.remove('opacity-0', 'pointer-events-none');
       const dialog = modalEl.querySelector('[role="dialog"]');
       if (dialog) {
@@ -167,6 +172,10 @@
 
     function closeModal() {
       if (!modalEl) return;
+      if (modalEl.inert) return;
+      returnFocus?.focus({preventScroll: true});
+      modalEl.inert = true;
+      modalEl.setAttribute('aria-hidden', 'true');
       modalEl.classList.add('opacity-0', 'pointer-events-none');
       const dialog = modalEl.querySelector('[role="dialog"]');
       if (dialog) {
@@ -200,6 +209,7 @@
           media: card.getAttribute('data-media') || '',
         };
 
+        returnFocus = trigger.querySelector<HTMLButtonElement>('.read-item');
         openModal(data);
       });
     });
@@ -208,7 +218,15 @@
     backdrop?.addEventListener('click', closeModal);
 
     window.addEventListener('keydown', (e) => {
+      if (modalEl.inert || !modalEl.isConnected) return;
       if (e.key === 'Escape') closeModal();
+      if (e.key === 'Tab' && e.shiftKey && document.activeElement === closeBtn) {
+        e.preventDefault();
+        linkEl?.focus();
+      } else if (e.key === 'Tab' && !e.shiftKey && document.activeElement === linkEl) {
+        e.preventDefault();
+        closeBtn?.focus();
+      }
     });
   }
 
