@@ -1,0 +1,598 @@
+{
+  "date": "2026-11-26",
+  "checked_at": "2026-11-26T02:09:33.303708+00:00",
+  "candidate_sha256": "9800a4d8d39b7352d890243e6a6d274610dd144544efa43d0421c26f8cebed25",
+  "used_sha256": "3ca525f65c3a9490a4a18d7bc4fc4cc1f93e60746ee63ff6c163e2cf07a5a3df",
+  "previous_url_count": 4052,
+  "category_counts": {
+    "AI 资讯": 4,
+    "AI 协作": 4,
+    "一人公司": 4,
+    "产品设计": 4,
+    "审美提升": 4,
+    "产品营销": 4,
+    "AI 漫剧": 4,
+    "编剧技巧": 4,
+    "产品经理": 4
+  },
+  "duplicates": [],
+  "endpoints": [
+    {
+      "kind": "URL",
+      "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-26-spacex-starmind-00799499eca8.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-26-spacex-starmind-00799499eca8.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-26-cai-auction-0d1f69a69d07.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-26-cai-auction-0d1f69a69d07.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-26-chatgpt-meter-68c5e551dcf6.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-26-chatgpt-meter-68c5e551dcf6.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-26-ny-ai-toys-33b7b091f328.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-26-ny-ai-toys-33b7b091f328.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://dev.to/googleai/how-context-drift-impacts-your-ai-agents-1iph",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://dev.to/googleai/how-context-drift-impacts-your-ai-agents-1iph",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-26-context-drift-6478e67d6f2d.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-26-context-drift-6478e67d6f2d.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://github.com/vercel-labs/ui",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://github.com/vercel-labs/ui",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-26-ui-sdk-webmcp-840f6ef042d0.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-26-ui-sdk-webmcp-840f6ef042d0.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://newsletter.pragmaticengineer.com/p/how-anthropic-builds-software-in",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://newsletter.pragmaticengineer.com/p/how-anthropic-builds-software-in",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-26-pragmatic-rust-9fd401c445fb.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-26-pragmatic-rust-9fd401c445fb.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://github.com/Innei/ryugi",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://github.com/Innei/ryugi",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-26-ryugi-agent-dcce923ce729.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-26-ryugi-agent-dcce923ce729.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://bowerbird.gallery/",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://bowerbird.gallery/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-26-bowerbird-546f3733f62c.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-26-bowerbird-546f3733f62c.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://github.com/click6067-ship-it/token-tv",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://github.com/click6067-ship-it/token-tv",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-26-token-tv-21b5112e00b6.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-26-token-tv-21b5112e00b6.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://ezimg.app/",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://ezimg.app/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-26-ezimg-canvas-38f53a3f1d1a.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-26-ezimg-canvas-38f53a3f1d1a.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://scriptc.dev/",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://scriptc.dev/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-26-scriptc-ae2dd6f681d1.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-26-scriptc-ae2dd6f681d1.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://composer.pablostanley.com/",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://composer.pablostanley.com/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-26-pablo-composer-ac1004549762.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-26-pablo-composer-ac1004549762.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://gobacktobasics.com/",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://gobacktobasics.com/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-26-back-to-basics-2a535e93dc1e.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-26-back-to-basics-2a535e93dc1e.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://buttons.joshwcomeau.com/",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://buttons.joshwcomeau.com/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-26-button-sounds-c8a8e7dd78b6.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-26-button-sounds-c8a8e7dd78b6.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.raycast.com/browser-extension",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://www.raycast.com/browser-extension",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-26-raycast-ext-26dffbb1e2e3.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-26-raycast-ext-26dffbb1e2e3.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://abduzeedo.com/how-dixonbaxi-reimagined-ea-sports-fc-27-brand-identity",
+      "status": "200",
+      "content_type": "text/html",
+      "final_url": "https://abduzeedo.com/how-dixonbaxi-reimagined-ea-sports-fc-27-brand-identity",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-26-dixonbaxi-fc27-a75b2091f33a.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-26-dixonbaxi-fc27-a75b2091f33a.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://abduzeedo.com/edge-node-01-v2-modular-cloud-industrial-design-blond",
+      "status": "200",
+      "content_type": "text/html",
+      "final_url": "https://abduzeedo.com/edge-node-01-v2-modular-cloud-industrial-design-blond",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-26-edge-node-v2-9a36f079b20f.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-26-edge-node-v2-9a36f079b20f.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.itsnicethat.com/articles/yury-ostromentsky-backslanted-graphic-design-project-251126",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://www.itsnicethat.com/articles/yury-ostromentsky-backslanted-graphic-design-project-251126",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-26-backslanted-45b3093bc414.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-26-backslanted-45b3093bc414.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.dezeen.com/2026/11/25/assemble-building-blue-skac/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.dezeen.com/2026/11/25/assemble-building-blue-skac/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-26-assemble-blue-4025e582e59e.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-26-assemble-blue-4025e582e59e.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://resend.com/blog/6-million-users",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://resend.com/blog/6-million-users",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-26-resend-6m-ee82d4c38d7b.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-26-resend-6m-ee82d4c38d7b.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://brand.posthog.com/logo",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://brand.posthog.com/logo",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-26-posthog-brand-6947166813e9.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-26-posthog-brand-6947166813e9.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://linear.app/customers/zalando",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://linear.app/customers/zalando",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-26-linear-zalando-1da1cb330638.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-26-linear-zalando-1da1cb330638.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://arstechnica.com/tech-policy/2026/11/etsy-clarifies-ai-terms-after-seller-backlash/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://arstechnica.com/tech-policy/2026/11/etsy-clarifies-ai-terms-after-seller-backlash/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-26-etsy-ai-terms-6d10bd219610.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-26-etsy-ai-terms-6d10bd219610.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.awn.com/news/ai-film-gods-dont-give-gifts-ruled-out-animated-feature-race",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://www.awn.com/news/ai-film-gods-dont-give-gifts-ruled-out-animated-feature-race",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://www.awn.com/sites/default/files/styles/og_1200/public/image/attached/1081917-gg1-1280.jpg?itok=RD5CPN_j",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://www.awn.com/sites/default/files/styles/og_1200/public/image/attached/1081917-gg1-1280.jpg?itok=RD5CPN_j",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.awn.com/news/connie-hes-dear-upstairs-neighbors-screens-new-york-san-francisco",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://www.awn.com/news/connie-hes-dear-upstairs-neighbors-screens-new-york-san-francisco",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://www.awn.com/sites/default/files/styles/og_1200/public/image/attached/1081920-dunposterfinallaurels112026-2-1280.jpg?itok=A_oKetgA",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://www.awn.com/sites/default/files/styles/og_1200/public/image/attached/1081920-dunposterfinallaurels112026-2-1280.jpg?itok=A_oKetgA",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.qbitai.com/2026/11/512727.html",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.qbitai.com/2026/11/512727.html",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://www.qbitai.com/wp-content/uploads/2026/11/article-image-1-32.png",
+      "status": "200",
+      "content_type": "image/png",
+      "final_url": "https://www.qbitai.com/wp-content/uploads/2026/11/article-image-1-32.png",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.qbitai.com/2026/11/512748.html",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.qbitai.com/2026/11/512748.html",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://www.qbitai.com/wp-content/uploads/2026/11/dad8b8854a3c23ca8c15319738ae9bda.webp",
+      "status": "200",
+      "content_type": "image/webp",
+      "final_url": "https://www.qbitai.com/wp-content/uploads/2026/11/dad8b8854a3c23ca8c15319738ae9bda.webp",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://nofilmschool.com/why-scenes-feel-flat",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://nofilmschool.com/why-scenes-feel-flat",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://nofilmschool.com/media-library/image.jpg?id=68762025&width=1200&height=600&coordinates=0%2C0%2C0%2C0",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://nofilmschool.com/media-library/image.jpg?id=68762025&width=1200&height=600&coordinates=0%2C0%2C0%2C0",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.cined.com/the-shape-of-dread-different-forms-a-suspense-curve-can-take/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.cined.com/the-shape-of-dread-different-forms-a-suspense-curve-can-take/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://www.cined.com/content/uploads/2026/10/suspense_curve-feature_image.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://www.cined.com/content/uploads/2026/10/suspense_curve-feature_image.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://johnaugust.com/2026/revisiting-the-dropout",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://johnaugust.com/2026/revisiting-the-dropout",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://johnaugust.com/wp-content/uploads/2021/04/ja-tw-card-small.png",
+      "status": "200",
+      "content_type": "image/png",
+      "final_url": "https://johnaugust.com/wp-content/uploads/2021/04/ja-tw-card-small.png",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.gcores.com/articles/222765",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://www.gcores.com/articles/222765",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://image.gcores.com/3248d4dfb692fd4f5a9b536cece3165b-1438-810.jpg?x-oss-process=image/resize,limit_1,m_fill,w_626,h_292/quality,q_90",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://image.gcores.com/3248d4dfb692fd4f5a9b536cece3165b-1438-810.jpg?x-oss-process=image/resize,limit_1,m_fill,w_626,h_292/quality,q_90",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.lennysnewsletter.com/p/gemini-4-neon-beat-gpt-62-and-claude",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://www.lennysnewsletter.com/p/gemini-4-neon-beat-gpt-62-and-claude",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://substackcdn.com/image/fetch/$s_!Z4Di!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F89dd9fca-6931-4bea-94b4-e3531b57f89a_728x524.png",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://substackcdn.com/image/fetch/$s_!Z4Di!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F89dd9fca-6931-4bea-94b4-e3531b57f89a_728x524.png",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.woshipm.com/ai/6489565.html",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.woshipm.com/ai/6489565.html",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://image.woshipm.com/2026/11/05/cc5ce52a-d8d7-11f1-9018-00163e4b86a1.png",
+      "status": "200",
+      "content_type": "image/png",
+      "final_url": "https://image.woshipm.com/2026/11/05/cc5ce52a-d8d7-11f1-9018-00163e4b86a1.png",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://cutlefish.substack.com/p/tbm-452-contexting-vs-context",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://cutlefish.substack.com/p/tbm-452-contexting-vs-context",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://substackcdn.com/image/fetch/$s_!0az8!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F86971766-90b4-45f4-9f8d-2487a57cdd14_560x363.jpeg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://substackcdn.com/image/fetch/$s_!0az8!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F86971766-90b4-45f4-9f8d-2487a57cdd14_560x363.jpeg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.woshipm.com/ai/6476272.html",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.woshipm.com/ai/6476272.html",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://image.woshipm.com/2023/04/14/a4cb2284-daa1-11ed-aee8-00163e0b5ff3.png",
+      "status": "200",
+      "content_type": "image/png",
+      "final_url": "https://image.woshipm.com/2023/04/14/a4cb2284-daa1-11ed-aee8-00163e0b5ff3.png",
+      "ok": true
+    }
+  ],
+  "passed": true
+}
