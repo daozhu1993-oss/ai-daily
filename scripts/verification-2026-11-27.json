@@ -1,0 +1,598 @@
+{
+  "date": "2026-11-27",
+  "checked_at": "2026-11-27T01:35:19.154252+00:00",
+  "candidate_sha256": "22a2f6860f88f32503c7df8e1355ab733551eb7a1e32cf77e8d28a0785259ac4",
+  "used_sha256": "83539e8b906c4de63a648d072ccff3351bcfd3ee1b56c82763c871bc6ed6e620",
+  "previous_url_count": 4088,
+  "category_counts": {
+    "AI 资讯": 4,
+    "AI 协作": 4,
+    "一人公司": 4,
+    "产品设计": 4,
+    "审美提升": 4,
+    "产品营销": 4,
+    "AI 漫剧": 4,
+    "编剧技巧": 4,
+    "产品经理": 4
+  },
+  "duplicates": [],
+  "endpoints": [
+    {
+      "kind": "URL",
+      "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-27-nemotron-35-25646bc215d3.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-27-nemotron-35-25646bc215d3.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://pokeandwiggle.com/leaderboard/flux-3-action",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://pokeandwiggle.com/leaderboard/flux-3-action",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-27-flux3-action-c7f616b7bc4a.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-27-flux3-action-c7f616b7bc4a.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.theregister.com/hpc/2026/11/26/45c-inlets-just-killed-the-chiller-most-people-havent-noticed-yet/5311831",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.theregister.com/hpc/2026/11/26/45c-inlets-just-killed-the-chiller-most-people-havent-noticed-yet/5311831",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-27-chiller-45c-8edfdee665a0.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-27-chiller-45c-8edfdee665a0.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://github.com/alesha-pro/llm.asm/tree/main/02-baremetal-os",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://github.com/alesha-pro/llm.asm/tree/main/02-baremetal-os",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-27-baremetal-q-a3574ae404eb.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-27-baremetal-q-a3574ae404eb.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
+      "status": "200",
+      "content_type": "text/html",
+      "final_url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-27-gws-mcp-0755150d28bc.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-27-gws-mcp-0755150d28bc.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://huggingface.co/blog/training-swarms",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://huggingface.co/blog/training-swarms",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-27-hf-swarms-8bc1646d5d8b.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-27-hf-swarms-8bc1646d5d8b.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://voom.ink/agents",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://voom.ink/agents",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-27-voom-api-ada8ee693287.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-27-voom-api-ada8ee693287.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://flashbox.app/",
+      "status": "200",
+      "content_type": "text/html",
+      "final_url": "https://flashbox.app/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-27-flashbox-sbx-7b66efac8303.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-27-flashbox-sbx-7b66efac8303.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://bizgut.usefulmint.com/zh-hans/founders/",
+      "status": "200",
+      "content_type": "text/html",
+      "final_url": "https://bizgut.usefulmint.com/zh-hans/founders/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-27-bizgut-indie-6a57717a1cf5.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-27-bizgut-indie-6a57717a1cf5.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://github.com/leileigwl/vmark",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://github.com/leileigwl/vmark",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-27-vmark-md-53233a61b53d.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-27-vmark-md-53233a61b53d.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://hubris.live/",
+      "status": "200",
+      "content_type": "text/html",
+      "final_url": "https://hubris.live/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-27-hubris-v3-420f33aa5237.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-27-hubris-v3-420f33aa5237.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://fde.daretob2b.com/",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://fde.daretob2b.com/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-27-fde-deaths-66bd9e23220a.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-27-fde-deaths-66bd9e23220a.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://obsidian.md/help/connectors",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://obsidian.md/help/connectors",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-27-obsidian-conn-330a9ca03da2.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-27-obsidian-conn-330a9ca03da2.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://aresluna.org/ui-style-guides/",
+      "status": "200",
+      "content_type": "text/html",
+      "final_url": "https://aresluna.org/ui-style-guides/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-27-aresluna-guides-bb7d90b67f60.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-27-aresluna-guides-bb7d90b67f60.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.superlogical.com/rex/docs/build/program-resume",
+      "status": "200",
+      "content_type": "text/html",
+      "final_url": "https://www.superlogical.com/rex/docs/build/program-resume",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-27-rex-osc7577-a4b32d186ad4.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-27-rex-osc7577-a4b32d186ad4.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.designboom.com/design/older-travelers-moove-on-luggage-discreet-mobility-aid-lorenzo-rimini/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.designboom.com/design/older-travelers-moove-on-luggage-discreet-mobility-aid-lorenzo-rimini/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-27-moove-on-8dd548c2d8b0.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-27-moove-on-8dd548c2d8b0.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.designboom.com/design/nendo-river-inspired-design-france-tgv-inoui-motion-interview/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.designboom.com/design/nendo-river-inspired-design-france-tgv-inoui-motion-interview/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-27-nendo-tgv-a2d53d8ea628.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-27-nendo-tgv-a2d53d8ea628.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.designboom.com/architecture/sinuous-stone-roofed-visitor-center-mountains-china-huangguoshu-scenic-area/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.designboom.com/architecture/sinuous-stone-roofed-visitor-center-mountains-china-huangguoshu-scenic-area/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-27-huangguoshu-7d6c65c70330.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-27-huangguoshu-7d6c65c70330.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://abduzeedo.com/branding-modular-science-parker-institute-pentagram",
+      "status": "200",
+      "content_type": "text/html",
+      "final_url": "https://abduzeedo.com/branding-modular-science-parker-institute-pentagram",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-27-parker-alt-ac1d1355da53.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-27-parker-alt-ac1d1355da53.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://abduzeedo.com/de-extinction-brand-identity-inside-kotos-new-packaging",
+      "status": "200",
+      "content_type": "text/html",
+      "final_url": "https://abduzeedo.com/de-extinction-brand-identity-inside-kotos-new-packaging",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-27-koto-deext-1da16986e4e7.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-27-koto-deext-1da16986e4e7.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://makergain.com/zh/",
+      "status": "200",
+      "content_type": "text/html",
+      "final_url": "https://makergain.com/zh/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-27-makergain-6218c0cce203.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-27-makergain-6218c0cce203.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.creativeboom.com/news/why-victorious-festival-stopped-selling-its-headliners-and-started-selling-portsmouth/",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://www.creativeboom.com/news/why-victorious-festival-stopped-selling-its-headliners-and-started-selling-portsmouth/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-27-victorious-4cb4b8ad35dc.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-27-victorious-4cb4b8ad35dc.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://rebillkit.com/en",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://rebillkit.com/en",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-27-rebillkit-en-6a27fd4eb458.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-27-rebillkit-en-6a27fd4eb458.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.macrumors.com/2026/11/26/apple-korea-regulator-iphone-16-ai-advertising/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.macrumors.com/2026/11/26/apple-korea-regulator-iphone-16-ai-advertising/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-27-apple-kr-ftc-5fa55cba2cb0.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-27-apple-kr-ftc-5fa55cba2cb0.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.awn.com/news/unreal-engine-6-will-ship-without-blueprints",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://www.awn.com/news/unreal-engine-6-will-ship-without-blueprints",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://www.awn.com/sites/default/files/styles/og_1200/public/image/attached/1081923-unreal-engine-x-uefn-2-1280.jpg?itok=5EPdF8sR",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://www.awn.com/sites/default/files/styles/og_1200/public/image/attached/1081923-unreal-engine-x-uefn-2-1280.jpg?itok=5EPdF8sR",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.cined.com/movity-video-platform-launched-a-vimeo-alternative-with-frame-level-search-h-265-4k-streaming-ai-made-work-excluded/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.cined.com/movity-video-platform-launched-a-vimeo-alternative-with-frame-level-search-h-265-4k-streaming-ai-made-work-excluded/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://www.cined.com/content/uploads/2026/11/Cover-with-logo.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://www.cined.com/content/uploads/2026/11/Cover-with-logo.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.qbitai.com/2026/11/512981.html",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.qbitai.com/2026/11/512981.html",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://www.qbitai.com/wp-content/uploads/2026/11/article-image-1-34.png",
+      "status": "200",
+      "content_type": "image/png",
+      "final_url": "https://www.qbitai.com/wp-content/uploads/2026/11/article-image-1-34.png",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://news.aibase.com/zh/news/32554",
+      "status": "200",
+      "content_type": "text/html;charset=utf-8",
+      "final_url": "https://news.aibase.com/zh/news/32554",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://upload.chinaz.com/2026/1126/6393130996753753723492415.png",
+      "status": "200",
+      "content_type": "image/png",
+      "final_url": "https://upload.chinaz.com/2026/1126/6393130996753753723492415.png",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://nofilmschool.com/david-fincher-star-wars-2678528463",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://nofilmschool.com/david-fincher-star-wars-2678528463",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://nofilmschool.com/media-library/image.jpg?id=68771082&width=1200&height=600&coordinates=142%2C0%2C143%2C0",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://nofilmschool.com/media-library/image.jpg?id=68771082&width=1200&height=600&coordinates=142%2C0%2C143%2C0",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://nofilmschool.com/best-thanksgiving-scenes-in-movies",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://nofilmschool.com/best-thanksgiving-scenes-in-movies",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://nofilmschool.com/media-library/image.jpg?id=68733437&width=1200&height=600&coordinates=0%2C61%2C0%2C61",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://nofilmschool.com/media-library/image.jpg?id=68733437&width=1200&height=600&coordinates=0%2C61%2C0%2C61",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://gointothestory.blcklst.com/go-into-the-story-interview-katla-solnes/",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://gointothestory.blcklst.com/go-into-the-story-interview-katla-solnes/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://storage.ghost.io/c/8f/29/8f29b0a7-49e5-431c-a9bb-3ade9c0a785e/content/images/size/w1200/2026/11/Academy-Solnes-2.png",
+      "status": "200",
+      "content_type": "image/png",
+      "final_url": "https://storage.ghost.io/c/8f/29/8f29b0a7-49e5-431c-a9bb-3ade9c0a785e/content/images/size/w1200/2026/11/Academy-Solnes-2.png",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.gcores.com/radios/222591",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://www.gcores.com/radios/222591",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://image.gcores.com/80226a9c4724e9d8954faca9935da894-1600-900.jpg?x-oss-process=image/resize,limit_1,m_fill,w_626,h_292/quality,q_90",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://image.gcores.com/80226a9c4724e9d8954faca9935da894-1600-900.jpg?x-oss-process=image/resize,limit_1,m_fill,w_626,h_292/quality,q_90",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.news.aakashg.com/p/practical-ai-evals",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://www.news.aakashg.com/p/practical-ai-evals",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://substackcdn.com/image/fetch/$s_!PIVJ!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F96906a85-c573-4c8a-8d2c-3afbcff69111_1280x720.jpeg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://substackcdn.com/image/fetch/$s_!PIVJ!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F96906a85-c573-4c8a-8d2c-3afbcff69111_1280x720.jpeg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.woshipm.com/operate/6500729.html",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.woshipm.com/operate/6500729.html",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://image.woshipm.com/2025/02/08/46a29ab8-e5c9-11ef-a93a-00163e09d72f.png",
+      "status": "200",
+      "content_type": "image/png",
+      "final_url": "https://image.woshipm.com/2025/02/08/46a29ab8-e5c9-11ef-a93a-00163e09d72f.png",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.woshipm.com/it/6500959.html",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.woshipm.com/it/6500959.html",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://image.woshipm.com/2023/04/13/7f38f464-d9df-11ed-8d63-00163e0b5ff3.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://image.woshipm.com/2023/04/13/7f38f464-d9df-11ed-8d63-00163e0b5ff3.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://cutlefish.substack.com/p/tbm-453-how-to-get-unstuck-without",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://cutlefish.substack.com/p/tbm-453-how-to-get-unstuck-without",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://substackcdn.com/image/fetch/$s_!D686!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,$fp_!0.5:0.6364!/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc3ba84f5-edc2-4346-856a-02ba56ce9477_2788x3717.heic",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://substackcdn.com/image/fetch/$s_!D686!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,$fp_!0.5:0.6364!/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc3ba84f5-edc2-4346-856a-02ba56ce9477_2788x3717.heic",
+      "ok": true
+    }
+  ],
+  "passed": true
+}
