@@ -1,0 +1,362 @@
+[
+  {
+    "category": "AI 资讯",
+    "title": "OpenAI 反诉苹果窃密并指控施压供应链，AI 巨头与硬件霸主正面交锋",
+    "note": "继今夏遭苹果起诉后在加州发起反击，指控对方胁迫供应链伙伴阻挠其收购 io 后的下一代 AI 硬件落地，把入口争夺战彻底搬上法庭。",
+    "url": "https://9to5mac.com/2026/11/27/openai-countersues-apple-alleging-trade-secret-theft-and-supplier-threats/",
+    "media": "https://iandaily.xyz/digest/2026-11-28-openai-apple-2be9128b17c1.jpg",
+    "so_what": "模型巨头已经不甘心只寄居在别人的手机 App 里当附庸；硬件入口之战全面白热化，独立软件开发者也要提前留意端侧生态站队风险。",
+    "pinned": true,
+    "source": "9to5mac.com"
+  },
+  {
+    "category": "AI 资讯",
+    "title": "iOS 27.3 拟给云端 Siri AI 设每日 20 枚配额，苹果正式开启 AI 算力分层收租",
+    "note": "最新系统爆料显示端侧能力维持免费不限量，但调用私有云计算的高阶 Siri 每日封顶 20 次额度，快捷指令 Pro 能力则直接绑定 200GB iCloud+ 套餐。",
+    "url": "https://9to5mac.com/2026/11/27/ios-27-3-adds-limits-for-these-advanced-features-details-here/",
+    "media": "https://iandaily.xyz/digest/2026-11-28-ios273-siri-930388569b20.jpg",
+    "so_what": "连硬件毛利最高的苹果都要把云端推理装上计价表，“端侧免费保底 + 云端按档分级收费”很快会成为所有大众消费级 AI 产品的标准定价范式。",
+    "pinned": false,
+    "source": "9to5mac.com"
+  },
+  {
+    "category": "AI 资讯",
+    "title": "Hugging Face 实测 AWS Trainium3 跑视频生成 LTX-2.5：22 秒直出 10 秒带声视频",
+    "note": "仅动用半台 trn3.48xlarge 实例即顺滑跑通开源带声视频生成模型，在非英伟达自研算力芯片上交出极具竞争力的实测生成速度。",
+    "url": "https://huggingface.co/blog/video-trainium3",
+    "media": "https://iandaily.xyz/digest/2026-11-28-hf-trainium3-1bec8cc3cb41.jpg",
+    "so_what": "视频生成推理不再被单一 GPU 生态锁喉；云厂自研芯片一旦把视频模型吞吐跑通，明年短剧和视频 SaaS 的底层推理成本还有大幅下探空间。",
+    "pinned": false,
+    "source": "huggingface.co"
+  },
+  {
+    "category": "AI 资讯",
+    "title": "Did I Stutter 用 307M 超小编码器实现 CPU 40 毫秒红笔标出 23 类逻辑谬误",
+    "note": "不迷信百亿参数通用聊天模型，专攻滑坡谬误、稻草人论证等 23 类逻辑漏洞识别，普通 CPU 即可 40 毫秒极速高亮并附浏览器划词书签。",
+    "url": "https://didistutter.dev/",
+    "media": "https://iandaily.xyz/digest/2026-11-28-didistutter-2d2d31208ba2.jpg",
+    "so_what": "很多高频审核、标注和质检场景根本用不着烧昂贵旗舰大模型；把单一判断任务蒸馏进几百兆小编码器，响应快十倍且成本几乎归零。",
+    "pinned": false,
+    "source": "didistutter.dev"
+  },
+  {
+    "category": "AI 协作",
+    "title": "Agent Audit 用 Shell AST 给编码代理装亚毫秒护栏：精准拦住删库与偷读凭证",
+    "note": "Go 编译成单二进制文件，内嵌 SQLite 审计日志与中英双语监控面板，靠语法树级解析在亚毫秒内拦下高危删库与读取私钥命令，并支持人工单次放行。",
+    "url": "https://github.com/smileboywtu/agent-audit",
+    "media": "https://iandaily.xyz/digest/2026-11-28-agent-audit-34364c8c6923.jpg",
+    "so_what": "靠提示词叮嘱 AI“千万别删库”终归是君子协定；把 Shell 命令扔进 AST 语法树硬拦截，才是给高权限编码代理系上真正的安全带。",
+    "pinned": true,
+    "source": "github.com"
+  },
+  {
+    "category": "AI 协作",
+    "title": "Unterm v0.73 开源纯 Rust 多代理并发终端：内置 Worktree 舰队与跨窗审批",
+    "note": "MIT 协议开源，直击开发者同时开五六个 AI CLI 导致窗口撕裂、分支打架的痛点，把 Git Worktree 隔离、Token 消耗监控与统一审批收进一个原生终端。",
+    "url": "https://unterm.app/",
+    "media": "https://iandaily.xyz/digest/2026-11-28-unterm-rust-f86b691bf028.jpg",
+    "so_what": "单兵工程师的日常界面正从“写代码的编辑器”演变成“指挥十个并行代理舰队的塔台”；谁先打磨好跨窗口审批和分支隔离，谁就吃下新一代开发入口。",
+    "pinned": false,
+    "source": "unterm.app"
+  },
+  {
+    "category": "AI 协作",
+    "title": "ClawdTime 让 Mac 后台代理卡壳或待验收时直接打 FaceTime 找你拍板",
+    "note": "把长任务彻底丢给后台浏览器与 Codex 异步推进，遇到关键决策或成品待验收时自动备好演示画面，直接向你发起 FaceTime 视频来电，告别守着屏幕干等。",
+    "url": "https://www.clawdtime.com/",
+    "media": "https://iandaily.xyz/digest/2026-11-28-clawdtime-661c720711bd.jpg",
+    "so_what": "人机协作的终极异步体验不是让你每隔五分钟切回终端瞄一眼，而是放心离开工位，让代理只在真正需要人类拍板的节骨眼主动敲门。",
+    "pinned": false,
+    "source": "clawdtime.com"
+  },
+  {
+    "category": "AI 协作",
+    "title": "Codela 把线上发布报错与性能退化自动写成仓库避坑记忆 lessons.md",
+    "note": "持续盯紧每次发版后的接口耗时与新增报错，自动提炼根因并沉淀进项目仓库的 lessons.md，强制编程代理在下一次动手改代码前先读完血泪历史。",
+    "url": "https://usecodela.com/",
+    "media": "https://iandaily.xyz/digest/2026-11-28-usecodela-9756984d3793.jpg",
+    "so_what": "AI 写代码最讨厌的毛病是同一个线上坑反复踩三遍；把可观测监控直接反哺进代理记忆文件，团队的工程教训才算真正跑通闭环。",
+    "pinned": false,
+    "source": "usecodela.com"
+  },
+  {
+    "category": "一人公司",
+    "title": "TextFix 用 2.4MB 原生 Swift 包做自带密钥全系统改字，9 美元一次性买断",
+    "note": "在任意 Mac 应用选中文字按快捷键即可就地润色替换并自动还原剪贴板，直连三大模型接口、无云端中转抽成，用极致轻量原生手感打穿臃肿月付写作 SaaS。",
+    "url": "https://textfix.jonathanhind.com",
+    "media": "https://iandaily.xyz/digest/2026-11-28-textfix-mac-b860ce39807a.jpg",
+    "so_what": "一人公司做 AI 工具切忌硬塞一个大而全的网页套壳；把一个每天用三十次的小动作做到 2.4MB 原生秒开、9 美元买断，极易形成自发口碑闭环。",
+    "pinned": true,
+    "source": "textfix.jonathanhind.com"
+  },
+  {
+    "category": "一人公司",
+    "title": "Sqrin 给 Mac 实时会议投屏加上自动跟踪放大，让普通共享屏幕秒变产品演示片",
+    "note": "本地实时捕捉鼠标焦点并平滑缩放局部画面，不用后期剪辑也能在 Zoom 或远程宣讲时呈现 Screen Studio 级的聚焦运镜质感，适配 macOS 26 及以上系统。",
+    "url": "https://sqrin.app",
+    "media": "https://iandaily.xyz/digest/2026-11-28-sqrin-mac-ac2609989ed0.jpg",
+    "so_what": "把原本只存在于“录屏后期剪辑”里的爽点实时搬进“在线直播演示”场景，只靠这一步场景平移，就足以切出一个高客单独立产品细分赛道。",
+    "pinned": false,
+    "source": "sqrin.app"
+  },
+  {
+    "category": "一人公司",
+    "title": "Just Dashboard 单页管全 Tailscale 私网服务器：Docker、九类数据库与 157 模板全开源",
+    "note": "采用 AGPL 协议完全免费，零公网暴露直接跑在 Tailscale 私网里，一站接管容器、九种主流数据库、终端命令行与上百套自托管服务模板。",
+    "url": "https://just-dashboard.com/",
+    "media": "https://iandaily.xyz/digest/2026-11-28-just-dashboard-a2db32bace9b.jpg",
+    "so_what": "独立开发者手里挂三五台低价 VPS 跑副业项目时，最怕被昂贵的托管平台帐单背刺；用私网单页开源面板统管基建，运维心智负担直接腰斩。",
+    "pinned": false,
+    "source": "just-dashboard.com"
+  },
+  {
+    "category": "一人公司",
+    "title": "bouncemarket 把预测市场做成 10 秒一局的弹球小游戏，直观玩懂动态赔率做市",
+    "note": "玩家在弹球下落瞬间实时买卖左右落点份额，赔率随全网持仓实时跳动，用十秒一局的极致爽感把枯燥的金融做市机制变成让人停不下来的互动网页。",
+    "url": "https://bouncemarket.minhanhday.com/",
+    "media": "https://iandaily.xyz/digest/2026-11-28-bouncemarket-ae7e3758d36f.jpg",
+    "so_what": "做复杂专业领域的冷启动获客，与其写三千字白皮书劝用户看懂，不如花一个周末把核心机制做成十秒上手的互动小游戏，传播效率高出十倍。",
+    "pinned": false,
+    "source": "bouncemarket.minhanhday.com"
+  },
+  {
+    "category": "产品设计",
+    "title": "为什么“乐观更新”会悄悄磨掉产品信任感？提倡先显明确意图态、待服务端真确认",
+    "note": "犀利复盘现代前端滥用 Optimistic UI 的副作用：用户点下开关先假装立刻成功，两秒后因报错默默弹回原状，反而制造强烈失控感；不如先置灰示明正在提交。",
+    "url": "https://datastar-instant-intent.ndyg.cross.stream/corrosive/",
+    "media": "https://iandaily.xyz/digest/2026-11-28-optimistic-ui-0dfaab61c0bd.jpg",
+    "so_what": "界面响应“快”绝不等于对用户“撒谎”；涉及扣款、发布和状态切换的关键交互，诚实反馈“正在处理中”比假装秒成后再偷偷回滚高级得多。",
+    "pinned": true,
+    "source": "datastar-instant-intent.ndyg.cross.stream"
+  },
+  {
+    "category": "产品设计",
+    "title": "Akai 开放 MPC Sample 1.4 固件插件 SDK：不再封堵极客魔改，SD 卡插卡即认自制效果",
+    "note": "老牌音乐硬件巨头放弃猫鼠游戏，正式向社区开放官方固件插件开发套件，用户只需把自写旋钮效果放进 microSD 指定目录即可自动挂载使用。",
+    "url": "https://www.theverge.com/gadgets/1044485/mpc-sample-firmware-sdk",
+    "media": "https://iandaily.xyz/digest/2026-11-28-mpc-sdk-ad8cea5b31e3.jpg",
+    "so_what": "当你发现最硬核的老用户都在偷偷魔改你的产品，别急着封漏洞——把魔改通道官方化、标准化，他们立刻会变成你最死忠的免费生态开发者。",
+    "pinned": false,
+    "source": "theverge.com"
+  },
+  {
+    "category": "产品设计",
+    "title": "DragDropMath 让代数方程按数学法则直接拖拽：只允许合法移项化简，靠手感建直觉",
+    "note": "把抽象符号变成可抓取移动的实体模块，交互引擎天然锁死数学公理边界，只有合法运算才允许放下合并，让学习者在手指拖拽中自然悟透方程逻辑。",
+    "url": "https://dragdropmath.com/",
+    "media": "https://iandaily.xyz/digest/2026-11-28-dragdropmath-0d7af7a0217a.jpg",
+    "so_what": "最好的防错设计不是等用户填错了弹一行红字报错，而是像实体榫卯一样，把业务规则直接做成物理约束，让错误操作根本无从发生。",
+    "pinned": false,
+    "source": "dragdropmath.com"
+  },
+  {
+    "category": "产品设计",
+    "title": "Meru 用物理 NFC 插卡取代手机屏幕引导冥想：无屏免联网，插槽即播语音与呼吸灯",
+    "note": "反其道而行之的去屏幕硬件设计：把冥想主题与时长印在一张张实体卡片上，想放空时不用掏出满是红点通知的手机，只需抽出一张卡插进底座即可开始。",
+    "url": "https://www.yankodesign.com/2026/11/26/guided-meditation-without-a-phone-meru-starts-with-a-card/",
+    "media": "https://iandaily.xyz/digest/2026-11-28-meru-card-a4eda610afb3.jpg",
+    "so_what": "当所有设备都在拼更大的屏幕和更多的推送，在专注、助眠与亲子场景里主动“拿掉屏幕、恢复物理仪式感”，反而能做出极高溢价。",
+    "pinned": false,
+    "source": "yankodesign.com"
+  },
+  {
+    "category": "审美提升",
+    "title": "零素材预算用 40 款免费字体与公版版画排出 200 页高级感年鉴，印证编排才是硬通货",
+    "note": "设计师 Callum Abbott 不花一分钱买商业图库与付费字库，借公版自然史雕刻插画与四十款开源免费字体，靠克制的网格、留白与纸张节奏做出收藏级出版物。",
+    "url": "https://abduzeedo.com/editorial-design-callum-abbotts-zero-budget-print-craft/",
+    "media": "https://iandaily.xyz/digest/2026-11-28-callum-print-5e55aedbbd87.jpg",
+    "so_what": "廉价感从来不是因为缺昂贵素材，而是因为排版失衡与节奏杂乱；哪怕只有公版图文和免费字库，网格与留白控得准照样贵气逼人。",
+    "pinned": true,
+    "source": "abduzeedo.com"
+  },
+  {
+    "category": "审美提升",
+    "title": "TASCHEN 两卷本收录两千年 950 幅人体解剖图谱，见证科学图解与手工版画的巅峰演化",
+    "note": "横跨全球 75 部珍稀古籍与手稿，将东西方两千年间解剖学精密观测与铜版、木刻手工艺术同场呈现，每一页都是高密度信息可视化设计的古典教科书。",
+    "url": "https://www.thisiscolossal.com/2026/11/the-book-of-the-human-body-taschen-anthology/",
+    "media": "https://iandaily.xyz/digest/2026-11-28-taschen-234c36d28474.jpg",
+    "so_what": "做信息图表和复杂数据大屏卡壳时，多去翻翻古典科学图谱——古人没有动态滤镜，全靠线条疏密、剖面层次与精准注记把极度复杂的结构讲得一清二楚。",
+    "pinned": false,
+    "source": "thisiscolossal.com"
+  },
+  {
+    "category": "审美提升",
+    "title": "Estúdio 41 用白色穿孔折叠格栅裹起巴西海滨混凝土宅，闭拢滤光隔热、拉开纳整片海岸",
+    "note": "375 平米两层住宅以裸露预制混凝土作冷峻骨架，外立面覆盖大面积白色穿孔折屏，既解决热带强光散热难题，又让建筑立面像呼吸的百叶般随光线变幻。",
+    "url": "https://www.dezeen.com/2026/11/27/guaratuba-house-brazil-estudio-41/",
+    "media": "https://iandaily.xyz/digest/2026-11-28-guaratuba-house-8a3f1f0d1710.jpg",
+    "so_what": "真正耐看的极简主义不是硬拗造型，而是用一层诚实的功能表皮同时解决“遮蔽、散热与情绪通透”三件事，功能本身长出光影诗意。",
+    "pinned": false,
+    "source": "dezeen.com"
+  },
+  {
+    "category": "审美提升",
+    "title": "无顶栏极简个人站典范：暖白画布上只摆四个几何节点，点击右侧滑出履历卡片",
+    "note": "设计师 Andrew Trousdale 砍掉传统顶部导航栏和冗余自我介绍，用四个极简几何徽标与虚实连线构建空间索引，点击节点即平滑展开对应作品详情。",
+    "url": "https://abduzeedo.com/hybrid-node-and-text-web-design-andrew-trousdale/",
+    "media": "https://iandaily.xyz/digest/2026-11-28-trousdale-web-a3797ba943f5.jpg",
+    "so_what": "个人主页和作品集最怕套上千篇一律的“左文右图 Hero 模版”；敢砍掉顶栏、把信息架构本身做成视觉图形，三秒就能让访客记住你。",
+    "pinned": false,
+    "source": "abduzeedo.com"
+  },
+  {
+    "category": "产品营销",
+    "title": "实测支付宝 SkillPay：把 Agent 技能挂牌变现，买断交本地、订阅走云端沙盒护明文",
+    "note": "主流 AI 代理通用，直接补齐 Agent 技能生态最缺的收款与防盗版基建——一次性买断交付本地包，按月订阅则由云端沙盒执行保护源码，年底前仅收 1% 渠道费。",
+    "url": "https://mp.weixin.qq.com/s/x7Yt237NPL-sLvkUJlwESw",
+    "media": "https://iandaily.xyz/digest/2026-11-28-skillpay-d199e9378617.jpg",
+    "so_what": "过去写个好 Skill 只能免费开源赚吆喝；一旦支付分账和云端护明文跑通，把你沉淀的行业 SOP 打包成付费技能包卖给全网代理，就是一人公司新金矿。",
+    "pinned": true,
+    "source": "mp.weixin.qq.com"
+  },
+  {
+    "category": "产品营销",
+    "title": "CostPerToken 按月流量实算大模型 API 账单：同款模型跨 51 家路由月费竟差近 30 倍",
+    "note": "拒绝只看每百万 Token 表面标价，直接按 30 万次月请求与 50% 缓存命中真实模拟，揭露 DeepSeek V4.1 Flash 在 51 路供应商间的实际账单价差高达近三十倍。",
+    "url": "https://costpertoken.vercel.app",
+    "media": "https://iandaily.xyz/digest/2026-11-28-costpertoken-839346ae3a95.jpg",
+    "so_what": "AI 产品做商业化核算，毛利常常不是死在获客，而是死在没算清缓存命中率和路由价差；上线前先拿真实流量曲线跑一遍月账单再定会员价。",
+    "pinned": false,
+    "source": "costpertoken.vercel.app"
+  },
+  {
+    "category": "产品营销",
+    "title": "Wolff Olins 将迪卡侬 85 个子品牌收拢为一：告别竞技焦虑，统一全球 70 国心智",
+    "note": "大刀阔斧砍掉令消费者眼花缭乱的八十多个分散子牌，跳出传统运动品牌反复鼓吹“输赢与极限”的套路，用全新蓝底、L Orbit 徽标与定制字回归大众运动乐趣。",
+    "url": "https://abduzeedo.com/how-wolff-olins-reimagined-decathlon-brand-identity/",
+    "media": "https://iandaily.xyz/digest/2026-11-28-decathlon-brand-efe6bce02878.jpg",
+    "so_what": "多产品线最容易犯的增长病就是“每做个新功能就起个新名字”，最后把品牌势能彻底摊薄；定期做品牌收拢，把所有流量汇回同一个超级心智。",
+    "pinned": false,
+    "source": "abduzeedo.com"
+  },
+  {
+    "category": "产品营销",
+    "title": "六年账本见证存储变天：稳了六年的 110 元/TB 百元硬盘时代终结，黑五涨幅超八成",
+    "note": "追踪六年机械硬盘真实成交价，在长期横盘 110 元/TB 后，今年黑五美亚西数 20TB 飙升至 550 美元，未税单价暴涨超八成，AI 数据洪流正实打实推高冷存储成本。",
+    "url": "https://www.appinn.com/hard-drive-price-2026/",
+    "media": "https://iandaily.xyz/digest/2026-11-28-hdd-09a0d4c6365b.jpg",
+    "so_what": "重视频、重素材的 AI 内容产品和个人创作者必须重新评估存储与归档预算——硬件红利周期反转时，提前锁定冷备与压缩策略就是纯利润。",
+    "pinned": false,
+    "source": "appinn.com"
+  },
+  {
+    "category": "AI 漫剧",
+    "title": "豆包独家接入剪映官方插件：对话完成 80% 粗剪苦活，一键开多轨草稿守住 20% 精控",
+    "note": "首次把自然语言指令直接缝进专业剪辑底层——一句话自动删嘴瓢、切废话、加黑体白边字幕并边看边调，同时支持随时切回剪映多轨工程文件做像素级精修。",
+    "url": "https://news.aibase.com/zh/news/32576",
+    "media": "https://upload.chinaz.com/2026/1127/6393139242232232026098182.png",
+    "so_what": "纯黑盒一键出片永远过不了专业导演那一关；“对话干完 80% 脏活 + 可编辑多轨草稿交还人类精控”的双轨形态，才是 AI 视频工具的终极答案。",
+    "pinned": true,
+    "source": "news.aibase.com"
+  },
+  {
+    "category": "AI 漫剧",
+    "title": "日活 1.68 亿反超“爱优腾芒”总和！红果短剧招兵买马杀入客厅 OTT 电视大屏",
+    "note": "吃完手机碎片时间红利后，字节正急聘红果 OTT 端产品经理抢攻家庭客厅黄金两小时；老观众更是直呼，随着横屏 AI 漫剧和精品短剧崛起，电视大屏这块硬骨头稳了。",
+    "url": "https://www.woshipm.com/it/6501737.html",
+    "media": "https://image.woshipm.com/2023/05/06/0b441208-ec01-11ed-adbb-00163e0b5ff3.jpg",
+    "so_what": "别再把短剧和 AI 漫剧死死框在 9:16 竖屏小画面里；一旦客厅大屏通道打开，4K 横屏画质、合家欢强故事和长线系列剧将迎来新一轮大屏流量红利。",
+    "pinned": false,
+    "source": "woshipm.com"
+  },
+  {
+    "category": "AI 漫剧",
+    "title": "纽约时报封禁自由摄影师使用 Photoshop 2027：隐藏 AI 工具恐误给实拍图贴 C2PA 生成标签",
+    "note": "外媒曝光纽时内部邮件，明确禁止供稿摄影师使用 PS 28.0 及以上版本，原因是部分看似常规的修图功能暗藏生成式 AI，会悄悄写入 C2PA 元数据把真实照片判成 AI 图。",
+    "url": "https://www.cined.com/new-york-times-photoshop-2027-freelance-photographers-generative-ai-c2pa-metadata/",
+    "media": "https://www.cined.com/content/uploads/2026/11/new-york-times-photoshop-2027-featured-v3.jpg",
+    "so_what": "C2PA 溯源元数据正在成为媒体、赛事与发行商的硬性机审关卡；视觉与影视团队务必摸清后期软件每个按钮是否悄悄触发 AI 标记，避免合规误伤。",
+    "pinned": false,
+    "source": "cined.com"
+  },
+  {
+    "category": "AI 漫剧",
+    "title": "befores & afters 专访《力量之戒》第三季视效总监：拆解 ILM 炎魔建模与开口表演管线",
+    "note": "视效总监 Jason Smith 深度复盘工业光魔打造会说话炎魔的造型设计、动画测试、与索伦实拍演员互动调度，以及 DNEG、Rodeo FX 协同处理巨兽与实景特效的幕后细节。",
+    "url": "https://beforesandafters.com/2026/11/25/how-the-balrog-was-made-and-made-to-talk-in-s3-of-the-rings-of-power/",
+    "media": "https://beforesandafters.com/wp-content/uploads/2026/11/RINGS3.jpg",
+    "so_what": "给非人怪兽或奇幻角色做“开口说话”极易出戏；研究顶级视效团队如何借微表情、光火呼吸感与声画节奏绑定表演，能帮玄幻 AI 漫剧瞬间提档。",
+    "pinned": false,
+    "source": "beforesandafters.com"
+  },
+  {
+    "category": "编剧技巧",
+    "title": "The Black List 2026 颁奖季剧本库开闸：《挽救计划》等 7 部一线新片官方剧本开放精读",
+    "note": "好莱坞颁奖季黄金拉片季正式开启，Amazon MGM 等片厂陆续放出《Project Hail Mary》《I Play Rocky》《Is God Is》等 7 部重磅新片完整剧本 PDF 供免费研读。",
+    "url": "https://gointothestory.blcklst.com/2026-award-season-screenplays-6-new-scripts-7-total/",
+    "media": "https://storage.ghost.io/c/8f/29/8f29b0a7-49e5-431c-a9bb-3ade9c0a785e/content/images/size/w1200/2026/11/A-Scripts.jpeg",
+    "so_what": "听一百节二手编剧理论课，不如逐页拆透两部当年颁奖季的真实绿灯剧本——直接看一线编剧怎么用三行动作描写立住人物和场面调度。",
+    "pinned": true,
+    "source": "gointothestory.blcklst.com"
+  },
+  {
+    "category": "编剧技巧",
+    "title": "No Film School 盘点公版版权金矿：零版权费自由改编经典节庆角色与母题的破局指南",
+    "note": "系统梳理已进入公有领域的经典角色、原型人物与故事母题，同时点破改编红线——只能调用原著公版要素，避开后来大厂衍生电影里受版权保护的新增设定。",
+    "url": "https://nofilmschool.com/holiday-characters-the-public-domain",
+    "media": "https://nofilmschool.com/media-library/image.jpg?id=62265528&width=1200&height=600&coordinates=0%2C57%2C0%2C57",
+    "so_what": "中小内容团队和 AI 漫剧工作室冷启动最缺认知锚点；从公版经典角色和传统神话里挑熟面孔做“现代反差重编”，零版权费就能借到现成观众好奇心。",
+    "pinned": false,
+    "source": "nofilmschool.com"
+  },
+  {
+    "category": "编剧技巧",
+    "title": "John August 对话《浩劫后》编导：高赌注宏观灾难题材怎么写才刺痛人心而不沦为说教",
+    "note": "与国家安全战略专家及经典灾难片编导 Nicholas Meyer 围桌深聊，拆解编剧处理宏大危机题材的核心纪律：把宏大概念压缩进普通人的一顿饭与一次抉择，用克制换震撼。",
+    "url": "https://johnaugust.com/2026/nuclear-storytelling-with-outrider-foundation",
+    "media": "https://johnaugust.com/wp-content/uploads/2021/04/ja-tw-card-small.png",
+    "so_what": "写末世、科幻或职场商战最忌讳借角色之口狂背大词说教；赌注越宏大，切口越要小到具体人物的切肤之痛，观众才会真跟着揪心。",
+    "pinned": false,
+    "source": "johnaugust.com"
+  },
+  {
+    "category": "编剧技巧",
+    "title": "机核对话《影之刃零》配乐薄彩生：逐轨拆解 BOSS 战乐谱如何替叙事扛起压迫感与节奏转折",
+    "note": "重轻与主创逐轨剖开白赤练、榕树连战等关键段落，复盘武侠动作戏里音乐怎样与招式留白、情绪起承严丝合缝，平衡战斗压迫感与真实乐器演奏张力。",
+    "url": "https://www.gcores.com/radios/222863",
+    "media": "https://image.gcores.com/49cbad0876f4e0ecfe95f8b1f575491b-1600-900.jpg?x-oss-process=image/resize,limit_1,m_fill,w_626,h_292/quality,q_90",
+    "so_what": "编剧和漫剧导演绝不能只写台词不听声音；把每一场高潮戏的情绪拐点提前和音乐留白、鼓点爆发对齐，同一段画面能多榨出一倍燃度。",
+    "pinned": false,
+    "source": "gcores.com"
+  },
+  {
+    "category": "产品经理",
+    "title": "《小红书，没有大门的 AI 游乐场》：三千粉素人笔记挂 Vibe Coding 轻应用玩出 18.2 万人次",
+    "note": "拆解小红书笔记底部直挂“小工具”的新生态：创作者用 AI 搓出折星星星空、追星应援卡等点开即玩的轻应用，零宣发靠评论区许愿迭代，彻底绕开应用商店跑出新分发链。",
+    "url": "https://www.woshipm.com/it/6501951.html",
+    "media": "https://image.woshipm.com/2023/04/14/17f657aa-da8f-11ed-a86f-00163e0b5ff3.png",
+    "so_what": "独立开发者与产品经理别再动辄从零憋一个重型原生 App；把极轻的情绪互动工具直接嵌进高活跃内容平台的笔记流里，冷启动获客成本直接归零。",
+    "pinned": true,
+    "source": "woshipm.com"
+  },
+  {
+    "category": "产品经理",
+    "title": "微信联合清华开源音画全模态理解模型 WeMM-Video：Apache 2.0 可商用，已扛起短剧与直播业务",
+    "note": "摒弃传统“抽帧加语音转字”的割裂拼装，原生同模型听音看画并支持秒答/深思双模式，覆盖 2B 至 35B 四档可商用权重，已在微信直播切片、短剧分析与视频号全量实战。",
+    "url": "https://www.woshipm.com/ai/6501922.html",
+    "media": "https://image.woshipm.com/2024/11/04/17845944-9a81-11ef-8da6-00163e142b65.jpg",
+    "so_what": "消费级显卡能跑的商用开源音画理解模型成熟，意味着视频审核、爆款短剧拆片和直播高光剪辑的 AI 能力不再是巨头专利，中小产品都能低成本接入。",
+    "pinned": false,
+    "source": "woshipm.com"
+  },
+  {
+    "category": "产品经理",
+    "title": "TinyFish 28 天用户从 10 万飙至 30 万：CPO 复盘产研团队用 AI 代理流水线高频上生产",
+    "note": "拆解高速增长团队如何在不牺牲系统稳定性的前提下，让产品经理与研发共用同一套 Agent 开发、测试与发布流水线，把想法到线上实验的周期压到极限。",
+    "url": "https://www.news.aakashg.com/p/ai-agents-ship-to-production",
+    "media": "https://substackcdn.com/image/fetch/$s_!kO5T!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F225777916%2Fb9de1cba-8b1d-4b37-add3-6e2ae0265360%2Ftranscoded-1795171838.png",
+    "so_what": "当对手的 PM 已经能直接借代理把小迭代推上生产验证，还停留在“周一写 PRD、下月等排期”的团队根本跑不赢现在的验证速率。",
+    "pinned": false,
+    "source": "news.aakashg.com"
+  },
+  {
+    "category": "产品经理",
+    "title": "Teresa Torres 与 Petra Wille 对谈《分享断层》：为什么一线产品人集体停止公开真实工作？",
+    "note": "直击当下产品社区的诡异沉默——一边是 AI 批量炮制的正确废话刷屏，另一边是真正打过硬仗的一线 PM 越来越不敢公开踩坑复盘，探讨这一断层如何掏空行业进化土壤。",
+    "url": "https://www.producttalk.org/the-sharing-gap-all-things-product-podcast-with-teresa-torres-petra-wille/",
+    "media": "https://storage.ghost.io/c/57/9b/579b6dca-f48a-4307-844f-f0533595d058/content/images/size/w1200/2026/10/the-sharing-gap-atp.webp",
+    "so_what": "正因为全网都被 AI 总结水文填满，敢把真实业务数据、失败决策和一手打磨过程脱敏写出来的人，反而比过去十年更容易建立稀缺的个人信用资产。",
+    "pinned": false,
+    "source": "producttalk.org"
+  }
+]

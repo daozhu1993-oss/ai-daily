@@ -1,0 +1,598 @@
+{
+  "date": "2026-11-28",
+  "checked_at": "2026-11-28T05:11:10.737537+00:00",
+  "candidate_sha256": "06d6adfc03ebf9133be3db33f5ec98e0971c5c2517a4f629d5e713f6a622374e",
+  "used_sha256": "f7ea14609005b6044a0cef81dd889f1a50c755f9748e0012f5b69b3a3cdd6c85",
+  "previous_url_count": 4124,
+  "category_counts": {
+    "AI 资讯": 4,
+    "AI 协作": 4,
+    "一人公司": 4,
+    "产品设计": 4,
+    "审美提升": 4,
+    "产品营销": 4,
+    "AI 漫剧": 4,
+    "编剧技巧": 4,
+    "产品经理": 4
+  },
+  "duplicates": [],
+  "endpoints": [
+    {
+      "kind": "URL",
+      "url": "https://9to5mac.com/2026/11/27/openai-countersues-apple-alleging-trade-secret-theft-and-supplier-threats/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://9to5mac.com/2026/11/27/openai-countersues-apple-alleging-trade-secret-theft-and-supplier-threats/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-28-openai-apple-2be9128b17c1.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-28-openai-apple-2be9128b17c1.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://9to5mac.com/2026/11/27/ios-27-3-adds-limits-for-these-advanced-features-details-here/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://9to5mac.com/2026/11/27/ios-27-3-adds-limits-for-these-advanced-features-details-here/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-28-ios273-siri-930388569b20.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-28-ios273-siri-930388569b20.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://huggingface.co/blog/video-trainium3",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://huggingface.co/blog/video-trainium3",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-28-hf-trainium3-1bec8cc3cb41.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-28-hf-trainium3-1bec8cc3cb41.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://didistutter.dev/",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://didistutter.dev/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-28-didistutter-2d2d31208ba2.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-28-didistutter-2d2d31208ba2.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://github.com/smileboywtu/agent-audit",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://github.com/smileboywtu/agent-audit",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-28-agent-audit-34364c8c6923.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-28-agent-audit-34364c8c6923.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://unterm.app/",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://unterm.app/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-28-unterm-rust-f86b691bf028.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-28-unterm-rust-f86b691bf028.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.clawdtime.com/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.clawdtime.com/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-28-clawdtime-661c720711bd.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-28-clawdtime-661c720711bd.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://usecodela.com/",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://usecodela.com/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-28-usecodela-9756984d3793.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-28-usecodela-9756984d3793.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://textfix.jonathanhind.com",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://textfix.jonathanhind.com/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-28-textfix-mac-b860ce39807a.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-28-textfix-mac-b860ce39807a.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://sqrin.app",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://sqrin.app/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-28-sqrin-mac-ac2609989ed0.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-28-sqrin-mac-ac2609989ed0.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://just-dashboard.com/",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://just-dashboard.com/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-28-just-dashboard-a2db32bace9b.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-28-just-dashboard-a2db32bace9b.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://bouncemarket.minhanhday.com/",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://bouncemarket.minhanhday.com/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-28-bouncemarket-ae7e3758d36f.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-28-bouncemarket-ae7e3758d36f.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://datastar-instant-intent.ndyg.cross.stream/corrosive/",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://datastar-instant-intent.ndyg.cross.stream/corrosive/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-28-optimistic-ui-0dfaab61c0bd.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-28-optimistic-ui-0dfaab61c0bd.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.theverge.com/gadgets/1044485/mpc-sample-firmware-sdk",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://www.theverge.com/gadgets/1044485/mpc-sample-firmware-sdk",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-28-mpc-sdk-ad8cea5b31e3.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-28-mpc-sdk-ad8cea5b31e3.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://dragdropmath.com/",
+      "status": "200",
+      "content_type": "text/html",
+      "final_url": "https://dragdropmath.com/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-28-dragdropmath-0d7af7a0217a.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-28-dragdropmath-0d7af7a0217a.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.yankodesign.com/2026/11/26/guided-meditation-without-a-phone-meru-starts-with-a-card/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.yankodesign.com/2026/11/26/guided-meditation-without-a-phone-meru-starts-with-a-card/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-28-meru-card-a4eda610afb3.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-28-meru-card-a4eda610afb3.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://abduzeedo.com/editorial-design-callum-abbotts-zero-budget-print-craft/",
+      "status": "200",
+      "content_type": "text/html",
+      "final_url": "https://abduzeedo.com/editorial-design-callum-abbotts-zero-budget-print-craft",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-28-callum-print-5e55aedbbd87.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-28-callum-print-5e55aedbbd87.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.thisiscolossal.com/2026/11/the-book-of-the-human-body-taschen-anthology/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.thisiscolossal.com/2026/11/the-book-of-the-human-body-taschen-anthology/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-28-taschen-234c36d28474.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-28-taschen-234c36d28474.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.dezeen.com/2026/11/27/guaratuba-house-brazil-estudio-41/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.dezeen.com/2026/11/27/guaratuba-house-brazil-estudio-41/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-28-guaratuba-house-8a3f1f0d1710.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-28-guaratuba-house-8a3f1f0d1710.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://abduzeedo.com/hybrid-node-and-text-web-design-andrew-trousdale/",
+      "status": "200",
+      "content_type": "text/html",
+      "final_url": "https://abduzeedo.com/hybrid-node-and-text-web-design-andrew-trousdale",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-28-trousdale-web-a3797ba943f5.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-28-trousdale-web-a3797ba943f5.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://mp.weixin.qq.com/s/x7Yt237NPL-sLvkUJlwESw",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://mp.weixin.qq.com/s/x7Yt237NPL-sLvkUJlwESw",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-28-skillpay-d199e9378617.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-28-skillpay-d199e9378617.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://costpertoken.vercel.app",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://costpertoken.vercel.app/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-28-costpertoken-839346ae3a95.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-28-costpertoken-839346ae3a95.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://abduzeedo.com/how-wolff-olins-reimagined-decathlon-brand-identity/",
+      "status": "200",
+      "content_type": "text/html",
+      "final_url": "https://abduzeedo.com/how-wolff-olins-reimagined-decathlon-brand-identity",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-28-decathlon-brand-efe6bce02878.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-28-decathlon-brand-efe6bce02878.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.appinn.com/hard-drive-price-2026/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.appinn.com/hard-drive-price-2026/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://iandaily.xyz/digest/2026-11-28-hdd-09a0d4c6365b.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://iandaily.xyz/digest/2026-11-28-hdd-09a0d4c6365b.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://news.aibase.com/zh/news/32576",
+      "status": "200",
+      "content_type": "text/html;charset=utf-8",
+      "final_url": "https://news.aibase.com/zh/news/32576",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://upload.chinaz.com/2026/1127/6393139242232232026098182.png",
+      "status": "200",
+      "content_type": "image/png",
+      "final_url": "https://upload.chinaz.com/2026/1127/6393139242232232026098182.png",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.woshipm.com/it/6501737.html",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.woshipm.com/it/6501737.html",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://image.woshipm.com/2023/05/06/0b441208-ec01-11ed-adbb-00163e0b5ff3.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://image.woshipm.com/2023/05/06/0b441208-ec01-11ed-adbb-00163e0b5ff3.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.cined.com/new-york-times-photoshop-2027-freelance-photographers-generative-ai-c2pa-metadata/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.cined.com/new-york-times-photoshop-2027-freelance-photographers-generative-ai-c2pa-metadata/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://www.cined.com/content/uploads/2026/11/new-york-times-photoshop-2027-featured-v3.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://www.cined.com/content/uploads/2026/11/new-york-times-photoshop-2027-featured-v3.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://beforesandafters.com/2026/11/25/how-the-balrog-was-made-and-made-to-talk-in-s3-of-the-rings-of-power/",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://beforesandafters.com/2026/11/25/how-the-balrog-was-made-and-made-to-talk-in-s3-of-the-rings-of-power/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://beforesandafters.com/wp-content/uploads/2026/11/RINGS3.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://beforesandafters.com/wp-content/uploads/2026/11/RINGS3.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://gointothestory.blcklst.com/2026-award-season-screenplays-6-new-scripts-7-total/",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://gointothestory.blcklst.com/2026-award-season-screenplays-6-new-scripts-7-total/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://storage.ghost.io/c/8f/29/8f29b0a7-49e5-431c-a9bb-3ade9c0a785e/content/images/size/w1200/2026/11/A-Scripts.jpeg",
+      "status": "200",
+      "content_type": "image/webp",
+      "final_url": "https://storage.ghost.io/c/8f/29/8f29b0a7-49e5-431c-a9bb-3ade9c0a785e/content/images/size/w1200/2026/11/A-Scripts.jpeg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://nofilmschool.com/holiday-characters-the-public-domain",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://nofilmschool.com/holiday-characters-the-public-domain",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://nofilmschool.com/media-library/image.jpg?id=62265528&width=1200&height=600&coordinates=0%2C57%2C0%2C57",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://nofilmschool.com/media-library/image.jpg?id=62265528&width=1200&height=600&coordinates=0%2C57%2C0%2C57",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://johnaugust.com/2026/nuclear-storytelling-with-outrider-foundation",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://johnaugust.com/2026/nuclear-storytelling-with-outrider-foundation",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://johnaugust.com/wp-content/uploads/2021/04/ja-tw-card-small.png",
+      "status": "200",
+      "content_type": "image/png",
+      "final_url": "https://johnaugust.com/wp-content/uploads/2021/04/ja-tw-card-small.png",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.gcores.com/radios/222863",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://www.gcores.com/radios/222863",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://image.gcores.com/49cbad0876f4e0ecfe95f8b1f575491b-1600-900.jpg?x-oss-process=image/resize,limit_1,m_fill,w_626,h_292/quality,q_90",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://image.gcores.com/49cbad0876f4e0ecfe95f8b1f575491b-1600-900.jpg?x-oss-process=image/resize,limit_1,m_fill,w_626,h_292/quality,q_90",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.woshipm.com/it/6501951.html",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.woshipm.com/it/6501951.html",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://image.woshipm.com/2023/04/14/17f657aa-da8f-11ed-a86f-00163e0b5ff3.png",
+      "status": "200",
+      "content_type": "image/png",
+      "final_url": "https://image.woshipm.com/2023/04/14/17f657aa-da8f-11ed-a86f-00163e0b5ff3.png",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.woshipm.com/ai/6501922.html",
+      "status": "200",
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.woshipm.com/ai/6501922.html",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://image.woshipm.com/2024/11/04/17845944-9a81-11ef-8da6-00163e142b65.jpg",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://image.woshipm.com/2024/11/04/17845944-9a81-11ef-8da6-00163e142b65.jpg",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.news.aakashg.com/p/ai-agents-ship-to-production",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://www.news.aakashg.com/p/ai-agents-ship-to-production",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://substackcdn.com/image/fetch/$s_!kO5T!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F225777916%2Fb9de1cba-8b1d-4b37-add3-6e2ae0265360%2Ftranscoded-1795171838.png",
+      "status": "200",
+      "content_type": "image/jpeg",
+      "final_url": "https://substackcdn.com/image/fetch/$s_!kO5T!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F225777916%2Fb9de1cba-8b1d-4b37-add3-6e2ae0265360%2Ftranscoded-1795171838.png",
+      "ok": true
+    },
+    {
+      "kind": "URL",
+      "url": "https://www.producttalk.org/the-sharing-gap-all-things-product-podcast-with-teresa-torres-petra-wille/",
+      "status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://www.producttalk.org/the-sharing-gap-all-things-product-podcast-with-teresa-torres-petra-wille/",
+      "ok": true
+    },
+    {
+      "kind": "MEDIA",
+      "url": "https://storage.ghost.io/c/57/9b/579b6dca-f48a-4307-844f-f0533595d058/content/images/size/w1200/2026/10/the-sharing-gap-atp.webp",
+      "status": "200",
+      "content_type": "image/webp",
+      "final_url": "https://storage.ghost.io/c/57/9b/579b6dca-f48a-4307-844f-f0533595d058/content/images/size/w1200/2026/10/the-sharing-gap-atp.webp",
+      "ok": true
+    }
+  ],
+  "passed": true
+}
